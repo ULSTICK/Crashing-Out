@@ -1,0 +1,22 @@
+{
+  "id": "anthem_73-82-231",
+  "name": "anthem",
+  "icon": "journeymap:ui/img/waypoint-icon.png",
+  "colorizedIcon": "fake:color--7235881-waypoint-icon.png",
+  "x": 73,
+  "y": 82,
+  "z": -231,
+  "r": 145,
+  "g": 150,
+  "b": 215,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    "minecraft:overworld"
+  ],
+  "persistent": true,
+  "showDeviation": false,
+  "iconColor": -1,
+  "customIconColor": false
+}

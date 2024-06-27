@@ -1,0 +1,2 @@
+// Compost colors for dummmmmmy. You may add your own colors, change existing ones, or remove colors that aren't needed.
+target_dummy, #c6a87a

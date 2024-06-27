@@ -1,0 +1,13 @@
+{
+	id: "754FE31649C2DC65"
+	group: ""
+	order_index: 6
+	filename: "creating_life"
+	title: "Creating Life"
+	icon: "minecraft:turtle_egg"
+	subtitle: ["More lives and animals!"]
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+	quest_links: [ ]
+}

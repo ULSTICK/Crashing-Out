@@ -1,0 +1,13 @@
+{
+  "inventory": {
+    "1:2": "{Count:1b,id:\"ironjetpacks:jetpack\",tag:{Engine:1b,Hover:1b,Id:\"ironjetpacks:creative\",Throttle:1.0d}}",
+    "0:0": "{Count:1b,id:\"silentgear:blueprint_package\",tag:{silentlib.LootContainer:{LootTable:\"silentgear:starter_blueprints\"}}}"
+  },
+  "kits": {
+    "kit1": {
+      "1:2": "{Count:1b,id:\"ironjetpacks:jetpack\",tag:{Id:\"ironjetpacks:creative\",Throttle:1.0d}}",
+      "0:0": "{Count:1b,id:\"silentgear:blueprint_package\",tag:{silentlib.LootContainer:{LootTable:\"silentgear:starter_blueprints\"}}}"
+    }
+  },
+  "wipeBlacklist": []
+}

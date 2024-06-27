@@ -1,0 +1,9 @@
+#52B53D minecraft:air
+#70F519 framedblocks:framed_door
+#BC3B1F framedblocks:framed_panel
+#77B9A5 framedblocks:framed_slab
+#5B6DB5 framedblocks:framed_stairs
+#763000 gravestone:gravestone
+#BBA6D1 minecraft:oak_log
+#2D6ABE pneumaticcraft:oil
+#7C0FA2 mekanism:personal_barrel

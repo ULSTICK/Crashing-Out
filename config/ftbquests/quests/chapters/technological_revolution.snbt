@@ -1,0 +1,12 @@
+{
+	id: "239E5C105FB921BC"
+	group: ""
+	order_index: 5
+	filename: "technological_revolution"
+	title: "Technological Revolution"
+	icon: "mekanism:basic_control_circuit"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+	quest_links: [ ]
+}

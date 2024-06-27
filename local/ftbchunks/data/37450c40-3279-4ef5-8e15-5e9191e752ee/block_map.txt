@@ -1,0 +1,5 @@
+#567263 exdeorum:dust
+#6C7D9A simplylight:edge_light_top
+#77B9A5 framedblocks:framed_slab
+#DFFA1D simplylight:wall_lamp
+#C6D1CE minecraft:white_concrete

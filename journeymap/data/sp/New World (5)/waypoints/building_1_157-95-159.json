@@ -1,0 +1,22 @@
+{
+  "id": "building_1_157-95-159",
+  "name": "building_1",
+  "icon": "journeymap:ui/img/waypoint-icon.png",
+  "colorizedIcon": "fake:color--13517967-waypoint-icon.png",
+  "x": 157,
+  "y": 95,
+  "z": -159,
+  "r": 49,
+  "g": 187,
+  "b": 113,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    "minecraft:overworld"
+  ],
+  "persistent": true,
+  "showDeviation": false,
+  "iconColor": -1,
+  "customIconColor": false
+}

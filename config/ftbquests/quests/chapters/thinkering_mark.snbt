@@ -1,0 +1,11 @@
+{
+	id: "6EECAD9B8645E843"
+	group: ""
+	order_index: 3
+	filename: "thinkering_mark"
+	title: "Thinkering, Mark!"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+	quest_links: [ ]
+}

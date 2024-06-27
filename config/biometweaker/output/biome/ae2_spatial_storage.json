@@ -1,0 +1,105 @@
+
+{
+  "registry_name": "ae2:spatial_storage",
+  "biome": {
+    "precipitation": "none",
+    "temperature": 0.5,
+    "downfall": 0.5,
+    "category": "none",
+    "effects": {
+      "sky_color": 1118481,
+      "fog_color": 0,
+      "water_color": 4159204,
+      "water_fog_color": 329011
+    },
+    "features": {
+      "RAW_GENERATION": [],
+      "LAKES": [],
+      "LOCAL_MODIFICATIONS": [],
+      "UNDERGROUND_STRUCTURES": [],
+      "SURFACE_STRUCTURES": [],
+      "STRONGHOLDS": [],
+      "UNDERGROUND_ORES": [
+        {
+          "kind": "REFERENCE",
+          "registry_name": "minecraft:dimshard_overworld"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "minecraft:dimshard_dimensions"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "mekanism:ore_tin_small"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "mekanism:ore_tin_large"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "mekanism:ore_osmium_upper"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "mekanism:ore_osmium_middle"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "mekanism:ore_osmium_small"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "mekanism:ore_uranium_small"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "mekanism:ore_uranium_buried"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "mekanism:ore_fluorite_normal"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "mekanism:ore_fluorite_buried"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "mekanism:ore_lead_normal"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "mekanism:salt"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "bigreactors:yellorite_gen_placed"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "bigreactors:anglesite_gen_placed"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "bigreactors:benitoite_gen_placed"
+        }
+      ]
+    },
+    "carver": {},
+    "spawner_data": {
+      "creature_spawn_probability": 0.0,
+      "spawners": {
+        "monster": [],
+        "creature": [],
+        "ambient": [],
+        "axolotls": [],
+        "underground_water_creature": [],
+        "water_creature": [],
+        "water_ambient": [],
+        "misc": []
+      },
+      "spawn_costs": {}
+    }
+  }
+}

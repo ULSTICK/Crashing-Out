@@ -1,0 +1,5 @@
+// Compost colors for third_life_plus. You may add your own colors, change existing ones, or remove colors that aren't needed.
+golden_heart, #ffd44a
+heart, #fb1920
+jagged_dagger, #84837f
+temporary_life, #c25833

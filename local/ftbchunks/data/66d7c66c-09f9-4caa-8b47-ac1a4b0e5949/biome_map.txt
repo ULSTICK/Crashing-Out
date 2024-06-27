@@ -1,0 +1,2 @@
+#705 minecraft:deep_frozen_ocean
+#292 minecraft:frozen_ocean

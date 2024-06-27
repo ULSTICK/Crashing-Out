@@ -1,0 +1,19 @@
+// Compost colors for cold_sweat. You may add your own colors, change existing ones, or remove colors that aren't needed.
+chameleon_molt, #a1b27f
+filled_waterskin, #8a5243
+fur, #e0c8b1
+fur_boots, #b69882
+fur_cap, #c3a78e
+fur_pants, #c9aa91
+fur_parka, #dabca2
+hearth, #7a6e6c
+hoglin_headpiece, #be7a5a
+hoglin_hide, #cf755c
+hoglin_hooves, #a87062
+hoglin_trousers, #c5735f
+hoglin_tunic, #b87969
+insulated_minecart, #a78478
+minecart_insulation, #ab7864
+soul_sprout, #68828a
+thermometer, #f7902c
+waterskin, #8a5547

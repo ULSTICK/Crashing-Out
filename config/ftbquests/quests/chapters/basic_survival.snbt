@@ -1,0 +1,12 @@
+{
+	id: "0E7332979A9CE206"
+	group: ""
+	order_index: 0
+	filename: "basic_survival"
+	title: "Basic Survival"
+	icon: "minecraft:oak_sapling"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+	quest_links: [ ]
+}

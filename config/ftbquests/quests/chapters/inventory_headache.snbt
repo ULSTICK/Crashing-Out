@@ -1,0 +1,12 @@
+{
+	id: "02AA03B95B185797"
+	group: ""
+	order_index: 4
+	filename: "inventory_headache"
+	title: "Inventory headache"
+	icon: "refinedstorage:creative_controller"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+	quest_links: [ ]
+}
