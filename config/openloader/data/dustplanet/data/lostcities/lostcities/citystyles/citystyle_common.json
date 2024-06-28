@@ -2,11 +2,11 @@
   "inherit": "citystyle_config",
   "stuff_tags": ["rubble"],
   "streetblocks": {
-    "border": "y",
+    "border": "S",
     "wall": "w",
     "street": "S",
-    "streetbase": "b",
-    "streetvariant": "B"
+    "streetbase": "S",
+    "streetvariant": "S"
   },
   "parkblocks": {
     "elevation": "x"
@@ -174,19 +174,19 @@
         "value": "park_plants_pillars"
       },
       {
-        "factor": 0.8,
+        "factor": 1.00,
         "value": "park_fountain1"
       },
       {
-        "factor": 0.8,
+        "factor": 1.0,
         "value": "park_fountain2"
       },
       {
-        "factor": 0.3,
+        "factor": 1.0,
         "value": "park_building"
       },
       {
-        "factor": 0.3,
+        "factor": 1.0,
         "value": "park_building2"
       }
     ],

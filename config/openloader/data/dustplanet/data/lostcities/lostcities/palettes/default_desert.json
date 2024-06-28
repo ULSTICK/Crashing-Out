@@ -17,7 +17,7 @@
     },
     {
       "char": "S",
-      "block": "minecraft:red_sandstone_slab[type=double]",
+      "block": "exdeorum:dust",
       "damaged": "minecraft:iron_bars"
     },
     {
