@@ -9,3 +9,9 @@ usernamecache.json
 /backups
 /logs
 /XaeroWaypoints
+/XaeroWorldMap
+/saves
+/natives
+/screenshots
+/.vscode
+/crash-reports
