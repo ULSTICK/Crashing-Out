@@ -1,2 +1,11 @@
+# Ignore modlaucher config:
+config.json
+
+# Ignore user cache
+usercache.json
+usernamecache.json
+
 # Ignore these folders
 /backups
+/logs
+/XaeroWaypoints
