@@ -1,13 +1,13 @@
 {
-	id: "323195408BFA6CD6"
-	group: ""
-	order_index: 7
-	filename: "mob_hunting_or_farming"
-	title: "Uncreating Life"
-	icon: "minecraft:skeleton_skull"
-	subtitle: ["Mob farms"]
-	default_quest_shape: ""
 	default_hide_dependency_lines: false
-	quests: [ ]
+	default_quest_shape: ""
+	filename: "mob_hunting_or_farming"
+	group: ""
+	icon: "minecraft:skeleton_skull"
+	id: "323195408BFA6CD6"
+	order_index: 7
 	quest_links: [ ]
+	quests: [ ]
+	subtitle: ["Mob farms"]
+	title: "Uncreating Life"
 }

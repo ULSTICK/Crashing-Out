@@ -1,12 +1,12 @@
 {
-	id: "3C06555C0F924A31"
-	group: ""
-	order_index: 2
-	filename: "salvage_operation"
-	title: "Salvage Operation"
-	icon: "comforts:sleeping_bag_white"
-	default_quest_shape: ""
 	default_hide_dependency_lines: false
-	quests: [ ]
+	default_quest_shape: ""
+	filename: "salvage_operation"
+	group: ""
+	icon: "comforts:sleeping_bag_white"
+	id: "3C06555C0F924A31"
+	order_index: 2
 	quest_links: [ ]
+	quests: [ ]
+	title: "Salvage Operation"
 }

@@ -1,12 +1,12 @@
 {
-	id: "3A0AB239B23EEBAA"
-	group: ""
-	order_index: 1
-	filename: "under_pressure"
-	title: "Under Pressure"
-	icon: "pneumaticcraft:pressure_tube"
-	default_quest_shape: ""
 	default_hide_dependency_lines: false
-	quests: [ ]
+	default_quest_shape: ""
+	filename: "under_pressure"
+	group: ""
+	icon: "pneumaticcraft:pressure_tube"
+	id: "3A0AB239B23EEBAA"
+	order_index: 1
 	quest_links: [ ]
+	quests: [ ]
+	title: "Under Pressure"
 }

@@ -1,12 +1,93 @@
 {
-	id: "0E7332979A9CE206"
-	group: ""
-	order_index: 0
-	filename: "basic_survival"
-	title: "Basic Survival"
-	icon: "minecraft:oak_sapling"
-	default_quest_shape: ""
 	default_hide_dependency_lines: false
-	quests: [ ]
+	default_quest_shape: ""
+	filename: "basic_survival"
+	group: ""
+	icon: "minecraft:oak_sapling"
+	id: "0E7332979A9CE206"
+	order_index: 0
 	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"As your water tank is leaking, you must run for any water you can get. With "
+				"the &l&2Centrifugal Separator and the Water Purifier&r&r, you can obtain some water for now."
+			]
+			id: "3A2B8C21B432E0B2"
+			rewards: [
+				{
+					id: "247F55912088B375"
+					item: "toughasnails:empty_canteen"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "3F2CE29344EC6DAC"
+					item: "toughasnails:purified_water_bottle"
+					type: "item"
+				}
+			]
+			subtitle: "Well, that is a mess, your engine and your water supply are broken. Grab what you can from the wreck, and watch out for that detached engine. The core has been breached and the depleted fuel is leaking."
+			tasks: [
+				{
+					id: "3D4C02A24552920E"
+					item: "thermal:machine_centrifuge"
+					type: "item"
+				}
+				{
+					id: "6D7859EFFD7899F5"
+					item: "toughasnails:water_purifier"
+					type: "item"
+				}
+			]
+			title: "Gathering Resources"
+			x: -19.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["3A2B8C21B432E0B2"]
+			icon: "minecraft:dirt"
+			id: "05B7F41A850D06D3"
+			rewards: [
+				{
+					id: "373C18A7D56CACB0"
+					item: "minecraft:dirt"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "072F615861E598DB"
+					item: "minecraft:bone_meal"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "3EEB07CE308DB5EA"
+					item: "toughasnails:purified_water_bottle"
+					type: "item"
+				}
+			]
+			subtitle: "As part of my functions, I can replicate needed items if provided with the raw materials. My capacity is limited at this point, so I can't provide much. Sift some of the dust to get  bonemeal. With that, 1 dust, and a purified water bottle I can provide you an essential survival material."
+			tasks: [
+				{
+					id: "70771CE638447D5C"
+					item: "exdeorum:dust"
+					type: "item"
+				}
+				{
+					id: "08A3A7A702B1B14E"
+					item: "minecraft:bone_meal"
+					type: "item"
+				}
+				{
+					id: "1D06C6BE95C11943"
+					item: "toughasnails:purified_water_bottle"
+					type: "item"
+				}
+			]
+			x: -17.5d
+			y: -6.0d
+		}
+	]
+	title: "Basic Survival"
 }
