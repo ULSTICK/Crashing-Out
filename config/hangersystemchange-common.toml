@@ -3,7 +3,7 @@ quantityLength = 2
 #Range: > 0
 categoryLength = 2
 #Range: 0.0 ~ 1.0
-decreaseByQuantity = 1.0
+decreaseByQuantity = 0.75
 #Range: 0.0 ~ 1.0
 decreaseByCategory = 0.8
 whitelist = []
