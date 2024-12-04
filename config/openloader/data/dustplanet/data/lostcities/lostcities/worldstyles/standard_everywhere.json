@@ -23,6 +23,7 @@
         "maxheightdiff": 100,
         "biomes": {
           "if_any": [
+            "minecraft:desert",
             "#minecraft:is_deep_ocean"
           ]
         }

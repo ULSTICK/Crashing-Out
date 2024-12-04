@@ -13,7 +13,7 @@
       },
       {
         "char": "P",
-        "block": "minecraft:quartz_block"
+        "block": "minecraft:light_gray_concrete"
       },
       {
         "char": "B",
@@ -21,7 +21,7 @@
       },
       {
         "char": "c",
-        "block": "minecraft:exposed_copper"
+        "block": "factory_blocks:factory"
       },
       {
         "char": "1",

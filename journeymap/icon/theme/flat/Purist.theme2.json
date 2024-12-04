@@ -214,7 +214,7 @@
       "labelTop": {
         "margin": 0,
         "background": {
-          "color": "#555555",
+          "color": "#55555",
           "alpha": 0.6
         },
         "foreground": {
@@ -345,7 +345,7 @@
       "labelTop": {
         "margin": 0,
         "background": {
-          "color": "#555555",
+          "color": "#55555",
           "alpha": 0.6
         },
         "foreground": {

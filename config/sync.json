@@ -1,11 +1,11 @@
 {
   "enableInstantShellConstruction": false,
   "warnPlayerInsteadOfKilling": false,
-  "fingerstickDamage": 20.0,
-  "hardcoreFingerstickDamage": 40.0,
-  "shellConstructorCapacity": 256000,
+  "fingerstickDamage": 5.0,
+  "hardcoreFingerstickDamage": 5.0,
+  "shellConstructorCapacity": 128000,
   "shellStorageCapacity": 320,
-  "shellStorageConsumption": 16,
+  "shellStorageConsumption": 10,
   "shellStorageAcceptsRedstone": true,
   "shellStorageMaxUnpoweredLifespan": 20,
   "energyMap": [

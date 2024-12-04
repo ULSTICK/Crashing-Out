@@ -363,17 +363,6 @@
         "value": 10000000
       }
     },
-    "cold_sweat:freezing_point_offset": {
-      "enabled": false,
-      "min": {
-        "default": -1024,
-        "value": -1024
-      },
-      "max": {
-        "default": 1024,
-        "value": 10000000
-      }
-    },
     "cold_sweat:cold_resistance": {
       "enabled": false,
       "min": {
@@ -382,6 +371,17 @@
       },
       "max": {
         "default": 1,
+        "value": 10000000
+      }
+    },
+    "cold_sweat:freezing_point_offset": {
+      "enabled": false,
+      "min": {
+        "default": -1024,
+        "value": -1024
+      },
+      "max": {
+        "default": 1024,
         "value": 10000000
       }
     },
@@ -396,17 +396,6 @@
         "value": 10000000
       }
     },
-    "cold_sweat:heat_dampening": {
-      "enabled": false,
-      "min": {
-        "default": -1024,
-        "value": -1024
-      },
-      "max": {
-        "default": 1,
-        "value": 10000000
-      }
-    },
     "cold_sweat:burning_point": {
       "enabled": false,
       "min": {
@@ -415,6 +404,17 @@
       },
       "max": {
         "default": 1024,
+        "value": 10000000
+      }
+    },
+    "cold_sweat:heat_dampening": {
+      "enabled": false,
+      "min": {
+        "default": -1024,
+        "value": -1024
+      },
+      "max": {
+        "default": 1,
         "value": 10000000
       }
     },

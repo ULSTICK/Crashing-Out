@@ -14,10 +14,14 @@
 	moveSlowWhenThirsty = true
 	#Whether foods labeled as drinks will restore hunger
 	enableDrinksNutrition = true
+	#Whether hydration depletion in peaceful mode
+	thirstDepletionInPeace = false
+	#Whether players can drink rain water
+	DrinkRainWater = true
 
 ["Drinking Mechanics"]
 	#Stack size for water bottles
-	waterBottleStacksize = 64
+	waterBottleStacksize = 1
 	#Whether the player can't regenerate as fast when hydration isn't full (like hunger)
 	dehydrationHaltsHealthRegen = true
 	#Whether hydration depletes when the player's health is regenerating (like hunger)
@@ -30,6 +34,8 @@
 	handDrinkingHydration = 3
 	#How much the player thirst is quenched when drinking by hand
 	handDrinkingQuenched = 2
+	#Whether extra hydration will convert to quenched
+	ExtraHydrationConvertToQuenched = true
 
 [World]
 	#Y level above which water has 1 more level of purification by default (i.e Mountains)

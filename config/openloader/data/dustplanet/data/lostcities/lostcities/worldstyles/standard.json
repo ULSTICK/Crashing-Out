@@ -2,7 +2,7 @@
   "outsidestyle": "outside",
   "scattered": {
     "areasize": 8,
-    "chance": 0.1,
+    "chance": 0.0,
     "weightnone": 20,
     "list": [
       {
