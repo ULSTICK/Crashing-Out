@@ -1,0 +1,19 @@
+{
+  "type": "thermal:press",
+  "ingredients": [
+    {
+      "tag": "forge:ingots/iron"
+    },
+    {
+      "item": "silentgear:sword_blueprint"
+    }
+  ],
+  "result": [
+    {
+      "type": "forge:item_nbt",
+      "item": "silentgear:sword_blade",
+      "nbt": {"Materials":[{"Count":2,"ID":"silentgear:iron","Item":{"Count":1,"id":"minecraft:iron_ingot"}}]}
+      }
+    ],
+  "energy": 2400
+}

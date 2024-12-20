@@ -3,7 +3,7 @@
   "warnPlayerInsteadOfKilling": false,
   "fingerstickDamage": 5.0,
   "hardcoreFingerstickDamage": 5.0,
-  "shellConstructorCapacity": 128000,
+  "shellConstructorCapacity": 2560000,
   "shellStorageCapacity": 320,
   "shellStorageConsumption": 10,
   "shellStorageAcceptsRedstone": true,

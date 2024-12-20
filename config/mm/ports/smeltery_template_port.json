@@ -1,0 +1,10 @@
+{
+  "id": "smeltery_template_port",
+  "controllerIds": "mm:smeltery_controller",
+  "name": "Smeltery Template Port",
+  "type": "mm:item",
+  "config": {
+    "rows": 1,
+    "columns": 1
+  }
+}

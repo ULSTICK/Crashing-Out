@@ -1,0 +1,38 @@
+{
+    "name": "Smeltery structure Tier 1",
+    "controllerIds": "mm:smeltery_controller",
+    "layout": [
+      [
+        "1111",
+        "1  1",
+        "1  1",
+        "1111"
+      ],
+      [
+        "1211",
+        "3  4",
+        "3  4",
+        "1C11"
+      ],
+      [
+        "1111",
+        "1111",
+        "1111",
+        "1111"
+      ]
+    ],
+    "key": {
+      "1": {
+        "block": "minecraft:bricks"
+      },
+      "2": {
+        "block": "mm:smeltery_fluid_port"
+      },
+      "3": {
+        "block": "mm:smeltery_material_port"
+      },
+      "4": {
+        "block": "mm:smeltery_template_port"
+      }
+    }
+  }

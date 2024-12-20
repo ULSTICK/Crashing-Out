@@ -7,6 +7,14 @@
     {
       "factor": 1,
       "value": "minecraft:witch"
+    },
+    {
+      "factor": 1,
+      "value": "minecraft:piglin"
+    },
+    {
+      "factor": 1,
+      "value": "minecraft:piglin_brute"
     }
   ]
 }

@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "mm:block/smeltery_material_port_output"
+    }
+  }
+}

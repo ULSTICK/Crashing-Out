@@ -1,0 +1,11 @@
+{
+    "id": "smeltery_energy_port",
+    "controllerIds": "mm:smeltery_controller",
+    "name": "Smeltery Energy Port",
+    "type": "mm:energy",
+    "config": {
+      "capacity": 1000000,
+      "maxReceive": 1000,
+      "maxExtract": 1000
+    }
+  }

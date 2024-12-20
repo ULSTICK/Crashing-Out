@@ -1,0 +1,8 @@
+// 1.20.1	2024-12-19T18:17:35.411421	Loot Tables
+726c0a8c18548ae0bf6e37f7437c27cc5b4219fd data/mm/loot_tables/blocks/smeltery_controller.json
+4c61d7c341ea8b2a5eda7f009220d9a413bcf208 data/mm/loot_tables/blocks/smeltery_fluid_port_input.json
+3ea2cc4a15f3aad3918b398ac9c69d192790d264 data/mm/loot_tables/blocks/smeltery_fluid_port_output.json
+a3f14fdc7157d58916492cd296eebae2c4450f45 data/mm/loot_tables/blocks/smeltery_material_port_input.json
+fab82d99cdb32df2d18de737c2a1d9e7d5bb0eff data/mm/loot_tables/blocks/smeltery_material_port_output.json
+c7d5556025a2c0fa1cdee815cf6f555b2ad6babf data/mm/loot_tables/blocks/smeltery_template_port_input.json
+fdd1a59c1ae7fde6166f2d53e91c2542f63d6e82 data/mm/loot_tables/blocks/smeltery_template_port_output.json

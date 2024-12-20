@@ -1,0 +1,10 @@
+{
+  "id": "smeltery_material_port",
+  "controllerIds": "mm:smeltery_controller",
+  "name": "Smeltery Material Port",
+  "type": "mm:item",
+  "config": {
+    "rows": 3,
+    "columns": 3
+  }
+}
