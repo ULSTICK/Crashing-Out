@@ -1,0 +1,27 @@
+{
+    "conditions": [
+    ],
+    "type": "create:filling",
+    "ingredients": [
+      {
+        "item": "silentgear:sword_blueprint"
+      },
+      {
+        "fluid": "kubejs:molten_iron",
+        "amount": 144
+      }
+    ],
+    "results": [
+      {
+        "type": "forge:nbt",
+        "item": "silentgear:sword_blade",
+        "nbt": {
+        "Count":1,
+        "Materials":[{"ID":"silentgear:iron"}]
+      }
+      },
+      {
+        "item": "silentgear:sword_blueprint"
+      }
+    ]
+  }

@@ -142,12 +142,12 @@
 		"Movement Speed Multiplier" = 0.4
 
 [Spiders]
-	#Makes spiders throw a web at a player, slowing them. Use the enhancedai:
+	#Makes spiders throw a web at a player, slowing them
 	"Enable Throwing Web" = false
 	#Various small changes to Spiders.
 	"Enable Miscellaneous" = true
 
-	#Makes spiders throw a web at a player, slowing them. Use the enhancedai:
+	#Makes spiders throw a web at a player, slowing them
 	[Spiders."Throwing Web"]
 		#Chance for a Spider to spawn with the ability to throw webs at the target.
 		#Range: 0.0 ~ 1.0
@@ -356,6 +356,10 @@
 	#Use the enhancedai:change_wolves entity type tag to add more wolves.
 	[Pets.Wolves]
 		"Double HP and Damage" = true
+		"Bonus Movement Speed" = true
+		#Wolves will slowly heal like horses. This is 1 in x chance to heal 1 hp each tick.
+		#Range: > -2147483648
+		"Passive Heal Speed" = 900
 
 	#Use the enhancedai:change_snow_golems entity type tag to add more snow golems.
 	[Pets."Snow Golems"]
@@ -399,6 +403,8 @@
 	"Enable Spawning" = true
 	#Makes mobs be able to move in more ways, like climbing or swim. Only mobs in the enhancedai:allow_climbing entity type tag are allowed to climb.
 	"Enable Movement" = true
+	#Makes mobs be able to jump in place when target is a few blocks above the mob.
+	"Enable Jump" = true
 
 	#Endermen will make the player's item fall from his hands. Add/remove mobs via the enhancedai:can_disrupt_item entity type tag
 	[Mobs."Item Disruption"]
@@ -492,6 +498,8 @@
 		#Multiplier for the time a mob takes to break blocks. E.g. with this set to 2, mobs will take twice the time to mine a block.
 		#Range: 0.0 ~ 128.0
 		"Time to break multiplier" = 1.25
+		#If true, the block tag `enhancedai:miner_block_blacklist` will be treated as a whitelist instead of blacklist
+		"Block Blacklist as Whitelist" = false
 
 		#Dimensions where mobs can't spawn with the ability to mine.
 		[Mobs."Miner Mobs"."Dimension Blacklist"]
@@ -523,15 +531,17 @@
 		#If the mobs' affected by blindness effect the target range is multiplied by this value
 		#Range: 0.0 ~ 1.0
 		"Blindness range multiplier" = 0.1
+		#By default, the new targeting AI only changes for targeting players. Setting this to true allows overriding target AI for entities other than players. Please note this might break specific AIs
+		"Targeting Override for non-Players" = false
 
-		#How far away can the mobs see the player. This overrides the vanilla value (16 for most mobs). Setting 'Max' to 0 will leave the follow range as vanilla. I recommend using mods like Mobs Properties Randomness to have more control over the attribute.
+		#How far away can the mobs see the player. This overrides the vanilla value (16 for most mobs). Setting 'Max' to 0 will leave the follow range as vanilla. I recommend using mods like Mobs Properties Randomness to have more control over the attribute. Only mobs in the entity type tag `enhancedai:change_follow_range` will be affected by this override
 		[Mobs.Targeting."Follow Range Override"]
 			#Range: 0.0 ~ 128.0
 			Minimum = 24.0
 			#Range: 0.0 ~ 128.0
 			Maximum = 48.0
 
-		#How far away can the mobs see the player even through walls. Setting 'Max' to 0 will make mobs not able to see through walls. I recommend using mods like Mobs Properties Randomness to have more control over the attribute; the attribute name is 'enhancedai:generic.xray_follow_range'.
+		#How far away can the mobs see the player even through walls. Setting 'Max' to 0 will make mobs not able to see through walls. I recommend using mods like Mobs Properties Randomness to have more control over the attribute; the attribute name is 'enhancedai:generic.xray_follow_range'. Only mobs in the entity type tag `enhancedai:apply_xray` will be affected by this override.
 		[Mobs.Targeting."XRay Range Override"]
 			#Range: 0.0 ~ 128.0
 			Minimum = 12.0
@@ -539,10 +549,12 @@
 			Maximum = 0.0
 
 		[Mobs.Targeting."Hurt by target"]
-			#Mobs will no longer switch target if it's the same or if the current one it's closer.
+			#Mobs will actually switch target when attacked unless it's the same or if the current one it's closer.
 			"Better version" = true
 			#Mobs will no longer attack each other.
 			"Prevent infighting" = true
+			#Mobs will prefer to attack players instead of other mobs (Note that 'Prevent infighting' should be disabled).
+			"Prefer players" = true
 
 		#Chances for a mob to spawn neutral
 		[Mobs.Targeting."Neutral Chances"]
@@ -632,10 +644,10 @@
 		#Distance from a player that will make the skeleton run away.
 		#Range: 0.0 ~ 32.0
 		"Flee Distance Far" = 12.0
-		#Speed multiplier when the skeleton avoids the player and it's within 'Flee Distance Near' blocks from him.
+		#Speed multiplier when the pillager avoids the player and it's within 'Flee Distance Near' blocks from him.
 		#Range: 0.0 ~ 4.0
 		"Flee speed Multiplier Near" = 1.1
-		#Speed multiplier when the skeleton avoids the player and it's farther than 'Flee Distance Far' blocks from him.
+		#Speed multiplier when the pillager avoids the player and it's farther than 'Flee Distance Far' blocks from him.
 		#Range: 0.0 ~ 4.0
 		"Flee speed Multiplier Far" = 1.0
 
@@ -733,9 +745,9 @@
 		"TNT Like" = false
 		#If IguanaTweaks Reborn is installed and Explosion Overhaul is enabled, Angry creeper will deal more knockback and break more blocks and breaching creepers will break more blocks
 		"IguanaTweaks Reborn Integration" = true
-		#Breaching creepers will try to open an hole in the wall to let mobs in.
-		#Range: 0.0 ~ 1.0
-		"Breach Chance" = 0.075
+		#Makes creepers blow up on death like when they were added back in 0.30
+		#Allowed Values: NONE, CHARGED, ALL
+		"Blow up on death" = "CHARGED"
 
 		[Creepers."Creeper Swell".Launch]
 			#Launching creepers will try ignite and throw themselves at the player.
@@ -757,7 +769,7 @@
 			#If true, Angry Creeper emits particles
 			Particles = true
 			#The special sound effect that the Angry Creeper plays
-			#Allowed Values: NONE, CENA, WTF_BOOM
+			#Allowed Values: NONE, CENA, WTF_BOOM, OLD_EXPLOSION
 			Sounds = "WTF_BOOM"
 			#If true, Angry Creeper will have a name
 			Name = true
@@ -770,6 +782,16 @@
 			"Explosion power" = 4.0
 			#Angry Creeper will not stop swelling when triggered
 			"Forced Explosion" = true
+			#Makes angry creepers blow up on death like when they were added back in 0.30
+			"Explode on death" = true
+
+		[Creepers."Creeper Swell".Breach]
+			#Breaching creepers will try to open a hole in the wall to let mobs in.
+			#Range: 0.0 ~ 1.0
+			Chance = 0.075
+			#How far away (horizontally) from the target breaching creepers can breach.
+			#Range: > 0
+			"Horizontal Range" = 24
 
 [Bugs]
 	#Let them swarm. This also changes the Merge With stone goal to have 1.5 seconds cooldown before trying to merge, to prevent them from instantly getting into stone without having the chance to target someone.
@@ -872,6 +894,12 @@
 		Knockback = 1.5
 		#Animals' knockback attribute will be increased/decreased based on the side of the mob.
 		"Knockback size based" = true
+		#Speed multiplier when the animal avoids the player and it's within 8 blocks from him.
+		#Range: 0.0 ~ 4.0
+		"Flee speed Multiplier Near" = 1.1
+		#Speed multiplier when the animal avoids the player and it's farther than 16 blocks from him.
+		#Range: 0.0 ~ 4.0
+		"Flee speed Multiplier Far" = 1.0
 
 	#Make animals flee/fight back when one is attacked
 	[Animals."Animals Group Flee"]

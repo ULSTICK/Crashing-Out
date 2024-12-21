@@ -1,8 +1,0 @@
-// 1.20.1	2024-12-19T18:17:35.4124218	Item Models: mm
-e54e02be37bd94d8fdc183ea9abe6ebe82074614 assets/mm/models/item/smeltery_controller.json
-7426f2a255836d5907ff1756fb5556b3b8e48e1a assets/mm/models/item/smeltery_fluid_port_input.json
-d604eff904e08da7be9cd881b68e7092f6d827e0 assets/mm/models/item/smeltery_fluid_port_output.json
-d79f186c05842f7ceeca175e6b2e2ba8add14f85 assets/mm/models/item/smeltery_material_port_input.json
-835c89701a9bc823e4d1866605ad3ba344fc0220 assets/mm/models/item/smeltery_material_port_output.json
-cb2072a2aba788e12289b5bd528442a65b7a55d5 assets/mm/models/item/smeltery_template_port_input.json
-58e0e5ebf8d18b9bd2708fda6be9f5100857c5ce assets/mm/models/item/smeltery_template_port_output.json

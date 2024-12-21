@@ -1,0 +1,17 @@
+// Compost colors for molten_metals. You may add your own colors, change existing ones, or remove colors that aren't needed.
+molten_bismuth_bucket, #bfc3c6
+molten_brass_bucket, #d3be9e
+molten_bronze_bucket, #c9b5aa
+molten_copper_bucket, #cfac90
+molten_electrum_bucket, #d0c2ae
+molten_gold_bucket, #d0c59d
+molten_iron_bucket, #d3c298
+molten_mercury_bucket, #c3c6c6
+molten_necromium_bucket, #a7c0bc
+molten_netherite_bucket, #a09093
+molten_silver_bucket, #cdaea2
+molten_steel_bucket, #d4c9a2
+molten_tin_bucket, #c2c9ca
+molten_zinc_bucket, #bfc8bf
+slag, #625e5f
+slag_nugget, #5f575e
