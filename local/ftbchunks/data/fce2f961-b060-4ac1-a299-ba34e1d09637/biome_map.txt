@@ -1,4 +1,0 @@
-#4F9 minecraft:dark_forest
-#498 minecraft:lush_caves
-#60C minecraft:old_growth_spruce_taiga
-#5FF minecraft:river
