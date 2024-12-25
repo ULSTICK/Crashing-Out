@@ -1,0 +1,17 @@
+{
+    "conditions": [
+    ],
+    "type": "create:mixing",
+    "ingredients": [
+      {
+        "tag": "forge:ingots/azure_electrum"
+      }
+    ],
+    "results": [
+      {
+        "fluid": "kubejs:molten_azure_electrum",
+        "amount": 144
+      }
+    ],
+    "heatRequirement": "heated"
+  }

@@ -4,7 +4,7 @@
     "type": "create:filling",
     "ingredients": [
       {
-        "item": "silentgear:sword_blueprint"
+        "tag": "silentgear:blueprints/sword"
       },
       {
         "fluid": "kubejs:molten_iron",
@@ -19,9 +19,6 @@
         "Count":1,
         "Materials":[{"ID":"silentgear:iron"}]
       }
-      },
-      {
-        "item": "silentgear:sword_blueprint"
       }
     ]
   }

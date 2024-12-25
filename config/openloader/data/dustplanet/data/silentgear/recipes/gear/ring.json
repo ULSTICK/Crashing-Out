@@ -1,0 +1,15 @@
+{
+  "type": "silentgear:gear_crafting",
+  "ingredients": [
+    {
+      "type": "silentgear:blueprint",
+      "part_type": "silentgear:adornment"
+    },
+    {
+      "item": "silentgear:ring_shank"
+    }
+  ],
+  "result": {
+    "item": "silentgear:ring"
+  }
+}

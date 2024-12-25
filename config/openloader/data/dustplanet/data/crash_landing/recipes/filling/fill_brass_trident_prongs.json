@@ -1,0 +1,24 @@
+{
+    "conditions": [
+    ],
+    "type": "create:filling",
+    "ingredients": [
+      {
+        "tag": "silentgear:blueprints/trident"
+      },
+      {
+        "fluid": "kubejs:molten_brass",
+        "amount": 144
+      }
+    ],
+    "results": [
+      {
+        "type": "forge:nbt",
+        "item": "silentgear:trident_prongs",
+        "nbt": {
+        "Count":1,
+        "Materials":[{"ID":"silentgear:brass"}]
+      }
+      }
+    ]
+  }

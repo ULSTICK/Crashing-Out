@@ -1,0 +1,17 @@
+{
+    "conditions": [
+    ],
+    "type": "create:mixing",
+    "ingredients": [
+      {
+        "tag": "forge:raw_materials/osmium"
+      }
+    ],
+    "results": [
+      {
+        "fluid": "kubejs:molten_osmium",
+        "amount": 288
+      }
+    ],
+    "heatRequirement": "heated"
+  }
