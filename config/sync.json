@@ -3,9 +3,9 @@
   "warnPlayerInsteadOfKilling": false,
   "fingerstickDamage": 1.0,
   "hardcoreFingerstickDamage": 1.0,
-  "shellConstructorCapacity": 700000,
+  "shellConstructorCapacity": 699999,
   "shellStorageCapacity": 320,
-  "shellStorageConsumption": 10,
+  "shellStorageConsumption": 0,
   "shellStorageAcceptsRedstone": true,
   "shellStorageMaxUnpoweredLifespan": 20,
   "energyMap": [
@@ -34,10 +34,10 @@
       "outputEnergyQuantity": 160
     }
   ],
-  "preserveOrigins": false,
+  "preserveOrigins": true,
   "syncPriority": [
     {
-      "priority": "NATURAL"
+      "priority": "NEAREST"
     }
   ],
   "wrench": "minecraft:stick",
