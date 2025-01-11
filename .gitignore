@@ -16,6 +16,7 @@ usernamecache.json
 /.vscode
 /crash-reports
 /journeymap
+/essential
 
 # Ignore extra files from other launchers
 options.txt
