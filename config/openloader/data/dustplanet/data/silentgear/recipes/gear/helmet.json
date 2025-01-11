@@ -1,0 +1,11 @@
+{
+  "type": "silentgear:gear_crafting",
+  "ingredients": [
+    {
+      "item": "silentgear:helmet_plates"
+    }
+  ],
+  "result": {
+    "item": "silentgear:helmet"
+  }
+}

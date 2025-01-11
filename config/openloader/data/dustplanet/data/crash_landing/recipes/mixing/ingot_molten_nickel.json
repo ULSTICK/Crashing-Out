@@ -1,0 +1,17 @@
+{
+    "conditions": [
+    ],
+    "type": "create:mixing",
+    "ingredients": [
+      {
+        "tag": "forge:ingots/nickel"
+      }
+    ],
+    "results": [
+      {
+        "fluid": "kubejs:molten_nickel",
+        "amount": 144
+      }
+    ],
+    "heatRequirement": "heated"
+  }

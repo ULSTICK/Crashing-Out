@@ -1,0 +1,15 @@
+{
+  "type": "silentgear:gear_crafting",
+  "ingredients": [
+    {
+      "type": "silentgear:blueprint",
+      "part_type": "silentgear:adornment"
+    },
+    {
+      "item": "silentgear:bracelet_band"
+    }
+  ],
+  "result": {
+    "item": "silentgear:bracelet"
+  }
+}

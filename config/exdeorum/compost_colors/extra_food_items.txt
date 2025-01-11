@@ -1,0 +1,3 @@
+// Compost colors for extra_food_items. You may add your own colors, change existing ones, or remove colors that aren't needed.
+spidereyesoup, #964d32
+zombie_jerky, #8e5737

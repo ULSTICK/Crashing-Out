@@ -1,0 +1,17 @@
+{
+    "conditions": [
+    ],
+    "type": "create:mixing",
+    "ingredients": [
+      {
+        "tag": "forge:ingots/electrum"
+      }
+    ],
+    "results": [
+      {
+        "fluid": "kubejs:molten_electrum",
+        "amount": 144
+      }
+    ],
+    "heatRequirement": "heated"
+  }

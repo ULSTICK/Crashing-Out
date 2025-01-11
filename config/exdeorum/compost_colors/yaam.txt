@@ -1,0 +1,3 @@
+// Compost colors for yaam. You may add your own colors, change existing ones, or remove colors that aren't needed.
+dried_apple_slices, #ffb9b5
+jerky, #4a2819
