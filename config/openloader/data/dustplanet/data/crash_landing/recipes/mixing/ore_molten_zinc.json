@@ -1,0 +1,17 @@
+{
+    "conditions": [
+    ],
+    "type": "create:mixing",
+    "ingredients": [
+      {
+        "tag": "forge:ores/zinc"
+      }
+    ],
+    "results": [
+      {
+        "fluid": "kubejs:molten_zinc",
+        "amount": 288
+      }
+    ],
+    "heatRequirement": "heated"
+  }

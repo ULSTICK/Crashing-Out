@@ -1,0 +1,24 @@
+{
+    "conditions": [
+    ],
+    "type": "create:filling",
+    "ingredients": [
+      {
+        "tag": "silentgear:blueprints/saw"
+      },
+      {
+        "fluid": "kubejs:molten_tyrian_steel",
+        "amount": 144
+      }
+    ],
+    "results": [
+      {
+        "type": "forge:nbt",
+        "item": "silentgear:saw_blade",
+        "nbt": {
+        "Count":1,
+        "Materials":[{"ID":"silentgear:tyrian_steel"}]
+      }
+      }
+    ]
+  }

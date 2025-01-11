@@ -1,0 +1,17 @@
+{
+    "conditions": [
+    ],
+    "type": "create:mixing",
+    "ingredients": [
+      {
+        "tag": "forge:ingots/tyrian_steel"
+      }
+    ],
+    "results": [
+      {
+        "fluid": "kubejs:molten_tyrian_steel",
+        "amount": 144
+      }
+    ],
+    "heatRequirement": "heated"
+  }

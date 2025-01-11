@@ -15,3 +15,14 @@ usernamecache.json
 /screenshots
 /.vscode
 /crash-reports
+/journeymap
+
+# Ignore extra files from other launchers
+options.txt
+minecraftinstance.json
+fabricloader.log
+
+# Ignore client-side files that don't need a pre-config
+/config/oculus.properties
+/config/fml.toml
+/config/embeddium-fingerprint.json

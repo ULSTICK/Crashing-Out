@@ -1,0 +1,17 @@
+{
+    "conditions": [
+    ],
+    "type": "create:mixing",
+    "ingredients": [
+      {
+        "tag": "forge:ores/uranium"
+      }
+    ],
+    "results": [
+      {
+        "fluid": "kubejs:molten_uranium",
+        "amount": 288
+      }
+    ],
+    "heatRequirement": "heated"
+  }

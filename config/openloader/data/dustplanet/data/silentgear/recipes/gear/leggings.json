@@ -1,0 +1,11 @@
+{
+  "type": "silentgear:gear_crafting",
+  "ingredients": [
+    {
+      "item": "silentgear:legging_plates"
+    }
+  ],
+  "result": {
+    "item": "silentgear:leggings"
+  }
+}

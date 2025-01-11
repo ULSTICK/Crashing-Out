@@ -1,0 +1,24 @@
+{
+    "conditions": [
+    ],
+    "type": "create:filling",
+    "ingredients": [
+      {
+        "tag": "silentgear:blueprints/hoe"
+      },
+      {
+        "fluid": "kubejs:molten_uranium",
+        "amount": 144
+      }
+    ],
+    "results": [
+      {
+        "type": "forge:nbt",
+        "item": "silentgear:hoe_head",
+        "nbt": {
+        "Count":1,
+        "Materials":[{"ID":"silentgear:uranium"}]
+      }
+      }
+    ]
+  }

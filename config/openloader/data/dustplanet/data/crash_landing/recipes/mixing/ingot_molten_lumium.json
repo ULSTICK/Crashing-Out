@@ -1,0 +1,17 @@
+{
+    "conditions": [
+    ],
+    "type": "create:mixing",
+    "ingredients": [
+      {
+        "tag": "forge:ingots/lumium"
+      }
+    ],
+    "results": [
+      {
+        "fluid": "kubejs:molten_lumium",
+        "amount": 144
+      }
+    ],
+    "heatRequirement": "heated"
+  }

@@ -1,0 +1,24 @@
+{
+    "conditions": [
+    ],
+    "type": "create:filling",
+    "ingredients": [
+      {
+        "tag": "silentgear:blueprints/shears"
+      },
+      {
+        "fluid": "kubejs:molten_refined_glowstone",
+        "amount": 144
+      }
+    ],
+    "results": [
+      {
+        "type": "forge:nbt",
+        "item": "silentgear:shears_blades",
+        "nbt": {
+        "Count":1,
+        "Materials":[{"ID":"silentgear:refined_glowstone"}]
+      }
+      }
+    ]
+  }

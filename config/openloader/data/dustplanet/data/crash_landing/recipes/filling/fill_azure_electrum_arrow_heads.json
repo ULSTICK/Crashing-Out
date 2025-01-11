@@ -1,0 +1,24 @@
+{
+    "conditions": [
+    ],
+    "type": "create:filling",
+    "ingredients": [
+      {
+        "tag": "silentgear:blueprints/arrow"
+      },
+      {
+        "fluid": "kubejs:molten_azure_electrum",
+        "amount": 144
+      }
+    ],
+    "results": [
+      {
+        "type": "forge:nbt",
+        "item": "silentgear:arrow_heads",
+        "nbt": {
+        "Count":1,
+        "Materials":[{"ID":"silentgear:azure_electrum"}]
+      }
+      }
+    ]
+  }
