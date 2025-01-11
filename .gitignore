@@ -35,3 +35,9 @@ config/jei/ingredient-list-mod-sort-order.ini
 config/fabric/indigo-renderer.properties
 fabricloader.log
 kubejs/config/probe-settings.json
+config/fabric/indigo-renderer.properties
+config/fabric/indigo-renderer.properties
+config/jei/ingredient-list-mod-sort-order.ini
+config/jei/recipe-category-sort-order.ini
+config/oculus.properties
+fabricloader.log
