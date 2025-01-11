@@ -319,9 +319,8 @@
       "optionlinks": [],
       "reward": [
         {
-          "id": "cold_sweat:filled_waterskin",
-          "Count": 1,
-          "tag": "{}"
+          "id": "thirstcanteen:leather_canteen",
+          "Count": 1
         },
         {
           "id": "minecraft:potion",
@@ -790,6 +789,10 @@
       },
       "x": 251,
       "y": 116,
+      "icon": {
+        "id": "create:millstone",
+        "Count": 1
+      },
       "tasks": [
         {
           "type": "hardcorequesting:detect",
