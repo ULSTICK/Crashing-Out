@@ -32,3 +32,4 @@ fabricloader.log
 /config/fabric/indigo-renderer.properties
 /kubejs/config/probe-settings.json
 /config/embeddium-options.json
+config/DistantHorizons.toml
