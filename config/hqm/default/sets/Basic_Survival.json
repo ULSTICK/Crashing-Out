@@ -118,14 +118,26 @@
             "text": "Combining 2 salt and 1 rotten flesh in any order in a crafting grid will make  1 zombie jerky",
             "isTranslationKey": false
           },
-          "items": []
+          "items": [
+            {
+              "item": {
+                "id": "extra_food_items:zombie_jerky",
+                "Count": 1
+              }
+            }
+          ]
         }
       ],
       "prerequisites": [
         "feb164b4-e0bf-48e0-aaec-b8bb1118c3b8"
       ],
       "optionlinks": [],
-      "reward": [],
+      "reward": [
+        {
+          "id": "extra_food_items:zombie_jerky",
+          "Count": 4
+        }
+      ],
       "rewardchoice": [],
       "commandrewards": []
     },
@@ -439,6 +451,121 @@
       "commandrewards": []
     },
     {
+      "uuid": "3c8b89b6-0ec3-4376-9e84-41cf0345e55d",
+      "name": {
+        "text": "Killing time",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Congrats on slaying those mosnters",
+        "isTranslationKey": false
+      },
+      "x": 59,
+      "y": 16,
+      "icon": {
+        "id": "minecraft:zombie_spawn_egg",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "hardcorequesting:kill",
+          "mobs": [
+            {
+              "name": {
+                "text": "New",
+                "isTranslationKey": false
+              },
+              "icon": {
+                "id": "minecraft:zombie_spawn_egg",
+                "Count": 1
+              },
+              "mob": "minecraft:zombie",
+              "kills": 50
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "0bdfc96b-6b5e-4f8f-932f-bda70b2114d7"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "7ee731c2-da61-4aab-a5fa-864fc4b62277",
+      "name": {
+        "text": "The Easy Route",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "For an easier experience, this is the way. Note: Choosing this path disables the hard route quest.",
+        "isTranslationKey": false
+      },
+      "x": 184,
+      "y": 32,
+      "icon": {
+        "id": "thermal:pbj_sandwich",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "hardcorequesting:consume",
+          "description": {
+            "text": "Grab some dust!",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "exdeorum:dust",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "feb164b4-e0bf-48e0-aaec-b8bb1118c3b8"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:oak_sapling",
+          "Count": 1
+        },
+        {
+          "id": "minecraft:birch_sapling",
+          "Count": 1
+        },
+        {
+          "id": "pneumaticcraft:gun_ammo",
+          "Count": 2,
+          "tag": "{Damage:0}"
+        },
+        {
+          "id": "minecraft:bone_meal",
+          "Count": 64
+        },
+        {
+          "id": "sync:shell_storage",
+          "Count": 1
+        },
+        {
+          "id": "sync:shell_constructor",
+          "Count": 1
+        },
+        {
+          "id": "thermal:energy_cell",
+          "Count": 1,
+          "tag": "{BlockEntityTag:{AmountIn:1000,AmountOut:1000,Energy:1000000,EnergyMax:1000000,EnergyRecv:1000,EnergySend:1000,RSControl:{RSMode:0b,RSThreshold:0b},Sides:[B;0B,0B,0B,0B,0B,1B],Xfer:{XferIn:1b,XferOut:1b}},Properties:{}}"
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
       "uuid": "0bdfc96b-6b5e-4f8f-932f-bda70b2114d7",
       "name": {
         "text": "Monster Mash",
@@ -568,121 +695,6 @@
       "commandrewards": []
     },
     {
-      "uuid": "7ee731c2-da61-4aab-a5fa-864fc4b62277",
-      "name": {
-        "text": "The Easy Route",
-        "isTranslationKey": false
-      },
-      "description": {
-        "text": "For an easier experience, this is the way. Note: Choosing this path disables the hard route quest.",
-        "isTranslationKey": false
-      },
-      "x": 184,
-      "y": 32,
-      "icon": {
-        "id": "thermal:pbj_sandwich",
-        "Count": 1
-      },
-      "tasks": [
-        {
-          "type": "hardcorequesting:consume",
-          "description": {
-            "text": "Grab some dust!",
-            "isTranslationKey": false
-          },
-          "items": [
-            {
-              "item": {
-                "id": "exdeorum:dust",
-                "Count": 1
-              }
-            }
-          ]
-        }
-      ],
-      "prerequisites": [
-        "feb164b4-e0bf-48e0-aaec-b8bb1118c3b8"
-      ],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "minecraft:oak_sapling",
-          "Count": 1
-        },
-        {
-          "id": "minecraft:birch_sapling",
-          "Count": 1
-        },
-        {
-          "id": "pneumaticcraft:gun_ammo",
-          "Count": 2,
-          "tag": "{Damage:0}"
-        },
-        {
-          "id": "minecraft:bone_meal",
-          "Count": 64
-        },
-        {
-          "id": "sync:shell_storage",
-          "Count": 1
-        },
-        {
-          "id": "sync:shell_constructor",
-          "Count": 1
-        },
-        {
-          "id": "thermal:energy_cell",
-          "Count": 1,
-          "tag": "{BlockEntityTag:{AmountIn:1000,AmountOut:1000,Energy:1000000,EnergyMax:1000000,EnergyRecv:1000,EnergySend:1000,RSControl:{RSMode:0b,RSThreshold:0b},Sides:[B;0B,0B,0B,0B,0B,1B],Xfer:{XferIn:1b,XferOut:1b}},Properties:{}}"
-        }
-      ],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
-      "uuid": "3c8b89b6-0ec3-4376-9e84-41cf0345e55d",
-      "name": {
-        "text": "Killing time",
-        "isTranslationKey": false
-      },
-      "description": {
-        "text": "Congrats on slaying those mosnters",
-        "isTranslationKey": false
-      },
-      "x": 59,
-      "y": 16,
-      "icon": {
-        "id": "minecraft:zombie_spawn_egg",
-        "Count": 1
-      },
-      "tasks": [
-        {
-          "type": "hardcorequesting:kill",
-          "mobs": [
-            {
-              "name": {
-                "text": "New",
-                "isTranslationKey": false
-              },
-              "icon": {
-                "id": "minecraft:zombie_spawn_egg",
-                "Count": 1
-              },
-              "mob": "minecraft:zombie",
-              "kills": 50
-            }
-          ]
-        }
-      ],
-      "prerequisites": [
-        "0bdfc96b-6b5e-4f8f-932f-bda70b2114d7"
-      ],
-      "optionlinks": [],
-      "reward": [],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
       "uuid": "41cb1853-af1c-4cbd-b4ff-3d7781e6c90a",
       "name": {
         "text": "Dirt to water!",
@@ -712,7 +724,8 @@
                 "id": "minecraft:potion",
                 "Count": 1,
                 "tag": "{Potion:\"minecraft:water\",Purity:0}"
-              }
+              },
+              "precision": "FUZZY"
             }
           ]
         }
@@ -761,7 +774,8 @@
                 "id": "minecraft:potion",
                 "Count": 1,
                 "tag": "{Potion:\"minecraft:water\"}"
-              }
+              },
+              "precision": "FUZZY"
             }
           ]
         }
@@ -1186,14 +1200,26 @@
             "text": "With your stock you can combine it with a pot and spider eye for some spider eye soup.",
             "isTranslationKey": false
           },
-          "items": []
+          "items": [
+            {
+              "item": {
+                "id": "extra_food_items:spidereyesoup",
+                "Count": 1
+              }
+            }
+          ]
         }
       ],
       "prerequisites": [
         "32852a9b-1b0c-4954-99c3-92501611c7d7"
       ],
       "optionlinks": [],
-      "reward": [],
+      "reward": [
+        {
+          "id": "minecraft:spider_eye",
+          "Count": 4
+        }
+      ],
       "rewardchoice": [],
       "commandrewards": []
     },
@@ -1242,7 +1268,8 @@
                 "id": "minecraft:potion",
                 "Count": 1,
                 "tag": "{Potion:\"minecraft:water\",Purity:0}"
-              }
+              },
+              "precision": "FUZZY"
             }
           ]
         }
@@ -1418,15 +1445,59 @@
             "text": "Careful! Armor will effect your temperature. Metal armor tends to be hotter during the day and colder at night. Leather and wood armor will add a little heat no matter the time. The best armors can help you stay cool in the heat and warm in the cold.",
             "isTranslationKey": false
           },
-          "items": []
+          "items": [
+            {
+              "item": {
+                "id": "extra_food_items:wooden_helmet",
+                "Count": 1,
+                "tag": "{Damage:0}"
+              }
+            },
+            {
+              "item": {
+                "id": "extra_food_items:wooden_chestplate",
+                "Count": 1,
+                "tag": "{Damage:0}"
+              }
+            },
+            {
+              "item": {
+                "id": "extra_food_items:wooden_leggings",
+                "Count": 1,
+                "tag": "{Damage:0}"
+              }
+            },
+            {
+              "item": {
+                "id": "extra_food_items:wooden_boots",
+                "Count": 1,
+                "tag": "{Damage:0}"
+              }
+            }
+          ]
         }
       ],
       "prerequisites": [
         "6cd42c29-0afd-49d5-b8ca-9c3c50a63970"
       ],
       "optionlinks": [],
-      "reward": [],
-      "rewardchoice": [],
+      "reward": [
+        {
+          "id": "bhc:heart_amulet",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "bhc:red_heart_canister",
+          "Count": 1
+        },
+        {
+          "id": "tconstruct:small_axe_head",
+          "Count": 1,
+          "tag": "{Material:\"tconstruct:bronze\"}"
+        }
+      ],
       "commandrewards": []
     },
     {
@@ -1667,21 +1738,104 @@
         {
           "type": "hardcorequesting:detect",
           "description": {
-            "text": "Invar blending",
+            "text": "Milling",
             "isTranslationKey": false
           },
           "longDescription": {
-            "text": "In order to get invar blend you can mix iron dust and nickel dust together in a crafting grid.",
+            "text": "In order to start making beginner alloys youll need to \"create\" a mill",
             "isTranslationKey": false
           },
-          "items": []
+          "items": [
+            {
+              "item": {
+                "id": "create:millstone",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "create:hand_crank",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "create:cogwheel",
+                "Count": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "hardcorequesting:detect",
+          "description": {
+            "text": "Metal dust",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "thermal:steel_dust",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "thermal:invar_dust",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "thermal:electrum_dust",
+                "Count": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "hardcorequesting:detect",
+          "description": {
+            "text": "Better tools",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "extra_food_items:invarshears",
+                "Count": 1,
+                "tag": "{Damage:0}"
+              }
+            },
+            {
+              "item": {
+                "id": "mekanism:basic_fluid_tank",
+                "Count": 1
+              }
+            }
+          ]
         }
       ],
       "prerequisites": [
         "099d1358-0b11-49f0-aa78-43531cd739b7"
       ],
       "optionlinks": [],
-      "reward": [],
+      "reward": [
+        {
+          "id": "tconstruct:tool_handle",
+          "Count": 1,
+          "tag": "{Material:\"tconstruct:bronze\"}"
+        },
+        {
+          "id": "tconstruct:battlesign",
+          "Count": 1,
+          "tag": "{Damage:0,tic_broken:0b,tic_materials:[\"tconstruct:seared_stone\",\"tconstruct:seared_stone\"],tic_modifiers:[{level:1,name:\"tconstruct:searing\"},{level:1,name:\"tconstruct:fire_protection\"},{level:1,name:\"tconstruct:bonking\"},{level:1,name:\"tconstruct:knockback\"},{level:1,name:\"tconstruct:blocking\"}],tic_persistent:{},tic_stats:{\"tconstruct:attack_damage\":3.5f,\"tconstruct:attack_speed\":1.2f,\"tconstruct:block_amount\":50.0f,\"tconstruct:durability\":477.0f,\"tconstruct:knockback_resistance\":0.1f},tic_volatile_data:{abilities:1,defense:3}}"
+        },
+        {
+          "id": "thermal:rf_coil",
+          "Count": 1
+        }
+      ],
       "rewardchoice": [],
       "commandrewards": []
     }
