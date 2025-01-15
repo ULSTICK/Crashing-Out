@@ -29,7 +29,7 @@ ServerEvents.recipes(event => {
         'exdeorum:tin_ore_chunk': 0.08,
         'exdeorum:lead_ore_chunk': 0.08,
         'exdeorum:silver_ore_chunk': 0.08,
-        'thermal:nickel_ore_chunk': 0.08,
+        'exdeorum:nickel_ore_chunk': 0.08,
         'minecraft:gunpowder': 0.07,
         'exdeorum:gold_ore_chunk': 0.07,
         'minecraft:glowstone_dust': 0.06,
