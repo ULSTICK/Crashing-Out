@@ -6,7 +6,7 @@ ServerEvents.recipes(event => {
       fillInput.strongNBT(),
       fillInput.strongNBT(),
       fillInput.strongNBT()
-    ]).replaceIngredient('thirstcanteen:leather_canteen', '4x minecraft:glass_bottle')
+    ]).replaceIngredient('minecraft:potion', 'minecraft:glass_bottle')
   }
 
   filling(Item.of('thirstcanteen:leather_canteen_full', {Damage:0,Purity:3}), Item.of('minecraft:potion', '{Potion:"minecraft:water",Purity:3}'))
