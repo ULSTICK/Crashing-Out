@@ -22,8 +22,8 @@ ServerEvents.recipes(event => {
         'pamhc2foodcore:saltitem': 0.2,
         'exdeorum:stone_pebble': 0.2,
         'minecraft:bone_meal': 0.2,
-        'exdeorum:iron_ore_chunk': 0.8,
-        'ae2:certus_quartz_dust': 0.8,
+        'exdeorum:iron_ore_chunk': 0.17,
+        'ae2:certus_quartz_dust': 0.17,
         'minecraft:redstone': 0.13,
         'exdeorum:copper_ore_chunk': 0.04,
         'exdeorum:tin_ore_chunk': 0.04,
@@ -36,6 +36,7 @@ ServerEvents.recipes(event => {
         'minecraft:blaze_powder': 0.05,
         'minecraft:egg': 0.01,
         'minecraft:cod': 0.01,
+        'exdeorum:uranium_ore_chunk': 0.01
     };
 
     for (const [output, chance] of Object.entries(dust_results)) {
