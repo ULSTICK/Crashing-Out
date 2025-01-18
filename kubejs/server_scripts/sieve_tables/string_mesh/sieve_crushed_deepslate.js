@@ -18,8 +18,15 @@ ServerEvents.recipes(event => {
 
     // ========= dust =========
 
-    const gravel_results = {
+    const crushed_deepslate_results = {
         'exdeorum:deepslate_pebble': 0.25,
+        'exdeorum:stone_pebble': 0.25,
+        'exdeorum:diorite_pebble': 0.25,
+        'exdeorum:granite_pebble': 0.25,
+        'exdeorum:andesite_pebble': 0.25,
+        'exdeorum:deepslate_pebble': 0.25,
+        'exdeorum:tuff_pebble': 0.25,
+        'exdeorum:calcite_pebble': 0.25,
         'minecraft:flint': 0.25,
         'exdeorum:iron_ore_chunk': 0.25,
         'exdeorum:copper_ore_chunk': 0.14,
@@ -35,11 +42,10 @@ ServerEvents.recipes(event => {
         'minecraft:coal': 0.13,
         'minecraft:diamond': 0.01,
         'minecraft:emerald': 0.01
-
     };
 
-    for (const [output, chance] of Object.entries(gravel_results)) {
-        add_sieve('minecraft:gravel', output, chance);
+    for (const [output, chance] of Object.entries(crushed_deepslate_results)) {
+        add_sieve('exdeorum:crushed_deepslate', output, chance);
     }
     
 });
