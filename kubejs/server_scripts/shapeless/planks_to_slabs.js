@@ -21,6 +21,8 @@
     slabed('tconstruct:skyroot_planks', '2x tconstruct:skyroot_planks_slab'),
     slabed('tconstruct:bloodshroom_planks', '2x tconstruct:bloodshroom_planks_slab'),
     slabed('tconstruct:enderbark_planks', '2x tconstruct:enderbark_planks_slab')
+    slabed('minecraft:cobblestone', '2x minecraft:cobblestone_slab')
+    slabed('minecraft:stone', '2x minecraft:stone_slab')
 
   
     })
