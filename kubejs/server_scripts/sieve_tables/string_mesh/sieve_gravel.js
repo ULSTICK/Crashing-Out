@@ -20,6 +20,7 @@ ServerEvents.recipes(event => {
 
     const gravel_results = {
         'exdeorum:deepslate_pebble': 0.25,
+        'exdeorum:andesite_pebble': 0.25,
         'minecraft:flint': 0.25,
         'exdeorum:iron_ore_chunk': 0.25,
         'exdeorum:copper_ore_chunk': 0.14,
