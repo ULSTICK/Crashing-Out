@@ -2,13 +2,10 @@
     {
       "mob": ["minecraft:husk", "minecraft:witch", "thermal:blitz"],
       "result": "deny"
-    }
-  ]
-
-  [
+    },
     {
       "mob": "minecraft:creeper",
       "mincount": 5,
       "result": "deny"
     }
-  ]
+]

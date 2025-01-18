@@ -23,7 +23,7 @@
 		#Whether the player should keep items and experience in their inventory after death .
 		keep_inventory = false
 		#Whether the player can regenerate health naturally if their hunger is full enough (doesn't affect external healing, such as golden apples, the Regeneration effect, etc.)
-		natural_regeneration = true
+		natural_regeneration = false
 		#Non Vanilla gamerule: 'noSprinting'
 		#Range: > 0
 		no_sprinting = 1
@@ -34,7 +34,7 @@
 		#Range: > 0
 		spawn_radius = 10
 		#Whether players in spectator mode can generate chunks
-		spectators_generate_chunks = true
+		spectators_generate_chunks = false
 
 	[gamerules.chat]
 		#Whether advancements should be announced in chat.
@@ -111,7 +111,7 @@
 
 	[gamerules.updates]
 		#Whether the daylight cycle and moon phases progress.
-		do_daylight_cycle = true
+		do_daylight_cycle = false
 		#Whether fire should spread and naturally extinguish
 		do_fire_tick = true
 		#Whether vines can spread to other blocks. Cave vines, weeping vines, and twisting vines are not affected.
@@ -151,10 +151,10 @@
 	difficulty = "HARD"
 	#If true the world will be set to hardcore, difficultly will be set to hard independent to the 'difficulty' config
 	#Setting it to hardcore auto locks the difficulty while this is true
-	hardcore = true
+	hardcore = false
 	#If a world's difficulty should be locked when loaded, if world already is locked it can't be changed
 	#If the global world difficulty is enabled it's set first
-	lock_difficulty = true
+	lock_difficulty = false
 
 #A collection of misc configs
 [misc]
