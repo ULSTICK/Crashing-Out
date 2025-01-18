@@ -23,7 +23,7 @@
 	#Changes attack range to use the 1.20.2 mechanic
 	"Enable Attacking" = true
 	#Makes mobs be able to use TiCon stuff.
-	"Enable Tinkers Construct" = true
+	"Enable Tinkers Construct" = false
 
 	[Base.Base]
 		#How far away from any player monsters will instantly despawn? Vanilla is 128
@@ -43,9 +43,9 @@
 		#How far away can the mobs see the player. This overrides the vanilla value (16 for most mobs). Setting 'Max' to 0 will leave the follow range as vanilla. I recommend using mods like Mobs Properties Randomness to have more control over the attribute.
 		[Base.Targeting."Follow Range Override"]
 			#Range: 0.0 ~ 128.0
-			Minimum = 32.0
+			Minimum = 16.0
 			#Range: 0.0 ~ 128.0
-			Maximum = 64.0
+			Maximum = 32.0
 
 		#How far away can the mobs see the player even through walls. Setting 'Max' to 0 will make mobs not able to see through walls. I recommend using mods like Mobs Properties Randomness to have more control over the attribute; the attribute name is 'enhancedai:generic.xray_follow_range'.
 		[Base.Targeting."XRay Range Override"]
@@ -88,7 +88,7 @@
 		"Target Ladders" = false
 		#How faster mobs can swim. Setting to 0 will leave the swim speed as vanilla. I recommend using mods like Mobs Properties Randomness to have more control over the attribute.
 		#Range: 0.0 ~ 4.0
-		"Swim Speed Multiplier" = 2.5
+		"Swim Speed Multiplier" = 0
 
 	#Changes attack range to use the 1.20.2 mechanic
 	[Base.Attacking]
@@ -316,10 +316,10 @@
 		"Flee Distance Near" = 8.0
 		#Speed multiplier when the skeleton avoids the player and it's farther than 'Flee Distance Far' blocks from him.
 		#Range: 0.0 ~ 4.0
-		"Flee speed Multiplier Far" = 1.3
+		"Flee speed Multiplier Far" = 0
 		#Speed multiplier when the skeleton avoids the player and it's within 'Flee Distance Near' blocks from him.
 		#Range: 0.0 ~ 4.0
-		"Flee speed Multiplier Near" = 1.6
+		"Flee speed Multiplier Near" = 0
 
 		#Entities that shouldn't get the enhanced Shoot AI
 		[Skeleton."Skeleton Flee"."Entity Blacklist"]
@@ -513,7 +513,7 @@
 	[Zombie."Digger Zombie"]
 		#Chance for a Zombie to spawn with the digger ability
 		#Range: 0.0 ~ 1.0
-		"Digger Chance" = 0.07
+		"Digger Chance" = 0.0
 		#Zombies with Digger AI will mine only if they have any tool in the off-hand
 		"Digger Tool Only" = false
 		#Zombies with Digger AI will mine only if their off-hand tool can mine targeted blocks (e.g. zombies with shovels will not mine stone). Blocks that require no tool (e.g. planks) will be minable regardless of proper tool or not.
