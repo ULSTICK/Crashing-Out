@@ -1,0 +1,925 @@
+{
+  "name": "Under Pressure",
+  "quests": [
+    {
+      "uuid": "0426c2a9-95cc-49a7-a6c6-742dad08b167",
+      "name": {
+        "text": "Tools of the trade",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Pnematiccraft has alot of useful tools and gadgets. While these quests serve as a rough guide. I recommend checking out the pneumaticcraft wiki.",
+        "isTranslationKey": false
+      },
+      "x": 106,
+      "y": 161,
+      "icon": {
+        "id": "pneumaticcraft:pneumatic_wrench",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "hardcorequesting:detect",
+          "description": {
+            "text": "Charging",
+            "isTranslationKey": false
+          },
+          "longDescription": {
+            "text": "A lot of Pneumaticcraft gadgets require charging with compressed air before they can be used. Do realize the charging station balances air pressure between the item being charged and the rest of the system. If the tool has more bars of pressure than the rest of the air pressure network it will actually discharge. ",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "pneumaticcraft:charging_station",
+                "Count": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "hardcorequesting:detect",
+          "description": {
+            "text": "Pneumatic Wrench",
+            "isTranslationKey": false
+          },
+          "longDescription": {
+            "text": "Allows the rotation of placed Pneumaticcraft blocks as well as a few other useful functions. Must be charged in a charging station.",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "pneumaticcraft:pneumatic_wrench",
+                "Count": 1
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "hardcorequesting:detect",
+          "description": {
+            "text": "GPS Tool",
+            "isTranslationKey": false
+          },
+          "longDescription": {
+            "text": "Right click on a block to set the GPS tool to those coordinates. Right click in the air to modify set coodinates. DO NOT right click in the air BEFORE setting the GPS Tool to any coordinates, the game WILL crash. The GPS Tool is used to set a location for several other gadgets. Does not need charging.",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "pneumaticcraft:gps_tool",
+                "Count": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "hardcorequesting:detect",
+          "description": {
+            "text": "Air Cannon",
+            "isTranslationKey": false
+          },
+          "longDescription": {
+            "text": "The Air Cannon will fire an item to a specific set of coordinates. Placing a GPS Tool with the proper location will lock the cannon on target, the GPS Tool can then be removed. By default a redstone signal, from a lever for instance, will cause the Cannon to fire. It could be useful for long range item transport or, with the proper upgrade, as a weapon.",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "pneumaticcraft:air_cannon",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "0d52820c-7a62-4947-b742-2253063f2b13"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "pneumaticcraft:dispenser_upgrade",
+          "Count": 1
+        },
+        {
+          "id": "pneumaticcraft:printed_circuit_board",
+          "Count": 1
+        },
+        {
+          "id": "pneumaticcraft:item_life_upgrade",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "8fc9c1ac-631c-4c2c-aabc-bb7eeb415c76",
+      "name": {
+        "text": "Even more pressure",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "You may have noticed some machines require even more pressure than an air compressor provides. Well heres the answer.",
+        "isTranslationKey": false
+      },
+      "x": 134,
+      "y": 161,
+      "icon": {
+        "id": "pneumaticcraft:advanced_air_compressor",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "hardcorequesting:detect",
+          "description": {
+            "text": "Advanced Compressor",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "pneumaticcraft:advanced_air_compressor",
+                "Count": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "hardcorequesting:detect",
+          "description": {
+            "text": "Advanced Pressure Tube",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "pneumaticcraft:advanced_pressure_tube",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "0d52820c-7a62-4947-b742-2253063f2b13",
+        "0426c2a9-95cc-49a7-a6c6-742dad08b167"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "thermal:energy_cell_frame",
+          "Count": 1
+        },
+        {
+          "id": "thermal:energy_duct",
+          "Count": 6
+        },
+        {
+          "id": "minecraft:redstone",
+          "Count": 16
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "9b956bee-4f0e-4a17-8e06-d895c78c171c",
+      "name": {
+        "text": "Upgrades",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Alot of pneumaticcraft machines can have upgrades installed.",
+        "isTranslationKey": false
+      },
+      "x": 77,
+      "y": 162,
+      "icon": {
+        "id": "pneumaticcraft:speed_upgrade",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "hardcorequesting:detect",
+          "items": [
+            {
+              "item": {
+                "id": "pneumaticcraft:speed_upgrade",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "pneumaticcraft:security_upgrade",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "pneumaticcraft:item_life_upgrade",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "0d52820c-7a62-4947-b742-2253063f2b13"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "pneumaticcraft:speed_upgrade",
+          "Count": 2
+        },
+        {
+          "id": "pneumaticcraft:search_upgrade",
+          "Count": 1
+        },
+        {
+          "id": "pneumaticcraft:range_upgrade",
+          "Count": 1
+        },
+        {
+          "id": "pneumaticcraft:dispenser_upgrade",
+          "Count": 1
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "0d52820c-7a62-4947-b742-2253063f2b13",
+      "name": {
+        "text": "Etching",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Now that you have an empty PCB you need to make an etching tank",
+        "isTranslationKey": false
+      },
+      "x": 106,
+      "y": 131,
+      "icon": {
+        "id": "pneumaticcraft:etching_tank",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "hardcorequesting:detect",
+          "description": {
+            "text": "Etching tank",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "pneumaticcraft:etching_tank",
+                "Count": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "hardcorequesting:detect",
+          "description": {
+            "text": "Etching fluid",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "pneumaticcraft:etching_acid_bucket",
+                "Count": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "hardcorequesting:detect",
+          "description": {
+            "text": "Unassembled",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "pneumaticcraft:unassembled_pcb",
+                "Count": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "hardcorequesting:detect",
+          "description": {
+            "text": "Printed pcb",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "pneumaticcraft:printed_circuit_board",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "f240d7c3-3352-4648-9fd2-d545cb85aef8"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "pneumaticcraft:plastic",
+          "Count": 1
+        },
+        {
+          "id": "pneumaticcraft:printed_circuit_board",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "6643e8c9-2e0b-4520-830c-1086a04489c4",
+      "name": {
+        "text": "Blueprint for success",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "The next step to make pcbs will have you making a blueprint.",
+        "isTranslationKey": false
+      },
+      "x": 141,
+      "y": 102,
+      "icon": {
+        "id": "pneumaticcraft:plastic",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "hardcorequesting:detect",
+          "items": [
+            {
+              "item": {
+                "id": "pneumaticcraft:plastic",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "minecraft:emerald",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "pneumaticcraft:etching_acid_bucket",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "pneumaticcraft:ingot_iron_compressed",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "3e4732d9-29f9-493b-83fb-96af85b5390d"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:bucket",
+          "Count": 1
+        },
+        {
+          "id": "pneumaticcraft:pcb_blueprint",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "7ddff832-1aee-4299-bb6e-570e437fc74a",
+      "name": {
+        "text": "Assembling Circuit Boards",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Making a pcb by hand is laborius task, not to mention time consuming. ",
+        "isTranslationKey": false
+      },
+      "x": 178,
+      "y": 20,
+      "icon": {
+        "id": "pneumaticcraft:assembly_controller",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "hardcorequesting:detect",
+          "description": {
+            "text": "Assembly line",
+            "isTranslationKey": false
+          },
+          "longDescription": {
+            "text": "Layout the machines in a square. The two io units at the top left and right. The laser goes on the bottom left and to the right. Place a chest on the north side of either io unit.",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "pneumaticcraft:assembly_controller",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "pneumaticcraft:assembly_io_unit_export",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "pneumaticcraft:assembly_io_unit_export",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "pneumaticcraft:assembly_laser",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "pneumaticcraft:assembly_platform",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "9b956bee-4f0e-4a17-8e06-d895c78c171c"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "pneumaticcraft:assembly_program_laser",
+          "Count": 1
+        },
+        {
+          "id": "pneumaticcraft:ingot_iron_compressed",
+          "Count": 16
+        },
+        {
+          "id": "minecraft:redstone",
+          "Count": 16
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "3e4732d9-29f9-493b-83fb-96af85b5390d",
+      "name": {
+        "text": "Air chamber",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "So, now that we are generating air, what should you make? You can check JEI for the recipies.",
+        "isTranslationKey": false
+      },
+      "x": 106,
+      "y": 76,
+      "icon": {
+        "id": "pneumaticcraft:pressure_chamber_wall",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "hardcorequesting:detect",
+          "description": {
+            "text": "Building it up",
+            "isTranslationKey": false
+          },
+          "longDescription": {
+            "text": "Youll start with a 3x3 pressure chamber. You will need 25 pressure chamber blocks in total. Pressure walls or windows will work. You will alos need a pressure chamber valve. Simply build a 3x3 cube leaving the center block open. The pressure chamber valve MUST connect to the air block in the center.",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "pneumaticcraft:pressure_chamber_wall",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "pneumaticcraft:pressure_chamber_valve",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "pneumaticcraft:pressure_chamber_glass",
+                "Count": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "hardcorequesting:detect",
+          "description": {
+            "text": "Hard work pays off",
+            "isTranslationKey": false
+          },
+          "longDescription": {
+            "text": "To use your pressure chamber, Break one of the center blocks and toss whatever you want to proccess into the middle and replace the block. You will lose some air doing this however later on you can stop this.",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "pneumaticcraft:plastic",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "pneumaticcraft:ingot_iron_compressed",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "794f0a0c-359a-442f-87a2-217b2aeae130"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "thermal:redstone_servo",
+          "Count": 4
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "pneumaticcraft:speed_upgrade",
+          "Count": 2
+        },
+        {
+          "id": "pneumaticcraft:plastic",
+          "Count": 4
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "f240d7c3-3352-4648-9fd2-d545cb85aef8",
+      "name": {
+        "text": "Exposure",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "No wwe have gotten this far, we can get started on the foundation of all technological progression. The PCB. To start, you simply need to toss a compressed iron and place a green plastic in the pressure chamber.",
+        "isTranslationKey": false
+      },
+      "x": 106,
+      "y": 102,
+      "icon": {
+        "id": "pneumaticcraft:uv_light_box",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "hardcorequesting:detect",
+          "description": {
+            "text": "Step 1",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "pneumaticcraft:empty_pcb",
+                "Count": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "hardcorequesting:detect",
+          "description": {
+            "text": "Step 2",
+            "isTranslationKey": false
+          },
+          "longDescription": {
+            "text": "Next up, toss the empty PCB into a UV light box. Then you simply have to wait. While you can pull the PCB out before it fully processes, there is a chance it will fail the last step, the etching. If you don\u0027t like the long wait, you may wish to install a few speed upgrades in the light box.",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "pneumaticcraft:empty_pcb",
+                "Count": 1,
+                "tag": "{\"pneumaticcraft:uv_exposure\":100}"
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "3e4732d9-29f9-493b-83fb-96af85b5390d"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "pneumaticcraft:capacitor",
+          "Count": 3
+        },
+        {
+          "id": "pneumaticcraft:transistor",
+          "Count": 3
+        },
+        {
+          "id": "pneumaticcraft:ingot_iron_compressed",
+          "Count": 8
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "794f0a0c-359a-442f-87a2-217b2aeae130",
+      "name": {
+        "text": "Heating up",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Now that you have compressed Iron you can start building your air chamber",
+        "isTranslationKey": false
+      },
+      "x": 106,
+      "y": 48,
+      "icon": {
+        "id": "pneumaticcraft:pressure_tube",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "hardcorequesting:detect",
+          "description": {
+            "text": "Pressure Tube",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "pneumaticcraft:pressure_tube",
+                "Count": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "hardcorequesting:detect",
+          "description": {
+            "text": "Air compression",
+            "isTranslationKey": false
+          },
+          "longDescription": {
+            "text": "Compressed air is dangerous! Becareful not to overload the compressor with fuel otherwise you risk an explosion",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "pneumaticcraft:air_compressor",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "d7f59dff-62b2-426b-a5eb-a27f6bd4a4cb"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "pneumaticcraft:pressure_tube",
+          "Count": 4
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "pneumaticcraft:pressure_gauge",
+          "Count": 1
+        },
+        {
+          "id": "hardcorequesting:good_bag",
+          "Count": 1
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "d7f59dff-62b2-426b-a5eb-a27f6bd4a4cb",
+      "name": {
+        "text": "Exploding Iron",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Now that youve stablized your self and created a foot hold on this planet its time to start working on the technology needed to survive.",
+        "isTranslationKey": false
+      },
+      "x": 106,
+      "y": 21,
+      "icon": {
+        "id": "minecraft:iron_ingot",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "hardcorequesting:detect",
+          "description": {
+            "text": "Step 1",
+            "isTranslationKey": false
+          },
+          "longDescription": {
+            "text": "Gather your iron ingots",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:iron_ingot",
+                "Count": 1
+              },
+              "required": 8
+            }
+          ]
+        },
+        {
+          "type": "hardcorequesting:detect",
+          "description": {
+            "text": "Step 2",
+            "isTranslationKey": false
+          },
+          "longDescription": {
+            "text": "Next youll need some TNT. You should have some by now, You can get sand by using the hammer on cobble stone, turning it into gravel, hitting it again will turn it into sand.",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:tnt",
+                "Count": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "hardcorequesting:detect",
+          "description": {
+            "text": "Step 3",
+            "isTranslationKey": false
+          },
+          "longDescription": {
+            "text": "If I was you I would move away from your base before setting this up. You will need to dig a hole, throw your iron ingots into it, and ignite your tnt ontop of it. When the dust settles you should have some compressed iron. However due to the explosion some iron seems to have been destroyed.",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "pneumaticcraft:ingot_iron_compressed",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "pneumaticcraft:ingot_iron_compressed",
+          "Count": 16
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "e8919b5b-fd58-4907-bcde-3d9e39bba7b7",
+      "name": {
+        "text": "Measuring Pressure",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "A pressure gauge will help messure the amount of pressure inside of your air chamber. It will also emit a redstone single double of what it detects.",
+        "isTranslationKey": false
+      },
+      "x": 71,
+      "y": 48,
+      "icon": {
+        "id": "pneumaticcraft:pressure_gauge_module",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "hardcorequesting:detect",
+          "description": {
+            "text": "Air Gauge",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "pneumaticcraft:pressure_gauge_module",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "794f0a0c-359a-442f-87a2-217b2aeae130"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "c86b6b2b-d725-4e92-8635-06b915d4f234",
+      "name": {
+        "text": "Losing Air",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Having to break a block every time you want to put in or take out an item in the pressure chamber wastes air pressure.",
+        "isTranslationKey": false
+      },
+      "x": 71,
+      "y": 76,
+      "icon": {
+        "id": "pneumaticcraft:pressure_chamber_interface",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "hardcorequesting:detect",
+          "items": [
+            {
+              "item": {
+                "id": "pneumaticcraft:pressure_chamber_interface",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "3e4732d9-29f9-493b-83fb-96af85b5390d"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "hardcorequesting:good_bag",
+          "Count": 1
+        },
+        {
+          "id": "thermal:redstone_servo",
+          "Count": 1
+        },
+        {
+          "id": "pipez:item_pipe",
+          "Count": 4
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    }
+  ],
+  "reputationBar": [],
+  "description": {
+    "text": "Pneumaticcraft is responsible for most of the technology on your ship. Guess its time for you to learn how to use it.",
+    "isTranslationKey": false
+  }
+}
