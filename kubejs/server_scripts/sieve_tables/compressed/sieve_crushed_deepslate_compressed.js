@@ -1,26 +1,32 @@
 ServerEvents.recipes(event => {
 
-    const add_sieve = function(input, output, chance){
+    const add_sieve = function(input, output, chance, mesh_tier, multip){
         event.custom({
-            "type": "exdeorum:sieve",
+            "type": "exdeorum:compressed_sieve",
             "ingredient": {
                 "item": input
             },
-            "mesh": "exdeorum:string_mesh",
+            "mesh": mesh_tier,
             "result": output,
             "result_amount": {
                 "type": "minecraft:binomial",
-                "n": 1.0,
-                "p": chance
+                "n": 3.0,
+                "p": chance * multip
             }
         });
     };
 
     // ========= dust =========
 
-    const gravel_results = {
+    const crushed_deepslate_results = {
         'exdeorum:deepslate_pebble': 0.25,
+        'exdeorum:stone_pebble': 0.25,
+        'exdeorum:diorite_pebble': 0.25,
+        'exdeorum:granite_pebble': 0.25,
         'exdeorum:andesite_pebble': 0.25,
+        'exdeorum:deepslate_pebble': 0.25,
+        'exdeorum:tuff_pebble': 0.25,
+        'exdeorum:calcite_pebble': 0.25,
         'minecraft:flint': 0.25,
         'exdeorum:iron_ore_chunk': 0.25,
         'exdeorum:copper_ore_chunk': 0.14,
@@ -36,11 +42,21 @@ ServerEvents.recipes(event => {
         'minecraft:coal': 0.13,
         'minecraft:diamond': 0.01,
         'minecraft:emerald': 0.01
-
     };
 
-    for (const [output, chance] of Object.entries(gravel_results)) {
-        add_sieve('minecraft:gravel', output, chance);
+    const mesh = {
+        'exdeorum:string_mesh': 1,
+        'exdeorum:flint_mesh': 1.2,
+        'exdeorum:iron_mesh': 1.4,
+        'exdeorum:golden_mesh': 1.6,
+        'exdeorum:diamond_mesh': 1.8,
+        'exdeorum:netherite_mesh': 2.0
+    };
+
+    for (const [output, chance] of Object.entries(crushed_deepslate_results)) {
+        for (const [mesh_tier, multip] of Object.entries(mesh)) {
+        add_sieve('exdeorum:compressed_crushed_deepslate', output, chance, mesh_tier, multip);
+        }
     }
     
 });

@@ -6,6 +6,7 @@ ServerEvents.recipes(event => {
     event.remove({ output: 'thirstcanteen:military_bottle' });
     event.remove({ output: 'thirstcanteen:dragon_bottle' });
     event.remove({ output: 'exdeorum:end_cake' });
+    event.remove({ output: 'thermal:dynamo_magmatic' });
     event.remove({ type: 'exdeorum:compressed_sieve' })
 
     exdeorum.removeDefaultSieveRecipes(event);

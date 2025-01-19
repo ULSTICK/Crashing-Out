@@ -2,15 +2,15 @@ ServerEvents.recipes(event => {
 
     const add_sieve = function(input, output, chance){
         event.custom({
-            "type": "exdeorum:compressed_sieve",
+            "type": "exdeorum:sieve",
             "ingredient": {
                 "item": input
             },
-            "mesh": "exdeorum:string_mesh",
+            "mesh": 'exdeorum:string_mesh',
             "result": output,
             "result_amount": {
                 "type": "minecraft:binomial",
-                "n": 3.0,
+                "n": 1.0,
                 "p": chance
             }
         });
@@ -45,7 +45,7 @@ ServerEvents.recipes(event => {
     };
 
     for (const [output, chance] of Object.entries(crushed_deepslate_results)) {
-        add_sieve('exdeorum:compressed_crushed_deepslate', output, chance);
+        add_sieve('exdeorum:crushed_deepslate', output, chance);
     }
     
 });

@@ -1,17 +1,17 @@
 ServerEvents.recipes(event => {
 
-    const add_sieve = function(input, output, chance){
+    const add_sieve = function(input, output, chance, mesh_tier, multip){
         event.custom({
             "type": "exdeorum:compressed_sieve",
             "ingredient": {
                 "item": input
             },
-            "mesh": "exdeorum:string_mesh",
+            "mesh": mesh_tier,
             "result": output,
             "result_amount": {
                 "type": "minecraft:binomial",
                 "n": 3.0,
-                "p": chance
+                "p": chance * multip
             }
         });
     };
@@ -33,8 +33,19 @@ ServerEvents.recipes(event => {
         'minecraft:spruce_sapling':0.01
     };
 
+    const mesh = {
+        'exdeorum:string_mesh': 1,
+        'exdeorum:flint_mesh': 1.2,
+        'exdeorum:iron_mesh': 1.4,
+        'exdeorum:golden_mesh': 1.6,
+        'exdeorum:diamond_mesh': 1.8,
+        'exdeorum:netherite_mesh': 2.0
+    };
+
     for (const [output, chance] of Object.entries(dirt_results)) {
-        add_sieve('exdeorum:compressed_dirt', output, chance);
+        for (const [mesh_tier, multip] of Object.entries(mesh)) {
+        add_sieve('exdeorum:compressed_dirt', output, chance, mesh_tier, multip);
+        }
     }
     
 });
