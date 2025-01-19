@@ -451,121 +451,6 @@
       "commandrewards": []
     },
     {
-      "uuid": "3c8b89b6-0ec3-4376-9e84-41cf0345e55d",
-      "name": {
-        "text": "Killing time",
-        "isTranslationKey": false
-      },
-      "description": {
-        "text": "Congrats on slaying those mosnters",
-        "isTranslationKey": false
-      },
-      "x": 59,
-      "y": 16,
-      "icon": {
-        "id": "minecraft:zombie_spawn_egg",
-        "Count": 1
-      },
-      "tasks": [
-        {
-          "type": "hardcorequesting:kill",
-          "mobs": [
-            {
-              "name": {
-                "text": "New",
-                "isTranslationKey": false
-              },
-              "icon": {
-                "id": "minecraft:zombie_spawn_egg",
-                "Count": 1
-              },
-              "mob": "minecraft:zombie",
-              "kills": 50
-            }
-          ]
-        }
-      ],
-      "prerequisites": [
-        "0bdfc96b-6b5e-4f8f-932f-bda70b2114d7"
-      ],
-      "optionlinks": [],
-      "reward": [],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
-      "uuid": "7ee731c2-da61-4aab-a5fa-864fc4b62277",
-      "name": {
-        "text": "The Easy Route",
-        "isTranslationKey": false
-      },
-      "description": {
-        "text": "For an easier experience, this is the way. Note: Choosing this path disables the hard route quest.",
-        "isTranslationKey": false
-      },
-      "x": 184,
-      "y": 32,
-      "icon": {
-        "id": "thermal:pbj_sandwich",
-        "Count": 1
-      },
-      "tasks": [
-        {
-          "type": "hardcorequesting:consume",
-          "description": {
-            "text": "Grab some dust!",
-            "isTranslationKey": false
-          },
-          "items": [
-            {
-              "item": {
-                "id": "exdeorum:dust",
-                "Count": 1
-              }
-            }
-          ]
-        }
-      ],
-      "prerequisites": [
-        "feb164b4-e0bf-48e0-aaec-b8bb1118c3b8"
-      ],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "minecraft:oak_sapling",
-          "Count": 1
-        },
-        {
-          "id": "minecraft:lever",
-          "Count": 1
-        },
-        {
-          "id": "pneumaticcraft:gun_ammo",
-          "Count": 2,
-          "tag": "{Damage:0}"
-        },
-        {
-          "id": "minecraft:bone_meal",
-          "Count": 64
-        },
-        {
-          "id": "sync:shell_storage",
-          "Count": 1
-        },
-        {
-          "id": "sync:shell_constructor",
-          "Count": 1
-        },
-        {
-          "id": "thermal:energy_cell",
-          "Count": 1,
-          "tag": "{BlockEntityTag:{AmountIn:1000,AmountOut:1000,Energy:1000000,EnergyMax:1000000,EnergyRecv:1000,EnergySend:1000,RSControl:{RSMode:0b,RSThreshold:0b},Sides:[B;0B,0B,0B,0B,0B,1B],Xfer:{XferIn:1b,XferOut:1b}},Properties:{}}"
-        }
-      ],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
       "uuid": "0bdfc96b-6b5e-4f8f-932f-bda70b2114d7",
       "name": {
         "text": "Monster Mash",
@@ -692,6 +577,121 @@
           "tag": "{Material:\"tconstruct:copper\"}"
         }
       ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "7ee731c2-da61-4aab-a5fa-864fc4b62277",
+      "name": {
+        "text": "The Easy Route",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "For an easier experience, this is the way. Note: Choosing this path disables the hard route quest.",
+        "isTranslationKey": false
+      },
+      "x": 184,
+      "y": 32,
+      "icon": {
+        "id": "thermal:pbj_sandwich",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "hardcorequesting:consume",
+          "description": {
+            "text": "Grab some dust!",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "exdeorum:dust",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "feb164b4-e0bf-48e0-aaec-b8bb1118c3b8"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:oak_sapling",
+          "Count": 1
+        },
+        {
+          "id": "minecraft:lever",
+          "Count": 1
+        },
+        {
+          "id": "pneumaticcraft:gun_ammo",
+          "Count": 2,
+          "tag": "{Damage:0}"
+        },
+        {
+          "id": "minecraft:bone_meal",
+          "Count": 64
+        },
+        {
+          "id": "sync:shell_storage",
+          "Count": 1
+        },
+        {
+          "id": "sync:shell_constructor",
+          "Count": 1
+        },
+        {
+          "id": "thermal:energy_cell",
+          "Count": 1,
+          "tag": "{BlockEntityTag:{AmountIn:1000,AmountOut:1000,Energy:1000000,EnergyMax:1000000,EnergyRecv:1000,EnergySend:1000,RSControl:{RSMode:0b,RSThreshold:0b},Sides:[B;0B,0B,0B,0B,0B,1B],Xfer:{XferIn:1b,XferOut:1b}},Properties:{}}"
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "3c8b89b6-0ec3-4376-9e84-41cf0345e55d",
+      "name": {
+        "text": "Killing time",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Congrats on slaying those mosnters",
+        "isTranslationKey": false
+      },
+      "x": 59,
+      "y": 16,
+      "icon": {
+        "id": "minecraft:zombie_spawn_egg",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "hardcorequesting:kill",
+          "mobs": [
+            {
+              "name": {
+                "text": "New",
+                "isTranslationKey": false
+              },
+              "icon": {
+                "id": "minecraft:zombie_spawn_egg",
+                "Count": 1
+              },
+              "mob": "minecraft:zombie",
+              "kills": 50
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "0bdfc96b-6b5e-4f8f-932f-bda70b2114d7"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
       "commandrewards": []
     },
     {
@@ -972,10 +972,9 @@
             },
             {
               "item": {
-                "id": "thermal:machine_bottler",
+                "id": "pneumaticcraft:small_tank",
                 "Count": 1
-              },
-              "precision": "FUZZY"
+              }
             }
           ]
         }
