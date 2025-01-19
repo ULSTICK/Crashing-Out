@@ -13,7 +13,8 @@
     {
       "item": "minecraft:potion",
       "nbt": {
-        "Potion": "minecraft:water"
+        "Potion": "minecraft:water",
+        "Purity": "3"
       }
     }
   ]
