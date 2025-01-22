@@ -981,7 +981,7 @@
           {
             "id": "tconstruct:battlesign",
             "Count": 1,
-            "tag": "{Damage:0,tic_broken:0b,tic_materials:[\"tconstruct:wood\",\"tconstruct:copper\"],tic_modifiers:[{level:1,name:\"tconstruct:cultivated\"},{level:1,name:\"tconstruct:depth_protection\"},{level:1,name:\"tconstruct:bonking\"},{level:1,name:\"tconstruct:knockback\"},{level:1,name:\"tconstruct:blocking\"}],tic_persistent:{},tic_stats:{\"tconstruct:attack_damage\":2.0f,\"tconstruct:attack_speed\":1.2f,\"tconstruct:block_amount\":50.0f,\"tconstruct:durability\":294.0f},tic_volatile_data:{abilities:1,defense:3}}"
+            "tag": "{Damage:0,tic_broken:0b,tic_materials:[\"tconstruct:wood\",\"tconstruct:copper\"],tic_modifiers:[{level:1,name:\"tconstruct:cultivated\"},{level:1,name:\"tconstruct:depth_protection\"},{level:1,name:\"tconstruct:bonking\"},{level:1,name:\"tconstruct:knockback\"},{level:1,name:\"tconstruct:blocking\"}],tic_persistent:{},tic_stats:{\"tconstruct:attack_damage\":2.0f,\"tconstruct:attack_speed\":1.2f,\"tconstruct:block_amount\":50.0f,\"tconstruct:durability\":294.0f,\"tconstruct:mining_speed\":2.0f},tic_volatile_data:{abilities:1,defense:3}}"
           }
         ]
       }
@@ -1012,22 +1012,22 @@
           {
             "id": "tconstruct:plate_helmet",
             "Count": 1,
-            "tag": "{Damage:0,Insulation:[],tic_broken:0b,tic_materials:[\"tconstruct:steel\",\"tconstruct:steel\"],tic_modifiers:[{level:2,name:\"tconstruct:ductile\"}],tic_persistent:{},tic_stats:{\"tconstruct:armor\":2.0f,\"tconstruct:armor_toughness\":4.0f,\"tconstruct:durability\":344.52002f},tic_volatile_data:{defense:3,upgrades:2}}"
+            "tag": "{Damage:0,Insulation:[],tic_broken:0b,tic_materials:[\"tconstruct:steel\",\"tconstruct:steel\"],tic_modifiers:[{level:2,name:\"tconstruct:ductile\"}],tic_persistent:{},tic_stats:{\"tconstruct:armor\":2.0f,\"tconstruct:armor_toughness\":4.0f,\"tconstruct:durability\":344.52002f,\"tconstruct:mining_speed\":1.08f,\"tconstruct:projectile_damage\":2.12f,\"tconstruct:velocity\":1.06f},tic_volatile_data:{defense:3,upgrades:2}}"
           },
           {
             "id": "tconstruct:plate_chestplate",
             "Count": 1,
-            "tag": "{Damage:0,tic_broken:0b,tic_materials:[\"tconstruct:steel\",\"tconstruct:steel\"],tic_modifiers:[{level:2,name:\"tconstruct:ductile\"}],tic_multipliers:{\"tconstruct:attack_damage\":0.4f},tic_persistent:{},tic_stats:{\"tconstruct:armor\":7.0f,\"tconstruct:armor_toughness\":4.0f,\"tconstruct:durability\":501.12003f},tic_volatile_data:{defense:3,upgrades:2}}"
+            "tag": "{Damage:0,tic_broken:0b,tic_materials:[\"tconstruct:steel\",\"tconstruct:steel\"],tic_modifiers:[{level:2,name:\"tconstruct:ductile\"}],tic_multipliers:{\"tconstruct:attack_damage\":0.4f},tic_persistent:{},tic_stats:{\"tconstruct:armor\":7.0f,\"tconstruct:armor_toughness\":4.0f,\"tconstruct:durability\":501.12003f,\"tconstruct:mining_speed\":1.08f,\"tconstruct:projectile_damage\":2.12f,\"tconstruct:velocity\":1.06f},tic_volatile_data:{defense:3,upgrades:2}}"
           },
           {
             "id": "tconstruct:plate_leggings",
             "Count": 1,
-            "tag": "{Damage:0,tic_broken:0b,tic_materials:[\"tconstruct:steel\",\"tconstruct:steel\"],tic_modifiers:[{level:2,name:\"tconstruct:ductile\"}],tic_persistent:{},tic_stats:{\"tconstruct:armor\":5.0f,\"tconstruct:armor_toughness\":4.0f,\"tconstruct:durability\":469.80002f},tic_volatile_data:{defense:3,upgrades:2}}"
+            "tag": "{Damage:0,tic_broken:0b,tic_materials:[\"tconstruct:steel\",\"tconstruct:steel\"],tic_modifiers:[{level:2,name:\"tconstruct:ductile\"}],tic_persistent:{},tic_stats:{\"tconstruct:armor\":5.0f,\"tconstruct:armor_toughness\":4.0f,\"tconstruct:durability\":469.80002f,\"tconstruct:mining_speed\":1.08f,\"tconstruct:projectile_damage\":2.12f,\"tconstruct:velocity\":1.06f},tic_volatile_data:{defense:3,upgrades:2}}"
           },
           {
             "id": "tconstruct:plate_boots",
             "Count": 1,
-            "tag": "{Damage:0,Insulation:[],tic_broken:0b,tic_materials:[\"tconstruct:steel\",\"tconstruct:steel\"],tic_modifiers:[{level:2,name:\"tconstruct:ductile\"}],tic_persistent:{},tic_stats:{\"tconstruct:armor\":2.0f,\"tconstruct:armor_toughness\":4.0f,\"tconstruct:durability\":407.16f},tic_volatile_data:{defense:3,upgrades:2}}"
+            "tag": "{Damage:0,Insulation:[],tic_broken:0b,tic_materials:[\"tconstruct:steel\",\"tconstruct:steel\"],tic_modifiers:[{level:2,name:\"tconstruct:ductile\"}],tic_persistent:{},tic_stats:{\"tconstruct:armor\":2.0f,\"tconstruct:armor_toughness\":4.0f,\"tconstruct:durability\":407.16f,\"tconstruct:mining_speed\":1.08f,\"tconstruct:projectile_damage\":2.12f,\"tconstruct:velocity\":1.06f},tic_volatile_data:{defense:3,upgrades:2}}"
           }
         ]
       },

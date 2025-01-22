@@ -451,6 +451,121 @@
       "commandrewards": []
     },
     {
+      "uuid": "3c8b89b6-0ec3-4376-9e84-41cf0345e55d",
+      "name": {
+        "text": "Killing time",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Congrats on slaying those mosnters",
+        "isTranslationKey": false
+      },
+      "x": 59,
+      "y": 16,
+      "icon": {
+        "id": "minecraft:zombie_spawn_egg",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "hardcorequesting:kill",
+          "mobs": [
+            {
+              "name": {
+                "text": "New",
+                "isTranslationKey": false
+              },
+              "icon": {
+                "id": "minecraft:zombie_spawn_egg",
+                "Count": 1
+              },
+              "mob": "minecraft:zombie",
+              "kills": 50
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "0bdfc96b-6b5e-4f8f-932f-bda70b2114d7"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "7ee731c2-da61-4aab-a5fa-864fc4b62277",
+      "name": {
+        "text": "The Easy Route",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "For an easier experience, this is the way. Note: Choosing this path disables the hard route quest.",
+        "isTranslationKey": false
+      },
+      "x": 184,
+      "y": 32,
+      "icon": {
+        "id": "thermal:pbj_sandwich",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "hardcorequesting:consume",
+          "description": {
+            "text": "Grab some dust!",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "exdeorum:dust",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "feb164b4-e0bf-48e0-aaec-b8bb1118c3b8"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:oak_sapling",
+          "Count": 1
+        },
+        {
+          "id": "minecraft:lever",
+          "Count": 1
+        },
+        {
+          "id": "pneumaticcraft:gun_ammo",
+          "Count": 2,
+          "tag": "{Damage:0}"
+        },
+        {
+          "id": "minecraft:bone_meal",
+          "Count": 64
+        },
+        {
+          "id": "sync:shell_storage",
+          "Count": 1
+        },
+        {
+          "id": "sync:shell_constructor",
+          "Count": 1
+        },
+        {
+          "id": "thermal:energy_cell",
+          "Count": 1,
+          "tag": "{BlockEntityTag:{AmountIn:1000,AmountOut:1000,Energy:1000000,EnergyMax:1000000,EnergyRecv:1000,EnergySend:1000,RSControl:{RSMode:0b,RSThreshold:0b},Sides:[B;0B,0B,0B,0B,0B,1B],Xfer:{XferIn:1b,XferOut:1b}},Properties:{}}"
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
       "uuid": "0bdfc96b-6b5e-4f8f-932f-bda70b2114d7",
       "name": {
         "text": "Monster Mash",
@@ -577,121 +692,6 @@
           "tag": "{Material:\"tconstruct:copper\"}"
         }
       ],
-      "commandrewards": []
-    },
-    {
-      "uuid": "7ee731c2-da61-4aab-a5fa-864fc4b62277",
-      "name": {
-        "text": "The Easy Route",
-        "isTranslationKey": false
-      },
-      "description": {
-        "text": "For an easier experience, this is the way. Note: Choosing this path disables the hard route quest.",
-        "isTranslationKey": false
-      },
-      "x": 184,
-      "y": 32,
-      "icon": {
-        "id": "thermal:pbj_sandwich",
-        "Count": 1
-      },
-      "tasks": [
-        {
-          "type": "hardcorequesting:consume",
-          "description": {
-            "text": "Grab some dust!",
-            "isTranslationKey": false
-          },
-          "items": [
-            {
-              "item": {
-                "id": "exdeorum:dust",
-                "Count": 1
-              }
-            }
-          ]
-        }
-      ],
-      "prerequisites": [
-        "feb164b4-e0bf-48e0-aaec-b8bb1118c3b8"
-      ],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "minecraft:oak_sapling",
-          "Count": 1
-        },
-        {
-          "id": "minecraft:lever",
-          "Count": 1
-        },
-        {
-          "id": "pneumaticcraft:gun_ammo",
-          "Count": 2,
-          "tag": "{Damage:0}"
-        },
-        {
-          "id": "minecraft:bone_meal",
-          "Count": 64
-        },
-        {
-          "id": "sync:shell_storage",
-          "Count": 1
-        },
-        {
-          "id": "sync:shell_constructor",
-          "Count": 1
-        },
-        {
-          "id": "thermal:energy_cell",
-          "Count": 1,
-          "tag": "{BlockEntityTag:{AmountIn:1000,AmountOut:1000,Energy:1000000,EnergyMax:1000000,EnergyRecv:1000,EnergySend:1000,RSControl:{RSMode:0b,RSThreshold:0b},Sides:[B;0B,0B,0B,0B,0B,1B],Xfer:{XferIn:1b,XferOut:1b}},Properties:{}}"
-        }
-      ],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
-      "uuid": "3c8b89b6-0ec3-4376-9e84-41cf0345e55d",
-      "name": {
-        "text": "Killing time",
-        "isTranslationKey": false
-      },
-      "description": {
-        "text": "Congrats on slaying those mosnters",
-        "isTranslationKey": false
-      },
-      "x": 59,
-      "y": 16,
-      "icon": {
-        "id": "minecraft:zombie_spawn_egg",
-        "Count": 1
-      },
-      "tasks": [
-        {
-          "type": "hardcorequesting:kill",
-          "mobs": [
-            {
-              "name": {
-                "text": "New",
-                "isTranslationKey": false
-              },
-              "icon": {
-                "id": "minecraft:zombie_spawn_egg",
-                "Count": 1
-              },
-              "mob": "minecraft:zombie",
-              "kills": 50
-            }
-          ]
-        }
-      ],
-      "prerequisites": [
-        "0bdfc96b-6b5e-4f8f-932f-bda70b2114d7"
-      ],
-      "optionlinks": [],
-      "reward": [],
-      "rewardchoice": [],
       "commandrewards": []
     },
     {
@@ -1085,7 +1085,8 @@
                 "id": "minecraft:iron_ingot",
                 "Count": 1
               },
-              "required": 4
+              "required": 4,
+              "precision": "FUZZY"
             },
             {
               "item": {
@@ -1103,24 +1104,27 @@
             },
             {
               "item": {
-                "id": "mekanism:ingot_tin",
+                "id": "thermal:tin_ingot",
                 "Count": 1
               },
-              "required": 4
+              "required": 4,
+              "precision": "FUZZY"
             },
             {
               "item": {
                 "id": "thermal:lead_ingot",
                 "Count": 1
               },
-              "required": 4
+              "required": 4,
+              "precision": "FUZZY"
             },
             {
               "item": {
                 "id": "thermal:silver_ingot",
                 "Count": 1
               },
-              "required": 4
+              "required": 4,
+              "precision": "FUZZY"
             }
           ]
         }
@@ -1830,7 +1834,7 @@
         {
           "id": "tconstruct:battlesign",
           "Count": 1,
-          "tag": "{Damage:0,tic_broken:0b,tic_materials:[\"tconstruct:seared_stone\",\"tconstruct:seared_stone\"],tic_modifiers:[{level:1,name:\"tconstruct:searing\"},{level:1,name:\"tconstruct:fire_protection\"},{level:1,name:\"tconstruct:bonking\"},{level:1,name:\"tconstruct:knockback\"},{level:1,name:\"tconstruct:blocking\"}],tic_persistent:{},tic_stats:{\"tconstruct:attack_damage\":3.5f,\"tconstruct:attack_speed\":1.2f,\"tconstruct:block_amount\":50.0f,\"tconstruct:durability\":477.0f,\"tconstruct:knockback_resistance\":0.1f},tic_volatile_data:{abilities:1,defense:3}}"
+          "tag": "{Damage:0,tic_broken:0b,tic_materials:[\"tconstruct:seared_stone\",\"tconstruct:seared_stone\"],tic_modifiers:[{level:1,name:\"tconstruct:searing\"},{level:1,name:\"tconstruct:fire_protection\"},{level:1,name:\"tconstruct:bonking\"},{level:1,name:\"tconstruct:knockback\"},{level:1,name:\"tconstruct:blocking\"}],tic_persistent:{},tic_stats:{\"tconstruct:attack_damage\":3.5f,\"tconstruct:attack_speed\":1.2f,\"tconstruct:block_amount\":50.0f,\"tconstruct:durability\":477.0f,\"tconstruct:harvest_tier\":\"minecraft:iron\",\"tconstruct:knockback_resistance\":0.1f,\"tconstruct:mining_speed\":6.5f},tic_volatile_data:{abilities:1,defense:3}}"
         },
         {
           "id": "thermal:rf_coil",

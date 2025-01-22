@@ -2,7 +2,7 @@
   "type": "thermal:furnace",
   "ingredient": {
     "item": "minecraft:rotten_flesh",
-    "count": 4
+    "count": 1
   },
   "result": {
     "item": "minecraft:leather"
