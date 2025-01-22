@@ -451,17 +451,17 @@
       "commandrewards": []
     },
     {
-      "uuid": "3c8b89b6-0ec3-4376-9e84-41cf0345e55d",
+      "uuid": "0bdfc96b-6b5e-4f8f-932f-bda70b2114d7",
       "name": {
-        "text": "Killing time",
+        "text": "Monster Mash",
         "isTranslationKey": false
       },
       "description": {
-        "text": "Congrats on slaying those mosnters",
+        "text": "Is it just me or does this planet have a lot of undead hostiles. The lack of any life forms baffle me as to how endless they feel.",
         "isTranslationKey": false
       },
-      "x": 59,
-      "y": 16,
+      "x": 127,
+      "y": 101,
       "icon": {
         "id": "minecraft:zombie_spawn_egg",
         "Count": 1
@@ -469,28 +469,114 @@
       "tasks": [
         {
           "type": "hardcorequesting:kill",
+          "description": {
+            "text": "Holding out for a hero...",
+            "isTranslationKey": false
+          },
           "mobs": [
             {
               "name": {
-                "text": "New",
+                "text": "Zombie",
                 "isTranslationKey": false
               },
               "icon": {
                 "id": "minecraft:zombie_spawn_egg",
                 "Count": 1
               },
-              "mob": "minecraft:zombie",
-              "kills": 50
+              "mob": "specialmobs:zombie",
+              "kills": 5
+            },
+            {
+              "name": {
+                "text": "Skeleton",
+                "isTranslationKey": false
+              },
+              "icon": {
+                "id": "minecraft:skeleton_spawn_egg",
+                "Count": 1
+              },
+              "mob": "specialmobs:skeleton",
+              "kills": 5
+            },
+            {
+              "name": {
+                "text": "Spider",
+                "isTranslationKey": false
+              },
+              "icon": {
+                "id": "minecraft:spider_spawn_egg",
+                "Count": 1
+              },
+              "mob": "specialmobs:spider",
+              "kills": 5
+            },
+            {
+              "name": {
+                "text": "Creeper",
+                "isTranslationKey": false
+              },
+              "icon": {
+                "id": "minecraft:creeper_spawn_egg",
+                "Count": 1
+              },
+              "mob": "specialmobs:creeper",
+              "kills": 2
+            }
+          ]
+        },
+        {
+          "type": "hardcorequesting:kill",
+          "description": {
+            "text": "Till the end of the night",
+            "isTranslationKey": false
+          },
+          "mobs": [
+            {
+              "name": {
+                "text": "Enderman",
+                "isTranslationKey": false
+              },
+              "icon": {
+                "id": "minecraft:enderman_spawn_egg",
+                "Count": 1
+              },
+              "mob": "specialmobs:enderman",
+              "kills": 1
             }
           ]
         }
       ],
       "prerequisites": [
-        "0bdfc96b-6b5e-4f8f-932f-bda70b2114d7"
+        "b910ad01-be2f-4928-b33d-6a38353b8b9f"
       ],
       "optionlinks": [],
-      "reward": [],
-      "rewardchoice": [],
+      "reward": [
+        {
+          "id": "extra_food_items:zombie_jerky",
+          "Count": 4
+        },
+        {
+          "id": "pneumaticcraft:gun_ammo",
+          "Count": 1,
+          "tag": "{Damage:0}"
+        },
+        {
+          "id": "minecraft:ender_pearl",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "pneumaticcraft:gun_ammo_ap",
+          "Count": 1,
+          "tag": "{Damage:0}"
+        },
+        {
+          "id": "tconstruct:small_blade",
+          "Count": 1,
+          "tag": "{Material:\"tconstruct:copper\"}"
+        }
+      ],
       "commandrewards": []
     },
     {
@@ -566,17 +652,17 @@
       "commandrewards": []
     },
     {
-      "uuid": "0bdfc96b-6b5e-4f8f-932f-bda70b2114d7",
+      "uuid": "3c8b89b6-0ec3-4376-9e84-41cf0345e55d",
       "name": {
-        "text": "Monster Mash",
+        "text": "Killing time",
         "isTranslationKey": false
       },
       "description": {
-        "text": "Is it just me or does this planet have a lot of undead hostiles. The lack of any life forms baffle me as to how endless they feel.",
+        "text": "Congrats on slaying those mosnters",
         "isTranslationKey": false
       },
-      "x": 127,
-      "y": 101,
+      "x": 59,
+      "y": 16,
       "icon": {
         "id": "minecraft:zombie_spawn_egg",
         "Count": 1
@@ -584,114 +670,28 @@
       "tasks": [
         {
           "type": "hardcorequesting:kill",
-          "description": {
-            "text": "Holding out for a hero...",
-            "isTranslationKey": false
-          },
           "mobs": [
             {
               "name": {
-                "text": "Zombie",
+                "text": "New",
                 "isTranslationKey": false
               },
               "icon": {
                 "id": "minecraft:zombie_spawn_egg",
                 "Count": 1
               },
-              "mob": "minecraft:zombie",
-              "kills": 5
-            },
-            {
-              "name": {
-                "text": "Skeleton",
-                "isTranslationKey": false
-              },
-              "icon": {
-                "id": "minecraft:skeleton_spawn_egg",
-                "Count": 1
-              },
-              "mob": "minecraft:skeleton",
-              "kills": 5
-            },
-            {
-              "name": {
-                "text": "Spider",
-                "isTranslationKey": false
-              },
-              "icon": {
-                "id": "minecraft:spider_spawn_egg",
-                "Count": 1
-              },
-              "mob": "minecraft:spider",
-              "kills": 5
-            },
-            {
-              "name": {
-                "text": "Creeper",
-                "isTranslationKey": false
-              },
-              "icon": {
-                "id": "minecraft:creeper_spawn_egg",
-                "Count": 1
-              },
-              "mob": "minecraft:creeper",
-              "kills": 2
-            }
-          ]
-        },
-        {
-          "type": "hardcorequesting:kill",
-          "description": {
-            "text": "Till the end of the night",
-            "isTranslationKey": false
-          },
-          "mobs": [
-            {
-              "name": {
-                "text": "Enderman",
-                "isTranslationKey": false
-              },
-              "icon": {
-                "id": "minecraft:enderman_spawn_egg",
-                "Count": 1
-              },
-              "mob": "minecraft:enderman",
-              "kills": 1
+              "mob": "specialmobs:zombie",
+              "kills": 50
             }
           ]
         }
       ],
       "prerequisites": [
-        "b910ad01-be2f-4928-b33d-6a38353b8b9f"
+        "0bdfc96b-6b5e-4f8f-932f-bda70b2114d7"
       ],
       "optionlinks": [],
-      "reward": [
-        {
-          "id": "extra_food_items:zombie_jerky",
-          "Count": 4
-        },
-        {
-          "id": "pneumaticcraft:gun_ammo",
-          "Count": 1,
-          "tag": "{Damage:0}"
-        },
-        {
-          "id": "minecraft:ender_pearl",
-          "Count": 1
-        }
-      ],
-      "rewardchoice": [
-        {
-          "id": "pneumaticcraft:gun_ammo_ap",
-          "Count": 1,
-          "tag": "{Damage:0}"
-        },
-        {
-          "id": "tconstruct:small_blade",
-          "Count": 1,
-          "tag": "{Material:\"tconstruct:copper\"}"
-        }
-      ],
+      "reward": [],
+      "rewardchoice": [],
       "commandrewards": []
     },
     {
@@ -773,7 +773,8 @@
                 "id": "minecraft:potion",
                 "Count": 1,
                 "tag": "{Potion:\"minecraft:water\",Purity:3}"
-              }
+              },
+              "precision": "FUZZY"
             }
           ]
         }
@@ -1270,7 +1271,8 @@
                 "id": "minecraft:potion",
                 "Count": 1,
                 "tag": "{Potion:\"minecraft:water\",Purity:3}"
-              }
+              },
+              "precision": "FUZZY"
             }
           ]
         }
@@ -1705,7 +1707,8 @@
                 "Count": 1,
                 "tag": "{Potion:\"minecraft:water\"}"
               },
-              "required": 10
+              "required": 10,
+              "precision": "FUZZY"
             }
           ]
         }
