@@ -1,0 +1,57 @@
+/* ServerEvents.recipes(event => {
+    const increment_water = function(canteenInput, waterInput, output) {
+  event.shapeless(output, [
+
+        canteenInput,
+        waterInput.strongNBT()
+
+      ]).replaceIngredient('minecraft:potion', 'minecraft:glass_bottle').modifyResult((grid, result) => {
+        let canteen = grid.findAll(Ingredient.of('thirstcanteen:leather_canteen_full'));
+        let bottleCount = 2
+        result.nbt.Damage = canteen.nbt.Damage - bottleCount
+        return result;
+      }
+    ).modifyResult((grid, result) => {
+        let potion = grid.findAll(Ingredient.of('minecraft:potion'));
+        result.nbt.Purity = potion[0].nbt.Purity
+        return result;
+      }
+    )
+}  
+
+filling(
+    // output
+    Item.of('thirstcanteen:leather_canteen_full'),
+    // waterInput
+    Item.of('minecraft:potion', '{Potion:"minecraft:water"}'),
+    // canteenInput
+    Item.of('thirstcanteen:leather_canteen'),
+    // water count
+    2
+)
+
+}) 
+
+.modifyResult((result) => {
+        result.nbt.Purity = 0
+        return result.strongNBT;
+      }
+    )
+*/
+
+ServerEvents.recipes(event => {
+    function incr_water(outDamage, inDamage, bottleCount)
+    {
+        x = outDamage
+    event.shapeless(Item.of('thirstcanteen:military_bottle_full', '{Damage: ${x},Purity:0}'),
+
+        [
+            Item.of('thirstcanteen:military_bottle)'),
+            Item.of('minecraft:potion', '{Potion:"minecraft:water",Purity:3}')
+        ]
+      )
+    }
+
+
+})
+
