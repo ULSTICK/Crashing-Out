@@ -1,5 +1,5 @@
   ItemEvents.modification(event => {
-    event.modify('minecraft:potion', item => {
+    event.modify(Item.of('minecraft:potion', '{Potion:"minecraft:water"}'), item => {
       craftingRemainder: 'minecraft:glass_bottle'
     })
 })  

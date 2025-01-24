@@ -1,1 +1,11 @@
-[]
+[
+    {
+      "playerhelditem": "minecraft:bucket",
+      "block": "minecraft:water",
+      "result": "allow"
+    },
+    {
+      "block": "minecraft:water",
+      "result": "deny"
+    }
+   ]

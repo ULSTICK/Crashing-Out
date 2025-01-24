@@ -1,5 +1,13 @@
 {
   "bookGuiScale": 0,
   "clickedVisualize": false,
-  "bookData": {}
+  "bookData": {
+    "survive:survival_guide": {
+      "viewedEntries": [
+        "survive:food/overeating"
+      ],
+      "bookmarks": [],
+      "completedManualQuests": []
+    }
+  }
 }

@@ -1,4 +1,6 @@
 ItemEvents.rightClicked('minecraft:glass_bottle', event => event.cancel())
+/* ItemEvents.rightClicked('survive:filled_canteen', event => event.cancel())
+ItemEvents.rightClicked('survive:canteen', event => event.cancel()) */
 
 ItemEvents.firstRightClicked('minecraft:glass_bottle', e => {
     const {block} = e.target;
@@ -16,25 +18,25 @@ ItemEvents.firstRightClicked('minecraft:glass_bottle', e => {
     e.cancel();
 })
 
-ItemEvents.firstRightClicked('survive:canteen', e => {
+ItemEvents.rightClicked('survive:canteen', e => {
     const {block} = e.target;
     if(!block || block.id != 'minecraft:water' && block.id != 'minecraft:still_water') return;
     e.cancel();
 })
 
-ItemEvents.firstRightClicked('survive:canteen', e => {
+ItemEvents.rightClicked('survive:canteen', e => {
     const {block} = e.target;
     if(!block || block.id != 'survive:purified_water' && block.id != 'minecraft:still_water') return;
     e.cancel();
 })
 
-ItemEvents.firstRightClicked('survive:filled_canteen', e => {
+ItemEvents.rightClicked('survive:filled_canteen', e => {
     const {block} = e.target;
     if(!block || block.id != 'minecraft:water' && block.id != 'minecraft:still_water') return;
     e.cancel();
 })
 
-ItemEvents.firstRightClicked('survive:filled_canteen', e => {
+ItemEvents.rightClicked('survive:filled_canteen', e => {
     const {block} = e.target;
     if(!block || block.id != 'survive:purified_water' && block.id != 'minecraft:still_water') return;
     e.cancel();
