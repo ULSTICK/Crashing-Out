@@ -1,14 +1,5 @@
 {
   "bookGuiScale": 0,
   "clickedVisualize": false,
-  "bookData": {
-    "industrialforegoing:industrial_foregoing": {
-      "viewedEntries": [
-        "industrialforegoing:agr_hus/hydroponic_bed",
-        "industrialforegoing:resource_production/fluid_collector"
-      ],
-      "bookmarks": [],
-      "completedManualQuests": []
-    }
-  }
+  "bookData": {}
 }

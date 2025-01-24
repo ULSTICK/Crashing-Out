@@ -1,35 +1,4 @@
-# Ignore modlaucher config:
-config.json
-
-# Ignore user cache
-usercache.json
-usernamecache.json
-
-# Ignore these folders
-/backups
-/logs
-/XaeroWaypoints
-/XaeroWorldMap
-/saves
-/natives
-/screenshots
-/.vscode
-/crash-reports
-/journeymap
 /essential
-
-# Ignore extra files from other launchers
-options.txt
-minecraftinstance.json
-fabricloader.log
-
-# Ignore client-side files that don't need a pre-config
-/config/oculus.properties
-/config/fml.toml
-/config/embeddium-fingerprint.json
-/config/jei/recipe-category-sort-order.ini
-/config/jei/ingredient-list-mod-sort-order.ini
-/config/fabric/indigo-renderer.properties
-/kubejs/config/probe-settings.json
-/config/embeddium-options.json
-config/DistantHorizons.toml
+/journeymap
+/saves
+/modernfix

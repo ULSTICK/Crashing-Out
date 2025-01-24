@@ -1,0 +1,335 @@
+[15:58:57.646][INFO][CraftTweaker-EarlyInit]: CraftTweaker is running on a Minecraft 1.20.1 production client modded with platform Forge
+[15:58:57.670][INFO][CraftTweaker-EarlyInit]: Successfully injected RecipeFS file system
+[15:58:57.723][INFO][CraftTweaker-Plugins]: Successfully identified and loaded plugin jeitweaker:common
+[15:58:57.748][INFO][CraftTweaker-Plugins]: Successfully identified and loaded plugin crafttweaker:builtin
+[15:58:57.750][INFO][CraftTweaker-Plugins]: Successfully identified and loaded plugin crafttweaker:builtin_forge
+[15:58:57.752][INFO][CraftTweaker-Plugins]: Successfully identified and loaded plugin createtweaker:main
+[15:58:57.753][INFO][CraftTweaker-Plugins]: Successfully identified and loaded plugin mekanism:crt_plugin
+[15:58:57.755][INFO][CraftTweaker-Plugins]: Successfully identified and loaded plugin farmersdelight:crafttweaker_plugin
+[15:58:57.819][INFO][JEITweaker]: Identified JeiTweaker plugin 'jeitweaker:forge': loading scheduled
+[15:58:57.820][INFO][JEITweaker]: Identified JeiTweaker plugin 'jeitweaker:common': loading scheduled
+[15:58:57.824][INFO][JEITweaker]: Identified JeiTweaker plugin 'mekanism:crt_jei': loading scheduled
+[15:58:57.834][INFO][JEITweaker]: JEITweaker Environmental Check: the combination of mods [jei] is fully supported
+[15:58:57.834][INFO][JEITweaker]: Running JeiTweaker plugin initialization
+[15:58:57.957][INFO][JEITweaker]: JeiTweaker plugin initialization completed successfully
+[15:58:59.505][INFO][CraftTweaker]: The following mods have explicit CraftTweaker support through the default plugin:
+[15:58:59.506][INFO][CraftTweaker]: - 'crafttweaker' at version '14.0.50'
+[15:58:59.506][INFO][CraftTweaker]: - 'createtweaker' at version '4.0.13'
+[15:58:59.506][INFO][CraftTweaker]: - 'farmersdelight' at version '1.20.1-1.2.6'
+[15:58:59.506][INFO][CraftTweaker]: - 'jeitweaker' at version '8.0.6'
+[15:58:59.506][INFO][CraftTweaker]: - 'mekanism' at version '10.4.13'
+[15:58:59.506][INFO][CraftTweaker]: - 'pneumaticcraft' at version '6.0.18+mc1.20.1'
+[15:59:06.701][INFO][CraftTweaker-ZenCode]: Started loading scripts for loader 'mekanismcontent'
+[15:59:06.940][INFO][CraftTweaker-ZenCode]: Compiling and executing scripts
+[15:59:07.460][INFO][CraftTweaker-ZenCode]: Successfully initialized modules [mods, crafttweaker, expansions]
+[15:59:07.543][INFO][CraftTweaker-ZenCode]: Execution for loader 'mekanismcontent' completed successfully
+[15:59:07.543][INFO][Mekanism]: Registering 0 custom gases.
+[15:59:07.549][INFO][Mekanism]: Registering 0 custom infuse types.
+[15:59:07.567][INFO][Mekanism]: Registering 0 custom pigments.
+[15:59:07.578][INFO][Mekanism]: Registering 0 custom slurries.
+[15:59:11.017][INFO][CraftTweaker-ZenCode]: Started loading scripts for loader 'initialize'
+[15:59:11.043][INFO][CraftTweaker-ZenCode]: Compiling and executing scripts
+[15:59:11.045][INFO][CraftTweaker-ZenCode]: Successfully initialized modules [crafttweaker, expansions]
+[15:59:11.057][INFO][CraftTweaker-ZenCode]: Execution for loader 'initialize' completed successfully
+[16:05:23.304][INFO][CraftTweaker-ZenCode]: Started loading scripts for loader 'tags'
+[16:05:23.322][INFO][CraftTweaker-ZenCode]: Compiling and executing scripts
+[16:05:23.325][INFO][CraftTweaker-ZenCode]: Successfully initialized modules [crafttweaker, expansions]
+[16:05:23.333][INFO][CraftTweaker-ZenCode]: Execution for loader 'tags' completed successfully
+[16:05:26.195][INFO][CraftTweaker]: CraftTweaker reload starting!
+[16:05:26.217][INFO][CraftTweaker-ZenCode]: Started loading scripts for loader 'crafttweaker'
+[16:05:26.233][INFO][CraftTweaker-ZenCode]: Compiling and executing scripts
+[16:05:26.332][INFO][CraftTweaker-ZenCode]: Successfully initialized modules [mods, crafttweaker, expansions]
+[16:05:26.332][INFO][CraftTweaker-ZenCode]: Loading file 'Custom\Industrial Foregoing\shaped.zs' with priority 0
+[16:05:26.341][INFO][CraftTweaker-ZenCode]: Loading file 'Custom\Mekanism\shaped.zs' with priority 0
+[16:05:26.343][INFO][CraftTweaker-ZenCode]: Loading file 'Custom\ad astra\shaped.zs' with priority 0
+[16:05:26.343][INFO][CraftTweaker-ZenCode]: Loading file 'Custom\ae2\shaped.zs' with priority 0
+[16:05:26.344][INFO][CraftTweaker-ZenCode]: Loading file 'Custom\thermal\shaped.zs' with priority 0
+[16:05:26.344][INFO][CraftTweaker-ZenCode]: Loading file 'Custom\thermal\water_bottler.zs' with priority 0
+[16:05:26.345][INFO][CraftTweaker-ZenCode]: Loading file 'Custom\water_cancel.zs' with priority 0
+[16:05:26.346][INFO][CraftTweaker-ZenCode]: Loading file 'Removed\shaped.zs' with priority 0
+[16:05:26.399][INFO][CraftTweaker]: Removing all recipes that output <item:industrialforegoing:plastic>
+[16:05:26.422][INFO][CraftTweaker]: Removed 1 recipes registered in these 1 recipe managers: [<recipetype:minecraft:smelting>: 1]
+[16:05:26.423][INFO][CraftTweaker]: Removing all recipes that output <item:industrialforegoing:machine_frame_pity>
+[16:05:26.433][INFO][CraftTweaker]: Removed 1 recipes registered in these 1 recipe managers: [<recipetype:minecraft:crafting>: 1]
+[16:05:26.435][INFO][CraftTweaker]: Removing all recipes that output <item:industrialforegoing:latex_processing_unit>
+[16:05:26.445][INFO][CraftTweaker]: Removed 1 recipes registered in these 1 recipe managers: [<recipetype:minecraft:crafting>: 1]
+[16:05:26.446][INFO][CraftTweaker]: Removing all recipes that output <item:industrialforegoing:water_condensator>
+[16:05:26.458][INFO][CraftTweaker]: Removed 1 recipes registered in these 1 recipe managers: [<recipetype:minecraft:crafting>: 1]
+[16:05:26.460][INFO][CraftTweaker]: Removing 'industrialforegoing:dissolution_chamber' recipes with output: '<item:industrialforegoing:machine_frame_advanced>'
+[16:05:26.461][INFO][CraftTweaker]: Removing 'industrialforegoing:dissolution_chamber' recipes with output: '<item:industrialforegoing:machine_frame_supreme>'
+[16:05:26.461][INFO][CraftTweaker]: Removing 'industrialforegoing:dissolution_chamber' recipes with output: '<item:industrialforegoing:machine_frame_simple>'
+[16:05:26.461][INFO][CraftTweaker]: Removing 'industrialforegoing:dissolution_chamber' recipes with output: '<item:industrialforegoing:mycelial_reactor>'
+[16:05:26.465][INFO][CraftTweaker]: Replacing in everything according to requests {replacing component <recipecomponent:crafttweaker:input/ingredients> matching <item:industrialforegoing:plastic> according to <targetingstrategy:crafttweaker:shallow> with <item:pneumaticcraft:plastic>}
+[16:05:26.504][INFO][CraftTweaker]: - Replacing recipe industrialforegoing:block_breaker in manager <recipetype:minecraft:crafting> (new name: crafttweaker:autogenerated/replacer/industrialforegoing.block_breaker.1)
+[16:05:26.505][INFO][CraftTweaker]: -- Removing 'minecraft:crafting' recipe(s) with name(s): '[industrialforegoing:block_breaker]'
+[16:05:26.506][INFO][CraftTweaker]: -- Adding 'minecraft:crafting' recipe, with name: 'crafttweaker:autogenerated/replacer/industrialforegoing.block_breaker.1' that outputs: '<item:industrialforegoing:block_breaker>'
+[16:05:26.507][INFO][CraftTweaker]: - Replacing recipe industrialforegoing:simple_black_hole_tank in manager <recipetype:minecraft:crafting> (new name: crafttweaker:autogenerated/replacer/industrialforegoing.simple_black_hole_tank.1)
+[16:05:26.507][INFO][CraftTweaker]: -- Removing 'minecraft:crafting' recipe(s) with name(s): '[industrialforegoing:simple_black_hole_tank]'
+[16:05:26.508][INFO][CraftTweaker]: -- Adding 'minecraft:crafting' recipe, with name: 'crafttweaker:autogenerated/replacer/industrialforegoing.simple_black_hole_tank.1' that outputs: '<item:industrialforegoing:simple_black_hole_tank>'
+[16:05:26.508][INFO][CraftTweaker]: - Replacing recipe industrialforegoing:animal_baby_separator in manager <recipetype:minecraft:crafting> (new name: crafttweaker:autogenerated/replacer/industrialforegoing.animal_baby_separator.1)
+[16:05:26.508][INFO][CraftTweaker]: -- Removing 'minecraft:crafting' recipe(s) with name(s): '[industrialforegoing:animal_baby_separator]'
+[16:05:26.508][INFO][CraftTweaker]: -- Adding 'minecraft:crafting' recipe, with name: 'crafttweaker:autogenerated/replacer/industrialforegoing.animal_baby_separator.1' that outputs: '<item:industrialforegoing:animal_baby_separator>'
+[16:05:26.509][INFO][CraftTweaker]: - Replacing recipe industrialforegoing:conveyor_insertion_upgrade in manager <recipetype:minecraft:crafting> (new name: crafttweaker:autogenerated/replacer/industrialforegoing.conveyor_insertion_upgrade.1)
+[16:05:26.510][INFO][CraftTweaker]: -- Removing 'minecraft:crafting' recipe(s) with name(s): '[industrialforegoing:conveyor_insertion_upgrade]'
+[16:05:26.510][INFO][CraftTweaker]: -- Adding 'minecraft:crafting' recipe, with name: 'crafttweaker:autogenerated/replacer/industrialforegoing.conveyor_insertion_upgrade.1' that outputs: '<item:industrialforegoing:conveyor_insertion_upgrade>'
+[16:05:26.513][INFO][CraftTweaker]: - Replacing recipe industrialforegoing:enchantment_sorter in manager <recipetype:minecraft:crafting> (new name: crafttweaker:autogenerated/replacer/industrialforegoing.enchantment_sorter.1)
+[16:05:26.513][INFO][CraftTweaker]: -- Removing 'minecraft:crafting' recipe(s) with name(s): '[industrialforegoing:enchantment_sorter]'
+[16:05:26.513][INFO][CraftTweaker]: -- Adding 'minecraft:crafting' recipe, with name: 'crafttweaker:autogenerated/replacer/industrialforegoing.enchantment_sorter.1' that outputs: '<item:industrialforegoing:enchantment_sorter>'
+[16:05:26.516][INFO][CraftTweaker]: - Replacing recipe industrialforegoing:enchantment_applicator in manager <recipetype:minecraft:crafting> (new name: crafttweaker:autogenerated/replacer/industrialforegoing.enchantment_applicator.1)
+[16:05:26.516][INFO][CraftTweaker]: -- Removing 'minecraft:crafting' recipe(s) with name(s): '[industrialforegoing:enchantment_applicator]'
+[16:05:26.517][INFO][CraftTweaker]: -- Adding 'minecraft:crafting' recipe, with name: 'crafttweaker:autogenerated/replacer/industrialforegoing.enchantment_applicator.1' that outputs: '<item:industrialforegoing:enchantment_applicator>'
+[16:05:26.518][INFO][CraftTweaker]: - Replacing recipe industrialforegoing:fluid_sieving_machine in manager <recipetype:minecraft:crafting> (new name: crafttweaker:autogenerated/replacer/industrialforegoing.fluid_sieving_machine.1)
+[16:05:26.519][INFO][CraftTweaker]: -- Removing 'minecraft:crafting' recipe(s) with name(s): '[industrialforegoing:fluid_sieving_machine]'
+[16:05:26.519][INFO][CraftTweaker]: -- Adding 'minecraft:crafting' recipe, with name: 'crafttweaker:autogenerated/replacer/industrialforegoing.fluid_sieving_machine.1' that outputs: '<item:industrialforegoing:fluid_sieving_machine>'
+[16:05:26.521][INFO][CraftTweaker]: - Replacing recipe industrialforegoing:conveyor in manager <recipetype:minecraft:crafting> (new name: crafttweaker:autogenerated/replacer/industrialforegoing.conveyor.1)
+[16:05:26.521][INFO][CraftTweaker]: -- Removing 'minecraft:crafting' recipe(s) with name(s): '[industrialforegoing:conveyor]'
+[16:05:26.521][INFO][CraftTweaker]: -- Adding 'minecraft:crafting' recipe, with name: 'crafttweaker:autogenerated/replacer/industrialforegoing.conveyor.1' that outputs: '<item:industrialforegoing:conveyor> * 6'
+[16:05:26.525][INFO][CraftTweaker]: - Replacing recipe industrialforegoing:fluid_collector in manager <recipetype:minecraft:crafting> (new name: crafttweaker:autogenerated/replacer/industrialforegoing.fluid_collector.1)
+[16:05:26.525][INFO][CraftTweaker]: -- Removing 'minecraft:crafting' recipe(s) with name(s): '[industrialforegoing:fluid_collector]'
+[16:05:26.525][INFO][CraftTweaker]: -- Adding 'minecraft:crafting' recipe, with name: 'crafttweaker:autogenerated/replacer/industrialforegoing.fluid_collector.1' that outputs: '<item:industrialforegoing:fluid_collector>'
+[16:05:26.526][INFO][CraftTweaker]: - Replacing recipe industrialforegoing:infinity_charger in manager <recipetype:minecraft:crafting> (new name: crafttweaker:autogenerated/replacer/industrialforegoing.infinity_charger.1)
+[16:05:26.526][INFO][CraftTweaker]: -- Removing 'minecraft:crafting' recipe(s) with name(s): '[industrialforegoing:infinity_charger]'
+[16:05:26.526][INFO][CraftTweaker]: -- Adding 'minecraft:crafting' recipe, with name: 'crafttweaker:autogenerated/replacer/industrialforegoing.infinity_charger.1' that outputs: '<item:industrialforegoing:infinity_charger>'
+[16:05:26.532][INFO][CraftTweaker]: - Replacing recipe industrialforegoing:mob_slaughter_factory in manager <recipetype:minecraft:crafting> (new name: crafttweaker:autogenerated/replacer/industrialforegoing.mob_slaughter_factory.1)
+[16:05:26.532][INFO][CraftTweaker]: -- Removing 'minecraft:crafting' recipe(s) with name(s): '[industrialforegoing:mob_slaughter_factory]'
+[16:05:26.533][INFO][CraftTweaker]: -- Adding 'minecraft:crafting' recipe, with name: 'crafttweaker:autogenerated/replacer/industrialforegoing.mob_slaughter_factory.1' that outputs: '<item:industrialforegoing:mob_slaughter_factory>'
+[16:05:26.535][INFO][CraftTweaker]: - Replacing recipe industrialforegoing:plant_gatherer in manager <recipetype:minecraft:crafting> (new name: crafttweaker:autogenerated/replacer/industrialforegoing.plant_gatherer.1)
+[16:05:26.536][INFO][CraftTweaker]: -- Removing 'minecraft:crafting' recipe(s) with name(s): '[industrialforegoing:plant_gatherer]'
+[16:05:26.536][INFO][CraftTweaker]: -- Adding 'minecraft:crafting' recipe, with name: 'crafttweaker:autogenerated/replacer/industrialforegoing.plant_gatherer.1' that outputs: '<item:industrialforegoing:plant_gatherer>'
+[16:05:26.538][INFO][CraftTweaker]: - Replacing recipe industrialforegoing:wither_builder in manager <recipetype:minecraft:crafting> (new name: crafttweaker:autogenerated/replacer/industrialforegoing.wither_builder.1)
+[16:05:26.538][INFO][CraftTweaker]: -- Removing 'minecraft:crafting' recipe(s) with name(s): '[industrialforegoing:wither_builder]'
+[16:05:26.538][INFO][CraftTweaker]: -- Adding 'minecraft:crafting' recipe, with name: 'crafttweaker:autogenerated/replacer/industrialforegoing.wither_builder.1' that outputs: '<item:industrialforegoing:wither_builder>'
+[16:05:26.539][INFO][CraftTweaker]: - Replacing recipe industrialforegoing:dye_mixer in manager <recipetype:minecraft:crafting> (new name: crafttweaker:autogenerated/replacer/industrialforegoing.dye_mixer.1)
+[16:05:26.539][INFO][CraftTweaker]: -- Removing 'minecraft:crafting' recipe(s) with name(s): '[industrialforegoing:dye_mixer]'
+[16:05:26.539][INFO][CraftTweaker]: -- Adding 'minecraft:crafting' recipe, with name: 'crafttweaker:autogenerated/replacer/industrialforegoing.dye_mixer.1' that outputs: '<item:industrialforegoing:dye_mixer>'
+[16:05:26.544][INFO][CraftTweaker]: - Replacing recipe industrialforegoing:laser_drill in manager <recipetype:minecraft:crafting> (new name: crafttweaker:autogenerated/replacer/industrialforegoing.laser_drill.1)
+[16:05:26.544][INFO][CraftTweaker]: -- Removing 'minecraft:crafting' recipe(s) with name(s): '[industrialforegoing:laser_drill]'
+[16:05:26.545][INFO][CraftTweaker]: -- Adding 'minecraft:crafting' recipe, with name: 'crafttweaker:autogenerated/replacer/industrialforegoing.laser_drill.1' that outputs: '<item:industrialforegoing:laser_drill>'
+[16:05:26.553][INFO][CraftTweaker]: - Replacing recipe industrialforegoing:potion_brewer in manager <recipetype:minecraft:crafting> (new name: crafttweaker:autogenerated/replacer/industrialforegoing.potion_brewer.1)
+[16:05:26.553][INFO][CraftTweaker]: -- Removing 'minecraft:crafting' recipe(s) with name(s): '[industrialforegoing:potion_brewer]'
+[16:05:26.553][INFO][CraftTweaker]: -- Adding 'minecraft:crafting' recipe, with name: 'crafttweaker:autogenerated/replacer/industrialforegoing.potion_brewer.1' that outputs: '<item:industrialforegoing:potion_brewer>'
+[16:05:26.555][INFO][CraftTweaker]: - Replacing recipe industrialforegoing:conveyor_extraction_upgrade in manager <recipetype:minecraft:crafting> (new name: crafttweaker:autogenerated/replacer/industrialforegoing.conveyor_extraction_upgrade.1)
+[16:05:26.556][INFO][CraftTweaker]: -- Removing 'minecraft:crafting' recipe(s) with name(s): '[industrialforegoing:conveyor_extraction_upgrade]'
+[16:05:26.556][INFO][CraftTweaker]: -- Adding 'minecraft:crafting' recipe, with name: 'crafttweaker:autogenerated/replacer/industrialforegoing.conveyor_extraction_upgrade.1' that outputs: '<item:industrialforegoing:conveyor_extraction_upgrade>'
+[16:05:26.557][INFO][CraftTweaker]: - Replacing recipe industrialforegoing:fluid_placer in manager <recipetype:minecraft:crafting> (new name: crafttweaker:autogenerated/replacer/industrialforegoing.fluid_placer.1)
+[16:05:26.557][INFO][CraftTweaker]: -- Removing 'minecraft:crafting' recipe(s) with name(s): '[industrialforegoing:fluid_placer]'
+[16:05:26.557][INFO][CraftTweaker]: -- Adding 'minecraft:crafting' recipe, with name: 'crafttweaker:autogenerated/replacer/industrialforegoing.fluid_placer.1' that outputs: '<item:industrialforegoing:fluid_placer>'
+[16:05:26.558][INFO][CraftTweaker]: - Replacing recipe industrialforegoing:fluid_laser_base in manager <recipetype:minecraft:crafting> (new name: crafttweaker:autogenerated/replacer/industrialforegoing.fluid_laser_base.1)
+[16:05:26.558][INFO][CraftTweaker]: -- Removing 'minecraft:crafting' recipe(s) with name(s): '[industrialforegoing:fluid_laser_base]'
+[16:05:26.558][INFO][CraftTweaker]: -- Adding 'minecraft:crafting' recipe, with name: 'crafttweaker:autogenerated/replacer/industrialforegoing.fluid_laser_base.1' that outputs: '<item:industrialforegoing:fluid_laser_base>'
+[16:05:26.568][INFO][CraftTweaker]: - Replacing recipe industrialforegoing:marine_fisher in manager <recipetype:minecraft:crafting> (new name: crafttweaker:autogenerated/replacer/industrialforegoing.marine_fisher.1)
+[16:05:26.568][INFO][CraftTweaker]: -- Removing 'minecraft:crafting' recipe(s) with name(s): '[industrialforegoing:marine_fisher]'
+[16:05:26.568][INFO][CraftTweaker]: -- Adding 'minecraft:crafting' recipe, with name: 'crafttweaker:autogenerated/replacer/industrialforegoing.marine_fisher.1' that outputs: '<item:industrialforegoing:marine_fisher>'
+[16:05:26.574][INFO][CraftTweaker]: - Replacing recipe industrialforegoing:sewer in manager <recipetype:minecraft:crafting> (new name: crafttweaker:autogenerated/replacer/industrialforegoing.sewer.1)
+[16:05:26.574][INFO][CraftTweaker]: -- Removing 'minecraft:crafting' recipe(s) with name(s): '[industrialforegoing:sewer]'
+[16:05:26.574][INFO][CraftTweaker]: -- Adding 'minecraft:crafting' recipe, with name: 'crafttweaker:autogenerated/replacer/industrialforegoing.sewer.1' that outputs: '<item:industrialforegoing:sewer>'
+[16:05:26.575][INFO][CraftTweaker]: - Replacing recipe industrialforegoing:supreme_black_hole_tank in manager <recipetype:minecraft:crafting> (new name: crafttweaker:autogenerated/replacer/industrialforegoing.supreme_black_hole_tank.1)
+[16:05:26.575][INFO][CraftTweaker]: -- Removing 'minecraft:crafting' recipe(s) with name(s): '[industrialforegoing:supreme_black_hole_tank]'
+[16:05:26.575][INFO][CraftTweaker]: -- Adding 'minecraft:crafting' recipe, with name: 'crafttweaker:autogenerated/replacer/industrialforegoing.supreme_black_hole_tank.1' that outputs: '<item:industrialforegoing:supreme_black_hole_tank>'
+[16:05:26.577][INFO][CraftTweaker]: - Replacing recipe industrialforegoing:mob_detector in manager <recipetype:minecraft:crafting> (new name: crafttweaker:autogenerated/replacer/industrialforegoing.mob_detector.1)
+[16:05:26.577][INFO][CraftTweaker]: -- Removing 'minecraft:crafting' recipe(s) with name(s): '[industrialforegoing:mob_detector]'
+[16:05:26.578][INFO][CraftTweaker]: -- Adding 'minecraft:crafting' recipe, with name: 'crafttweaker:autogenerated/replacer/industrialforegoing.mob_detector.1' that outputs: '<item:industrialforegoing:mob_detector>'
+[16:05:26.582][INFO][CraftTweaker]: - Replacing recipe industrialforegoing:dissolution_chamber in manager <recipetype:minecraft:crafting> (new name: crafttweaker:autogenerated/replacer/industrialforegoing.dissolution_chamber.1)
+[16:05:26.582][INFO][CraftTweaker]: -- Removing 'minecraft:crafting' recipe(s) with name(s): '[industrialforegoing:dissolution_chamber]'
+[16:05:26.582][INFO][CraftTweaker]: -- Adding 'minecraft:crafting' recipe, with name: 'crafttweaker:autogenerated/replacer/industrialforegoing.dissolution_chamber.1' that outputs: '<item:industrialforegoing:dissolution_chamber>'
+[16:05:26.586][INFO][CraftTweaker]: - Replacing recipe industrialforegoing:block_placer in manager <recipetype:minecraft:crafting> (new name: crafttweaker:autogenerated/replacer/industrialforegoing.block_placer.1)
+[16:05:26.587][INFO][CraftTweaker]: -- Removing 'minecraft:crafting' recipe(s) with name(s): '[industrialforegoing:block_placer]'
+[16:05:26.587][INFO][CraftTweaker]: -- Adding 'minecraft:crafting' recipe, with name: 'crafttweaker:autogenerated/replacer/industrialforegoing.block_placer.1' that outputs: '<item:industrialforegoing:block_placer>'
+[16:05:26.589][INFO][CraftTweaker]: - Replacing recipe industrialforegoing:animal_rancher in manager <recipetype:minecraft:crafting> (new name: crafttweaker:autogenerated/replacer/industrialforegoing.animal_rancher.1)
+[16:05:26.589][INFO][CraftTweaker]: -- Removing 'minecraft:crafting' recipe(s) with name(s): '[industrialforegoing:animal_rancher]'
+[16:05:26.589][INFO][CraftTweaker]: -- Adding 'minecraft:crafting' recipe, with name: 'crafttweaker:autogenerated/replacer/industrialforegoing.animal_rancher.1' that outputs: '<item:industrialforegoing:animal_rancher>'
+[16:05:26.594][INFO][CraftTweaker]: - Replacing recipe industrialforegoing:enchantment_factory in manager <recipetype:minecraft:crafting> (new name: crafttweaker:autogenerated/replacer/industrialforegoing.enchantment_factory.1)
+[16:05:26.594][INFO][CraftTweaker]: -- Removing 'minecraft:crafting' recipe(s) with name(s): '[industrialforegoing:enchantment_factory]'
+[16:05:26.594][INFO][CraftTweaker]: -- Adding 'minecraft:crafting' recipe, with name: 'crafttweaker:autogenerated/replacer/industrialforegoing.enchantment_factory.1' that outputs: '<item:industrialforegoing:enchantment_factory>'
+[16:05:26.598][INFO][CraftTweaker]: - Replacing recipe industrialforegoing:material_stonework_factory in manager <recipetype:minecraft:crafting> (new name: crafttweaker:autogenerated/replacer/industrialforegoing.material_stonework_factory.1)
+[16:05:26.598][INFO][CraftTweaker]: -- Removing 'minecraft:crafting' recipe(s) with name(s): '[industrialforegoing:material_stonework_factory]'
+[16:05:26.598][INFO][CraftTweaker]: -- Adding 'minecraft:crafting' recipe, with name: 'crafttweaker:autogenerated/replacer/industrialforegoing.material_stonework_factory.1' that outputs: '<item:industrialforegoing:material_stonework_factory>'
+[16:05:26.609][INFO][CraftTweaker]: - Replacing recipe industrialforegoing:animal_feeder in manager <recipetype:minecraft:crafting> (new name: crafttweaker:autogenerated/replacer/industrialforegoing.animal_feeder.1)
+[16:05:26.609][INFO][CraftTweaker]: -- Removing 'minecraft:crafting' recipe(s) with name(s): '[industrialforegoing:animal_feeder]'
+[16:05:26.609][INFO][CraftTweaker]: -- Adding 'minecraft:crafting' recipe, with name: 'crafttweaker:autogenerated/replacer/industrialforegoing.animal_feeder.1' that outputs: '<item:industrialforegoing:animal_feeder>'
+[16:05:26.610][INFO][CraftTweaker]: - Replacing recipe industrialforegoing:pity_black_hole_unit in manager <recipetype:minecraft:crafting> (new name: crafttweaker:autogenerated/replacer/industrialforegoing.pity_black_hole_unit.1)
+[16:05:26.610][INFO][CraftTweaker]: -- Removing 'minecraft:crafting' recipe(s) with name(s): '[industrialforegoing:pity_black_hole_unit]'
+[16:05:26.610][INFO][CraftTweaker]: -- Adding 'minecraft:crafting' recipe, with name: 'crafttweaker:autogenerated/replacer/industrialforegoing.pity_black_hole_unit.1' that outputs: '<item:industrialforegoing:pity_black_hole_unit>'
+[16:05:26.610][INFO][CraftTweaker]: - Replacing recipe industrialforegoing:mob_imprisonment_tool in manager <recipetype:minecraft:crafting> (new name: crafttweaker:autogenerated/replacer/industrialforegoing.mob_imprisonment_tool.1)
+[16:05:26.610][INFO][CraftTweaker]: -- Removing 'minecraft:crafting' recipe(s) with name(s): '[industrialforegoing:mob_imprisonment_tool]'
+[16:05:26.610][INFO][CraftTweaker]: -- Adding 'minecraft:crafting' recipe, with name: 'crafttweaker:autogenerated/replacer/industrialforegoing.mob_imprisonment_tool.1' that outputs: '<item:industrialforegoing:mob_imprisonment_tool>'
+[16:05:26.613][INFO][CraftTweaker]: - Replacing recipe industrialforegoing:ore_laser_base in manager <recipetype:minecraft:crafting> (new name: crafttweaker:autogenerated/replacer/industrialforegoing.ore_laser_base.1)
+[16:05:26.613][INFO][CraftTweaker]: -- Removing 'minecraft:crafting' recipe(s) with name(s): '[industrialforegoing:ore_laser_base]'
+[16:05:26.613][INFO][CraftTweaker]: -- Adding 'minecraft:crafting' recipe, with name: 'crafttweaker:autogenerated/replacer/industrialforegoing.ore_laser_base.1' that outputs: '<item:industrialforegoing:ore_laser_base>'
+[16:05:26.615][INFO][CraftTweaker]: - Replacing recipe industrialforegoing:fermentation_station in manager <recipetype:minecraft:crafting> (new name: crafttweaker:autogenerated/replacer/industrialforegoing.fermentation_station.1)
+[16:05:26.616][INFO][CraftTweaker]: -- Removing 'minecraft:crafting' recipe(s) with name(s): '[industrialforegoing:fermentation_station]'
+[16:05:26.616][INFO][CraftTweaker]: -- Adding 'minecraft:crafting' recipe, with name: 'crafttweaker:autogenerated/replacer/industrialforegoing.fermentation_station.1' that outputs: '<item:industrialforegoing:fermentation_station>'
+[16:05:26.620][INFO][CraftTweaker]: - Replacing recipe industrialforegoing:bioreactor in manager <recipetype:minecraft:crafting> (new name: crafttweaker:autogenerated/replacer/industrialforegoing.bioreactor.1)
+[16:05:26.620][INFO][CraftTweaker]: -- Removing 'minecraft:crafting' recipe(s) with name(s): '[industrialforegoing:bioreactor]'
+[16:05:26.621][INFO][CraftTweaker]: -- Adding 'minecraft:crafting' recipe, with name: 'crafttweaker:autogenerated/replacer/industrialforegoing.bioreactor.1' that outputs: '<item:industrialforegoing:bioreactor>'
+[16:05:26.622][INFO][CraftTweaker]: - Replacing recipe industrialforegoing:resourceful_furnace in manager <recipetype:minecraft:crafting> (new name: crafttweaker:autogenerated/replacer/industrialforegoing.resourceful_furnace.1)
+[16:05:26.622][INFO][CraftTweaker]: -- Removing 'minecraft:crafting' recipe(s) with name(s): '[industrialforegoing:resourceful_furnace]'
+[16:05:26.622][INFO][CraftTweaker]: -- Adding 'minecraft:crafting' recipe, with name: 'crafttweaker:autogenerated/replacer/industrialforegoing.resourceful_furnace.1' that outputs: '<item:industrialforegoing:resourceful_furnace>'
+[16:05:26.623][INFO][CraftTweaker]: - Replacing recipe industrialforegoing:mob_duplicator in manager <recipetype:minecraft:crafting> (new name: crafttweaker:autogenerated/replacer/industrialforegoing.mob_duplicator.1)
+[16:05:26.624][INFO][CraftTweaker]: -- Removing 'minecraft:crafting' recipe(s) with name(s): '[industrialforegoing:mob_duplicator]'
+[16:05:26.624][INFO][CraftTweaker]: -- Adding 'minecraft:crafting' recipe, with name: 'crafttweaker:autogenerated/replacer/industrialforegoing.mob_duplicator.1' that outputs: '<item:industrialforegoing:mob_duplicator>'
+[16:05:26.629][INFO][CraftTweaker]: - Replacing recipe industrialforegoing:sludge_refiner in manager <recipetype:minecraft:crafting> (new name: crafttweaker:autogenerated/replacer/industrialforegoing.sludge_refiner.1)
+[16:05:26.629][INFO][CraftTweaker]: -- Removing 'minecraft:crafting' recipe(s) with name(s): '[industrialforegoing:sludge_refiner]'
+[16:05:26.629][INFO][CraftTweaker]: -- Adding 'minecraft:crafting' recipe, with name: 'crafttweaker:autogenerated/replacer/industrialforegoing.sludge_refiner.1' that outputs: '<item:industrialforegoing:sludge_refiner>'
+[16:05:26.633][INFO][CraftTweaker]: - Replacing recipe industrialforegoing:black_hole_controller in manager <recipetype:minecraft:crafting> (new name: crafttweaker:autogenerated/replacer/industrialforegoing.black_hole_controller.1)
+[16:05:26.633][INFO][CraftTweaker]: -- Removing 'minecraft:crafting' recipe(s) with name(s): '[industrialforegoing:black_hole_controller]'
+[16:05:26.633][INFO][CraftTweaker]: -- Adding 'minecraft:crafting' recipe, with name: 'crafttweaker:autogenerated/replacer/industrialforegoing.black_hole_controller.1' that outputs: '<item:industrialforegoing:black_hole_controller>'
+[16:05:26.633][INFO][CraftTweaker]: - Replacing recipe industrialforegoing:plant_fertilizer in manager <recipetype:minecraft:crafting> (new name: crafttweaker:autogenerated/replacer/industrialforegoing.plant_fertilizer.1)
+[16:05:26.633][INFO][CraftTweaker]: -- Removing 'minecraft:crafting' recipe(s) with name(s): '[industrialforegoing:plant_fertilizer]'
+[16:05:26.633][INFO][CraftTweaker]: -- Adding 'minecraft:crafting' recipe, with name: 'crafttweaker:autogenerated/replacer/industrialforegoing.plant_fertilizer.1' that outputs: '<item:industrialforegoing:plant_fertilizer>'
+[16:05:26.634][INFO][CraftTweaker]: - Replacing recipe industrialforegoing:machine_settings_copier in manager <recipetype:minecraft:crafting> (new name: crafttweaker:autogenerated/replacer/industrialforegoing.machine_settings_copier.1)
+[16:05:26.634][INFO][CraftTweaker]: -- Removing 'minecraft:crafting' recipe(s) with name(s): '[industrialforegoing:machine_settings_copier]'
+[16:05:26.634][INFO][CraftTweaker]: -- Adding 'minecraft:crafting' recipe, with name: 'crafttweaker:autogenerated/replacer/industrialforegoing.machine_settings_copier.1' that outputs: '<item:industrialforegoing:machine_settings_copier>'
+[16:05:26.638][INFO][CraftTweaker]: - Replacing recipe industrialforegoing:simple_black_hole_unit in manager <recipetype:minecraft:crafting> (new name: crafttweaker:autogenerated/replacer/industrialforegoing.simple_black_hole_unit.1)
+[16:05:26.638][INFO][CraftTweaker]: -- Removing 'minecraft:crafting' recipe(s) with name(s): '[industrialforegoing:simple_black_hole_unit]'
+[16:05:26.638][INFO][CraftTweaker]: -- Adding 'minecraft:crafting' recipe, with name: 'crafttweaker:autogenerated/replacer/industrialforegoing.simple_black_hole_unit.1' that outputs: '<item:industrialforegoing:simple_black_hole_unit>'
+[16:05:26.639][INFO][CraftTweaker]: - Replacing recipe industrialforegoing:advanced_black_hole_tank in manager <recipetype:minecraft:crafting> (new name: crafttweaker:autogenerated/replacer/industrialforegoing.advanced_black_hole_tank.1)
+[16:05:26.639][INFO][CraftTweaker]: -- Removing 'minecraft:crafting' recipe(s) with name(s): '[industrialforegoing:advanced_black_hole_tank]'
+[16:05:26.640][INFO][CraftTweaker]: -- Adding 'minecraft:crafting' recipe, with name: 'crafttweaker:autogenerated/replacer/industrialforegoing.advanced_black_hole_tank.1' that outputs: '<item:industrialforegoing:advanced_black_hole_tank>'
+[16:05:26.640][INFO][CraftTweaker]: - Replacing recipe industrialforegoing:mob_crusher in manager <recipetype:minecraft:crafting> (new name: crafttweaker:autogenerated/replacer/industrialforegoing.mob_crusher.1)
+[16:05:26.640][INFO][CraftTweaker]: -- Removing 'minecraft:crafting' recipe(s) with name(s): '[industrialforegoing:mob_crusher]'
+[16:05:26.640][INFO][CraftTweaker]: -- Adding 'minecraft:crafting' recipe, with name: 'crafttweaker:autogenerated/replacer/industrialforegoing.mob_crusher.1' that outputs: '<item:industrialforegoing:mob_crusher>'
+[16:05:26.646][INFO][CraftTweaker]: - Replacing recipe industrialforegoing:washing_factory in manager <recipetype:minecraft:crafting> (new name: crafttweaker:autogenerated/replacer/industrialforegoing.washing_factory.1)
+[16:05:26.646][INFO][CraftTweaker]: -- Removing 'minecraft:crafting' recipe(s) with name(s): '[industrialforegoing:washing_factory]'
+[16:05:26.646][INFO][CraftTweaker]: -- Adding 'minecraft:crafting' recipe, with name: 'crafttweaker:autogenerated/replacer/industrialforegoing.washing_factory.1' that outputs: '<item:industrialforegoing:washing_factory>'
+[16:05:26.652][INFO][CraftTweaker]: - Replacing recipe industrialforegoing:biofuel_generator in manager <recipetype:minecraft:crafting> (new name: crafttweaker:autogenerated/replacer/industrialforegoing.biofuel_generator.1)
+[16:05:26.652][INFO][CraftTweaker]: -- Removing 'minecraft:crafting' recipe(s) with name(s): '[industrialforegoing:biofuel_generator]'
+[16:05:26.653][INFO][CraftTweaker]: -- Adding 'minecraft:crafting' recipe, with name: 'crafttweaker:autogenerated/replacer/industrialforegoing.biofuel_generator.1' that outputs: '<item:industrialforegoing:biofuel_generator>'
+[16:05:26.655][INFO][CraftTweaker]: - Replacing recipe industrialforegoing:straw in manager <recipetype:minecraft:crafting> (new name: crafttweaker:autogenerated/replacer/industrialforegoing.straw.1)
+[16:05:26.655][INFO][CraftTweaker]: -- Removing 'minecraft:crafting' recipe(s) with name(s): '[industrialforegoing:straw]'
+[16:05:26.656][INFO][CraftTweaker]: -- Adding 'minecraft:crafting' recipe, with name: 'crafttweaker:autogenerated/replacer/industrialforegoing.straw.1' that outputs: '<item:industrialforegoing:straw>'
+[16:05:26.660][INFO][CraftTweaker]: - Replacing recipe industrialforegoing:hydroponic_bed in manager <recipetype:minecraft:crafting> (new name: crafttweaker:autogenerated/replacer/industrialforegoing.hydroponic_bed.1)
+[16:05:26.660][INFO][CraftTweaker]: -- Removing 'minecraft:crafting' recipe(s) with name(s): '[industrialforegoing:hydroponic_bed]'
+[16:05:26.660][INFO][CraftTweaker]: -- Adding 'minecraft:crafting' recipe, with name: 'crafttweaker:autogenerated/replacer/industrialforegoing.hydroponic_bed.1' that outputs: '<item:industrialforegoing:hydroponic_bed>'
+[16:05:26.664][INFO][CraftTweaker]: - Replacing recipe industrialforegoing:enchantment_extractor in manager <recipetype:minecraft:crafting> (new name: crafttweaker:autogenerated/replacer/industrialforegoing.enchantment_extractor.1)
+[16:05:26.664][INFO][CraftTweaker]: -- Removing 'minecraft:crafting' recipe(s) with name(s): '[industrialforegoing:enchantment_extractor]'
+[16:05:26.664][INFO][CraftTweaker]: -- Adding 'minecraft:crafting' recipe, with name: 'crafttweaker:autogenerated/replacer/industrialforegoing.enchantment_extractor.1' that outputs: '<item:industrialforegoing:enchantment_extractor>'
+[16:05:26.673][INFO][CraftTweaker]: - Replacing recipe industrialforegoing:spores_recreator in manager <recipetype:minecraft:crafting> (new name: crafttweaker:autogenerated/replacer/industrialforegoing.spores_recreator.1)
+[16:05:26.673][INFO][CraftTweaker]: -- Removing 'minecraft:crafting' recipe(s) with name(s): '[industrialforegoing:spores_recreator]'
+[16:05:26.673][INFO][CraftTweaker]: -- Adding 'minecraft:crafting' recipe, with name: 'crafttweaker:autogenerated/replacer/industrialforegoing.spores_recreator.1' that outputs: '<item:industrialforegoing:spores_recreator>'
+[16:05:26.674][INFO][CraftTweaker]: - Replacing recipe industrialforegoing:advanced_black_hole_unit in manager <recipetype:minecraft:crafting> (new name: crafttweaker:autogenerated/replacer/industrialforegoing.advanced_black_hole_unit.1)
+[16:05:26.674][INFO][CraftTweaker]: -- Removing 'minecraft:crafting' recipe(s) with name(s): '[industrialforegoing:advanced_black_hole_unit]'
+[16:05:26.674][INFO][CraftTweaker]: -- Adding 'minecraft:crafting' recipe, with name: 'crafttweaker:autogenerated/replacer/industrialforegoing.advanced_black_hole_unit.1' that outputs: '<item:industrialforegoing:advanced_black_hole_unit>'
+[16:05:26.675][INFO][CraftTweaker]: - Replacing recipe industrialforegoing:meat_feeder in manager <recipetype:minecraft:crafting> (new name: crafttweaker:autogenerated/replacer/industrialforegoing.meat_feeder.1)
+[16:05:26.675][INFO][CraftTweaker]: -- Removing 'minecraft:crafting' recipe(s) with name(s): '[industrialforegoing:meat_feeder]'
+[16:05:26.675][INFO][CraftTweaker]: -- Adding 'minecraft:crafting' recipe, with name: 'crafttweaker:autogenerated/replacer/industrialforegoing.meat_feeder.1' that outputs: '<item:industrialforegoing:meat_feeder>'
+[16:05:26.679][INFO][CraftTweaker]: - Replacing recipe industrialforegoing:supreme_black_hole_unit in manager <recipetype:minecraft:crafting> (new name: crafttweaker:autogenerated/replacer/industrialforegoing.supreme_black_hole_unit.1)
+[16:05:26.679][INFO][CraftTweaker]: -- Removing 'minecraft:crafting' recipe(s) with name(s): '[industrialforegoing:supreme_black_hole_unit]'
+[16:05:26.679][INFO][CraftTweaker]: -- Adding 'minecraft:crafting' recipe, with name: 'crafttweaker:autogenerated/replacer/industrialforegoing.supreme_black_hole_unit.1' that outputs: '<item:industrialforegoing:supreme_black_hole_unit>'
+[16:05:26.692][INFO][CraftTweaker]: - Replacing recipe industrialforegoing:sewage_composter in manager <recipetype:minecraft:crafting> (new name: crafttweaker:autogenerated/replacer/industrialforegoing.sewage_composter.1)
+[16:05:26.692][INFO][CraftTweaker]: -- Removing 'minecraft:crafting' recipe(s) with name(s): '[industrialforegoing:sewage_composter]'
+[16:05:26.692][INFO][CraftTweaker]: -- Adding 'minecraft:crafting' recipe, with name: 'crafttweaker:autogenerated/replacer/industrialforegoing.sewage_composter.1' that outputs: '<item:industrialforegoing:sewage_composter>'
+[16:05:26.695][INFO][CraftTweaker]: - Replacing recipe industrialforegoing:pity_black_hole_tank in manager <recipetype:minecraft:crafting> (new name: crafttweaker:autogenerated/replacer/industrialforegoing.pity_black_hole_tank.1)
+[16:05:26.695][INFO][CraftTweaker]: -- Removing 'minecraft:crafting' recipe(s) with name(s): '[industrialforegoing:pity_black_hole_tank]'
+[16:05:26.695][INFO][CraftTweaker]: -- Adding 'minecraft:crafting' recipe, with name: 'crafttweaker:autogenerated/replacer/industrialforegoing.pity_black_hole_tank.1' that outputs: '<item:industrialforegoing:pity_black_hole_tank>'
+[16:05:26.700][INFO][CraftTweaker]: - Replacing recipe industrialforegoing:plant_sower in manager <recipetype:minecraft:crafting> (new name: crafttweaker:autogenerated/replacer/industrialforegoing.plant_sower.1)
+[16:05:26.701][INFO][CraftTweaker]: -- Removing 'minecraft:crafting' recipe(s) with name(s): '[industrialforegoing:plant_sower]'
+[16:05:26.701][INFO][CraftTweaker]: -- Adding 'minecraft:crafting' recipe, with name: 'crafttweaker:autogenerated/replacer/industrialforegoing.plant_sower.1' that outputs: '<item:industrialforegoing:plant_sower>'
+[16:05:26.733][WARN][CraftTweaker]: Tag '<tag:items:forge:slimeball/blood>' does not exist, replacing with empty IIngredient
+[16:05:26.737][WARN][CraftTweaker]: Tag '<tag:items:forge:slimeball/blood>' does not exist, replacing with empty IIngredient
+[16:05:26.737][WARN][CraftTweaker]: Tag '<tag:items:forge:slimeball/blood>' does not exist, replacing with empty IIngredient
+[16:05:26.737][WARN][CraftTweaker]: Tag '<tag:items:forge:slimeball/blood>' does not exist, replacing with empty IIngredient
+[16:05:26.737][WARN][CraftTweaker]: Tag '<tag:items:forge:slimeball/blood>' does not exist, replacing with empty IIngredient
+[16:05:26.737][WARN][CraftTweaker]: Tag '<tag:items:forge:slimeball/blood>' does not exist, replacing with empty IIngredient
+[16:05:26.737][WARN][CraftTweaker]: Tag '<tag:items:forge:slimeball/blood>' does not exist, replacing with empty IIngredient
+[16:05:26.737][WARN][CraftTweaker]: Tag '<tag:items:forge:slimeball/blood>' does not exist, replacing with empty IIngredient
+[16:05:26.737][WARN][CraftTweaker]: Tag '<tag:items:forge:slimeball/blood>' does not exist, replacing with empty IIngredient
+[16:05:26.750][INFO][CraftTweaker]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:machine_frame_pity' that outputs: '<item:industrialforegoing:machine_frame_pity>'
+[16:05:26.750][INFO][CraftTweaker]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:crafttweaker_autogenerated/replacer/industrialforegoing.water_condensator.1' that outputs: '<item:industrialforegoing:water_condensator>'
+[16:05:26.754][INFO][CraftTweaker]: Adding 'industrialforegoing:dissolution_chamber' recipe, with name: 'crafttweaker:machine_frame_simple' that outputs: '<item:industrialforegoing:machine_frame_simple>'
+[16:05:26.755][INFO][CraftTweaker]: Adding 'industrialforegoing:dissolution_chamber' recipe, with name: 'crafttweaker:machine_frame_supreme' that outputs: '<item:industrialforegoing:machine_frame_supreme>'
+[16:05:26.755][INFO][CraftTweaker]: Adding 'industrialforegoing:dissolution_chamber' recipe, with name: 'crafttweaker:machine_frame_advanced' that outputs: '<item:industrialforegoing:machine_frame_advanced>'
+[16:05:26.755][INFO][CraftTweaker]: Adding 'industrialforegoing:dissolution_chamber' recipe, with name: 'crafttweaker:mycelial_reactor' that outputs: '<item:industrialforegoing:mycelial_reactor>'
+[16:05:26.756][INFO][CraftTweaker]: Removing all recipes that output <item:mekanism:steel_casing>
+[16:05:26.763][INFO][CraftTweaker]: Removed 1 recipes registered in these 1 recipe managers: [<recipetype:minecraft:crafting>: 1]
+[16:05:26.764][INFO][CraftTweaker]: Removing all recipes that output <item:mekanism:advanced_control_circuit>
+[16:05:26.770][INFO][CraftTweaker]: Removed 1 recipes registered in these 1 recipe managers: [<recipetype:minecraft:crafting>: 1]
+[16:05:26.770][INFO][CraftTweaker]: Removing all recipes that output <item:mekanism:elite_control_circuit>
+[16:05:26.777][INFO][CraftTweaker]: Removed 1 recipes registered in these 1 recipe managers: [<recipetype:minecraft:crafting>: 1]
+[16:05:26.777][INFO][CraftTweaker]: Removing all recipes that output <item:mekanism:ultimate_control_circuit>
+[16:05:26.783][INFO][CraftTweaker]: Removed 1 recipes registered in these 1 recipe managers: [<recipetype:minecraft:crafting>: 1]
+[16:05:26.783][INFO][CraftTweaker]: Removing all recipes that output <item:mekanism:electric_pump>
+[16:05:26.790][INFO][CraftTweaker]: Removed 1 recipes registered in these 1 recipe managers: [<recipetype:minecraft:crafting>: 1]
+[16:05:26.791][INFO][CraftTweaker]: Removing 'mekanism:metallurgic_infusing' recipe(s) with name(s): '[mekanism:control_circuit/basic]'
+[16:05:26.791][INFO][CraftTweaker]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:mek_steel_casing' that outputs: '<item:mekanism:steel_casing>'
+[16:05:26.792][INFO][CraftTweaker]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:mekanism_control_circuit/advanced' that outputs: '<item:mekanism:advanced_control_circuit>'
+[16:05:26.792][INFO][CraftTweaker]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:mekanism_control_circuit/elite' that outputs: '<item:mekanism:elite_control_circuit>'
+[16:05:26.792][INFO][CraftTweaker]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:mekanism_control_circuit/ultimate' that outputs: '<item:mekanism:ultimate_control_circuit>'
+[16:05:26.792][INFO][CraftTweaker]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:mekanism_electric_pump' that outputs: '<item:mekanism:electric_pump>'
+[16:05:26.793][INFO][CraftTweaker]: Adding 'mekanism:metallurgic_infusing' recipe, with name: 'crafttweaker:control_circuit/basic' that outputs: '<item:mekanism:basic_control_circuit>'
+[16:05:26.794][INFO][CraftTweaker]: Removing "minecraft:crafting" recipes with modid: "ad_astra"
+[16:05:26.797][INFO][CraftTweaker]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:rover' that outputs: '<item:ad_astra:tier_1_rover>'
+[16:05:26.797][INFO][CraftTweaker]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:wheels' that outputs: '<item:ad_astra:wheel>'
+[16:05:26.797][INFO][CraftTweaker]: Removing 'ae2:inscriber' recipes with output: '<item:ae2:printed_logic_processor>'
+[16:05:26.797][INFO][CraftTweaker]: Removing 'ae2:inscriber' recipes with output: '<item:ae2:printed_engineering_processor>'
+[16:05:26.797][INFO][CraftTweaker]: Removing 'ae2:inscriber' recipes with output: '<item:ae2:printed_calculation_processor>'
+[16:05:26.798][INFO][CraftTweaker]: Adding 'ae2:inscriber' recipe, with name: 'crafttweaker:printed_logic_processor' that outputs: '<item:ae2:printed_logic_processor>'
+[16:05:26.798][INFO][CraftTweaker]: Adding 'ae2:inscriber' recipe, with name: 'crafttweaker:printed_engineering_processor' that outputs: '<item:ae2:printed_engineering_processor>'
+[16:05:26.798][INFO][CraftTweaker]: Adding 'ae2:inscriber' recipe, with name: 'crafttweaker:printed_calculation_processor' that outputs: '<item:ae2:printed_calculation_processor>'
+[16:05:26.798][INFO][CraftTweaker]: Removing all recipes that output <item:thermal:device_water_gen>
+[16:05:26.806][INFO][CraftTweaker]: Removed 1 recipes registered in these 1 recipe managers: [<recipetype:minecraft:crafting>: 1]
+[16:05:26.806][INFO][CraftTweaker]: Replacing in everything according to requests {replacing component <recipecomponent:crafttweaker:input/ingredients> matching <item:thermal:machine_frame> according to <targetingstrategy:crafttweaker:shallow> with <item:mekanism:steel_casing>}
+[16:05:26.824][INFO][CraftTweaker]: - Replacing recipe thermal:machine_smelter in manager <recipetype:minecraft:crafting> (new name: crafttweaker:autogenerated/replacer/thermal.machine_smelter.1)
+[16:05:26.824][INFO][CraftTweaker]: -- Removing 'minecraft:crafting' recipe(s) with name(s): '[thermal:machine_smelter]'
+[16:05:26.824][INFO][CraftTweaker]: -- Adding 'minecraft:crafting' recipe, with name: 'crafttweaker:autogenerated/replacer/thermal.machine_smelter.1' that outputs: '<item:thermal:machine_smelter>'
+[16:05:26.839][INFO][CraftTweaker]: - Replacing recipe thermal:machine_press in manager <recipetype:minecraft:crafting> (new name: crafttweaker:autogenerated/replacer/thermal.machine_press.1)
+[16:05:26.840][INFO][CraftTweaker]: -- Removing 'minecraft:crafting' recipe(s) with name(s): '[thermal:machine_press]'
+[16:05:26.840][INFO][CraftTweaker]: -- Adding 'minecraft:crafting' recipe, with name: 'crafttweaker:autogenerated/replacer/thermal.machine_press.1' that outputs: '<item:thermal:machine_press>'
+[16:05:26.854][INFO][CraftTweaker]: - Replacing recipe thermal:machine_insolator in manager <recipetype:minecraft:crafting> (new name: crafttweaker:autogenerated/replacer/thermal.machine_insolator.1)
+[16:05:26.854][INFO][CraftTweaker]: -- Removing 'minecraft:crafting' recipe(s) with name(s): '[thermal:machine_insolator]'
+[16:05:26.855][INFO][CraftTweaker]: -- Adding 'minecraft:crafting' recipe, with name: 'crafttweaker:autogenerated/replacer/thermal.machine_insolator.1' that outputs: '<item:thermal:machine_insolator>'
+[16:05:26.855][INFO][CraftTweaker]: - Replacing recipe thermal:machine_crucible in manager <recipetype:minecraft:crafting> (new name: crafttweaker:autogenerated/replacer/thermal.machine_crucible.1)
+[16:05:26.855][INFO][CraftTweaker]: -- Removing 'minecraft:crafting' recipe(s) with name(s): '[thermal:machine_crucible]'
+[16:05:26.855][INFO][CraftTweaker]: -- Adding 'minecraft:crafting' recipe, with name: 'crafttweaker:autogenerated/replacer/thermal.machine_crucible.1' that outputs: '<item:thermal:machine_crucible>'
+[16:05:26.860][INFO][CraftTweaker]: - Replacing recipe thermal:machine_chiller in manager <recipetype:minecraft:crafting> (new name: crafttweaker:autogenerated/replacer/thermal.machine_chiller.1)
+[16:05:26.860][INFO][CraftTweaker]: -- Removing 'minecraft:crafting' recipe(s) with name(s): '[thermal:machine_chiller]'
+[16:05:26.860][INFO][CraftTweaker]: -- Adding 'minecraft:crafting' recipe, with name: 'crafttweaker:autogenerated/replacer/thermal.machine_chiller.1' that outputs: '<item:thermal:machine_chiller>'
+[16:05:26.861][INFO][CraftTweaker]: - Replacing recipe thermal:machine_pyrolyzer in manager <recipetype:minecraft:crafting> (new name: crafttweaker:autogenerated/replacer/thermal.machine_pyrolyzer.1)
+[16:05:26.861][INFO][CraftTweaker]: -- Removing 'minecraft:crafting' recipe(s) with name(s): '[thermal:machine_pyrolyzer]'
+[16:05:26.862][INFO][CraftTweaker]: -- Adding 'minecraft:crafting' recipe, with name: 'crafttweaker:autogenerated/replacer/thermal.machine_pyrolyzer.1' that outputs: '<item:thermal:machine_pyrolyzer>'
+[16:05:26.863][INFO][CraftTweaker]: - Replacing recipe thermal:machine_bottler in manager <recipetype:minecraft:crafting> (new name: crafttweaker:autogenerated/replacer/thermal.machine_bottler.1)
+[16:05:26.863][INFO][CraftTweaker]: -- Removing 'minecraft:crafting' recipe(s) with name(s): '[thermal:machine_bottler]'
+[16:05:26.863][INFO][CraftTweaker]: -- Adding 'minecraft:crafting' recipe, with name: 'crafttweaker:autogenerated/replacer/thermal.machine_bottler.1' that outputs: '<item:thermal:machine_bottler>'
+[16:05:26.875][INFO][CraftTweaker]: - Replacing recipe thermal:machine_sawmill in manager <recipetype:minecraft:crafting> (new name: crafttweaker:autogenerated/replacer/thermal.machine_sawmill.1)
+[16:05:26.875][INFO][CraftTweaker]: -- Removing 'minecraft:crafting' recipe(s) with name(s): '[thermal:machine_sawmill]'
+[16:05:26.876][INFO][CraftTweaker]: -- Adding 'minecraft:crafting' recipe, with name: 'crafttweaker:autogenerated/replacer/thermal.machine_sawmill.1' that outputs: '<item:thermal:machine_sawmill>'
+[16:05:26.876][INFO][CraftTweaker]: - Replacing recipe thermal:machine_brewer in manager <recipetype:minecraft:crafting> (new name: crafttweaker:autogenerated/replacer/thermal.machine_brewer.1)
+[16:05:26.876][INFO][CraftTweaker]: -- Removing 'minecraft:crafting' recipe(s) with name(s): '[thermal:machine_brewer]'
+[16:05:26.876][INFO][CraftTweaker]: -- Adding 'minecraft:crafting' recipe, with name: 'crafttweaker:autogenerated/replacer/thermal.machine_brewer.1' that outputs: '<item:thermal:machine_brewer>'
+[16:05:26.888][INFO][CraftTweaker]: - Replacing recipe thermal:machine_furnace in manager <recipetype:minecraft:crafting> (new name: crafttweaker:autogenerated/replacer/thermal.machine_furnace.1)
+[16:05:26.889][INFO][CraftTweaker]: -- Removing 'minecraft:crafting' recipe(s) with name(s): '[thermal:machine_furnace]'
+[16:05:26.889][INFO][CraftTweaker]: -- Adding 'minecraft:crafting' recipe, with name: 'crafttweaker:autogenerated/replacer/thermal.machine_furnace.1' that outputs: '<item:thermal:machine_furnace>'
+[16:05:26.891][INFO][CraftTweaker]: - Replacing recipe thermal:machine_centrifuge in manager <recipetype:minecraft:crafting> (new name: crafttweaker:autogenerated/replacer/thermal.machine_centrifuge.1)
+[16:05:26.891][INFO][CraftTweaker]: -- Removing 'minecraft:crafting' recipe(s) with name(s): '[thermal:machine_centrifuge]'
+[16:05:26.891][INFO][CraftTweaker]: -- Adding 'minecraft:crafting' recipe, with name: 'crafttweaker:autogenerated/replacer/thermal.machine_centrifuge.1' that outputs: '<item:thermal:machine_centrifuge>'
+[16:05:26.892][INFO][CraftTweaker]: - Replacing recipe thermal:machine_refinery in manager <recipetype:minecraft:crafting> (new name: crafttweaker:autogenerated/replacer/thermal.machine_refinery.1)
+[16:05:26.892][INFO][CraftTweaker]: -- Removing 'minecraft:crafting' recipe(s) with name(s): '[thermal:machine_refinery]'
+[16:05:26.892][INFO][CraftTweaker]: -- Adding 'minecraft:crafting' recipe, with name: 'crafttweaker:autogenerated/replacer/thermal.machine_refinery.1' that outputs: '<item:thermal:machine_refinery>'
+[16:05:26.897][INFO][CraftTweaker]: - Replacing recipe thermal:machine_pulverizer in manager <recipetype:minecraft:crafting> (new name: crafttweaker:autogenerated/replacer/thermal.machine_pulverizer.1)
+[16:05:26.897][INFO][CraftTweaker]: -- Removing 'minecraft:crafting' recipe(s) with name(s): '[thermal:machine_pulverizer]'
+[16:05:26.897][INFO][CraftTweaker]: -- Adding 'minecraft:crafting' recipe, with name: 'crafttweaker:autogenerated/replacer/thermal.machine_pulverizer.1' that outputs: '<item:thermal:machine_pulverizer>'
+[16:05:26.898][INFO][CraftTweaker]: - Replacing recipe thermal:machine_crystallizer in manager <recipetype:minecraft:crafting> (new name: crafttweaker:autogenerated/replacer/thermal.machine_crystallizer.1)
+[16:05:26.898][INFO][CraftTweaker]: -- Removing 'minecraft:crafting' recipe(s) with name(s): '[thermal:machine_crystallizer]'
+[16:05:26.898][INFO][CraftTweaker]: -- Adding 'minecraft:crafting' recipe, with name: 'crafttweaker:autogenerated/replacer/thermal.machine_crystallizer.1' that outputs: '<item:thermal:machine_crystallizer>'
+[16:05:26.905][INFO][CraftTweaker]: - Replacing recipe thermal:machine_crafter in manager <recipetype:minecraft:crafting> (new name: crafttweaker:autogenerated/replacer/thermal.machine_crafter.1)
+[16:05:26.905][INFO][CraftTweaker]: -- Removing 'minecraft:crafting' recipe(s) with name(s): '[thermal:machine_crafter]'
+[16:05:26.905][INFO][CraftTweaker]: -- Adding 'minecraft:crafting' recipe, with name: 'crafttweaker:autogenerated/replacer/thermal.machine_crafter.1' that outputs: '<item:thermal:machine_crafter>'
+[16:05:26.918][WARN][CraftTweaker]: Tag '<tag:items:forge:slimeball/blood>' does not exist, replacing with empty IIngredient
+[16:05:26.918][WARN][CraftTweaker]: Tag '<tag:items:forge:slimeball/blood>' does not exist, replacing with empty IIngredient
+[16:05:26.918][WARN][CraftTweaker]: Tag '<tag:items:forge:slimeball/blood>' does not exist, replacing with empty IIngredient
+[16:05:26.918][WARN][CraftTweaker]: Tag '<tag:items:forge:slimeball/blood>' does not exist, replacing with empty IIngredient
+[16:05:26.918][WARN][CraftTweaker]: Tag '<tag:items:forge:slimeball/blood>' does not exist, replacing with empty IIngredient
+[16:05:26.918][WARN][CraftTweaker]: Tag '<tag:items:forge:slimeball/blood>' does not exist, replacing with empty IIngredient
+[16:05:26.918][WARN][CraftTweaker]: Tag '<tag:items:forge:slimeball/blood>' does not exist, replacing with empty IIngredient
+[16:05:26.918][WARN][CraftTweaker]: Tag '<tag:items:forge:slimeball/blood>' does not exist, replacing with empty IIngredient
+[16:05:26.918][WARN][CraftTweaker]: Tag '<tag:items:forge:slimeball/blood>' does not exist, replacing with empty IIngredient
+[16:05:26.923][INFO][CraftTweaker]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:thermal.tdevice_water_gen' that outputs: '<item:thermal:device_water_gen>'
+[16:05:26.926][INFO][CraftTweaker]: Adding 'thermal:centrifuge' recipe, with name: 'crafttweaker:centrifuge_water_sapling' that outputs: '<item:minecraft:air>.withTag({Materials: [{ID: "silentgear:iron"}], Count: 1})'
+[16:05:26.927][INFO][CraftTweaker]: Adding 'thermal:centrifuge' recipe, with name: 'crafttweaker:centrifuge_water_leaves' that outputs: '<item:minecraft:air>.withTag({Materials: [{ID: "silentgear:iron"}], Count: 1})'
+[16:05:26.929][INFO][CraftTweaker]: Registering event listener for net.minecraftforge.event.entity.player.PlayerInteractEvent$RightClickBlock
+[16:05:26.932][INFO][CraftTweaker]: Registering event listener for net.minecraftforge.event.entity.player.PlayerInteractEvent$RightClickBlock
+[16:05:26.932][INFO][CraftTweaker]: Removing all recipes that output <item:minecraft:cauldron>
+[16:05:26.940][INFO][CraftTweaker]: Removed 1 recipes registered in these 1 recipe managers: [<recipetype:minecraft:crafting>: 1]
+[16:05:26.941][INFO][CraftTweaker-ZenCode]: Execution for loader 'crafttweaker' completed successfully
+[16:05:26.946][INFO][CraftTweaker]: CraftTweaker reload complete!
+[16:05:26.947][INFO][CraftTweaker]: This reload was made possible by Belathus and more! Become a patron at https://patreon.com/jaredlll08?s=crtmod
