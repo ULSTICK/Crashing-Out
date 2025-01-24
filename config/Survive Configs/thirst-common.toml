@@ -18,7 +18,7 @@
 #-------------------------------------------
 #Default: false
 #-------------------------------------------
-"Boolean: Remove Source Water Block" = false
+"Boolean: Remove Source Water Block" = true
 #
 ############################################
 #The amount of thirst exaustion added to the player regardless of what the player is doing
@@ -34,7 +34,7 @@
 #Default: 100
 #-------------------------------------------
 #Range: -1 ~ 1000
-"Integer: Idle Thrist Tick Rate" = 100
+"Integer: Idle Thrist Tick Rate" = 20
 #
 ############################################
 #The amount of times we can drink water from a canteen before it's empty
