@@ -39,7 +39,7 @@ events.register<crafttweaker.forge.api.event.interact.RightClickBlockEvent>(even
   val level = event.entity.level;
   val state = level.getBlockState(pos);
   
-  if (state.block != <blockstate:create:depot> && <item:thirstcanteen:leather_canteen>.matches(held)) {
+  if (state.block != <blockstate:create:depot> && <item:survive:canteen>.matches(held)) {
     event.cancel();
   }
 });
@@ -50,18 +50,7 @@ events.register<crafttweaker.forge.api.event.interact.RightClickBlockEvent>(even
   val level = event.entity.level;
   val state = level.getBlockState(pos);
   
-  if (state.block != <blockstate:create:depot> && <item:thirstcanteen:military_bottle>.matches(held)) {
-    event.cancel();
-  }
-});
-
-events.register<crafttweaker.forge.api.event.interact.RightClickBlockEvent>(event => {
-  val held = event.itemStack;
-  val pos = event.blockPos;
-  val level = event.entity.level;
-  val state = level.getBlockState(pos);
-  
-  if (state.block != <blockstate:create:depot> && <item:thirstcanteen:dragon_bottle>.matches(held)) {
+  if (state.block != <blockstate:create:depot> && <item:survive:filled_canteen>.matches(held)) {
     event.cancel();
   }
 });

@@ -94,5 +94,4 @@ recipes.remove(<item:industrialforegoing:plastic>);
 [00:13:58.173][INFO][CraftTweaker-Commands]: - <recipetype:mekanism:reaction>
 [00:13:58.173][INFO][CraftTweaker-Commands]: - <recipetype:mekanism:rotary>
 [00:13:58.173][INFO][CraftTweaker-Commands]: - <recipetype:mekanism:sawing>
-[00:13:58.173][INFO][CraftTweaker-Commands]: - <recipetype:toughasnails:water_purifying>
 [00:13:58.173][INFO][CraftTweaker-Commands]: - <recipetype:functionalstorage:custom_compacting>

@@ -1,1 +1,8 @@
-{"type":"exdeorum:barrel_compost","ingredient":{"tag":"minecraft:saplings"},"volume":125}
+{
+    "type":"exdeorum:barrel_compost",
+    "ingredient":
+    {
+        "tag":"minecraft:saplings"
+    },
+    "volume":125
+}
