@@ -1,19 +1,19 @@
-[01:33:16] [INIT] KubeJS 2001.6.5-build.16; MC 2001 forge
-[01:33:16] [INIT] Loaded plugins:
-[01:33:16] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
-[01:33:16] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
-[01:33:16] [INIT] - thedarkcolour.exdeorum.compat.kubejs.ExDeorumKubeJsPlugin
-[01:33:16] [INIT] - dev.latvian.mods.kubejs.thermal.KubeJSThermalPlugin
-[01:33:16] [INIT] - pie.ilikepiefoo.AdditionsPlugin
-[01:33:16] [INIT] - pie.ilikepiefoo.compat.jei.JEIKubeJSPlugin
-[01:33:16] [INIT] - com.oierbravo.createmechanicalextruder.compat.kubejs.KubeJSCreateMechanicalExtruderPlugin
-[01:33:16] [INIT] - com.almostreliable.lootjs.kube.LootJSPlugin
-[01:33:16] [INIT] - moe.wolfgirl.probejs.plugin.BuiltinProbeJSPlugin
-[01:33:17] [INFO] Loaded script startup_scripts:crash_blocks/crash_blocks.js in 0.123 s
-[01:33:17] [INFO] Loaded script startup_scripts:custom_items/plastic_scrap.js in 0.0 s
-[01:33:17] [INFO] example.js#5: Hello, World! (Loaded startup scripts)
-[01:33:17] [INFO] Loaded script startup_scripts:example.js in 0.002 s
-[01:33:17] [INFO] Loaded script startup_scripts:salty/salty_water_bottle.js in 0.001 s
-[01:33:17] [INFO] Loaded script startup_scripts:tools/durability_1.js in 0.001 s
-[01:33:17] [INFO] Loaded script startup_scripts:water_bottle/water_bottle.js in 0.002 s
-[01:33:17] [INFO] Loaded 6/6 KubeJS startup scripts in 0.903 s with 0 errors and 0 warnings
+[06:01:10] [INIT] KubeJS 2001.6.5-build.16; MC 2001 forge
+[06:01:10] [INIT] Loaded plugins:
+[06:01:10] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
+[06:01:10] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
+[06:01:10] [INIT] - thedarkcolour.exdeorum.compat.kubejs.ExDeorumKubeJsPlugin
+[06:01:10] [INIT] - dev.latvian.mods.kubejs.thermal.KubeJSThermalPlugin
+[06:01:10] [INIT] - pie.ilikepiefoo.AdditionsPlugin
+[06:01:10] [INIT] - pie.ilikepiefoo.compat.jei.JEIKubeJSPlugin
+[06:01:10] [INIT] - com.oierbravo.createmechanicalextruder.compat.kubejs.KubeJSCreateMechanicalExtruderPlugin
+[06:01:10] [INIT] - com.almostreliable.lootjs.kube.LootJSPlugin
+[06:01:10] [INIT] - moe.wolfgirl.probejs.plugin.BuiltinProbeJSPlugin
+[06:01:11] [INFO] Loaded script startup_scripts:crash_blocks/crash_blocks.js in 0.124 s
+[06:01:11] [INFO] Loaded script startup_scripts:custom_items/plastic_scrap.js in 0.001 s
+[06:01:11] [INFO] example.js#5: Hello, World! (Loaded startup scripts)
+[06:01:11] [INFO] Loaded script startup_scripts:example.js in 0.001 s
+[06:01:11] [INFO] Loaded script startup_scripts:salty/salty_water_bottle.js in 0.002 s
+[06:01:11] [INFO] Loaded script startup_scripts:tools/durability_1.js in 0.003 s
+[06:01:11] [INFO] Loaded script startup_scripts:water_bottle/water_bottle.js in 0.003 s
+[06:01:11] [INFO] Loaded 6/6 KubeJS startup scripts in 0.935 s with 0 errors and 0 warnings

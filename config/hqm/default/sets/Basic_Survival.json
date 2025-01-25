@@ -284,7 +284,7 @@
         "isTranslationKey": false
       },
       "description": {
-        "text": "Now that you are stable and able to survive somewhat comfortably, Its time to start planning on your future",
+        "text": "Now that you are stable and able to survive somewhat comfortably, Its time to start planning on your future.\nYou can melt some scraps found on the cities to make some plastic sheets.",
         "isTranslationKey": false
       },
       "x": 127,
@@ -426,7 +426,7 @@
           "items": [
             {
               "item": {
-                "id": "industrialforegoing:pitiful_generator",
+                "id": "thermal:dynamo_stirling",
                 "Count": 1
               }
             }
@@ -536,8 +536,8 @@
           "Count": 1
         },
         {
-          "id": "minecraft:lever",
-          "Count": 1
+          "id": "thermal:pbj_sandwich",
+          "Count": 2
         },
         {
           "id": "pneumaticcraft:gun_ammo",
@@ -781,7 +781,8 @@
         }
       ],
       "prerequisites": [
-        "41cb1853-af1c-4cbd-b4ff-3d7781e6c90a"
+        "41cb1853-af1c-4cbd-b4ff-3d7781e6c90a",
+        "3f740b4d-65a3-42b9-85ea-bd8a54c1a3ea"
       ],
       "optionlinks": [],
       "reward": [
@@ -789,6 +790,10 @@
           "id": "minecraft:potion",
           "Count": 1,
           "tag": "{Potion:\"survive:purified_water\"}"
+        },
+        {
+          "id": "minecraft:glass_bottle",
+          "Count": 4
         }
       ],
       "rewardchoice": [],
@@ -853,17 +858,65 @@
       "commandrewards": []
     },
     {
+      "uuid": "3f740b4d-65a3-42b9-85ea-bd8a54c1a3ea",
+      "name": {
+        "text": "Ice Ice Baby",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Trading in ten bottles of purified water should allow me to create you something strong.",
+        "isTranslationKey": false
+      },
+      "x": 55,
+      "y": 91,
+      "icon": {
+        "id": "minecraft:potion",
+        "Count": 1,
+        "tag": "{Potion:\"survive:purified_water\"}"
+      },
+      "tasks": [
+        {
+          "type": "hardcorequesting:detect",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:potion",
+                "Count": 1,
+                "tag": "{Potion:\"survive:purified_water\"}"
+              },
+              "required": 10,
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:snow_golem_spawn_egg",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
       "uuid": "91f29277-a2d6-45a8-979d-95ef03086ae8",
       "name": {
         "text": "IMPORTANT",
         "isTranslationKey": false
       },
       "description": {
-        "text": "THE SHELL CONSTRUCTOR HAS BEEN UPDATED. IN ORDER FOR YOU TO PROPERLY USE IT YOU MUST FIRST CREATE A CLONE WITH THE SHELL CONSTRUCTOR AND THEN USE THE SHELL STORAGE TO STORE YOUR ORIGINAL BODY. MAKE SURE YOUR INVENTORY IS EMPTY OTHERWISE YOU WONT HAVE YOUR ITEMS.",
+        "text": "The shell constructor has been updated. \n\nIn order for you to properly use it you must first create a clone with the shell constructor and then use the shell storage to store your original body. \n\nMake sure your INVENTORY IS EMPTY otherwise you wont have your items.",
         "isTranslationKey": false
       },
       "x": 223,
       "y": 32,
+      "icon": {
+        "id": "chipped:warning_yellow_concrete",
+        "Count": 1
+      },
       "tasks": [
         {
           "type": "hardcorequesting:completion",
@@ -989,6 +1042,10 @@
           "id": "minecraft:potion",
           "Count": 4,
           "tag": "{Potion:\"survive:purified_water\"}"
+        },
+        {
+          "id": "survive:canteen",
+          "Count": 1
         }
       ],
       "rewardchoice": [],
@@ -1134,7 +1191,7 @@
       "optionlinks": [],
       "reward": [
         {
-          "id": "mekanism:basic_control_circuit",
+          "id": "pneumaticcraft:gasoline_bucket",
           "Count": 1
         }
       ],
@@ -1144,8 +1201,9 @@
           "Count": 1
         },
         {
-          "id": "mekanism:electrolytic_core",
-          "Count": 1
+          "id": "ad_astra:tier_1_rover",
+          "Count": 1,
+          "tag": "{}"
         },
         {
           "id": "mekanism:basic_energy_cube",
@@ -1353,9 +1411,9 @@
           "tag": "{woodType:\"dark_oak\"}"
         },
         {
-          "id": "mekanism:energy_tablet",
+          "id": "thermal:flux_capacitor",
           "Count": 1,
-          "tag": "{mekData:{EnergyContainers:[{Container:0b,stored:\"1000000\"}]}}"
+          "tag": "{Energy:500000}"
         }
       ],
       "rewardchoice": [],
@@ -1508,17 +1566,17 @@
     {
       "uuid": "d870404e-3382-4dc8-91ea-4db728f38060",
       "name": {
-        "text": "Stable power",
+        "text": "Oil from the deep dust",
         "isTranslationKey": false
       },
       "description": {
-        "text": "The dynamo will require lava to be powered but should provide you with a sustainable power source.",
+        "text": "Seems like this planet it\u0027s full of oil!\nWith the Gas Lift and some pressure, you can pump up Oil from the dust deeps.\nYou can use the oil to generate energy with the Compression Dynamo, but later you will need a Refinery to make plastic and most efficient fuels.",
         "isTranslationKey": false
       },
       "x": 94,
       "y": 188,
       "icon": {
-        "id": "thermal:dynamo_magmatic",
+        "id": "thermal:dynamo_compression",
         "Count": 1
       },
       "tasks": [
@@ -1527,15 +1585,24 @@
           "items": [
             {
               "item": {
-                "id": "thermal:dynamo_magmatic",
+                "id": "thermal:dynamo_compression",
                 "Count": 1
               }
             },
             {
               "item": {
-                "id": "industrialforegoing:mob_crusher",
+                "id": "pneumaticcraft:gas_lift",
                 "Count": 1
-              }
+              },
+              "precision": "FUZZY"
+            },
+            {
+              "item": {
+                "id": "pneumaticcraft:drill_pipe",
+                "Count": 1
+              },
+              "required": 16,
+              "precision": "FUZZY"
             }
           ]
         }
@@ -1547,16 +1614,16 @@
       "optionlinks": [],
       "reward": [
         {
-          "id": "industrialforegoing:mob_imprisonment_tool",
+          "id": "pneumaticcraft:air_compressor",
           "Count": 1
         },
         {
-          "id": "minecraft:gunpowder",
-          "Count": 4
+          "id": "pneumaticcraft:gasoline_bucket",
+          "Count": 1
         },
         {
-          "id": "industrialforegoing:conveyor",
-          "Count": 16
+          "id": "pneumaticcraft:drill_pipe",
+          "Count": 64
         }
       ],
       "rewardchoice": [],

@@ -40,7 +40,7 @@
 	"generatedStructureYOffset": 0,
 	// The z offset for the generated structure. Used when shouldUseStructureOffset is enabled.
 	// min: -1000, max: 1000
-	"generatedStructureZOffset": 0,
+	"generatedStructureZOffset": 10,
 	// If the spawnCoordinate config options should be used.
 	"shouldUseSpawnCoordinates": false,
 	// The new X coordinate of the spawn when shouldUseSpawnCoordinates is enabled.
