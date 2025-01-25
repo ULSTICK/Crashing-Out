@@ -16,7 +16,8 @@
     "cityPerlinOffset": 0.1,
     "cityLevel2Height": 91,
     "oceanCorrectionBorder": 4,
-    "cityPerlinScale": 3.0
+    "cityPerlinScale": 3.0,
+    "minimumDistanceToSpawn": 1000
   },
   "client": {
     "horizon": -1.0,
