@@ -1,0 +1,12 @@
+{
+    "type": "tconstruct:melting",
+    "ingredient": {
+      "tag": "forge:scraps"
+    },
+    "result": {
+      "amount": 50,
+      "fluid": "pneumaticcraft:plastic"
+    },
+    "temperature": 600,
+    "time": 25
+  }

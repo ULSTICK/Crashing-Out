@@ -46,7 +46,7 @@
         {
           "id": "minecraft:potion",
           "Count": 2,
-          "tag": "{Potion:\"minecraft:water\",Purity:3}"
+          "tag": "{Potion:\"survive:purified_water\"}"
         }
       ],
       "rewardchoice": [],
@@ -451,6 +451,121 @@
       "commandrewards": []
     },
     {
+      "uuid": "3c8b89b6-0ec3-4376-9e84-41cf0345e55d",
+      "name": {
+        "text": "Killing time",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Congrats on slaying those mosnters",
+        "isTranslationKey": false
+      },
+      "x": 59,
+      "y": 16,
+      "icon": {
+        "id": "minecraft:zombie_spawn_egg",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "hardcorequesting:kill",
+          "mobs": [
+            {
+              "name": {
+                "text": "New",
+                "isTranslationKey": false
+              },
+              "icon": {
+                "id": "minecraft:zombie_spawn_egg",
+                "Count": 1
+              },
+              "mob": "specialmobs:zombie",
+              "kills": 50
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "0bdfc96b-6b5e-4f8f-932f-bda70b2114d7"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "7ee731c2-da61-4aab-a5fa-864fc4b62277",
+      "name": {
+        "text": "The Easy Route",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "For an easier experience, this is the way. Note: Choosing this path disables the hard route quest.",
+        "isTranslationKey": false
+      },
+      "x": 184,
+      "y": 32,
+      "icon": {
+        "id": "thermal:pbj_sandwich",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "hardcorequesting:consume",
+          "description": {
+            "text": "Grab some dust!",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "exdeorum:dust",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "feb164b4-e0bf-48e0-aaec-b8bb1118c3b8"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:oak_sapling",
+          "Count": 1
+        },
+        {
+          "id": "minecraft:lever",
+          "Count": 1
+        },
+        {
+          "id": "pneumaticcraft:gun_ammo",
+          "Count": 2,
+          "tag": "{Damage:0}"
+        },
+        {
+          "id": "minecraft:bone_meal",
+          "Count": 64
+        },
+        {
+          "id": "sync:shell_storage",
+          "Count": 1
+        },
+        {
+          "id": "sync:shell_constructor",
+          "Count": 1
+        },
+        {
+          "id": "thermal:energy_cell",
+          "Count": 1,
+          "tag": "{BlockEntityTag:{AmountIn:1000,AmountOut:1000,Energy:1000000,EnergyMax:1000000,EnergyRecv:1000,EnergySend:1000,RSControl:{RSMode:0b,RSThreshold:0b},Sides:[B;0B,0B,0B,0B,0B,1B],Xfer:{XferIn:1b,XferOut:1b}},Properties:{}}"
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
       "uuid": "0bdfc96b-6b5e-4f8f-932f-bda70b2114d7",
       "name": {
         "text": "Monster Mash",
@@ -580,121 +695,6 @@
       "commandrewards": []
     },
     {
-      "uuid": "7ee731c2-da61-4aab-a5fa-864fc4b62277",
-      "name": {
-        "text": "The Easy Route",
-        "isTranslationKey": false
-      },
-      "description": {
-        "text": "For an easier experience, this is the way. Note: Choosing this path disables the hard route quest.",
-        "isTranslationKey": false
-      },
-      "x": 184,
-      "y": 32,
-      "icon": {
-        "id": "thermal:pbj_sandwich",
-        "Count": 1
-      },
-      "tasks": [
-        {
-          "type": "hardcorequesting:consume",
-          "description": {
-            "text": "Grab some dust!",
-            "isTranslationKey": false
-          },
-          "items": [
-            {
-              "item": {
-                "id": "exdeorum:dust",
-                "Count": 1
-              }
-            }
-          ]
-        }
-      ],
-      "prerequisites": [
-        "feb164b4-e0bf-48e0-aaec-b8bb1118c3b8"
-      ],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "minecraft:oak_sapling",
-          "Count": 1
-        },
-        {
-          "id": "minecraft:lever",
-          "Count": 1
-        },
-        {
-          "id": "pneumaticcraft:gun_ammo",
-          "Count": 2,
-          "tag": "{Damage:0}"
-        },
-        {
-          "id": "minecraft:bone_meal",
-          "Count": 64
-        },
-        {
-          "id": "sync:shell_storage",
-          "Count": 1
-        },
-        {
-          "id": "sync:shell_constructor",
-          "Count": 1
-        },
-        {
-          "id": "thermal:energy_cell",
-          "Count": 1,
-          "tag": "{BlockEntityTag:{AmountIn:1000,AmountOut:1000,Energy:1000000,EnergyMax:1000000,EnergyRecv:1000,EnergySend:1000,RSControl:{RSMode:0b,RSThreshold:0b},Sides:[B;0B,0B,0B,0B,0B,1B],Xfer:{XferIn:1b,XferOut:1b}},Properties:{}}"
-        }
-      ],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
-      "uuid": "3c8b89b6-0ec3-4376-9e84-41cf0345e55d",
-      "name": {
-        "text": "Killing time",
-        "isTranslationKey": false
-      },
-      "description": {
-        "text": "Congrats on slaying those mosnters",
-        "isTranslationKey": false
-      },
-      "x": 59,
-      "y": 16,
-      "icon": {
-        "id": "minecraft:zombie_spawn_egg",
-        "Count": 1
-      },
-      "tasks": [
-        {
-          "type": "hardcorequesting:kill",
-          "mobs": [
-            {
-              "name": {
-                "text": "New",
-                "isTranslationKey": false
-              },
-              "icon": {
-                "id": "minecraft:zombie_spawn_egg",
-                "Count": 1
-              },
-              "mob": "specialmobs:zombie",
-              "kills": 50
-            }
-          ]
-        }
-      ],
-      "prerequisites": [
-        "0bdfc96b-6b5e-4f8f-932f-bda70b2114d7"
-      ],
-      "optionlinks": [],
-      "reward": [],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
       "uuid": "41cb1853-af1c-4cbd-b4ff-3d7781e6c90a",
       "name": {
         "text": "Dirt to water!",
@@ -724,7 +724,8 @@
                 "id": "minecraft:potion",
                 "Count": 1,
                 "tag": "{Potion:\"minecraft:water\",Purity:0}"
-              }
+              },
+              "precision": "FUZZY"
             }
           ]
         }
@@ -741,7 +742,7 @@
         {
           "id": "minecraft:potion",
           "Count": 1,
-          "tag": "{Potion:\"minecraft:water\",Purity:3}"
+          "tag": "{Potion:\"survive:purified_water\"}"
         }
       ],
       "rewardchoice": [],
@@ -786,8 +787,8 @@
       "reward": [
         {
           "id": "minecraft:potion",
-          "Count": 4,
-          "tag": "{Potion:\"minecraft:water\",Purity:3}"
+          "Count": 1,
+          "tag": "{Potion:\"survive:purified_water\"}"
         }
       ],
       "rewardchoice": [],
@@ -841,7 +842,7 @@
         {
           "id": "minecraft:potion",
           "Count": 1,
-          "tag": "{Potion:\"minecraft:water\",Purity:3}"
+          "tag": "{Potion:\"survive:purified_water\"}"
         },
         {
           "id": "minecraft:oak_sapling",
@@ -973,9 +974,10 @@
             },
             {
               "item": {
-                "id": "pneumaticcraft:small_tank",
+                "id": "thermal:machine_bottler",
                 "Count": 1
-              }
+              },
+              "precision": "FUZZY"
             }
           ]
         }
@@ -984,13 +986,9 @@
       "optionlinks": [],
       "reward": [
         {
-          "id": "thirstcanteen:leather_canteen",
-          "Count": 1
-        },
-        {
           "id": "minecraft:potion",
-          "Count": 8,
-          "tag": "{Potion:\"minecraft:water\",Purity:3}"
+          "Count": 4,
+          "tag": "{Potion:\"survive:purified_water\"}"
         }
       ],
       "rewardchoice": [],
@@ -1048,7 +1046,7 @@
         {
           "id": "minecraft:potion",
           "Count": 2,
-          "tag": "{Potion:\"minecraft:water\"}"
+          "tag": "{Potion:\"survive:purified_water\"}"
         },
         {
           "id": "pamhc2crops:cantaloupeseeditem",
@@ -1293,7 +1291,7 @@
         {
           "id": "minecraft:potion",
           "Count": 2,
-          "tag": "{Potion:\"minecraft:water\",Purity:3}"
+          "tag": "{Potion:\"survive:purified_water\"}"
         }
       ],
       "rewardchoice": [],
@@ -1676,54 +1674,9 @@
         {
           "id": "minecraft:potion",
           "Count": 2,
-          "tag": "{Potion:\"minecraft:water\",Purity:3}"
+          "tag": "{Potion:\"survive:purified_water\"}"
         }
       ],
-      "commandrewards": []
-    },
-    {
-      "uuid": "c6db1484-30ff-43ed-ab5d-c1ae2ce12a23",
-      "name": {
-        "text": "Ice Ice Baby",
-        "isTranslationKey": false
-      },
-      "description": {
-        "text": "Trading in ten bottles of purified water should allow me to create you something strong.",
-        "isTranslationKey": false
-      },
-      "x": 59,
-      "y": 92,
-      "icon": {
-        "id": "minecraft:snow_golem_spawn_egg",
-        "Count": 1
-      },
-      "tasks": [
-        {
-          "type": "hardcorequesting:detect",
-          "items": [
-            {
-              "item": {
-                "id": "minecraft:potion",
-                "Count": 1,
-                "tag": "{Potion:\"minecraft:water\"}"
-              },
-              "required": 10,
-              "precision": "FUZZY"
-            }
-          ]
-        }
-      ],
-      "prerequisites": [
-        "15ad672b-7b9c-4115-a4b3-403c70654a40"
-      ],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "minecraft:snow_golem_spawn_egg",
-          "Count": 1
-        }
-      ],
-      "rewardchoice": [],
       "commandrewards": []
     },
     {

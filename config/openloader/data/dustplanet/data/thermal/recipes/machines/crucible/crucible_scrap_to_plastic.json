@@ -1,0 +1,13 @@
+{
+  "type": "thermal:crucible",
+  "ingredient": {
+    "tag": "forge:scraps"
+  },
+  "result": [
+    {
+      "fluid": "pneumaticcraft:plastic",
+      "amount": 100
+    }
+  ],
+  "energy": 400
+}

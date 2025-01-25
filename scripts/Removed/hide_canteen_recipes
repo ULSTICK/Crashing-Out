@@ -1,8 +1,0 @@
-
-import mods.jeitweaker.Jei;
-import crafttweaker.api.text.Component;
-import mods.jeitweaker.ingredient.JeiIngredient;
-
-Jei.hideIngredient(<item:minecraft:potion>.withTag({Purity: 2, Potion: "minecraft:water"}));
-Jei.hideIngredient(<item:minecraft:potion>.withTag({Purity: 3, Potion: "minecraft:water"}));
-Jei.hideIngredient(<item:minecraft:potion>.withTag({Purity: 0, Potion: "minecraft:water"}));
