@@ -9,35 +9,21 @@
       "entries": [
         {
           "type": "item",
-          "name": "minecraft:diamond_sword",
+          "name": "kubejs:plastic_scrap",
           "functions": [
             {
               "function": "set_count",
               "count": {
-                "min": 0,
-                "max": 1
+                "min": 5,
+                "max": 24
               }
             }
           ],
-          "weight": 2
+          "weight": 75
         },
         {
           "type": "item",
-          "name": "minecraft:gold_ingot",
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 5
-              }
-            }
-          ],
-          "weight": 5
-        },
-        {
-          "type": "item",
-          "name": "minecraft:diamond",
+          "name": "mekanism:hdpe_rod",
           "functions": [
             {
               "function": "set_count",
@@ -51,7 +37,21 @@
         },
         {
           "type": "item",
-          "name": "minecraft:emerald",
+          "name": "mekanism:hdpe_pellet",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 5
+              }
+            }
+          ],
+          "weight": 5
+        },
+        {
+          "type": "item",
+          "name": "pneumaticcraft:failed_pcb",
           "functions": [
             {
               "function": "set_count",
@@ -62,6 +62,20 @@
             }
           ],
           "weight": 5
+        },
+        {
+          "type": "item",
+          "name": "exdeorum:dust",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 3,
+                "max": 32
+              }
+            }
+          ],
+          "weight": 50
         }
       ]
     }

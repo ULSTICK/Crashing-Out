@@ -153,11 +153,11 @@
         },
         {
           "random": 5,
-          "block": "minecraft:cauldron"
+          "block": "lootr:lootr_chest"
         },
         {
           "random": 2,
-          "block": "minecraft:enchanting_table"
+          "block": "lootr:lootr_chest"
         },
         {
           "random": 1000,
@@ -212,7 +212,7 @@
     },
     {
       "char": "C",
-      "block": "minecraft:chest[facing=north]",
+      "block": "lootr:lootr_chest",
       "loot": "chestloot"
     },
     {

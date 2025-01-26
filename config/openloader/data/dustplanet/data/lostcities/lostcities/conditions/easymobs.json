@@ -1,16 +1,28 @@
 {
   "values": [
     {
-      "factor": 1,
+      "factor": 15,
       "value": "minecraft:zombie"
     },
     {
-      "factor": 1,
+      "factor": 15,
       "value": "minecraft:skeleton"
     },
     {
-      "factor": 1,
+      "factor": 15,
       "value": "minecraft:spider"
+    },    
+    {
+      "factor": 5,
+      "value": "minecraft:blaze"
+    },
+    {
+      "factor": 5,
+      "value": "minecraft:piglin"
+    },
+    {
+      "factor": 5,
+      "value": "minecraft:piglin_brute"
     }
   ]
 }
