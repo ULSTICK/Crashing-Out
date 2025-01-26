@@ -357,7 +357,7 @@
       },
       "tasks": [
         {
-          "type": "hardcorequesting:craft",
+          "type": "hardcorequesting:detect",
           "longDescription": {
             "text": "Make sure to vary your diet as eating to much of one item will make it give you less nutrition.",
             "isTranslationKey": false
@@ -367,22 +367,19 @@
               "item": {
                 "id": "pamhc2foodcore:mixingbowlitem",
                 "Count": 1
-              },
-              "precision": "FUZZY"
+              }
             },
             {
               "item": {
                 "id": "pamhc2foodcore:juiceritem",
                 "Count": 1
-              },
-              "precision": "FUZZY"
+              }
             },
             {
               "item": {
                 "id": "pamhc2foodcore:cuttingboarditem",
                 "Count": 1
-              },
-              "precision": "FUZZY"
+              }
             }
           ]
         }
