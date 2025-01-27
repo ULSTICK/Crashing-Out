@@ -410,7 +410,7 @@
       "x": 127,
       "y": 136,
       "icon": {
-        "id": "industrialforegoing:pitiful_generator",
+        "id": "industrialforegoing:mycelial_ender",
         "Count": 1
       },
       "tasks": [
@@ -423,9 +423,10 @@
           "items": [
             {
               "item": {
-                "id": "thermal:dynamo_stirling",
+                "id": "industrialforegoing:mycelial_ender",
                 "Count": 1
-              }
+              },
+              "precision": "FUZZY"
             }
           ]
         }
@@ -436,8 +437,8 @@
       "optionlinks": [],
       "reward": [
         {
-          "id": "minecraft:coal",
-          "Count": 16
+          "id": "minecraft:ender_pearl",
+          "Count": 2
         },
         {
           "id": "pipez:energy_pipe",
@@ -466,18 +467,79 @@
       "tasks": [
         {
           "type": "hardcorequesting:kill",
+          "description": {
+            "text": "Dirty Deeds",
+            "isTranslationKey": true
+          },
           "mobs": [
             {
               "name": {
-                "text": "New",
+                "text": "Zombie",
                 "isTranslationKey": false
               },
               "icon": {
-                "id": "minecraft:zombie_spawn_egg",
+                "id": "minecraft:zombie_head",
                 "Count": 1
               },
               "mob": "specialmobs:zombie",
               "kills": 50
+            }
+          ]
+        },
+        {
+          "type": "hardcorequesting:kill",
+          "description": {
+            "text": "Done Dirt Cheap",
+            "isTranslationKey": true
+          },
+          "mobs": [
+            {
+              "name": {
+                "text": "Skeleton",
+                "isTranslationKey": false
+              },
+              "icon": {
+                "id": "minecraft:skeleton_skull",
+                "Count": 1
+              },
+              "mob": "minecraft:skeleton",
+              "kills": 40
+            },
+            {
+              "name": {
+                "text": "Spider",
+                "isTranslationKey": false
+              },
+              "icon": {
+                "id": "tconstruct:spider_head",
+                "Count": 1
+              },
+              "mob": "minecraft:spider",
+              "kills": 25
+            },
+            {
+              "name": {
+                "text": "Creeper",
+                "isTranslationKey": false
+              },
+              "icon": {
+                "id": "minecraft:creeper_head",
+                "Count": 1
+              },
+              "mob": "minecraft:creeper",
+              "kills": 20
+            },
+            {
+              "name": {
+                "text": "Enderman",
+                "isTranslationKey": false
+              },
+              "icon": {
+                "id": "tconstruct:enderman_head",
+                "Count": 1
+              },
+              "mob": "minecraft:enderman",
+              "kills": 10
             }
           ]
         }
@@ -486,8 +548,32 @@
         "0bdfc96b-6b5e-4f8f-932f-bda70b2114d7"
       ],
       "optionlinks": [],
-      "reward": [],
-      "rewardchoice": [],
+      "reward": [
+        {
+          "id": "create:potato_cannon",
+          "Count": 1,
+          "tag": "{Damage:0}"
+        },
+        {
+          "id": "minecraft:potato",
+          "Count": 16
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "tconstruct:small_blade",
+          "Count": 1,
+          "tag": "{Material:\"tconstruct:manyullyn\"}"
+        },
+        {
+          "id": "mekanism:steel_casing",
+          "Count": 1
+        },
+        {
+          "id": "sync:sync_core",
+          "Count": 1
+        }
+      ],
       "commandrewards": []
     },
     {
@@ -778,8 +864,7 @@
         }
       ],
       "prerequisites": [
-        "41cb1853-af1c-4cbd-b4ff-3d7781e6c90a",
-        "3f740b4d-65a3-42b9-85ea-bd8a54c1a3ea"
+        "41cb1853-af1c-4cbd-b4ff-3d7781e6c90a"
       ],
       "optionlinks": [],
       "reward": [
@@ -887,7 +972,9 @@
           ]
         }
       ],
-      "prerequisites": [],
+      "prerequisites": [
+        "15ad672b-7b9c-4115-a4b3-403c70654a40"
+      ],
       "optionlinks": [],
       "reward": [
         {
