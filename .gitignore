@@ -4,3 +4,7 @@
 /modernfix
 /logs
 /logs
+config/fabric/indigo-renderer.properties
+config/oculus.properties
+/logs
+options.txt
