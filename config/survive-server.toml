@@ -18,7 +18,7 @@
 	#Default: LIMITED
 	#-------------------------------------------
 	#Allowed Values: DOUBLED, LIMITED, VANILLA
-	"Enum: Expanded Stomach Capacity" = "LIMITED"
+	"Enum: Expanded Stomach Capacity" = "VANILLA"
 
 [Miscellaneous]
 	#

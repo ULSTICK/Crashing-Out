@@ -15,7 +15,7 @@
 	#Default: 120
 	#-------------------------------------------
 	#Range: -1 ~ 1000
-	"Integer: Idle Hunger Tick Rate" = 120
+	"Integer: Idle Hunger Tick Rate" = 50
 
 [Sleep]
 	#
