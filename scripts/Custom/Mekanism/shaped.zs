@@ -6,7 +6,7 @@ recipes.remove(<item:mekanism:advanced_control_circuit>);
 recipes.remove(<item:mekanism:elite_control_circuit>);
 recipes.remove(<item:mekanism:ultimate_control_circuit>);
 recipes.remove(<item:mekanism:electric_pump>);
-<recipetype:mekanism:metallurgic_infusing>.removeByName("mekanism:control_circuit/basic");
+
 
 craftingTable.addShaped("mek_steel_casing", <item:mekanism:steel_casing>, [
     [<item:mekanism:ingot_steel>, <item:minecraft:glass>, <item:mekanism:ingot_steel>],

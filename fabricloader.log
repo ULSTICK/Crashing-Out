@@ -1,2 +1,2 @@
-[20:16:20] [WARN] [FabricLoader/Metadata]: The mod "sync" contains invalid entries in its mod json:
+[20:22:10] [WARN] [FabricLoader/Metadata]: The mod "sync" contains invalid entries in its mod json:
 - Unsupported root entry "includes" at line 54 column 13

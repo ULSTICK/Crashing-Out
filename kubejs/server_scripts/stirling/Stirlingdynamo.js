@@ -12,6 +12,6 @@ ServerEvents.recipes(event => {
         I: 'minecraft:iron_ingot',
         G: 'thermal:iron_gear',
         S: '#forge:stone',
-        B: 'minecraft:redstone_block'
+        B: 'mekanism:steel_casing'
     });
 });
