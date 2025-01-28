@@ -1,7 +1,7 @@
 {
   "pools": [
     {
-      "name": "lostcities:lostcitychest",
+      "name": "minecraft:chests/cities_dust_loot",
       "rolls": {
         "min": 2,
         "max": 4
@@ -17,7 +17,7 @@
                 "min": 1,
                 "max": 10
               }
-            }
+            }a
           ],
           "weight": 50
         },

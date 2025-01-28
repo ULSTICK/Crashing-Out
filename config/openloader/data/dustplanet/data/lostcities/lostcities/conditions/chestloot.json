@@ -19,6 +19,10 @@
       "factor": 20,
       "value": "lostcities:chests/raildungeonchest",
       "inpart": "rail_dungeon2"
+    },
+    {
+      "factor": 1,
+      "value": "lostcities:chests/lostcitychest"
     }
   ]
 }
