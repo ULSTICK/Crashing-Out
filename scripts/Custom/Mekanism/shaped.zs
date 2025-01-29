@@ -9,9 +9,9 @@ recipes.remove(<item:mekanism:electric_pump>);
 
 
 craftingTable.addShaped("mek_steel_casing", <item:mekanism:steel_casing>, [
-    [<item:mekanism:ingot_steel>, <item:minecraft:glass>, <item:mekanism:ingot_steel>],
-    [<item:minecraft:glass>, <item:pneumaticcraft:printed_circuit_board>, <item:minecraft:glass>],
-    [<item:mekanism:ingot_steel>, <item:minecraft:glass>, <item:mekanism:ingot_steel>]]);
+    [<tag:items:forge:ingots/steel>, <tag:items:forge:storage_blocks/glass>, <tag:items:forge:ingots/steel>],
+    [<tag:items:forge:storage_blocks/glass>, <item:pneumaticcraft:printed_circuit_board>, <tag:items:forge:storage_blocks/glass>],
+    [<tag:items:forge:ingots/steel>, <tag:items:forge:storage_blocks/glass>, <tag:items:forge:ingots/steel>]]);
 
 craftingTable.addShaped("mekanism_control_circuit/advanced",
 <item:mekanism:advanced_control_circuit>, [

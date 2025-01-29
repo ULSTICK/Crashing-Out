@@ -5,6 +5,7 @@ ServerEvents.recipes(event => {
     event.remove({ output: 'industrialforegoing:mycelial_magma' });
     event.remove({ type: 'exdeorum:compressed_sieve' });
     event.remove({ mod: 'simplyjetpacks' });
+    event.remove({ mod: 'ad_astra' });
     event.remove({ id: 'tconstruct:molten_pewter' })
 
     exdeorum.removeDefaultSieveRecipes(event);

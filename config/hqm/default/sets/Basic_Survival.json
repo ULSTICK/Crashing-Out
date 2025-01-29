@@ -1233,7 +1233,8 @@
                 "id": "minecraft:copper_ingot",
                 "Count": 1
               },
-              "required": 4
+              "required": 4,
+              "precision": "FUZZY"
             },
             {
               "item": {
