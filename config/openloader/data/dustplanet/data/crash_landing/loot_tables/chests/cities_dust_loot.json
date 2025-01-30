@@ -1,7 +1,7 @@
 {
   "pools": [
     {
-      "name": "minecraft:chests/cities_dust_loot",
+      "name": "crash_landing:chests/cities_dust_loot",
       "rolls": {
         "min": 2,
         "max": 4
