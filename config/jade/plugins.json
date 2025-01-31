@@ -54,6 +54,9 @@
     "painting": true,
     "chiseled_bookshelf": true
   },
+  "hammerlib": {
+    "root": true
+  },
   "exdeorum": {
     "infested_leaves": true,
     "barrel": true,

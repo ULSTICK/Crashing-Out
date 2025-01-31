@@ -1,0 +1,15 @@
+{
+    "structures": [
+      {
+        "structure": "crash_landing:nuclear",
+        "weight": 1
+      }
+    ],
+    "placement": {
+      "type": "minecraft:random_spread",
+      "spacing": 128,
+      "separation": 72,
+      "spread_type": "triangular",
+      "salt": 327975993
+    }
+  }
