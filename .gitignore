@@ -17,3 +17,4 @@ config/oculus.properties
 /logs
 usercache.json
 /data
+/crash-reports
