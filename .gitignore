@@ -9,3 +9,10 @@ config/oculus.properties
 /logs
 options.txt
 *.gz
+/crash-reports
+fabricloader.log
+config/oculus.properties
+/config/jei
+/config/fabric
+/logs
+usercache.json

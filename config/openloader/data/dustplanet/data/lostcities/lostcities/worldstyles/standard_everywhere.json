@@ -2,7 +2,7 @@
   "outsidestyle": "outside",
   "scattered": {
     "areasize": 8,
-    "chance": 0.0,
+    "chance": 0.1,
     "weightnone": 20,
     "list": [
       {
@@ -24,8 +24,7 @@
         "maxheightdiff": 100,
         "biomes": {
           "if_any": [
-            "minecraft:desert",
-            "#minecraft:is_deep_ocean"
+            "#minecraft:is_desert"
           ]
         }
       },
@@ -39,6 +38,18 @@
             "#minecraft:is_river",
             "#minecraft:is_beach",
             "#minecraft:is_desert"
+          ]
+        }
+      },
+      {
+        "name": "farm",
+        "weight": 10,
+        "maxheightdiff": 2,
+        "biomes": {
+          "excluding": [
+            "#minecraft:is_ocean",
+            "#minecraft:is_river",
+            "#minecraft:is_beach"
           ]
         }
       }

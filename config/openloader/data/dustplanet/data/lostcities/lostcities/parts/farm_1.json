@@ -1,0 +1,246 @@
+{
+  "xsize": 16,
+  "zsize": 16,
+  "palette": {
+    "palette": [
+      {
+        "char": "m",
+        "block": "minecraft:spawner"
+      },
+      {
+        "char": "N",
+        "block": "minecraft:hay_block[axis=x]"
+      },
+      {
+        "char": "&",
+        "block": "lootr:lootr_barrel[facing=east,open=false]"
+      },
+      {
+        "char": "i",
+        "block": "chipped:mosaic_light_gray_concrete"
+      },
+      {
+        "char": "J",
+        "block": "farmersdelight:rice_bale[facing=west]"
+      },
+      {
+        "char": "k",
+        "block": "minecraft:cobblestone[weathering=false]"
+      },
+      {
+        "char": "n",
+        "block": "chipped:cracked_disordered_andesite_bricks"
+      },
+      {
+        "char": "r",
+        "block": "framedblocks:framed_stairs[facing=north,glowing=false,half=bottom,locked=false,propagates_skylight=false,shape=straight,solid=true,waterlogged=false]"
+      },
+      {
+        "char": "q",
+        "block": "chipped:small_andesite_bricks"
+      },
+      {
+        "char": "O",
+        "block": "sophisticatedstorage:chest[facing=east,ticking=false,type=single,waterlogged=false]"
+      },
+      {
+        "char": "8",
+        "block": "farmersdelight:rope[east=false,north=false,south=false,tied_to_bell=false,waterlogged=false,west=false]"
+      },
+      {
+        "char": "H",
+        "block": "farmersdelight:basket[enabled=true,facing=south,waterlogged=false]"
+      },
+      {
+        "char": "5",
+        "block": "sophisticatedstorage:chest[facing=north,ticking=false,type=single,waterlogged=false]"
+      },
+      {
+        "char": "]",
+        "block": "minecraft:warped_stairs[facing=north,half=top,shape=straight,waterlogged=false]"
+      },
+      {
+        "char": "P",
+        "block": "farmersdelight:basket[enabled=true,facing=west,waterlogged=false]"
+      },
+      {
+        "char": "U",
+        "block": "lootr:lootr_chest[facing=east,type=single,waterlogged=false]"
+      },
+      {
+        "char": "^",
+        "block": "minecraft:cobblestone_slab[type=top,waterlogged=false,weathering=false]"
+      },
+      {
+        "char": "3",
+        "block": "minecraft:hay_block[axis=y]"
+      },
+      {
+        "char": "f",
+        "block": "framedblocks:framed_stairs[facing=south,glowing=false,half=bottom,locked=false,propagates_skylight=false,shape=straight,solid=true,waterlogged=false]"
+      },
+      {
+        "char": "j",
+        "block": "minecraft:andesite"
+      },
+      {
+        "char": "0",
+        "block": "chipped:tiled_light_gray_stained_glass_pane[east=true,north=false,south=false,waterlogged=false,west=true]"
+      },
+      {
+        "char": "M",
+        "block": "farmersdelight:rice_bale[facing=up]"
+      },
+      {
+        "char": "[",
+        "block": "sophisticatedstorage:chest[facing=south,ticking=false,type=single,waterlogged=false]"
+      },
+      {
+        "char": "2",
+        "block": "chipped:tiled_light_gray_stained_glass_pane[east=true,north=false,south=true,waterlogged=false,west=true]"
+      },
+      {
+        "char": "'",
+        "block": "minecraft:warped_stairs[facing=south,half=top,shape=straight,waterlogged=false]"
+      },
+      {
+        "char": "|",
+        "block": "cfm:stripped_warped_chair[facing=west]"
+      },
+      {
+        "char": "o",
+        "block": "chipped:cracked_andesite_bricks"
+      },
+      {
+        "char": "V",
+        "block": "lootr:lootr_barrel[facing=north,open=false]"
+      },
+      {
+        "char": "6",
+        "block": "minecraft:andesite_slab[type=top,waterlogged=false]"
+      },
+      {
+        "char": "7",
+        "block": "minecraft:andesite_slab[type=bottom,waterlogged=false]"
+      },
+      {
+        "char": "s",
+        "block": "farmersdelight:basket[enabled=true,facing=up,waterlogged=false]"
+      },
+      {
+        "char": "I",
+        "block": "farmersdelight:rice_bale[facing=south]"
+      }
+    ]
+  },
+  "slices": [
+    [
+      "       ff       ",
+      " iiiiiiiiiiiiii ",
+      " ijj jjjjkjjjji ",
+      " ijjjjjjjjjjmji ",
+      " ijjkjjjjjjjjji ",
+      " ijjjjjjjjjjjji ",
+      " ijkjjkjjjkkjji ",
+      " ijjjkkjjj jjji ",
+      " ijmjkjj kjjjji ",
+      " ikkjjjjjjjjjji ",
+      " ijjkjjjjj jjjn ",
+      " ijjjjjkkkjjjjo ",
+      " i jjkjjkkjjjjq ",
+      " ij jjjjjjjkjjq ",
+      " iiiiiiiiiiiir  ",
+      "    sH rr s     "
+    ],
+    [
+      "                ",
+      " nnookn  qqnnnq ",
+      " n        IJMJn ",
+      " o         NJJo ",
+      " oO         MNo ",
+      " qO          Nq ",
+      " n           Pn ",
+      " nO          sn ",
+      " nO          Pn ",
+      " q              ",
+      " qU         nVq ",
+      " nU         nmn ",
+      " o          q q ",
+      " o          qrr ",
+      " ooqnnn  nooo   ",
+      "                "
+    ],
+    [
+      "                ",
+      " no0o0q  n q2on ",
+      " o          3 o ",
+      " o          NNo ",
+      " o            o ",
+      "              o ",
+      " q            q ",
+      " o            o ",
+      " o              ",
+      " n            n ",
+      " q          n5n ",
+      " n            q ",
+      " o          nrr ",
+      " n          n   ",
+      " o0o0o   nn n   ",
+      "                "
+    ],
+    [
+      "       66       ",
+      " qo0q onqq0o0qq ",
+      " o           No ",
+      " n            n ",
+      " q            q ",
+      " n            n ",
+      " o              ",
+      "              n ",
+      " q            q ",
+      " q            q ",
+      "            o5q ",
+      " o          orr ",
+      " q          o   ",
+      " n          n   ",
+      " n n nqqooq q   ",
+      "      7667 8    "
+    ],
+    [
+      "   7 7    7 7   ",
+      " qo qqqqnoqqqn  ",
+      "  666666666666o ",
+      " q66 66^666666q ",
+      " q6666 ^6^6666q ",
+      " q66666^ 6 666q ",
+      " q66^666666^66q ",
+      " q666666666^66q ",
+      " n66666^^6 666n ",
+      " o666^66666666o ",
+      " o6666666 66nr  ",
+      " o666 666666n   ",
+      " q666 666^^6n   ",
+      " n66666666^6n   ",
+      " qqqqqnoooqn    ",
+      "  7 7      7    "
+    ],
+    [
+      "                ",
+      " nqqqqqqqqq6n6  ",
+      " q&    [[q      ",
+      " q       q    n ",
+      " q      ]q    6 ",
+      " q     |'q    n ",
+      " q]      q    6 ",
+      " q'           n ",
+      " qm      q      ",
+      " qqqqqqqqq      ",
+      " q          q   ",
+      " 6          6   ",
+      " q          q   ",
+      " 6          6   ",
+      " q6q6q6q6q6q    ",
+      "                "
+    ]
+  ]
+}

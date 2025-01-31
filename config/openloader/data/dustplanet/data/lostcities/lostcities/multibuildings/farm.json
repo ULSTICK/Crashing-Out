@@ -1,0 +1,12 @@
+{
+  "dimx": 1,
+  "dimz": 2,
+  "buildings": [
+    [
+      "farm_1"
+    ],
+    [
+      "farm_2"
+    ]
+  ]
+}
