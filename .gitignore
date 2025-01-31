@@ -18,3 +18,10 @@ config/oculus.properties
 usercache.json
 /data
 /crash-reports
+fabricloader.log
+usernamecache.json
+usercache.json
+supportercache.json
+rhino.local.properties
+patchouli_data.json
+/local
