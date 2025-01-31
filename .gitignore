@@ -16,3 +16,4 @@ config/oculus.properties
 /config/fabric
 /logs
 usercache.json
+/data
