@@ -7,5 +7,9 @@
     {
       "block": "minecraft:water",
       "result": "deny"
+    },
+    {
+      "playerhelditem": "minecraft:glass_bottle",
+      "result": "deny"
     }
    ]

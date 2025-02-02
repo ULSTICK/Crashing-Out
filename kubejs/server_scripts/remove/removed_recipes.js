@@ -6,7 +6,11 @@ ServerEvents.recipes(event => {
     event.remove({ type: 'exdeorum:compressed_sieve' });
     event.remove({ mod: 'simplyjetpacks' });
     event.remove({ mod: 'ad_astra' });
-    event.remove({ id: 'tconstruct:molten_pewter' })
+    event.remove({ id: 'tconstruct:molten_pewter' });
+    event.remove({ output: 'minecraft:potion', type: 'tconstruct:casting_table' });
+    event.remove({ type: 'tconstruct:casting_table_potion' });
+    event.remove({ type: 'exdeorum:water_crucible' });
+    
 
     exdeorum.removeDefaultSieveRecipes(event);
 });

@@ -71,7 +71,6 @@
       "factor": 9.0,
       "biomes": {
         "if_any": [
-          "minecraft:desert",
           "minecraft:badlands"
         ]
       },
