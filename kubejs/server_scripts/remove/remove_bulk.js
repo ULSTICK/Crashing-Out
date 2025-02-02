@@ -9,7 +9,9 @@ ServerEvents.recipes(event => {
             "exdeorum:jungle_crucible",
             "exdeorum:acacia_crucible",
             "exdeorum:dark_oak_crucible",
-            "exdeorum:bamboo_crucible"
+            "exdeorum:bamboo_crucible",
+            "torchmaster:megatorch",
+            
         ]
      });    
 });
