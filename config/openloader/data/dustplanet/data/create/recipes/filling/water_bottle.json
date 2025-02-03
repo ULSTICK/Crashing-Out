@@ -1,15 +1,15 @@
 {
-  "type": "thermal:bottler",
+  "type": "create:filling",
   "ingredients": [
     {
       "item": "minecraft:glass_bottle"
     },
     {
-      "fluid": "minecraft:water",
-      "amount": 1000
+      "amount": 1000,
+      "fluid": "minecraft:water"
     }
   ],
-  "result": [
+  "results": [
     {
       "item": "minecraft:potion",
       "nbt": {

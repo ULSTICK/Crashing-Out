@@ -15,7 +15,7 @@ Replacer.create().replace<IIngredient>(<recipecomponent:crafttweaker:input/ingre
 
 
 
-<recipetype:thermal:centrifuge>.addJsonRecipe("centrifuge_water_sapling", {
+/* <recipetype:thermal:centrifuge>.addJsonRecipe("centrifuge_water_sapling", {
   "type": "thermal:centrifuge",
   "ingredient": {
     "tag": "forge:sapling"
@@ -27,7 +27,7 @@ Replacer.create().replace<IIngredient>(<recipecomponent:crafttweaker:input/ingre
       "locked": true
     },
     {
-      "fluid": "minecraft:water",
+      "fluid": "survive:purified_water",
       "amount": 100
     }
   ],
@@ -47,15 +47,15 @@ Replacer.create().replace<IIngredient>(<recipecomponent:crafttweaker:input/ingre
       "locked": true
     },
         {
-      "item": "minecraft:stick",
+      "tag": "forge:sapling",
       "chance": 0.75,
       "locked": true
     },
     {
-      "fluid": "minecraft:water",
+      "fluid": "survive:purified_water",
       "amount": 100
     }
   ],
   "energy": 1000,
   "experience": 1.0
-});
+}); */

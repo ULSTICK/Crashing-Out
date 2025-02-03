@@ -1,0 +1,250 @@
+{
+  "name": "Salvage Operation",
+  "quests": [
+    {
+      "uuid": "d71734eb-3836-4be4-9bad-6ac0622735f5",
+      "name": {
+        "text": "Suitable Preparations",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "You may have noticed that you can\u0027t craft everything you need to survive. Perhaps the city ruins scattered around contain the resources you need. One thing is certain, you\u0027ll need to prepare before venturing far from the shuttle.",
+        "isTranslationKey": false
+      },
+      "x": 41,
+      "y": 19,
+      "icon": {
+        "id": "hangglider:hang_glider",
+        "Count": 1,
+        "tag": "{Damage:0}"
+      },
+      "tasks": [
+        {
+          "type": "hardcorequesting:detect",
+          "items": [
+            {
+              "item": {
+                "id": "thermal:wrench",
+                "Count": 1,
+                "tag": "{}"
+              },
+              "precision": "FUZZY"
+            },
+            {
+              "item": {
+                "id": "exdeorum:iron_hammer",
+                "Count": 1,
+                "tag": "{Damage:0}"
+              },
+              "precision": "FUZZY"
+            },
+            {
+              "item": {
+                "id": "hangglider:hang_glider",
+                "Count": 1,
+                "tag": "{Damage:0}"
+              },
+              "precision": "FUZZY"
+            },
+            {
+              "item": {
+                "id": "pneumaticcraft:gun_ammo",
+                "Count": 1,
+                "tag": "{Damage:0}"
+              },
+              "precision": "FUZZY"
+            },
+            {
+              "item": {
+                "id": "sophisticatedbackpacks:backpack",
+                "Count": 1,
+                "tag": "{contentsUuid:[I;-347366064,186139172,-1840152118,786563545],inventorySlots:27,renderInfo:{upgradeItems:[{Count:1b,id:\"minecraft:air\",tag:{Count:1,Materials:[{ID:\"silentgear:iron\"}]}}]},upgradeSlots:1}"
+              },
+              "precision": "FUZZY"
+            },
+            {
+              "item": {
+                "id": "survive:canteen",
+                "Count": 1
+              },
+              "precision": "FUZZY"
+            },
+            {
+              "item": {
+                "id": "mekanism:basic_fluid_tank",
+                "Count": 1
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "pneumaticcraft:gun_ammo",
+          "Count": 2,
+          "tag": "{Damage:0}"
+        },
+        {
+          "id": "minecraft:potion",
+          "Count": 2,
+          "tag": "{Potion:\"survive:purified_water\"}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "farmersdelight:hamburger",
+          "Count": 2
+        },
+        {
+          "id": "bhc:red_heart",
+          "Count": 2
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "92c3fb55-ded3-4a77-82ca-5ce3acf4df2d",
+      "name": {
+        "text": "Ore Multiplication",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "You are going to need lots of iron to advance up the tech tree. A smeltery will help you get a good start by doubling the ingots you get out of ore dust. There is a small city nearby the shuttle. Perhaps a factory there contains the bricks we need?",
+        "isTranslationKey": false
+      },
+      "x": 41,
+      "y": 51,
+      "icon": {
+        "id": "tconstruct:smeltery_controller",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "hardcorequesting:detect",
+          "items": [
+            {
+              "item": {
+                "id": "tconstruct:smeltery_controller",
+                "Count": 1
+              },
+              "precision": "FUZZY"
+            },
+            {
+              "item": {
+                "id": "tconstruct:seared_fuel_tank",
+                "Count": 1
+              },
+              "precision": "FUZZY"
+            },
+            {
+              "item": {
+                "id": "tconstruct:seared_bricks",
+                "Count": 1
+              },
+              "precision": "FUZZY"
+            },
+            {
+              "item": {
+                "id": "tconstruct:seared_faucet",
+                "Count": 1
+              },
+              "precision": "FUZZY"
+            },
+            {
+              "item": {
+                "id": "tconstruct:seared_drain",
+                "Count": 1
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "d71734eb-3836-4be4-9bad-6ac0622735f5"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "tconstruct:seared_bricks",
+          "Count": 8
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "minecraft:clay",
+          "Count": 4
+        },
+        {
+          "id": "minecraft:bricks",
+          "Count": 4
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "f55605ae-9a4d-4ff4-a145-139715e9ebef",
+      "name": {
+        "text": "Unnamed",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Unnamed quest",
+        "isTranslationKey": false
+      },
+      "x": 43,
+      "y": 117,
+      "prerequisites": [
+        "f3c8cc42-da6b-4049-adaa-82b89290cf55"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "120ed3f5-1d16-4ca2-851f-ec47a55a9bf4",
+      "name": {
+        "text": "Unnamed",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Unnamed quest",
+        "isTranslationKey": false
+      },
+      "x": 43,
+      "y": 149,
+      "prerequisites": [
+        "f55605ae-9a4d-4ff4-a145-139715e9ebef"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "f3c8cc42-da6b-4049-adaa-82b89290cf55",
+      "name": {
+        "text": "Unnamed",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Unnamed quest",
+        "isTranslationKey": false
+      },
+      "x": 42,
+      "y": 84,
+      "prerequisites": [
+        "92c3fb55-ded3-4a77-82ca-5ce3acf4df2d"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    }
+  ],
+  "reputationBar": []
+}

@@ -10,6 +10,7 @@ ServerEvents.recipes(event => {
     event.remove({ output: 'minecraft:potion', type: 'tconstruct:casting_table' });
     event.remove({ type: 'tconstruct:casting_table_potion' });
     event.remove({ type: 'exdeorum:water_crucible' });
+    event.remove({ type: 'create:potions' });
     
 
     exdeorum.removeDefaultSieveRecipes(event);

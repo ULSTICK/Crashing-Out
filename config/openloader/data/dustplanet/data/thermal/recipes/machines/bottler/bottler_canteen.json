@@ -2,18 +2,19 @@
   "type": "thermal:bottler",
   "ingredients": [
     {
-      "item": "minecraft:glass_bottle"
+      "item": "survive:canteen"
     },
     {
       "fluid": "minecraft:water",
-      "amount": 1000
+      "amount": 3000
     }
   ],
   "result": [
     {
-      "item": "minecraft:potion",
+      "item": "survive:filled_canteen",
       "nbt": {
-        "Potion": "minecraft:water"
+        "Potion": "minecraft:water",
+        "DrinksLeft": 3
       }
     }
   ]
