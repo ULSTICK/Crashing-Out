@@ -3,10 +3,10 @@ ServerEvents.tags('item', event => {
         '#mekanismadditions:plastic_blocks',
         '#pneumaticcraft:plastic_bricks',
         'mekanism:hdpe_stick',
-        '#cfm:kitchen',
+       /* '#cfm:kitchen',
         '#cfm:storage',
         '#cfm:outdoors',
-        '@mdm',
+        '@mdm', */
         '#mekanismadditions:glow_panels',
         'industrialforegoing:conveyor',
 		'pneumaticcraft:failed_pcb',

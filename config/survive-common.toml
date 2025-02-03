@@ -7,7 +7,7 @@
 	#Default: 0.1125
 	#-------------------------------------------
 	#Range: 0.0 ~ 4.0
-	"Float: Idle Hunger Exhaustion" = 0.2625
+	"Float: Idle Hunger Exhaustion" = 0.5250
 	#
 	############################################
 	#The amount of time in ticks before hunger exaustion is added to the player regardless of what the player is doing. Set to -1 to disable
@@ -15,7 +15,7 @@
 	#Default: 120
 	#-------------------------------------------
 	#Range: -1 ~ 1000
-	"Integer: Idle Hunger Tick Rate" = 50
+	"Integer: Idle Hunger Tick Rate" = 30
 
 [Sleep]
 	#

@@ -1,6 +1,6 @@
 [
     {
-      "mob": ["minecraft:husk", "minecraft:witch", "thermal:blitz"],
+      "mob": ["minecraft:witch", "thermal:blitz"],
       "result": "deny"
     },
     {

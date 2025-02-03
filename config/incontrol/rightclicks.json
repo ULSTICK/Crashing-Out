@@ -11,5 +11,10 @@
     {
       "playerhelditem": "minecraft:glass_bottle",
       "result": "deny"
+    },
+    {
+      "playerhelditem": "minecraft:glass_bottle",
+      "block": "create:depot",
+      "result": "allow"
     }
    ]
