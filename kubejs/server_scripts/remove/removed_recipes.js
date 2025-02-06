@@ -11,6 +11,7 @@ ServerEvents.recipes(event => {
     event.remove({ type: 'tconstruct:casting_table_potion' });
     event.remove({ type: 'exdeorum:water_crucible' });
     event.remove({ type: 'create:potions' });
+    event.remove({ output: 'mekanism:basic_control_circuit', type: 'mekanism:metallurgic_infusing' });
     
 
     exdeorum.removeDefaultSieveRecipes(event);

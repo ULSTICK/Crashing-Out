@@ -5,7 +5,7 @@
     },
     {
       "mob": "minecraft:creeper",
-      "mincount": 5,
+      "maxcount": 5,
       "result": "deny"
     }
 ]

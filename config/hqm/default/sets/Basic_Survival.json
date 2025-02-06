@@ -27,7 +27,7 @@
           "items": [
             {
               "fluid": {
-                "fluid": "minecraft:water",
+                "fluid": "survive:purified_water",
                 "volume": {
                   "n": 1,
                   "d": 1
@@ -84,7 +84,8 @@
               "item": {
                 "id": "pamhc2foodcore:saltitem",
                 "Count": 1
-              }
+              },
+              "precision": "TAG_FUZZY"
             }
           ]
         },
@@ -502,7 +503,7 @@
                 "id": "minecraft:skeleton_skull",
                 "Count": 1
               },
-              "mob": "minecraft:skeleton",
+              "mob": "specialmobs:skeleton",
               "kills": 40
             },
             {
@@ -514,7 +515,7 @@
                 "id": "tconstruct:spider_head",
                 "Count": 1
               },
-              "mob": "minecraft:spider",
+              "mob": "specialmobs:spider",
               "kills": 25
             },
             {
@@ -526,7 +527,7 @@
                 "id": "minecraft:creeper_head",
                 "Count": 1
               },
-              "mob": "minecraft:creeper",
+              "mob": "specialmobs:creeper",
               "kills": 20
             },
             {
@@ -538,7 +539,7 @@
                 "id": "tconstruct:enderman_head",
                 "Count": 1
               },
-              "mob": "minecraft:enderman",
+              "mob": "specialmobs:enderman",
               "kills": 10
             }
           ]
@@ -907,9 +908,8 @@
           "items": [
             {
               "item": {
-                "id": "minecraft:water_bucket",
-                "Count": 1,
-                "tag": "{}"
+                "id": "survive:purified_water_bucket",
+                "Count": 1
               },
               "precision": "FUZZY"
             }
