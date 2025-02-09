@@ -1,6 +1,6 @@
 // Servidor: Adicione em `server_scripts/seu_script.js`
 
-        ItemEvents.rightClicked(event => {
+    /*    ItemEvents.rightClicked(event => {
             // Verifica se o item usado é o balde de água purificada
             if (event.item.id === 'survive:purified_water_bucket') {
                 // Cancela imediatamente o comportamento padrão
@@ -34,4 +34,4 @@
                 // Cancela o comportamento padrão (evita colocar o bloco de água purificada)
                 event.cancel();
             }
-        });
+        }); */

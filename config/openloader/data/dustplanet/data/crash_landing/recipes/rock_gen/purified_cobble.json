@@ -1,0 +1,8 @@
+{
+    "type": "thermal:rock_gen",
+    "adjacent": "survive:purified_water",
+    "result": {
+        "item": "minecraft:cobblestone"
+    }
+
+}

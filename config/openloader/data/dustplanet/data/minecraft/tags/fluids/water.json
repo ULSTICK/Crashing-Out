@@ -1,0 +1,8 @@
+{
+    "values": [
+      "minecraft:water",
+      "minecraft:flowing_water",
+      "survive:purified_water",
+      "survive:flowing_purified_water"
+    ]
+  }

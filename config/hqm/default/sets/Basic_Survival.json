@@ -797,17 +797,17 @@
       },
       "tasks": [
         {
-          "type": "hardcorequesting:detect",
+          "type": "hardcorequesting:consume",
           "description": {
             "text": "Dirty dirt",
-            "isTranslationKey": false
+            "isTranslationKey": true
           },
           "items": [
             {
               "item": {
                 "id": "minecraft:potion",
                 "Count": 1,
-                "tag": "{Potion:\"minecraft:water\",Purity:0}"
+                "tag": "{Potion:\"minecraft:water\"}"
               },
               "precision": "FUZZY"
             }
@@ -851,13 +851,13 @@
       },
       "tasks": [
         {
-          "type": "hardcorequesting:detect",
+          "type": "hardcorequesting:consume",
           "items": [
             {
               "item": {
                 "id": "minecraft:potion",
                 "Count": 1,
-                "tag": "{Potion:\"minecraft:water\",Purity:3}"
+                "tag": "{Potion:\"minecraft:water\"}"
               },
               "precision": "FUZZY"
             }
@@ -958,7 +958,7 @@
       },
       "tasks": [
         {
-          "type": "hardcorequesting:detect",
+          "type": "hardcorequesting:consume",
           "items": [
             {
               "item": {
@@ -1385,14 +1385,14 @@
       },
       "tasks": [
         {
-          "type": "hardcorequesting:detect",
+          "type": "hardcorequesting:consume",
           "description": {
             "text": "Creating Dirt",
-            "isTranslationKey": false
+            "isTranslationKey": true
           },
           "longDescription": {
             "text": "Make sure you plant something!",
-            "isTranslationKey": false
+            "isTranslationKey": true
           },
           "items": [
             {
@@ -1411,9 +1411,8 @@
               "item": {
                 "id": "minecraft:potion",
                 "Count": 1,
-                "tag": "{Potion:\"minecraft:water\",Purity:3}"
-              },
-              "precision": "FUZZY"
+                "tag": "{Potion:\"minecraft:water\"}"
+              }
             }
           ]
         }

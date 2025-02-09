@@ -39,7 +39,7 @@
 	#Default: 24000
 	#-------------------------------------------
 	#Range: 0 ~ 240000
-	"Integer: Initial Tired Time" = 24000
+	"Integer: Initial Tired Time" = 48000
 	#
 	############################################
 	#The amount of ticks after the Initial Tired Time before the amplifier of the tiredness effects increases
@@ -47,7 +47,7 @@
 	#Default: 12000
 	#-------------------------------------------
 	#Range: 0 ~ 240000
-	"Integer: Tired Time Step" = 12000
+	"Integer: Tired Time Step" = 24000
 	#
 	############################################
 	#The maximum amount of sleep time can stack up to. This also determines the maximum amplifier for the tiredness effect
