@@ -36,7 +36,7 @@
     "acidRainDamage": 3,
     "allowFlagImages": true,
     // A list of planets that should be disabled. This is a comma-separated list of planet ids.
-    "disabledPlanets": "",
+    "disabledPlanets": "ad_astra:moon,ad_astra:mars,ad_astra:venus,ad_astra:mercury,ad_astra:glacio",
     // Prevents stuff like gravity and oxygen checks in the overworld as that's normally not used in Ad Astra. enable if you're making an addon or something that transforms the overworld into some sort of planet.
     "avoidOverworldChecks": true,
     "spawning": {

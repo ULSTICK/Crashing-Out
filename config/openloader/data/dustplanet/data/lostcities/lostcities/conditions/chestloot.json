@@ -2,13 +2,11 @@
   "values": [
     {
       "factor": 8,
-      "value": "lostcities:chests/lostcitychest",
-      "range": "4,100"
+      "value": "lostcities:chests/lostcitychest"
     },
     {
       "factor": 8,
-      "value": "lostcities:chests/lostcitychest",
-      "range": "-100,-3"
+      "value": "lostcities:chests/lostcitychest"
     },
     {
       "factor": 20,
