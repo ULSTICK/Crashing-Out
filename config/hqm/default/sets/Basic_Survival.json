@@ -1411,8 +1411,9 @@
               "item": {
                 "id": "minecraft:potion",
                 "Count": 1,
-                "tag": "{Potion:\"minecraft:water\"}"
-              }
+                "tag": "{Potion:\"survive:purified_water\"}"
+              },
+              "precision": "FUZZY"
             }
           ]
         }
