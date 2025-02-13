@@ -1,0 +1,245 @@
+{
+  "name": "Technological Revolution!",
+  "quests": [
+    {
+      "uuid": "4603a7e8-470b-4a64-a199-84aaf94e603d",
+      "name": {
+        "text": "Unnamed",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Unnamed quest",
+        "isTranslationKey": false
+      },
+      "x": 127,
+      "y": 77,
+      "prerequisites": [
+        "6f634898-e3df-42b8-9d1a-0c714b167356"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "cbb9bc93-4fb3-4844-b457-5e08137096d7",
+      "name": {
+        "text": "Unnamed",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Unnamed quest",
+        "isTranslationKey": false
+      },
+      "x": 87,
+      "y": 17,
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "f18850ad-ddc5-4d3c-8c9c-b3aa091addbb",
+      "name": {
+        "text": "Unnamed",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Unnamed quest",
+        "isTranslationKey": false
+      },
+      "x": 98,
+      "y": 138,
+      "prerequisites": [
+        "d41c9753-3fe3-475c-adbc-77160c347593"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "be7af2e5-6165-45b2-b21c-8da41319c7e2",
+      "name": {
+        "text": "Unnamed",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Unnamed quest",
+        "isTranslationKey": false
+      },
+      "x": 87,
+      "y": 107,
+      "prerequisites": [
+        "8559f15c-259a-4874-a753-adb36cf75447"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "8f3d2964-8123-446b-bdc8-116ad499c8da",
+      "name": {
+        "text": "Unnamed",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Unnamed quest",
+        "isTranslationKey": false
+      },
+      "x": 158,
+      "y": 64,
+      "prerequisites": [
+        "6f634898-e3df-42b8-9d1a-0c714b167356"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "5480e43d-5bf1-483d-8f04-54cc1fffa355",
+      "name": {
+        "text": "Unnamed",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Unnamed quest",
+        "isTranslationKey": false
+      },
+      "x": 57,
+      "y": 48,
+      "prerequisites": [
+        "cbb9bc93-4fb3-4844-b457-5e08137096d7"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "50c4ef23-b9c7-4b3f-ac88-3628c9fda777",
+      "name": {
+        "text": "Unnamed",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Unnamed quest",
+        "isTranslationKey": false
+      },
+      "x": 87,
+      "y": 47,
+      "prerequisites": [
+        "cbb9bc93-4fb3-4844-b457-5e08137096d7"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "dedd2e7c-32c9-4ae6-9351-0fc050c99283",
+      "name": {
+        "text": "Unnamed",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Unnamed quest",
+        "isTranslationKey": false
+      },
+      "x": 127,
+      "y": 107,
+      "prerequisites": [
+        "4603a7e8-470b-4a64-a199-84aaf94e603d"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "6f634898-e3df-42b8-9d1a-0c714b167356",
+      "name": {
+        "text": "Unnamed",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Unnamed quest",
+        "isTranslationKey": false
+      },
+      "x": 127,
+      "y": 47,
+      "prerequisites": [
+        "cbb9bc93-4fb3-4844-b457-5e08137096d7"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "6411096c-3d98-4e84-8599-9718d7ee18f6",
+      "name": {
+        "text": "Unnamed",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Unnamed quest",
+        "isTranslationKey": false
+      },
+      "x": 56,
+      "y": 108,
+      "prerequisites": [
+        "8559f15c-259a-4874-a753-adb36cf75447",
+        "5480e43d-5bf1-483d-8f04-54cc1fffa355"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "8559f15c-259a-4874-a753-adb36cf75447",
+      "name": {
+        "text": "Unnamed",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Unnamed quest",
+        "isTranslationKey": false
+      },
+      "x": 87,
+      "y": 77,
+      "prerequisites": [
+        "50c4ef23-b9c7-4b3f-ac88-3628c9fda777"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "d41c9753-3fe3-475c-adbc-77160c347593",
+      "name": {
+        "text": "Unnamed",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Unnamed quest",
+        "isTranslationKey": false
+      },
+      "x": 127,
+      "y": 138,
+      "prerequisites": [
+        "dedd2e7c-32c9-4ae6-9351-0fc050c99283"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    }
+  ],
+  "reputationBar": []
+}

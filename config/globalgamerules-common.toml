@@ -151,10 +151,10 @@
 	difficulty = "HARD"
 	#If true the world will be set to hardcore, difficultly will be set to hard independent to the 'difficulty' config
 	#Setting it to hardcore auto locks the difficulty while this is true
-	hardcore = true
+	hardcore = false
 	#If a world's difficulty should be locked when loaded, if world already is locked it can't be changed
 	#If the global world difficulty is enabled it's set first
-	lock_difficulty = true
+	lock_difficulty = false
 
 #A collection of misc configs
 [misc]

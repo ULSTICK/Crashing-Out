@@ -1,0 +1,237 @@
+{
+  "__comment__": "'missingpalette' represents all blockstates that it couldn't find in the palette. These have to be put in a palette. 'exportedpart' is the actual exported part",
+  "missingpalette": {
+    "palette": [
+      {
+        "char": "N",
+        "block": "lootr:lootr_chest[facing=north,type=single,waterlogged=false]"
+      },
+      {
+        "char": "H",
+        "block": "minecraft:hay_block[axis=x]"
+      },
+      {
+        "char": "J",
+        "block": "farmersdelight:basket[enabled=true,facing=west,waterlogged=false]"
+      },
+      {
+        "char": "q",
+        "block": "farmersdelight:basket[enabled=true,facing=south,waterlogged=false]"
+      },
+      {
+        "char": "i",
+        "block": "minecraft:andesite"
+      },
+      {
+        "char": "7",
+        "block": "minecraft:cobblestone_slab[type=top,waterlogged=false,weathering=false]"
+      },
+      {
+        "char": "8",
+        "block": "immersive_weathering:sandy_cobblestone_slab[sand_age=0,sandiness=0,type=top,waterlogged=false]"
+      },
+      {
+        "char": "U",
+        "block": "immersive_weathering:tinted_glass_pane[east=true,north=false,south=false,waterlogged=false,west=true]"
+      },
+      {
+        "char": "P",
+        "block": "immersive_weathering:sandy_cobblestone_stairs[facing=north,half=bottom,sand_age=0,sandiness=0,shape=straight,waterlogged=false]"
+      },
+      {
+        "char": "0",
+        "block": "minecraft:hay_block[axis=y]"
+      },
+      {
+        "char": "E",
+        "block": "farmersdelight:rice_bale[facing=up]"
+      },
+      {
+        "char": "I",
+        "block": "sophisticatedstorage:chest[facing=east,ticking=false,type=single,waterlogged=false]"
+      },
+      {
+        "char": "O",
+        "block": "minecraft:cobblestone_stairs[facing=north,half=bottom,shape=straight,waterlogged=false,weathering=false]"
+      },
+      {
+        "char": "V",
+        "block": "immersive_weathering:tinted_glass_pane[east=true,north=false,south=true,waterlogged=false,west=true]"
+      },
+      {
+        "char": "j",
+        "block": "minecraft:cobblestone[weathering=false]"
+      },
+      {
+        "char": "3",
+        "block": "minecraft:andesite_slab[type=top,waterlogged=false]"
+      },
+      {
+        "char": "6",
+        "block": "farmersdelight:rope[east=false,north=true,south=false,tied_to_bell=false,waterlogged=false,west=false]"
+      },
+      {
+        "char": "e",
+        "block": "exdeorum:dust"
+      },
+      {
+        "char": "o",
+        "block": "farmersdelight:basket[enabled=true,facing=up,waterlogged=false]"
+      },
+      {
+        "char": "r",
+        "block": "farmersdelight:rice_bale[facing=south]"
+      },
+      {
+        "char": "s",
+        "block": "farmersdelight:rice_bale[facing=west]"
+      },
+      {
+        "char": "m",
+        "block": "chipped:cracked_andesite_bricks"
+      },
+      {
+        "char": "M",
+        "block": "lootr:lootr_chest[facing=east,type=single,waterlogged=false]"
+      },
+      {
+        "char": "2",
+        "block": "sophisticatedstorage:chest[facing=north,ticking=false,type=single,waterlogged=false]"
+      },
+      {
+        "char": "5",
+        "block": "minecraft:andesite_slab[type=bottom,waterlogged=false]"
+      },
+      {
+        "char": "k",
+        "block": "chipped:cracked_disordered_andesite_bricks"
+      },
+      {
+        "char": "^",
+        "block": "immersive_weathering:sandy_cobblestone_slab[sand_age=0,sandiness=1,type=top,waterlogged=false]"
+      },
+      {
+        "char": "f",
+        "block": "chipped:mosaic_light_gray_concrete"
+      },
+      {
+        "char": "n",
+        "block": "chipped:small_andesite_bricks"
+      }
+    ]
+  },
+  "exportedpart": {
+    "xsize": 16,
+    "zsize": 16,
+    "slices": [
+      [
+        "eeeeeeeeeeeeeeee",
+        "eeeeeeeeeeeeeeee",
+        "eeeeeeeeeeeeeeee",
+        "eeeeeeeeeeeeeeee",
+        "eeeeeeeeeeeeeeee",
+        "eeeeeeeeeeeeeeee",
+        "eeeeeeeeeeeeeeee",
+        "eeeeeeeeeeeeeeee",
+        "eeeeeeeeeeeeeeee",
+        "eeeeeeeeeeeeeeee",
+        "eeeeeeeeeeeeeeee",
+        "eeeeeeeeeeeeeeee",
+        "eeeeeeeeeeeeeeee",
+        "eeeeeeeeeeeeeeee",
+        "eeeeeeeeeeeeeeee",
+        "eeeeeeeeeeeeeeee"
+      ],
+      [
+        "                ",
+        " ffffffffffffff ",
+        " fii iiiijiiiif ",
+        " fiiiiiiiiii1if ",
+        " fiijiiiiiiiiif ",
+        " fiiiiiiiiiiiif ",
+        " fijiijiiijjiif ",
+        " fiiijjiiieiiif ",
+        " fi1ijiiejiiiif ",
+        " fjjiiiiiiiiiif ",
+        " fiijiiiiieiiik ",
+        " fiiiiijjjiiiim ",
+        "ef iijiijjiiiin ",
+        "efi iiiiiiijiin ",
+        "effffffffffffee ",
+        "eeeeoq    o ee  "
+      ],
+      [
+        "                ",
+        " kkmmjk  nnkkkn ",
+        " k       ersEsk ",
+        " m       eeHssm ",
+        " mI         EHm ",
+        " nIe         Hn ",
+        " ke          Jk ",
+        " kMe     e   ok ",
+        " kIee       eJk ",
+        " nee         ee ",
+        " nM         kNn ",
+        " kI         k1k ",
+        " m          n n ",
+        " m          nOP ",
+        "emmnkkk  kmmm   ",
+        "eee             "
+      ],
+      [
+        "                ",
+        " kmUmUn  k nVmk ",
+        " m        e 0 m ",
+        " m          HHm ",
+        " m            m ",
+        "  e           m ",
+        " ne           n ",
+        " m           em ",
+        " me          ee ",
+        " k            k ",
+        " n          k2k ",
+        " k            n ",
+        " m          kPP ",
+        " k          k   ",
+        " mUmUm   kkUk   ",
+        "                "
+      ],
+      [
+        "       33       ",
+        " nmUn mknnUmUnn ",
+        " m           Hm ",
+        " k            k ",
+        " n            n ",
+        " k            k ",
+        " m              ",
+        "              k ",
+        " n            n ",
+        " n            n ",
+        "            m2n ",
+        " m          mOP ",
+        " n          m   ",
+        " k          k   ",
+        " k k knnmmnVn   ",
+        "      5335 6    "
+      ],
+      [
+        "   5 5    5 5   ",
+        " nm nnnnkmnnnk  ",
+        "  333333333333m ",
+        " n33 337333333n ",
+        " n3333 7373333n ",
+        " n333337 3 333n ",
+        " n337333333733n ",
+        " n333333333833n ",
+        " k33333773 333k ",
+        " m333733333333m ",
+        " m3333333 33kOP ",
+        " m333 333333k   ",
+        " n333 333873k   ",
+        " k33333333^3k   ",
+        " nnnnnkmmmnk    ",
+        "  5 5      5    "
+      ]
+    ]
+  }
+}
