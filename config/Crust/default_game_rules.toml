@@ -15,7 +15,6 @@ config_enabled = false
 # Category: player
 # Default game rule settings for the 'player' category.
 
-  player.agonia = 1
   player.disable_elytra_movement_check = false
   player.do_immediate_respawn = false
   player.do_limited_crafting = false
@@ -25,7 +24,6 @@ config_enabled = false
   player.freeze_damage = true
   player.keep_inventory = false
   player.natural_regeneration = true
-  player.no_sprinting = 1
   player.players_sleeping_percentage = 100
   player.spawn_radius = 10
   player.spectators_generate_chunks = true
