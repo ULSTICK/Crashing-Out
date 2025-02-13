@@ -467,80 +467,55 @@
       },
       "tasks": [
         {
-          "type": "hardcorequesting:kill",
+          "type": "hardcorequesting:consume",
           "description": {
             "text": "Dirty Deeds",
             "isTranslationKey": true
           },
-          "mobs": [
+          "items": [
             {
-              "name": {
-                "text": "Zombie",
-                "isTranslationKey": false
-              },
-              "icon": {
-                "id": "minecraft:zombie_head",
+              "item": {
+                "id": "minecraft:rotten_flesh",
                 "Count": 1
               },
-              "mob": "specialmobs:zombie",
-              "kills": 50
+              "required": 50
             }
           ]
         },
         {
-          "type": "hardcorequesting:kill",
+          "type": "hardcorequesting:consume",
           "description": {
             "text": "Done Dirt Cheap",
             "isTranslationKey": true
           },
-          "mobs": [
+          "items": [
             {
-              "name": {
-                "text": "Skeleton",
-                "isTranslationKey": false
-              },
-              "icon": {
-                "id": "minecraft:skeleton_skull",
+              "item": {
+                "id": "minecraft:bone",
                 "Count": 1
               },
-              "mob": "specialmobs:skeleton",
-              "kills": 40
+              "required": 40
             },
             {
-              "name": {
-                "text": "Spider",
-                "isTranslationKey": false
-              },
-              "icon": {
-                "id": "tconstruct:spider_head",
+              "item": {
+                "id": "minecraft:spider_eye",
                 "Count": 1
               },
-              "mob": "specialmobs:spider",
-              "kills": 25
+              "required": 25
             },
             {
-              "name": {
-                "text": "Creeper",
-                "isTranslationKey": false
-              },
-              "icon": {
-                "id": "minecraft:creeper_head",
+              "item": {
+                "id": "minecraft:gunpowder",
                 "Count": 1
               },
-              "mob": "specialmobs:creeper",
-              "kills": 20
+              "required": 40
             },
             {
-              "name": {
-                "text": "Enderman",
-                "isTranslationKey": false
-              },
-              "icon": {
-                "id": "tconstruct:enderman_head",
+              "item": {
+                "id": "minecraft:ender_pearl",
                 "Count": 1
               },
-              "mob": "specialmobs:enderman",
-              "kills": 10
+              "required": 10
             }
           ]
         }
@@ -667,80 +642,59 @@
       },
       "tasks": [
         {
-          "type": "hardcorequesting:kill",
+          "type": "hardcorequesting:consume",
           "description": {
             "text": "Holding out for a hero...",
-            "isTranslationKey": false
+            "isTranslationKey": true
           },
-          "mobs": [
+          "longDescription": {
+            "text": "Because of some hqm limitations, you will have to get the mob drops!",
+            "isTranslationKey": true
+          },
+          "items": [
             {
-              "name": {
-                "text": "Zombie",
-                "isTranslationKey": false
-              },
-              "icon": {
-                "id": "minecraft:zombie_spawn_egg",
+              "item": {
+                "id": "minecraft:rotten_flesh",
                 "Count": 1
               },
-              "mob": "specialmobs:zombie",
-              "kills": 5
+              "required": 10
             },
             {
-              "name": {
-                "text": "Skeleton",
-                "isTranslationKey": false
-              },
-              "icon": {
-                "id": "minecraft:skeleton_spawn_egg",
+              "item": {
+                "id": "minecraft:bone",
                 "Count": 1
               },
-              "mob": "specialmobs:skeleton",
-              "kills": 5
+              "required": 10
             },
             {
-              "name": {
-                "text": "Spider",
-                "isTranslationKey": false
-              },
-              "icon": {
-                "id": "minecraft:spider_spawn_egg",
+              "item": {
+                "id": "minecraft:spider_eye",
                 "Count": 1
               },
-              "mob": "specialmobs:spider",
-              "kills": 5
+              "required": 10
             },
             {
-              "name": {
-                "text": "Creeper",
-                "isTranslationKey": false
-              },
-              "icon": {
-                "id": "minecraft:creeper_spawn_egg",
+              "item": {
+                "id": "minecraft:gunpowder",
                 "Count": 1
               },
-              "mob": "specialmobs:creeper",
-              "kills": 2
+              "required": 32
             }
           ]
         },
         {
-          "type": "hardcorequesting:kill",
+          "type": "hardcorequesting:consume",
           "description": {
             "text": "Till the end of the night",
-            "isTranslationKey": false
+            "isTranslationKey": true
           },
-          "mobs": [
+          "items": [
             {
-              "name": {
-                "text": "Enderman",
-                "isTranslationKey": false
-              },
-              "icon": {
-                "id": "minecraft:enderman_spawn_egg",
+              "item": {
+                "id": "minecraft:ender_pearl",
                 "Count": 1
               },
-              "mob": "specialmobs:enderman",
-              "kills": 1
+              "required": 5
             }
           ]
         }

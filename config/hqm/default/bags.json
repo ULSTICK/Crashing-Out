@@ -227,6 +227,11 @@
             "tag": "{RepairCost:0,display:{Name:\u0027{\"text\":\"Spawn Horse\"}\u0027}}"
           }
         ]
+      },
+      {
+        "id": "d0c72cef-4165-417a-9687-86bcf3bbd644",
+        "limit": 0,
+        "items": []
       }
     ]
   },

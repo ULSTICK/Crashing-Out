@@ -31,7 +31,8 @@ ServerEvents.recipes(event => {
         'minecraft:birch_sapling':0.01,
         'minecraft:oak_sapling':0.02,
         'minecraft:spruce_sapling':0.01,
-        'thermal:rubberwood_sapling':0.03
+        'thermal:rubberwood_sapling':0.03,
+        'minecraft:sweet_berries': 0.01
     };
 
     const mesh = {

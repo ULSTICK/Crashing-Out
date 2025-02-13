@@ -4,239 +4,863 @@
     {
       "uuid": "4603a7e8-470b-4a64-a199-84aaf94e603d",
       "name": {
-        "text": "Unnamed",
+        "text": "Green Growing Things",
         "isTranslationKey": false
       },
       "description": {
-        "text": "Unnamed quest",
+        "text": "Trees for leaves and saplings, crops for food. You\u0027ve been harvesting by hand, it is time to move beyond that. ",
         "isTranslationKey": false
       },
       "x": 127,
       "y": 77,
+      "icon": {
+        "id": "industrialforegoing:plant_gatherer",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "hardcorequesting:detect",
+          "longDescription": {
+            "text": "A Plant Gatherer set to shear leaves should finally put an end to your water woes. Just remember you don\u0027t get saplings from doing that. Perhaps a second Gatherer/Sower combo just for saplings would be a good idea? Remember, all Industrial Foregoing machines except the Mob Crusher affect a 3x3 area. Install range upgrades as necessary. ",
+            "isTranslationKey": true
+          },
+          "items": [
+            {
+              "item": {
+                "id": "industrialforegoing:plant_gatherer",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "industrialforegoing:plant_sower",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
       "prerequisites": [
         "6f634898-e3df-42b8-9d1a-0c714b167356"
       ],
       "optionlinks": [],
-      "reward": [],
+      "reward": [
+        {
+          "id": "pipez:item_pipe",
+          "Count": 16
+        },
+        {
+          "id": "functionalstorage:jungle_4",
+          "Count": 1
+        },
+        {
+          "id": "functionalstorage:copper_upgrade",
+          "Count": 2
+        },
+        {
+          "id": "pneumaticcraft:plastic",
+          "Count": 8
+        }
+      ],
       "rewardchoice": [],
       "commandrewards": []
     },
     {
       "uuid": "cbb9bc93-4fb3-4844-b457-5e08137096d7",
       "name": {
-        "text": "Unnamed",
+        "text": "Covering the Basics",
         "isTranslationKey": false
       },
       "description": {
-        "text": "Unnamed quest",
+        "text": "Before we get working on the more complex stuff, let\u0027s make sure you have the groundwork down first.",
         "isTranslationKey": false
       },
       "x": 87,
       "y": 17,
+      "icon": {
+        "id": "pneumaticcraft:printed_circuit_board",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "hardcorequesting:detect",
+          "items": [
+            {
+              "item": {
+                "id": "pneumaticcraft:printed_circuit_board",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "mekanism:basic_control_circuit",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "mekanism:steel_casing",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "thermal:electrum_ingot",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "thermal:invar_ingot",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
       "prerequisites": [],
       "optionlinks": [],
-      "reward": [],
-      "rewardchoice": [],
+      "reward": [
+        {
+          "id": "mekanism:steel_casing",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "thermal:invar_ingot",
+          "Count": 4
+        },
+        {
+          "id": "thermal:electrum_ingot",
+          "Count": 4
+        }
+      ],
       "commandrewards": []
     },
     {
       "uuid": "f18850ad-ddc5-4d3c-8c9c-b3aa091addbb",
       "name": {
-        "text": "Unnamed",
+        "text": "Industrial Foregoing Liquids",
         "isTranslationKey": false
       },
       "description": {
-        "text": "Unnamed quest",
+        "text": "So many liquids. so many icky, icky liquids.",
         "isTranslationKey": false
       },
       "x": 98,
       "y": 138,
+      "icon": {
+        "id": "industrialforegoing:pink_slime_bucket",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "hardcorequesting:consume_qds",
+          "items": [
+            {
+              "fluid": {
+                "fluid": "industrialforegoing:meat",
+                "volume": {
+                  "n": 1,
+                  "d": 1
+                }
+              },
+              "required": 10000
+            },
+            {
+              "fluid": {
+                "fluid": "industrialforegoing:pink_slime",
+                "volume": {
+                  "n": 1,
+                  "d": 1
+                }
+              },
+              "required": 10000
+            },
+            {
+              "fluid": {
+                "fluid": "industrialforegoing:sludge",
+                "volume": {
+                  "n": 1,
+                  "d": 1
+                }
+              },
+              "required": 10000
+            },
+            {
+              "fluid": {
+                "fluid": "industrialforegoing:sewage",
+                "volume": {
+                  "n": 1,
+                  "d": 1
+                }
+              },
+              "required": 10000
+            }
+          ]
+        }
+      ],
       "prerequisites": [
         "d41c9753-3fe3-475c-adbc-77160c347593"
       ],
       "optionlinks": [],
       "reward": [],
-      "rewardchoice": [],
+      "rewardchoice": [
+        {
+          "id": "mekanism:ultimate_control_circuit",
+          "Count": 2
+        },
+        {
+          "id": "tconstruct:queens_slime_ingot",
+          "Count": 2
+        },
+        {
+          "id": "thermal:obsidian_glass",
+          "Count": 16
+        }
+      ],
       "commandrewards": []
     },
     {
       "uuid": "be7af2e5-6165-45b2-b21c-8da41319c7e2",
       "name": {
-        "text": "Unnamed",
+        "text": "Thermal Melting",
         "isTranslationKey": false
       },
       "description": {
-        "text": "Unnamed quest",
+        "text": "Now, let\u0027s put what you\u0027ve learned to the test.",
         "isTranslationKey": false
       },
       "x": 87,
       "y": 107,
+      "icon": {
+        "id": "thermal:refined_fuel_bucket",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "hardcorequesting:consume_qds",
+          "items": [
+            {
+              "fluid": {
+                "fluid": "thermal:redstone",
+                "volume": {
+                  "n": 1,
+                  "d": 1
+                }
+              },
+              "required": 1000
+            },
+            {
+              "fluid": {
+                "fluid": "thermal:glowstone",
+                "volume": {
+                  "n": 1,
+                  "d": 1
+                }
+              },
+              "required": 1000
+            },
+            {
+              "fluid": {
+                "fluid": "thermal:creosote",
+                "volume": {
+                  "n": 1,
+                  "d": 1
+                }
+              },
+              "required": 1000
+            },
+            {
+              "fluid": {
+                "fluid": "thermal:ender",
+                "volume": {
+                  "n": 1,
+                  "d": 1
+                }
+              },
+              "required": 1000
+            },
+            {
+              "fluid": {
+                "fluid": "thermal:refined_fuel",
+                "volume": {
+                  "n": 1,
+                  "d": 1
+                }
+              },
+              "required": 1000
+            }
+          ]
+        },
+        {
+          "type": "hardcorequesting:consume",
+          "items": [
+            {
+              "item": {
+                "id": "thermal:enderium_ingot",
+                "Count": 1
+              },
+              "required": 4
+            }
+          ]
+        }
+      ],
       "prerequisites": [
         "8559f15c-259a-4874-a753-adb36cf75447"
       ],
       "optionlinks": [],
-      "reward": [],
-      "rewardchoice": [],
+      "reward": [
+        {
+          "id": "mekanism:steel_casing",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "mekanism:quantum_entangloporter",
+          "Count": 2
+        },
+        {
+          "id": "mekanism:ultimate_energy_cube",
+          "Count": 1
+        }
+      ],
       "commandrewards": []
     },
     {
       "uuid": "8f3d2964-8123-446b-bdc8-116ad499c8da",
       "name": {
-        "text": "Unnamed",
+        "text": "Using What You Got",
         "isTranslationKey": false
       },
       "description": {
-        "text": "Unnamed quest",
+        "text": "With a grinder running you are making a lot of mob essence. Time to put it to good use.",
         "isTranslationKey": false
       },
       "x": 158,
       "y": 64,
+      "icon": {
+        "id": "industrialforegoing:mob_duplicator",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "hardcorequesting:detect",
+          "items": [
+            {
+              "item": {
+                "id": "industrialforegoing:mob_duplicator",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "industrialforegoing:enchantment_factory",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "industrialforegoing:enchantment_applicator",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
       "prerequisites": [
         "6f634898-e3df-42b8-9d1a-0c714b167356"
       ],
       "optionlinks": [],
-      "reward": [],
+      "reward": [
+        {
+          "id": "industrialforegoing:mob_imprisonment_tool",
+          "Count": 1,
+          "tag": "{AbsorptionAmount:0.0f,Age:0,Air:300s,ArmorDropChances:[0.085f,0.085f,0.085f,0.085f],ArmorItems:[{},{},{},{}],Attributes:[{Base:0.0d,Modifiers:[{Amount:9.777422304506656d,Name:\"Animal knockback\",Operation:0,UUID:[I;333325952,1834569580,-1151137025,-1418291331]}],Name:\"minecraft:generic.attack_knockback\"},{Base:0.08d,Name:\"forge:entity_gravity\"},{Base:0.8282856485126004d,Name:\"forge:entity_reach\"},{Base:26.0d,Modifiers:[{Amount:0.05916312017454476d,Name:\"Random spawn bonus\",Operation:1,UUID:[I;-592301361,1332888850,-1989866313,1400526848]}],Name:\"minecraft:generic.follow_range\"},{Base:0.0d,Name:\"reach-entity-attributes:reach\"},{Base:0.0d,Name:\"forge:step_height_addition\"},{Base:12.0d,Name:\"enhancedai:generic.xray_follow_range\"},{Base:0.09000000357627869d,Name:\"minecraft:generic.movement_speed\"}],BalmData:{},Brain:{memories:{\"minecraft:gaze_cooldown_ticks\":{value:166}}},Bred:0b,CanPickUpLoot:0b,CanUpdate:1b,DeathTime:0s,EatingHaystack:0b,FallDistance:0.0f,FallFlying:0b,Fire:-1s,ForcedAge:0,ForgeCaps:{\"curios:inventory\":{Curios:[]},\"mekanism:radiation\":{radiation:1.0E-7d},\"pneumaticcraft:hacking\":{}},ForgeData:{\"enhancedai:can_attack_back\":1b,\"enhancedai:follow_ranges_processed\":1b,\"enhancedai:not_tempted\":1b,\"enhancedai:player_scared\":0b,\"enhancedai:speed_multiplier_when_aggroed\":1.1d,\"enhancedai:sprint\":0b,vmhBiomeSpawnedIn:\"minecraft:desert\",vmhBreedingCoefficient:1.01d,vmhDimensionSpawnedIn:\"minecraft:overworld\",vmhDoScaleBreeding:1b,vmhScale:1.2179698944091797d,vmhScaleDistribution:0.0d,vmhScaleMax:1.5d,vmhScaleMean:1.225d,vmhScaleMedian:1.0d,vmhScaleMin:0.95d,vmhSpawned:1b},HandDropChances:[0.085f,0.085f],HandItems:[{},{}],Health:32.0f,HurtByTimestamp:0,HurtTime:0s,InLove:0,Invulnerable:0b,LastPoseTick:8006223L,LeftHanded:0b,Motion:[0.0d,-0.0784000015258789d,0.0d],OnGround:1b,PersistenceRequired:0b,PortalCooldown:0,Pos:[102.5d,63.0d,-238.5d],Rotation:[-39.105896f,0.0f],Tame:1b,Temper:0,UUID:[I;643220897,-1944107837,-1577591417,-1030916277],entity:\"minecraft:camel\",\"forge:spawn_type\":\"SPAWN_EGG\",\"pehkui:scale_data_types\":{\"pehkui:base\":{total_ticks:0},\"pehkui:height\":{initial:1.2179699f,scale:1.2179699f,target:1.2179699f,total_ticks:0},\"pehkui:width\":{initial:1.2179699f,scale:1.2179699f,target:1.2179699f,total_ticks:0}}}"
+        },
+        {
+          "id": "industrialforegoing:mob_imprisonment_tool",
+          "Count": 1
+        },
+        {
+          "id": "minecraft:experience_bottle",
+          "Count": 8
+        },
+        {
+          "id": "exdeorum:diamond_hammer",
+          "Count": 2,
+          "tag": "{Damage:0,Enchantments:[{id:\"minecraft:unbreaking\",lvl:3s},{id:\"minecraft:fortune\",lvl:3s}],RepairCost:3}"
+        }
+      ],
       "rewardchoice": [],
       "commandrewards": []
     },
     {
       "uuid": "5480e43d-5bf1-483d-8f04-54cc1fffa355",
       "name": {
-        "text": "Unnamed",
+        "text": "Basic AE2",
         "isTranslationKey": false
       },
       "description": {
-        "text": "Unnamed quest",
+        "text": "Although a true AE system will take quite a few resources to set up, you can get the basic infrastructure set up fairly easily. ",
         "isTranslationKey": false
       },
       "x": 57,
       "y": 48,
+      "icon": {
+        "id": "ae2:chest",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "hardcorequesting:detect",
+          "longDescription": {
+            "text": "A decent way to get organized fairly early. And when you do get a AE controller set up, the ME storage can easily be placed into an ME Drive",
+            "isTranslationKey": true
+          },
+          "items": [
+            {
+              "item": {
+                "id": "ae2:chest",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "ae2:item_storage_cell_1k",
+                "Count": 1,
+                "tag": "{}"
+              }
+            }
+          ]
+        }
+      ],
       "prerequisites": [
         "cbb9bc93-4fb3-4844-b457-5e08137096d7"
       ],
       "optionlinks": [],
-      "reward": [],
+      "reward": [
+        {
+          "id": "minecraft:quartz",
+          "Count": 16
+        },
+        {
+          "id": "ae2:certus_quartz_crystal",
+          "Count": 16
+        }
+      ],
       "rewardchoice": [],
       "commandrewards": []
     },
     {
       "uuid": "50c4ef23-b9c7-4b3f-ac88-3628c9fda777",
       "name": {
-        "text": "Unnamed",
-        "isTranslationKey": false
+        "text": "Basic Machines",
+        "isTranslationKey": true
       },
       "description": {
-        "text": "Unnamed quest",
+        "text": "You have to start somewhere. ",
         "isTranslationKey": false
       },
       "x": 87,
       "y": 47,
+      "icon": {
+        "id": "thermal:machine_pulverizer",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "hardcorequesting:detect",
+          "items": [
+            {
+              "item": {
+                "id": "thermal:machine_pulverizer",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "thermal:machine_furnace",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "thermal:charge_bench",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "thermal:machine_press",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
       "prerequisites": [
         "cbb9bc93-4fb3-4844-b457-5e08137096d7"
       ],
       "optionlinks": [],
-      "reward": [],
+      "reward": [
+        {
+          "id": "pipez:improved_upgrade",
+          "Count": 2
+        },
+        {
+          "id": "thermal:press_packing_2x2_die",
+          "Count": 1
+        },
+        {
+          "id": "thermal:press_packing_3x3_die",
+          "Count": 1
+        }
+      ],
       "rewardchoice": [],
       "commandrewards": []
     },
     {
       "uuid": "dedd2e7c-32c9-4ae6-9351-0fc050c99283",
       "name": {
-        "text": "Unnamed",
-        "isTranslationKey": false
+        "text": "All Creatures Great and Small",
+        "isTranslationKey": true
       },
       "description": {
-        "text": "Unnamed quest",
-        "isTranslationKey": false
+        "text": "Along with plants, you now have animals. These machines will help you care for them.",
+        "isTranslationKey": true
       },
       "x": 127,
       "y": 107,
+      "icon": {
+        "id": "industrialforegoing:animal_rancher",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "hardcorequesting:detect",
+          "items": [
+            {
+              "item": {
+                "id": "industrialforegoing:animal_rancher",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "industrialforegoing:animal_baby_separator",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "industrialforegoing:animal_feeder",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
       "prerequisites": [
         "4603a7e8-470b-4a64-a199-84aaf94e603d"
       ],
       "optionlinks": [],
-      "reward": [],
+      "reward": [
+        {
+          "id": "pipez:fluid_pipe",
+          "Count": 16
+        },
+        {
+          "id": "mekanism:ultimate_fluid_tank",
+          "Count": 1
+        },
+        {
+          "id": "pneumaticcraft:plastic",
+          "Count": 16
+        }
+      ],
       "rewardchoice": [],
       "commandrewards": []
     },
     {
       "uuid": "6f634898-e3df-42b8-9d1a-0c714b167356",
       "name": {
-        "text": "Unnamed",
-        "isTranslationKey": false
+        "text": "Industrial Foregoing Basics",
+        "isTranslationKey": true
       },
       "description": {
-        "text": "Unnamed quest",
-        "isTranslationKey": false
+        "text": "The start of good things.",
+        "isTranslationKey": true
       },
       "x": 127,
       "y": 47,
+      "icon": {
+        "id": "industrialforegoing:range_addon0",
+        "Count": 1,
+        "tag": "{TitaniumAugment:{Range:0.0f}}"
+      },
+      "tasks": [
+        {
+          "type": "hardcorequesting:detect",
+          "items": [
+            {
+              "item": {
+                "id": "industrialforegoing:fluid_extractor",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "industrialforegoing:dissolution_chamber",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "industrialforegoing:efficiency_addon_1",
+                "Count": 1,
+                "tag": "{TitaniumAugment:{Efficiency:0.9f}}"
+              }
+            },
+            {
+              "item": {
+                "id": "industrialforegoing:processing_addon_1",
+                "Count": 1,
+                "tag": "{TitaniumAugment:{Processing:2.0f}}"
+              }
+            },
+            {
+              "item": {
+                "id": "industrialforegoing:speed_addon_1",
+                "Count": 1,
+                "tag": "{TitaniumAugment:{Speed:2.0f}}"
+              }
+            }
+          ]
+        }
+      ],
       "prerequisites": [
         "cbb9bc93-4fb3-4844-b457-5e08137096d7"
       ],
       "optionlinks": [],
-      "reward": [],
+      "reward": [
+        {
+          "id": "mekanism:basic_fluid_tank",
+          "Count": 1,
+          "tag": "{mekData:{FluidTanks:[{Tank:0b,stored:{Amount:8000,FluidName:\"pneumaticcraft:plastic\"}}],Items:[],editMode:0,owner:[I;-826375014,1581600191,-1318216195,-1820762510],securityMode:0}}"
+        },
+        {
+          "id": "thermal:invar_ingot",
+          "Count": 6
+        },
+        {
+          "id": "pneumaticcraft:printed_circuit_board",
+          "Count": 1
+        }
+      ],
       "rewardchoice": [],
       "commandrewards": []
     },
     {
       "uuid": "6411096c-3d98-4e84-8599-9718d7ee18f6",
       "name": {
-        "text": "Unnamed",
+        "text": "AE2 Controller",
         "isTranslationKey": false
       },
       "description": {
-        "text": "Unnamed quest",
+        "text": "To get an AE storage system up you\u0027ll need a few starting machines.",
         "isTranslationKey": false
       },
       "x": 56,
       "y": 108,
+      "icon": {
+        "id": "ae2:controller",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "hardcorequesting:detect",
+          "items": [
+            {
+              "item": {
+                "id": "ae2:controller",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "ae2:drive",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "ae2:terminal",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
       "prerequisites": [
         "8559f15c-259a-4874-a753-adb36cf75447",
         "5480e43d-5bf1-483d-8f04-54cc1fffa355"
       ],
       "optionlinks": [],
-      "reward": [],
-      "rewardchoice": [],
+      "reward": [
+        {
+          "id": "ae2:engineering_processor",
+          "Count": 1
+        },
+        {
+          "id": "ae2:fluix_glass_cable",
+          "Count": 16
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ae2:item_storage_cell_16k",
+          "Count": 1,
+          "tag": "{}"
+        },
+        {
+          "id": "ae2:fluid_storage_cell_4k",
+          "Count": 1,
+          "tag": "{}"
+        }
+      ],
       "commandrewards": []
     },
     {
       "uuid": "8559f15c-259a-4874-a753-adb36cf75447",
       "name": {
-        "text": "Unnamed",
+        "text": "Advanced Machines",
         "isTranslationKey": false
       },
       "description": {
-        "text": "Unnamed quest",
+        "text": "A lot of the more complicated tech requires some advanced Thermal Expansion machines.",
         "isTranslationKey": false
       },
       "x": 87,
       "y": 77,
+      "icon": {
+        "id": "thermal:machine_smelter",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "hardcorequesting:detect",
+          "items": [
+            {
+              "item": {
+                "id": "thermal:machine_smelter",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "thermal:machine_crucible",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "thermal:machine_chiller",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
       "prerequisites": [
         "50c4ef23-b9c7-4b3f-ac88-3628c9fda777"
       ],
       "optionlinks": [],
-      "reward": [],
-      "rewardchoice": [],
+      "reward": [
+        {
+          "id": "minecraft:redstone",
+          "Count": 16
+        },
+        {
+          "id": "thermal:obsidian_glass",
+          "Count": 4
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "mekanism:dust_refined_obsidian",
+          "Count": 8
+        },
+        {
+          "id": "thermal:enderium_dust",
+          "Count": 8
+        },
+        {
+          "id": "thermal:netherite_dust",
+          "Count": 8
+        }
+      ],
       "commandrewards": []
     },
     {
       "uuid": "d41c9753-3fe3-475c-adbc-77160c347593",
       "name": {
-        "text": "Unnamed",
-        "isTranslationKey": false
+        "text": "Left Overs",
+        "isTranslationKey": true
       },
       "description": {
-        "text": "Unnamed quest",
-        "isTranslationKey": false
+        "text": "There are always byproducts.",
+        "isTranslationKey": true
       },
       "x": 127,
       "y": 138,
+      "icon": {
+        "id": "industrialforegoing:sewer",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "hardcorequesting:detect",
+          "items": [
+            {
+              "item": {
+                "id": "industrialforegoing:sewer",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "industrialforegoing:sewage_composter",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "industrialforegoing:biofuel_generator",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "industrialforegoing:mob_slaughter_factory",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
       "prerequisites": [
         "dedd2e7c-32c9-4ae6-9351-0fc050c99283"
       ],
       "optionlinks": [],
-      "reward": [],
+      "reward": [
+        {
+          "id": "minecraft:soul_sand",
+          "Count": 64
+        }
+      ],
       "rewardchoice": [],
       "commandrewards": []
     }
