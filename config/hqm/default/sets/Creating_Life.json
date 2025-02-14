@@ -71,7 +71,7 @@
         "isTranslationKey": true
       },
       "description": {
-        "text": "Companionship and protection on a dangerous planet.\n\nAnd for protection of your Wolf, you can use wolf armor!",
+        "text": "Companionship and protection on a dangerous planet.\n\nAnd for protection of your Wolf, you can use wolf armor! And you can enchant it!",
         "isTranslationKey": true
       },
       "x": 67,
@@ -584,7 +584,9 @@
           ]
         }
       ],
-      "prerequisites": [],
+      "prerequisites": [
+        "d870404e-3382-4dc8-91ea-4db728f38060"
+      ],
       "optionlinks": [],
       "reward": [
         {
@@ -648,7 +650,9 @@
           ]
         }
       ],
-      "prerequisites": [],
+      "prerequisites": [
+        "d870404e-3382-4dc8-91ea-4db728f38060"
+      ],
       "optionlinks": [],
       "reward": [
         {

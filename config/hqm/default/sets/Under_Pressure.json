@@ -913,7 +913,9 @@
           ]
         }
       ],
-      "prerequisites": [],
+      "prerequisites": [
+        "bf8d316b-64d4-4a30-8c44-86f9c0be0cb3"
+      ],
       "optionlinks": [],
       "reward": [
         {
