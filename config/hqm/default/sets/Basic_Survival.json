@@ -206,6 +206,54 @@
       "commandrewards": []
     },
     {
+      "uuid": "256dccbf-c539-4b55-9102-d14e06b3a74f",
+      "name": {
+        "text": "Important pt.2",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Obtaining Purified water",
+        "isTranslationKey": false
+      },
+      "x": 18,
+      "y": 42,
+      "icon": {
+        "id": "chipped:warning_yellow_concrete",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "hardcorequesting:detect",
+          "description": {
+            "text": "Purfied water bottles",
+            "isTranslationKey": false
+          },
+          "longDescription": {
+            "text": "You can use a spout from create to automate the process of getting purified water.",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "create:spout",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "survive:purified_water_bucket",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
       "uuid": "1db4c845-3db8-4e94-aa7d-ff88f75a45fd",
       "name": {
         "text": "Hotter than a furance",
@@ -392,6 +440,73 @@
       "reward": [
         {
           "id": "pamhc2foodcore:potitem",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "233f486d-f99b-4c35-babf-cbd631ee64a8",
+      "name": {
+        "text": "Important information",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Regarding the sync shells",
+        "isTranslationKey": false
+      },
+      "x": 18,
+      "y": 14,
+      "icon": {
+        "id": "chipped:warning_yellow_concrete",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "hardcorequesting:detect",
+          "description": {
+            "text": "Sync constructor",
+            "isTranslationKey": false
+          },
+          "longDescription": {
+            "text": "The shell constructor has been updated. \n\nIn order for you to properly use it you must first create a clone with the shell constructor and then use the shell storage to store your original body. \n\nMake sure your INVENTORY IS EMPTY otherwise you wont have your items.",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "sync:shell_constructor",
+                "Count": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "hardcorequesting:detect",
+          "description": {
+            "text": "Shell Storage",
+            "isTranslationKey": false
+          },
+          "longDescription": {
+            "text": "When using the shell storage make sure your inventory is empty! Otherwise you wont have your items untill you respawn.",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "sync:shell_storage",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "sync:treadmill",
           "Count": 1
         }
       ],
@@ -940,48 +1055,6 @@
       "commandrewards": []
     },
     {
-      "uuid": "91f29277-a2d6-45a8-979d-95ef03086ae8",
-      "name": {
-        "text": "IMPORTANT",
-        "isTranslationKey": false
-      },
-      "description": {
-        "text": "The shell constructor has been updated. \n\nIn order for you to properly use it you must first create a clone with the shell constructor and then use the shell storage to store your original body. \n\nMake sure your INVENTORY IS EMPTY otherwise you wont have your items.",
-        "isTranslationKey": false
-      },
-      "x": 223,
-      "y": 32,
-      "icon": {
-        "id": "chipped:warning_yellow_concrete",
-        "Count": 1
-      },
-      "tasks": [
-        {
-          "type": "hardcorequesting:completion",
-          "description": {
-            "text": "Important information",
-            "isTranslationKey": false
-          },
-          "longDescription": {
-            "text": "Please make sure you use the shell constructor and storage properly otherwise you may lose your world!",
-            "isTranslationKey": false
-          },
-          "completed_quests": [
-            {
-              "quest_uuid": "7ee731c2-da61-4aab-a5fa-864fc4b62277"
-            }
-          ]
-        }
-      ],
-      "prerequisites": [
-        "7ee731c2-da61-4aab-a5fa-864fc4b62277"
-      ],
-      "optionlinks": [],
-      "reward": [],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
       "uuid": "db5a3dd3-fd42-4027-b9f3-72679b36d265",
       "name": {
         "text": "Even More Desperate",
@@ -1303,7 +1376,8 @@
               "item": {
                 "id": "extra_food_items:spidereyesoup",
                 "Count": 1
-              }
+              },
+              "precision": "FUZZY"
             }
           ]
         }
@@ -1600,6 +1674,80 @@
           "tag": "{Material:\"tconstruct:bronze\"}"
         }
       ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "3f4bca77-f975-4406-9e7b-1cbe559b3068",
+      "name": {
+        "text": "Important pt.4",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Tempature",
+        "isTranslationKey": false
+      },
+      "x": 18,
+      "y": 97,
+      "icon": {
+        "id": "chipped:warning_yellow_concrete",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "hardcorequesting:detect",
+          "description": {
+            "text": "Staying cool",
+            "isTranslationKey": false
+          },
+          "longDescription": {
+            "text": "Its highly recommended to craft string armor once you get enough string",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "extra_food_items:stringarmor_helmet",
+                "Count": 1,
+                "tag": "{Damage:0}"
+              },
+              "precision": "FUZZY"
+            },
+            {
+              "item": {
+                "id": "extra_food_items:stringarmor_chestplate",
+                "Count": 1,
+                "tag": "{Damage:0}"
+              },
+              "precision": "FUZZY"
+            },
+            {
+              "item": {
+                "id": "extra_food_items:stringarmor_leggings",
+                "Count": 1,
+                "tag": "{Damage:0}"
+              },
+              "precision": "FUZZY"
+            },
+            {
+              "item": {
+                "id": "extra_food_items:stringarmor_boots",
+                "Count": 1,
+                "tag": "{Damage:0}"
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:string",
+          "Count": 64
+        }
+      ],
+      "rewardchoice": [],
       "commandrewards": []
     },
     {
@@ -1901,6 +2049,55 @@
         {
           "id": "thermal:rf_coil",
           "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "d11bf9a7-a121-49f6-95e6-0081b559aaeb",
+      "name": {
+        "text": "Important pt.3",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "First night options",
+        "isTranslationKey": false
+      },
+      "x": 18,
+      "y": 70,
+      "icon": {
+        "id": "chipped:warning_yellow_concrete",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "hardcorequesting:detect",
+          "description": {
+            "text": "Trenches and walls",
+            "isTranslationKey": false
+          },
+          "longDescription": {
+            "text": "You can play anyway you want however if you are having issues surviving your first night I suggest making a 2 block trench around your ship. Then use that dust to builda 2 block wall on the inside of the trench. Keeping you safe from everything besides spiders. To help deal with them make cobblestone walls and place on top of the wall.",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "exdeorum:dust",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:potion",
+          "Count": 1,
+          "tag": "{Potion:\"survive:purified_water\"}"
         }
       ],
       "rewardchoice": [],
