@@ -10,11 +10,26 @@
     },
     {
       "playerhelditem": "minecraft:glass_bottle",
-      "result": "deny"
+      "block": "create:depot",
+      "result": "allow"
     },
     {
       "playerhelditem": "minecraft:glass_bottle",
-      "block": "create:depot",
+      "block": "tconstruct:seared_table",
       "result": "allow"
+    },
+    {
+      "playerhelditem": "minecraft:glass_bottle",
+      "block": "exdeorum:oak_barrel",
+      "result": "allow"
+    },
+    {
+      "playerhelditem": "minecraft:glass_bottle",
+      "block": "thermal:machine_centrifuge",
+      "result": "allow"
+    },
+    {
+      "playerhelditem": "minecraft:glass_bottle",
+      "result": "deny"
     }
    ]

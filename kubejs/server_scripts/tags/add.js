@@ -4,4 +4,5 @@ ServerEvents.tags('item', event => {
     event.add('c:shears', 'extra_food_items:invarshears')
     event.add('bookshelf:shears', 'extra_food_items:invarshears')
     event.add('forge:tools/invar', 'extra_food_items:invarshears')
+    event.add('forge:buckets/empty', 'exdeorum:porcelain_bucket')
   })

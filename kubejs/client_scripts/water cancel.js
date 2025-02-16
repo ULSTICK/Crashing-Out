@@ -1,7 +1,6 @@
-
-
-
-ItemEvents.rightClicked('minecraft:glass_bottle', event => event.cancel())
+ItemEvents.rightClicked('minecraft:glass_bottle', event => event.cancel()) 
+ItemEvents.rightClicked('survive:filled_canteen', event => event.cancel())
+ItemEvents.rightClicked('survive:canteen', event => event.cancel())
 
 ItemEvents.firstRightClicked('minecraft:glass_bottle', e => {
     const {block} = e.target;

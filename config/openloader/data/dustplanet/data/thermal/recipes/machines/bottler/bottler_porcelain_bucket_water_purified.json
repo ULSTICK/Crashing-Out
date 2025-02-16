@@ -1,0 +1,17 @@
+{
+    "type": "thermal:bottler",
+    "ingredients": [
+      {
+        "item": "exdeorum:porcelain_bucket"
+      },
+      {
+        "fluid": "survive:purified_water",
+        "amount": 1000
+      }
+    ],
+    "result": [
+      {
+        "item": "kubejs:porcelain_purified_water_bucket"
+      }
+    ]
+  }

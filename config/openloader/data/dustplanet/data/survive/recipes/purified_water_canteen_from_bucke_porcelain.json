@@ -1,7 +1,7 @@
 {
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
-    { "item": "kubejs:porcelain_purified_water_bucket" },
+    { "item": "survive:purified_water_bucket" },
     { "item": "survive:canteen" }
   ],
   "result": {
