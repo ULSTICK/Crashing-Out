@@ -154,17 +154,9 @@ BlockEvents.rightClicked(event => {
             event.entity.runCommandSilent('playsound minecraft:item.bucket.fill master @p ~ ~ ~');
             event.entity.runCommandSilent('give @p minecraft:potion{Potion:"survive:purified_water"}');
 
-            // Importing FluidStack properly
-            let FluidStack = Java.type("net.minecraftforge.fluids.FluidStack");
-            let drained = tankInventory.drain(new FluidStack(fluidStack.getFluid(), 1000), true);
-
-            event.cancel();
-
-            if (drained.amount > 0) {
-                console.log("Fluid drained successfully!");
-            } else {
-                console.log("Failed to drain fluid from the tank!");
-            }
+            // Drena 1000mb do tanque corretamente
+            tankInventory.drain({ amount: 1000 }, true);
+            
         } else {
             console.log("Not enough purified water or wrong fluid!");
         }
