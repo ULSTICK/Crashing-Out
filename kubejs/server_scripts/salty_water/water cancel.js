@@ -1,6 +1,6 @@
 ItemEvents.rightClicked('minecraft:glass_bottle', event => event.cancel()) 
-ItemEvents.rightClicked('survive:filled_canteen', event => event.cancel())
-ItemEvents.rightClicked('survive:canteen', event => event.cancel())
+/* ItemEvents.rightClicked('survive:filled_canteen', event => event.cancel())
+ItemEvents.rightClicked('survive:canteen', event => event.cancel()) */
 
 ItemEvents.firstRightClicked('minecraft:glass_bottle', e => {
     const {block} = e.target;
@@ -74,12 +74,12 @@ BlockEvents.rightClicked(event => {
                     event.entity.runCommandSilent('give @p minecraft:potion{Potion:"survive:purified_water"}');
 
                     // Drain 1000mb of purified water from the tank
-                    tankInventory.drain(1000);
+                    tankInventory.drain(1000, true);
+                    e.cancel();
                 } else {
                     console.log("Not enough purified water in the centrifuge! Current amount: " + amount + "mb");
                 }
             } else {
-
                 console.log("No tank inventory found!");
             }
         } else {
