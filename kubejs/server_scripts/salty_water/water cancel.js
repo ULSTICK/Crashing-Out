@@ -1,6 +1,6 @@
 ItemEvents.rightClicked('minecraft:glass_bottle', event => event.cancel()) 
-/* ItemEvents.rightClicked('survive:filled_canteen', event => event.cancel())
-ItemEvents.rightClicked('survive:canteen', event => event.cancel()) */
+/* ItemEvents.firstRightClicked('survive:filled_canteen', event => event.cancel())
+ItemEvents.firstRightClicked('survive:canteen', event => event.cancel()) */
 
 ItemEvents.firstRightClicked('minecraft:glass_bottle', e => {
     const {block} = e.target;
@@ -18,25 +18,25 @@ ItemEvents.firstRightClicked('minecraft:glass_bottle', e => {
     e.cancel();
 })
 
-ItemEvents.rightClicked('survive:canteen', e => {
+ItemEvents.firstRightClicked('survive:canteen', e => {
     const {block} = e.target;
     if(!block || block.id != 'minecraft:water' && block.id != 'minecraft:still_water') return;
     e.cancel();
 })
 
-ItemEvents.rightClicked('survive:canteen', e => {
+ItemEvents.firstRightClicked('survive:canteen', e => {
     const {block} = e.target;
     if(!block || block.id != 'survive:purified_water' && block.id != 'minecraft:still_water') return;
     e.cancel();
 })
 
-ItemEvents.rightClicked('survive:filled_canteen', e => {
+ItemEvents.firstRightClicked('survive:filled_canteen', e => {
     const {block} = e.target;
     if(!block || block.id != 'minecraft:water' && block.id != 'minecraft:still_water') return;
     e.cancel();
 })
 
-ItemEvents.rightClicked('survive:filled_canteen', e => {
+ItemEvents.firstRightClicked('survive:filled_canteen', e => {
     const {block} = e.target;
     if(!block || block.id != 'survive:purified_water' && block.id != 'minecraft:still_water') return;
     e.cancel();
@@ -44,17 +44,17 @@ ItemEvents.rightClicked('survive:filled_canteen', e => {
 
 
 
-/* ItemEvents.rightClicked('cold_sweat:waterskin', event => event.cancel())
+/* ItemEvents.firstRightClicked('cold_sweat:waterskin', event => event.cancel())
 
-ItemEvents.firstRightClicked('cold_sweat:waterskin', e => {
+ItemEvents.firstfirstRightClicked('cold_sweat:waterskin', e => {
     const {block} = e.target;
     if(!block || block.id != 'minecraft:water' && block.id != 'minecraft:still_water') return;
     e.cancel();
 })
 
-ItemEvents.rightClicked('thirst:terracotta_bowl', event => event.cancel())
+ItemEvents.firstRightClicked('thirst:terracotta_bowl', event => event.cancel())
 
-ItemEvents.firstRightClicked('thirst:terracotta_bowl', e => {
+ItemEvents.firstfirstRightClicked('thirst:terracotta_bowl', e => {
     const {block} = e.target;
     if(!block || block.id != 'minecraft:water' && block.id != 'minecraft:still_water') return;
     e.cancel();

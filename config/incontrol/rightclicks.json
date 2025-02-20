@@ -5,6 +5,11 @@
       "result": "allow"
     },
     {
+      "playerhelditem": "survive:canteen",
+      "block": "minecraft:water",
+      "result": "deny"
+    },
+    {
       "block": "minecraft:water",
       "result": "deny"
     },

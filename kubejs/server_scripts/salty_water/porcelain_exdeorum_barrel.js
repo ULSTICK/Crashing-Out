@@ -15,6 +15,7 @@ BlockEvents.rightClicked(event => {
     
     // Adiciona a poção de água purificada ao inventário do jogador
     player.give(Item.of('kubejs:porcelain_purified_water_bucket'));
+    event.level.playSound(null, player.x, player.y, player.z, 'minecraft:item.bucket.fill', 'master', 1.0, 1.0);
     
     // Atualiza o tanque do bloco, reduzindo 1000 do fluido armazenado
     tank.Amount -= 1000;
@@ -30,6 +31,9 @@ BlockEvents.rightClicked(event => {
     // Verifica se o jogador está segurando um balde de água purificada de porcelana
     if (!item.is('kubejs:porcelain_purified_water_bucket')) return;
     
+    // Verifica se o bloco clicado é 'exdeorum:porcelain_crucible'
+    if (block.id == 'exdeorum:porcelain_crucible') return;
+    
     let blockEntity = block.entityData;
     if (!blockEntity || !blockEntity.tank) return;
     
@@ -41,6 +45,7 @@ BlockEvents.rightClicked(event => {
     
     // Adiciona um balde vazio ao inventário do jogador
     player.give(Item.of('exdeorum:porcelain_bucket'));
+    event.level.playSound(null, player.x, player.y, player.z, 'minecraft:item.bucket.empty', 'master', 1.0, 1.0);
     
     // Atualiza o tanque do bloco, enchendo com 1000 de água purificada
     tank.FluidName = "survive:purified_water";
@@ -48,3 +53,5 @@ BlockEvents.rightClicked(event => {
     block.entityData = blockEntity;
     entity.updateBlock()
 });
+
+

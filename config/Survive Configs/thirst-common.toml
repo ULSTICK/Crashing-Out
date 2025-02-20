@@ -26,7 +26,7 @@
 #Default: 0.1125
 #-------------------------------------------
 #Range: 0.0 ~ 4.0
-"Float: Idle Thirst Exhaustion" = 0.03
+"Float: Idle Thirst Exhaustion" = 0.001
 #
 ############################################
 #The amount of time in ticks before thirst exaustion is added to the player regardless of what the player is doing. Set to -1 to disable
@@ -42,5 +42,5 @@
 #Default: 3
 #-------------------------------------------
 #Range: 1 ~ 10
-"Integer: Canteen Fill Amount" = 3
+"Integer: Canteen Fill Amount" = 8
 

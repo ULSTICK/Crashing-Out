@@ -6,16 +6,16 @@
 	#Whether players in a void world start out with a full wooden watering can.
 	starting_watering_can = true
 	#Whether players can use multiple sieves in a 3x3 or larger area at once.
-	simultaneous_sieve_usage = true
+	simultaneous_sieve_usage = false
 	#The range from which simultaneous sieve usage can reach. 1 means a maximum of 3x3 sieves at once, 2 means a maximum of 5x5, 3 means maximum of 7x7 simultaneous sieves, and so on.
 	#Range: 0 ~ 6
 	simultaneous_sieve_range = 2
 	#Whether machines/fake players can interact with the Sieve. Keep in mind, the intended automation method is to use the Mechanical Sieve.
-	automated_sieves = false
+	automated_sieves = true
 	#Whether machines/fake players that interact with the Sieve can sieve in a 3x3 or larger. This option does nothing if automated_sieves is set to false.
 	nerf_automated_sieves = true
 	#Whether players can use multiple compressed sieves in a 3x3 or larger area at once.
-	simultaneous_compressed_sieve_usage = true
+	simultaneous_compressed_sieve_usage = false
 	#The progress to increment by each tick for barrel composting.
 	#Range: 0.0 ~ 1.0
 	barrel_progress_step = 0.004
@@ -38,7 +38,7 @@
 	mechanical_sieve_energy_storage = 40000
 	#The amount of FE/t a tick consumed by the mechanical sieve when sifting a block.
 	#Range: > 0
-	mechanical_sieve_energy_consumption = 40
+	mechanical_sieve_energy_consumption = 20
 	#The maximum amount of FE the mechanical hammer can have in its energy storage.
 	#Range: > 0
 	mechanical_hammer_energy_storage = 40000

@@ -1,21 +1,5 @@
 {
 	"items": [
-		"ae2:certus_quartz_dust",
-		"pamhc2foodcore:saltitem",
-		"exdeorum:stone_pebble",
-		"minecraft:redstone",
-		"exdeorum:gold_ore_chunk",
-		"exdeorum:silver_ore_chunk",
-		"minecraft:gunpowder",
-		"exdeorum:copper_ore_chunk",
-		"minecraft:glowstone_dust",
-		"exdeorum:lead_ore_chunk",
-		"exdeorum:tin_ore_chunk",
-		"minecraft:blaze_powder",
-		"farmersdelight:cooked_bacon",
-		"exdeorum:nickel_ore_chunk",
-		"minecraft:egg",
-		"minecraft:cod",
-		"minecraft:clay_ball"
+		"tconstruct:pattern"
 	]
 }
