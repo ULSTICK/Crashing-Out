@@ -325,9 +325,8 @@
       "optionlinks": [],
       "reward": [
         {
-          "id": "pneumaticcraft:gun_ammo",
-          "Count": 2,
-          "tag": "{Damage:0}"
+          "id": "cgm:shell",
+          "Count": 16
         },
         {
           "id": "minecraft:potion",

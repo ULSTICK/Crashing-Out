@@ -13,7 +13,7 @@ ServerEvents.recipes(event => {
     event.remove({ type: 'create:potions' });
     event.remove({ output: 'mekanism:basic_control_circuit', type: 'mekanism:metallurgic_infusing' });
     event.remove({ output: 'minecraft:coarse_dirt', type: 'minecraft:crafting_shaped' });
-    
+    event.remove({ mod: 'cgm' });
 
     exdeorum.removeDefaultSieveRecipes(event);
 });

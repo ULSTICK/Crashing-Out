@@ -6,7 +6,7 @@ historyLength = 10
 #You can change hunger formula dependence on circumstances
 #Use JavaScript Math module functions for mathematical functions
 #Possible inputs: HUNGER, EATEN, SATURATION
-hunger = "HUNGER*Math.pow(0.6,EATEN)"
+hunger = "HUNGER*Math.pow(0.9,EATEN)"
 #You can change saturation formula dependence on circumstances
 #Use JavaScript Math module functions for mathematical functions
 #Possible inputs: HUNGER, EATEN, SATURATION
@@ -15,7 +15,7 @@ saturation = "SATURATION"
 idleExhaustion = true
 #The number which will be added to exhaustion each tick
 #Range: 0.0 ~ 4.0
-idleExhaustionQuantity = 0.001
+idleExhaustionQuantity = 0.004
 #If eating speed affected by food values
 modifyFoodEatingSpeed = true
 #adds text to GUI describing health and hunger status

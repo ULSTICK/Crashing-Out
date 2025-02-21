@@ -155,9 +155,8 @@
       "x": 171,
       "y": 54,
       "icon": {
-        "id": "pneumaticcraft:gun_ammo",
-        "Count": 1,
-        "tag": "{Damage:0}"
+        "id": "minecraft:skeleton_skull",
+        "Count": 1
       },
       "tasks": [
         {
@@ -197,9 +196,8 @@
           "Count": 8
         },
         {
-          "id": "pneumaticcraft:gun_ammo",
-          "Count": 1,
-          "tag": "{Damage:0}"
+          "id": "cgm:shell",
+          "Count": 16
         }
       ],
       "rewardchoice": [],
@@ -218,7 +216,7 @@
       "x": 18,
       "y": 42,
       "icon": {
-        "id": "chipped:warning_yellow_concrete",
+        "id": "hardcorequesting:hqm_invalid_item",
         "Count": 1
       },
       "tasks": [
@@ -459,7 +457,7 @@
       "x": 18,
       "y": 14,
       "icon": {
-        "id": "chipped:warning_yellow_concrete",
+        "id": "hardcorequesting:hqm_invalid_item",
         "Count": 1
       },
       "tasks": [
@@ -571,7 +569,7 @@
         "isTranslationKey": false
       },
       "description": {
-        "text": "Congrats on slaying those mosnters",
+        "text": "Congrats on slaying those monsters",
         "isTranslationKey": false
       },
       "x": 59,
@@ -641,13 +639,13 @@
       "optionlinks": [],
       "reward": [
         {
-          "id": "create:potato_cannon",
+          "id": "cgm:bazooka",
           "Count": 1,
-          "tag": "{Damage:0}"
+          "tag": "{AmmoCount:1}"
         },
         {
-          "id": "minecraft:potato",
-          "Count": 16
+          "id": "cgm:missile",
+          "Count": 4
         }
       ],
       "rewardchoice": [
@@ -714,9 +712,8 @@
           "Count": 2
         },
         {
-          "id": "pneumaticcraft:gun_ammo",
-          "Count": 2,
-          "tag": "{Damage:0}"
+          "id": "cgm:shell",
+          "Count": 32
         },
         {
           "id": "minecraft:bone_meal",
@@ -824,9 +821,8 @@
           "Count": 4
         },
         {
-          "id": "pneumaticcraft:gun_ammo",
-          "Count": 1,
-          "tag": "{Damage:0}"
+          "id": "cgm:shell",
+          "Count": 16
         },
         {
           "id": "minecraft:ender_pearl",
@@ -835,9 +831,8 @@
       ],
       "rewardchoice": [
         {
-          "id": "pneumaticcraft:gun_ammo_ap",
-          "Count": 1,
-          "tag": "{Damage:0}"
+          "id": "cgm:shell",
+          "Count": 16
         },
         {
           "id": "tconstruct:small_blade",
@@ -1683,13 +1678,13 @@
         "isTranslationKey": false
       },
       "description": {
-        "text": "Tempature",
+        "text": "Temperature",
         "isTranslationKey": false
       },
       "x": 18,
       "y": 97,
       "icon": {
-        "id": "chipped:warning_yellow_concrete",
+        "id": "hardcorequesting:hqm_invalid_item",
         "Count": 1
       },
       "tasks": [
@@ -1744,7 +1739,7 @@
       "reward": [
         {
           "id": "minecraft:string",
-          "Count": 64
+          "Count": 16
         }
       ],
       "rewardchoice": [],
@@ -2067,7 +2062,7 @@
       "x": 18,
       "y": 70,
       "icon": {
-        "id": "chipped:warning_yellow_concrete",
+        "id": "hardcorequesting:hqm_invalid_item",
         "Count": 1
       },
       "tasks": [

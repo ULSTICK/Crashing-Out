@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": {
+      "item": "pneumaticcraft:compressed_stone_slab"
+    },
+    "I": {
+      "item": "pneumaticcraft:ingot_iron_compressed"
+    }
+  },
+  "pattern": [
+    "CCC",
+    "III",
+    "I I"
+  ],
+  "result": {
+    "item": "cgm:workbench"
+  },
+  "show_notification": true
+}
