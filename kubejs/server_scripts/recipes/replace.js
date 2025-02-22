@@ -13,6 +13,13 @@ ServerEvents.recipes(event => {
     // Note: tagged fluid ingredients do not work on Fabric, but tagged items do.
   )
 
+  event.replaceInput(
+    { input: 'minecraft:dried_kelp', mod: "create"}, // Arg 1: the filter
+    'minecraft:dried_kelp',            // Arg 2: the item to replace
+    'thermal:cured_rubber'         // Arg 3: the item to replace it with
+    // Note: tagged fluid ingredients do not work on Fabric, but tagged items do.
+  )
+
 });
 
 

@@ -292,17 +292,11 @@
             },
             {
               "item": {
-                "id": "pneumaticcraft:gun_ammo",
-                "Count": 1,
-                "tag": "{Damage:0}"
-              }
-            },
-            {
-              "item": {
                 "id": "sophisticatedbackpacks:backpack",
                 "Count": 1,
                 "tag": "{contentsUuid:[I;921025965,1498695982,-1244308803,1251248921],inventorySlots:27,renderInfo:{upgradeItems:[{Count:1b,id:\"minecraft:air\",tag:{Count:1,Materials:[{ID:\"silentgear:iron\"}]}}]},upgradeSlots:1}"
-              }
+              },
+              "precision": "FUZZY"
             },
             {
               "item": {
@@ -315,6 +309,13 @@
                 "id": "mekanism:basic_fluid_tank",
                 "Count": 1
               }
+            },
+            {
+              "item": {
+                "id": "cgm:shell",
+                "Count": 1
+              },
+              "required": 16
             }
           ]
         }
