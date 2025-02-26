@@ -1,0 +1,153 @@
+{
+    "pools": [
+      {
+        "name": "crash_landing:chests/tinkers_factory",
+        "rolls": {
+          "min": 2,
+          "max": 4
+        },
+        "entries": [
+          {
+            "type": "item",
+            "name": "exdeorum:dust",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": {
+                  "min": 1,
+                  "max": 10
+                }
+              }a
+            ],
+            "weight": 30
+          },
+          {
+            "type": "item",
+            "name": "tconstruct:ingot_cast",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": {
+                  "min": 0,
+                  "max": 1
+                }
+              }
+            ],
+            "weight": 5
+          },
+          {
+            "type": "item",
+            "name": "tconstruct:seared_brick",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": {
+                  "min": 1,
+                  "max": 4
+                }
+              }
+            ],
+            "weight": 5
+          },
+          {
+            "type": "item",
+            "name": "tconstruct:grout",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": {
+                  "min": 1,
+                  "max": 3
+                }
+              }
+            ],
+            "weight": 5
+          },
+          {
+            "type": "item",
+            "name": "tconstruct:raw_cobalt",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": {
+                  "min": 1,
+                  "max": 3
+                }
+              }
+            ],
+            "weight": 2
+          },
+          {
+            "type": "item",
+            "name": "construct:seared_faucet",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": {
+                  "min": 1,
+                  "max": 2
+                }
+              }
+            ],
+            "weight": 8
+          },
+          {
+            "type": "item",
+            "name": "tconstruct:scorched_brick",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": {
+                  "min": 1,
+                  "max": 5
+                }
+              }
+            ],
+            "weight": 5
+          },
+          {
+            "type": "item",
+            "name": "tconstruct:nether_grout",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": {
+                  "min": 1,
+                  "max": 5
+                }
+              }
+            ],
+            "weight": 5
+          },
+          {
+            "type": "item",
+            "name": "minecraft:iron_ingot",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": {
+                  "min": 1,
+                  "max": 5
+                }
+              }
+            ],
+            "weight": 7
+          },
+          {
+            "type": "item",
+            "name": "minecraft:cobweb",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": {
+                  "min": 1,
+                  "max": 3
+                }
+              }
+            ],
+            "weight": 25
+          }
+        ]
+      }
+    ]
+  }

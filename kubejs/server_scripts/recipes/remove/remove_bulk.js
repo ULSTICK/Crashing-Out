@@ -11,6 +11,11 @@ ServerEvents.recipes(event => {
             "exdeorum:dark_oak_crucible",
             "exdeorum:bamboo_crucible",
             "torchmaster:megatorch",
+            "mekanismgenerators:heat_generator",
+            "tconstruct:grout",
+            "tconstruct:nether_grout",
+            "minecraft:composter"
+
             
         ]
      });    

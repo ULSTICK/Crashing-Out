@@ -22,7 +22,10 @@ ServerEvents.recipes(event => {
         'exdeorum:cobalt_ore_chunk': 0.02,
         'mekanism:dirty_netherite_scrap': 0.04,
         'exdeorum:blackstone_pebble': 0.2,
-        'exdeorum:basalt_pebble': 0.2
+        'exdeorum:basalt_pebble': 0.2,
+        'tconstruct:blood_slime_sapling': 0.2,
+		'tconstruct:ichor_slime_ball': 0.01,
+		'tconstruct:blood_slime_grass_seeds': 0.01,
     };
 
     const mesh = {
