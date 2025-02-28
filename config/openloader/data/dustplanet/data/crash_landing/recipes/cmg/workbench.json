@@ -7,11 +7,17 @@
     },
     "I": {
       "item": "pneumaticcraft:ingot_iron_compressed"
+    },
+    "d": {
+      "item": "create:mechanical_press"
+    },
+    "e": {
+      "item": "create:precision_mechanism"
     }
   },
   "pattern": [
-    "CCC",
-    "III",
+    "CeC",
+    "IdI",
     "I I"
   ],
   "result": {
