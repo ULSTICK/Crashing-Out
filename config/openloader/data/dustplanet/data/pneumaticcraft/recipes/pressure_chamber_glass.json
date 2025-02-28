@@ -6,7 +6,7 @@
       "tag": "forge:glass"
     },
     "I": {
-      "item": "pneumaticcraft:reinforced_bricks"
+      "tag": "forge:ingots/compressed_iron"
     }
   },
   "pattern": [

@@ -22,8 +22,45 @@
       "spawns": []
     },
     "monster": {
-      "bounding_box": "full",
-      "spawns": []
+      "bounding_box": "piece",
+      "spawns": [
+        {
+          "type": "minecraft:warden",
+          "maxCount": 1,
+          "minCount": 1,
+          "weight": 1
+        },
+        {
+          "type": "minecraft:bat",
+          "maxCount": 1,
+          "minCount": 1,
+          "weight": 20
+        },
+        {
+          "type": "minecraft:bat",
+          "maxCount": 1,
+          "minCount": 1,
+          "weight": 20
+        },
+        {
+          "type": "minecraft:bat",
+          "maxCount": 1,
+          "minCount": 1,
+          "weight": 20
+        },
+        {
+          "type": "minecraft:bat",
+          "maxCount": 1,
+          "minCount": 1,
+          "weight": 20
+        },
+        {
+          "type": "minecraft:bat",
+          "maxCount": 1,
+          "minCount": 1,
+          "weight": 20
+        }
+      ]
     },
     "underground_water_creature": {
       "bounding_box": "full",

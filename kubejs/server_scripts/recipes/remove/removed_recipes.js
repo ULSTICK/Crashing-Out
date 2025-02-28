@@ -14,6 +14,14 @@ ServerEvents.recipes(event => {
     event.remove({ output: 'mekanism:basic_control_circuit', type: 'mekanism:metallurgic_infusing' });
     event.remove({ output: 'minecraft:coarse_dirt', type: 'minecraft:crafting_shaped' });
     event.remove({ mod: 'cgm' });
+    event.remove({ mod: 'thermal', input: 'minecraft:fire_charge', output: 'thermal:invar_ingot', type: "minecraft:crafting_shapeless" });
+    event.remove({ mod: 'thermal', input: 'minecraft:fire_charge', output: 'thermal:lumium_ingot', type: "minecraft:crafting_shapeless" });
+    event.remove({ mod: 'thermal', input: 'minecraft:fire_charge', output: 'thermal:enderium_ingot', type: "minecraft:crafting_shapeless" });
+    event.remove({ mod: 'thermal', input: 'minecraft:fire_charge', output: 'thermal:electrum_ingot', type: "minecraft:crafting_shapeless" });
+    event.remove({ mod: 'thermal', input: 'minecraft:fire_charge', output: 'thermal:constantan_ingot', type: "minecraft:crafting_shapeless" });
+    event.remove({ mod: 'thermal', input: 'minecraft:fire_charge', output: 'thermal:bronze_ingot', type: "minecraft:crafting_shapeless" });
+    event.remove({ mod: 'thermal', input: 'minecraft:fire_charge', output: 'thermal:signalum_ingot', type: "minecraft:crafting_shapeless" });
+
 
     exdeorum.removeDefaultSieveRecipes(event);
 });

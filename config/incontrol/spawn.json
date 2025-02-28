@@ -4,8 +4,8 @@
       "result": "deny"
     },
     {
-      "mob": "minecraft:creeper",
-      "maxcount": 5,
+      "mob": "minecraft:warden",
+      "mincount": 10,
       "result": "deny"
     }
 ]

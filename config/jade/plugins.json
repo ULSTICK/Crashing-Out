@@ -54,9 +54,6 @@
     "painting": true,
     "chiseled_bookshelf": true
   },
-  "hammerlib": {
-    "root": true
-  },
   "exdeorum": {
     "infested_leaves": true,
     "barrel": true,
@@ -97,6 +94,9 @@
   },
   "gravestone": {
     "grave": true
+  },
+  "balm": {
+    "jade": true
   },
   "ae2": {
     "part_icon": true,

@@ -1,13 +1,7 @@
 {
 	"items": [
-		"tconstruct:seared_faucet",
-		"tconstruct:raw_cobalt",
-		"tconstruct:scorched_brick",
-		"tconstruct:nether_grout",
-		"tconstruct:grout",
-		"tconstruct:seared_brick",
-		"tconstruct:seared_fuel_tank",
-		"tconstruct:ingot_cast",
-		"exdeorum:dust"
+		"tconstruct:silky_cloth",
+		"minecraft:emerald",
+		"tconstruct:earth_slime_bucket"
 	]
 }

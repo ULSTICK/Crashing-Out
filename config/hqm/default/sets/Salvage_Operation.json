@@ -8,7 +8,7 @@
         "isTranslationKey": false
       },
       "description": {
-        "text": "An upgrade to the smeltery, it will double the number of ingots you get from ore gravel and ore sand and TRIPLE the amount you get from ore dust. Also, unlike the smeltery, it will also melt cobble into seared stone, allowing you to make as many more seared and scorched bricks as you need.",
+        "text": "An upgrade to the smeltery, it will double the number of ingots you get from ores and TRIPLE the amount you get from ore dust. Also, unlike the smeltery, it will also melt cobble into seared stone, allowing you to make as many more seared and scorched bricks as you need.",
         "isTranslationKey": false
       },
       "x": 65,
@@ -20,6 +20,10 @@
       "tasks": [
         {
           "type": "hardcorequesting:detect",
+          "longDescription": {
+            "text": "We are working on the tripling Scorched recipes, dont worry!",
+            "isTranslationKey": true
+          },
           "items": [
             {
               "item": {
@@ -65,7 +69,7 @@
         "isTranslationKey": false
       },
       "description": {
-        "text": "You are going to need lots of iron to advance up the tech tree. A smeltery will help you get a good start by doubling the ingots you get out of ore dust. There is a small city 200 meters or so north of the shuttle. Perhaps a factory there contains the bricks we need?",
+        "text": "You are going to need lots of iron to advance up the tech tree. A smeltery will help you get a good start by almost doubling the ingots you get out of ore. There is a small city around the shuttle. Perhaps a factory there contains the bricks we need?",
         "isTranslationKey": false
       },
       "x": 65,
@@ -82,8 +86,8 @@
             "isTranslationKey": true
           },
           "longDescription": {
-            "text": "It is entirely possible that some of the bricks in any smelteries you find may have started to crumble. If so, you CANNOT use them directly to make a working smeltery. Instead, pound them with a hammer, just like you do ore gravel and ore sand, and you will get some of the resources that went into them back.",
-            "isTranslationKey": true
+            "text": "We are working on the cities, so for now, you can craft the bricks with grouth!",
+            "isTranslationKey": false
           },
           "items": [
             {
