@@ -2,19 +2,19 @@
   "blocks": [
     {
       "random": 10,
-      "block": "minecraft:bricks"
+      "block": "thermal:slag_bricks"
     },
     {
       "random": 10,
-      "block": "minecraft:brick_stairs"
+      "block": "minecraft:mud_brick_stairs"
     },
     {
       "random": 10,
-      "block": "minecraft:brick_slab"
+      "block": "minecraft:mud_brick_slab"
     },
     {
       "random": 1000,
-      "block": "minecraft:red_terracotta"
+      "block": "chipped:cracked_packed_mud_bricks"
     }
   ]
 }

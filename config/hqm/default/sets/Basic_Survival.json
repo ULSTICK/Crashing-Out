@@ -258,7 +258,7 @@
         "isTranslationKey": false
       },
       "description": {
-        "text": "After setting up a furnace you can begin setting up for lava smelting!",
+        "text": "After setting up a furnace you can begin setting up for lava smelting!\n\nYou can craft a Porcelain Bucket, but i need to know that it can be buggy with the purified water.",
         "isTranslationKey": false
       },
       "x": 216,
@@ -283,7 +283,7 @@
             },
             {
               "item": {
-                "id": "exdeorum:unfired_porcelain_bucket",
+                "id": "minecraft:bucket",
                 "Count": 1
               }
             }

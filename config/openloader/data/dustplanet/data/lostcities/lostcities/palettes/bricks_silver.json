@@ -2,23 +2,23 @@
   "palette": [
     {
       "char": "X",
-      "block": "minecraft:light_gray_terracotta",
-      "damaged": "minecraft:iron_bars"
+      "block": "chipped:cracked_disordered_andesite_bricks",
+      "damaged": "immersive_weathering:rusted_iron_bars"
     },
     {
       "char": "$",
-      "block": "minecraft:brown_terracotta",
-      "damaged": "minecraft:iron_bars"
+      "block": "chipped:packed_mud_bricks",
+      "damaged": "immersive_weathering:rusted_iron_bars"
     },
     {
       "char": "#",
-      "block": "minecraft:light_gray_terracotta",
-      "damaged": "minecraft:iron_bars"
+      "block": "chipped:cracked_disordered_andesite_bricks",
+      "damaged": "immersive_weathering:rusted_iron_bars"
     },
     {
       "char": "}",
-      "block": "minecraft:light_gray_terracotta",
-      "damaged": "minecraft:iron_bars"
+      "block": "chipped:cracked_disordered_andesite_bricks",
+      "damaged": "immersive_weathering:rusted_iron_bars"
     }
   ]
 }

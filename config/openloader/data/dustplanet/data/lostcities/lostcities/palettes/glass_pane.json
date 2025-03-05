@@ -2,15 +2,15 @@
   "palette": [
     {
       "char": "+",
-      "block": "minecraft:glass"
+      "block": "tconstruct:light_gray_clear_stained_glass"
     },
     {
       "char": "`",
-      "block": "minecraft:glass_pane"
+      "block": "tconstruct:light_gray_clear_stained_glass_pane"
     },
     {
       "char": "a",
-      "block": "minecraft:glass_pane"
+      "block": "tconstruct:light_gray_clear_stained_glass"
     }
   ]
 }

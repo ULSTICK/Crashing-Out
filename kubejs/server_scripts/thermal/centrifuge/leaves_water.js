@@ -10,7 +10,7 @@ ServerEvents.recipes(event => {
         result:  [
         {
             item: output,
-            chance: 0.75,
+            chance: 0.35,
             locked: true
         },        {
             item: 'mekanism:bio_fuel',

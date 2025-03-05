@@ -2,23 +2,23 @@
   "palette": [
     {
       "char": "X",
-      "block": "minecraft:gray_terracotta",
-      "damaged": "minecraft:iron_bars"
+      "block": "minecraft:cracked_deepslate_bricks",
+      "damaged": "immersive_weathering:exposed_iron_bars"
     },
     {
       "char": "$",
-      "block": "minecraft:black_terracotta",
-      "damaged": "minecraft:iron_bars"
+      "block": "chipped:cracked_disordered_blackstone_bricks",
+      "damaged": "immersive_weathering:exposed_iron_bars"
     },
     {
       "char": "#",
-      "block": "minecraft:gray_terracotta",
-      "damaged": "minecraft:iron_bars"
+      "block": "minecraft:cracked_polished_blackstone_bricks",
+      "damaged": "immersive_weathering:exposed_iron_bars"
     },
     {
       "char": "}",
-      "block": "minecraft:gray_terracotta",
-      "damaged": "minecraft:iron_bars"
+      "block": "minecraft:cracked_deepslate_bricks",
+      "damaged": "immersive_weathering:exposed_iron_bars"
     }
   ]
 }

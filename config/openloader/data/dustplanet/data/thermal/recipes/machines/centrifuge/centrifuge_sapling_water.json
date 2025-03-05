@@ -6,7 +6,7 @@
   "result": [
     {
       "item": "minecraft:stick",
-      "chance": 0.75,
+      "chance": 0.35,
       "locked": true
     },
     {

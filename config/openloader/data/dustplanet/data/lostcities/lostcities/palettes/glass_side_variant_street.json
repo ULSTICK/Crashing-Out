@@ -2,8 +2,8 @@
   "palette": [
     {
       "char": "@",
-      "block": "minecraft:smooth_stone_slab[type=double]",
-      "damaged": "minecraft:iron_bars"
+      "block": "minecraft:andesite_slab[type=double]",
+      "damaged": "immersive_weathering:exposed_iron_bars"
     }
   ]
 }

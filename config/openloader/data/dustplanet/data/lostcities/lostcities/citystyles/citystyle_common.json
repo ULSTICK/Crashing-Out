@@ -56,7 +56,12 @@
       {
         "factor": 0.4,
         "value": "building8"
+      },
+      {
+        "factor": 0.2,
+        "value": "tinkers_factory_b"
       }
+      
     ],
     "multibuildings": [
       {
@@ -110,20 +115,7 @@
         "value": "bridge_covered"
       }
     ],
-    "fronts": [
-      {
-        "factor": 1.0,
-        "value": "building_front1"
-      },
-      {
-        "factor": 1.0,
-        "value": "building_front2"
-      },
-      {
-        "factor": 1.0,
-        "value": "building_front3"
-      }
-    ],
+
     "stairs": [
       {
         "factor": 1.0,

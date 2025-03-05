@@ -2,19 +2,19 @@
   "blocks": [
     {
       "random": 10,
-      "block": "minecraft:quartz_bricks"
+      "block": "rechiseled:cobblestone_rotated_bricks"
     },
     {
       "random": 8,
-      "block": "minecraft:quartz_stairs"
+      "block": "minecraft:cobblestone_stairs"
     },
     {
       "random": 10,
-      "block": "minecraft:quartz_slab"
+      "block": "minecraft:cobblestone_slab"
     },
     {
       "random": 1000,
-      "block": "minecraft:smooth_quartz"
+      "block": "rechiseled:cobblestone_rotated_bricks"
     }
   ]
 }

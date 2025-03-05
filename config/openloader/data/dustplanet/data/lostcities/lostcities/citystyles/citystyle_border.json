@@ -8,11 +8,11 @@
     "buildingchance": 0.2
   },
   "streetblocks": {
-    "border": "S",
-    "wall": "w",
-    "street": "S",
-    "streetbase": "S",
-    "streetvariant": "S"
+    "border": "W",
+    "wall": "W",
+    "street": "W",
+    "streetbase": "W",
+    "streetvariant": "W"
   },
   "parkblocks": {
     "elevation": "x"
@@ -50,6 +50,10 @@
       {
         "factor": 0.3,
         "value": "building5"
+      },
+      {
+        "factor": 0.01,
+        "value": "tinkers_factory_b"
       }
     ],
     "multibuildings": [
@@ -67,15 +71,7 @@
     "fronts": [
       {
         "factor": 1.0,
-        "value": "building_front1"
-      },
-      {
-        "factor": 1.0,
-        "value": "building_front2"
-      },
-      {
-        "factor": 1.0,
-        "value": "building_front3"
+        "value": "building_test_1"
       }
     ],
     "stairs": [

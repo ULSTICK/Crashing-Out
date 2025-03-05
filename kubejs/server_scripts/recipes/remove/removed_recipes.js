@@ -21,7 +21,12 @@ ServerEvents.recipes(event => {
     event.remove({ mod: 'thermal', input: 'minecraft:fire_charge', output: 'thermal:constantan_ingot', type: "minecraft:crafting_shapeless" });
     event.remove({ mod: 'thermal', input: 'minecraft:fire_charge', output: 'thermal:bronze_ingot', type: "minecraft:crafting_shapeless" });
     event.remove({ mod: 'thermal', input: 'minecraft:fire_charge', output: 'thermal:signalum_ingot', type: "minecraft:crafting_shapeless" });
+    event.remove({ id: 'tconstruct:smeltery/casting/scorched/brick_composite' });
+    event.remove({ id: 'tconstruct:smeltery/casting/scorched/stone_from_magma' });
 
 
     exdeorum.removeDefaultSieveRecipes(event);
 });
+
+
+

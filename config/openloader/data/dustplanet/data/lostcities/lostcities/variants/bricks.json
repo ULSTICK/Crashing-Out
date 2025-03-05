@@ -2,11 +2,11 @@
   "blocks": [
     {
       "random": 10,
-      "block": "minecraft:bricks"
+      "block": "thermal:slag_bricks" 
     },
     {
       "random": 1000,
-      "block": "minecraft:red_terracotta"
+      "block": "thermal:cracked_slag_bricks"
     }
   ]
 }

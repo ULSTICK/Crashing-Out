@@ -17,7 +17,7 @@
     },
     {
       "char": "h",
-      "block": "minecraft:glowstone"
+      "block": "simplylight:illuminant_block"
     },
     {
       "char": "g",
@@ -28,44 +28,44 @@
       "blocks": [
         {
           "random": 32,
-          "block": "minecraft:cyan_terracotta"
+          "block": "chipped:andesite_bricks"
         },
         {
           "random": 32,
-          "block": "minecraft:gray_terracotta"
+          "block": "chipped:cracked_flat_blackstone_tiles"
         },
         {
           "random": 32,
-          "block": "minecraft:cyan_concrete"
+          "block": "chipped:cracked_disordered_andesite_bricks"
         },
         {
           "random": 1000,
-          "block": "minecraft:gray_concrete"
+          "block": "chipped:cracked_disordered_blackstone_bricks"
         }
       ]
     },
     {
       "char": "Y",
-      "block": "minecraft:white_stained_glass"
+      "block": "tconstruct:light_gray_clear_stained_glass"
     },
     {
       "char": "Z",
       "blocks": [
         {
           "random": 32,
-          "block": "minecraft:glass"
+          "block": "tconstruct:light_gray_clear_stained_glass"
         },
         {
           "random": 32,
-          "block": "minecraft:gray_stained_glass"
+          "block": "tconstruct:light_gray_clear_stained_glass"
         },
         {
           "random": 32,
-          "block": "minecraft:blue_stained_glass"
+          "block": "tconstruct:light_gray_clear_stained_glass"
         },
         {
           "random": 1000,
-          "block": "minecraft:light_blue_stained_glass"
+          "block": "tconstruct:light_gray_clear_stained_glass"
         }
       ]
     },
@@ -194,19 +194,19 @@
     },
     {
       "char": "l",
-      "block": "minecraft:ladder[facing=north]"
+      "block": "chipped:crooked_ladder[facing=north]"
     },
     {
       "char": "-",
-      "block": "minecraft:oak_pressure_plate"
+      "block": "minecraft:warped_pressure_plate"
     },
     {
       "char": ".",
-      "block": "minecraft:oak_fence"
+      "block": "minecraft:warped_fence"
     },
     {
       "char": "L",
-      "block": "minecraft:bookshelf"
+      "block": "chipped:oak_webbed_bookshelf"
     },
     {
       "char": "W",

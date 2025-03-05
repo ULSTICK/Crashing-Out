@@ -2,15 +2,19 @@
   "blocks": [
     {
       "random": 9,
-      "block": "minecraft:cracked_stone_bricks"
+      "block": "chipped:layed_andesite_bricks"
     },
     {
       "random": 8,
-      "block": "minecraft:mossy_stone_bricks"
+      "block": "chipped:tiny_andesite_bricks"
+    },
+    {
+      "random": 8,
+      "block": "chipped:cracked_andesite_bricks"
     },
     {
       "random": 1000,
-      "block": "minecraft:stone_bricks"
+      "block": "chipped:andesite_bricks"
     }
   ]
 }

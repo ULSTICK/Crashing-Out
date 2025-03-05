@@ -1,0 +1,18 @@
+{
+    "filler": "#",
+    "rubble": "}",
+    "minfloors": 1,
+    "maxfloors": 1,
+    "allowDoors": false,
+    "parts": [
+      {
+        "top": false,
+        "part": "tinkers_1"
+      },
+      {
+        "top": true,
+        "part": "top_tinkers"
+      }
+    ]
+  }
+  

@@ -8,7 +8,7 @@
 	#-------------------------------------------
 	#Default: [minecraft:overworld,0.0, minecraft:the_nether,0.0, minecraft:the_end,0.0]
 	#-------------------------------------------
-	"Dimensional Temperature Modifier" = ["minecraft:overworld,6.0", "minecraft:the_nether,0.0", "minecraft:the_end,0.0"]
+	"Dimensional Temperature Modifier" = ["minecraft:overworld,12.0", "minecraft:the_nether,0.0", "minecraft:the_end,0.0"]
 
 ["Hunger & Thirst"]
 	#

@@ -2,11 +2,11 @@
   "blocks": [
     {
       "random": 10,
-      "block": "minecraft:quartz_bricks"
+      "block": "chipped:andesite_bricks"
     },
     {
       "random": 1000,
-      "block": "minecraft:smooth_quartz"
+      "block": "minecraft:andesite"
     }
   ]
 }

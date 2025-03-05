@@ -15,6 +15,7 @@ StartupEvents.registry('item', event => {
 
         let effects = entity.potionEffects;
         effects.add("poison", 200, 10, false, true)
+        effects.add("survive:thirst", 600, 0, false, true)
 
      
     }

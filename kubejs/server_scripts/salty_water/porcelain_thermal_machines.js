@@ -28,7 +28,7 @@ BlockEvents.rightClicked(event => {
 
 ////////////////FILL TANK///////////////////////
 
-BlockEvents.rightClicked(event => {
+/* BlockEvents.rightClicked(event => {
     let { player, hand, item, block } = event;
     
     // Verifica se o jogador está segurando um balde de água purificada de porcelana
@@ -55,7 +55,8 @@ BlockEvents.rightClicked(event => {
         
         event.cancel();
         return;
-    }
+    } 
+   
 
     let tankData = blockEntity.get('TankInv');
     if (tankData.size() == 0) {
@@ -102,7 +103,137 @@ BlockEvents.rightClicked(event => {
     }
     // Cancela a interação padrão para impedir a abertura do GUI
     event.cancel();
+}); */
+
+BlockEvents.rightClicked(event => {
+    let { player, hand, item, block } = event;
+    
+    // Pula se não estiver segurando o item correto ou não estiver usando a mão principal
+    if (!item.is('kubejs:porcelain_purified_water_bucket') || hand != 'main_hand') return;
+    
+    // Obtém os dados da entidade do bloco
+    let blockEntity = block.getEntityData();
+    
+    if (blockEntity) {
+        // Verifica se é um bloco do Thermal que pode conter fluidos
+        if (blockEntity.id && blockEntity.id.startsWith("thermal:")) {
+            let fluidName = null;
+            let amount = 0;
+            let maxAmount = 20000; // Valor padrão para capacidade máxima dos tanques Thermal
+            let canAddFluid = false;
+            
+            // Verifica se o bloco tem FluidName e Amount
+            if (blockEntity.FluidName !== undefined) {
+                fluidName = blockEntity.FluidName;
+                amount = blockEntity.Amount || 0;
+                canAddFluid = true;
+            } 
+            // Dispositivos específicos do Thermal podem ter estruturas diferentes
+            else if (blockEntity.Tank !== undefined) {
+                fluidName = blockEntity.Tank.FluidName;
+                amount = blockEntity.Tank.Amount || 0;
+                canAddFluid = true;
+            }
+            // Para Fluid Cells do Thermal
+            else if (blockEntity.AmountIn !== undefined) {
+                // Células de fluido podem armazenar o tipo de fluido em outro campo
+                // Tentamos encontrar o campo do tipo de fluido
+                if (blockEntity.FluidIn !== undefined) {
+                    fluidName = blockEntity.FluidIn;
+                }
+                amount = blockEntity.AmountIn || 0;
+                canAddFluid = true;
+            }
+            
+            // Se podemos adicionar fluido e o tanque está vazio ou já contém água purificada
+            if (canAddFluid && (fluidName === null || fluidName === "" || fluidName === "survive:purified_water")) {
+                // Verifica se há espaço suficiente no tanque
+                if (amount + 1000 <= maxAmount) {
+                    // Reduz a contagem do balde
+                    item.count--;
+                    
+                    // Adiciona um balde vazio ao inventário
+                    player.give('exdeorum:porcelain_bucket');
+                    
+                    // Reproduz o som
+                    event.level.playSound(null, player.x, player.y, player.z, 'minecraft:item.bucket.empty', 'master', 1.0, 1.0);
+                    
+                    // Atualiza o fluido no tanque
+                    if (blockEntity.FluidName !== undefined) {
+                        blockEntity.FluidName = "survive:purified_water";
+                        blockEntity.Amount = amount + 1000;
+                    } 
+                    else if (blockEntity.Tank !== undefined) {
+                        blockEntity.Tank.FluidName = "survive:purified_water";
+                        blockEntity.Tank.Amount = amount + 1000;
+                    }
+                    else if (blockEntity.AmountIn !== undefined) {
+                        if (blockEntity.FluidIn !== undefined) {
+                            blockEntity.FluidIn = "survive:purified_water";
+                        }
+                        blockEntity.AmountIn = amount + 1000;
+                    }
+                    
+                    // Atualiza o bloco
+                    block.setEntityData(blockEntity);
+                    
+                    // Cancela o evento para evitar o comportamento padrão
+                    event.cancel();
+                    
+                    // Log para debug
+                    console.log("Adicionando água purificada ao tanque: " + amount + " -> " + (amount + 1000));
+                }
+            }
+        } 
+        // Suporte para tanques de outros mods com formato TankInv
+        else if (blockEntity.TankInv !== undefined) {
+            let tankInv = blockEntity.TankInv;
+            let canAddWater = false;
+            let currentAmount = 0;
+            
+            // Verifica se o tanque está vazio ou contém água purificada
+            if (!tankInv || tankInv.length === 0) {
+                canAddWater = true;
+            } else if (tankInv[0] && tankInv[0].FluidName === "survive:purified_water") {
+                currentAmount = tankInv[0].Amount || 0;
+                canAddWater = true;
+            }
+            
+            if (canAddWater) {
+                // Reduz a contagem do balde
+                item.count--;
+                
+                // Adiciona um balde vazio ao inventário
+                player.give('exdeorum:porcelain_bucket');
+                
+                // Reproduz o som
+                event.level.playSound(null, player.x, player.y, player.z, 'minecraft:item.bucket.empty', 'master', 1.0, 1.0);
+                
+                // Atualiza os dados do tanque
+                if (!tankInv || tankInv.length === 0) {
+                    blockEntity.TankInv = [{
+                        FluidName: "survive:purified_water",
+                        Amount: 1000
+                    }];
+                } else {
+                    tankInv[0].FluidName = "survive:purified_water";
+                    tankInv[0].Amount = currentAmount + 1000;
+                }
+                
+                // Atualiza o bloco
+                block.setEntityData(blockEntity);
+                
+                // Cancela o evento para evitar o comportamento padrão
+                event.cancel();
+                
+                // Log para debug
+                console.log("Adicionando água purificada ao tanque TankInv: " + currentAmount + " -> " + (currentAmount + 1000));
+            }
+        }
+    }
 });
+
+/*--------------------------------------------------------------*/
 
 BlockEvents.rightClicked(event => {
     let { player, item, block } = event;
