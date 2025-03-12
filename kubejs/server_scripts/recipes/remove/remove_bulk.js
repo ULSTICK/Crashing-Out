@@ -22,25 +22,7 @@ ServerEvents.recipes(event => {
             "minecraft:netherite_helmet",
             "minecraft:netherite_chestplate",
             "minecraft:netherite_leggings",
-            "create:netherite_diving_boots",
-            "mekanismtools:refined_obsidian_helmet",
-            "mekanismtools:refined_obsidian_chestplate",
-            "mekanismtools:refined_obsidian_leggings",
-            "mekanismtools:refined_obsidian_boots",
-            "mekanismtools:refined_glowstone_helmet",
-            "mekanismtools:refined_glowstone_chestplate",
-            "mekanismtools:refined_glowstone_leggings",
-            "mekanismtools:refined_glowstone_boots",
-            "mekanismtools:lapis_lazuli_helmet",
-            "mekanismtools:lapis_lazuli_chestplate",
-            "mekanismtools:lapis_lazuli_leggings",
-            "mekanismtools:lapis_lazuli_boots",
-            "mekanismtools:osmium_helmet",
-            "mekanismtools:osmium_chestplate",
-            "mekanismtools:osmium_leggings",
-            "mekanismtools:osmium_boots"
-
-            
+            "create:netherite_diving_boots"
         ]
      });    
 });

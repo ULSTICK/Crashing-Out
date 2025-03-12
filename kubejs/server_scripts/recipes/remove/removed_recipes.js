@@ -23,7 +23,9 @@ ServerEvents.recipes(event => {
     event.remove({ mod: 'thermal', input: 'minecraft:fire_charge', output: 'thermal:signalum_ingot', type: "minecraft:crafting_shapeless" });
     event.remove({ id: 'tconstruct:smeltery/casting/scorched/brick_composite' });
     event.remove({ id: 'tconstruct:smeltery/casting/scorched/stone_from_magma' });
-
+    event.remove({ output: 'cookingforblockheads:sink' });
+    event.remove({ output: 'mekanism:ingot_refined_obsidian', type: "tconstruct:casting_table" });
+    event.remove({ mod: 'mob_grinding_utils' });
 
     exdeorum.removeDefaultSieveRecipes(event);
 });

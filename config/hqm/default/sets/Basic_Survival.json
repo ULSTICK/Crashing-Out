@@ -364,7 +364,6 @@
         }
       ],
       "prerequisites": [
-        "39db6c50-b595-40f5-a952-3e4619c31764",
         "bf8d316b-64d4-4a30-8c44-86f9c0be0cb3"
       ],
       "optionlinks": [],
@@ -384,64 +383,6 @@
           "Count": 1
         }
       ],
-      "commandrewards": []
-    },
-    {
-      "uuid": "32852a9b-1b0c-4954-99c3-92501611c7d7",
-      "name": {
-        "text": "Cooking Utensils",
-        "isTranslationKey": false
-      },
-      "description": {
-        "text": "Thankfully you wont be cooking from a furnace forever. Youll need to craft a few kitchen utensils for better food recipes.",
-        "isTranslationKey": false
-      },
-      "x": 261,
-      "y": 41,
-      "icon": {
-        "id": "pamhc2foodcore:mixingbowlitem",
-        "Count": 1
-      },
-      "tasks": [
-        {
-          "type": "hardcorequesting:detect",
-          "longDescription": {
-            "text": "Make sure to vary your diet as eating to much of one item will make it give you less nutrition.",
-            "isTranslationKey": false
-          },
-          "items": [
-            {
-              "item": {
-                "id": "pamhc2foodcore:mixingbowlitem",
-                "Count": 1
-              }
-            },
-            {
-              "item": {
-                "id": "pamhc2foodcore:juiceritem",
-                "Count": 1
-              }
-            },
-            {
-              "item": {
-                "id": "pamhc2foodcore:cuttingboarditem",
-                "Count": 1
-              }
-            }
-          ]
-        }
-      ],
-      "prerequisites": [
-        "68e49d0e-4d69-421a-98f6-878939a5cbc4"
-      ],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "pamhc2foodcore:potitem",
-          "Count": 1
-        }
-      ],
-      "rewardchoice": [],
       "commandrewards": []
     },
     {
@@ -512,9 +453,67 @@
       "commandrewards": []
     },
     {
+      "uuid": "32852a9b-1b0c-4954-99c3-92501611c7d7",
+      "name": {
+        "text": "Cooking Utensils",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Thankfully you wont be cooking from a furnace forever. Youll need to craft a few kitchen utensils for better food recipes.",
+        "isTranslationKey": false
+      },
+      "x": 261,
+      "y": 41,
+      "icon": {
+        "id": "pamhc2foodcore:mixingbowlitem",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "hardcorequesting:detect",
+          "longDescription": {
+            "text": "Make sure to vary your diet as eating to much of one item will make it give you less nutrition.",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "pamhc2foodcore:mixingbowlitem",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "pamhc2foodcore:juiceritem",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "pamhc2foodcore:cuttingboarditem",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "68e49d0e-4d69-421a-98f6-878939a5cbc4"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "pamhc2foodcore:potitem",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
       "uuid": "39db6c50-b595-40f5-a952-3e4619c31764",
       "name": {
-        "text": "Starting power",
+        "text": "Power Underwhelming",
         "isTranslationKey": false
       },
       "description": {
@@ -531,7 +530,7 @@
         {
           "type": "hardcorequesting:detect",
           "description": {
-            "text": "Pitiful power",
+            "text": "Ender power!",
             "isTranslationKey": false
           },
           "items": [
@@ -546,7 +545,8 @@
         }
       ],
       "prerequisites": [
-        "0bdfc96b-6b5e-4f8f-932f-bda70b2114d7"
+        "0bdfc96b-6b5e-4f8f-932f-bda70b2114d7",
+        "a06fbc3a-5b54-4b9a-8f91-6dd3cdd5181e"
       ],
       "optionlinks": [],
       "reward": [
@@ -660,7 +660,7 @@
         },
         {
           "id": "sync:sync_core",
-          "Count": 1
+          "Count": 2
         }
       ],
       "commandrewards": []

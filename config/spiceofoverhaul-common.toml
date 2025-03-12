@@ -2,7 +2,7 @@
 enableSOLModule = true
 #Number of eaten foods that will affect food values of next item eaten
 #Range: 1 ~ 1000
-historyLength = 10
+historyLength = 5
 #You can change hunger formula dependence on circumstances
 #Use JavaScript Math module functions for mathematical functions
 #Possible inputs: HUNGER, EATEN, SATURATION
@@ -48,7 +48,7 @@ strikesDifficultyScale = 1
 #Regeneration rate depends on certain circumstances
 regenRework = true
 #Regeneration only requires hunger, not saturation
-regenHungerOnly = true
+regenHungerOnly = false
 #Enable effect which increases regeneration rate
 enableWellFed = true
 #Makes cake eatable even if it does not give you any benefit
