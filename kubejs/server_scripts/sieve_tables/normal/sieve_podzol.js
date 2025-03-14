@@ -19,13 +19,14 @@ ServerEvents.recipes(event => {
     // ========= dust =========
 
     const podzol_results = {
+		'minecraft:oak_sapling': 0.03,
         'tconstruct:earth_slime_sapling': 0.01,
         'tconstruct:sky_slime_sapling': 0.01,
         'minecraft:slime_ball': 0.01,
         'tconstruct:sky_slime_ball': 0.01,
-        'minecraft:cherry_sapling': 0.01,
-		'minecraft:acacia_sapling': 0.01,
-		'minecraft:dark_oak_sapling': 0.01,
+        'minecraft:cherry_sapling': 0.02,
+		'minecraft:acacia_sapling': 0.02,
+		'minecraft:dark_oak_sapling': 0.02,
 		'pamhc2trees:apple_sapling': 0.01,
 		'pamhc2trees:avocado_sapling': 0.01,
 		'pamhc2trees:candlenut_sapling': 0.01,
@@ -73,7 +74,8 @@ ServerEvents.recipes(event => {
 		'pamhc2trees:lychee_sapling': 0.01,
 		'pamhc2trees:passionfruit_sapling': 0.01,
 		'pamhc2trees:rambutan_sapling': 0.01,
-		'pamhc2trees:tamarind_sapling': 0.01
+		'pamhc2trees:tamarind_sapling': 0.01,
+		'pamhc2trees:maple_sapling': 0.01
     };
 
     const mesh = {

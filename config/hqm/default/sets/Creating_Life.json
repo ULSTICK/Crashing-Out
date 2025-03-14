@@ -38,7 +38,8 @@
                   "d": 1
                 }
               },
-              "required": 20000
+              "required": 20000,
+              "precision": "FUZZY"
             },
             {
               "item": {
@@ -97,21 +98,24 @@
                   "d": 1
                 }
               },
-              "required": 20000
+              "required": 20000,
+              "precision": "FUZZY"
             },
             {
               "item": {
                 "id": "minecraft:bone",
                 "Count": 1
               },
-              "required": 2
+              "required": 2,
+              "precision": "FUZZY"
             },
             {
               "item": {
                 "id": "minecraft:beef",
                 "Count": 1
               },
-              "required": 2
+              "required": 2,
+              "precision": "FUZZY"
             }
           ]
         }
@@ -166,14 +170,16 @@
                   "d": 1
                 }
               },
-              "required": 40000
+              "required": 40000,
+              "precision": "FUZZY"
             },
             {
               "item": {
                 "id": "minecraft:leather",
                 "Count": 1
               },
-              "required": 8
+              "required": 8,
+              "precision": "FUZZY"
             }
           ]
         }
@@ -232,7 +238,8 @@
                   "d": 1
                 }
               },
-              "required": 100000
+              "required": 100000,
+              "precision": "FUZZY"
             },
             {
               "item": {
@@ -293,21 +300,24 @@
                   "d": 1
                 }
               },
-              "required": 10000
+              "required": 10000,
+              "precision": "FUZZY"
             },
             {
               "item": {
                 "id": "minecraft:dandelion",
                 "Count": 1
               },
-              "required": 2
+              "required": 2,
+              "precision": "FUZZY"
             },
             {
               "item": {
                 "id": "minecraft:poppy",
                 "Count": 1
               },
-              "required": 2
+              "required": 2,
+              "precision": "FUZZY"
             }
           ]
         }
@@ -366,7 +376,8 @@
                   "d": 1
                 }
               },
-              "required": 40000
+              "required": 40000,
+              "precision": "FUZZY"
             },
             {
               "item": {
@@ -420,7 +431,8 @@
                 "id": "minecraft:gold_ingot",
                 "Count": 1
               },
-              "required": 6
+              "required": 6,
+              "precision": "FUZZY"
             }
           ]
         }
@@ -475,7 +487,8 @@
                   "d": 1
                 }
               },
-              "required": 10000
+              "required": 10000,
+              "precision": "FUZZY"
             },
             {
               "fluid": {
@@ -485,7 +498,8 @@
                   "d": 1
                 }
               },
-              "required": 1000
+              "required": 1000,
+              "precision": "FUZZY"
             }
           ]
         }
@@ -639,7 +653,8 @@
                   "d": 1
                 }
               },
-              "required": 10000
+              "required": 10000,
+              "precision": "FUZZY"
             },
             {
               "item": {
@@ -696,21 +711,24 @@
                   "d": 1
                 }
               },
-              "required": 40000
+              "required": 40000,
+              "precision": "FUZZY"
             },
             {
               "item": {
                 "id": "pamhc2crops:oatsitem",
                 "Count": 1
               },
-              "required": 4
+              "required": 4,
+              "precision": "FUZZY"
             },
             {
               "item": {
                 "id": "minecraft:leather",
                 "Count": 1
               },
-              "required": 4
+              "required": 4,
+              "precision": "FUZZY"
             }
           ]
         }
@@ -778,7 +796,8 @@
                   "d": 1
                 }
               },
-              "required": 15000
+              "required": 15000,
+              "precision": "FUZZY"
             },
             {
               "fluid": {
@@ -788,7 +807,8 @@
                   "d": 1
                 }
               },
-              "required": 2000
+              "required": 2000,
+              "precision": "FUZZY"
             }
           ]
         }
@@ -861,21 +881,24 @@
                   "d": 1
                 }
               },
-              "required": 40000
+              "required": 40000,
+              "precision": "FUZZY"
             },
             {
               "item": {
                 "id": "minecraft:leather",
                 "Count": 1
               },
-              "required": 4
+              "required": 4,
+              "precision": "FUZZY"
             },
             {
               "item": {
                 "id": "pamhc2crops:oatsitem",
                 "Count": 1
               },
-              "required": 4
+              "required": 4,
+              "precision": "FUZZY"
             }
           ]
         }
@@ -930,14 +953,16 @@
                   "d": 1
                 }
               },
-              "required": 20000
+              "required": 20000,
+              "precision": "FUZZY"
             },
             {
               "item": {
                 "id": "minecraft:sweet_berries",
                 "Count": 1
               },
-              "required": 2
+              "required": 2,
+              "precision": "FUZZY"
             }
           ]
         }
@@ -981,18 +1006,23 @@
           "type": "hardcorequesting:consume_qds",
           "items": [
             {
-              "item": {
-                "id": "industrialforegoing:essence_bucket",
-                "Count": 1
+              "fluid": {
+                "fluid": "industrialforegoing:essence",
+                "volume": {
+                  "n": 1,
+                  "d": 1
+                }
               },
-              "required": 10000
+              "required": 10000,
+              "precision": "FUZZY"
             },
             {
               "item": {
                 "id": "minecraft:carrot",
                 "Count": 1
               },
-              "required": 2
+              "required": 2,
+              "precision": "FUZZY"
             }
           ]
         }
@@ -1040,7 +1070,8 @@
                 "id": "minecraft:leather",
                 "Count": 1
               },
-              "required": 6
+              "required": 6,
+              "precision": "FUZZY"
             }
           ]
         }
@@ -1152,7 +1183,8 @@
                 "id": "minecraft:diamond",
                 "Count": 1
               },
-              "required": 6
+              "required": 6,
+              "precision": "FUZZY"
             }
           ]
         }
@@ -1200,7 +1232,8 @@
                 "id": "minecraft:iron_ingot",
                 "Count": 1
               },
-              "required": 6
+              "required": 6,
+              "precision": "FUZZY"
             }
           ]
         }
@@ -1251,14 +1284,16 @@
                   "d": 1
                 }
               },
-              "required": 10000
+              "required": 10000,
+              "precision": "FUZZY"
             },
             {
               "item": {
                 "id": "minecraft:wheat_seeds",
                 "Count": 1
               },
-              "required": 4
+              "required": 4,
+              "precision": "FUZZY"
             }
           ]
         }

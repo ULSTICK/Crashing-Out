@@ -26,7 +26,8 @@ ServerEvents.recipes(event => {
     event.remove({ output: 'cookingforblockheads:sink' });
     event.remove({ output: 'mekanism:ingot_refined_obsidian', type: "tconstruct:casting_table" });
     event.remove({ mod: 'mob_grinding_utils' });
-
+    /*event.remove({ type: "tconstruct:ore_melting" });*/
+    event.remove({ id: 'tconstruct:smeltery/melting/metal/iron/ore_sparse' });
     exdeorum.removeDefaultSieveRecipes(event);
 });
 
