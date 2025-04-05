@@ -1,6 +1,6 @@
 ServerEvents.recipes(event => {
 
-    const add_sieve = function(input, output, chance, mesh_tier, multip){
+    const add_sieve = function (input, output, chance, mesh_tier, multip) {
         event.custom({
             "type": "exdeorum:compressed_sieve",
             "ingredient": {
@@ -24,8 +24,8 @@ ServerEvents.recipes(event => {
         'minecraft:chorus_fruit': 0.02,
         'minecraft:chorus_flower': 0.02,
         'tconstruct:ender_slime_sapling': 0.01,
-		'tconstruct:ender_slime_ball': 0.01,
-		'tconstruct:ender_slime_grass_seeds': 0.01
+        'tconstruct:ender_slime_ball': 0.01,
+        'tconstruct:ender_slime_grass_seeds': 0.01
     };
 
     const mesh = {
@@ -39,8 +39,8 @@ ServerEvents.recipes(event => {
 
     for (const [output, chance] of Object.entries(crushed_end_stone_results)) {
         for (const [mesh_tier, multip] of Object.entries(mesh)) {
-        add_sieve('exdeorum:compressed_crushed_end_stone', output, chance, mesh_tier, multip);
+            add_sieve('exdeorum:compressed_crushed_end_stone', output, chance, mesh_tier, multip);
         }
     }
-    
+
 });

@@ -1,4 +1,4 @@
-ItemEvents.rightClicked('minecraft:glass_bottle', event => event.cancel()) 
+ItemEvents.rightClicked('minecraft:glass_bottle', event => event.cancel())
 /* ItemEvents.firstRightClicked('survive:filled_canteen', event => event.cancel())
 ItemEvents.firstRightClicked('survive:canteen', event => event.cancel()) */
 

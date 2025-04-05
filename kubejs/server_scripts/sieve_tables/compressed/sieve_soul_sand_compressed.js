@@ -1,6 +1,6 @@
 ServerEvents.recipes(event => {
 
-    const add_sieve = function(input, output, chance, mesh_tier, multip){
+    const add_sieve = function (input, output, chance, mesh_tier, multip) {
         event.custom({
             "type": "exdeorum:compressed_sieve",
             "ingredient": {
@@ -37,8 +37,8 @@ ServerEvents.recipes(event => {
 
     for (const [output, chance] of Object.entries(soul_sand_results)) {
         for (const [mesh_tier, multip] of Object.entries(mesh)) {
-        add_sieve('exdeorum:compressed_soul_sand', output, chance, mesh_tier, multip);
+            add_sieve('exdeorum:compressed_soul_sand', output, chance, mesh_tier, multip);
         }
     }
-    
+
 });

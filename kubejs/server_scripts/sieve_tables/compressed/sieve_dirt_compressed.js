@@ -1,6 +1,6 @@
 ServerEvents.recipes(event => {
 
-    const add_sieve = function(input, output, chance, mesh_tier, multip){
+    const add_sieve = function (input, output, chance, mesh_tier, multip) {
         event.custom({
             "type": "exdeorum:compressed_sieve",
             "ingredient": {
@@ -20,18 +20,18 @@ ServerEvents.recipes(event => {
 
     const dirt_results = {
         'exdeorum:stone_pebble': 3.66,
-        'pamhc2crops:riceseeditem':0.07,
-        'exdeorum:grass_seeds':0.07,
-        'pamhc2crops:grapeseeditem':0.03,
-        'pamhc2foodcore:sunflowerseedsitem':0.03,
-        'minecraft:sugar_cane':0.03,
-        'pamhc2crops:tomatoseeditem':0.02,
-        'pamhc2crops:peanutseeditem':0.02,
-        'pamhc2crops:soybeanseeditem':0.01,
-        'minecraft:birch_sapling':0.01,
-        'minecraft:oak_sapling':0.02,
-        'minecraft:spruce_sapling':0.01,
-        'minecraft:sweet_berries':0.01
+        'pamhc2crops:riceseeditem': 0.07,
+        'exdeorum:grass_seeds': 0.07,
+        'pamhc2crops:grapeseeditem': 0.03,
+        'pamhc2foodcore:sunflowerseedsitem': 0.03,
+        'minecraft:sugar_cane': 0.03,
+        'pamhc2crops:tomatoseeditem': 0.02,
+        'pamhc2crops:peanutseeditem': 0.02,
+        'pamhc2crops:soybeanseeditem': 0.01,
+        'minecraft:birch_sapling': 0.01,
+        'minecraft:oak_sapling': 0.02,
+        'minecraft:spruce_sapling': 0.01,
+        'minecraft:sweet_berries': 0.01
 
     };
 
@@ -46,8 +46,8 @@ ServerEvents.recipes(event => {
 
     for (const [output, chance] of Object.entries(dirt_results)) {
         for (const [mesh_tier, multip] of Object.entries(mesh)) {
-        add_sieve('exdeorum:compressed_dirt', output, chance, mesh_tier, multip);
+            add_sieve('exdeorum:compressed_dirt', output, chance, mesh_tier, multip);
         }
     }
-    
+
 });

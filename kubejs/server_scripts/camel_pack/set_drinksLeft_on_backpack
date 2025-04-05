@@ -77,115 +77,56 @@
 });
 
 
-{"survive:PlayerData": 
-{HygieneStats: 
-    {
+{"survive:PlayerData":{HygieneStats:    {
     hygieneTimer: 0, uncleanLevel: 20.0f},
     WaterStats: {
         waterExhaustionLevel: 1.2065787f,
-        waterLevel: 14, 
-        waterTickTimer: 0, 
-        waterHydrationLevel: 2.8f, 
-        tempDropTicks: 0, 
-        uncleanStacks: 0, 
-        uncleanComsumption: 0
-    }, 
-    SleepStats: {
-        awakeTimer: 0}, 
-        EnergyStats: {
-            maxStamina: 0, 
-            energyReserveLevel: 6, 
-            energyLevel: 20, 
-            energyTickTimer: 0, 
-            energyExhaustionLevel: 40.0f
-        }, 
-        "survive:WetTime": 0, 
-        TemperatureStats: {
-            displayTemperature: 0.5848304376966666d, 
-            targetTemperature: 37.305458178800656d, 
-            temperatureLevel: 38.16966087539333d, 
-            hypTimer: 20, 
-            temperatureTickTimer: 0, 
-            modifiers: [{
-                mod: 0.039763586174194315d, 
-                id: "survive:sun", 
-                factor: 0
+        waterLevel: 14,        waterTickTimer: 0,        waterHydrationLevel: 2.8f,        tempDropTicks: 0,        uncleanStacks: 0,        uncleanComsumption: 0
+    },    SleepStats: {
+        awakeTimer: 0},        EnergyStats: {
+            maxStamina: 0,            energyReserveLevel: 6,            energyLevel: 20,            energyTickTimer: 0,            energyExhaustionLevel: 40.0f
+        },        "survive:WetTime": 0,        TemperatureStats: {
+            displayTemperature: 0.5848304376966666d,            targetTemperature: 37.305458178800656d,            temperatureLevel: 38.16966087539333d,            hypTimer: 20,            temperatureTickTimer: 0,            modifiers: [{
+                mod: 0.039763586174194315d,                id: "survive:sun",                factor: 0
             }, {
-                mod: 0.0d, 
-                id: "survive:dimension", 
-                factor: 0
+                mod: 0.0d,                id: "survive:dimension",                factor: 0
             }, {
-                mod: 0.0d, 
-                id: "survive:cooling_enchantment", 
-                factor: 1
+                mod: 0.0d,                id: "survive:cooling_enchantment",                factor: 1
             }, {
-                mod: 0.0d, 
-                id: "survive:main_held_item", 
-                factor: 1
+                mod: 0.0d,                id: "survive:main_held_item",                factor: 1
             }, {
-                mod: 0.26069874172297586d, 
-                id: "survive:biome", 
-                factor: 0
+                mod: 0.26069874172297586d,                id: "survive:biome",                factor: 0
             }, {
-                mod: 0.0d, 
-                id: "survive:season", 
-                factor: 0
+                mod: 0.0d,                id: "survive:season",                factor: 0
             }, {
-                mod: 0.0d, 
-                id: "survive:chilled_effect", 
-                factor: 1
+                mod: 0.0d,                id: "survive:chilled_effect",                factor: 1
             }, {
-                mod: 0.004995850903486934d, 
-                id: "survive:shade", 
-                factor: 0
+                mod: 0.004995850903486934d,                id: "survive:shade",                factor: 0
             }, {
-                mod: 0.0d, 
-                id: "survive:wetness", 
-                factor: 1
+                mod: 0.0d,                id: "survive:wetness",                factor: 1
             }, {
-                mod: 0.0d, 
-                id: "survive:adjusted_cooling_enchantment", 
-                factor: 1
+                mod: 0.0d,                id: "survive:adjusted_cooling_enchantment",                factor: 1
             }, {
-                mod: 0.0d, 
-                id: "survive:entity", 
-                factor: 0
+                mod: 0.0d,                id: "survive:entity",                factor: 0
             }, {
-                mod: 0.0d, 
-                id: "survive:warming_enchantment", 
-                factor: 1
+                mod: 0.0d,                id: "survive:warming_enchantment",                factor: 1
             }, {
-                mod: 0.0d, 
-                id: "survive:armor", 
-                factor: 1
+                mod: 0.0d,                id: "survive:armor",                factor: 1
             }, {
-                mod: 0.0d, 
-                id: "survive:block", 
-                factor: 0
+                mod: 0.0d,                id: "survive:block",                factor: 0
             }, {
-                mod: 0.0d, 
-                id: "survive:heated_effect", 
-                factor: 1
+                mod: 0.0d,                id: "survive:heated_effect",                factor: 1
             }, {
-                mod: 0.0d, 
-                id: "survive:thirst_cooldown", 
-                factor: 1
+                mod: 0.0d,                id: "survive:thirst_cooldown",                factor: 1
             }, {
-                mod: 0.0d, 
-                id: "survive:adjusted_warming_enchantment", 
-                factor: 1}, 
-                {mod: 0.0d, 
-                    id: "survive:off_held_item",
+                mod: 0.0d,                id: "survive:adjusted_warming_enchantment",                factor: 1},                {mod: 0.0d,                    id: "survive:off_held_item",
                     factor: 1
                 }, {
-                    mod: 0.0d, 
-                    id: "survive:snow", 
-                    factor: 0
+                    mod: 0.0d,                    id: "survive:snow",                    factor: 0
                 }]}}} */
 
 
-Item: 'travelersbackpack:standard' 
-NBT: Upgrades:{
+Item: 'travelersbackpack:standard'NBT: Upgrades:{
     Items:[{
     Count:1b,Slot:0,
     id:"travelersbackpack:tanks_upgrade",

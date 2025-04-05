@@ -1,6 +1,6 @@
 ServerEvents.recipes(event => {
 
-    const add_sieve = function(input, output, chance, mesh_tier, multip){
+    const add_sieve = function (input, output, chance, mesh_tier, multip) {
         event.custom({
             "type": "exdeorum:sieve",
             "ingredient": {
@@ -19,9 +19,9 @@ ServerEvents.recipes(event => {
     // ========= dust =========
 
     const podzol_results = {
-		'tconstruct:sky_slime_sapling': 0.01,
-		'tconstruct:sky_slime_ball': 0.01,
-		'tconstruct:sky_slime_grass_seeds': 0.01
+        'tconstruct:sky_slime_sapling': 0.01,
+        'tconstruct:sky_slime_ball': 0.01,
+        'tconstruct:sky_slime_grass_seeds': 0.01
     };
 
     const mesh = {
@@ -35,8 +35,8 @@ ServerEvents.recipes(event => {
 
     for (const [output, chance] of Object.entries(podzol_results)) {
         for (const [mesh_tier, multip] of Object.entries(mesh)) {
-        add_sieve('minecraft:podzol', output, chance, mesh_tier, multip);
+            add_sieve('minecraft:podzol', output, chance, mesh_tier, multip);
+        }
     }
-    }
-    
+
 });

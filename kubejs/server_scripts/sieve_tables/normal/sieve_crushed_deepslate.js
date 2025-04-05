@@ -1,6 +1,6 @@
 ServerEvents.recipes(event => {
 
-    const add_sieve = function(input, output, chance, mesh_tier, multip){
+    const add_sieve = function (input, output, chance, mesh_tier, multip) {
         event.custom({
             "type": "exdeorum:sieve",
             "ingredient": {
@@ -55,8 +55,8 @@ ServerEvents.recipes(event => {
 
     for (const [output, chance] of Object.entries(crushed_deepslate_results)) {
         for (const [mesh_tier, multip] of Object.entries(mesh)) {
-        add_sieve('exdeorum:crushed_deepslate', output, chance, mesh_tier, multip);
+            add_sieve('exdeorum:crushed_deepslate', output, chance, mesh_tier, multip);
+        }
     }
-    }
-    
+
 });

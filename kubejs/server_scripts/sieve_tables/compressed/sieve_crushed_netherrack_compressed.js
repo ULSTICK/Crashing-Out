@@ -1,6 +1,6 @@
 ServerEvents.recipes(event => {
 
-    const add_sieve = function(input, output, chance, mesh_tier, multip){
+    const add_sieve = function (input, output, chance, mesh_tier, multip) {
         event.custom({
             "type": "exdeorum:compressed_sieve",
             "ingredient": {
@@ -24,8 +24,8 @@ ServerEvents.recipes(event => {
         'exdeorum:blackstone_pebble': 0.2,
         'exdeorum:basalt_pebble': 0.2,
         'tconstruct:blood_slime_sapling': 0.2,
-		'tconstruct:ichor_slime_ball': 0.01,
-		'tconstruct:blood_slime_grass_seeds': 0.01,
+        'tconstruct:ichor_slime_ball': 0.01,
+        'tconstruct:blood_slime_grass_seeds': 0.01,
     };
 
     const mesh = {
@@ -39,8 +39,8 @@ ServerEvents.recipes(event => {
 
     for (const [output, chance] of Object.entries(crushed_netherrack_results)) {
         for (const [mesh_tier, multip] of Object.entries(mesh)) {
-        add_sieve('exdeorum:compressed_crushed_netherrack', output, chance, mesh_tier, multip);
+            add_sieve('exdeorum:compressed_crushed_netherrack', output, chance, mesh_tier, multip);
         }
     }
-    
+
 });

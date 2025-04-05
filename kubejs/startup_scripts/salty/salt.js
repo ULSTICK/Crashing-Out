@@ -1,10 +1,10 @@
-  
+
 /* ItemEvents.modification(event => {
 
    event.modify('pamhc2foodcore:saltitem', item => {
       item.foodProperties = food => {
-      food.effect('survive:thirst', 600, 0, 1)    
-    } 
+      food.effect('survive:thirst', 600, 0, 1)
+    }
 
     event.modify('extra_food_items:spidereyesoup', item => {
       item.foodProperties = food => {

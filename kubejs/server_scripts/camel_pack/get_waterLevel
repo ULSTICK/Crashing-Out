@@ -295,8 +295,8 @@ ItemEvents.rightClicked(event => {
                                     }
                                 } else if {
                                     player.tell('O upgrade de tanque não contém leftFluidStack.');
-                                    console.log('O tanks_upgrade não contém "leftFluidStack".');    
-                                                                    
+                                    console.log('O tanks_upgrade não contém "leftFluidStack".');
+
                                 }
                             } else {
                                 player.tell('O upgrade de tanque não possui conteúdo de fluido.');
@@ -332,7 +332,7 @@ ItemEvents.rightClicked(event => {
     // Verifica se o jogador está segurando um diamante
     if (item.id === 'minecraft:diamond') {
         console.log(`Jogador ${player.name.string} clicou com o botão direito segurando um diamante.`);
-        
+
         // Acessa a mochila no slot "back" do Curios
         let forgeCaps = player.persistentData.getCompound("ForgeCaps");
         if (forgeCaps.contains("curios:inventory")) {
