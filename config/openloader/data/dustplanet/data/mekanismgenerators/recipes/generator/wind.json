@@ -1,1 +1,25 @@
-{"type":"mekanism:mek_data","key":{"A":{"tag":"mekanism:alloys/infused"},"C":{"tag":"forge:circuits/ultimate"},"E":{"item":"mekanism:energy_tablet"},"O":{"tag":"forge:ingots/osmium"}},"pattern":[" O ","OAO","ECE"],"result":{"item":"mekanismgenerators:wind_generator"}}
+{
+    "type": "mekanism:mek_data",
+    "key": {
+        "B": {
+            "tag": "mekanismgenerators:turbine_blade"
+        },
+        "C": {
+            "tag": "forge:circuits/ultimate"
+        },
+        "E": {
+            "item": "mekanism:energy_tablet"
+        },
+        "R": {
+            "tag": "mekanismgenerators:turbine_rotor"
+        }
+    },
+    "pattern": [
+        " B ",
+        "BRB",
+        "ECE"
+    ],
+    "result": {
+        "item": "mekanismgenerators:wind_generator"
+    }
+}
