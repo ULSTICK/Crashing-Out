@@ -57,8 +57,6 @@ const toolsmod = [
     "ae2:fluix_hoe"
 ];
 
-ItemEvents.modification(event => {
-    toolsmod.forEach(tool => event.modify(tool, item => {
-        item.maxDamage = 1;
-    }));
+ItemEvents.tooltip(event => {
+    toolsmod.forEach(tool => event.add(tool, "This item is non-functional. Please use Tinkers Construct tools instead."));
 });
