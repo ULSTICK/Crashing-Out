@@ -1,0 +1,1276 @@
+{
+  "name": "Aesthetic Automation",
+  "quests": [
+    {
+      "uuid": "e6d0efde-1f09-434e-9f80-a45f09d37ec0",
+      "name": {
+        "text": "Copper Feel",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Throw a copper ingot beneath a powered mechanical press and create yourself a copper sheet. You\u0027ll need them for any plumbing or fluid transportation, collection, or fabrication needs.",
+        "isTranslationKey": false
+      },
+      "x": 296,
+      "y": 46,
+      "icon": {
+        "id": "create:copper_sheet",
+        "Count": 1
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "hardcorequesting:detect",
+          "items": [
+            {
+              "item": {
+                "id": "create:copper_sheet",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "13a983d5-2a40-4c74-91f0-9847656342e0"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "68d15aff-b4ec-4d53-aa16-ff96ec851e11",
+      "name": {
+        "text": "A New Shine",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Unnamed quest",
+        "isTranslationKey": false
+      },
+      "x": 212,
+      "y": 124,
+      "icon": {
+        "id": "create:brass_ingot",
+        "Count": 1
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "hardcorequesting:detect",
+          "items": []
+        }
+      ],
+      "prerequisites": [
+        "10a23876-3d34-40db-b3be-0f9569c5b459"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "84c2b599-5734-4f21-98a9-bb63cfced54d",
+      "name": {
+        "text": "Breaking Wind",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "The Encased Fan can create air streams to pull or push entities or items. This works vertically and horizontally and the strength is directly correlated to rotational speed. The Encased fan also has the abilitity to do Bulk Washing, Bulk Blasting, Bulk Haunting, and Bulk Smoking.",
+        "isTranslationKey": false
+      },
+      "x": 212,
+      "y": 78,
+      "icon": {
+        "id": "create:encased_fan",
+        "Count": 1
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "hardcorequesting:detect",
+          "description": {
+            "text": "Biggest Fan",
+            "isTranslationKey": false
+          },
+          "longDescription": {
+            "text": "A task where the player needs specific items. These do not have to be handed in, having them in one\u0027s inventory is enough.\n\nPress W over the item for a visual demonstration!",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "create:encased_fan",
+                "Count": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "hardcorequesting:detect",
+          "description": {
+            "text": "Bulk Washing",
+            "isTranslationKey": false
+          },
+          "longDescription": {
+            "text": "Bulk Washing requires water to be placed directly in front of the fan’s airstream or at the end if the fan is pulling air. Throw your items into the stream to start washing. Throw some sand into the stream and get yoruself some clay!",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:water_bucket",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "minecraft:clay_ball",
+                "Count": 1
+              },
+              "required": 16
+            }
+          ]
+        },
+        {
+          "type": "hardcorequesting:detect",
+          "description": {
+            "text": "Bulk Blasting",
+            "isTranslationKey": false
+          },
+          "longDescription": {
+            "text": "Bulk Blasting requires lava to be placed directly in front of the fan’s airstream or at the end if the fan is pulling air. This works like a blast furnace but can destroy items if they cant be blasted! Know that it cannot process Ore blocks and will destroy them. Try making some charcoal by throwing wood into the stream!  ",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:lava_bucket",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "minecraft:charcoal",
+                "Count": 1
+              },
+              "required": 8
+            }
+          ]
+        },
+        {
+          "type": "hardcorequesting:detect",
+          "description": {
+            "text": "Bulk Smoking",
+            "isTranslationKey": false
+          },
+          "longDescription": {
+            "text": "Bulk Smoking requires a campfire to be placed directly in front of the fan’s airstream or at the end if the fan is pulling air. Try making some leather by throwing rotten flesh into the stream!",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:campfire",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "minecraft:leather",
+                "Count": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "hardcorequesting:detect",
+          "description": {
+            "text": "Bulk Haunting",
+            "isTranslationKey": false
+          },
+          "longDescription": {
+            "text": "Bulk Haunting requires a soul campfire or flame to be placed directly in front of the fan’s airstream or at the end if the fan is pulling air. This has alot of special uses and can make soul soil. Note making soul sand with this method is disabled so crush up that soul soil and get yourself some soul sand!",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:soul_campfire",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "minecraft:soul_soil",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "5d300aea-5826-4f79-b1d6-b08895059dbf"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "b5f7aaad-a562-404f-8786-0a39522b7c6b",
+      "name": {
+        "text": "Out to Dry",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "The Hose Pulley extends a hose to drain or flood liquids when powered by Rotational Force. The hose extends infinitely and retracts when force is reversed but must be extended at least one block to function. A Fluid Pump is required for operation.\n\n- Draining: Lowers liquid levels to match the hose’s position. Multiple pulleys can speed up drainage if pipe capacity allows.\n\n- Flooding: Fills an area up to the hose’s highest point.\n\nThe Item Drain can hold up to 1500 mB of liquid and requires a Fluid Pump to extract fluids. Basins will automatically deposit output fluids into a nearby Item Drain.\n",
+        "isTranslationKey": false
+      },
+      "x": 296,
+      "y": 174,
+      "icon": {
+        "id": "create:hose_pulley",
+        "Count": 1
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "hardcorequesting:detect",
+          "items": [
+            {
+              "item": {
+                "id": "create:hose_pulley",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "create:item_drain",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "32f538e8-7e3c-4d36-8b39-0cef101279dd"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "10a23876-3d34-40db-b3be-0f9569c5b459",
+      "name": {
+        "text": "Calcifer\u0027s Eggshells",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "An Empty Blaze Burner is the unfilled version of a Blaze Burner and must be filled with a Blaze to function further. To capture a Blaze, simply right-click a Blaze or Blaze spawner while holding an Empty Blaze Burner. This will not damage the spawner",
+        "isTranslationKey": false
+      },
+      "x": 225,
+      "y": 101,
+      "icon": {
+        "id": "create:blaze_burner",
+        "Count": 1
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "hardcorequesting:detect",
+          "description": {
+            "text": "Empty Blaze Burner",
+            "isTranslationKey": false
+          },
+          "longDescription": {
+            "text": "Without the Blaze, it can be used as a Soul Fire Burner with Soul Sand or Soul Soil, serving as a passive boiler heat source and for Bulk Smoking or Bulk Haunting, but not for Mixing.",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "create:empty_blaze_burner",
+                "Count": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "hardcorequesting:detect",
+          "description": {
+            "text": "Filled Blaze Burner",
+            "isTranslationKey": false
+          },
+          "longDescription": {
+            "text": "A filled Blaze Burner allows you to make brass, and provide heat for Steam Engines, contributing 1 heating level in the Heated phase and 2 in the Super-Heated phase. It is also used for Bulk Smoking and Bulk Smelting when fueled. Blaze Burners can be powered by burnable items, and Deployers or Mechanical Arms can automate fueling, ensuring efficient use of resources. For extra style, throw some engineer\u0027s goggles on the Blaze Burner.",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "create:blaze_burner",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a552a1cc-bdcd-45df-8fc7-11d3de4f3085"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "dac6814c-dec5-46f2-b7d5-77316843e9d4",
+      "name": {
+        "text": "Feed the Machine",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "The Mechanical Arm is a block used to transfer items between inventories within a 5-block radius. When placing the arm, you select valid inventories by right-clicking, with the ability to toggle between taking or depositing items by right-clicking again. Left-clicking deselects an inventory. The arm can transfer up to a stack of items at once and operates based on its selected blocks and the order they were chosen. Its behavior can be adjusted with options like Round Robin, Forced Round Robin, or Prefer First through the Value Settings Screen. The arm can be powered by a Cogwheel or similar blocks and can interact with various items like Mechanical Belts, Depots, and Crafters. If the arm\u0027s range exceeds 5 blocks, inventories beyond that will be dropped. It can be disabled using Redstone, and will deposit any items it’s holding before stopping. The arm also respects filters on selected blocks, preventing it from picking up items it can\u0027t deposit elsewhere.",
+        "isTranslationKey": false
+      },
+      "x": 253,
+      "y": 182,
+      "icon": {
+        "id": "create:mechanical_arm",
+        "Count": 1
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "hardcorequesting:detect",
+          "items": [
+            {
+              "item": {
+                "id": "create:mechanical_arm",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "6241ed79-932a-4519-a294-9860a2063281"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "32f538e8-7e3c-4d36-8b39-0cef101279dd",
+      "name": {
+        "text": "Rising Tide",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "The Spout is used to fill liquid containers (e.g., bottles, buckets) or craft with liquids. It holds up to 1 bucket of a single liquid, which is supplied via Fluid Pipes. The Spout dispenses fluid onto items passing below it on a Conveyor Belt or Depot. Each item takes 1 second to process, though refill time may cause slight delays.\n\nThe Depot serves as a machine interaction point, allowing items to be placed manually or inserted automatically. Machines like the Mechanical Arm or Mechanical Press can interact with items on the Depot, just as they would on a Mechanical Belt. Items on a Depot do not despawn and remain until removed by a player or another machine.",
+        "isTranslationKey": false
+      },
+      "x": 296,
+      "y": 142,
+      "icon": {
+        "id": "create:spout",
+        "Count": 1
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "hardcorequesting:detect",
+          "items": [
+            {
+              "item": {
+                "id": "create:spout",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "create:depot",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "213b8a8b-4ba5-4d25-84f0-c25132cfe78d"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "a552a1cc-bdcd-45df-8fc7-11d3de4f3085",
+      "name": {
+        "text": "Smooooth Operator",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "The Mechanical Mixer is a mechanical component that processes Mixing recipes and shapeless crafting recipes in a Basin. It requires at least 30 RPM to function, with higher speeds improving efficiency. The Mixer must be placed above a Basin with a 1-block gap to work.\n\nAutomation: Can automate shapeless crafting by inserting ingredients into the Basin.\n\nBrewing: Can automate Brewing recipes when combined with a heated Blaze Burner.\n\nMixing: Some recipes (e.g., Brass) require a super-heated Blaze Burner.\n\nThe Mixer acts as a cogwheel, transmitting and reversing rotation to adjacent components.",
+        "isTranslationKey": false
+      },
+      "x": 238,
+      "y": 78,
+      "icon": {
+        "id": "create:mechanical_mixer",
+        "Count": 1
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "hardcorequesting:detect",
+          "items": [
+            {
+              "item": {
+                "id": "create:mechanical_mixer",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "create:basin",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "5d300aea-5826-4f79-b1d6-b08895059dbf"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "213b8a8b-4ba5-4d25-84f0-c25132cfe78d",
+      "name": {
+        "text": "Under Pressure",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "The Valve Handle works similarly to the Hand Crank, but its rotation amount and direction can be adjusted in its Value Settings Screen. It can also invert rotation by sneak-using it. The handle can be dyed in all 16 vanilla colors by right-clicking it with a Dye.\n\nSmart Fluid Pipes filter fluids, allowing only a specific liquid to pass through. This is set by placing a bucket or bottle of the liquid in the pipe’s Filter slot. Some liquids, like Potions, may require a List Filter with Respect Data on to be properly distinguished.\n\nFluid Valves control the flow of liquids in pipes. They can be toggled open or closed by applying Rotational Force, often using a Valve Handle or Gearshift. Directional arrows on the valve indicate its current state.",
+        "isTranslationKey": false
+      },
+      "x": 296,
+      "y": 110,
+      "icon": {
+        "id": "create:copper_valve_handle",
+        "Count": 1
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "hardcorequesting:detect",
+          "items": [
+            {
+              "item": {
+                "id": "create:copper_valve_handle",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "create:smart_fluid_pipe",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "create:fluid_valve",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "57177dbe-44c6-47d5-9249-15f5a31b43fc"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "b6b62233-dee4-4d98-902f-cee78f72fddb",
+      "name": {
+        "text": "Redstone Premium",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Wanna make some complex redstone builds? Each one of these items will advance and ease any redstonery going on up in your base.",
+        "isTranslationKey": false
+      },
+      "x": 187,
+      "y": 101,
+      "icon": {
+        "id": "create:pulse_extender",
+        "Count": 1
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "hardcorequesting:detect",
+          "description": {
+            "text": "Smart Observer",
+            "isTranslationKey": false
+          },
+          "longDescription": {
+            "text": "The Smart Observer is a machine that emits a redstone signal based on the items or blocks inside a container placed in front of it. If facing a container, such as a Mechanical Belt, Funnel, or Fluid Pipe, it will emit a redstone signal when an item is detected inside. If a filter is applied, it will only emit the signal when the specific item in the filter is detected. The Smart Observer can also detect blocks in front of it that match the filter. When connected to a Display Link, information about the inventory it observes will be shown.",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "create:content_observer",
+                "Count": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "hardcorequesting:detect",
+          "description": {
+            "text": "Pulse Extender",
+            "isTranslationKey": false
+          },
+          "longDescription": {
+            "text": "The Pulse Extender is similar to a Redstone Repeater but extends a redstone pulse for a specified amount of time. The extension time can be adjusted in its Value Settings Screen, ranging from 2 ticks to 60 minutes. Like the Pulse Repeater, the Pulse Extender\u0027s settings can be copied to other extenders or Pulse Repeaters using a Clipboard. The Pulse Extender can also be inverted by right-clicking, which causes it to be on by default and turn off after the set extension time.",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "create:pulse_extender",
+                "Count": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "hardcorequesting:detect",
+          "description": {
+            "text": "Pulse Repeater",
+            "isTranslationKey": false
+          },
+          "longDescription": {
+            "text": "The Pulse Repeater is a device that emits a short redstone pulse after a specified delay when powered. This delay can be set in the Pulse Repeater\u0027s Value Settings Screen, which can be accessed by right-clicking. The delay can range from 2 ticks to 60 minutes. Additionally, the Pulse Repeater can be inverted by right-clicking, which causes it to be on by default and turn off after receiving a redstone signal. The delay settings can be copied and applied to other repeaters or Pulse Extenders using a Clipboard.",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "create:pulse_repeater",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "68d15aff-b4ec-4d53-aa16-ff96ec851e11"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "b0be07b0-cb66-4c5a-8719-951652219fc6",
+      "name": {
+        "text": "Rolling Stones",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Crushing Wheels are an advanced version of Millstones that apply crushing recipes to items inserted from the direction they are spinning away from. They also have an expanded list of crushing recipes compared to Millstone\u0027s. To function, two Crushing Wheels must be placed next to each other, either horizontally or vertically, one block apart, with opposite rotational forces. Items to be crushed should be inserted where the wheels rotate inwards. Automation is possible by placing a hopper between the wheels and connecting it to a depot or conveyor belt below.",
+        "isTranslationKey": false
+      },
+      "x": 197,
+      "y": 183,
+      "icon": {
+        "id": "create:crushing_wheel",
+        "Count": 1
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "hardcorequesting:detect",
+          "items": [
+            {
+              "item": {
+                "id": "create:crushing_wheel",
+                "Count": 1
+              },
+              "required": 2
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "6241ed79-932a-4519-a294-9860a2063281"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "01675684-dd99-4447-b149-6e429d7ad611",
+      "name": {
+        "text": "Chop to it!",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "The Mechanical Saw cuts wood blocks in front of it and can automatically fell entire trees or giant mushrooms by breaking the bottom-most block. It can fully cut down 2x2 trees if at least one bottom block is mined. Saws damage entities and break blocks based on contraption speed. When placed facing upward, the saw applies stonecutting recipes, selecting a random output unless a filter is used. You can also use them to create more shafts per andesite alloy than standard crafting.",
+        "isTranslationKey": false
+      },
+      "x": 264,
+      "y": 78,
+      "icon": {
+        "id": "create:mechanical_saw",
+        "Count": 1
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "hardcorequesting:detect",
+          "items": [
+            {
+              "item": {
+                "id": "create:mechanical_saw",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "5d300aea-5826-4f79-b1d6-b08895059dbf"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "09976ba9-f84b-4bcb-9cc9-c6b882636132",
+      "name": {
+        "text": "Mirror Mirror...",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "The Wand of Symmetry is a tool used to mirror blocks placed within a 50-block range. You can adjust its settings by shift-right-clicking, allowing for \"Mirror Once,\" \"Rectangular,\" or \"Octagonal\" modes, as well as selecting the axis for mirroring. Right-clicking places the wand, and a second right-click moves it. The wand mirrors block placement or destruction to the other side(s) and uses inventory blocks for placement while spawning items when destroying blocks.\n\nThe Extendo Grip increases the player\u0027s reach by 4 blocks and boosts knockback when held. It works in both the main hand and offhand. Durability is lost when breaking or placing blocks, or hitting mobs, unless paired with a filled Copper or Netherite Backtank, which uses air instead.",
+        "isTranslationKey": false
+      },
+      "x": 225,
+      "y": 183,
+      "icon": {
+        "id": "create:wand_of_symmetry",
+        "Count": 1,
+        "tag": "{enable:0b,symmetry:{direction:0,enable:1b,pos:[0.0f,0.0f,0.0f],type:\"empty\"}}"
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "hardcorequesting:detect",
+          "items": [
+            {
+              "item": {
+                "id": "create:wand_of_symmetry",
+                "Count": 1,
+                "tag": "{enable:1b,symmetry:{direction:1,enable:1b,pos:[-91.0f,64.0f,-180.0f],type:\"cross_plane\"}}"
+              }
+            },
+            {
+              "item": {
+                "id": "create:extendo_grip",
+                "Count": 1,
+                "tag": "{Damage:0}"
+              }
+            },
+            {
+              "item": {
+                "id": "create:copper_backtank",
+                "Count": 1,
+                "tag": "{Air:883.79956f}"
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "6241ed79-932a-4519-a294-9860a2063281"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "5d300aea-5826-4f79-b1d6-b08895059dbf",
+      "name": {
+        "text": "Pressing Matters",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Throw an iron ingot beneath a powered mechanical press and create yourself an iron sheet. You\u0027ll need them for all your basic machines and Contraptions.",
+        "isTranslationKey": false
+      },
+      "x": 238,
+      "y": 46,
+      "icon": {
+        "id": "create:iron_sheet",
+        "Count": 1
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "hardcorequesting:detect",
+          "items": [
+            {
+              "item": {
+                "id": "create:iron_sheet",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "13a983d5-2a40-4c74-91f0-9847656342e0"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "57177dbe-44c6-47d5-9249-15f5a31b43fc",
+      "name": {
+        "text": "Sink or Swim",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Fluid Pipes transport liquids but can only carry one type of fluid at a time. If different fluids mix, the pipe clogs. Pipes connect automatically unless separated using a Wrench, Copper Casing, or Brackets. They require Mechanical Pumps to move fluids, with each pump pushing liquid up to 15 blocks (configurable). Fluid flow is divided at splits, and transfer speed depends on pump speed (0.5 mb/t * RPM). Open-ended pipes can create fluid source blocks after releasing 1000 mB.\n\nFluid Tanks store up to 8 buckets (8,000 mB) of liquid per block and can be connected with Fluid Pipes on any side. Tanks merge into structures up to 3x32x3, holding 2,304 buckets. Fluid direction is controlled by connected pipes and pumps, and the Wrench can toggle the tank’s window. Pipe placement does not affect extraction or storage.\n\nMechanical Pumps move fluids in one direction, with a maximum range of 16 blocks (configurable). Up to 30 pipes can be between pumps. Brown arrows indicate flow direction, which can be reversed with a Wrench.",
+        "isTranslationKey": false
+      },
+      "x": 296,
+      "y": 78,
+      "icon": {
+        "id": "create:fluid_pipe",
+        "Count": 1
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "hardcorequesting:detect",
+          "items": [
+            {
+              "item": {
+                "id": "create:fluid_pipe",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "create:mechanical_pump",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "create:fluid_tank",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "e6d0efde-1f09-434e-9f80-a45f09d37ec0"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "b8732aa6-7e38-4164-88e6-e4f5070dae35",
+      "name": {
+        "text": "Need a Hand?",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "The Deployer is a machine that can be given items either directly or by right-clicking them into its hand. It can be stopped with a redstone signal and has a filter on its side to control which items it uses, which is especially important when using the Deployer in a Contraption. The Deployer has two inventory slots: one for the held item and another for extra items, such as those harvested by the Deployer. These harvested items are transferred to the extra slot and must be removed by machines, during which the Deployer will stall. Items in the extra slot cannot be extracted directly by the player. By default, the Deployer simulates right-clicks, but it can be switched to left-click mode by right-clicking the front with a Wrench. In left-click mode, the Deployer can use tools like pickaxes and swords, mimicking the player\u0027s actions, including causing mobs to drop rare items when slain.",
+        "isTranslationKey": false
+      },
+      "x": 238,
+      "y": 124,
+      "icon": {
+        "id": "create:deployer",
+        "Count": 1
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "hardcorequesting:detect",
+          "items": [
+            {
+              "item": {
+                "id": "create:deployer",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "68d15aff-b4ec-4d53-aa16-ff96ec851e11"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "ed9382f9-531a-4e0d-a563-977e5058439b",
+      "name": {
+        "text": "For Whom The Bell Tolls",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Something seems interesting about this bell. Try putting it over a soul fire for an eerie result... ",
+        "isTranslationKey": false
+      },
+      "x": 187,
+      "y": 147,
+      "icon": {
+        "id": "create:peculiar_bell",
+        "Count": 1
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "hardcorequesting:detect",
+          "description": {
+            "text": "Time Marches On",
+            "isTranslationKey": false
+          },
+          "longDescription": {
+            "text": "The Peculiar Bell will toll every time a contraption stops, starts, or changes directions. When placed in the center of a Mechanical Bearing contraption, the bell will toll for every full rotation. When placed in the center of a Minecart Contraption, the bell will toll every time the minecart begins to move. When placed to the right or left of a Minecart Contraption, the bell will toll for right and left turns, respectively.",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "create:peculiar_bell",
+                "Count": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "hardcorequesting:detect",
+          "description": {
+            "text": "For Whom The Bell Tolls",
+            "isTranslationKey": false
+          },
+          "longDescription": {
+            "text": "When the Bell is rung (right-click), it will create soul fire particles in spaces where hostile mobs can spawn in a large radius around itself. The Bell ignores daylight, allowing the player to see where mobs can spawn even during the day. It can also be held in the main or offhand to continuously highlight spawnable spaces around the player, albeit in a smaller radius.\n\n",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "create:haunted_bell",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "68d15aff-b4ec-4d53-aa16-ff96ec851e11"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "e4310cd9-8eca-4afc-a134-f7a6935ed6fb",
+      "name": {
+        "text": "Factory Upgrade",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Need to make more advanced factory lines? These brass upgrades have you covered. Specfically, they can sort and filter specfic items to certain amounts or just indefintely.",
+        "isTranslationKey": false
+      },
+      "x": 176,
+      "y": 124,
+      "icon": {
+        "id": "create:brass_funnel",
+        "Count": 1
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "hardcorequesting:detect",
+          "description": {
+            "text": "Smart Chutes",
+            "isTranslationKey": true
+          },
+          "longDescription": {
+            "text": "Smart Chutes behave similarly to Brass Funnels but have the added ability to insert and extract items simultaneously, though only vertically. They can be filtered to allow specific items through and can be controlled with a redstone signal. When placed directly beneath an inventory, the Filter slot doubles as a Value Settings diode, allowing users to set the exact or maximum amount of items to be extracted. These settings are preserved even if the inventory above is destroyed, although they have no impact when the Chute is not directly under an inventory.",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "create:smart_chute",
+                "Count": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "hardcorequesting:detect",
+          "description": {
+            "text": "Brass Funnel",
+            "isTranslationKey": false
+          },
+          "longDescription": {
+            "text": "Brass Funnels can drop or pick up items from a Contraption’s inventory and can filter items if necessary. They will allow you to set whether they extract or insert a specific number of items, either exactly or up to a set amount. Brass Funnels can also be turned off with Redstone.",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "create:brass_funnel",
+                "Count": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "hardcorequesting:detect",
+          "description": {
+            "text": "Brass Tunnel",
+            "isTranslationKey": false
+          },
+          "longDescription": {
+            "text": "Brass Tunnels, which can only be placed on Mechanical Belts, serve multiple functions: they can be decorative, split item streams into multiple destinations, sort streams, or combine multiple item streams. Each tunnel has an input or output portal on each of its four sides, depending on the direction of the belt touching that side. When placed next to each other, multiple Brass Tunnels act as a group, collecting from all inputs and distributing to all outputs. This distribution is controlled by the tunnel’s value settings, and items can be split into various outputs using different modes such as Split, Forced Split, Round Robin, Forced Round Robin, and Randomize. For example, a stream of logs could be split, with some going to a furnace\u0027s fuel chamber and others to the smelting chamber. Forced Split ensures nearly equal distribution, while Forced Round Robin balances stacks across outputs. If a stream contains single items rather than stacks, these modes default to their round-robin counterparts for even distribution.\n\nBrass Tunnels can also filter items to specific outputs. Each output can have its own filter, ensuring that only items matching the filter will pass through it. Unfiltered outputs will pass all items that do not match any filter. This feature enables sorting systems where items are directed to particular outputs based on their filter settings. Additionally, Brass Tunnels can combine multiple input streams into one output. When multiple outputs are used, certain modes like Prefer Nearest or Synchronize Inputs will not merge the streams, while other modes will mix the streams accordingly. By combining Brass Funnels and Tunnels, a specific ratio of item types can be achieved, such as creating a balanced mix of copper and zinc ingots for use in a mixer.\n\n ",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "create:brass_tunnel",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "68d15aff-b4ec-4d53-aa16-ff96ec851e11"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "c4588d64-29af-4444-8d17-2c4db551e930",
+      "name": {
+        "text": "Breaking Brew",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Builder\u0027s Tea is a potion that restores 1 hunger point and 1.2 saturation, while granting the drinker Haste for 3 minutes. It is made using a Heated Basin with a Blaze Burner, combining 1 leaf (any kind), 250mb water, and 250mb milk. The mixture is then processed using the Mixing mechanic to create 500mb of Builder\u0027s Tea. This tea can be dispensed into an empty glass bottle via a Spout for easy use.",
+        "isTranslationKey": false
+      },
+      "x": 251,
+      "y": 101,
+      "icon": {
+        "id": "create:builders_tea",
+        "Count": 1
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "hardcorequesting:detect",
+          "items": []
+        }
+      ],
+      "prerequisites": [
+        "10a23876-3d34-40db-b3be-0f9569c5b459"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "9da1a401-75bc-49ec-93c3-23e85fa0bb54",
+      "name": {
+        "text": "Gas Gas Gas",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "The Rotation Speed Controller is used to precisely control rotational speed, but it must be paired with a Large Cogwheel to function. When powered by the Large Cogwheel, the controller outputs a desired rotational speed from its sides, and when powered from its sides, it controls the speed of the Large Cogwheel. The rotation speed and direction can be adjusted in the Value Settings Screen located on the front or back of the controller. The speed can be set to a maximum of 256 RPMs, either clockwise or counter-clockwise.",
+        "isTranslationKey": false
+      },
+      "x": 252,
+      "y": 147,
+      "icon": {
+        "id": "create:rotation_speed_controller",
+        "Count": 1
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "hardcorequesting:detect",
+          "items": [
+            {
+              "item": {
+                "id": "create:rotation_speed_controller",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "cc4f3469-cac0-4b77-a762-2832a9a36e91"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "72283d63-3fcf-4034-ac4f-0ffa0697a722",
+      "name": {
+        "text": "Gold Standard",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Throw a gold ingot beneath a powered mechanical press and create yourself a gold sheet. You\u0027ll need them for all your Create tools which any skilled engineer will have on hand!",
+        "isTranslationKey": false
+      },
+      "x": 176,
+      "y": 46,
+      "icon": {
+        "id": "create:golden_sheet",
+        "Count": 1
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "hardcorequesting:detect",
+          "items": [
+            {
+              "item": {
+                "id": "create:golden_sheet",
+                "Count": 1
+              },
+              "precision": "TAG_FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "13a983d5-2a40-4c74-91f0-9847656342e0"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "cc4f3469-cac0-4b77-a762-2832a9a36e91",
+      "name": {
+        "text": "Machinations of The Mechanism",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "This difficultly made crafting ingredients is used for a range of complex machines and tools. Send a golden sheet through a factory line and deploy a small cogwheel, large cogwheel, and then an iron nugget. Unfortunately, 20% of the time you will get random salvage.",
+        "isTranslationKey": false
+      },
+      "x": 264,
+      "y": 124,
+      "icon": {
+        "id": "create:precision_mechanism",
+        "Count": 1
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "hardcorequesting:detect",
+          "items": [
+            {
+              "item": {
+                "id": "create:precision_mechanism",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "b8732aa6-7e38-4164-88e6-e4f5070dae35"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "f0cb3cdd-83b9-45e8-b32d-417cc3a30ac0",
+      "name": {
+        "text": "Wrench and Repeat",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Wrench: A versatile tool for rotating, dismantling, and configuring components. Right-click rotates a component, while Shift + Right-click dismantles it. Scroll over certain components to configure them, and hold Ctrl to configure all connected components at once.\n\nEngineer’s Goggles: A wearable item that displays machine details, including stress impact, rotation speed, and fluid levels in tanks. When worn, it provides enhanced visual feedback for Stressometers and Speedometers. Compatible with Curios/Trinkets mods for alternate head slot usage.\n\nToolbox: A storage container with 8 slots, holding up to 256 items per slot. It retains inventory when picked up and allows remote access (within 10 blocks by default) using Alt. Items can be automatically refilled while in range, and multiple toolboxes can be managed simultaneously. The range is configurable.",
+        "isTranslationKey": false
+      },
+      "x": 176,
+      "y": 78,
+      "icon": {
+        "id": "create:wrench",
+        "Count": 1
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "hardcorequesting:detect",
+          "items": [
+            {
+              "item": {
+                "id": "create:goggles",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "create:wrench",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "create:brown_toolbox",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "72283d63-3fcf-4034-ac4f-0ffa0697a722"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "6241ed79-932a-4519-a294-9860a2063281",
+      "name": {
+        "text": "Crafting Expanded",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "The Mechanical Crafter is a machine used for crafting items when powered by rotational force. To change the direction it sends items during crafting, simply right-click the front of the crafter with a Wrench. The connection between Mechanical Crafters is established through the path indicated by the block\u0027s design. In a setup, the crafters can be automatically filled by Funnels or Hoppers, and they can share inventories without being part of the same crafting recipe. A Wrench can also be used on the back and sides of Mechanical Crafters to connect or disconnect adjacent crafters\u0027 inventories. Items can be manually inserted or removed as well.\n\nEach Mechanical Crafter requires rotational power from either adjacent crafters or any size Cogwheel. This means that only one crafter in a setup needs to be powered by a Cogwheel for the entire system to work. Once powered, and when all the crafting slots are filled or a redstone signal is received, the Mechanical Crafters will send their items to adjacent crafters. To successfully craft an item, the components must eventually meet in one crafter, where they will turn into the final product. Crafter Slot Covers can act as empty spaces in a recipe, allowing for the connection of separate crafters, but they do not move the items themselves.\n\nIf the items do not form a valid recipe, the crafters will eject the items instead of crafting the product. For automating crafting, directly adjacent slots can be merged to hold a single item type, like andesite alloy. This allows the material to be fed in from the side via a hopper, streamlining the crafting process. Powered Mechanical Crafters will start crafting once all slots are filled or when a redstone signal is applied.\n\n\n\n",
+        "isTranslationKey": false
+      },
+      "x": 225,
+      "y": 147,
+      "icon": {
+        "id": "create:mechanical_crafter",
+        "Count": 1
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "hardcorequesting:detect",
+          "longDescription": {
+            "text": "A task where the player needs specific items. These do not have to be handed in, having them in one\u0027s inventory is enough.\n\nPress W over the item for a visual demonstration!",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "create:mechanical_crafter",
+                "Count": 1
+              },
+              "required": 21
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "cc4f3469-cac0-4b77-a762-2832a9a36e91"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "13a983d5-2a40-4c74-91f0-9847656342e0",
+      "name": {
+        "text": "Hammer Time!",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "The humble Mechanical Press can press and pack items below it. Simply place the press with one block of space between it and the ground and throw your items underneath and apply power! Note that it processes items faster when it receives faster rotational power.",
+        "isTranslationKey": false
+      },
+      "x": 238,
+      "y": 14,
+      "icon": {
+        "id": "create:mechanical_press",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "hardcorequesting:detect",
+          "longDescription": {
+            "text": "A task where the player needs specific items. These do not have to be handed in, having them in one\u0027s inventory is enough.\n\nPress W over the item for a visual demonstration!",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "create:mechanical_press",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    }
+  ],
+  "reputationBar": []
+}
