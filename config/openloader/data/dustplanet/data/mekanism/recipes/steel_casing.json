@@ -2,10 +2,10 @@
   "type": "minecraft:crafting_shaped",
   "key": {
     "C": {
-      "tag": "forge:ingots/osmium"
+      "tag": "forge:circuits/basic"
     },
     "G": {
-      "tag": "forge:circuits/basic"
+      "tag": "forge:glass"
     },
     "S": {
       "tag": "forge:ingots/steel"
