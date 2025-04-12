@@ -158,7 +158,7 @@
         "isTranslationKey": false
       },
       "description": {
-        "text": "In case case of crash landing, you were equipped with a basic survival package:\n- 16 Shotgun shells\n- Saplings\n- Fertilizer\n- Dried nutrient blocks\nNote: Choose this path if you want a challenge. Don\u0027t expect to stay alive. Completing this quest disables the easy route quest.",
+        "text": "In case case of crash landing, you were equipped with a basic survival package:\n- Saplings\n- Fertilizer\n- Dried nutrient blocks\nNote: Choose this path if you want a challenge. Don\u0027t expect to stay alive. Completing this quest disables the easy route quest.",
         "isTranslationKey": false
       },
       "x": 15,
@@ -193,10 +193,6 @@
       ],
       "reward": [
         {
-          "id": "cgm:shell",
-          "Count": 16
-        },
-        {
           "id": "minecraft:birch_sapling",
           "Count": 1
         },
@@ -206,7 +202,7 @@
         },
         {
           "id": "thermal:phytogro",
-          "Count": 8
+          "Count": 4
         },
         {
           "id": "pamhc2foodextended:driedsoupitem",
@@ -602,7 +598,7 @@
         "isTranslationKey": false
       },
       "description": {
-        "text": "In case case of crash landing, you were equipped with a deluxe survival package:\n- Supplies for a sync shell\n- 32 Shotgun shells\n- Saplings\n- Fertilizer\n- Choice of sandwich\nNote: Choose this for an easier experience. Completing this quest disables the hard route quest.",
+        "text": "In case case of crash landing, you were equipped with a deluxe survival package:\n- Supplies for a sync shell\n- 32 Extra shotgun shells\n- Saplings\n- Fertilizer\n- Choice of sandwich\nNote: Choose this for an easier experience. Completing this quest disables the hard route quest.",
         "isTranslationKey": false
       },
       "x": 15,
@@ -660,7 +656,7 @@
         },
         {
           "id": "thermal:phytogro",
-          "Count": 4
+          "Count": 16
         }
       ],
       "rewardchoice": [
@@ -1409,7 +1405,6 @@
                 "id": "minecraft:iron_ingot",
                 "Count": 1
               },
-              "required": 4,
               "precision": "FUZZY"
             },
             {
@@ -1417,22 +1412,19 @@
                 "id": "minecraft:copper_ingot",
                 "Count": 1
               },
-              "required": 4,
               "precision": "FUZZY"
             },
             {
               "item": {
                 "id": "minecraft:gold_ingot",
                 "Count": 1
-              },
-              "required": 4
+              }
             },
             {
               "item": {
                 "id": "thermal:tin_ingot",
                 "Count": 1
               },
-              "required": 4,
               "precision": "FUZZY"
             },
             {
@@ -1440,7 +1432,6 @@
                 "id": "thermal:lead_ingot",
                 "Count": 1
               },
-              "required": 4,
               "precision": "FUZZY"
             },
             {
@@ -1448,7 +1439,6 @@
                 "id": "thermal:silver_ingot",
                 "Count": 1
               },
-              "required": 4,
               "precision": "FUZZY"
             }
           ]
@@ -1462,12 +1452,6 @@
         {
           "id": "pneumaticcraft:gasoline_bucket",
           "Count": 1
-        }
-      ],
-      "rewardchoice": [
-        {
-          "id": "ae2:chest",
-          "Count": 1
         },
         {
           "id": "mekanism:basic_energy_cube",
@@ -1475,6 +1459,7 @@
           "tag": "{mekData:{EnergyContainers:[{Container:0b,stored:\"4000000\"}]}}"
         }
       ],
+      "rewardchoice": [],
       "commandrewards": []
     },
     {
