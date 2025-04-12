@@ -1,11 +1,11 @@
 {
   "type": "minecraft:crafting_shaped",
   "key": {
-    "G": {
-      "tag": "forge:glass/silica"
-    },
-    "O": {
+    "C": {
       "tag": "forge:ingots/osmium"
+    },
+    "G": {
+      "tag": "forge:circuits/basic"
     },
     "S": {
       "tag": "forge:ingots/steel"
@@ -13,7 +13,7 @@
   },
   "pattern": [
     "SGS",
-    "GOG",
+    "GCG",
     "SGS"
   ],
   "result": {

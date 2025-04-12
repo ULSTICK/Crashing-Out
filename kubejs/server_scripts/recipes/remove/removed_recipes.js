@@ -11,7 +11,6 @@ ServerEvents.recipes(event => {
     event.remove({ type: 'tconstruct:casting_table_potion' });
     event.remove({ type: 'exdeorum:water_crucible' });
     event.remove({ type: 'create:potions' });
-    event.remove({ output: 'mekanism:basic_control_circuit', type: 'mekanism:metallurgic_infusing' });
     event.remove({ output: 'minecraft:coarse_dirt', type: 'minecraft:crafting_shaped' });
     event.remove({ mod: 'cgm' });
     event.remove({ mod: 'thermal', input: 'minecraft:fire_charge', output: 'thermal:invar_ingot', type: "minecraft:crafting_shapeless" });
