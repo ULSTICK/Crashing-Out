@@ -4,7 +4,7 @@
     {
       "uuid": "52568165-b806-461d-9e85-031b089dbbef",
       "name": {
-        "text": "Unnamed",
+        "text": "Power Play",
         "isTranslationKey": false
       },
       "description": {
@@ -45,52 +45,9 @@
       "commandrewards": []
     },
     {
-      "uuid": "e6d0efde-1f09-434e-9f80-a45f09d37ec0",
-      "name": {
-        "text": "Copper Feel",
-        "isTranslationKey": false
-      },
-      "description": {
-        "text": "Unnamed",
-        "isTranslationKey": false
-      },
-      "x": 120,
-      "y": 109,
-      "icon": {
-        "id": "create:copper_sheet",
-        "Count": 1
-      },
-      "trigger": "ANTI_TRIGGER",
-      "tasks": [
-        {
-          "type": "hardcorequesting:detect",
-          "longDescription": {
-            "text": "Throw a copper ingot beneath a powered mechanical press and create yourself a copper sheet. You\u0027ll need them for any plumbing or fluid transportation, collection, or fabrication needs.",
-            "isTranslationKey": true
-          },
-          "items": [
-            {
-              "item": {
-                "id": "create:copper_sheet",
-                "Count": 1
-              }
-            }
-          ]
-        }
-      ],
-      "prerequisites": [
-        "bf8d316b-64d4-4a30-8c44-86f9c0be0cb3",
-        "c1e94be7-66e8-425a-bd39-41db08776bce"
-      ],
-      "optionlinks": [],
-      "reward": [],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
       "uuid": "68d15aff-b4ec-4d53-aa16-ff96ec851e11",
       "name": {
-        "text": "A New Shine",
+        "text": "Top Brass",
         "isTranslationKey": false
       },
       "description": {
@@ -103,8 +60,20 @@
         "id": "create:brass_sheet",
         "Count": 1
       },
-      "trigger": "ANTI_TRIGGER",
+      "trigger": "TASK_TRIGGER",
+      "triggertasks": 1,
       "tasks": [
+        {
+          "type": "hardcorequesting:completion",
+          "completed_quests": [
+            {
+              "quest_uuid": "13a983d5-2a40-4c74-91f0-9847656342e0"
+            },
+            {
+              "quest_uuid": "eddaaad6-761a-458a-8e0f-ff4297889adc"
+            }
+          ]
+        },
         {
           "type": "hardcorequesting:detect",
           "items": [
@@ -117,8 +86,84 @@
           ]
         }
       ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "e6d0efde-1f09-434e-9f80-a45f09d37ec0",
+      "name": {
+        "text": "Penny Lane",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Unnamed",
+        "isTranslationKey": false
+      },
+      "x": 120,
+      "y": 109,
+      "icon": {
+        "id": "create:copper_sheet",
+        "Count": 1
+      },
+      "trigger": "TASK_TRIGGER",
+      "triggertasks": 1,
+      "tasks": [
+        {
+          "type": "hardcorequesting:completion",
+          "completed_quests": [
+            {
+              "quest_uuid": "13a983d5-2a40-4c74-91f0-9847656342e0"
+            },
+            {
+              "quest_uuid": "bf8d316b-64d4-4a30-8c44-86f9c0be0cb3"
+            }
+          ]
+        },
+        {
+          "type": "hardcorequesting:detect",
+          "items": [
+            {
+              "item": {
+                "id": "create:copper_sheet",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
       "prerequisites": [
-        "c1e94be7-66e8-425a-bd39-41db08776bce"
+        "bf8d316b-64d4-4a30-8c44-86f9c0be0cb3"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "eddaaad6-761a-458a-8e0f-ff4297889adc",
+      "name": {
+        "text": "Alloying",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Invisible trigger quest for when the player unlocks an alloying method.",
+        "isTranslationKey": false
+      },
+      "x": 184,
+      "y": 82,
+      "icon": {
+        "id": "create:brass_ingot",
+        "Count": 1
+      },
+      "trigger": "QUEST_TRIGGER",
+      "parentrequirement": 1,
+      "prerequisites": [
+        "10a23876-3d34-40db-b3be-0f9569c5b459",
+        "059da201-0f0d-47ee-9bf0-416b63d26600",
+        "67994482-4981-4cfd-9ca6-afde4340fb62"
       ],
       "optionlinks": [],
       "reward": [],
@@ -283,8 +328,8 @@
         "text": "Unnamed",
         "isTranslationKey": false
       },
-      "x": 160,
-      "y": 83,
+      "x": 159,
+      "y": 82,
       "icon": {
         "id": "create:blaze_burner",
         "Count": 1
@@ -339,9 +384,51 @@
       "commandrewards": []
     },
     {
+      "uuid": "dac6814c-dec5-46f2-b7d5-77316843e9d4",
+      "name": {
+        "text": "Autopilot",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Unnamed",
+        "isTranslationKey": false
+      },
+      "x": 296,
+      "y": 149,
+      "icon": {
+        "id": "create:mechanical_arm",
+        "Count": 1
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "hardcorequesting:detect",
+          "longDescription": {
+            "text": "The Mechanical Arm is a block used to transfer items between inventories within a 5-block radius. When placing the arm, you select valid inventories by right-clicking, with the ability to toggle between taking or depositing items by right-clicking again. Left-clicking deselects an inventory. The arm can transfer up to a stack of items at once and operates based on its selected blocks and the order they were chosen. Its behavior can be adjusted with options like Round Robin, Forced Round Robin, or Prefer First through the Value Settings Screen. The arm can be powered by a Cogwheel or similar blocks and can interact with various items like Mechanical Belts, Depots, and Crafters. If the arm\u0027s range exceeds 5 blocks, inventories beyond that will be dropped. It can be disabled using Redstone, and will deposit any items it’s holding before stopping. The arm also respects filters on selected blocks, preventing it from picking up items it can\u0027t deposit elsewhere.",
+            "isTranslationKey": true
+          },
+          "items": [
+            {
+              "item": {
+                "id": "create:mechanical_arm",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "cc4f3469-cac0-4b77-a762-2832a9a36e91"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
       "uuid": "32f538e8-7e3c-4d36-8b39-0cef101279dd",
       "name": {
-        "text": "Rising Tide",
+        "text": "Ebb and Flow",
         "isTranslationKey": false
       },
       "description": {
@@ -387,59 +474,17 @@
       "commandrewards": []
     },
     {
-      "uuid": "dac6814c-dec5-46f2-b7d5-77316843e9d4",
-      "name": {
-        "text": "Feed the Machine",
-        "isTranslationKey": false
-      },
-      "description": {
-        "text": "Unnamed",
-        "isTranslationKey": false
-      },
-      "x": 296,
-      "y": 149,
-      "icon": {
-        "id": "create:mechanical_arm",
-        "Count": 1
-      },
-      "trigger": "ANTI_TRIGGER",
-      "tasks": [
-        {
-          "type": "hardcorequesting:detect",
-          "longDescription": {
-            "text": "The Mechanical Arm is a block used to transfer items between inventories within a 5-block radius. When placing the arm, you select valid inventories by right-clicking, with the ability to toggle between taking or depositing items by right-clicking again. Left-clicking deselects an inventory. The arm can transfer up to a stack of items at once and operates based on its selected blocks and the order they were chosen. Its behavior can be adjusted with options like Round Robin, Forced Round Robin, or Prefer First through the Value Settings Screen. The arm can be powered by a Cogwheel or similar blocks and can interact with various items like Mechanical Belts, Depots, and Crafters. If the arm\u0027s range exceeds 5 blocks, inventories beyond that will be dropped. It can be disabled using Redstone, and will deposit any items it’s holding before stopping. The arm also respects filters on selected blocks, preventing it from picking up items it can\u0027t deposit elsewhere.",
-            "isTranslationKey": true
-          },
-          "items": [
-            {
-              "item": {
-                "id": "create:mechanical_arm",
-                "Count": 1
-              }
-            }
-          ]
-        }
-      ],
-      "prerequisites": [
-        "cc4f3469-cac0-4b77-a762-2832a9a36e91"
-      ],
-      "optionlinks": [],
-      "reward": [],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
       "uuid": "a552a1cc-bdcd-45df-8fc7-11d3de4f3085",
       "name": {
-        "text": "Smooooth Operator",
+        "text": "Stir Crazy",
         "isTranslationKey": false
       },
       "description": {
         "text": "Unnamed",
         "isTranslationKey": false
       },
-      "x": 160,
-      "y": 44,
+      "x": 159,
+      "y": 45,
       "icon": {
         "id": "create:mechanical_mixer",
         "Count": 1
@@ -479,7 +524,7 @@
     {
       "uuid": "213b8a8b-4ba5-4d25-84f0-c25132cfe78d",
       "name": {
-        "text": "Under Pressure",
+        "text": "Opening the Floodgates",
         "isTranslationKey": false
       },
       "description": {
@@ -553,7 +598,15 @@
             "text": "The Item Drain can hold up to 1500 mB of liquid and requires a Fluid Pump to extract fluids. Basins will automatically deposit output fluids into a nearby Item Drain.",
             "isTranslationKey": true
           },
-          "items": []
+          "items": [
+            {
+              "item": {
+                "id": "create:item_drain",
+                "Count": 1
+              },
+              "precision": "FUZZY"
+            }
+          ]
         }
       ],
       "prerequisites": [
@@ -610,7 +663,7 @@
     {
       "uuid": "9be2b0f4-dd15-4899-8956-ee4a0f5e8403",
       "name": {
-        "text": "Unnamed",
+        "text": "The Daily Grind",
         "isTranslationKey": false
       },
       "description": {
@@ -654,7 +707,7 @@
         "text": "Unnamed quest",
         "isTranslationKey": false
       },
-      "x": 64,
+      "x": 12,
       "y": 86,
       "icon": {
         "id": "create:gearbox",
@@ -684,7 +737,7 @@
     {
       "uuid": "01675684-dd99-4447-b149-6e429d7ad611",
       "name": {
-        "text": "Chop to it!",
+        "text": "On the Cutting Edge",
         "isTranslationKey": false
       },
       "description": {
@@ -760,7 +813,7 @@
     {
       "uuid": "57177dbe-44c6-47d5-9249-15f5a31b43fc",
       "name": {
-        "text": "Sink or Swim",
+        "text": "Pipe Dream",
         "isTranslationKey": false
       },
       "description": {
@@ -814,7 +867,7 @@
     {
       "uuid": "5d300aea-5826-4f79-b1d6-b08895059dbf",
       "name": {
-        "text": "Pressing Matters",
+        "text": "Pumping Iron",
         "isTranslationKey": false
       },
       "description": {
@@ -827,14 +880,19 @@
         "id": "create:iron_sheet",
         "Count": 1
       },
-      "trigger": "ANTI_TRIGGER",
+      "trigger": "TASK_TRIGGER",
+      "triggertasks": 1,
       "tasks": [
         {
+          "type": "hardcorequesting:completion",
+          "completed_quests": [
+            {
+              "quest_uuid": "13a983d5-2a40-4c74-91f0-9847656342e0"
+            }
+          ]
+        },
+        {
           "type": "hardcorequesting:detect",
-          "longDescription": {
-            "text": "Throw an iron ingot beneath a powered mechanical press and create yourself an iron sheet. You\u0027ll need them for all your basic machines and Contraptions.",
-            "isTranslationKey": true
-          },
           "items": [
             {
               "item": {
@@ -845,8 +903,48 @@
           ]
         }
       ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "fe6df2ff-5675-4285-a501-e6b0369c532e",
+      "name": {
+        "text": "Eye for Detail",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Unnamed quest",
+        "isTranslationKey": false
+      },
+      "x": 225,
+      "y": 149,
+      "icon": {
+        "id": "create:goggles",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "hardcorequesting:detect",
+          "longDescription": {
+            "text": "Engineer’s Goggles: A wearable item that displays machine details, including stress impact, rotation speed, and fluid levels in tanks. When worn, it provides enhanced visual feedback for Stressometers and Speedometers. Compatible with Curios/Trinkets mods for alternate head slot usage.",
+            "isTranslationKey": true
+          },
+          "items": [
+            {
+              "item": {
+                "id": "create:goggles",
+                "Count": 1
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
       "prerequisites": [
-        "c1e94be7-66e8-425a-bd39-41db08776bce"
+        "72283d63-3fcf-4034-ac4f-0ffa0697a722"
       ],
       "optionlinks": [],
       "reward": [],
@@ -856,7 +954,7 @@
     {
       "uuid": "b8732aa6-7e38-4164-88e6-e4f5070dae35",
       "name": {
-        "text": "Need a Hand?",
+        "text": "Helping Hand",
         "isTranslationKey": false
       },
       "description": {
@@ -889,31 +987,6 @@
       ],
       "prerequisites": [
         "68d15aff-b4ec-4d53-aa16-ff96ec851e11"
-      ],
-      "optionlinks": [],
-      "reward": [],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
-      "uuid": "c1e94be7-66e8-425a-bd39-41db08776bce",
-      "name": {
-        "text": "Unnamed",
-        "isTranslationKey": false
-      },
-      "description": {
-        "text": "Unnamed quest",
-        "isTranslationKey": false
-      },
-      "x": 159,
-      "y": -36,
-      "icon": {
-        "id": "create:mechanical_press",
-        "Count": 1
-      },
-      "trigger": "QUEST_TRIGGER",
-      "prerequisites": [
-        "13a983d5-2a40-4c74-91f0-9847656342e0"
       ],
       "optionlinks": [],
       "reward": [],
@@ -969,7 +1042,7 @@
     {
       "uuid": "e4310cd9-8eca-4afc-a134-f7a6935ed6fb",
       "name": {
-        "text": "Factory Upgrade",
+        "text": "Smart Home Automation",
         "isTranslationKey": false
       },
       "description": {
@@ -984,25 +1057,6 @@
       },
       "trigger": "ANTI_TRIGGER",
       "tasks": [
-        {
-          "type": "hardcorequesting:detect",
-          "description": {
-            "text": "Smart Chutes",
-            "isTranslationKey": true
-          },
-          "longDescription": {
-            "text": "Smart Chutes behave similarly to Brass Funnels but have the added ability to insert and extract items simultaneously, though only vertically. They can be filtered to allow specific items through and can be controlled with a redstone signal. When placed directly beneath an inventory, the Filter slot doubles as a Value Settings diode, allowing users to set the exact or maximum amount of items to be extracted. These settings are preserved even if the inventory above is destroyed, although they have no impact when the Chute is not directly under an inventory.",
-            "isTranslationKey": false
-          },
-          "items": [
-            {
-              "item": {
-                "id": "create:smart_chute",
-                "Count": 1
-              }
-            }
-          ]
-        },
         {
           "type": "hardcorequesting:detect",
           "description": {
@@ -1029,13 +1083,32 @@
             "isTranslationKey": false
           },
           "longDescription": {
-            "text": "Brass Tunnels, which can only be placed on Mechanical Belts, serve multiple functions: they can be decorative, split item streams into multiple destinations, sort streams, or combine multiple item streams. Each tunnel has an input or output portal on each of its four sides, depending on the direction of the belt touching that side. When placed next to each other, multiple Brass Tunnels act as a group, collecting from all inputs and distributing to all outputs. This distribution is controlled by the tunnel’s value settings, and items can be split into various outputs using different modes such as Split, Forced Split, Round Robin, Forced Round Robin, and Randomize. For example, a stream of logs could be split, with some going to a furnace\u0027s fuel chamber and others to the smelting chamber. Forced Split ensures nearly equal distribution, while Forced Round Robin balances stacks across outputs. If a stream contains single items rather than stacks, these modes default to their round-robin counterparts for even distribution.\n\nBrass Tunnels can also filter items to specific outputs. Each output can have its own filter, ensuring that only items matching the filter will pass through it. Unfiltered outputs will pass all items that do not match any filter. This feature enables sorting systems where items are directed to particular outputs based on their filter settings. Additionally, Brass Tunnels can combine multiple input streams into one output. When multiple outputs are used, certain modes like Prefer Nearest or Synchronize Inputs will not merge the streams, while other modes will mix the streams accordingly. By combining Brass Funnels and Tunnels, a specific ratio of item types can be achieved, such as creating a balanced mix of copper and zinc ingots for use in a mixer.\n\n ",
+            "text": "Brass Tunnels, which can only be placed on Mechanical Belts, serve multiple functions: they can be decorative, split item streams into multiple destinations, sort streams, or combine multiple item streams. Each tunnel has an input or output portal on each of its four sides, depending on the direction of the belt touching that side. When placed next to each other, multiple Brass Tunnels act as a group, collecting from all inputs and distributing to all outputs. This distribution is controlled by the tunnel’s value settings, and items can be split into various outputs using different modes such as Split, Forced Split, Round Robin, Forced Round Robin, and Randomize. For example, a stream of logs could be split, with some going to a furnace\u0027s fuel chamber and others to the smelting chamber. Forced Split ensures nearly equal distribution, while Forced Round Robin balances stacks across outputs. If a stream contains single items rather than stacks, these modes default to their round-robin counterparts for even distribution.\n\nBrass Tunnels can also filter items to specific outputs. Each output can have its own filter, ensuring that only items matching the filter will pass through it. Unfiltered outputs will pass all items that do not match any filter. This feature enables sorting systems where items are directed to particular outputs based on their filter settings. Additionally, Brass Tunnels can combine multiple input streams into one output. When multiple outputs are used, certain modes like Prefer Nearest or Synchronize Inputs will not merge the streams, while other modes will mix the streams accordingly. By combining Brass Funnels and Tunnels, a specific ratio of item types can be achieved, such as creating a balanced mix of copper and zinc ingots for use in a mixer.",
             "isTranslationKey": false
           },
           "items": [
             {
               "item": {
                 "id": "create:brass_tunnel",
+                "Count": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "hardcorequesting:detect",
+          "description": {
+            "text": "Smart Chutes",
+            "isTranslationKey": true
+          },
+          "longDescription": {
+            "text": "Smart Chutes behave similarly to Brass Funnels but have the added ability to insert and extract items simultaneously, though only vertically. They can be filtered to allow specific items through and can be controlled with a redstone signal. When placed directly beneath an inventory, the Filter slot doubles as a Value Settings diode, allowing users to set the exact or maximum amount of items to be extracted. These settings are preserved even if the inventory above is destroyed, although they have no impact when the Chute is not directly under an inventory.",
+            "isTranslationKey": true
+          },
+          "items": [
+            {
+              "item": {
+                "id": "create:smart_chute",
                 "Count": 1
               }
             }
@@ -1053,17 +1126,17 @@
     {
       "uuid": "f023ab57-9886-439c-a731-1c061bbdb348",
       "name": {
-        "text": "Unnamed",
+        "text": "Notch in Your Belt",
         "isTranslationKey": false
       },
       "description": {
         "text": "Unnamed quest",
         "isTranslationKey": false
       },
-      "x": 11,
+      "x": 62,
       "y": 86,
       "icon": {
-        "id": "create:andesite_funnel",
+        "id": "create:belt_connector",
         "Count": 1
       },
       "tasks": [
@@ -1109,7 +1182,7 @@
     {
       "uuid": "c5147099-4542-4b20-9323-8286595ec338",
       "name": {
-        "text": "Unnamed",
+        "text": "Sticky Situation",
         "isTranslationKey": false
       },
       "description": {
@@ -1149,7 +1222,7 @@
     {
       "uuid": "edaeafc2-43e6-4bad-bb87-b4f89f71e3c7",
       "name": {
-        "text": "Unnamed",
+        "text": "Casting the First Stone",
         "isTranslationKey": false
       },
       "description": {
@@ -1186,7 +1259,7 @@
     {
       "uuid": "9da1a401-75bc-49ec-93c3-23e85fa0bb54",
       "name": {
-        "text": "Gas Gas Gas",
+        "text": "Need for Speed",
         "isTranslationKey": false
       },
       "description": {
@@ -1241,28 +1314,34 @@
         "id": "create:golden_sheet",
         "Count": 1
       },
-      "trigger": "ANTI_TRIGGER",
+      "trigger": "TASK_TRIGGER",
+      "triggertasks": 1,
       "tasks": [
         {
+          "type": "hardcorequesting:completion",
+          "completed_quests": [
+            {
+              "quest_uuid": "13a983d5-2a40-4c74-91f0-9847656342e0"
+            },
+            {
+              "quest_uuid": "bf8d316b-64d4-4a30-8c44-86f9c0be0cb3"
+            }
+          ]
+        },
+        {
           "type": "hardcorequesting:detect",
-          "longDescription": {
-            "text": "Throw a gold ingot beneath a powered mechanical press and create yourself a gold sheet. You\u0027ll need them for all your Create tools which any skilled engineer will have on hand!",
-            "isTranslationKey": true
-          },
           "items": [
             {
               "item": {
                 "id": "create:golden_sheet",
                 "Count": 1
-              },
-              "precision": "TAG_FUZZY"
+              }
             }
           ]
         }
       ],
       "prerequisites": [
-        "bf8d316b-64d4-4a30-8c44-86f9c0be0cb3",
-        "c1e94be7-66e8-425a-bd39-41db08776bce"
+        "bf8d316b-64d4-4a30-8c44-86f9c0be0cb3"
       ],
       "optionlinks": [],
       "reward": [],
@@ -1272,7 +1351,7 @@
     {
       "uuid": "cc4f3469-cac0-4b77-a762-2832a9a36e91",
       "name": {
-        "text": "Machinations of The Mechanism",
+        "text": "Like Clockwork",
         "isTranslationKey": false
       },
       "description": {
@@ -1315,15 +1394,15 @@
     {
       "uuid": "f0cb3cdd-83b9-45e8-b32d-417cc3a30ac0",
       "name": {
-        "text": "Wrench and Repeat",
+        "text": "A Wrench in the Works",
         "isTranslationKey": false
       },
       "description": {
         "text": "Unnamed",
         "isTranslationKey": false
       },
-      "x": 209,
-      "y": 146,
+      "x": 193,
+      "y": 149,
       "icon": {
         "id": "create:wrench",
         "Count": 1
@@ -1339,19 +1418,7 @@
           "items": [
             {
               "item": {
-                "id": "create:goggles",
-                "Count": 1
-              }
-            },
-            {
-              "item": {
                 "id": "create:wrench",
-                "Count": 1
-              }
-            },
-            {
-              "item": {
-                "id": "create:brown_toolbox",
                 "Count": 1
               }
             }
@@ -1369,7 +1436,7 @@
     {
       "uuid": "6241ed79-932a-4519-a294-9860a2063281",
       "name": {
-        "text": "Crafting Expanded",
+        "text": "Crafting Outside the Box",
         "isTranslationKey": false
       },
       "description": {
@@ -1412,7 +1479,7 @@
     {
       "uuid": "ca09254c-d0c3-4a59-a493-7e6273a468b2",
       "name": {
-        "text": "Unnamed",
+        "text": "Wind in Your Sails",
         "isTranslationKey": false
       },
       "description": {
@@ -1455,7 +1522,7 @@
     {
       "uuid": "e8790b01-88c8-4dbf-919f-f6123750576a",
       "name": {
-        "text": "Unnamed",
+        "text": "Starting at Rock Bottom",
         "isTranslationKey": false
       },
       "description": {
@@ -1517,7 +1584,7 @@
     {
       "uuid": "0d9c09c3-6583-431c-95d6-f6f4eacd3655",
       "name": {
-        "text": "Unnamed",
+        "text": "Turn the Tides",
         "isTranslationKey": false
       },
       "description": {
@@ -1554,7 +1621,7 @@
     {
       "uuid": "af8e7d74-9513-479c-b33d-ddcc1ba56e1a",
       "name": {
-        "text": "Unnamed",
+        "text": "Getting a Handle on Things",
         "isTranslationKey": false
       },
       "description": {
@@ -1591,7 +1658,7 @@
     {
       "uuid": "13a983d5-2a40-4c74-91f0-9847656342e0",
       "name": {
-        "text": "Hammer Time!",
+        "text": "Pressing Matters",
         "isTranslationKey": false
       },
       "description": {
@@ -1632,7 +1699,7 @@
     {
       "uuid": "b1e38837-84ae-4edb-be65-a82c8a00c6d6",
       "name": {
-        "text": "Unnamed",
+        "text": "Drop Zone",
         "isTranslationKey": false
       },
       "description": {
