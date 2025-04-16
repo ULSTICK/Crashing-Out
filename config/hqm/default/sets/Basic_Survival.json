@@ -11,8 +11,8 @@
         "text": "Another way to get water is to drop some saplings or leaves into the Centrifugal Separator. It will give you a bit of water, about 1/10th of a bucket. Remember, you can power your machines with the flux capacitor from your emergency supply chest. MAKE SURE YOU DO NOT USE UP ALL OF YOUR SAPLINGS.",
         "isTranslationKey": false
       },
-      "x": 139,
-      "y": 32,
+      "x": 126,
+      "y": 48,
       "icon": {
         "id": "minecraft:birch_sapling",
         "Count": 1
@@ -62,8 +62,8 @@
         "text": "The night is dark and full of terrors. Your chances of survival are low, but you can improve them with some sort of weapon and some protection from attack. For your weapon, you\u0027ll need the blade to be bone to start. No other starting material is comparable for weapons.",
         "isTranslationKey": false
       },
-      "x": 158,
-      "y": 134,
+      "x": 142,
+      "y": 129,
       "icon": {
         "id": "tconstruct:sword",
         "Count": 1,
@@ -161,8 +161,8 @@
         "text": "In case case of crash landing, you were equipped with a basic survival package:\n- Saplings\n- Fertilizer\n- Dried nutrient blocks\nNote: Choose this path if you want a challenge. Don\u0027t expect to stay alive. Completing this quest disables the easy route quest.",
         "isTranslationKey": false
       },
-      "x": 15,
-      "y": 132,
+      "x": 14,
+      "y": 129,
       "icon": {
         "id": "minecraft:skeleton_skull",
         "Count": 1
@@ -222,8 +222,8 @@
         "text": "Quests are work in progress, especially this one. Here\u0027s a check box.",
         "isTranslationKey": false
       },
-      "x": 224,
-      "y": 39,
+      "x": 190,
+      "y": 48,
       "icon": {
         "id": "exdeorum:stone_pebble",
         "Count": 1
@@ -256,7 +256,7 @@
         "text": "With a furnace up, you can now take your next step. Look by the port engine, the one not currently on fire. Apparently the water reclamation leaked a little and has turned some of the dust to clay. Dig it up and make a crucible. Stick a torch under that and not only can you melt cobble to lava but you can smelt ore dust to ingots, if you provide it with a faucet and a casting table or basin.",
         "isTranslationKey": false
       },
-      "x": 148,
+      "x": 158,
       "y": 102,
       "icon": {
         "id": "exdeorum:unfired_porcelain_crucible",
@@ -333,8 +333,8 @@
         "text": "Now that you are stable and able to live somewhat comfortably, it\u0027s time to look beyond immediate survival and start planning for your future. For true industrialization, you will need plastic and circuit bords. To start off, you can melt plastic scraps from the cities into plastic sheets.",
         "isTranslationKey": false
       },
-      "x": 249,
-      "y": 133,
+      "x": 254,
+      "y": 120,
       "icon": {
         "id": "industrialforegoing:plastic",
         "Count": 1
@@ -389,8 +389,8 @@
         "text": "To build up from nothing, you\u0027ll have to have some interesting survival strategies, and unique tools to go with them.",
         "isTranslationKey": false
       },
-      "x": 82,
-      "y": 159,
+      "x": 94,
+      "y": 156,
       "icon": {
         "id": "exdeorum:crook",
         "Count": 1,
@@ -446,8 +446,8 @@
         "text": "Finally sustainable power!",
         "isTranslationKey": false
       },
-      "x": 298,
-      "y": 133,
+      "x": 286,
+      "y": 120,
       "icon": {
         "id": "industrialforegoing:mycelial_ender",
         "Count": 1
@@ -498,8 +498,8 @@
         "text": "Congrats on slaying those monsters",
         "isTranslationKey": false
       },
-      "x": 223,
-      "y": 161,
+      "x": 190,
+      "y": 156,
       "icon": {
         "id": "minecraft:zombie_spawn_egg",
         "Count": 1
@@ -601,8 +601,8 @@
         "text": "In case case of crash landing, you were equipped with a deluxe survival package:\n- Supplies for a sync shell\n- 32 Extra shotgun shells\n- Saplings\n- Fertilizer\n- Choice of sandwich\nNote: Choose this for an easier experience. Completing this quest disables the hard route quest.",
         "isTranslationKey": false
       },
-      "x": 15,
-      "y": 72,
+      "x": 14,
+      "y": 75,
       "icon": {
         "id": "thermal:pbj_sandwich",
         "Count": 1
@@ -689,8 +689,8 @@
         "text": "Is it just me or does this planet have a lot of undead hostiles. The lack of any life forms baffle me as to how endless they feel.",
         "isTranslationKey": false
       },
-      "x": 185,
-      "y": 161,
+      "x": 158,
+      "y": 156,
       "icon": {
         "id": "minecraft:rotten_flesh",
         "Count": 1
@@ -784,8 +784,8 @@
         "text": "If you haven\u0027t noticed, water is hard to find on this dry planet. If you get desperate enough, you can mix a glass bottle with a dirt block to get some dirty water. Make sure not to use up all your dirt though, you\u0027ll need it for growing trees and crops.",
         "isTranslationKey": false
       },
-      "x": 106,
-      "y": 67,
+      "x": 110,
+      "y": 75,
       "icon": {
         "id": "minecraft:potion",
         "Count": 1,
@@ -838,8 +838,8 @@
         "text": "For your continued survival, you\u0027ll need to start farming crops and trees on a larger scale. Neither of those are able to take root in the dust of this planet. However, you can compost organic material in a barrel to make some more dirt for yourself.",
         "isTranslationKey": false
       },
-      "x": 82,
-      "y": 46,
+      "x": 94,
+      "y": 48,
       "icon": {
         "id": "exdeorum:oak_barrel",
         "Count": 1
@@ -885,7 +885,7 @@
         "text": "You\u0027ll need more power eventually, but making any kind of advanced machinery is difficult and often requires circuit boards. However, you can set up a basic source of power with the same fuel as a furnace.",
         "isTranslationKey": false
       },
-      "x": 218,
+      "x": 222,
       "y": 102,
       "icon": {
         "id": "industrialforegoing:pitiful_generator",
@@ -932,8 +932,8 @@
         "text": "The harsh reality is that you\u0027re stuck on this planet. No amount of obsidian rectangles will let you escape. However, the situation means you can\u0027t get some resources (like soul sand) through normal methods.",
         "isTranslationKey": false
       },
-      "x": 108,
-      "y": 10,
+      "x": 110,
+      "y": 21,
       "icon": {
         "id": "minecraft:soul_sand",
         "Count": 1
@@ -1001,8 +1001,8 @@
         "text": "Dirty water may help you in a pinch, but for long term survival, you\u0027ll need to purify it. Fire should work nicely. Just drop the dirty water bottle into a furnace, apply some heat, and you\u0027ll get some clean, drinkable water.",
         "isTranslationKey": false
       },
-      "x": 159,
-      "y": 67,
+      "x": 142,
+      "y": 75,
       "icon": {
         "id": "minecraft:potion",
         "Count": 1,
@@ -1047,8 +1047,8 @@
         "text": "String mesh can be upgraded to flint mesh to gain higher yields. It can be further upgraded later when you get the resources. You can get flint from sifting gravel, which can be crushed from cobblestone.",
         "isTranslationKey": false
       },
-      "x": 197,
-      "y": 135,
+      "x": 174,
+      "y": 129,
       "icon": {
         "id": "exdeorum:flint_mesh",
         "Count": 1
@@ -1093,8 +1093,8 @@
         "text": "Your new crucible can turn leaves into small amounts of water. It works like your Centrifugal Separator, but you only need a torch to power it. It\u0027s slow, but it makes investing in some shears early a good idea.",
         "isTranslationKey": false
       },
-      "x": 195,
-      "y": 70,
+      "x": 174,
+      "y": 75,
       "icon": {
         "id": "minecraft:oak_leaves",
         "Count": 1
@@ -1145,8 +1145,8 @@
         "text": "Trading in ten bottles of purified water should allow me to create you something strong.",
         "isTranslationKey": false
       },
-      "x": 187,
-      "y": 39,
+      "x": 158,
+      "y": 48,
       "icon": {
         "id": "minecraft:snowball",
         "Count": 1
@@ -1190,8 +1190,8 @@
         "text": "A finely crafted weapon or tool isn\u0027t as easy as strapping some rocks to a stick. In fact, basic tools like that won\u0027t work for you at all. You\u0027ll have to tinker around a bit.",
         "isTranslationKey": false
       },
-      "x": 103,
-      "y": 134,
+      "x": 110,
+      "y": 129,
       "icon": {
         "id": "tconstruct:tinker_station",
         "Count": 1
@@ -1269,8 +1269,8 @@
         "text": "Well, that is a mess. Recover what you can from the ship\u0027s supplies, and watch out for that detached engine. The core has been breached and the fuel is leaking.\nThe replicator has taken some damage but looks just barely functional. Maybe it can provide some bottles and a canteen of water.",
         "isTranslationKey": false
       },
-      "x": 42,
-      "y": 99,
+      "x": 58,
+      "y": 98,
       "bigicon": true,
       "icon": {
         "id": "thermal:machine_centrifuge",
@@ -1334,7 +1334,7 @@
         "text": "As hot as it is here, it isn\u0027t nearly hot enough to cook food. For that, you will need a furnace. Sieve dirt for stones, use the stones to make cobblestone, from that comes a slab furnace. \nIf you want to sift faster, you can place sieves next to one another, allowing up to 25 sieves to be used at once. Alternatively, a compressed sieve takes up just one block and can sift compressed dust with a slight reduction in output.",
         "isTranslationKey": false
       },
-      "x": 115,
+      "x": 126,
       "y": 102,
       "icon": {
         "id": "slabmachines:furnace_slab",
@@ -1390,7 +1390,7 @@
         "text": "What this planet lacks in water, it makes up for in metals. If you spend some time sifting the dust, you can make serious progress towards some infrastructure. ",
         "isTranslationKey": false
       },
-      "x": 182,
+      "x": 190,
       "y": 102,
       "icon": {
         "id": "minecraft:iron_ingot",
@@ -1472,7 +1472,7 @@
         "text": "The fertilizer in your survival package won\u0027t last long. Place the mesh in the sieve and sift some dust to get bonemeal.",
         "isTranslationKey": false
       },
-      "x": 82,
+      "x": 94,
       "y": 102,
       "icon": {
         "id": "exdeorum:oak_sieve",
@@ -1522,8 +1522,8 @@
         "text": "For further industrialization, you\u0027ll need to move items, fluids, and energy. Time to set up the plumbing.",
         "isTranslationKey": false
       },
-      "x": 248,
-      "y": 72,
+      "x": 254,
+      "y": 84,
       "icon": {
         "id": "pipez:item_pipe",
         "Count": 1
@@ -1586,8 +1586,8 @@
         "text": "You\u0027ll need some tools to stay alive out here as well. In Tinkers Construct, bone tools are usually the best at the start, but you could make a different type if you\u0027d like. Wood and stone tools are generally ineffective.",
         "isTranslationKey": false
       },
-      "x": 139,
-      "y": 169,
+      "x": 126,
+      "y": 156,
       "icon": {
         "id": "tconstruct:mattock",
         "Count": 1,
@@ -1653,8 +1653,8 @@
         "text": "Its highly recommended to craft string armor once you get enough string.",
         "isTranslationKey": false
       },
-      "x": 124,
-      "y": 196,
+      "x": 110,
+      "y": 183,
       "icon": {
         "id": "extra_food_items:stringarmor_chestplate",
         "Count": 1,
@@ -1722,8 +1722,8 @@
         "text": "Seems like this planet it\u0027s full of oil!\nWith the Gas Lift and some pressure, you can pump up Oil from the dust deeps.\nYou can use the oil to generate energy with the Compression Dynamo, but later you will need a Refinery to make plastic and most efficient fuels.",
         "isTranslationKey": false
       },
-      "x": 298,
-      "y": 72,
+      "x": 286,
+      "y": 84,
       "icon": {
         "id": "thermal:dynamo_compression",
         "Count": 1

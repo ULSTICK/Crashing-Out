@@ -11,8 +11,8 @@
         "text": "An upgrade to the smeltery, it will double the number of ingots you get from ores and TRIPLE the amount you get from ore dust. Also, unlike the smeltery, it will also melt cobble into seared stone, allowing you to make as many more seared and scorched bricks as you need.",
         "isTranslationKey": false
       },
-      "x": 65,
-      "y": 88,
+      "x": 62,
+      "y": 102,
       "icon": {
         "id": "tconstruct:foundry_controller",
         "Count": 1
@@ -72,8 +72,8 @@
         "text": "You are going to need lots of iron to advance up the tech tree. A smeltery will help you get a good start by almost doubling the ingots you get out of ore. There is a small city around the shuttle. Perhaps a factory there contains the bricks we need?",
         "isTranslationKey": false
       },
-      "x": 65,
-      "y": 56,
+      "x": 62,
+      "y": 66,
       "icon": {
         "id": "tconstruct:smeltery_controller",
         "Count": 1
@@ -155,8 +155,8 @@
         "text": "Need even more power? There is a solution to that. If you pipe water into a reactor it will output steam. That steam then can be used to turn a turbine, generating massive amounts of power. Of course, this isn\u0027t easy to set up. Even discounting having to hunt down the components, you will need a staggering amount of water to keep things running smoothly. Generating that water will take a significant amount of time and effort to set up, but it just might be worth it if you need power in vast amounts.",
         "isTranslationKey": false
       },
-      "x": 65,
-      "y": 152,
+      "x": 62,
+      "y": 174,
       "icon": {
         "id": "biggerreactors:turbine_casing",
         "Count": 1
@@ -258,8 +258,8 @@
         "text": "You may have noticed that you can\u0027t craft everything you need to survive. Perhaps the city ruins scattered around contain the resources you need. One thing is certain, you\u0027ll need to prepare before venturing far from the shuttle.",
         "isTranslationKey": false
       },
-      "x": 65,
-      "y": 23,
+      "x": 62,
+      "y": 30,
       "icon": {
         "id": "hangglider:hang_glider",
         "Count": 1,
@@ -361,8 +361,8 @@
         "text": "As you build your technological infrastructure you will probably find that you need more power than you can easily generate. Luckily, there is a solution. Of course, you\u0027ll have to go hunting for the core components first.",
         "isTranslationKey": false
       },
-      "x": 65,
-      "y": 120,
+      "x": 62,
+      "y": 138,
       "icon": {
         "id": "biggerreactors:reactor_casing",
         "Count": 1

@@ -11,8 +11,8 @@
         "text": "Trees for leaves and saplings, crops for food. You\u0027ve been harvesting by hand, it is time to move beyond that. ",
         "isTranslationKey": false
       },
-      "x": 127,
-      "y": 77,
+      "x": 126,
+      "y": 84,
       "icon": {
         "id": "industrialforegoing:plant_gatherer",
         "Count": 1
@@ -75,8 +75,8 @@
         "text": "Before we get working on the more complex stuff, let\u0027s make sure you have the groundwork down first.",
         "isTranslationKey": false
       },
-      "x": 87,
-      "y": 17,
+      "x": 94,
+      "y": 30,
       "icon": {
         "id": "pneumaticcraft:printed_circuit_board",
         "Count": 1
@@ -142,90 +142,6 @@
       "commandrewards": []
     },
     {
-      "uuid": "f18850ad-ddc5-4d3c-8c9c-b3aa091addbb",
-      "name": {
-        "text": "Industrial Foregoing Liquids",
-        "isTranslationKey": false
-      },
-      "description": {
-        "text": "So many liquids. so many icky, icky liquids.",
-        "isTranslationKey": false
-      },
-      "x": 98,
-      "y": 138,
-      "icon": {
-        "id": "industrialforegoing:pink_slime_bucket",
-        "Count": 1
-      },
-      "tasks": [
-        {
-          "type": "hardcorequesting:consume_qds",
-          "items": [
-            {
-              "fluid": {
-                "fluid": "industrialforegoing:meat",
-                "volume": {
-                  "n": 1,
-                  "d": 1
-                }
-              },
-              "required": 10000
-            },
-            {
-              "fluid": {
-                "fluid": "industrialforegoing:pink_slime",
-                "volume": {
-                  "n": 1,
-                  "d": 1
-                }
-              },
-              "required": 10000
-            },
-            {
-              "fluid": {
-                "fluid": "industrialforegoing:sludge",
-                "volume": {
-                  "n": 1,
-                  "d": 1
-                }
-              },
-              "required": 10000
-            },
-            {
-              "fluid": {
-                "fluid": "industrialforegoing:sewage",
-                "volume": {
-                  "n": 1,
-                  "d": 1
-                }
-              },
-              "required": 10000
-            }
-          ]
-        }
-      ],
-      "prerequisites": [
-        "d41c9753-3fe3-475c-adbc-77160c347593"
-      ],
-      "optionlinks": [],
-      "reward": [],
-      "rewardchoice": [
-        {
-          "id": "mekanism:ultimate_control_circuit",
-          "Count": 2
-        },
-        {
-          "id": "tconstruct:queens_slime_ingot",
-          "Count": 2
-        },
-        {
-          "id": "thermal:obsidian_glass",
-          "Count": 16
-        }
-      ],
-      "commandrewards": []
-    },
-    {
       "uuid": "be7af2e5-6165-45b2-b21c-8da41319c7e2",
       "name": {
         "text": "Thermal Melting",
@@ -235,8 +151,8 @@
         "text": "Now, let\u0027s put what you\u0027ve learned to the test.",
         "isTranslationKey": false
       },
-      "x": 87,
-      "y": 107,
+      "x": 94,
+      "y": 138,
       "icon": {
         "id": "thermal:refined_fuel_bucket",
         "Count": 1
@@ -333,6 +249,90 @@
       "commandrewards": []
     },
     {
+      "uuid": "f18850ad-ddc5-4d3c-8c9c-b3aa091addbb",
+      "name": {
+        "text": "Industrial Foregoing Liquids",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "So many liquids. so many icky, icky liquids.",
+        "isTranslationKey": false
+      },
+      "x": 94,
+      "y": 174,
+      "icon": {
+        "id": "industrialforegoing:pink_slime_bucket",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "hardcorequesting:consume_qds",
+          "items": [
+            {
+              "fluid": {
+                "fluid": "industrialforegoing:meat",
+                "volume": {
+                  "n": 1,
+                  "d": 1
+                }
+              },
+              "required": 10000
+            },
+            {
+              "fluid": {
+                "fluid": "industrialforegoing:pink_slime",
+                "volume": {
+                  "n": 1,
+                  "d": 1
+                }
+              },
+              "required": 10000
+            },
+            {
+              "fluid": {
+                "fluid": "industrialforegoing:sludge",
+                "volume": {
+                  "n": 1,
+                  "d": 1
+                }
+              },
+              "required": 10000
+            },
+            {
+              "fluid": {
+                "fluid": "industrialforegoing:sewage",
+                "volume": {
+                  "n": 1,
+                  "d": 1
+                }
+              },
+              "required": 10000
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "d41c9753-3fe3-475c-adbc-77160c347593"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "mekanism:ultimate_control_circuit",
+          "Count": 2
+        },
+        {
+          "id": "tconstruct:queens_slime_ingot",
+          "Count": 2
+        },
+        {
+          "id": "thermal:obsidian_glass",
+          "Count": 16
+        }
+      ],
+      "commandrewards": []
+    },
+    {
       "uuid": "8f3d2964-8123-446b-bdc8-116ad499c8da",
       "name": {
         "text": "Using What You Got",
@@ -343,7 +343,7 @@
         "isTranslationKey": false
       },
       "x": 158,
-      "y": 64,
+      "y": 66,
       "icon": {
         "id": "industrialforegoing:mob_duplicator",
         "Count": 1
@@ -410,7 +410,7 @@
         "text": "Although a true AE system will take quite a few resources to set up, you can get the basic infrastructure set up fairly easily. ",
         "isTranslationKey": false
       },
-      "x": 57,
+      "x": 62,
       "y": 48,
       "icon": {
         "id": "ae2:chest",
@@ -467,8 +467,8 @@
         "text": "You have to start somewhere. ",
         "isTranslationKey": false
       },
-      "x": 87,
-      "y": 47,
+      "x": 94,
+      "y": 66,
       "icon": {
         "id": "thermal:machine_pulverizer",
         "Count": 1
@@ -535,8 +535,8 @@
         "text": "Along with plants, you now have animals. These machines will help you care for them.",
         "isTranslationKey": true
       },
-      "x": 127,
-      "y": 107,
+      "x": 126,
+      "y": 120,
       "icon": {
         "id": "industrialforegoing:animal_rancher",
         "Count": 1
@@ -597,8 +597,8 @@
         "text": "The start of good things.",
         "isTranslationKey": true
       },
-      "x": 127,
-      "y": 47,
+      "x": 126,
+      "y": 48,
       "icon": {
         "id": "industrialforegoing:range_addon0",
         "Count": 1,
@@ -676,8 +676,8 @@
         "text": "To get an AE storage system up you\u0027ll need a few starting machines.",
         "isTranslationKey": false
       },
-      "x": 56,
-      "y": 108,
+      "x": 62,
+      "y": 103,
       "icon": {
         "id": "ae2:controller",
         "Count": 1
@@ -746,8 +746,8 @@
         "text": "A lot of the more complicated tech requires some advanced Thermal Expansion machines.",
         "isTranslationKey": false
       },
-      "x": 87,
-      "y": 77,
+      "x": 94,
+      "y": 102,
       "icon": {
         "id": "thermal:machine_smelter",
         "Count": 1
@@ -817,8 +817,8 @@
         "text": "There are always byproducts.",
         "isTranslationKey": true
       },
-      "x": 127,
-      "y": 138,
+      "x": 126,
+      "y": 156,
       "icon": {
         "id": "industrialforegoing:sewer",
         "Count": 1
@@ -877,8 +877,8 @@
         "text": "Until you get a smeltery up and running, you will need to get invar. If you don\u0027t mind some manual labor, you can use the mill to crush metal into dust and mix it together by hand.",
         "isTranslationKey": false
       },
-      "x": 56,
-      "y": 17,
+      "x": 30,
+      "y": 30,
       "icon": {
         "id": "thermal:invar_dust",
         "Count": 1

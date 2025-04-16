@@ -11,7 +11,7 @@
         "text": "Unnamed quest",
         "isTranslationKey": false
       },
-      "x": 257,
+      "x": 254,
       "y": 83,
       "icon": {
         "id": "createaddition:electric_motor",
@@ -45,48 +45,28 @@
       "commandrewards": []
     },
     {
-      "uuid": "68d15aff-b4ec-4d53-aa16-ff96ec851e11",
+      "uuid": "eddaaad6-761a-458a-8e0f-ff4297889adc",
       "name": {
-        "text": "Top Brass",
+        "text": "Alloying",
         "isTranslationKey": false
       },
       "description": {
-        "text": "Unnamed quest",
+        "text": "Invisible trigger quest for when the player unlocks an alloying method.",
         "isTranslationKey": false
       },
-      "x": 282,
-      "y": 9,
+      "x": 158,
+      "y": 138,
       "icon": {
-        "id": "create:brass_sheet",
+        "id": "create:brass_ingot",
         "Count": 1
       },
-      "trigger": "TASK_TRIGGER",
-      "triggertasks": 1,
-      "tasks": [
-        {
-          "type": "hardcorequesting:completion",
-          "completed_quests": [
-            {
-              "quest_uuid": "13a983d5-2a40-4c74-91f0-9847656342e0"
-            },
-            {
-              "quest_uuid": "eddaaad6-761a-458a-8e0f-ff4297889adc"
-            }
-          ]
-        },
-        {
-          "type": "hardcorequesting:detect",
-          "items": [
-            {
-              "item": {
-                "id": "create:brass_sheet",
-                "Count": 1
-              }
-            }
-          ]
-        }
+      "trigger": "QUEST_TRIGGER",
+      "parentrequirement": 1,
+      "prerequisites": [
+        "10a23876-3d34-40db-b3be-0f9569c5b459",
+        "059da201-0f0d-47ee-9bf0-416b63d26600",
+        "67994482-4981-4cfd-9ca6-afde4340fb62"
       ],
-      "prerequisites": [],
       "optionlinks": [],
       "reward": [],
       "rewardchoice": [],
@@ -102,8 +82,8 @@
         "text": "Unnamed",
         "isTranslationKey": false
       },
-      "x": 120,
-      "y": 109,
+      "x": 110,
+      "y": 129,
       "icon": {
         "id": "create:copper_sheet",
         "Count": 1
@@ -143,28 +123,48 @@
       "commandrewards": []
     },
     {
-      "uuid": "eddaaad6-761a-458a-8e0f-ff4297889adc",
+      "uuid": "68d15aff-b4ec-4d53-aa16-ff96ec851e11",
       "name": {
-        "text": "Alloying",
+        "text": "Top Brass",
         "isTranslationKey": false
       },
       "description": {
-        "text": "Invisible trigger quest for when the player unlocks an alloying method.",
+        "text": "Unnamed quest",
         "isTranslationKey": false
       },
-      "x": 184,
-      "y": 82,
+      "x": 270,
+      "y": 21,
       "icon": {
-        "id": "create:brass_ingot",
+        "id": "create:brass_sheet",
         "Count": 1
       },
-      "trigger": "QUEST_TRIGGER",
-      "parentrequirement": 1,
-      "prerequisites": [
-        "10a23876-3d34-40db-b3be-0f9569c5b459",
-        "059da201-0f0d-47ee-9bf0-416b63d26600",
-        "67994482-4981-4cfd-9ca6-afde4340fb62"
+      "trigger": "TASK_TRIGGER",
+      "triggertasks": 1,
+      "tasks": [
+        {
+          "type": "hardcorequesting:completion",
+          "completed_quests": [
+            {
+              "quest_uuid": "13a983d5-2a40-4c74-91f0-9847656342e0"
+            },
+            {
+              "quest_uuid": "eddaaad6-761a-458a-8e0f-ff4297889adc"
+            }
+          ]
+        },
+        {
+          "type": "hardcorequesting:detect",
+          "items": [
+            {
+              "item": {
+                "id": "create:brass_sheet",
+                "Count": 1
+              }
+            }
+          ]
+        }
       ],
+      "prerequisites": [],
       "optionlinks": [],
       "reward": [],
       "rewardchoice": [],
@@ -180,8 +180,8 @@
         "text": "Unnamed",
         "isTranslationKey": false
       },
-      "x": 184,
-      "y": 44,
+      "x": 190,
+      "y": 66,
       "icon": {
         "id": "create:encased_fan",
         "Count": 1
@@ -328,8 +328,8 @@
         "text": "Unnamed",
         "isTranslationKey": false
       },
-      "x": 159,
-      "y": 82,
+      "x": 158,
+      "y": 102,
       "icon": {
         "id": "create:blaze_burner",
         "Count": 1
@@ -384,48 +384,6 @@
       "commandrewards": []
     },
     {
-      "uuid": "dac6814c-dec5-46f2-b7d5-77316843e9d4",
-      "name": {
-        "text": "Autopilot",
-        "isTranslationKey": false
-      },
-      "description": {
-        "text": "Unnamed",
-        "isTranslationKey": false
-      },
-      "x": 296,
-      "y": 149,
-      "icon": {
-        "id": "create:mechanical_arm",
-        "Count": 1
-      },
-      "trigger": "ANTI_TRIGGER",
-      "tasks": [
-        {
-          "type": "hardcorequesting:detect",
-          "longDescription": {
-            "text": "The Mechanical Arm is a block used to transfer items between inventories within a 5-block radius. When placing the arm, you select valid inventories by right-clicking, with the ability to toggle between taking or depositing items by right-clicking again. Left-clicking deselects an inventory. The arm can transfer up to a stack of items at once and operates based on its selected blocks and the order they were chosen. Its behavior can be adjusted with options like Round Robin, Forced Round Robin, or Prefer First through the Value Settings Screen. The arm can be powered by a Cogwheel or similar blocks and can interact with various items like Mechanical Belts, Depots, and Crafters. If the arm\u0027s range exceeds 5 blocks, inventories beyond that will be dropped. It can be disabled using Redstone, and will deposit any items it’s holding before stopping. The arm also respects filters on selected blocks, preventing it from picking up items it can\u0027t deposit elsewhere.",
-            "isTranslationKey": true
-          },
-          "items": [
-            {
-              "item": {
-                "id": "create:mechanical_arm",
-                "Count": 1
-              }
-            }
-          ]
-        }
-      ],
-      "prerequisites": [
-        "cc4f3469-cac0-4b77-a762-2832a9a36e91"
-      ],
-      "optionlinks": [],
-      "reward": [],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
       "uuid": "32f538e8-7e3c-4d36-8b39-0cef101279dd",
       "name": {
         "text": "Ebb and Flow",
@@ -435,8 +393,8 @@
         "text": "Unnamed",
         "isTranslationKey": false
       },
-      "x": 145,
-      "y": 147,
+      "x": 126,
+      "y": 174,
       "icon": {
         "id": "create:spout",
         "Count": 1
@@ -474,6 +432,48 @@
       "commandrewards": []
     },
     {
+      "uuid": "dac6814c-dec5-46f2-b7d5-77316843e9d4",
+      "name": {
+        "text": "Autopilot",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Unnamed",
+        "isTranslationKey": false
+      },
+      "x": 286,
+      "y": 174,
+      "icon": {
+        "id": "create:mechanical_arm",
+        "Count": 1
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "hardcorequesting:detect",
+          "longDescription": {
+            "text": "The Mechanical Arm is a block used to transfer items between inventories within a 5-block radius. When placing the arm, you select valid inventories by right-clicking, with the ability to toggle between taking or depositing items by right-clicking again. Left-clicking deselects an inventory. The arm can transfer up to a stack of items at once and operates based on its selected blocks and the order they were chosen. Its behavior can be adjusted with options like Round Robin, Forced Round Robin, or Prefer First through the Value Settings Screen. The arm can be powered by a Cogwheel or similar blocks and can interact with various items like Mechanical Belts, Depots, and Crafters. If the arm\u0027s range exceeds 5 blocks, inventories beyond that will be dropped. It can be disabled using Redstone, and will deposit any items it’s holding before stopping. The arm also respects filters on selected blocks, preventing it from picking up items it can\u0027t deposit elsewhere.",
+            "isTranslationKey": true
+          },
+          "items": [
+            {
+              "item": {
+                "id": "create:mechanical_arm",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "cc4f3469-cac0-4b77-a762-2832a9a36e91"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
       "uuid": "a552a1cc-bdcd-45df-8fc7-11d3de4f3085",
       "name": {
         "text": "Stir Crazy",
@@ -483,8 +483,8 @@
         "text": "Unnamed",
         "isTranslationKey": false
       },
-      "x": 159,
-      "y": 45,
+      "x": 158,
+      "y": 66,
       "icon": {
         "id": "create:mechanical_mixer",
         "Count": 1
@@ -522,60 +522,6 @@
       "commandrewards": []
     },
     {
-      "uuid": "213b8a8b-4ba5-4d25-84f0-c25132cfe78d",
-      "name": {
-        "text": "Opening the Floodgates",
-        "isTranslationKey": false
-      },
-      "description": {
-        "text": "Unnamed",
-        "isTranslationKey": false
-      },
-      "x": 120,
-      "y": 181,
-      "icon": {
-        "id": "create:copper_valve_handle",
-        "Count": 1
-      },
-      "trigger": "ANTI_TRIGGER",
-      "tasks": [
-        {
-          "type": "hardcorequesting:detect",
-          "longDescription": {
-            "text": "The Valve Handle works similarly to the Hand Crank, but its rotation amount and direction can be adjusted in its Value Settings Screen. It can also invert rotation by sneak-using it. The handle can be dyed in all 16 vanilla colors by right-clicking it with a Dye.\n\nSmart Fluid Pipes filter fluids, allowing only a specific liquid to pass through. This is set by placing a bucket or bottle of the liquid in the pipe’s Filter slot. Some liquids, like Potions, may require a List Filter with Respect Data on to be properly distinguished.\n\nFluid Valves control the flow of liquids in pipes. They can be toggled open or closed by applying Rotational Force, often using a Valve Handle or Gearshift. Directional arrows on the valve indicate its current state.",
-            "isTranslationKey": true
-          },
-          "items": [
-            {
-              "item": {
-                "id": "create:copper_valve_handle",
-                "Count": 1
-              }
-            },
-            {
-              "item": {
-                "id": "create:smart_fluid_pipe",
-                "Count": 1
-              }
-            },
-            {
-              "item": {
-                "id": "create:fluid_valve",
-                "Count": 1
-              }
-            }
-          ]
-        }
-      ],
-      "prerequisites": [
-        "57177dbe-44c6-47d5-9249-15f5a31b43fc"
-      ],
-      "optionlinks": [],
-      "reward": [],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
       "uuid": "e2098916-4ee1-4541-8f76-80e816740200",
       "name": {
         "text": "Down the Drain",
@@ -585,8 +531,8 @@
         "text": "Unnamed quest",
         "isTranslationKey": false
       },
-      "x": 95,
-      "y": 147,
+      "x": 110,
+      "y": 201,
       "icon": {
         "id": "create:item_drain",
         "Count": 1
@@ -627,8 +573,8 @@
         "text": "Unnamed",
         "isTranslationKey": false
       },
-      "x": 233,
-      "y": 64,
+      "x": 221,
+      "y": 85,
       "icon": {
         "id": "create:crushing_wheel",
         "Count": 1
@@ -670,8 +616,8 @@
         "text": "Unnamed quest",
         "isTranslationKey": false
       },
-      "x": 11,
-      "y": 123,
+      "x": 14,
+      "y": 129,
       "icon": {
         "id": "create:millstone",
         "Count": 1
@@ -707,8 +653,8 @@
         "text": "Unnamed quest",
         "isTranslationKey": false
       },
-      "x": 12,
-      "y": 86,
+      "x": 14,
+      "y": 93,
       "icon": {
         "id": "create:gearbox",
         "Count": 1
@@ -744,8 +690,8 @@
         "text": "Unnamed",
         "isTranslationKey": false
       },
-      "x": 208,
-      "y": 44,
+      "x": 206,
+      "y": 39,
       "icon": {
         "id": "create:mechanical_saw",
         "Count": 1
@@ -820,8 +766,8 @@
         "text": "Unnamed",
         "isTranslationKey": false
       },
-      "x": 120,
-      "y": 147,
+      "x": 94,
+      "y": 174,
       "icon": {
         "id": "create:fluid_pipe",
         "Count": 1
@@ -874,8 +820,8 @@
         "text": "Unnamed",
         "isTranslationKey": false
       },
-      "x": 159,
-      "y": 3,
+      "x": 158,
+      "y": 12,
       "icon": {
         "id": "create:iron_sheet",
         "Count": 1
@@ -919,8 +865,8 @@
         "text": "Unnamed quest",
         "isTranslationKey": false
       },
-      "x": 225,
-      "y": 149,
+      "x": 190,
+      "y": 174,
       "icon": {
         "id": "create:goggles",
         "Count": 1
@@ -961,8 +907,8 @@
         "text": "Unnamed",
         "isTranslationKey": false
       },
-      "x": 282,
-      "y": 43,
+      "x": 270,
+      "y": 57,
       "icon": {
         "id": "create:deployer",
         "Count": 1
@@ -1003,8 +949,8 @@
         "text": "Unnamed quest",
         "isTranslationKey": false
       },
-      "x": 37,
-      "y": 86,
+      "x": 46,
+      "y": 93,
       "icon": {
         "id": "create:cogwheel",
         "Count": 1
@@ -1049,8 +995,8 @@
         "text": "Need to make more advanced factory lines? These brass upgrades have you covered. Specfically, they can sort and filter specfic items to certain amounts or just indefintely.",
         "isTranslationKey": false
       },
-      "x": 307,
-      "y": 43,
+      "x": 302,
+      "y": 57,
       "icon": {
         "id": "create:brass_funnel",
         "Count": 1
@@ -1133,8 +1079,8 @@
         "text": "Unnamed quest",
         "isTranslationKey": false
       },
-      "x": 62,
-      "y": 86,
+      "x": 78,
+      "y": 93,
       "icon": {
         "id": "create:belt_connector",
         "Count": 1
@@ -1189,8 +1135,8 @@
         "text": "Unnamed quest",
         "isTranslationKey": false
       },
-      "x": 111,
-      "y": 44,
+      "x": 110,
+      "y": 39,
       "icon": {
         "id": "create:super_glue",
         "Count": 1,
@@ -1229,8 +1175,8 @@
         "text": "Unnamed quest",
         "isTranslationKey": false
       },
-      "x": 37,
-      "y": 123,
+      "x": 46,
+      "y": 129,
       "icon": {
         "id": "create_mechanical_extruder:mechanical_extruder",
         "Count": 1
@@ -1266,8 +1212,8 @@
         "text": "Unnamed",
         "isTranslationKey": false
       },
-      "x": 262,
-      "y": 149,
+      "x": 254,
+      "y": 174,
       "icon": {
         "id": "create:rotation_speed_controller",
         "Count": 1
@@ -1308,8 +1254,8 @@
         "text": "Unnamed",
         "isTranslationKey": false
       },
-      "x": 209,
-      "y": 112,
+      "x": 206,
+      "y": 129,
       "icon": {
         "id": "create:golden_sheet",
         "Count": 1
@@ -1358,8 +1304,8 @@
         "text": "Unnamed",
         "isTranslationKey": false
       },
-      "x": 282,
-      "y": 112,
+      "x": 270,
+      "y": 129,
       "icon": {
         "id": "create:precision_mechanism",
         "Count": 1
@@ -1401,8 +1347,8 @@
         "text": "Unnamed",
         "isTranslationKey": false
       },
-      "x": 193,
-      "y": 149,
+      "x": 222,
+      "y": 174,
       "icon": {
         "id": "create:wrench",
         "Count": 1
@@ -1443,8 +1389,8 @@
         "text": "Unnamed",
         "isTranslationKey": false
       },
-      "x": 257,
-      "y": 43,
+      "x": 238,
+      "y": 57,
       "icon": {
         "id": "create:mechanical_crafter",
         "Count": 1
@@ -1486,8 +1432,8 @@
         "text": "Unnamed quest",
         "isTranslationKey": false
       },
-      "x": 61,
-      "y": 44,
+      "x": 78,
+      "y": 57,
       "icon": {
         "id": "create:white_sail",
         "Count": 1
@@ -1529,8 +1475,8 @@
         "text": "Unnamed quest",
         "isTranslationKey": false
       },
-      "x": 37,
-      "y": 6,
+      "x": 46,
+      "y": 21,
       "icon": {
         "id": "create:andesite_alloy",
         "Count": 1
@@ -1591,8 +1537,8 @@
         "text": "Unnamed quest",
         "isTranslationKey": false
       },
-      "x": 37,
-      "y": 44,
+      "x": 46,
+      "y": 57,
       "icon": {
         "id": "create:water_wheel",
         "Count": 1
@@ -1628,8 +1574,8 @@
         "text": "Unnamed quest",
         "isTranslationKey": false
       },
-      "x": 10,
-      "y": 44,
+      "x": 14,
+      "y": 57,
       "icon": {
         "id": "create:hand_crank",
         "Count": 1
@@ -1665,8 +1611,8 @@
         "text": "Press W",
         "isTranslationKey": false
       },
-      "x": 63,
-      "y": 122,
+      "x": 78,
+      "y": 129,
       "icon": {
         "id": "create:mechanical_press",
         "Count": 1
@@ -1706,8 +1652,8 @@
         "text": "Unnamed quest",
         "isTranslationKey": false
       },
-      "x": 135,
-      "y": 44,
+      "x": 126,
+      "y": 66,
       "icon": {
         "id": "create:chute",
         "Count": 1
