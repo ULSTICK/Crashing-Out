@@ -402,55 +402,6 @@
       "commandrewards": []
     },
     {
-      "uuid": "bdc629a6-0d10-4b8d-b7c8-991e61be3607",
-      "name": {
-        "text": "Gold Armor",
-        "isTranslationKey": true
-      },
-      "description": {
-        "text": "Shiny shiny!",
-        "isTranslationKey": true
-      },
-      "x": 158,
-      "y": 84,
-      "icon": {
-        "id": "minecraft:golden_horse_armor",
-        "Count": 1
-      },
-      "repeat": {
-        "type": "INTERVAL",
-        "days": 2,
-        "hours": 0
-      },
-      "tasks": [
-        {
-          "type": "hardcorequesting:consume",
-          "items": [
-            {
-              "item": {
-                "id": "minecraft:gold_ingot",
-                "Count": 1
-              },
-              "required": 6,
-              "precision": "FUZZY"
-            }
-          ]
-        }
-      ],
-      "prerequisites": [
-        "c6241fa3-71d7-4e9d-9e44-54d301f5d89a"
-      ],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "minecraft:golden_horse_armor",
-          "Count": 1
-        }
-      ],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
       "uuid": "62dc1b20-09f0-46c5-96a7-6565442f1916",
       "name": {
         "text": "Fishes and Squids",
@@ -928,10 +879,6 @@
         {
           "id": "minecraft:horse_spawn_egg",
           "Count": 1
-        },
-        {
-          "id": "minecraft:saddle",
-          "Count": 1
         }
       ],
       "rewardchoice": [],
@@ -1058,55 +1005,6 @@
       "commandrewards": []
     },
     {
-      "uuid": "d054a73c-57cb-442a-8c18-9b8c068f076b",
-      "name": {
-        "text": "Leather Armor",
-        "isTranslationKey": true
-      },
-      "description": {
-        "text": "For your horse, of course.",
-        "isTranslationKey": true
-      },
-      "x": 158,
-      "y": 11,
-      "icon": {
-        "id": "minecraft:leather_horse_armor",
-        "Count": 1
-      },
-      "repeat": {
-        "type": "INTERVAL",
-        "days": 2,
-        "hours": 0
-      },
-      "tasks": [
-        {
-          "type": "hardcorequesting:consume",
-          "items": [
-            {
-              "item": {
-                "id": "minecraft:leather",
-                "Count": 1
-              },
-              "required": 6,
-              "precision": "FUZZY"
-            }
-          ]
-        }
-      ],
-      "prerequisites": [
-        "c6241fa3-71d7-4e9d-9e44-54d301f5d89a"
-      ],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "minecraft:leather_horse_armor",
-          "Count": 1
-        }
-      ],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
       "uuid": "b36c1e45-681d-47e3-aee4-fa1b3d58a34b",
       "name": {
         "text": "Sheep",
@@ -1164,104 +1062,6 @@
       "reward": [
         {
           "id": "minecraft:sheep_spawn_egg",
-          "Count": 1
-        }
-      ],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
-      "uuid": "5dbb7f17-0daa-41ce-a6c9-32dd182e40c9",
-      "name": {
-        "text": "Diamond Armor",
-        "isTranslationKey": true
-      },
-      "description": {
-        "text": "Bling for your horse. Excessive, maybe?",
-        "isTranslationKey": true
-      },
-      "x": 158,
-      "y": 120,
-      "icon": {
-        "id": "minecraft:diamond_horse_armor",
-        "Count": 1
-      },
-      "repeat": {
-        "type": "INTERVAL",
-        "days": 2,
-        "hours": 0
-      },
-      "tasks": [
-        {
-          "type": "hardcorequesting:consume",
-          "items": [
-            {
-              "item": {
-                "id": "minecraft:diamond",
-                "Count": 1
-              },
-              "required": 6,
-              "precision": "FUZZY"
-            }
-          ]
-        }
-      ],
-      "prerequisites": [
-        "c6241fa3-71d7-4e9d-9e44-54d301f5d89a"
-      ],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "minecraft:diamond_horse_armor",
-          "Count": 1
-        }
-      ],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
-      "uuid": "51e14ea5-e542-48ef-a694-56da9358a442",
-      "name": {
-        "text": "Iron Armor",
-        "isTranslationKey": true
-      },
-      "description": {
-        "text": "Iron horse!",
-        "isTranslationKey": true
-      },
-      "x": 158,
-      "y": 48,
-      "icon": {
-        "id": "minecraft:iron_horse_armor",
-        "Count": 1
-      },
-      "repeat": {
-        "type": "INTERVAL",
-        "days": 2,
-        "hours": 0
-      },
-      "tasks": [
-        {
-          "type": "hardcorequesting:consume",
-          "items": [
-            {
-              "item": {
-                "id": "minecraft:iron_ingot",
-                "Count": 1
-              },
-              "required": 6,
-              "precision": "FUZZY"
-            }
-          ]
-        }
-      ],
-      "prerequisites": [
-        "c6241fa3-71d7-4e9d-9e44-54d301f5d89a"
-      ],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "minecraft:iron_horse_armor",
           "Count": 1
         }
       ],
