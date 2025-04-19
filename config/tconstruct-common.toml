@@ -34,16 +34,16 @@
 		[recipes.ore_rates.melter]
 			#Number of nuggets produced per metal ore unit melted. 9 nuggets would give 1 ingot
 			#Range: 1 ~ 45
-			nuggetsPerMetal = 12
+			nuggetsPerMetal = 9
 			#Number of gem shards produced per gem ore unit melted. 4 gem shards would give 1 gem
 			#Range: 1 ~ 20
-			shardsPerGem = 8
+			shardsPerGem = 6
 
 		#Ore rates when melting in the smeltery
 		[recipes.ore_rates.smeltery]
 			#Number of nuggets produced per metal ore unit melted. 9 nuggets would give 1 ingot
 			#Range: 1 ~ 45
-			nuggetsPerMetal = 18
+			nuggetsPerMetal = 12
 			#Number of gem shards produced per gem ore unit melted. 4 gem shards would give 1 gem
 			#Range: 1 ~ 20
 			shardsPerGem = 8
@@ -52,7 +52,7 @@
 		[recipes.ore_rates.foundry]
 			#Number of nuggets produced per metal ore unit melted. 9 nuggets would give 1 ingot
 			#Range: 1 ~ 45
-			nuggetsPerMetal = 18
+			nuggetsPerMetal = 15
 			#Number of gem shards produced per gem ore unit melted. 4 gem shards would give 1 gem
 			#Range: 1 ~ 20
 			shardsPerGem = 8
@@ -61,7 +61,7 @@
 		[recipes.ore_rates.foundry_byproduct]
 			#Number of nuggets produced per metal ore unit melted. 9 nuggets would give 1 ingot
 			#Range: 1 ~ 45
-			nuggetsPerMetal = 9
+			nuggetsPerMetal = 3
 			#Number of gem shards produced per gem ore unit melted. 4 gem shards would give 1 gem
 			#Range: 1 ~ 20
 			shardsPerGem = 4
@@ -94,10 +94,10 @@
 	#If true, forces integration materials to be enabled, even if the relevant metal is missing. Useful for testing material balance.
 	#Does not provide recipes for any of them, they will only be available to cheat in creative.
 	forceIntegrationMaterials = false
-	#If STACKTRACE, logs the stacktrace whenever a tool stack is created from a non-modifiable item. If WARNING (default), logs a shorter but more efficient error. If IGNORE, disables logging (useful for modpacks/players *after* they reported the issue). The stacktrace helps debug which mod is causing it, but is rather expensive on the chance they are doing it a lot.
-	#Allowed Values: STACKTRACE, WARNING, IGNORED
-	logInvalidToolStack = "IGNORED"
 	#Set to true if you wish to test whether a side inventory works without constantly reloading datapacks.
 	#Once you find an inventory works, add it to the block entity tag `tconstruct:side_inventories` and disable this option; leaving it enabled will lead to crashes and dupe bugs.
 	disableSideInventoryWhitelist = false
+	#If STACKTRACE, logs the stacktrace whenever a tool stack is created from a non-modifiable item. If WARNING (default), logs a shorter but more efficient error. If IGNORE, disables logging (useful for modpacks/players *after* they reported the issue). The stacktrace helps debug which mod is causing it, but is rather expensive on the chance they are doing it a lot.
+	#Allowed Values: STACKTRACE, WARNING, IGNORED
+	logInvalidToolStack = "WARNING"
 
