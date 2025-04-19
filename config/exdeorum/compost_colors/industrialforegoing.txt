@@ -30,6 +30,7 @@ laser_lens6, #dc7fa1
 laser_lens7, #aeacac
 laser_lens8, #cccaca
 laser_lens9, #7fdabf
+machine_settings_copier, #aaf1f0
 meat_feeder, #a2948a
 mob_imprisonment_tool, #ffffff
 pink_slime, #ff8aff

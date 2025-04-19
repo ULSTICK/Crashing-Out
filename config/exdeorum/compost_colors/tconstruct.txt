@@ -19,7 +19,7 @@ bloodshroom_hanging_sign, #e11111
 bloodshroom_sign, #ff1212
 blue_clear_stained_glass_pane, #ffffff
 boots_plating_cast, #ffff8a
-boots_plating_dummy, #7d7c7a
+boots_plating_dummy, #7c7a79
 boots_plating_red_sand_cast, #ff932f
 boots_plating_sand_cast, #ffffee
 bow_grip_cast, #ffff80
@@ -37,9 +37,11 @@ broad_blade_sand_cast, #ffffed
 brown_clear_stained_glass_pane, #ffffff
 cheese_ingot, #fffa40
 chestplate_plating_cast, #ffff84
-chestplate_plating_dummy, #9a9794
+chestplate_plating_dummy, #9a9796
 chestplate_plating_red_sand_cast, #ff932d
 chestplate_plating_sand_cast, #ffffed
+cinderslime_ingot, #ff3c3c
+cinderslime_nugget, #ff3232
 clear_glass_pane, #d9ddde
 clear_item_frame, #f7ffff
 cobalt_ingot, #1e78ee
@@ -96,7 +98,7 @@ hammer_head_cast, #ffff7d
 hammer_head_red_sand_cast, #ff932f
 hammer_head_sand_cast, #ffffeb
 helmet_plating_cast, #ffff7d
-helmet_plating_dummy, #8e8d8a
+helmet_plating_dummy, #8d8c8a
 helmet_plating_red_sand_cast, #ff932f
 helmet_plating_sand_cast, #ffffea
 hepatizon_ingot, #543764
@@ -125,7 +127,7 @@ large_plate_red_sand_cast, #ff942f
 large_plate_sand_cast, #ffffeb
 large_sky_slime_crystal_bud, #8ed9d9
 leggings_plating_cast, #ffff7d
-leggings_plating_dummy, #7f7d7c
+leggings_plating_dummy, #7d7c7a
 leggings_plating_red_sand_cast, #ff932d
 leggings_plating_sand_cast, #ffffeb
 light_blue_clear_stained_glass_pane, #ffffff
@@ -220,6 +222,8 @@ small_sky_slime_crystal_bud, #5fa8a7
 soul_glass_pane, #735847
 soulsteel_ingot, #727669
 soulsteel_nugget, #6c786e
+steel_ingot, #4b546b
+steel_nugget, #434b62
 tinkers_gadgetry, #89d2d2
 tool_binding_cast, #ffff82
 tool_binding_red_sand_cast, #ff942f
@@ -227,9 +231,9 @@ tool_binding_sand_cast, #ffffed
 tool_handle_cast, #ffff7f
 tool_handle_red_sand_cast, #ff932f
 tool_handle_sand_cast, #ffffea
-tough_binding_cast, #ffff83
-tough_binding_red_sand_cast, #ff942f
-tough_binding_sand_cast, #ffffeb
+tough_binding_cast, #ffff86
+tough_binding_red_sand_cast, #ff932f
+tough_binding_sand_cast, #ffffea
 tough_handle_cast, #ffff7f
 tough_handle_red_sand_cast, #ff932f
 tough_handle_sand_cast, #ffffeb

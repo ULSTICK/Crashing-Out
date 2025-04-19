@@ -7,6 +7,7 @@ diamond_upgrade, #bbffff
 gold_upgrade, #ffffb6
 iron_downgrade, #f2f2f2
 linking_tool, #e1fffa
+max_storage_upgrade, #faccff
 netherite_upgrade, #b8b2b2
 puller_upgrade, #f2e7e7
 pusher_upgrade, #f1e7e7

@@ -3,6 +3,7 @@ advanced_compacting_upgrade, #e17c43
 advanced_deposit_upgrade, #e88044
 advanced_feeding_upgrade, #de7c43
 advanced_filter_upgrade, #cf733d
+advanced_jukebox_upgrade, #d47943
 advanced_magnet_upgrade, #de7a41
 advanced_pickup_upgrade, #de7a41
 advanced_pump_upgrade, #dc7941
@@ -30,6 +31,7 @@ everlasting_upgrade, #c66844
 feeding_upgrade, #cc6b47
 filter_upgrade, #bc6241
 inception_upgrade, #c66844
+infinity_upgrade, #fc792f
 jukebox_upgrade, #c26847
 magnet_upgrade, #cc6b46
 pickup_upgrade, #cc6b46
@@ -37,13 +39,19 @@ pump_upgrade, #c96846
 refill_upgrade, #d46e48
 restock_upgrade, #d66f48
 smelting_upgrade, #bf6443
+smithing_upgrade, #d66f48
 smoking_upgrade, #c56844
+stack_downgrade_tier_1, #d36e47
+stack_downgrade_tier_2, #c66541
+stack_downgrade_tier_3, #bc5c3a
+stack_upgrade_omega_tier, #e16440
 stack_upgrade_starter_tier, #de7048
 stack_upgrade_tier_1, #dc7a57
 stack_upgrade_tier_2, #e67d44
 stack_upgrade_tier_3, #ca825c
 stack_upgrade_tier_4, #c5623e
 stonecutter_upgrade, #cc6c48
+survival_infinity_upgrade, #e0734b
 tank_upgrade, #ca6946
 tool_swapper_upgrade, #c86947
 upgrade_base, #ee7a50
