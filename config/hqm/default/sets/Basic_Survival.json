@@ -11,8 +11,8 @@
         "text": "Another way to get water is to drop some saplings or leaves into the Centrifugal Separator. It will give you a bit of water, about 1/10th of a bucket. Remember, you can power your machines with the flux capacitor from your emergency supply chest. MAKE SURE YOU DO NOT USE UP ALL OF YOUR SAPLINGS.",
         "isTranslationKey": false
       },
-      "x": 126,
-      "y": 48,
+      "x": 142,
+      "y": 75,
       "icon": {
         "id": "minecraft:birch_sapling",
         "Count": 1
@@ -62,8 +62,8 @@
         "text": "The night is dark and full of terrors. Your chances of survival are low, but you can improve them with some sort of weapon and some protection from attack. For your weapon, you\u0027ll need the blade to be bone to start. No other starting material is comparable for weapons.",
         "isTranslationKey": false
       },
-      "x": 142,
-      "y": 129,
+      "x": 126,
+      "y": 156,
       "icon": {
         "id": "tconstruct:sword",
         "Count": 1,
@@ -223,7 +223,7 @@
         "isTranslationKey": false
       },
       "x": 190,
-      "y": 48,
+      "y": 30,
       "icon": {
         "id": "exdeorum:stone_pebble",
         "Count": 1
@@ -389,8 +389,8 @@
         "text": "To build up from nothing, you\u0027ll have to have some interesting survival strategies, and unique tools to go with them.",
         "isTranslationKey": false
       },
-      "x": 94,
-      "y": 156,
+      "x": 78,
+      "y": 129,
       "icon": {
         "id": "exdeorum:crook",
         "Count": 1,
@@ -489,6 +489,43 @@
       "commandrewards": []
     },
     {
+      "uuid": "6acadfe6-4853-4cf1-af89-d44bc0f42ce1",
+      "name": {
+        "text": "Unnamed",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Unnamed quest",
+        "isTranslationKey": false
+      },
+      "x": 95,
+      "y": 48,
+      "icon": {
+        "id": "minecraft:slime_ball",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "hardcorequesting:detect",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:slime_ball",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "d4d8bba6-7b9e-417a-b543-90ffb032400b"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
       "uuid": "3c8b89b6-0ec3-4376-9e84-41cf0345e55d",
       "name": {
         "text": "Killing time",
@@ -499,7 +536,7 @@
         "isTranslationKey": false
       },
       "x": 190,
-      "y": 156,
+      "y": 174,
       "icon": {
         "id": "minecraft:zombie_spawn_egg",
         "Count": 1
@@ -690,7 +727,7 @@
         "isTranslationKey": false
       },
       "x": 158,
-      "y": 156,
+      "y": 174,
       "icon": {
         "id": "minecraft:rotten_flesh",
         "Count": 1
@@ -829,6 +866,62 @@
       "commandrewards": []
     },
     {
+      "uuid": "ab277ce2-86d3-4935-b7bc-499307cd7b5c",
+      "name": {
+        "text": "Unnamed",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Unnamed quest",
+        "isTranslationKey": false
+      },
+      "x": 78,
+      "y": 21,
+      "icon": {
+        "id": "minecraft:slime_ball",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "hardcorequesting:detect",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:slime_ball",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "tconstruct:sky_slime_ball",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "tconstruct:ichor_slime_ball",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "tconstruct:ender_slime_ball",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "6acadfe6-4853-4cf1-af89-d44bc0f42ce1",
+        "c5d70928-cc40-46b5-bfb0-3f3b800a84ea"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
       "uuid": "d4d8bba6-7b9e-417a-b543-90ffb032400b",
       "name": {
         "text": "Getting Your Hands Dirty",
@@ -838,8 +931,8 @@
         "text": "For your continued survival, you\u0027ll need to start farming crops and trees on a larger scale. Neither of those are able to take root in the dust of this planet. However, you can compost organic material in a barrel to make some more dirt for yourself.",
         "isTranslationKey": false
       },
-      "x": 94,
-      "y": 48,
+      "x": 78,
+      "y": 76,
       "icon": {
         "id": "exdeorum:oak_barrel",
         "Count": 1
@@ -872,6 +965,49 @@
           "Count": 1
         }
       ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "c5d70928-cc40-46b5-bfb0-3f3b800a84ea",
+      "name": {
+        "text": "Unnamed",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Unnamed quest",
+        "isTranslationKey": false
+      },
+      "x": 63,
+      "y": 49,
+      "icon": {
+        "id": "minecraft:netherrack",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "hardcorequesting:detect",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:netherrack",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "minecraft:end_stone",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "d4d8bba6-7b9e-417a-b543-90ffb032400b"
+      ],
+      "optionlinks": [],
+      "reward": [],
       "rewardchoice": [],
       "commandrewards": []
     },
@@ -932,8 +1068,8 @@
         "text": "The harsh reality is that you\u0027re stuck on this planet. No amount of obsidian rectangles will let you escape. However, the situation means you can\u0027t get some resources (like soul sand) through normal methods.",
         "isTranslationKey": false
       },
-      "x": 110,
-      "y": 21,
+      "x": 48,
+      "y": 76,
       "icon": {
         "id": "minecraft:soul_sand",
         "Count": 1
@@ -1001,8 +1137,8 @@
         "text": "Dirty water may help you in a pinch, but for long term survival, you\u0027ll need to purify it. Fire should work nicely. Just drop the dirty water bottle into a furnace, apply some heat, and you\u0027ll get some clean, drinkable water.",
         "isTranslationKey": false
       },
-      "x": 142,
-      "y": 75,
+      "x": 126,
+      "y": 49,
       "icon": {
         "id": "minecraft:potion",
         "Count": 1,
@@ -1146,7 +1282,7 @@
         "isTranslationKey": false
       },
       "x": 158,
-      "y": 48,
+      "y": 30,
       "icon": {
         "id": "minecraft:snowball",
         "Count": 1
@@ -1270,7 +1406,7 @@
         "isTranslationKey": false
       },
       "x": 58,
-      "y": 98,
+      "y": 99,
       "bigicon": true,
       "icon": {
         "id": "thermal:machine_centrifuge",
@@ -1586,8 +1722,8 @@
         "text": "You\u0027ll need some tools to stay alive out here as well. In Tinkers Construct, bone tools are usually the best at the start, but you could make a different type if you\u0027d like. Wood and stone tools are generally ineffective.",
         "isTranslationKey": false
       },
-      "x": 126,
-      "y": 156,
+      "x": 142,
+      "y": 129,
       "icon": {
         "id": "tconstruct:mattock",
         "Count": 1,
@@ -1653,8 +1789,8 @@
         "text": "Its highly recommended to craft string armor once you get enough string.",
         "isTranslationKey": false
       },
-      "x": 110,
-      "y": 183,
+      "x": 62,
+      "y": 156,
       "icon": {
         "id": "extra_food_items:stringarmor_chestplate",
         "Count": 1,

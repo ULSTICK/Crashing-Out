@@ -2,6 +2,49 @@
   "name": "Aesthetic Automation",
   "quests": [
     {
+      "uuid": "48b87331-56e3-4c6d-8847-76c40d7628f2",
+      "name": {
+        "text": "Box of Tricks",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Unnamed quest",
+        "isTranslationKey": false
+      },
+      "x": 206,
+      "y": 183,
+      "icon": {
+        "id": "create:brown_toolbox",
+        "Count": 1
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "hardcorequesting:detect",
+          "longDescription": {
+            "text": "A storage container with 8 slots, holding up to 256 items per slot. It retains inventory when picked up and allows remote access (within 10 blocks by default) using Alt. Items can be automatically refilled while in range, and multiple toolboxes can be managed simultaneously. The range is configurable.",
+            "isTranslationKey": true
+          },
+          "items": [
+            {
+              "item": {
+                "id": "create:brown_toolbox",
+                "Count": 1
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "72283d63-3fcf-4034-ac4f-0ffa0697a722"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
       "uuid": "52568165-b806-461d-9e85-031b089dbbef",
       "name": {
         "text": "Power Play",
@@ -11,12 +54,13 @@
         "text": "Unnamed quest",
         "isTranslationKey": false
       },
-      "x": 254,
-      "y": 83,
+      "x": 302,
+      "y": 93,
       "icon": {
         "id": "createaddition:electric_motor",
         "Count": 1
       },
+      "trigger": "ANTI_TRIGGER",
       "tasks": [
         {
           "type": "hardcorequesting:detect",
@@ -82,6 +126,12 @@
                 "id": "create:brass_sheet",
                 "Count": 1
               }
+            },
+            {
+              "item": {
+                "id": "create:electron_tube",
+                "Count": 1
+              }
             }
           ]
         }
@@ -103,7 +153,7 @@
         "isTranslationKey": false
       },
       "x": 110,
-      "y": 129,
+      "y": 111,
       "icon": {
         "id": "create:copper_sheet",
         "Count": 1
@@ -152,8 +202,8 @@
         "text": "Invisible trigger quest for when the player unlocks an alloying method.",
         "isTranslationKey": false
       },
-      "x": 158,
-      "y": 138,
+      "x": 182,
+      "y": 102,
       "icon": {
         "id": "create:brass_ingot",
         "Count": 1
@@ -393,8 +443,8 @@
         "text": "Unnamed",
         "isTranslationKey": false
       },
-      "x": 286,
-      "y": 174,
+      "x": 238,
+      "y": 129,
       "icon": {
         "id": "create:mechanical_arm",
         "Count": 1
@@ -435,8 +485,8 @@
         "text": "Unnamed",
         "isTranslationKey": false
       },
-      "x": 126,
-      "y": 174,
+      "x": 94,
+      "y": 156,
       "icon": {
         "id": "create:spout",
         "Count": 1
@@ -531,8 +581,8 @@
         "text": "Unnamed quest",
         "isTranslationKey": false
       },
-      "x": 110,
-      "y": 201,
+      "x": 126,
+      "y": 156,
       "icon": {
         "id": "create:item_drain",
         "Count": 1
@@ -573,8 +623,8 @@
         "text": "Unnamed",
         "isTranslationKey": false
       },
-      "x": 221,
-      "y": 85,
+      "x": 270,
+      "y": 93,
       "icon": {
         "id": "create:crushing_wheel",
         "Count": 1
@@ -616,8 +666,8 @@
         "text": "Unnamed quest",
         "isTranslationKey": false
       },
-      "x": 14,
-      "y": 129,
+      "x": 78,
+      "y": 93,
       "icon": {
         "id": "create:millstone",
         "Count": 1
@@ -653,8 +703,8 @@
         "text": "Unnamed quest",
         "isTranslationKey": false
       },
-      "x": 14,
-      "y": 93,
+      "x": 78,
+      "y": 129,
       "icon": {
         "id": "create:gearbox",
         "Count": 1
@@ -766,8 +816,8 @@
         "text": "Unnamed",
         "isTranslationKey": false
       },
-      "x": 94,
-      "y": 174,
+      "x": 110,
+      "y": 183,
       "icon": {
         "id": "create:fluid_pipe",
         "Count": 1
@@ -866,16 +916,17 @@
         "isTranslationKey": false
       },
       "x": 190,
-      "y": 174,
+      "y": 156,
       "icon": {
         "id": "create:goggles",
         "Count": 1
       },
+      "trigger": "ANTI_TRIGGER",
       "tasks": [
         {
           "type": "hardcorequesting:detect",
           "longDescription": {
-            "text": "Engineer’s Goggles: A wearable item that displays machine details, including stress impact, rotation speed, and fluid levels in tanks. When worn, it provides enhanced visual feedback for Stressometers and Speedometers. Compatible with Curios/Trinkets mods for alternate head slot usage.",
+            "text": "A wearable item that displays machine details, including stress impact, rotation speed, and fluid levels in tanks. When worn, it provides enhanced visual feedback for Stressometers and Speedometers. Compatible with Curios/Trinkets mods for alternate head slot usage.",
             "isTranslationKey": true
           },
           "items": [
@@ -907,7 +958,7 @@
         "text": "Unnamed",
         "isTranslationKey": false
       },
-      "x": 270,
+      "x": 238,
       "y": 57,
       "icon": {
         "id": "create:deployer",
@@ -955,6 +1006,7 @@
         "id": "create:cogwheel",
         "Count": 1
       },
+      "trigger": "ANTI_TRIGGER",
       "parentrequirement": 1,
       "tasks": [
         {
@@ -995,7 +1047,7 @@
         "text": "Need to make more advanced factory lines? These brass upgrades have you covered. Specfically, they can sort and filter specfic items to certain amounts or just indefintely.",
         "isTranslationKey": false
       },
-      "x": 302,
+      "x": 270,
       "y": 57,
       "icon": {
         "id": "create:brass_funnel",
@@ -1079,8 +1131,8 @@
         "text": "Unnamed quest",
         "isTranslationKey": false
       },
-      "x": 78,
-      "y": 93,
+      "x": 14,
+      "y": 129,
       "icon": {
         "id": "create:belt_connector",
         "Count": 1
@@ -1142,6 +1194,8 @@
         "Count": 1,
         "tag": "{Damage:0}"
       },
+      "trigger": "ANTI_TRIGGER",
+      "parentrequirement": 1,
       "tasks": [
         {
           "type": "hardcorequesting:detect",
@@ -1158,7 +1212,8 @@
         }
       ],
       "prerequisites": [
-        "5d300aea-5826-4f79-b1d6-b08895059dbf"
+        "5d300aea-5826-4f79-b1d6-b08895059dbf",
+        "6acadfe6-4853-4cf1-af89-d44bc0f42ce1"
       ],
       "optionlinks": [],
       "reward": [],
@@ -1175,8 +1230,8 @@
         "text": "Unnamed quest",
         "isTranslationKey": false
       },
-      "x": 46,
-      "y": 129,
+      "x": 14,
+      "y": 93,
       "icon": {
         "id": "create_mechanical_extruder:mechanical_extruder",
         "Count": 1
@@ -1212,8 +1267,8 @@
         "text": "Unnamed",
         "isTranslationKey": false
       },
-      "x": 254,
-      "y": 174,
+      "x": 270,
+      "y": 129,
       "icon": {
         "id": "create:rotation_speed_controller",
         "Count": 1
@@ -1255,7 +1310,7 @@
         "isTranslationKey": false
       },
       "x": 206,
-      "y": 129,
+      "y": 111,
       "icon": {
         "id": "create:golden_sheet",
         "Count": 1
@@ -1304,8 +1359,8 @@
         "text": "Unnamed",
         "isTranslationKey": false
       },
-      "x": 270,
-      "y": 129,
+      "x": 238,
+      "y": 93,
       "icon": {
         "id": "create:precision_mechanism",
         "Count": 1
@@ -1329,7 +1384,6 @@
         }
       ],
       "prerequisites": [
-        "72283d63-3fcf-4034-ac4f-0ffa0697a722",
         "b8732aa6-7e38-4164-88e6-e4f5070dae35"
       ],
       "optionlinks": [],
@@ -1348,7 +1402,7 @@
         "isTranslationKey": false
       },
       "x": 222,
-      "y": 174,
+      "y": 156,
       "icon": {
         "id": "create:wrench",
         "Count": 1
@@ -1358,7 +1412,7 @@
         {
           "type": "hardcorequesting:detect",
           "longDescription": {
-            "text": "Wrench: A versatile tool for rotating, dismantling, and configuring components. Right-click rotates a component, while Shift + Right-click dismantles it. Scroll over certain components to configure them, and hold Ctrl to configure all connected components at once.\n\nEngineer’s Goggles: A wearable item that displays machine details, including stress impact, rotation speed, and fluid levels in tanks. When worn, it provides enhanced visual feedback for Stressometers and Speedometers. Compatible with Curios/Trinkets mods for alternate head slot usage.\n\nToolbox: A storage container with 8 slots, holding up to 256 items per slot. It retains inventory when picked up and allows remote access (within 10 blocks by default) using Alt. Items can be automatically refilled while in range, and multiple toolboxes can be managed simultaneously. The range is configurable.",
+            "text": "Wrench: A versatile tool for rotating, dismantling, and configuring components. Right-click rotates a component, while Shift + Right-click dismantles it. Scroll over certain components to configure them, and hold Ctrl to configure all connected components at once.",
             "isTranslationKey": true
           },
           "items": [
@@ -1389,7 +1443,7 @@
         "text": "Unnamed",
         "isTranslationKey": false
       },
-      "x": 238,
+      "x": 302,
       "y": 57,
       "icon": {
         "id": "create:mechanical_crafter",
@@ -1438,6 +1492,7 @@
         "id": "create:white_sail",
         "Count": 1
       },
+      "trigger": "ANTI_TRIGGER",
       "tasks": [
         {
           "type": "hardcorequesting:detect",
@@ -1481,6 +1536,7 @@
         "id": "create:andesite_alloy",
         "Count": 1
       },
+      "trigger": "ANTI_TRIGGER",
       "tasks": [
         {
           "type": "hardcorequesting:detect",
@@ -1543,6 +1599,7 @@
         "id": "create:water_wheel",
         "Count": 1
       },
+      "trigger": "ANTI_TRIGGER",
       "tasks": [
         {
           "type": "hardcorequesting:detect",
@@ -1580,6 +1637,7 @@
         "id": "create:hand_crank",
         "Count": 1
       },
+      "trigger": "ANTI_TRIGGER",
       "tasks": [
         {
           "type": "hardcorequesting:detect",
@@ -1611,7 +1669,7 @@
         "text": "Press W",
         "isTranslationKey": false
       },
-      "x": 78,
+      "x": 46,
       "y": 129,
       "icon": {
         "id": "create:mechanical_press",
@@ -1658,6 +1716,7 @@
         "id": "create:chute",
         "Count": 1
       },
+      "trigger": "ANTI_TRIGGER",
       "tasks": [
         {
           "type": "hardcorequesting:detect",
