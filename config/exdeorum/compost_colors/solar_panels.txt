@@ -1,3 +1,0 @@
-// Compost colors for solar_panels. You may add your own colors, change existing ones, or remove colors that aren't needed.
-solar_battery, #975a4a
-solar_voltaic_cell, #2d6ef5

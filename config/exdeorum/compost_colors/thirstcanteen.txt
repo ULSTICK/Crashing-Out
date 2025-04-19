@@ -1,7 +1,0 @@
-// Compost colors for thirstcanteen. You may add your own colors, change existing ones, or remove colors that aren't needed.
-dragon_bottle, #6f5a7a
-dragon_bottle_full, #726189
-leather_canteen, #896154
-leather_canteen_full, #866458
-military_bottle, #435a48
-military_bottle_full, #435437

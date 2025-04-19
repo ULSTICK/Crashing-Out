@@ -1,7 +1,0 @@
-// Compost colors for advancedguns_mod. You may add your own colors, change existing ones, or remove colors that aren't needed.
-advanced_bullet, #a44d76
-basic_bullet, #4edada
-creative_bullet, #de4aeb
-creative_energy_tablet, #b823b8
-meka_bullet, #505ad7
-ultimate_bullet, #da4646

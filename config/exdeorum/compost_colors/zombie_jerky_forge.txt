@@ -1,2 +1,0 @@
-// Compost colors for zombie_jerky_forge. You may add your own colors, change existing ones, or remove colors that aren't needed.
-zombie_jerky, #8e5737

@@ -1,2 +1,0 @@
-// Compost colors for kaczorros_challange. You may add your own colors, change existing ones, or remove colors that aren't needed.
-bandage, #f5d9d9
