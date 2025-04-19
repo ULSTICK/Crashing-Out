@@ -27,3 +27,6 @@ patchouli_data.json
 /local
 /screenshots
 /.example_data
+/config/jei/world
+/config/inventoryprofilesnext
+/config/minihud
