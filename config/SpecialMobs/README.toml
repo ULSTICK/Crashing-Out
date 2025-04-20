@@ -28,8 +28,8 @@
   #   Registry entry lists are arrays of registry keys. Many things in the game, such as blocks or potions, are
   #     defined by their registry key within a registry. For example, all items are registered in the "minecraft:item"
   #     registry.
-  #   An asterisk '*' can be used to match all entity types belonging to X namespace. For example, 'minecraft:*' will
-  #     match all vanilla entity types.
+  #   An asterisk '*' can be used to match all registry entries/keys belonging to X namespace. For example,
+  #     'minecraft:*' will match all vanilla entries.
   #   Tags can also be used here. To declare a tag, start with a '#' followed by the rest of the tag path.
   #   Tag example: '#minecraft:oak_logs'
 
