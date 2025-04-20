@@ -23,7 +23,7 @@
           "type": "hardcorequesting:detect",
           "longDescription": {
             "text": "We are working on the tripling Scorched recipes, don\u0027t worry!",
-            "istranslationkey": false
+            "isTranslationKey": false
           },
           "items": [
             {
@@ -85,7 +85,7 @@
           "type": "hardcorequesting:detect",
           "description": {
             "text": "Old School",
-            "istranslationkey": false
+            "isTranslationKey": false
           },
           "longDescription": {
             "text": "We are working on the cities, so for now, you can craft the bricks with grouth!",
@@ -169,11 +169,11 @@
           "type": "hardcorequesting:detect",
           "description": {
             "text": "Turbine",
-            "istranslationkey": false
+            "isTranslationKey": false
           },
           "longDescription": {
             "text": "Much like the reactor controller, the turbine controller cannot be fabricated from scratch but can be made by repairing any you find in the cities. ",
-            "istranslationkey": false
+            "isTranslationKey": false
           },
           "items": [
             {
@@ -274,7 +274,7 @@
           "type": "hardcorequesting:detect",
           "longDescription": {
             "text": "A melee weapon of some sort would be a wise idea and perhaps some armor as well. Also, make sure you fill that tank with water as much as you can before leaving and make sure you bring enough food and food variety as well. (Note: There\u0027s a city by the West of the shuttle. More risk breings greater reward)",
-            "istranslationkey": false
+            "isTranslationKey": false
           },
           "items": [
             {
@@ -377,7 +377,7 @@
           "type": "hardcorequesting:detect",
           "longDescription": {
             "text": "The reactor controller needs parts we cannot fabricate with the technology we have available, so we can\u0027t build them from scratch. Luckily, the broken controllers you can find in the cities can be repaired out of available resources. Of course, first you have to find one. Power plants seem to be somewhat rare and a lot of them have suffered reactor meltdowns over the years. Still, they do exist if you are willing to explore far enough. ",
-            "istranslationkey": false
+            "isTranslationKey": false
           },
           "items": [
             {

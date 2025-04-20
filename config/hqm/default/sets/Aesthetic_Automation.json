@@ -23,7 +23,7 @@
           "type": "hardcorequesting:detect",
           "longDescription": {
             "text": "A storage container with 8 slots, holding up to 256 items per slot. It retains inventory when picked up and allows remote access (within 10 blocks by default) using Alt. Items can be automatically refilled while in range, and multiple toolboxes can be managed simultaneously. The range is configurable.",
-            "istranslationkey": false
+            "isTranslationKey": false
           },
           "items": [
             {
@@ -448,7 +448,7 @@
           "type": "hardcorequesting:detect",
           "longDescription": {
             "text": "The Mechanical Arm is a block used to transfer items between inventories within a 5-block radius. When placing the arm, you select valid inventories by right-clicking, with the ability to toggle between taking or depositing items by right-clicking again. Left-clicking deselects an inventory. The arm can transfer up to a stack of items at once and operates based on its selected blocks and the order they were chosen. Its behavior can be adjusted with options like Round Robin, Forced Round Robin, or Prefer First through the Value Settings Screen. The arm can be powered by a Cogwheel or similar blocks and can interact with various items like Mechanical Belts, Depots, and Crafters. If the arm\u0027s range exceeds 5 blocks, inventories beyond that will be dropped. It can be disabled using Redstone, and will deposit any items it’s holding before stopping. The arm also respects filters on selected blocks, preventing it from picking up items it can\u0027t deposit elsewhere.",
-            "istranslationkey": false
+            "isTranslationKey": false
           },
           "items": [
             {
@@ -490,7 +490,7 @@
           "type": "hardcorequesting:detect",
           "longDescription": {
             "text": "The Spout is used to fill liquid containers (e.g., bottles, buckets) or craft with liquids. It holds up to 1 bucket of a single liquid, which is supplied via Fluid Pipes. The Spout dispenses fluid onto items passing below it on a Conveyor Belt or Depot. Each item takes 1 second to process, though refill time may cause slight delays.\n\nThe Depot serves as a machine interaction point, allowing items to be placed manually or inserted automatically. Machines like the Mechanical Arm or Mechanical Press can interact with items on the Depot, just as they would on a Mechanical Belt. Items on a Depot do not despawn and remain until removed by a player or another machine.",
-            "istranslationkey": false
+            "isTranslationKey": false
           },
           "items": [
             {
@@ -537,7 +537,7 @@
           "type": "hardcorequesting:detect",
           "longDescription": {
             "text": "The Mechanical Mixer is a mechanical component that processes Mixing recipes and shapeless crafting recipes in a Basin. It requires at least 30 RPM to function, with higher speeds improving efficiency. The Mixer must be placed above a Basin with a 1-block gap to work.\n\nAutomation: Can automate shapeless crafting by inserting ingredients into the Basin.\n\nBrewing: Can automate Brewing recipes when combined with a heated Blaze Burner.\n\nMixing: Some recipes (e.g., Brass) require a super-heated Blaze Burner.\n\nThe Mixer acts as a cogwheel, transmitting and reversing rotation to adjacent components.",
-            "istranslationkey": false
+            "isTranslationKey": false
           },
           "items": [
             {
@@ -585,7 +585,7 @@
           "type": "hardcorequesting:detect",
           "longDescription": {
             "text": "The Item Drain can hold up to 1500 mB of liquid and requires a Fluid Pump to extract fluids. Basins will automatically deposit output fluids into a nearby Item Drain.",
-            "istranslationkey": false
+            "isTranslationKey": false
           },
           "items": [
             {
@@ -628,7 +628,7 @@
           "type": "hardcorequesting:detect",
           "longDescription": {
             "text": "Crushing Wheels are an advanced version of Millstones that apply crushing recipes to items inserted from the direction they are spinning away from. They also have an expanded list of crushing recipes compared to Millstone\u0027s. To function, two Crushing Wheels must be placed next to each other, either horizontally or vertically, one block apart, with opposite rotational forces. Items to be crushed should be inserted where the wheels rotate inwards. Automation is possible by placing a hopper between the wheels and connecting it to a depot or conveyor belt below.",
-            "istranslationkey": false
+            "isTranslationKey": false
           },
           "items": [
             {
@@ -744,11 +744,11 @@
           "type": "hardcorequesting:detect",
           "description": {
             "text": "Sawing",
-            "istranslationkey": false
+            "isTranslationKey": false
           },
           "longDescription": {
             "text": "The Mechanical Saw cuts wood blocks in front of it and can automatically fell entire trees or giant mushrooms by breaking the bottom-most block. It can fully cut down 2x2 trees if at least one bottom block is mined. Saws damage entities and break blocks based on contraption speed. When placed facing upward, the saw applies stonecutting recipes, selecting a random output unless a filter is used. You can also use them to create more shafts per andesite alloy than standard crafting.",
-            "istranslationkey": false
+            "isTranslationKey": false
           },
           "items": [
             {
@@ -763,7 +763,7 @@
           "type": "hardcorequesting:detect",
           "description": {
             "text": "Harvesting",
-            "istranslationkey": false
+            "isTranslationKey": false
           },
           "items": [
             {
@@ -778,7 +778,7 @@
           "type": "hardcorequesting:detect",
           "description": {
             "text": "Drilling",
-            "istranslationkey": false
+            "isTranslationKey": false
           },
           "items": [
             {
@@ -820,7 +820,7 @@
           "type": "hardcorequesting:detect",
           "longDescription": {
             "text": "Fluid Pipes transport liquids but can only carry one type of fluid at a time. If different fluids mix, the pipe clogs. Pipes connect automatically unless separated using a Wrench, Copper Casing, or Brackets. They require Mechanical Pumps to move fluids, with each pump pushing liquid up to 15 blocks (configurable). Fluid flow is divided at splits, and transfer speed depends on pump speed (0.5 mb/t * RPM). Open-ended pipes can create fluid source blocks after releasing 1000 mB.\n\nFluid Tanks store up to 8 buckets (8,000 mB) of liquid per block and can be connected with Fluid Pipes on any side. Tanks merge into structures up to 3x32x3, holding 2,304 buckets. Fluid direction is controlled by connected pipes and pumps, and the Wrench can toggle the tank’s window. Pipe placement does not affect extraction or storage.\n\nMechanical Pumps move fluids in one direction, with a maximum range of 16 blocks (configurable). Up to 30 pipes can be between pumps. Brown arrows indicate flow direction, which can be reversed with a Wrench.",
-            "istranslationkey": false
+            "isTranslationKey": false
           },
           "items": [
             {
@@ -919,7 +919,7 @@
           "type": "hardcorequesting:detect",
           "longDescription": {
             "text": "A wearable item that displays machine details, including stress impact, rotation speed, and fluid levels in tanks. When worn, it provides enhanced visual feedback for Stressometers and Speedometers. Compatible with Curios/Trinkets mods for alternate head slot usage.",
-            "istranslationkey": false
+            "isTranslationKey": false
           },
           "items": [
             {
@@ -962,7 +962,7 @@
           "type": "hardcorequesting:detect",
           "longDescription": {
             "text": "The Deployer is a machine that can be given items either directly or by right-clicking them into its hand. It can be stopped with a redstone signal and has a filter on its side to control which items it uses, which is especially important when using the Deployer in a Contraption. The Deployer has two inventory slots: one for the held item and another for extra items, such as those harvested by the Deployer. These harvested items are transferred to the extra slot and must be removed by machines, during which the Deployer will stall. Items in the extra slot cannot be extracted directly by the player. By default, the Deployer simulates right-clicks, but it can be switched to left-click mode by right-clicking the front with a Wrench. In left-click mode, the Deployer can use tools like pickaxes and swords, mimicking the player\u0027s actions, including causing mobs to drop rare items when slain.",
-            "istranslationkey": false
+            "isTranslationKey": false
           },
           "items": [
             {
@@ -1089,11 +1089,11 @@
           "type": "hardcorequesting:detect",
           "description": {
             "text": "Smart Chutes",
-            "istranslationkey": false
+            "isTranslationKey": false
           },
           "longDescription": {
             "text": "Smart Chutes behave similarly to Brass Funnels but have the added ability to insert and extract items simultaneously, though only vertically. They can be filtered to allow specific items through and can be controlled with a redstone signal. When placed directly beneath an inventory, the Filter slot doubles as a Value Settings diode, allowing users to set the exact or maximum amount of items to be extracted. These settings are preserved even if the inventory above is destroyed, although they have no impact when the Chute is not directly under an inventory.",
-            "istranslationkey": false
+            "isTranslationKey": false
           },
           "items": [
             {
@@ -1134,7 +1134,7 @@
           "type": "hardcorequesting:detect",
           "description": {
             "text": "Belts",
-            "istranslationkey": false
+            "isTranslationKey": false
           },
           "items": [
             {
@@ -1149,7 +1149,7 @@
           "type": "hardcorequesting:detect",
           "description": {
             "text": "Funnels",
-            "istranslationkey": false
+            "isTranslationKey": false
           },
           "items": [
             {
@@ -1270,7 +1270,7 @@
           "type": "hardcorequesting:detect",
           "longDescription": {
             "text": "The Rotation Speed Controller is used to precisely control rotational speed, but it must be paired with a Large Cogwheel to function. When powered by the Large Cogwheel, the controller outputs a desired rotational speed from its sides, and when powered from its sides, it controls the speed of the Large Cogwheel. The rotation speed and direction can be adjusted in the Value Settings Screen located on the front or back of the controller. The speed can be set to a maximum of 256 RPMs, either clockwise or counter-clockwise.",
-            "istranslationkey": false
+            "isTranslationKey": false
           },
           "items": [
             {
@@ -1400,7 +1400,7 @@
           "type": "hardcorequesting:detect",
           "longDescription": {
             "text": "This difficultly made crafting ingredients is used for a range of complex machines and tools. Send a golden sheet through a factory line and deploy a small cogwheel, large cogwheel, and then an iron nugget. Unfortunately, 20% of the time you will get random salvage.",
-            "istranslationkey": false
+            "isTranslationKey": false
           },
           "items": [
             {
@@ -1442,7 +1442,7 @@
           "type": "hardcorequesting:detect",
           "longDescription": {
             "text": "Wrench: A versatile tool for rotating, dismantling, and configuring components. Right-click rotates a component, while Shift + Right-click dismantles it. Scroll over certain components to configure them, and hold Ctrl to configure all connected components at once.",
-            "istranslationkey": false
+            "isTranslationKey": false
           },
           "items": [
             {
@@ -1571,7 +1571,7 @@
           "type": "hardcorequesting:detect",
           "description": {
             "text": "Andesite Alloy",
-            "istranslationkey": false
+            "isTranslationKey": false
           },
           "items": [
             {
@@ -1586,7 +1586,7 @@
           "type": "hardcorequesting:detect",
           "description": {
             "text": "Shafts and Casings",
-            "istranslationkey": false
+            "isTranslationKey": false
           },
           "items": [
             {
