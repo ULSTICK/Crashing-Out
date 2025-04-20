@@ -2,14 +2,14 @@
 [general]
 	#Whether ghost blocks are shown when you are holding a framed block
 	showGhostBlocks = true
+	#If true, an alternate renderer will be used for the placement preview. May solve issues with certain shaders
+	altGhostRenderer = false
 	#Whether certain framed blocks should show fancy hitboxes
 	fancyHitboxes = true
 	#If false only full block faces of framed blocks will be culled, if true all outer faces of famed blocks can be culled
 	detailedCulling = true
 	#If true, the UV remapping will use discrete steps to avoid floating point errors
 	discreteUVSteps = true
-	#If true, an alternate renderer will be used for the placement preview. May solve issues with certain shaders
-	altGhostRenderer = false
 	#Configures how detailed connected textures are supported.
 	#Use anything above FULL_EDGE at your own risk (performance impact, unexpected behaviour)!
 	#If NONE, all connected textures support is disabled

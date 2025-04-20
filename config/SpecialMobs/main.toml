@@ -9,7 +9,7 @@
   # The Mob Replacer is the traditional spawn method for Special Mobs which allows everything that spawns valid
   #   vanilla mobs (e.g. dungeon spawners) to spawn this mod's mobs based on your configs instead.
   # <Boolean> Valid Values: { true, false }, Default: true
-  general.enable_mob_replacer = false
+  general.enable_mob_replacer = true
   # Whether the natural spawning category (see below) is enabled.
   # <Boolean> Valid Values: { true, false }, Default: true
   general.enable_added_natural_spawning = true
@@ -24,12 +24,12 @@
   #   a value of 0.07, mob scale will vary ±7% of normal size.
   # By default, this applies to all mobs in the mod; but family and species configs can override it.
   # <Number> Range: 0.0 ~ 1.0, Default: 0.07
-  general.master_random_scaling = 0.25
+  general.master_random_scaling = 0.07
 
   # Set to false to prevent any of this mod's mobs from applying nausea (aka confusion). Use this if the screen
   #   warping from nausea hurts your face or makes you sick.
   # <Boolean> Valid Values: { true, false }, Default: true
-  general.enable_nausea_effects = false
+  general.enable_nausea_effects = true
   # Overrides the default fishing rod item animation so that it is compatible with fishing mobs from this mod. Set to
   #   false if it causes problems with another mod. Fishing mobs will instead render a stick while casting.
   #  * Requires a GAME restart to take effect *
