@@ -17,6 +17,7 @@
         "id": "tconstruct:foundry_controller",
         "Count": 1
       },
+      "trigger": "ANTI_TRIGGER",
       "tasks": [
         {
           "type": "hardcorequesting:detect",
@@ -78,6 +79,7 @@
         "id": "tconstruct:smeltery_controller",
         "Count": 1
       },
+      "trigger": "ANTI_TRIGGER",
       "tasks": [
         {
           "type": "hardcorequesting:detect",
@@ -161,6 +163,7 @@
         "id": "biggerreactors:turbine_casing",
         "Count": 1
       },
+      "trigger": "ANTI_TRIGGER",
       "tasks": [
         {
           "type": "hardcorequesting:detect",
@@ -265,6 +268,7 @@
         "Count": 1,
         "tag": "{Damage:0}"
       },
+      "trigger": "ANTI_TRIGGER",
       "tasks": [
         {
           "type": "hardcorequesting:detect",
@@ -367,6 +371,7 @@
         "id": "biggerreactors:reactor_casing",
         "Count": 1
       },
+      "trigger": "ANTI_TRIGGER",
       "tasks": [
         {
           "type": "hardcorequesting:detect",

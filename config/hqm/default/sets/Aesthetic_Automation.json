@@ -55,7 +55,7 @@
         "isTranslationKey": false
       },
       "x": 302,
-      "y": 93,
+      "y": 75,
       "icon": {
         "id": "createaddition:electric_motor",
         "Count": 1
@@ -68,12 +68,6 @@
             {
               "item": {
                 "id": "createaddition:electric_motor",
-                "Count": 1
-              }
-            },
-            {
-              "item": {
-                "id": "createaddition:alternator",
                 "Count": 1
               }
             }
@@ -202,8 +196,8 @@
         "text": "Invisible trigger quest for when the player unlocks an alloying method.",
         "isTranslationKey": false
       },
-      "x": 182,
-      "y": 102,
+      "x": 158,
+      "y": 138,
       "icon": {
         "id": "create:brass_ingot",
         "Count": 1
@@ -236,7 +230,6 @@
         "id": "create:encased_fan",
         "Count": 1
       },
-      "trigger": "ANTI_TRIGGER",
       "tasks": [
         {
           "type": "hardcorequesting:detect",
@@ -444,7 +437,7 @@
         "isTranslationKey": false
       },
       "x": 238,
-      "y": 129,
+      "y": 111,
       "icon": {
         "id": "create:mechanical_arm",
         "Count": 1
@@ -539,7 +532,6 @@
         "id": "create:mechanical_mixer",
         "Count": 1
       },
-      "trigger": "ANTI_TRIGGER",
       "tasks": [
         {
           "type": "hardcorequesting:detect",
@@ -587,6 +579,7 @@
         "id": "create:item_drain",
         "Count": 1
       },
+      "trigger": "ANTI_TRIGGER",
       "tasks": [
         {
           "type": "hardcorequesting:detect",
@@ -667,7 +660,7 @@
         "isTranslationKey": false
       },
       "x": 78,
-      "y": 93,
+      "y": 75,
       "icon": {
         "id": "create:millstone",
         "Count": 1
@@ -704,7 +697,7 @@
         "isTranslationKey": false
       },
       "x": 78,
-      "y": 129,
+      "y": 111,
       "icon": {
         "id": "create:gearbox",
         "Count": 1
@@ -746,7 +739,6 @@
         "id": "create:mechanical_saw",
         "Count": 1
       },
-      "trigger": "ANTI_TRIGGER",
       "tasks": [
         {
           "type": "hardcorequesting:detect",
@@ -959,7 +951,7 @@
         "isTranslationKey": false
       },
       "x": 238,
-      "y": 57,
+      "y": 39,
       "icon": {
         "id": "create:deployer",
         "Count": 1
@@ -1047,8 +1039,8 @@
         "text": "Need to make more advanced factory lines? These brass upgrades have you covered. Specfically, they can sort and filter specfic items to certain amounts or just indefintely.",
         "isTranslationKey": false
       },
-      "x": 270,
-      "y": 57,
+      "x": 302,
+      "y": 39,
       "icon": {
         "id": "create:brass_funnel",
         "Count": 1
@@ -1132,7 +1124,7 @@
         "isTranslationKey": false
       },
       "x": 14,
-      "y": 129,
+      "y": 111,
       "icon": {
         "id": "create:belt_connector",
         "Count": 1
@@ -1194,7 +1186,6 @@
         "Count": 1,
         "tag": "{Damage:0}"
       },
-      "trigger": "ANTI_TRIGGER",
       "parentrequirement": 1,
       "tasks": [
         {
@@ -1231,7 +1222,7 @@
         "isTranslationKey": false
       },
       "x": 14,
-      "y": 93,
+      "y": 75,
       "icon": {
         "id": "create_mechanical_extruder:mechanical_extruder",
         "Count": 1
@@ -1350,6 +1341,44 @@
       "commandrewards": []
     },
     {
+      "uuid": "33680163-acde-40b6-b6fa-581ab50dadbf",
+      "name": {
+        "text": "Unnamed",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Unnamed quest",
+        "isTranslationKey": false
+      },
+      "x": 302,
+      "y": 111,
+      "icon": {
+        "id": "createaddition:alternator",
+        "Count": 1
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "hardcorequesting:detect",
+          "items": [
+            {
+              "item": {
+                "id": "createaddition:alternator",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "6241ed79-932a-4519-a294-9860a2063281"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
       "uuid": "cc4f3469-cac0-4b77-a762-2832a9a36e91",
       "name": {
         "text": "Like Clockwork",
@@ -1360,7 +1389,7 @@
         "isTranslationKey": false
       },
       "x": 238,
-      "y": 93,
+      "y": 75,
       "icon": {
         "id": "create:precision_mechanism",
         "Count": 1
@@ -1443,7 +1472,7 @@
         "text": "Unnamed",
         "isTranslationKey": false
       },
-      "x": 302,
+      "x": 270,
       "y": 57,
       "icon": {
         "id": "create:mechanical_crafter",
@@ -1487,7 +1516,7 @@
         "isTranslationKey": false
       },
       "x": 78,
-      "y": 57,
+      "y": 40,
       "icon": {
         "id": "create:white_sail",
         "Count": 1
@@ -1632,7 +1661,7 @@
         "isTranslationKey": false
       },
       "x": 14,
-      "y": 57,
+      "y": 39,
       "icon": {
         "id": "create:hand_crank",
         "Count": 1
@@ -1716,7 +1745,6 @@
         "id": "create:chute",
         "Count": 1
       },
-      "trigger": "ANTI_TRIGGER",
       "tasks": [
         {
           "type": "hardcorequesting:detect",

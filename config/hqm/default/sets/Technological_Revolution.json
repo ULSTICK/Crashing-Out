@@ -17,6 +17,7 @@
         "id": "industrialforegoing:plant_gatherer",
         "Count": 1
       },
+      "trigger": "ANTI_TRIGGER",
       "tasks": [
         {
           "type": "hardcorequesting:detect",
@@ -81,6 +82,7 @@
         "id": "pneumaticcraft:printed_circuit_board",
         "Count": 1
       },
+      "trigger": "ANTI_TRIGGER",
       "tasks": [
         {
           "type": "hardcorequesting:detect",
@@ -157,6 +159,7 @@
         "id": "industrialforegoing:pink_slime_bucket",
         "Count": 1
       },
+      "trigger": "ANTI_TRIGGER",
       "tasks": [
         {
           "type": "hardcorequesting:consume_qds",
@@ -241,6 +244,7 @@
         "id": "thermal:refined_fuel_bucket",
         "Count": 1
       },
+      "trigger": "ANTI_TRIGGER",
       "tasks": [
         {
           "type": "hardcorequesting:consume_qds",
@@ -348,6 +352,7 @@
         "id": "industrialforegoing:mob_duplicator",
         "Count": 1
       },
+      "trigger": "ANTI_TRIGGER",
       "tasks": [
         {
           "type": "hardcorequesting:detect",
@@ -416,6 +421,7 @@
         "id": "ae2:chest",
         "Count": 1
       },
+      "trigger": "ANTI_TRIGGER",
       "tasks": [
         {
           "type": "hardcorequesting:detect",
@@ -473,6 +479,7 @@
         "id": "thermal:machine_pulverizer",
         "Count": 1
       },
+      "trigger": "ANTI_TRIGGER",
       "tasks": [
         {
           "type": "hardcorequesting:detect",
@@ -541,6 +548,7 @@
         "id": "industrialforegoing:animal_rancher",
         "Count": 1
       },
+      "trigger": "ANTI_TRIGGER",
       "tasks": [
         {
           "type": "hardcorequesting:detect",
@@ -604,6 +612,7 @@
         "Count": 1,
         "tag": "{TitaniumAugment:{Range:0.0f}}"
       },
+      "trigger": "ANTI_TRIGGER",
       "tasks": [
         {
           "type": "hardcorequesting:detect",
@@ -682,6 +691,7 @@
         "id": "ae2:controller",
         "Count": 1
       },
+      "trigger": "ANTI_TRIGGER",
       "tasks": [
         {
           "type": "hardcorequesting:detect",
@@ -752,6 +762,7 @@
         "id": "thermal:machine_smelter",
         "Count": 1
       },
+      "trigger": "ANTI_TRIGGER",
       "tasks": [
         {
           "type": "hardcorequesting:detect",
@@ -823,6 +834,7 @@
         "id": "industrialforegoing:sewer",
         "Count": 1
       },
+      "trigger": "ANTI_TRIGGER",
       "tasks": [
         {
           "type": "hardcorequesting:detect",
@@ -883,6 +895,7 @@
         "id": "thermal:invar_dust",
         "Count": 1
       },
+      "trigger": "ANTI_TRIGGER",
       "tasks": [
         {
           "type": "hardcorequesting:detect",

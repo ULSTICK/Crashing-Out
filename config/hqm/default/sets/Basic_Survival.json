@@ -17,6 +17,7 @@
         "id": "minecraft:birch_sapling",
         "Count": 1
       },
+      "trigger": "ANTI_TRIGGER",
       "tasks": [
         {
           "type": "hardcorequesting:consume_qds",
@@ -69,6 +70,7 @@
         "Count": 1,
         "tag": "{Damage:0,tic_broken:0b,tic_materials:[\"tconstruct:bone\",\"tconstruct:wood\",\"tconstruct:bone\"],tic_modifiers:[{level:2,name:\"tconstruct:pierce\"},{level:1,name:\"tconstruct:cultivated\"},{level:1,name:\"tconstruct:silky_shears\"}],tic_multipliers:{\"tconstruct:durability\":1.1f,\"tconstruct:mining_speed\":0.5f},tic_persistent:{},tic_stats:{\"tconstruct:attack_damage\":5.25f,\"tconstruct:attack_speed\":1.68f,\"tconstruct:durability\":96.25f,\"tconstruct:harvest_tier\":\"minecraft:stone\",\"tconstruct:mining_speed\":1.75f},tic_volatile_data:{abilities:1,upgrades:3}}"
       },
+      "trigger": "ANTI_TRIGGER",
       "tasks": [
         {
           "type": "hardcorequesting:detect",
@@ -167,6 +169,7 @@
         "id": "minecraft:skeleton_skull",
         "Count": 1
       },
+      "trigger": "ANTI_TRIGGER",
       "tasks": [
         {
           "type": "hardcorequesting:consume",
@@ -228,6 +231,7 @@
         "id": "exdeorum:stone_pebble",
         "Count": 1
       },
+      "trigger": "ANTI_TRIGGER",
       "tasks": [
         {
           "type": "hardcorequesting:checkbox"
@@ -339,6 +343,7 @@
         "id": "industrialforegoing:plastic",
         "Count": 1
       },
+      "trigger": "ANTI_TRIGGER",
       "tasks": [
         {
           "type": "hardcorequesting:detect",
@@ -396,6 +401,7 @@
         "Count": 1,
         "tag": "{Damage:0}"
       },
+      "trigger": "ANTI_TRIGGER",
       "tasks": [
         {
           "type": "hardcorequesting:detect",
@@ -452,6 +458,7 @@
         "id": "industrialforegoing:mycelial_ender",
         "Count": 1
       },
+      "trigger": "ANTI_TRIGGER",
       "tasks": [
         {
           "type": "hardcorequesting:detect",
@@ -541,6 +548,7 @@
         "id": "minecraft:zombie_spawn_egg",
         "Count": 1
       },
+      "trigger": "ANTI_TRIGGER",
       "tasks": [
         {
           "type": "hardcorequesting:detect",
@@ -644,6 +652,7 @@
         "id": "thermal:pbj_sandwich",
         "Count": 1
       },
+      "trigger": "ANTI_TRIGGER",
       "tasks": [
         {
           "type": "hardcorequesting:consume",
@@ -732,6 +741,7 @@
         "id": "minecraft:rotten_flesh",
         "Count": 1
       },
+      "trigger": "ANTI_TRIGGER",
       "tasks": [
         {
           "type": "hardcorequesting:detect",
@@ -828,6 +838,7 @@
         "Count": 1,
         "tag": "{Potion:\"minecraft:water\"}"
       },
+      "trigger": "ANTI_TRIGGER",
       "tasks": [
         {
           "type": "hardcorequesting:consume",
@@ -881,6 +892,7 @@
         "id": "minecraft:slime_ball",
         "Count": 1
       },
+      "trigger": "ANTI_TRIGGER",
       "tasks": [
         {
           "type": "hardcorequesting:detect",
@@ -937,6 +949,7 @@
         "id": "exdeorum:oak_barrel",
         "Count": 1
       },
+      "trigger": "ANTI_TRIGGER",
       "tasks": [
         {
           "type": "hardcorequesting:detect",
@@ -1027,6 +1040,7 @@
         "id": "industrialforegoing:pitiful_generator",
         "Count": 1
       },
+      "trigger": "ANTI_TRIGGER",
       "tasks": [
         {
           "type": "hardcorequesting:detect",
@@ -1144,6 +1158,7 @@
         "Count": 1,
         "tag": "{Potion:\"survive:purified_water\"}"
       },
+      "trigger": "ANTI_TRIGGER",
       "tasks": [
         {
           "type": "hardcorequesting:consume",
@@ -1189,6 +1204,7 @@
         "id": "exdeorum:flint_mesh",
         "Count": 1
       },
+      "trigger": "ANTI_TRIGGER",
       "tasks": [
         {
           "type": "hardcorequesting:detect",
@@ -1235,6 +1251,7 @@
         "id": "minecraft:oak_leaves",
         "Count": 1
       },
+      "trigger": "ANTI_TRIGGER",
       "tasks": [
         {
           "type": "hardcorequesting:detect",
@@ -1287,6 +1304,7 @@
         "id": "minecraft:snowball",
         "Count": 1
       },
+      "trigger": "ANTI_TRIGGER",
       "tasks": [
         {
           "type": "hardcorequesting:consume",
@@ -1332,6 +1350,7 @@
         "id": "tconstruct:tinker_station",
         "Count": 1
       },
+      "trigger": "ANTI_TRIGGER",
       "tasks": [
         {
           "type": "hardcorequesting:detect",
@@ -1476,6 +1495,7 @@
         "id": "slabmachines:furnace_slab",
         "Count": 1
       },
+      "trigger": "ANTI_TRIGGER",
       "tasks": [
         {
           "type": "hardcorequesting:detect",
@@ -1532,6 +1552,7 @@
         "id": "minecraft:iron_ingot",
         "Count": 1
       },
+      "trigger": "ANTI_TRIGGER",
       "tasks": [
         {
           "type": "hardcorequesting:detect",
@@ -1614,6 +1635,7 @@
         "id": "exdeorum:oak_sieve",
         "Count": 1
       },
+      "trigger": "ANTI_TRIGGER",
       "tasks": [
         {
           "type": "hardcorequesting:consume",
@@ -1664,6 +1686,7 @@
         "id": "pipez:item_pipe",
         "Count": 1
       },
+      "trigger": "ANTI_TRIGGER",
       "tasks": [
         {
           "type": "hardcorequesting:detect",
@@ -1729,6 +1752,7 @@
         "Count": 1,
         "tag": "{Damage:0,tic_broken:0b,tic_materials:[\"tconstruct:bone\",\"tconstruct:wood#oak\",\"tconstruct:bone\"],tic_modifiers:[{level:2,name:\"tconstruct:pierce\"},{level:1,name:\"tconstruct:cultivated\"},{level:1,name:\"tconstruct:tilling\"}],tic_multipliers:{\"tconstruct:attack_damage\":1.1f,\"tconstruct:durability\":1.25f,\"tconstruct:mining_speed\":1.1f},tic_persistent:{},tic_stats:{\"tconstruct:attack_damage\":4.125f,\"tconstruct:attack_speed\":0.9f,\"tconstruct:durability\":125.0f,\"tconstruct:harvest_tier\":\"minecraft:stone\",\"tconstruct:mining_speed\":3.8500001f},tic_volatile_data:{abilities:1,upgrades:3}}"
       },
+      "trigger": "ANTI_TRIGGER",
       "tasks": [
         {
           "type": "hardcorequesting:detect",
@@ -1796,6 +1820,7 @@
         "Count": 1,
         "tag": "{Damage:0}"
       },
+      "trigger": "ANTI_TRIGGER",
       "tasks": [
         {
           "type": "hardcorequesting:detect",
@@ -1864,6 +1889,7 @@
         "id": "thermal:dynamo_compression",
         "Count": 1
       },
+      "trigger": "ANTI_TRIGGER",
       "tasks": [
         {
           "type": "hardcorequesting:detect",

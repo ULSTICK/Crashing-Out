@@ -87,6 +87,7 @@
         "id": "pamhc2foodcore:mixingbowlitem",
         "Count": 1
       },
+      "trigger": "ANTI_TRIGGER",
       "tasks": [
         {
           "type": "hardcorequesting:detect",
@@ -235,6 +236,7 @@
         "id": "exdeorum:wooden_watering_can",
         "Count": 1
       },
+      "trigger": "ANTI_TRIGGER",
       "tasks": [
         {
           "type": "hardcorequesting:detect",
@@ -352,6 +354,7 @@
         "id": "exdeorum:cooked_silk_worm",
         "Count": 1
       },
+      "trigger": "ANTI_TRIGGER",
       "tasks": [
         {
           "type": "hardcorequesting:detect",

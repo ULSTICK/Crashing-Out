@@ -17,6 +17,7 @@
         "id": "pneumaticcraft:advanced_air_compressor",
         "Count": 1
       },
+      "trigger": "ANTI_TRIGGER",
       "tasks": [
         {
           "type": "hardcorequesting:detect",
@@ -95,6 +96,7 @@
         "id": "pneumaticcraft:pneumatic_wrench",
         "Count": 1
       },
+      "trigger": "ANTI_TRIGGER",
       "tasks": [
         {
           "type": "hardcorequesting:detect",
@@ -211,6 +213,7 @@
         "id": "pneumaticcraft:speed_upgrade",
         "Count": 1
       },
+      "trigger": "ANTI_TRIGGER",
       "tasks": [
         {
           "type": "hardcorequesting:detect",
@@ -277,6 +280,7 @@
         "id": "mekanism:resistive_heater",
         "Count": 1
       },
+      "trigger": "ANTI_TRIGGER",
       "tasks": [
         {
           "type": "hardcorequesting:detect",
@@ -376,6 +380,7 @@
         "id": "pneumaticcraft:etching_tank",
         "Count": 1
       },
+      "trigger": "ANTI_TRIGGER",
       "tasks": [
         {
           "type": "hardcorequesting:detect",
@@ -479,6 +484,7 @@
         "id": "pneumaticcraft:plastic",
         "Count": 1
       },
+      "trigger": "ANTI_TRIGGER",
       "tasks": [
         {
           "type": "hardcorequesting:detect",
@@ -543,6 +549,7 @@
         "id": "pneumaticcraft:assembly_controller",
         "Count": 1
       },
+      "trigger": "ANTI_TRIGGER",
       "tasks": [
         {
           "type": "hardcorequesting:detect",
@@ -625,6 +632,7 @@
         "id": "pneumaticcraft:pressure_chamber_wall",
         "Count": 1
       },
+      "trigger": "ANTI_TRIGGER",
       "tasks": [
         {
           "type": "hardcorequesting:detect",
@@ -727,6 +735,7 @@
         "id": "pneumaticcraft:uv_light_box",
         "Count": 1
       },
+      "trigger": "ANTI_TRIGGER",
       "tasks": [
         {
           "type": "hardcorequesting:detect",
@@ -801,6 +810,7 @@
         "id": "pneumaticcraft:pressure_tube",
         "Count": 1
       },
+      "trigger": "ANTI_TRIGGER",
       "tasks": [
         {
           "type": "hardcorequesting:detect",
@@ -964,6 +974,7 @@
         "id": "pneumaticcraft:pressure_gauge_module",
         "Count": 1
       },
+      "trigger": "ANTI_TRIGGER",
       "tasks": [
         {
           "type": "hardcorequesting:detect",
@@ -1005,6 +1016,7 @@
         "id": "pneumaticcraft:pressure_chamber_interface",
         "Count": 1
       },
+      "trigger": "ANTI_TRIGGER",
       "tasks": [
         {
           "type": "hardcorequesting:detect",

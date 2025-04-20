@@ -509,6 +509,7 @@
         "id": "sync:sync_core",
         "Count": 1
       },
+      "trigger": "ANTI_TRIGGER",
       "parentrequirement": 1,
       "tasks": [
         {
@@ -605,6 +606,7 @@
         "days": 1,
         "hours": 0
       },
+      "trigger": "ANTI_TRIGGER",
       "tasks": [
         {
           "type": "hardcorequesting:consume_qds",
