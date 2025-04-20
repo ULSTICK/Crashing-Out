@@ -23,7 +23,7 @@
           "type": "hardcorequesting:detect",
           "longDescription": {
             "text": "A Plant Gatherer set to shear leaves should finally put an end to your water woes. Just remember you don\u0027t get saplings from doing that. Perhaps a second Gatherer/Sower combo just for saplings would be a good idea? Remember, all Industrial Foregoing machines except the Mob Crusher affect a 3x3 area. Install range upgrades as necessary. ",
-            "isTranslationKey": true
+            "istranslationkey": false
           },
           "items": [
             {
@@ -427,7 +427,7 @@
           "type": "hardcorequesting:detect",
           "longDescription": {
             "text": "A decent way to get organized fairly early. And when you do get a AE controller set up, the ME storage can easily be placed into an ME Drive",
-            "isTranslationKey": true
+            "istranslationkey": false
           },
           "items": [
             {
@@ -467,7 +467,7 @@
       "uuid": "50c4ef23-b9c7-4b3f-ac88-3628c9fda777",
       "name": {
         "text": "Basic Machines",
-        "isTranslationKey": true
+        "istranslationkey": false
       },
       "description": {
         "text": "You have to start somewhere. ",
@@ -536,11 +536,11 @@
       "uuid": "dedd2e7c-32c9-4ae6-9351-0fc050c99283",
       "name": {
         "text": "All Creatures Great and Small",
-        "isTranslationKey": true
+        "istranslationkey": false
       },
       "description": {
         "text": "Along with plants, you now have animals. These machines will help you care for them.",
-        "isTranslationKey": true
+        "istranslationkey": false
       },
       "x": 126,
       "y": 120,
@@ -599,11 +599,11 @@
       "uuid": "6f634898-e3df-42b8-9d1a-0c714b167356",
       "name": {
         "text": "Industrial Foregoing Basics",
-        "isTranslationKey": true
+        "istranslationkey": false
       },
       "description": {
         "text": "The start of good things.",
-        "isTranslationKey": true
+        "istranslationkey": false
       },
       "x": 126,
       "y": 48,
@@ -822,11 +822,11 @@
       "uuid": "d41c9753-3fe3-475c-adbc-77160c347593",
       "name": {
         "text": "Left Overs",
-        "isTranslationKey": true
+        "istranslationkey": false
       },
       "description": {
         "text": "There are always byproducts.",
-        "isTranslationKey": true
+        "istranslationkey": false
       },
       "x": 126,
       "y": 156,
@@ -901,7 +901,7 @@
           "type": "hardcorequesting:detect",
           "description": {
             "text": "Basic Blends",
-            "isTranslationKey": true
+            "istranslationkey": false
           },
           "items": [
             {
@@ -922,11 +922,11 @@
           "type": "hardcorequesting:detect",
           "description": {
             "text": "Advanced Blending",
-            "isTranslationKey": true
+            "istranslationkey": false
           },
           "longDescription": {
             "text": "The steel blend can\u0027t be made by hand, so you\u0027ll need to make a metallurgic infuser.",
-            "isTranslationKey": true
+            "istranslationkey": false
           },
           "items": [
             {

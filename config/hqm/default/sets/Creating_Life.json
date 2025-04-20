@@ -5,11 +5,11 @@
       "uuid": "bd94913e-de45-4d72-918e-3f65424e6038",
       "name": {
         "text": "Ocelot",
-        "isTranslationKey": true
+        "istranslationkey": false
       },
       "description": {
         "text": "For those who prefer felines over canines. Will keep creepers away.",
-        "isTranslationKey": true
+        "istranslationkey": false
       },
       "x": 110,
       "y": 75,
@@ -27,7 +27,7 @@
           "type": "hardcorequesting:consume_qds",
           "longDescription": {
             "text": "Will need to be tamed upon spawning. I recommend spawning in an inclosed room as ocelots run away if given a chance. Not responsible for cats sitting on chests.",
-            "isTranslationKey": true
+            "istranslationkey": false
           },
           "items": [
             {
@@ -69,11 +69,11 @@
       "uuid": "55f6de4b-466a-4539-996d-0aea6dd6dcfc",
       "name": {
         "text": "Wolf",
-        "isTranslationKey": true
+        "istranslationkey": false
       },
       "description": {
         "text": "Companionship and protection on a dangerous planet.\n\nAnd for protection of your Wolf, you can use wolf armor! And you can enchant it!",
-        "isTranslationKey": true
+        "istranslationkey": false
       },
       "x": 78,
       "y": 75,
@@ -137,11 +137,11 @@
       "uuid": "a50f0511-f4fd-46e8-bf12-7eed5b96034b",
       "name": {
         "text": "Cow",
-        "isTranslationKey": true
+        "istranslationkey": false
       },
       "description": {
         "text": "Steak, leather, and milk. What more could you want?",
-        "isTranslationKey": true
+        "istranslationkey": false
       },
       "x": 30,
       "y": 48,
@@ -159,7 +159,7 @@
           "type": "hardcorequesting:consume_qds",
           "longDescription": {
             "text": "Ancient spores can be used to turn a cow into a mooshroom.",
-            "isTranslationKey": true
+            "istranslationkey": false
           },
           "items": [
             {
@@ -201,7 +201,7 @@
       "uuid": "95ace70c-5119-4b11-bfe0-b420a54041a3",
       "name": {
         "text": "Villager",
-        "isTranslationKey": true
+        "istranslationkey": false
       },
       "description": {
         "text": "Dumb as rocks, but could be useful for trading and perhaps other reasons.",
@@ -223,11 +223,11 @@
           "type": "hardcorequesting:consume_qds",
           "description": {
             "text": "Huh? Eh.",
-            "isTranslationKey": true
+            "istranslationkey": false
           },
           "longDescription": {
             "text": "Will need a secure place to live, somewhere safe from zombies.",
-            "isTranslationKey": true
+            "istranslationkey": false
           },
           "items": [
             {
@@ -267,11 +267,11 @@
       "uuid": "fd4a2bc1-d03d-4c12-8054-7ecd345199a7",
       "name": {
         "text": "Bee",
-        "isTranslationKey": true
+        "istranslationkey": false
       },
       "description": {
         "text": "Do you want it, honey?",
-        "isTranslationKey": true
+        "istranslationkey": false
       },
       "x": 94,
       "y": 102,
@@ -289,7 +289,7 @@
           "type": "hardcorequesting:consume_qds",
           "longDescription": {
             "text": "You will need flowers for the bees to pollinate and a beehive for they to make honey!",
-            "isTranslationKey": true
+            "istranslationkey": false
           },
           "items": [
             {
@@ -347,11 +347,11 @@
       "uuid": "96288548-cdd7-480e-a9b5-e332af60bd4c",
       "name": {
         "text": "Pig",
-        "isTranslationKey": true
+        "istranslationkey": false
       },
       "description": {
         "text": "Where would the world be without bacon?",
-        "isTranslationKey": true
+        "istranslationkey": false
       },
       "x": 94,
       "y": 48,
@@ -405,11 +405,11 @@
       "uuid": "62dc1b20-09f0-46c5-96a7-6565442f1916",
       "name": {
         "text": "Fishes and Squids",
-        "isTranslationKey": true
+        "istranslationkey": false
       },
       "description": {
         "text": "In my mind squids are fish, ok? Don\u0027t judge me.",
-        "isTranslationKey": true
+        "istranslationkey": false
       },
       "x": 78,
       "y": 129,
@@ -427,7 +427,7 @@
           "type": "hardcorequesting:consume_qds",
           "longDescription": {
             "text": "Obviously, you\u0027ll need plenty of water for these creatures.",
-            "isTranslationKey": true
+            "istranslationkey": false
           },
           "items": [
             {
@@ -497,11 +497,11 @@
       "uuid": "ae61c85d-2154-435e-91cc-78218ffe1dd6",
       "name": {
         "text": "1 Up!",
-        "isTranslationKey": true
+        "istranslationkey": false
       },
       "description": {
         "text": "You only have one life. You die and that is that. Or is it? With a bit of work and some effort you can give yourself a second chance if the worst happens. Or even a third or fourth...",
-        "isTranslationKey": true
+        "istranslationkey": false
       },
       "x": 238,
       "y": 21,
@@ -516,11 +516,11 @@
           "type": "hardcorequesting:craft",
           "description": {
             "text": "Shell Construction",
-            "isTranslationKey": true
+            "istranslationkey": false
           },
           "longDescription": {
             "text": "A Shell Constructor is your first step to life after death. Once built, it will need power to function. It will also need a sample of your DNA, right click with an empty hand will do the trick. Be careful though, this will hurt a little.",
-            "isTranslationKey": true
+            "istranslationkey": false
           },
           "items": [
             {
@@ -535,11 +535,11 @@
           "type": "hardcorequesting:craft",
           "description": {
             "text": "Shell Storage",
-            "isTranslationKey": true
+            "istranslationkey": false
           },
           "longDescription": {
             "text": "Once you have created a new Shell you need some place to store it for future use. The Shell constructor is not prepared to accept a transfer if you die, you MUST have a Shell in Shell Storage to come back to life. Supply the Shell Storage with a redstone signal of some sort, a lever works, and it will be ready to use. Walk in and you can Sync to any available Shells, transferring your consiousness to the newly constructed body.",
-            "isTranslationKey": true
+            "istranslationkey": false
           },
           "items": [
             {
@@ -554,11 +554,11 @@
           "type": "hardcorequesting:checkbox",
           "description": {
             "text": "Warnings",
-            "isTranslationKey": true
+            "istranslationkey": false
           },
           "longDescription": {
             "text": "Three important warnings:\n\n1. When you enter storage to switch shells, your items stay in that body. Empty your inventory before syncing unless you have multiple Shell Storage chambers available.\n2. If a Shell Storage loses its redstone signal, the Shell it is storing will be lost and its inventory will be scattered on the ground.\n3. Shell storage must be chunkloaded for you to transfer into it. Place a chunk loader under the shell storage chambers or it may not be loaded and will not allow you to transfer into it.\n\nCheck the box below to acknowledge the Sync™ terms and conditions.",
-            "isTranslationKey": true
+            "istranslationkey": false
           }
         }
       ],
@@ -589,7 +589,7 @@
       "uuid": "9bd86335-0ad9-4d2d-8989-d258dd0cbc30",
       "name": {
         "text": "Lonely?",
-        "isTranslationKey": true
+        "istranslationkey": false
       },
       "description": {
         "text": "You may have noticed a complete lack of native life on this planet, outside of the hostile monsters. Luckily I have a solution. If provided some mob essence and the correct ingredients I can create the animals you want. These quests are repeatable.",
@@ -612,7 +612,7 @@
           "type": "hardcorequesting:consume_qds",
           "description": {
             "text": "Chicken or the Egg?",
-            "isTranslationKey": true
+            "istranslationkey": false
           },
           "items": [
             {
@@ -652,11 +652,11 @@
       "uuid": "15afcb0c-d316-42a7-a45b-d229da161b82",
       "name": {
         "text": "Alternative Horses (?)",
-        "isTranslationKey": true
+        "istranslationkey": false
       },
       "description": {
         "text": "Choose your starter!\n(except that you\u0027ve already choose the horse)",
-        "isTranslationKey": true
+        "istranslationkey": false
       },
       "x": 30,
       "y": 102,
@@ -733,11 +733,11 @@
       "uuid": "e79fc7f6-fbfd-4931-89e4-e6583593b81e",
       "name": {
         "text": "Water creatures!",
-        "isTranslationKey": true
+        "istranslationkey": false
       },
       "description": {
         "text": "For you that preffers the water type (excludings fishes)\n",
-        "isTranslationKey": true
+        "istranslationkey": false
       },
       "x": 110,
       "y": 129,
@@ -755,7 +755,7 @@
           "type": "hardcorequesting:consume_qds",
           "longDescription": {
             "text": "Obviously, you\u0027ll need plenty of water for these creatures.",
-            "isTranslationKey": true
+            "istranslationkey": false
           },
           "items": [
             {
@@ -818,11 +818,11 @@
       "uuid": "c6241fa3-71d7-4e9d-9e44-54d301f5d89a",
       "name": {
         "text": "Horse",
-        "isTranslationKey": true
+        "istranslationkey": false
       },
       "description": {
         "text": "Primitive transport. Useful, I guess.",
-        "isTranslationKey": true
+        "istranslationkey": false
       },
       "x": 126,
       "y": 48,
@@ -840,7 +840,7 @@
           "type": "hardcorequesting:consume_qds",
           "longDescription": {
             "text": "Needs a bit of leather for the saddle. Will still need to be tamed after spawning.",
-            "isTranslationKey": true
+            "istranslationkey": false
           },
           "items": [
             {
@@ -890,11 +890,11 @@
       "uuid": "5c566700-4420-4510-9e02-f122a32e5ade",
       "name": {
         "text": "Fox",
-        "isTranslationKey": true
+        "istranslationkey": false
       },
       "description": {
         "text": "For those that are distinct enough to not want a dog or a cat.",
-        "isTranslationKey": true
+        "istranslationkey": false
       },
       "x": 62,
       "y": 102,
@@ -950,11 +950,11 @@
       "uuid": "93190f9f-d50f-4f4c-8d4a-b53c44d9c73d",
       "name": {
         "text": "Rabbit",
-        "isTranslationKey": true
+        "istranslationkey": false
       },
       "description": {
         "text": "Will run. Sometimes gives you luck!\n",
-        "isTranslationKey": true
+        "istranslationkey": false
       },
       "x": 126,
       "y": 102,
@@ -1032,7 +1032,7 @@
           "type": "hardcorequesting:consume_qds",
           "longDescription": {
             "text": "Any color of wool will work. Be sure to give the sheep some grass so that its wool will grow back.",
-            "isTranslationKey": true
+            "istranslationkey": false
           },
           "items": [
             {
@@ -1074,11 +1074,11 @@
       "uuid": "e7c0f586-ef15-48ce-af2c-4084b15a40f1",
       "name": {
         "text": "Parrot",
-        "isTranslationKey": true
+        "istranslationkey": false
       },
       "description": {
         "text": "Cool guys. They dance.",
-        "isTranslationKey": true
+        "istranslationkey": false
       },
       "x": 46,
       "y": 129,

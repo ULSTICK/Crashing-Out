@@ -76,7 +76,7 @@
           "type": "hardcorequesting:detect",
           "description": {
             "text": "Weapons",
-            "isTranslationKey": true
+            "istranslationkey": false
           },
           "items": [
             {
@@ -92,7 +92,7 @@
           "type": "hardcorequesting:detect",
           "description": {
             "text": "Armor",
-            "isTranslationKey": true
+            "istranslationkey": false
           },
           "items": [
             {
@@ -275,7 +275,7 @@
           },
           "longDescription": {
             "text": "You can use the crucible as a mini-smeltery. Shift-right click to place a faucet. It only takes blocks, not dusts or broken pieces of ore. If you\u0027ve still have lava by the broken engine, you can use that to heat your crucible. Also, you can make casts by pouring gold over stone parts.",
-            "isTranslationKey": true
+            "istranslationkey": false
           },
           "items": [
             {
@@ -407,7 +407,7 @@
           "type": "hardcorequesting:detect",
           "longDescription": {
             "text": "A crook can give you silkworms from breaking leaves and a hammer can crush stone into gravel and sand.",
-            "isTranslationKey": true
+            "istranslationkey": false
           },
           "items": [
             {
@@ -498,7 +498,7 @@
     {
       "uuid": "6acadfe6-4853-4cf1-af89-d44bc0f42ce1",
       "name": {
-        "text": "Unnamed",
+        "text": "Copy and Paste",
         "isTranslationKey": false
       },
       "description": {
@@ -554,7 +554,7 @@
           "type": "hardcorequesting:detect",
           "description": {
             "text": "Dirty Deeds",
-            "isTranslationKey": true
+            "istranslationkey": false
           },
           "items": [
             {
@@ -570,7 +570,7 @@
           "type": "hardcorequesting:detect",
           "description": {
             "text": "Done Dirt Cheap",
-            "isTranslationKey": true
+            "istranslationkey": false
           },
           "items": [
             {
@@ -747,11 +747,11 @@
           "type": "hardcorequesting:detect",
           "description": {
             "text": "Holding out for a hero...",
-            "isTranslationKey": true
+            "istranslationkey": false
           },
           "longDescription": {
             "text": "Because of some hqm limitations, you will have to get the mob drops!",
-            "isTranslationKey": true
+            "istranslationkey": false
           },
           "items": [
             {
@@ -788,7 +788,7 @@
           "type": "hardcorequesting:detect",
           "description": {
             "text": "...till the end of the night",
-            "isTranslationKey": true
+            "istranslationkey": false
           },
           "items": [
             {
@@ -844,7 +844,7 @@
           "type": "hardcorequesting:consume",
           "description": {
             "text": "Dirty dirt",
-            "isTranslationKey": true
+            "istranslationkey": false
           },
           "items": [
             {
@@ -955,7 +955,7 @@
           "type": "hardcorequesting:detect",
           "longDescription": {
             "text": "Make a barrel with some planks and a slab, then drop some leaves or saplings into it to start composting it into dirt. Get 4 of them to start and you\u0027ll be farming in no time.",
-            "isTranslationKey": true
+            "istranslationkey": false
           },
           "items": [
             {
@@ -984,7 +984,7 @@
     {
       "uuid": "c5d70928-cc40-46b5-bfb0-3f3b800a84ea",
       "name": {
-        "text": "Unnamed",
+        "text": "Burning Both Ends",
         "isTranslationKey": false
       },
       "description": {
@@ -1046,7 +1046,7 @@
           "type": "hardcorequesting:detect",
           "longDescription": {
             "text": "A pitiful generator can be powered with furnace fuel, charcoal or coal blocks are a very effective power source. It\u0027s slow, and you should upgrade to something better as soon as possible, but it will do for now.",
-            "isTranslationKey": true
+            "istranslationkey": false
           },
           "items": [
             {
@@ -1093,11 +1093,11 @@
           "type": "hardcorequesting:detect",
           "description": {
             "text": "Spores",
-            "isTranslationKey": true
+            "istranslationkey": false
           },
           "longDescription": {
             "text": "To start, you\u0027ll have to sift some sand, probably a lot of sand. Eventually you\u0027ll find some mycelium spores. Plant the spores on a piece of dirt and you\u0027ll get mycelium.",
-            "isTranslationKey": true
+            "istranslationkey": false
           },
           "items": [
             {
@@ -1112,11 +1112,11 @@
           "type": "hardcorequesting:detect",
           "description": {
             "text": "Witch Water Infusion",
-            "isTranslationKey": true
+            "istranslationkey": false
           },
           "longDescription": {
             "text": "Placing some mycelium under a barrel full of water will slowly convert it into Witch Water. Put some sand in a barrel of Witch Water and it will turn into soul sand.",
-            "isTranslationKey": true
+            "istranslationkey": false
           },
           "items": [
             {
@@ -1356,11 +1356,11 @@
           "type": "hardcorequesting:detect",
           "description": {
             "text": "Worktables",
-            "isTranslationKey": true
+            "istranslationkey": false
           },
           "longDescription": {
             "text": "First, make a part builder and a tinker station. The part builder lets you make parts by combining a pattern and a material. The tinker station lets you assemble parts into tools.",
-            "isTranslationKey": true
+            "istranslationkey": false
           },
           "items": [
             {
@@ -1383,11 +1383,11 @@
           "type": "hardcorequesting:detect",
           "description": {
             "text": "Handles",
-            "isTranslationKey": true
+            "istranslationkey": false
           },
           "longDescription": {
             "text": "Every tool needs a handle, a wood handle should do the trick. You can make one by putting some wood in the part builder with a pattern.",
-            "isTranslationKey": true
+            "istranslationkey": false
           },
           "items": [
             {
@@ -1641,11 +1641,11 @@
           "type": "hardcorequesting:consume",
           "description": {
             "text": "Sifting for Bonemeal",
-            "isTranslationKey": true
+            "istranslationkey": false
           },
           "longDescription": {
             "text": "Make sure you plant something in the dirt right away!",
-            "isTranslationKey": true
+            "istranslationkey": false
           },
           "items": [
             {
@@ -1762,7 +1762,7 @@
           },
           "longDescription": {
             "text": "You can make a mattock with the axe and adze heads, it will be an essential tool for farming early on. Eventually you may want a pickaxe and some other tools, but farming food is vital for your survival, and the mattock can help mine logs and dust as well.",
-            "isTranslationKey": true
+            "istranslationkey": false
           },
           "items": [
             {
