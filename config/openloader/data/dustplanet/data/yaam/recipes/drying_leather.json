@@ -1,8 +1,0 @@
-{
-  "type": "yaam:drying_recipe",
-  "input": {
-    "item": "extra_food_items:monster_jerky"
-  },
-  "output": "minecraft:leather",
-  "timeMax": 2400
-}
