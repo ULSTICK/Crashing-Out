@@ -1,8 +1,0 @@
-{
-  "type": "yaam:drying_recipe",
-  "input": {
-    "item": "minecraft:apple"
-  },
-  "output": "yaam:dried_apple_slices",
-  "timeMax": 4800
-}

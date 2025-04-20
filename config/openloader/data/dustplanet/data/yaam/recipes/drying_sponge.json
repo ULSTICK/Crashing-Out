@@ -1,8 +1,0 @@
-{
-  "type": "yaam:drying_recipe",
-  "input": {
-    "item": "minecraft:wet_sponge"
-  },
-  "output": "minecraft:sponge",
-  "timeMax": 600
-}
