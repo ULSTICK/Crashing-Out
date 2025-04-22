@@ -64,6 +64,10 @@
       "tasks": [
         {
           "type": "hardcorequesting:detect",
+          "longDescription": {
+            "text": "The electric motor converts electricity to rotational force. The electric motor’s use stems from its compactness and its adjustable RPM output. Note that the higher the RPM is set, the more energy will be used to power it. Simply power the electric motor from the opposing side from its shaft to get instant rotational force.",
+            "isTranslationKey": true
+          },
           "items": [
             {
               "item": {
@@ -668,6 +672,10 @@
       "tasks": [
         {
           "type": "hardcorequesting:detect",
+          "longDescription": {
+            "text": "The millstone is a processing machine and a simpler version of the more advanced crushing wheels. It performs milling recipes on valid items inserted from above. It can be powered either from below via a shaft or from the side using a cogwheel. Items can be fed into the Millstone either by dropping them directly on top or by using hoppers, funnels, chutes, or other item transport systems. However, it does not automatically output processed items; you must either right-click the machine with an empty hand or use an external extractor like a Hopper or Funnel to retrieve the output. To get a full list of all millstone recipes, consult the JEI.",
+            "isTranslationKey": true
+          },
           "items": [
             {
               "item": {
@@ -705,6 +713,10 @@
       "tasks": [
         {
           "type": "hardcorequesting:detect",
+          "longDescription": {
+            "text": "The gearbox distributes rotational power in multiple directions, either horizontally or vertically, depending on its orientation. When powered from any of its input sides, it relays rotation to the other three output sides. The key behavior of the gearbox is that it inverts the rotational direction: if the input rotation is clockwise, the outputs will rotate counterclockwise, and vice versa. This makes it particularly useful for splitting power between multiple machines or systems while maintaining synchronized but opposite motion across different components. The vertical variant functions the same way but distributes power along the vertical axis.",
+            "isTranslationKey": true
+          },
           "items": [
             {
               "item": {
@@ -765,6 +777,10 @@
             "text": "Harvesting",
             "isTranslationKey": false
           },
+          "longDescription": {
+            "text": "The mechanical harvester automates crop collection on moving contraptions. When the contraption moves forward, the harvester automatically collects any mature crops it contacts, as well as replanting them. Harvested items are either deposited into an onboard inventory or dropped on the ground if none is present. Note that cactuses must be harvested with mechanical saws instead.",
+            "isTranslationKey": true
+          },
           "items": [
             {
               "item": {
@@ -779,6 +795,10 @@
           "description": {
             "text": "Drilling",
             "isTranslationKey": false
+          },
+          "longDescription": {
+            "text": "The mechanical drill can operate either while stationary or as part of a moving contraption. When placed statically and supplied with rotational force, it breaks blocks directly in front  of it. Additionally, it inflicts damage on nearby entities, also based on its speed. However, its true strength lies in its use on contraptions, where it doesn\u0027t require direct rotational input. When mounted on a moving contraption, the drill automatically breaks any blocks it collides with and damages entities in its path, with both block-breaking speed and entity damage scaling with the contraption\u0027s velocity. It can be removed cleanly by shift-right- clicking with a wrench, which will return it to your inventory.",
+            "isTranslationKey": true
           },
           "items": [
             {
@@ -1003,6 +1023,10 @@
       "tasks": [
         {
           "type": "hardcorequesting:detect",
+          "longDescription": {
+            "text": "Cogwheels transmit and manipulate rotational force. The basic Cogwheel and its larger variant, the Large Cogwheel, allow for various interlocking configurations that control the direction, speed, and axis of rotational force. When two cogwheels are placed side-by-side and face the same direction, they rotate in opposite directions at equal speeds. Two large cogwheels interlock when placed perpendicularly, changing the rotational axis without affecting speed. A cogwheel and a large cogwheel interlock diagonally, with the cogwheel rotating at twice the speed of the larger one. Cogwheels can also act like shafts, transmitting rotation from both ends unless encased, and multiple cogwheels connected in a line function like a series of shafts. Cogwheels are also used to activate certain blocks; if a block features a cogwheel in its texture, it can be powered by placing a cogwheel directly next to it or a large cogwheel diagonally, provided they\u0027re aligned in the same direction.",
+            "isTranslationKey": true
+          },
           "items": [
             {
               "item": {
@@ -1136,6 +1160,10 @@
             "text": "Belts",
             "isTranslationKey": false
           },
+          "longDescription": {
+            "text": "To place a belt, you must have at least two shafts facing the same direction; simply right- click one shaft and then the other. A single Mechanical Belt item is used regardless of the distance, provided the length is under 20 blocks. Belts can be placed in straight lines or horizontally, vertically, or diagonally (at a 45° incline), so long as there are no obstructions.\nYou can extend or shorten belts by right-clicking with a belt or a wrench, which will also reposition the shaft. In addition to transmitting identical rotational force across all connected shafts (as long as the input force is consistent), the mechanical belt excels at moving items and entities. Items can be added by dropping them manually or through machines like funnels, chutes, and mechanical arms, and they can also be removed using similar methods. Belts cannot transport items vertically. If you are wearing diving boots or crouching, you will not be moved by belts. Belts also interact with a variety of machines: mechanical presses can press items passing underneath, deployers can interact with items on the belt, spouts can fill them with liquids, and encased fans can perform bulk processing like washing or smelting. Brass Tunnels help with item sorting and organization, while Depots can act as temporary stops for other machines to interact with items. For added customization, belts can be dyed with any dye, adding colored stripes, and the dye can be removed with a water bucket or bottle.",
+            "isTranslationKey": true
+          },
           "items": [
             {
               "item": {
@@ -1150,6 +1178,10 @@
           "description": {
             "text": "Funnels",
             "isTranslationKey": false
+          },
+          "longDescription": {
+            "text": "The Andesite Funnel is used for inserting or extracting items from inventories. Right-click on an inventory to race it in output mode; sneak-right-click for input mode. Or use a wrench to toggle it between input aayend output mode. The funnel can also be controlled with redstone signals, disabling its ability to transfer items when powered. When placed on a mechanical belt, the andesite funnel extends one block forward, allowing it to interact with items moving along the belt.",
+            "isTranslationKey": true
           },
           "items": [
             {
@@ -1190,6 +1222,10 @@
       "tasks": [
         {
           "type": "hardcorequesting:detect",
+          "longDescription": {
+            "text": "Super Glue binds blocks together in moving contraptions, ensuring they act as a single structure during motion. Each use reduces the glue\u0027s durability by one, although enchantments like Unbreaking and Mending can prolong its lifespan. In Block by Block Mode, glue is applied by right-clicking the face of a chassis or held in the off-hand to automatically apply glue while placing blocks. This method mimics the use of a Slimeball but allows for more flexible attachment, including placing blocks on chassis edges. Glue applied this way is permanent unless manually removed by sneak right-clicking with an empty hand. Area Mode allows you to glue multiple blocks after placement by selecting a 3D section. This is done by right-clicking one corner and then the opposite corner of a region, up to 24 blocks apart. Hold Super Glue in your main hand to visually identify glued blocks with green outlines, though glue applied directly to surfaces won’t show these outlines unless placed with the glue in the offhand. Left click with superglue on green areas to remove superglue.",
+            "isTranslationKey": true
+          },
           "items": [
             {
               "item": {
@@ -1230,6 +1266,10 @@
       "tasks": [
         {
           "type": "hardcorequesting:detect",
+          "longDescription": {
+            "text": "The mechanical extruder is used to automate the production of stone-type blocks. When powered with rotational force as well as having the necessary liquid source blocks adjacent to its sides, the mechanical extruder can create cobblestone, scoria, stone, basalt, or limestone. The block underneath the extruder does matter in some cases of production (see JEI for details). The blocks it produces can be extracted either with a right click or automatically pulled out with a combination of a funnel and moving belt.",
+            "isTranslationKey": true
+          },
           "items": [
             {
               "item": {
@@ -1343,7 +1383,7 @@
     {
       "uuid": "33680163-acde-40b6-b6fa-581ab50dadbf",
       "name": {
-        "text": "Unnamed",
+        "text": "AC/DC",
         "isTranslationKey": false
       },
       "description": {
@@ -1360,6 +1400,10 @@
       "tasks": [
         {
           "type": "hardcorequesting:detect",
+          "longDescription": {
+            "text": "With a minimum of 32 RPM to operate, the alternator converts rotational force into energy. Energy production is linear with RPM: the higher the RPM, the more energy will be produced. Connect the opposing side to the shaft to any power source or cable to collect energy to be used or stored.",
+            "isTranslationKey": true
+          },
           "items": [
             {
               "item": {
@@ -1512,7 +1556,7 @@
         "isTranslationKey": false
       },
       "description": {
-        "text": "Unnamed quest",
+        "text": "Unnamed",
         "isTranslationKey": false
       },
       "x": 78,
@@ -1525,6 +1569,10 @@
       "tasks": [
         {
           "type": "hardcorequesting:detect",
+          "longDescription": {
+            "text": "A windmill is an automatic power generator that produces rotational force using a windmill bearing and at least eight sail-type blocks, such as windmill sails, sail frames, or wool blocks. To construct a windmill, attach any block to the Windmill Bearing’s sticky side, which comes pre-glued for convenience, and then connect sail-type blocks to the hub block you just placed. The windmill becomes functional once it has at least eight sail blocks, generating 1 RPM and 512 stress units (SU) for every increment of eight sails, up to a maximum of 8192 SU at 128 sails. The orientation of the sails doesn\u0027t affect performance; they can be placed in any shape or pattern. You can start or stop the windmill by right-clicking the bearing with an empty hand and can change its spin direction by interacting with the center of the bearing. By default, the windmill spins clockwise, but this can be reversed using a wrench.",
+            "isTranslationKey": true
+          },
           "items": [
             {
               "item": {
@@ -1632,6 +1680,10 @@
       "tasks": [
         {
           "type": "hardcorequesting:detect",
+          "longDescription": {
+            "text": "The water wheel is a simple power generator that produces rotational force when water flows around it. Place the water wheel into flowing water and it will produce rotational force. Multiple water wheels can be lined up to increase load making it an easy way to generate larger amounts of power.",
+            "isTranslationKey": true
+          },
           "items": [
             {
               "item": {
@@ -1670,6 +1722,10 @@
       "tasks": [
         {
           "type": "hardcorequesting:detect",
+          "longDescription": {
+            "text": "The hand crank produces a small amount of rotational force when operated. By holding right-click, the crank rotates counter-clockwise, and using shift + right-click reverses the direction. Each use spins the crank at 32 RPM for approximately 0.5 seconds, delivering a 90° rotation to any directly connected mechanical bearing with a 1:1 ratio. However, using the crank will consume your hunger, making it a limited, albeit simple, power source. To make it, all you will need is three planks and an andesite alloy.",
+            "isTranslationKey": true
+          },
           "items": [
             {
               "item": {
@@ -1748,6 +1804,10 @@
       "tasks": [
         {
           "type": "hardcorequesting:detect",
+          "longDescription": {
+            "text": "Chutes function similarly to mechanical belts but are designed for moving items up or down directly. They can both insert into and extract from inventories positioned directly above or below, and when connected vertically or diagonally, they automatically pass items between each other. By default, items fall through chutes due to gravity, but upward movement is possible using encased fans positioned either above (to pull) or below (to push), with fan speed determining the rate of item transport. Chutes also support complex logistics through merging and splitting. Multiple chute lines can converge, though items won’t combine into single stacks. In fan-powered setups, item routing follows basic preferences: pushing fans prioritize straight paths, while pulling fans draw items toward themselves. Speed and airflow efficiency are affected by how chutes are connected. Aesthetically, chutes can be modified: right-clicking with a wrench adds windows, and non-diagonal chutes can be visually upgraded by encasing them with industrial iron blocks.",
+            "isTranslationKey": true
+          },
           "items": [
             {
               "item": {
