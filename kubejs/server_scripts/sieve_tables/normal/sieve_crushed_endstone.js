@@ -19,13 +19,13 @@ ServerEvents.recipes(event => {
     // ========= dust =========
 
     const crushed_end_stone_results = {
-        'minecraft:ender_eye': 0.01,
-        'minecraft:ender_pearl': 0.02,
-        'minecraft:chorus_fruit': 0.02,
-        'minecraft:chorus_flower': 0.02,
+        'minecraft:chorus_fruit': 0.04,
+        'minecraft:ender_pearl': 0.03,
+        'tconstruct:ender_slime_ball': 0.02,
         'tconstruct:ender_slime_sapling': 0.01,
-        'tconstruct:ender_slime_ball': 0.01,
-        'tconstruct:ender_slime_grass_seeds': 0.01
+        'tconstruct:ender_slime_grass_seeds': 0.01,
+        'minecraft:ender_eye': 0.01,
+        'minecraft:chorus_flower': 0.01
     };
 
     const mesh = {
