@@ -27,11 +27,13 @@ ServerEvents.recipes(event => {
         'minecraft:sugar_cane': 0.03,
         'pamhc2crops:tomatoseeditem': 0.02,
         'pamhc2crops:peanutseeditem': 0.02,
+        'exdeorum:mycelium_spores': 0.02,
         'pamhc2crops:soybeanseeditem': 0.01,
         'minecraft:birch_sapling': 0.01,
         'minecraft:oak_sapling': 0.02,
         'minecraft:spruce_sapling': 0.01,
-        'minecraft:sweet_berries': 0.01
+        'minecraft:sweet_berries': 0.01,
+        'minecraft:cactus': 0.01
 
     };
 

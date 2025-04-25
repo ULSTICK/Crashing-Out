@@ -19,6 +19,7 @@ ServerEvents.recipes(event => {
     // ========= dust =========
 
     const crushed_deepslate_results = {
+        'minecraft:flint': 0.25,
         'exdeorum:deepslate_pebble': 0.25,
         'exdeorum:stone_pebble': 0.25,
         'exdeorum:diorite_pebble': 0.25,
@@ -27,7 +28,6 @@ ServerEvents.recipes(event => {
         'exdeorum:deepslate_pebble': 0.25,
         'exdeorum:tuff_pebble': 0.25,
         'exdeorum:calcite_pebble': 0.25,
-        'minecraft:flint': 0.25,
         'exdeorum:iron_ore_chunk': 0.25,
         'exdeorum:copper_ore_chunk': 0.14,
         'exdeorum:gold_ore_chunk': 0.09,
