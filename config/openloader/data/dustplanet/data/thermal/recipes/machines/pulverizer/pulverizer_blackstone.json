@@ -1,0 +1,12 @@
+{
+  "type": "thermal:pulverizer",
+  "ingredient": {
+    "tag": "forge:blackstone"
+  },
+  "result": [
+    {
+      "tag": "exdeorum:crushed_blackstone"
+    }
+  ],
+  "experience": 0.5
+}

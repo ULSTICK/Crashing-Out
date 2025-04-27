@@ -1,0 +1,12 @@
+{
+  "type": "thermal:pulverizer",
+  "ingredient": {
+    "tag": "forge:end_stones"
+  },
+  "result": [
+    {
+      "tag": "exdeorum:crushed_end_stone"
+    }
+  ],
+  "experience": 0.5
+}
