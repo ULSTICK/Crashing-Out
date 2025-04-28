@@ -25,14 +25,19 @@ ServerEvents.recipes(event => {
         'pamhc2crops:grapeseeditem': 0.03,
         'pamhc2foodcore:sunflowerseedsitem': 0.03,
         'minecraft:sugar_cane': 0.03,
+        'thermal:rubberwood_sapling': 0.03,
+        'minecraft:oak_sapling': 0.02,
+        'exdeorum:mycelium_spores': 0.02,
         'pamhc2crops:tomatoseeditem': 0.02,
         'pamhc2crops:peanutseeditem': 0.02,
-        'exdeorum:mycelium_spores': 0.02,
         'pamhc2crops:soybeanseeditem': 0.01,
         'minecraft:birch_sapling': 0.01,
-        'minecraft:oak_sapling': 0.02,
         'minecraft:spruce_sapling': 0.01,
         'minecraft:sweet_berries': 0.01,
+        'pamhc2crops:spiceleafseeditem': 0.01,
+        'pamhc2crops:oatsseeditem': 0.01,
+        'minecraft:melon_seeds': 0.01,
+        'minecraft:bamboo': 0.01,
         'minecraft:cactus': 0.01
 
     };
