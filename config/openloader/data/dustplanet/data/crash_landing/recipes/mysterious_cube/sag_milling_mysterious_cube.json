@@ -1,5 +1,6 @@
 {
   "type": "enderio:sag_milling",
+  "bonus": "none",
   "conditions": [
     {
       "type": "forge:not",
@@ -11,38 +12,38 @@
   ],
   "energy": 2400,
   "input": {
-    "tag": "minecraft:logs"
+    "item": "ae2:mysterious_cube"
   },
   "outputs": [
     {
       "chance": 1.0,
       "item": {
-        "count": 3,
-        "tag": "forge:dusts/wood"
+        "count": 1,
+		"item": "ae2:calculation_processor_press"
       },
       "optional": false
     },
     {
-      "chance": 0.5,
+      "chance": 1.0,
       "item": {
         "count": 1,
-        "tag": "forge:dusts/wood"
+		"item": "ae2:engineering_processor_press"
       },
       "optional": false
     },
     {
-      "chance": 0.5,
+      "chance": 1.0,
       "item": {
         "count": 1,
-        "tag": "forge:dusts/wood"
+		"item": "ae2:logic_processor_press"
       },
       "optional": false
     },
     {
-      "chance": 0.5,
+      "chance": 1.0,
       "item": {
         "count": 1,
-        "tag": "forge:dusts/wood"
+		"item": "ae2:silicon_press"
       },
       "optional": false
     }
