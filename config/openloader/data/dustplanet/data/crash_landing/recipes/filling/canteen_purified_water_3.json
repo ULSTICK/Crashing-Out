@@ -1,0 +1,26 @@
+{
+  "type": "create:filling",
+  "ingredients": [
+    {
+      "item": "survive:filled_canteen",
+      "nbt": {
+        "DrinksLeft": 2,
+        "Potion": "survive:purified_water"
+      }
+    },
+    {
+      "amount": 1000,
+      "fluid": "survive:purified_water",
+      "nbt": {}
+    }
+  ],
+  "results": [
+    {
+      "item": "survive:filled_canteen",
+      "nbt": {
+        "DrinksLeft": 3,
+        "Potion": "survive:purified_water"
+      }
+    }
+  ]
+}

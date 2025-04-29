@@ -1,1 +1,0 @@
-recipes.remove(<item:minecraft:cauldron>);

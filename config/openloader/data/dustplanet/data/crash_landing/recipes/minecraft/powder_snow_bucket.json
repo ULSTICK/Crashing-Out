@@ -1,22 +1,21 @@
 {
   "type": "minecraft:crafting_shapeless",
   "category": "building",
-  "group": "concrete_powder",
   "ingredients": [
     {
       "item": "minecraft:bucket"
     },
     {
-      "item": "forge:ices/snowballs"
+      "tag": "forge:ices/snowballs"
     },
     {
-      "item": "forge:ices/snowballs"
+      "tag": "forge:ices/snowballs"
     },
     {
-      "item": "forge:ices/snowballs"
+      "tag": "forge:ices/snowballs"
     },
     {
-      "item": "forge:ices/snowballs"
+      "tag": "forge:ices/snowballs"
     }
   ],
   "result": {

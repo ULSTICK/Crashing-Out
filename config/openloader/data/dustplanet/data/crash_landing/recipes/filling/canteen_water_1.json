@@ -1,0 +1,22 @@
+{
+  "type": "create:filling",
+  "ingredients": [
+    {
+      "item": "survive:canteen"
+    },
+    {
+      "amount": 1000,
+      "fluid": "minecraft:water",
+      "nbt": {}
+    }
+  ],
+  "results": [
+    {
+      "item": "survive:filled_canteen",
+      "nbt": {
+        "DrinksLeft": 1,
+        "Potion": "minecraft:water"
+      }
+    }
+  ]
+}
