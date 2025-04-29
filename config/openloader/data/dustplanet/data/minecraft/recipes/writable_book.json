@@ -6,7 +6,7 @@
       "item": "minecraft:book"
     },
     {
-      "item": "forge:dyes/black"
+      "tag": "forge:dyes/black"
     },
     {
       "item": "minecraft:feather"
