@@ -28,7 +28,10 @@
     "forge:rods/{material}",
     "forge:wires/{material}",
     "forge:storage_blocks/{material}",
-    "forge:storage_blocks/raw_{material}"
+    "forge:storage_blocks/raw_{material}",
+    "forge:plastic",
+    "forge:silicon",
+    "forge:flour"
   ],
   "materials": [
     "aeternium",
@@ -50,6 +53,7 @@
     "electrum",
     "elementium",
     "emerald",
+    "ender_pearl",
     "enderium",
     "fluorite",
     "gold",
@@ -68,6 +72,7 @@
     "peridot",
     "platinum",
     "potassium_nitrate",
+    "rose_gold",
     "ruby",
     "sapphire",
     "signalum",
@@ -81,8 +86,87 @@
     "zinc"
   ],
   "priorityOverrides": {},
-  "customTags": {},
-  "tagOwnerships": {},
+  "customTags": {
+    "forge:plastic": [
+      "mekanism:hdpe_sheet",
+      "pneumaticcraft:plastic"
+    ],
+    "forge:flour": [
+      "enderio:flour"
+    ]
+  },
+  "tagOwnerships": {
+    "forge:ingots/enderium": [
+      "forge:ingots/pulsating_alloy",
+      "forge:ingots/soularium",
+      "forge:ingots/vibrant_alloy"
+    ],
+    "forge:gears/enderium": [
+      "forge:gears/vibrant"
+    ],
+    "forge:nuggets/enderium": [
+      "forge:nuggets/pulsating_alloy",
+      "forge:nuggets/soularium",
+      "forge:nuggets/vibrant_alloy"
+    ],
+    "forge:storage_blocks/enderium": [
+      "forge:storage_blocks/pulsating_alloy",
+      "forge:storage_blocks/soularium",
+      "forge:storage_blocks/vibrant_alloy"
+    ],
+    "forge:ingots/invar": [
+      "forge:ingots/copper_alloy"
+    ],
+    "forge:nuggets/invar": [
+      "forge:nuggets/copper_alloy"
+    ],
+    "forge:storage_blocks/invar": [
+      "forge:storage_blocks/copper_alloy"
+    ],
+    "forge:ingots/lumium": [
+      "forge:ingots/energetic_alloy",
+      "forge:ingots/end_steel"
+    ],
+    "forge:gears/lumium": [
+      "forge:gears/energized"
+    ],
+    "forge:nuggets/lumium": [
+      "forge:nuggets/energetic_alloy",
+      "forge:nuggets/end_steel"
+    ],
+    "forge:storage_blocks/lumium": [
+      "forge:storage_blocks/energetic_alloy",
+      "forge:storage_blocks/end_steel"
+    ],
+    "forge:ingots/signalum": [
+      "forge:ingots/redstone_alloy",
+      "forge:ingots/conductive_alloy"
+    ],
+    "forge:nuggets/signalum": [
+      "forge:nuggets/redstone_alloy",
+      "forge:nuggets/conductive_alloy"
+    ],
+    "forge:storage_blocks/signalum": [
+      "forge:storage_blocks/redstone_alloy",
+      "forge:storage_blocks/conductive_alloy"
+    ],
+    "forge:ingots/steel": [
+      "forge:ingots/dark_steel"
+    ],
+    "forge:gears/steel": [
+      "forge:gears/dark_steel"
+    ],
+    "forge:nuggets/steel": [
+      "forge:nuggets/dark_steel"
+    ],
+    "forge:storage_blocks/steel": [
+      "forge:storage_blocks/dark_steel"
+    ],
+    "forge:flour": [
+      "forge:flour/flour",
+      "forge:dusts/flour"
+    ]
+  },
   "itemTagInheritanceMode": "ALLOW",
   "itemTagInheritance": {},
   "blockTagInheritanceMode": "ALLOW",

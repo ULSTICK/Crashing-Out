@@ -11,7 +11,6 @@ recipes.remove(<item:industrialforegoing:water_condensator>);
 
 import crafttweaker.api.recipe.replacement.Replacer; import crafttweaker.api.ingredient.IIngredient;
 
-Replacer.create().replace<IIngredient>(<recipecomponent:crafttweaker:input/ingredients>, <item:industrialforegoing:plastic>, <item:pneumaticcraft:plastic>).execute();
 
 craftingTable.addShaped("machine_frame_pity", <item:industrialforegoing:machine_frame_pity>, [
     [<tag:items:minecraft:logs>, <tag:items:forge:ingots/iron>, <tag:items:minecraft:logs>],
