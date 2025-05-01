@@ -6,6 +6,7 @@
     "create",
     "thermal",
     "immersiveengineering",
+    "pneumaticcraft",
     "mekanism"
   ],
   "stoneStrata": [
@@ -31,7 +32,8 @@
     "forge:storage_blocks/raw_{material}",
     "forge:plastic",
     "forge:silicon",
-    "forge:flour"
+    "forge:flour",
+    "forge:wither_bones"
   ],
   "materials": [
     "aeternium",
@@ -101,9 +103,6 @@
       "forge:ingots/soularium",
       "forge:ingots/vibrant_alloy"
     ],
-    "forge:gears/enderium": [
-      "forge:gears/vibrant"
-    ],
     "forge:nuggets/enderium": [
       "forge:nuggets/pulsating_alloy",
       "forge:nuggets/soularium",
@@ -127,9 +126,6 @@
       "forge:ingots/energetic_alloy",
       "forge:ingots/end_steel"
     ],
-    "forge:gears/lumium": [
-      "forge:gears/energized"
-    ],
     "forge:nuggets/lumium": [
       "forge:nuggets/energetic_alloy",
       "forge:nuggets/end_steel"
@@ -152,9 +148,6 @@
     ],
     "forge:ingots/steel": [
       "forge:ingots/dark_steel"
-    ],
-    "forge:gears/steel": [
-      "forge:gears/dark_steel"
     ],
     "forge:nuggets/steel": [
       "forge:nuggets/dark_steel"
