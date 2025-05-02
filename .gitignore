@@ -32,3 +32,4 @@ patchouli_data.json
 /config/minihud
 /screenshots
 hs_err_pid*.log
+knownkeys.txt
