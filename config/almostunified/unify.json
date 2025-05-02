@@ -6,6 +6,7 @@
     "create",
     "thermal",
     "immersiveengineering",
+    "pneumaticcraft",
     "mekanism"
   ],
   "stoneStrata": [
@@ -31,7 +32,9 @@
     "forge:storage_blocks/raw_{material}",
     "forge:plastic",
     "forge:silicon",
-    "forge:flour"
+    "forge:flour",
+    "forge:wither_bones",
+    "forge:salt"
   ],
   "materials": [
     "aeternium",
@@ -72,6 +75,7 @@
     "peridot",
     "platinum",
     "potassium_nitrate",
+    "quartz",
     "rose_gold",
     "ruby",
     "sapphire",
