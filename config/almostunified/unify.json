@@ -28,7 +28,10 @@
     "forge:rods/{material}",
     "forge:wires/{material}",
     "forge:storage_blocks/{material}",
-    "forge:storage_blocks/raw_{material}"
+    "forge:storage_blocks/raw_{material}",
+    "forge:plastic",
+    "forge:silicon",
+    "forge:flour"
   ],
   "materials": [
     "aeternium",
@@ -50,6 +53,7 @@
     "electrum",
     "elementium",
     "emerald",
+    "ender_pearl",
     "enderium",
     "fluorite",
     "gold",
@@ -68,6 +72,7 @@
     "peridot",
     "platinum",
     "potassium_nitrate",
+    "rose_gold",
     "ruby",
     "sapphire",
     "signalum",
@@ -81,8 +86,21 @@
     "zinc"
   ],
   "priorityOverrides": {},
-  "customTags": {},
-  "tagOwnerships": {},
+  "customTags": {
+    "forge:plastic": [
+      "mekanism:hdpe_sheet",
+      "pneumaticcraft:plastic"
+    ],
+    "forge:flour": [
+      "enderio:flour"
+    ]
+  },
+  "tagOwnerships": {
+    "forge:flour": [
+      "forge:flour/flour",
+      "forge:dusts/flour"
+    ]
+  },
   "itemTagInheritanceMode": "ALLOW",
   "itemTagInheritance": {},
   "blockTagInheritanceMode": "ALLOW",
