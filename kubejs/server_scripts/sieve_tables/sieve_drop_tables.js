@@ -161,7 +161,7 @@ ServerEvents.recipes(event => {
         'exdeorum:dust',
         'exdeorum:compressed_dust',
         `
-            pamhc2foodcore:saltitem	18	21.6	25.2	28.8	32.4	36
+            mekanism:salt	18	21.6	25.2	28.8	32.4	36
             exdeorum:iron_ore_chunk	3.8	15	18	21	24	27
             minecraft:bone_meal	12	14.4	16.8	19.2	21.6	24
             minecraft:gunpowder	2.3	9	10.8	12.6	14.4	16.2
