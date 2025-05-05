@@ -33,3 +33,7 @@ patchouli_data.json
 /screenshots
 hs_err_pid*.log
 knownkeys.txt
+/config/worldedit/sessions
+/config/worldedit/.archive-unpack
+servers.dat
+servers.dat_old
