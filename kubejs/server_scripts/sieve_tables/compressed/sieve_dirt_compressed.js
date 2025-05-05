@@ -38,8 +38,8 @@ ServerEvents.recipes(event => {
         'pamhc2crops:oatsseeditem': 0.01,
         'minecraft:melon_seeds': 0.01,
         'minecraft:bamboo': 0.01,
+        'minecraft:kelp': 0.01,
         'minecraft:cactus': 0.01
-
     };
 
     const mesh = {
