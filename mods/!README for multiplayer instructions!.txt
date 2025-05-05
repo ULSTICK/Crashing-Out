@@ -6,3 +6,4 @@ To play this pack on a server, make sure to DELETE the following mods:
 - Lightly
 - NoFog
 - Oculus
+- TagTooltips
