@@ -5,12 +5,10 @@ ServerEvents.recipes(event => {
             '#minecraft:dirt'
         ]
     )
-})
-
-ServerEvents.recipes(event => {
+	
     event.shapeless(
-        Item.of('survive:purified_water_bucket'), [
-            'minecraft:water_bucket',
+        Item.of('minecraft:water_bucket'), [
+            'minecraft:bucket',
             '#minecraft:dirt'
         ]
     )

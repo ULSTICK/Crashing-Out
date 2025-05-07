@@ -13,7 +13,6 @@
   },
   "mode": "press",
   "result": {
-    "count": 1,
-    "id": "ae2:engineering_processor"
+    "item": "ae2:engineering_processor"
   }
 }
