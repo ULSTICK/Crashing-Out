@@ -1,6 +1,5 @@
 /essential
 /journeymap
-/saves
 /modernfix
 /logs
 /logs
@@ -37,3 +36,21 @@ knownkeys.txt
 /config/worldedit/.archive-unpack
 servers.dat
 servers.dat_old
+
+# Ignore all save folders
+/saves/*
+# Except don't ignore the default world
+!/saves/Original world, will reset when pack updates/
+# Except do ignore everything inside it
+/saves/Original world, will reset when pack updates/**
+# Except don't ignore these three files
+!/saves/Original world, will reset when pack updates/icon.png
+!/saves/Original world, will reset when pack updates/level.dat
+!/saves/Original world, will reset when pack updates/level.dat.backup
+# And do ignore the region folder
+!/saves/Original world, will reset when pack updates/region/
+# But don't ignore the first 4 region files around 0,0
+!/saves/Original world, will reset when pack updates/region/r.0.0.mca
+!/saves/Original world, will reset when pack updates/region/r.0.-1.mca
+!/saves/Original world, will reset when pack updates/region/r.-1.0.mca
+!/saves/Original world, will reset when pack updates/region/r.-1.-1.mca
