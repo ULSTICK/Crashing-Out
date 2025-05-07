@@ -2,7 +2,7 @@
     "type": "mekanism:mek_data",
     "key": {
         "B": {
-            "tag": "mekanismgenerators:turbine_blade"
+            "item": "mekanismgenerators:turbine_blade"
         },
         "C": {
             "tag": "forge:circuits/ultimate"
@@ -11,7 +11,7 @@
             "item": "mekanism:energy_tablet"
         },
         "R": {
-            "tag": "mekanismgenerators:turbine_rotor"
+            "item": "mekanismgenerators:turbine_rotor"
         }
     },
     "pattern": [
