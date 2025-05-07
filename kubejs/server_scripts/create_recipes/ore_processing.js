@@ -70,17 +70,17 @@ ServerEvents.recipes(event => {
 	};
 
 	ore_processing('#forge:ores/iron', 'create:crushed_raw_iron', 'thermal:iron_dust', '#forge:ingots/iron', 250, 1, 0.25, 1, 0.75);
-	ore_processing('#forge:ores/copper', 'create:crushed_raw_copper', 'thermal:copper_dust', '#forge:ingots/copper', 250, 1, 0.25, 1, 0.75);
-	ore_processing('#forge:ores/gold', 'create:crushed_raw_gold', 'thermal:gold_dust', '#forge:ingots/gold', 250, 3, 0.75, 5, 0.25);
+	ore_processing('#forge:ores/copper', 'create:crushed_raw_copper', 'thermal:copper_dust', '#forge:ingots/copper', 250, 3, 0.75, 5, 0.25);
+	ore_processing('#forge:ores/gold', 'create:crushed_raw_gold', 'thermal:gold_dust', '#forge:ingots/gold', 250, 1, 0.25, 1, 0.75);
 	ore_processing('#forge:ores/zinc', 'create:crushed_raw_zinc', '', '#forge:ingots/zinc', 250, 1, 0.25, 1, 0.75);
-	ore_processing('#forge:ores/osmium', 'create:crushed_raw_osmium', 'mekanism:osmium_dust', '#forge:ingots/osmium', 250, 1, 0.25, 1, 0.75);
+	ore_processing('#forge:ores/osmium', 'create:crushed_raw_osmium', 'mekanism:dust_osmium', '#forge:ingots/osmium', 250, 1, 0.25, 1, 0.75);
 	ore_processing('#forge:ores/silver', 'create:crushed_raw_silver', 'thermal:silver_dust', '#forge:ingots/silver', 250, 1, 0.25, 1, 0.75);
 	ore_processing('#forge:ores/tin', 'create:crushed_raw_tin', 'thermal:tin_dust', '#forge:ingots/tin', 250, 1, 0.25, 1, 0.75);
 	ore_processing('#forge:ores/lead', 'create:crushed_raw_lead', 'thermal:lead_dust', '#forge:ingots/lead', 250, 1, 0.25, 1, 0.75);
-	ore_processing('#forge:ores/uranium', 'create:crushed_raw_uranium', 'mekanism:uranium_dust', '#forge:ingots/uranium', 250, 1, 0.25, 1, 0.75);
+	ore_processing('#forge:ores/uranium', 'create:crushed_raw_uranium', 'mekanism:dust_uranium', '#forge:ingots/uranium', 250, 1, 0.25, 1, 0.75);
 	ore_processing('#forge:ores/nickel', 'create:crushed_raw_nickel', 'thermal:nickel_dust', '#forge:ingots/nickel', 250, 1, 0.25, 1, 0.75);
 
-	ore_processing('', '', 'mekanism:refined_obsidian_dust', '#forge:ingots/refined_obsidian', 250, 1, 0.25, 1, 0.75);
+	ore_processing('', '', 'mekanism:dust_refined_obsidian', '#forge:ingots/refined_obsidian', 250, 1, 0.25, 1, 0.75);
 	ore_processing('', '', 'thermal:netherite_dust', '#forge:ingots/netherite', 250, 1, 0.25, 1, 0.75);
 	ore_processing('', '', 'thermal:steel_dust', '#forge:ingots/steel', 250, 1, 0.25, 1, 0.75);
 	ore_processing('', '', 'thermal:rose_gold_dust', '#forge:ingots/rose_gold', 250, 1, 0.25, 1, 0.75);

@@ -11,7 +11,7 @@
       "tag": "forge:ingots/osmium"
     },
     "X": {
-      "item": "mekanism:steel_casing"
+      "item": "thermal:machine_frame"
     },
     "~": {
       "item": "ae2:cell_component_256k"

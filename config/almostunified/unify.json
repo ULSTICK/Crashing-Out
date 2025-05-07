@@ -34,7 +34,8 @@
     "forge:silicon",
     "forge:flour",
     "forge:wither_bones",
-    "forge:salt"
+    "forge:salt",
+    "crash_landing:machine_frame"
   ],
   "materials": [
     "aeternium",
@@ -91,6 +92,15 @@
   ],
   "priorityOverrides": {},
   "customTags": {
+    "crash_landing:machine_frame": [
+      "thermal:machine_frame",
+      "industrialforegoing:machine_frame_pity",
+      "industrialforegoing:machine_frame_simple",
+      "mekanism:steel_casing",
+      "enderio:void_chassis",
+      "enderio:ensouled_chassis",
+      "rftoolsbase:machine_frame"
+    ],
     "forge:plastic": [
       "mekanism:hdpe_sheet",
       "pneumaticcraft:plastic"

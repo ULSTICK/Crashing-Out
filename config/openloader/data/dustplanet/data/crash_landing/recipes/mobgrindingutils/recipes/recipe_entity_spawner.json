@@ -12,7 +12,7 @@
       "item": "minecraft:piston"
     },
     "R": {
-      "item": "mekanism:steel_casing"
+      "item": "thermal:machine_frame"
     },
     "X": {
       "item": "mob_grinding_utils:solid_xp_block"
