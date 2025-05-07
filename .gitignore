@@ -1,41 +1,35 @@
+*.gz
+/.example_data
+/.vscode
+/config/fabric
+/config/inventoryprofilesnext
+/config/jei
+/config/jei/world
+/config/minihud
+/config/worldedit/.archive-unpack
+/config/worldedit/sessions
+/crash-reports
+/data
 /essential
 /journeymap
-/modernfix
-/logs
-/logs
-config/fabric/indigo-renderer.properties
-config/oculus.properties
-/logs
-options.txt
-*.gz
-/crash-reports
-fabricloader.log
-config/oculus.properties
-/config/jei
-/config/fabric
-/logs
-usercache.json
-/data
-/crash-reports
-fabricloader.log
-usernamecache.json
-usercache.json
-supportercache.json
-rhino.local.properties
-patchouli_data.json
 /local
+/logs
+/modernfix
 /screenshots
-/.example_data
-/config/jei/world
-/config/inventoryprofilesnext
-/config/minihud
-/screenshots
+config/fabric/indigo-renderer.properties
+config/modernfix-mixins.properties
+config/oculus.properties
+fabricloader.log
 hs_err_pid*.log
 knownkeys.txt
-/config/worldedit/sessions
-/config/worldedit/.archive-unpack
+options.txt
+patchouli_data.json
+rhino.local.properties
 servers.dat
 servers.dat_old
+supportercache.json
+usercache.json
+usernamecache.json
 
 # Ignore all save folders
 /saves/*
@@ -54,3 +48,4 @@ servers.dat_old
 !/saves/Original world, will reset when pack updates/region/r.0.-1.mca
 !/saves/Original world, will reset when pack updates/region/r.-1.0.mca
 !/saves/Original world, will reset when pack updates/region/r.-1.-1.mca
+
