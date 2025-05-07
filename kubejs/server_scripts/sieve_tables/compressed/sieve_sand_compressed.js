@@ -34,6 +34,7 @@ ServerEvents.recipes(event => {
         'minecraft:cocoa_beans': 0.03,
         'minecraft:jungle_sapling': 0.02,
         'thermal:sulfur_dust': 0.01,
+        'ae2:sky_dust': 0.01,
         'exdeorum:mycelium_spores': 0.01
 
     };

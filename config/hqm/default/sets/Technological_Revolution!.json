@@ -99,7 +99,7 @@
             },
             {
               "item": {
-                "id": "mekanism:steel_casing",
+                "id": "thermal:machine_frame",
                 "Count": 1
               }
             },
@@ -124,7 +124,7 @@
       "optionlinks": [],
       "reward": [
         {
-          "id": "mekanism:steel_casing",
+          "id": "thermal:machine_frame",
           "Count": 1
         }
       ],
@@ -315,7 +315,7 @@
       "optionlinks": [],
       "reward": [
         {
-          "id": "mekanism:steel_casing",
+          "id": "thermal:machine_frame",
           "Count": 1
         }
       ],
