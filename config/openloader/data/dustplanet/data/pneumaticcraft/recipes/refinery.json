@@ -9,9 +9,8 @@
       "item": "pneumaticcraft:reinforced_stone_slab"
     },
     "T": {
-      "type": "forge:nbt",
       "count": 1,
-      "item": "mekanism:steel_casing"
+      "item": "thermal:machine_frame"
     }
   },
   "pattern": [

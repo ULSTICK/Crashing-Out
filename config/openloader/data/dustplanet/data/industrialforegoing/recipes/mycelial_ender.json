@@ -24,7 +24,7 @@
             "item": "minecraft:ender_eye"
           },
           "M": {
-            "item": "industrialforegoing:machine_frame_pity"
+            "item": "thermal:machine_frame"
           },
           "R": {
             "item": "minecraft:redstone"
