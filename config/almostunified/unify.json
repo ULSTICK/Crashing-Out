@@ -15,7 +15,8 @@
     "deepslate",
     "granite",
     "diorite",
-    "andesite"
+    "andesite",
+    "end"
   ],
   "tags": [
     "forge:nuggets/{material}",
@@ -113,6 +114,10 @@
     "forge:flour": [
       "forge:flour/flour",
       "forge:dusts/flour"
+    ],
+    "crash_landing:machine_frame": [
+      "industrialforegoing:machine_frame/pity",
+      "industrialforegoing:machine_frame/simple"
     ]
   },
   "itemTagInheritanceMode": "ALLOW",
