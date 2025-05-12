@@ -2,7 +2,9 @@
   "ignoredRecipeTypes": [
     "cucumber:shaped_tag"
   ],
-  "ignoredRecipes": [],
+  "ignoredRecipes": [
+    "ad_astra:*+"
+  ],
   "defaultDuplicateRules": {
     "ignoredFields": [
       "show_notification",
