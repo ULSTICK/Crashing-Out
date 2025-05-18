@@ -1,4 +1,5 @@
 *.gz
+/.example_assets
 /.example_data
 /.vscode
 /config/fabric

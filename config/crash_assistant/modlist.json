@@ -87,9 +87,13 @@
     "modId": "chipped",
     "version": "3.0.7"
   },
-  "chisel-forge-1.20.1-1.8.0.jar": {
-    "modId": "chisel",
-    "version": "1.8.0"
+  "ChippedExpress-universal-20x.jar": {
+    "modId": "chipped_express",
+    "version": "1.3.2"
+  },
+  "chisel_chipped_integration-v1.1.5-1.20.1.jar": {
+    "modId": "chisel_chipped_integration",
+    "version": "1.1.4-1.20.1"
   },
   "chunkloaders-1.2.8a-forge-mc1.20.1.jar": {
     "modId": "chunkloaders",
@@ -192,10 +196,6 @@
     "modId": "curios",
     "version": "5.14.1+1.20.1"
   },
-  "defaultoptions-forge-1.20-18.0.1.jar": {
-    "modId": "defaultoptions",
-    "version": "18.0.1"
-  },
   "deslabification-1.2.0+1.20.1+forge.jar": {
     "modId": "deslabification",
     "version": "1.2.0+1.20.1+forge"
@@ -215,6 +215,10 @@
   "EnchantmentDescriptions-Forge-1.20.1-17.1.19.jar": {
     "modId": "enchdesc",
     "version": "17.1.19"
+  },
+  "EnderIO-1.20.1-6.2.11-beta-all.jar": {
+    "modId": "enderio",
+    "version": "6.2.11-beta"
   },
   "EnderStorage-1.20.1-2.11.0.188-universal.jar": {
     "modId": "enderstorage",
@@ -440,6 +444,10 @@
   "nbttooltip-1.7.2.jar": {
     "modId": "nbttooltip",
     "version": "1.7.2"
+  },
+  "nfm-2025.02.07-1.20.1.jar": {
+    "modId": "nfm",
+    "version": "2025.02.07"
   },
   "NoFog-1.3.6+1.20.1-forge.jar": {
     "modId": "no_fog",
@@ -680,6 +688,10 @@
   "vmh-1.2.2-1.20.1.jar": {
     "modId": "vmh",
     "version": "1.2.2-forge-1.20.1"
+  },
+  "worldedit-mod-7.2.15.jar": {
+    "modId": "worldedit",
+    "version": "7.2.15+6463-5ca4dff"
   },
   "xnet-1.20-6.1.6.jar": {
     "modId": "xnet",
