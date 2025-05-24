@@ -10,3 +10,48 @@ StartupEvents.registry("block", (event) => {
     // .tagBlock('minecraft:needs_iron_tool')
     .textureAll('kubejs:block/plasteel')
 })
+
+StartupEvents.registry("block", (event) => {
+  event.create("ostrum_door_block")
+    .displayName("Ostrum Door Block")
+    .mapColor("color_purple")
+    .soundType("metal")
+    .hardness(5.0)
+    .resistance(6.0)
+    .requiresTool(true)
+    .tagBlock("mineable/pickaxe")
+    .defaultCutout()
+    .property(BlockProperties.FACING)
+    .placementState(event => event.set(BlockProperties.FACING, event.clickedFace))
+    .model("kubejs:block/ostrum_door_block")
+    .blockstateJson = {
+    "variants": {
+      "facing=north": {
+        "model": "kubejs:block/ostrum_door_block",
+        "x": 90
+      },
+      "facing=east": {
+        "model": "kubejs:block/ostrum_door_block",
+        "x": 90,
+        "y": 90
+      },
+      "facing=south": {
+        "model": "kubejs:block/ostrum_door_block",
+        "x": 90,
+        "y": 180
+      },
+      "facing=west": {
+        "model": "kubejs:block/ostrum_door_block",
+        "x": 90,
+        "y": 270
+      },
+      "facing=up": {
+        "model": "kubejs:block/ostrum_door_block"
+      },
+      "facing=down": {
+        "model": "kubejs:block/ostrum_door_block",
+        "x": 180
+      }
+    }
+  }
+})
