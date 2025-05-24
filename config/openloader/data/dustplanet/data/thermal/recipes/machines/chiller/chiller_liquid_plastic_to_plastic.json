@@ -3,7 +3,7 @@
   "ingredients": [
     {
       "fluid": "pneumaticcraft:plastic",
-      "amount": 100
+      "amount": 1000
     },
     {
       "item": "thermal:chiller_ingot_cast"
