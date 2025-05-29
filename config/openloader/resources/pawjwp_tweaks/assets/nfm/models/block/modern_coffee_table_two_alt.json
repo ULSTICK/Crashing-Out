@@ -1,6 +1,6 @@
 {
     "textures": {
-		"legs": "kubejs:block/plasteel",
+		"legs": "kubejs:block/light_plasteel_block",
 		"particle": "#table_top"
 	},
     "elements": [
