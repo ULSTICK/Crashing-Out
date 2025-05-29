@@ -12,10 +12,10 @@ ServerEvents.recipes(event => {
     },
     item_output: {
       count: 4,
-      item: 'kubejs:plasteel'
+      item: 'kubejs:light_plasteel_block'
     },
     pressure: 1.5
-  }).id('crash_landing:plasteel');
+  }).id('crash_landing:light_plasteel_block');
 
   event.replaceInput(
     {
@@ -123,6 +123,6 @@ ServerEvents.recipes(event => {
         ]
     },
     'minecraft:stone',
-    'kubejs:plasteel'
+    'kubejs:light_plasteel_block'
   )
 });

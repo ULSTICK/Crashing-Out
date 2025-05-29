@@ -1,14 +1,29 @@
 StartupEvents.registry("block", (event) => {
-  event.create("plasteel") // Create a new block with ID "kubejs:example_block"
-    .displayName("Plasteel") // Set a custom name
-    .mapColor("snow") // Set a material (affects the sounds and some properties)
+  event.create("light_plasteel_block")
+    .displayName("Light Plasteel Block")
+    .mapColor("snow")
     .soundType("metal")
-    .hardness(1.8) // Set hardness (affects mining time)
-    .resistance(6.0) // Set resistance (to explosions, etc)
-    .requiresTool(true) // Requires a tool or it won't drop (see tags below)
-    .tagBlock("mineable/pickaxe") // or a pickaxe
-    // .tagBlock('minecraft:needs_iron_tool')
-    .textureAll('kubejs:block/plasteel')
+    .hardness(1.8)
+    .resistance(6.0)
+    .requiresTool(true)
+    .tagBlock("mineable/pickaxe")
+    .tag("crash_landing:plasteel_block")
+    .tag("forge:storage_blocks/plasteel")
+    .textureAll('kubejs:block/light_plasteel_block')
+})
+
+StartupEvents.registry("block", (event) => {
+  event.create("dark_plasteel_block")
+    .displayName("Dark Plasteel Block")
+    .mapColor("color_black")
+    .soundType("metal")
+    .hardness(1.8)
+    .resistance(6.0)
+    .requiresTool(true)
+    .tagBlock("mineable/pickaxe")
+    .tag("crash_landing:plasteel_block")
+    .tag("forge:storage_blocks/plasteel")
+    .textureAll('kubejs:block/dark_plasteel_block')
 })
 
 StartupEvents.registry("block", (event) => {
