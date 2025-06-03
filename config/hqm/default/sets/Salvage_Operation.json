@@ -278,7 +278,8 @@
                 "id": "thermal:wrench",
                 "Count": 1,
                 "tag": "{}"
-              }
+              },
+              "precision": "FUZZY"
             },
             {
               "item": {
