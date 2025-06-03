@@ -143,6 +143,17 @@
         "value": 10000000
       }
     },
+    "tconstruct:generic.bad_effect_duration_multiplier": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
     "unionlib:generic.critical_rate": {
       "enabled": false,
       "min": {
@@ -319,6 +330,39 @@
         "value": 1
       }
     },
+    "tconstruct:generic.jump_boost": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
+    "tconstruct:generic.bouncy": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 1
+      }
+    },
+    "tconstruct:generic.good_effect_duration_multiplier": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
     "forge:nametag_distance": {
       "enabled": false,
       "min": {
@@ -440,6 +484,39 @@
         "value": 10000000
       }
     },
+    "tconstruct:generic.crouch_damage_multiplier": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
+    "tconstruct:player.jump_count": {
+      "enabled": false,
+      "min": {
+        "default": 1,
+        "value": 1
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
+    "tconstruct:generic.knockback_multiplier": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
     "minecraft:generic.flying_speed": {
       "enabled": true,
       "min": {
@@ -473,6 +550,28 @@
         "value": 10000000
       }
     },
+    "tconstruct:player.experience_multiplier": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
+    "tconstruct:player.mining_speed_multiplier": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
     "cold_sweat:cold_resistance": {
       "enabled": false,
       "min": {
@@ -495,6 +594,17 @@
         "value": 10000000
       }
     },
+    "tconstruct:player.critical_damage": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
     "minecraft:generic.max_health": {
       "enabled": true,
       "min": {
@@ -515,6 +625,28 @@
       "max": {
         "default": 1024,
         "value": 10000000
+      }
+    },
+    "tconstruct:generic.protection_cap": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 0.949999988079071,
+        "value": 0.949999988079071
+      }
+    },
+    "tconstruct:player.use_item_speed": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 1
       }
     },
     "minecraft:horse.jump_strength": {
