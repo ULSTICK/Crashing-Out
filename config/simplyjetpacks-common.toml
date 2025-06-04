@@ -645,7 +645,7 @@
 			[simplyjetpacks-common.tuning.mekanism.mek2]
 				#The maximum amount of energy that this Jetpack/Fluxpack can hold.
 				#Range: > 0
-				energyCapacity = 20000
+				energyCapacity = 200000
 				#The amount of energy that this Jetpack/Fluxpack uses every tick, when being used.
 				#Range: > 0
 				energyUsage = 50
@@ -696,7 +696,7 @@
 			[simplyjetpacks-common.tuning.mekanism.mek1]
 				#The maximum amount of energy that this Jetpack/Fluxpack can hold.
 				#Range: > 0
-				energyCapacity = 10000
+				energyCapacity = 40000
 				#The amount of energy that this Jetpack/Fluxpack uses every tick, when being used.
 				#Range: > 0
 				energyUsage = 32
@@ -747,7 +747,7 @@
 			[simplyjetpacks-common.tuning.mekanism.mek4]
 				#The maximum amount of energy that this Jetpack/Fluxpack can hold.
 				#Range: > 0
-				energyCapacity = 40000
+				energyCapacity = 10000000
 				#The amount of energy that this Jetpack/Fluxpack uses every tick, when being used.
 				#Range: > 0
 				energyUsage = 450
@@ -798,7 +798,7 @@
 			[simplyjetpacks-common.tuning.mekanism.mek3]
 				#The maximum amount of energy that this Jetpack/Fluxpack can hold.
 				#Range: > 0
-				energyCapacity = 30000
+				energyCapacity = 2000000
 				#The amount of energy that this Jetpack/Fluxpack uses every tick, when being used.
 				#Range: > 0
 				energyUsage = 200
