@@ -11,8 +11,8 @@
         "text": "You may have noticed some machines require even more pressure than an air compressor provides. Well heres the answer.",
         "isTranslationKey": false
       },
-      "x": 110,
-      "y": 183,
+      "x": 200,
+      "y": 93,
       "icon": {
         "id": "pneumaticcraft:advanced_air_compressor",
         "Count": 1
@@ -90,8 +90,8 @@
         "text": "Pnematiccraft has alot of useful tools and gadgets. While these quests serve as a rough guide. I recommend checking out the pneumaticcraft wiki.\nOh, and using the charger, you now can keep your minigun working!",
         "isTranslationKey": false
       },
-      "x": 77,
-      "y": 183,
+      "x": 181,
+      "y": 116,
       "icon": {
         "id": "pneumaticcraft:pneumatic_wrench",
         "Count": 1
@@ -207,8 +207,8 @@
         "text": "Alot of pneumaticcraft machines can have upgrades installed.",
         "isTranslationKey": false
       },
-      "x": 158,
-      "y": 157,
+      "x": 198,
+      "y": 57,
       "icon": {
         "id": "pneumaticcraft:speed_upgrade",
         "Count": 1
@@ -274,8 +274,8 @@
         "text": "Now that you can pump all of the rich oil, it\u0027s time to refine it to make plastic and fuel for your rover and generator.\n\nInstructions:\nPut the 4 refinery outputs one above the other and besides the refinery controler. The resistive heater stays right aside the controller, and it need power to work (at least 100rf/t). ",
         "isTranslationKey": false
       },
-      "x": 190,
-      "y": 120,
+      "x": 273,
+      "y": 28,
       "icon": {
         "id": "mekanism:resistive_heater",
         "Count": 1
@@ -374,8 +374,8 @@
         "text": "Now that you have an empty PCB you need to make an etching tank.",
         "isTranslationKey": false
       },
-      "x": 94,
-      "y": 157,
+      "x": 153,
+      "y": 74,
       "icon": {
         "id": "pneumaticcraft:etching_tank",
         "Count": 1
@@ -478,8 +478,8 @@
         "text": "The next step to make pcbs will have you making a blueprint.",
         "isTranslationKey": false
       },
-      "x": 126,
-      "y": 84,
+      "x": 64,
+      "y": 110,
       "icon": {
         "id": "pneumaticcraft:plastic",
         "Count": 1
@@ -543,8 +543,8 @@
         "text": "Making a pcb by hand is laborius task, not to mention time consuming. ",
         "isTranslationKey": false
       },
-      "x": 158,
-      "y": 120,
+      "x": 228,
+      "y": 41,
       "icon": {
         "id": "pneumaticcraft:assembly_controller",
         "Count": 1
@@ -626,8 +626,8 @@
         "text": "So, now that we are generating air, what should you make? You can check JEI for the recipies.",
         "isTranslationKey": false
       },
-      "x": 95,
-      "y": 84,
+      "x": 69,
+      "y": 62,
       "icon": {
         "id": "pneumaticcraft:pressure_chamber_wall",
         "Count": 1
@@ -729,8 +729,8 @@
         "text": "Now that we have gotten this far, we can get started on the foundation of all technological progression. The PCB. To start, you simply need to toss a compressed iron and place a green plastic in the pressure chamber.",
         "isTranslationKey": false
       },
-      "x": 94,
-      "y": 120,
+      "x": 115,
+      "y": 73,
       "icon": {
         "id": "pneumaticcraft:uv_light_box",
         "Count": 1
@@ -804,8 +804,8 @@
         "text": "Now that you have compressed Iron you can start building your air chamber",
         "isTranslationKey": false
       },
-      "x": 94,
-      "y": 48,
+      "x": 41,
+      "y": 39,
       "icon": {
         "id": "pneumaticcraft:pressure_tube",
         "Count": 1
@@ -879,8 +879,8 @@
         "text": "Now that youve stablized your self and created a foot hold on this planet its time to start working on the technology needed to survive.",
         "isTranslationKey": false
       },
-      "x": 94,
-      "y": 12,
+      "x": 12,
+      "y": 18,
       "icon": {
         "id": "minecraft:iron_ingot",
         "Count": 1
@@ -968,8 +968,8 @@
         "text": "A pressure gauge will help messure the amount of pressure inside of your air chamber. It will also emit a redstone single double of what it detects.",
         "isTranslationKey": false
       },
-      "x": 62,
-      "y": 48,
+      "x": 67,
+      "y": 23,
       "icon": {
         "id": "pneumaticcraft:pressure_gauge_module",
         "Count": 1
@@ -1010,8 +1010,8 @@
         "text": "Having to break a block every time you want to put in or take out an item in the pressure chamber wastes air pressure.",
         "isTranslationKey": false
       },
-      "x": 62,
-      "y": 84,
+      "x": 91,
+      "y": 104,
       "icon": {
         "id": "pneumaticcraft:pressure_chamber_interface",
         "Count": 1

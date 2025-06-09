@@ -160,7 +160,7 @@
         "isTranslationKey": false
       },
       "description": {
-        "text": "In case case of crash landing, you were equipped with a basic survival package:\n- Saplings\n- Fertilizer\n- Dried nutrient blocks\nNote: Choose this path if you want a challenge. Don\u0027t expect to stay alive. Completing this quest disables the easy route quest.",
+        "text": "In case case of crash landing, you were equipped with a basic survival package:\n- Saplings\n- Fertilizer\n- Dried nutrient blocks\nNote: Choose this path if you want a challenge. Don\u0027t expect to live. Completing this quest disables the easy route quest.",
         "isTranslationKey": false
       },
       "x": 14,
@@ -307,8 +307,9 @@
           "Count": 1
         },
         {
-          "id": "tconstruct:maille_cast",
-          "Count": 1
+          "id": "tconstruct:puny_smelting",
+          "Count": 1,
+          "tag": "{mantle:{book:{current_page:\"\"}}}"
         }
       ],
       "rewardchoice": [
@@ -323,63 +324,6 @@
         {
           "id": "tconstruct:pick_head_cast",
           "Count": 1
-        }
-      ],
-      "commandrewards": []
-    },
-    {
-      "uuid": "a06fbc3a-5b54-4b9a-8f91-6dd3cdd5181e",
-      "name": {
-        "text": "End of an era",
-        "isTranslationKey": false
-      },
-      "description": {
-        "text": "Now that you are stable and able to live somewhat comfortably, it\u0027s time to look beyond immediate survival and start planning for your future. For true industrialization, you will need plastic and circuit bords. To start off, you can melt plastic scraps from the cities into plastic sheets.",
-        "isTranslationKey": false
-      },
-      "x": 254,
-      "y": 120,
-      "icon": {
-        "id": "industrialforegoing:plastic",
-        "Count": 1
-      },
-      "trigger": "ANTI_TRIGGER",
-      "tasks": [
-        {
-          "type": "hardcorequesting:detect",
-          "description": {
-            "text": "Next tasks",
-            "isTranslationKey": false
-          },
-          "items": [
-            {
-              "item": {
-                "id": "pneumaticcraft:plastic",
-                "Count": 1
-              }
-            },
-            {
-              "item": {
-                "id": "pneumaticcraft:printed_circuit_board",
-                "Count": 1
-              }
-            }
-          ]
-        }
-      ],
-      "prerequisites": [
-        "3ffa13cb-b198-4e83-bab7-676d08834311"
-      ],
-      "optionlinks": [],
-      "reward": [],
-      "rewardchoice": [
-        {
-          "id": "minecraft:iron_ore",
-          "Count": 8
-        },
-        {
-          "id": "minecraft:redstone",
-          "Count": 16
         }
       ],
       "commandrewards": []
@@ -443,62 +387,9 @@
       "commandrewards": []
     },
     {
-      "uuid": "39db6c50-b595-40f5-a952-3e4619c31764",
-      "name": {
-        "text": "Power Underwhelming",
-        "isTranslationKey": false
-      },
-      "description": {
-        "text": "Finally sustainable power!",
-        "isTranslationKey": false
-      },
-      "x": 286,
-      "y": 120,
-      "icon": {
-        "id": "industrialforegoing:mycelial_ender",
-        "Count": 1
-      },
-      "trigger": "ANTI_TRIGGER",
-      "tasks": [
-        {
-          "type": "hardcorequesting:detect",
-          "description": {
-            "text": "Ender power!",
-            "isTranslationKey": false
-          },
-          "items": [
-            {
-              "item": {
-                "id": "industrialforegoing:mycelial_ender",
-                "Count": 1
-              },
-              "precision": "FUZZY"
-            }
-          ]
-        }
-      ],
-      "prerequisites": [
-        "a06fbc3a-5b54-4b9a-8f91-6dd3cdd5181e",
-        "336ad751-3c3d-457d-b85c-e6d0bbe7b125"
-      ],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "minecraft:ender_pearl",
-          "Count": 2
-        },
-        {
-          "id": "pipez:energy_pipe",
-          "Count": 6
-        }
-      ],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
       "uuid": "6acadfe6-4853-4cf1-af89-d44bc0f42ce1",
       "name": {
-        "text": "Copy and Paste",
+        "text": "Cut and Paste",
         "isTranslationKey": false
       },
       "description": {
@@ -508,7 +399,7 @@
       "x": 95,
       "y": 48,
       "icon": {
-        "id": "minecraft:slime_ball",
+        "id": "kubejs:paste",
         "Count": 1
       },
       "tasks": [
@@ -517,7 +408,7 @@
           "items": [
             {
               "item": {
-                "id": "minecraft:slime_ball",
+                "id": "kubejs:paste",
                 "Count": 1
               }
             }
@@ -535,7 +426,7 @@
     {
       "uuid": "3c8b89b6-0ec3-4376-9e84-41cf0345e55d",
       "name": {
-        "text": "Killing time",
+        "text": "Killing Time",
         "isTranslationKey": false
       },
       "description": {
@@ -879,7 +770,7 @@
     {
       "uuid": "ab277ce2-86d3-4935-b7bc-499307cd7b5c",
       "name": {
-        "text": "Unnamed",
+        "text": "Sticky Situation",
         "isTranslationKey": false
       },
       "description": {
@@ -929,7 +820,12 @@
         "c5d70928-cc40-46b5-bfb0-3f3b800a84ea"
       ],
       "optionlinks": [],
-      "reward": [],
+      "reward": [
+        {
+          "id": "tconstruct:tinkers_gadgetry",
+          "Count": 1
+        }
+      ],
       "rewardchoice": [],
       "commandrewards": []
     },
@@ -1034,7 +930,7 @@
         "text": "You\u0027ll need more power eventually, but making any kind of advanced machinery is difficult and often requires circuit boards. However, you can set up a basic source of power with the same fuel as a furnace.",
         "isTranslationKey": false
       },
-      "x": 222,
+      "x": 286,
       "y": 102,
       "icon": {
         "id": "industrialforegoing:pitiful_generator",
@@ -1428,7 +1324,7 @@
       "y": 99,
       "bigicon": true,
       "icon": {
-        "id": "thermal:machine_centrifuge",
+        "id": "hardcorequesting:quest_book",
         "Count": 1
       },
       "tasks": [
@@ -1671,71 +1567,6 @@
       "commandrewards": []
     },
     {
-      "uuid": "336ad751-3c3d-457d-b85c-e6d0bbe7b125",
-      "name": {
-        "text": "Smoovin things around",
-        "isTranslationKey": false
-      },
-      "description": {
-        "text": "For further industrialization, you\u0027ll need to move items, fluids, and energy. Time to set up the plumbing.",
-        "isTranslationKey": false
-      },
-      "x": 254,
-      "y": 84,
-      "icon": {
-        "id": "pipez:item_pipe",
-        "Count": 1
-      },
-      "trigger": "ANTI_TRIGGER",
-      "tasks": [
-        {
-          "type": "hardcorequesting:detect",
-          "items": [
-            {
-              "item": {
-                "id": "pipez:item_pipe",
-                "Count": 1
-              }
-            },
-            {
-              "item": {
-                "id": "pipez:fluid_pipe",
-                "Count": 1
-              }
-            },
-            {
-              "item": {
-                "id": "pipez:energy_pipe",
-                "Count": 1
-              }
-            }
-          ]
-        }
-      ],
-      "prerequisites": [
-        "3ffa13cb-b198-4e83-bab7-676d08834311"
-      ],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "mekanism:basic_fluid_tank",
-          "Count": 1
-        },
-        {
-          "id": "sophisticatedstorage:iron_chest",
-          "Count": 1,
-          "tag": "{woodType:\"dark_oak\"}"
-        },
-        {
-          "id": "thermal:flux_capacitor",
-          "Count": 1,
-          "tag": "{Energy:500000}"
-        }
-      ],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
       "uuid": "b910ad01-be2f-4928-b33d-6a38353b8b9f",
       "name": {
         "text": "Tools of the Trade",
@@ -1868,73 +1699,6 @@
         {
           "id": "minecraft:string",
           "Count": 16
-        }
-      ],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
-      "uuid": "d870404e-3382-4dc8-91ea-4db728f38060",
-      "name": {
-        "text": "Oil from the deep dust",
-        "isTranslationKey": false
-      },
-      "description": {
-        "text": "Seems like this planet it\u0027s full of oil!\nWith the Gas Lift and some pressure, you can pump up Oil from the dust deeps.\nYou can use the oil to generate energy with the Compression Dynamo, but later you will need a Refinery to make plastic and most efficient fuels.",
-        "isTranslationKey": false
-      },
-      "x": 286,
-      "y": 84,
-      "icon": {
-        "id": "thermal:dynamo_compression",
-        "Count": 1
-      },
-      "trigger": "ANTI_TRIGGER",
-      "tasks": [
-        {
-          "type": "hardcorequesting:detect",
-          "items": [
-            {
-              "item": {
-                "id": "thermal:dynamo_compression",
-                "Count": 1
-              }
-            },
-            {
-              "item": {
-                "id": "pneumaticcraft:gas_lift",
-                "Count": 1
-              },
-              "precision": "FUZZY"
-            },
-            {
-              "item": {
-                "id": "pneumaticcraft:drill_pipe",
-                "Count": 1
-              },
-              "required": 16,
-              "precision": "FUZZY"
-            }
-          ]
-        }
-      ],
-      "prerequisites": [
-        "a06fbc3a-5b54-4b9a-8f91-6dd3cdd5181e",
-        "336ad751-3c3d-457d-b85c-e6d0bbe7b125"
-      ],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "pneumaticcraft:air_compressor",
-          "Count": 1
-        },
-        {
-          "id": "pneumaticcraft:gasoline_bucket",
-          "Count": 1
-        },
-        {
-          "id": "pneumaticcraft:drill_pipe",
-          "Count": 64
         }
       ],
       "rewardchoice": [],

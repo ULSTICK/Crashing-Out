@@ -663,7 +663,7 @@
         "text": "Unnamed quest",
         "isTranslationKey": false
       },
-      "x": 78,
+      "x": 14,
       "y": 75,
       "icon": {
         "id": "create:millstone",
@@ -1204,7 +1204,7 @@
     {
       "uuid": "c5147099-4542-4b20-9323-8286595ec338",
       "name": {
-        "text": "Sticky Situation",
+        "text": "Glued Down",
         "isTranslationKey": false
       },
       "description": {
@@ -1257,7 +1257,7 @@
         "text": "Unnamed quest",
         "isTranslationKey": false
       },
-      "x": 14,
+      "x": 78,
       "y": 75,
       "icon": {
         "id": "create_mechanical_extruder:mechanical_extruder",

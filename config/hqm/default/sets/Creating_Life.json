@@ -538,7 +538,7 @@
             "isTranslationKey": false
           },
           "longDescription": {
-            "text": "Once you have created a new Shell you need some place to store it for future use. The Shell constructor is not prepared to accept a transfer if you die, you MUST have a Shell in Shell Storage to come back to life. Supply the Shell Storage with a redstone signal of some sort, a lever works, and it will be ready to use. Walk in and you can Sync to any available Shells, transferring your consiousness to the newly constructed body.",
+            "text": "Once you have created a new Shell you need some place to store it for future use. The Shell constructor is not prepared to accept a transfer if you die, you MUST have a Shell in Shell Storage to come back to life. Supply the Shell Storage with a redstone signal of some sort, a lever works, and it will be ready to use. Walk in and you can Sync to any available Shells, transferring your consciousness to the newly constructed body.",
             "isTranslationKey": false
           },
           "items": [

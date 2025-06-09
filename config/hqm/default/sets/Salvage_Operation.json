@@ -133,6 +133,10 @@
         {
           "id": "tconstruct:seared_bricks",
           "Count": 8
+        },
+        {
+          "id": "tconstruct:fantastic_foundry",
+          "Count": 1
         }
       ],
       "rewardchoice": [
@@ -273,7 +277,7 @@
         {
           "type": "hardcorequesting:detect",
           "longDescription": {
-            "text": "A melee weapon of some sort would be a wise idea and perhaps some armor as well. Also, make sure you fill that tank with water as much as you can before leaving and make sure you bring enough food and food variety as well. (Note: There\u0027s a city by the West of the shuttle. More risk breings greater reward)",
+            "text": "A melee weapon of some sort would be a wise idea and perhaps some armor as well. Also, make sure you fill that tank with water as much as you can before leaving and make sure you bring enough food and food variety as well. (Note: There\u0027s a city by the West of the shuttle.)",
             "isTranslationKey": false
           },
           "items": [
@@ -308,9 +312,11 @@
             },
             {
               "item": {
-                "id": "survive:canteen",
-                "Count": 1
-              }
+                "id": "survive:filled_canteen",
+                "Count": 1,
+                "tag": "{DrinksLeft:3,Potion:\"survive:purified_water\"}"
+              },
+              "precision": "FUZZY"
             },
             {
               "item": {
@@ -341,6 +347,11 @@
           "id": "minecraft:potion",
           "Count": 2,
           "tag": "{Potion:\"survive:purified_water\"}"
+        },
+        {
+          "id": "tconstruct:mighty_smelting",
+          "Count": 1,
+          "tag": "{mantle:{book:{current_page:\"\"}}}"
         }
       ],
       "rewardchoice": [
