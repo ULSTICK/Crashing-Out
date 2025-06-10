@@ -16,8 +16,6 @@ ServerEvents.recipes(event => {
         });
     };
 
-    // ========= dust =========
-
     const dirt_results = {
         'minecraft:mangrove_propagule': 0.01,
         'minecraft:dandelion': 0.01,
