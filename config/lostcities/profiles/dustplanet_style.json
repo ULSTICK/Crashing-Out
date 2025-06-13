@@ -91,7 +91,7 @@
     "terrainFixUpperMaxOffset": 1,
     "generateLoot": true,
     "terrainFixLowerMaxOffset": -3,
-    "chestWithoutLootChance": 0.2,
+    "chestWithoutLootChance": 0.0,
     "terrainFixLowerMinOffset": -4,
     "extraDescription": "",
     "landscapeType": "default",
