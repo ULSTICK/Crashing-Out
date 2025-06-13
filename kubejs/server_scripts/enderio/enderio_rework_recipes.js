@@ -173,7 +173,8 @@ ServerEvents.recipes(event => {
 
 
 
-    // individual recipe overrides
+    // Individual recipe overrides
+
     event.remove({ output: 'enderio:ender_crystal' });
     event.shaped(
         Item.of('enderio:ender_crystal', 1),
@@ -233,51 +234,6 @@ ServerEvents.recipes(event => {
         }
     )
 
-    event.remove({ output: 'enderio:item_conduit' });
-    event.shaped(
-        Item.of('enderio:item_conduit', 1),
-        [
-            'BBB',
-            'IEI',
-            'BBB'
-        ],
-        {
-            B: 'enderio:conduit_binder',
-            E: '#forge:ender_pearls',
-            I: '#forge:nuggets/iron'
-        }
-    )
-
-    event.remove({ output: 'enderio:energy_conduit' });
-    event.shaped(
-        Item.of('enderio:energy_conduit', 1),
-        [
-            'BBB',
-            'SES',
-            'BBB'
-        ],
-        {
-            B: 'enderio:conduit_binder',
-            E: '#forge:ingots/electrum',
-            S: '#forge:ingots/signalum'
-        }
-    )
-
-    event.remove({ output: 'enderio:redstone_conduit' });
-    event.shaped(
-        Item.of('enderio:redstone_conduit', 1),
-        [
-            'BBB',
-            'RSR',
-            'BBB'
-        ],
-        {
-            B: 'enderio:conduit_binder',
-            R: '#forge:dusts/redstone',
-            S: '#forge:ingots/signalum'
-        }
-    )
-
     event.remove({ output: 'enderio:reinforced_obsidian_block' });
     event.shaped(
         Item.of('enderio:reinforced_obsidian_block', 1),
@@ -289,6 +245,79 @@ ServerEvents.recipes(event => {
         {
             B: 'enderio:dark_steel_bars',
             O: '#forge:obsidian'
+        }
+    )
+
+    // Conduit recipe overrides
+
+    event.remove({ output: 'enderio:item_conduit' });
+    event.shaped(
+        Item.of('enderio:item_conduit', 8),
+        [
+            'BBB',
+            'IEI',
+            'BBB'
+        ],
+        {
+            B: 'enderio:conduit_binder',
+            E: '#forge:ender_pearls',
+            I: '#forge:nuggets/iron'
+        }
+    )
+    event.shaped(
+        Item.of('enderio:item_conduit', 8),
+        [
+            'BBB',
+            'ICI',
+            'BBB'
+        ],
+        {
+            B: 'enderio:conduit_binder',
+            C: 'enderio:item_conduit',
+            I: '#forge:nuggets/iron'
+        }
+    )
+
+    event.remove({ output: 'enderio:energy_conduit' });
+    event.shaped(
+        Item.of('enderio:energy_conduit', 8),
+        [
+            'BBB',
+            'RGR',
+            'BBB'
+        ],
+        {
+            B: 'enderio:conduit_binder',
+            G: '#forge:ingots/conductive',
+            R: '#forge:dusts/redstone'
+        }
+    )
+
+    event.remove({ output: 'enderio:redstone_conduit' });
+    event.shaped(
+        Item.of('enderio:redstone_conduit', 8),
+        [
+            'BBB',
+            'rRr',
+            'BBB'
+        ],
+        {
+            B: 'enderio:conduit_binder',
+            r: '#forge:dusts/redstone',
+            R: '#forge:storage_blocks/redstone'
+        }
+    )
+
+    event.shaped(
+        Item.of('enderio:ender_fluid_conduit', 8),
+        [
+            'BBB',
+            'GGG',
+            'BBB'
+        ],
+        {
+            B: 'enderio:conduit_binder',
+            G: 'thermal:enderium_glass'
         }
     )
 });
