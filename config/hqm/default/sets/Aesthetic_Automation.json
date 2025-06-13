@@ -54,8 +54,8 @@
         "text": "Unnamed quest",
         "isTranslationKey": false
       },
-      "x": 302,
-      "y": 75,
+      "x": 270,
+      "y": 93,
       "icon": {
         "id": "createaddition:electric_motor",
         "Count": 1
@@ -80,6 +80,84 @@
       ],
       "prerequisites": [
         "6241ed79-932a-4519-a294-9860a2063281"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "eddaaad6-761a-458a-8e0f-ff4297889adc",
+      "name": {
+        "text": "Alloying",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Invisible trigger quest for when the player unlocks an alloying method.",
+        "isTranslationKey": false
+      },
+      "x": 158,
+      "y": 138,
+      "icon": {
+        "id": "create:brass_ingot",
+        "Count": 1
+      },
+      "trigger": "QUEST_TRIGGER",
+      "parentrequirement": 1,
+      "prerequisites": [
+        "10a23876-3d34-40db-b3be-0f9569c5b459",
+        "059da201-0f0d-47ee-9bf0-416b63d26600",
+        "67994482-4981-4cfd-9ca6-afde4340fb62"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "e6d0efde-1f09-434e-9f80-a45f09d37ec0",
+      "name": {
+        "text": "Penny Lane",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Unnamed",
+        "isTranslationKey": false
+      },
+      "x": 110,
+      "y": 111,
+      "icon": {
+        "id": "create:copper_sheet",
+        "Count": 1
+      },
+      "trigger": "TASK_TRIGGER",
+      "triggertasks": 1,
+      "tasks": [
+        {
+          "type": "hardcorequesting:completion",
+          "completed_quests": [
+            {
+              "quest_uuid": "13a983d5-2a40-4c74-91f0-9847656342e0"
+            },
+            {
+              "quest_uuid": "bf8d316b-64d4-4a30-8c44-86f9c0be0cb3"
+            }
+          ]
+        },
+        {
+          "type": "hardcorequesting:detect",
+          "items": [
+            {
+              "item": {
+                "id": "create:copper_sheet",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "bf8d316b-64d4-4a30-8c44-86f9c0be0cb3"
       ],
       "optionlinks": [],
       "reward": [],
@@ -141,87 +219,9 @@
       "commandrewards": []
     },
     {
-      "uuid": "e6d0efde-1f09-434e-9f80-a45f09d37ec0",
-      "name": {
-        "text": "Penny Lane",
-        "isTranslationKey": false
-      },
-      "description": {
-        "text": "Unnamed",
-        "isTranslationKey": false
-      },
-      "x": 110,
-      "y": 111,
-      "icon": {
-        "id": "create:copper_sheet",
-        "Count": 1
-      },
-      "trigger": "TASK_TRIGGER",
-      "triggertasks": 1,
-      "tasks": [
-        {
-          "type": "hardcorequesting:completion",
-          "completed_quests": [
-            {
-              "quest_uuid": "13a983d5-2a40-4c74-91f0-9847656342e0"
-            },
-            {
-              "quest_uuid": "bf8d316b-64d4-4a30-8c44-86f9c0be0cb3"
-            }
-          ]
-        },
-        {
-          "type": "hardcorequesting:detect",
-          "items": [
-            {
-              "item": {
-                "id": "create:copper_sheet",
-                "Count": 1
-              }
-            }
-          ]
-        }
-      ],
-      "prerequisites": [
-        "bf8d316b-64d4-4a30-8c44-86f9c0be0cb3"
-      ],
-      "optionlinks": [],
-      "reward": [],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
-      "uuid": "eddaaad6-761a-458a-8e0f-ff4297889adc",
-      "name": {
-        "text": "Alloying",
-        "isTranslationKey": false
-      },
-      "description": {
-        "text": "Invisible trigger quest for when the player unlocks an alloying method.",
-        "isTranslationKey": false
-      },
-      "x": 158,
-      "y": 138,
-      "icon": {
-        "id": "create:brass_ingot",
-        "Count": 1
-      },
-      "trigger": "QUEST_TRIGGER",
-      "parentrequirement": 1,
-      "prerequisites": [
-        "10a23876-3d34-40db-b3be-0f9569c5b459",
-        "059da201-0f0d-47ee-9bf0-416b63d26600",
-        "67994482-4981-4cfd-9ca6-afde4340fb62"
-      ],
-      "optionlinks": [],
-      "reward": [],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
       "uuid": "84c2b599-5734-4f21-98a9-bb63cfced54d",
       "name": {
-        "text": "Breaking Wind",
+        "text": "Biggest Fan",
         "isTranslationKey": false
       },
       "description": {
@@ -238,7 +238,7 @@
         {
           "type": "hardcorequesting:detect",
           "description": {
-            "text": "Biggest Fan",
+            "text": "Breaking Wind",
             "isTranslationKey": false
           },
           "longDescription": {
@@ -338,7 +338,7 @@
             "isTranslationKey": false
           },
           "longDescription": {
-            "text": "Bulk Haunting requires a soul campfire or flame to be placed directly in front of the fan’s airstream or at the end if the fan is pulling air. This has alot of special uses and can make soul soil. Note making soul sand with this method is disabled so crush up that soul soil and get yourself some soul sand!",
+            "text": "Bulk Haunting requires a soul campfire or flame to be placed directly in front of the fan’s airstream or at the end if the fan is pulling air. This has a number of special uses including acquiring nether blocks.",
             "isTranslationKey": false
           },
           "items": [
@@ -350,7 +350,7 @@
             },
             {
               "item": {
-                "id": "minecraft:soul_soil",
+                "id": "minecraft:prismarine_shard",
                 "Count": 1
               }
             }
@@ -431,48 +431,6 @@
       "commandrewards": []
     },
     {
-      "uuid": "dac6814c-dec5-46f2-b7d5-77316843e9d4",
-      "name": {
-        "text": "Autopilot",
-        "isTranslationKey": false
-      },
-      "description": {
-        "text": "Unnamed",
-        "isTranslationKey": false
-      },
-      "x": 238,
-      "y": 111,
-      "icon": {
-        "id": "create:mechanical_arm",
-        "Count": 1
-      },
-      "trigger": "ANTI_TRIGGER",
-      "tasks": [
-        {
-          "type": "hardcorequesting:detect",
-          "longDescription": {
-            "text": "The Mechanical Arm is a block used to transfer items between inventories within a 5-block radius. When placing the arm, you select valid inventories by right-clicking, with the ability to toggle between taking or depositing items by right-clicking again. Left-clicking deselects an inventory. The arm can transfer up to a stack of items at once and operates based on its selected blocks and the order they were chosen. Its behavior can be adjusted with options like Round Robin, Forced Round Robin, or Prefer First through the Value Settings Screen. The arm can be powered by a Cogwheel or similar blocks and can interact with various items like Mechanical Belts, Depots, and Crafters. If the arm\u0027s range exceeds 5 blocks, inventories beyond that will be dropped. It can be disabled using Redstone, and will deposit any items it’s holding before stopping. The arm also respects filters on selected blocks, preventing it from picking up items it can\u0027t deposit elsewhere.",
-            "isTranslationKey": false
-          },
-          "items": [
-            {
-              "item": {
-                "id": "create:mechanical_arm",
-                "Count": 1
-              }
-            }
-          ]
-        }
-      ],
-      "prerequisites": [
-        "cc4f3469-cac0-4b77-a762-2832a9a36e91"
-      ],
-      "optionlinks": [],
-      "reward": [],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
       "uuid": "32f538e8-7e3c-4d36-8b39-0cef101279dd",
       "name": {
         "text": "Ebb and Flow",
@@ -514,6 +472,48 @@
       ],
       "prerequisites": [
         "e6d0efde-1f09-434e-9f80-a45f09d37ec0"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "dac6814c-dec5-46f2-b7d5-77316843e9d4",
+      "name": {
+        "text": "Autopilot",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Unnamed",
+        "isTranslationKey": false
+      },
+      "x": 238,
+      "y": 111,
+      "icon": {
+        "id": "create:mechanical_arm",
+        "Count": 1
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "hardcorequesting:detect",
+          "longDescription": {
+            "text": "The Mechanical Arm is a block used to transfer items between inventories within a 5-block radius. When placing the arm, you select valid inventories by right-clicking, with the ability to toggle between taking or depositing items by right-clicking again. Left-clicking deselects an inventory. The arm can transfer up to a stack of items at once and operates based on its selected blocks and the order they were chosen. Its behavior can be adjusted with options like Round Robin, Forced Round Robin, or Prefer First through the Value Settings Screen. The arm can be powered by a Cogwheel or similar blocks and can interact with various items like Mechanical Belts, Depots, and Crafters. If the arm\u0027s range exceeds 5 blocks, inventories beyond that will be dropped. It can be disabled using Redstone, and will deposit any items it’s holding before stopping. The arm also respects filters on selected blocks, preventing it from picking up items it can\u0027t deposit elsewhere.",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "create:mechanical_arm",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "cc4f3469-cac0-4b77-a762-2832a9a36e91"
       ],
       "optionlinks": [],
       "reward": [],
@@ -620,8 +620,8 @@
         "text": "Unnamed",
         "isTranslationKey": false
       },
-      "x": 270,
-      "y": 93,
+      "x": 302,
+      "y": 75,
       "icon": {
         "id": "create:crushing_wheel",
         "Count": 1

@@ -122,7 +122,8 @@
       ],
       "prerequisites": [
         "39db6c50-b595-40f5-a952-3e4619c31764",
-        "67994482-4981-4cfd-9ca6-afde4340fb62"
+        "67994482-4981-4cfd-9ca6-afde4340fb62",
+        "d870404e-3382-4dc8-91ea-4db728f38060"
       ],
       "optionlinks": [],
       "reward": [
@@ -406,63 +407,6 @@
       "commandrewards": []
     },
     {
-      "uuid": "a06fbc3a-5b54-4b9a-8f91-6dd3cdd5181e",
-      "name": {
-        "text": "End of an era",
-        "isTranslationKey": false
-      },
-      "description": {
-        "text": "Now that you are stable and able to live somewhat comfortably, it\u0027s time to look beyond immediate survival and start planning for your future. For true industrialization, you will need plastic and circuit bords. To start off, you can melt plastic scraps from the cities into plastic sheets.",
-        "isTranslationKey": false
-      },
-      "x": 76,
-      "y": -22,
-      "icon": {
-        "id": "pneumaticcraft:plastic",
-        "Count": 1
-      },
-      "trigger": "ANTI_TRIGGER",
-      "tasks": [
-        {
-          "type": "hardcorequesting:detect",
-          "description": {
-            "text": "Next tasks",
-            "isTranslationKey": false
-          },
-          "items": [
-            {
-              "item": {
-                "id": "pneumaticcraft:plastic",
-                "Count": 1
-              }
-            },
-            {
-              "item": {
-                "id": "pneumaticcraft:printed_circuit_board",
-                "Count": 1
-              }
-            }
-          ]
-        }
-      ],
-      "prerequisites": [
-        "3ffa13cb-b198-4e83-bab7-676d08834311"
-      ],
-      "optionlinks": [],
-      "reward": [],
-      "rewardchoice": [
-        {
-          "id": "minecraft:iron_ore",
-          "Count": 8
-        },
-        {
-          "id": "minecraft:redstone",
-          "Count": 16
-        }
-      ],
-      "commandrewards": []
-    },
-    {
       "uuid": "5480e43d-5bf1-483d-8f04-54cc1fffa355",
       "name": {
         "text": "Basic AE2",
@@ -498,7 +442,8 @@
                 "id": "ae2:item_storage_cell_1k",
                 "Count": 1,
                 "tag": "{}"
-              }
+              },
+              "precision": "FUZZY"
             }
           ]
         }
@@ -653,71 +598,6 @@
       "commandrewards": []
     },
     {
-      "uuid": "336ad751-3c3d-457d-b85c-e6d0bbe7b125",
-      "name": {
-        "text": "Smoovin things around",
-        "isTranslationKey": false
-      },
-      "description": {
-        "text": "For further industrialization, you\u0027ll need to move items, fluids, and energy. Time to set up the plumbing.",
-        "isTranslationKey": false
-      },
-      "x": 113,
-      "y": -23,
-      "icon": {
-        "id": "pipez:item_pipe",
-        "Count": 1
-      },
-      "trigger": "ANTI_TRIGGER",
-      "tasks": [
-        {
-          "type": "hardcorequesting:detect",
-          "items": [
-            {
-              "item": {
-                "id": "pipez:item_pipe",
-                "Count": 1
-              }
-            },
-            {
-              "item": {
-                "id": "pipez:fluid_pipe",
-                "Count": 1
-              }
-            },
-            {
-              "item": {
-                "id": "pipez:energy_pipe",
-                "Count": 1
-              }
-            }
-          ]
-        }
-      ],
-      "prerequisites": [
-        "3ffa13cb-b198-4e83-bab7-676d08834311"
-      ],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "mekanism:basic_fluid_tank",
-          "Count": 1
-        },
-        {
-          "id": "sophisticatedstorage:iron_chest",
-          "Count": 1,
-          "tag": "{woodType:\"dark_oak\"}"
-        },
-        {
-          "id": "thermal:flux_capacitor",
-          "Count": 1,
-          "tag": "{Energy:500000}"
-        }
-      ],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
       "uuid": "6f634898-e3df-42b8-9d1a-0c714b167356",
       "name": {
         "text": "Industrial Foregoing Basics",
@@ -861,7 +741,7 @@
           "tag": "{}"
         },
         {
-          "id": "ae2:fluid_storage_cell_4k",
+          "id": "ae2:fluid_storage_cell_16k",
           "Count": 1,
           "tag": "{}"
         }
@@ -878,8 +758,8 @@
         "text": "Finally sustainable power!",
         "isTranslationKey": false
       },
-      "x": 77,
-      "y": 4,
+      "x": 94,
+      "y": 12,
       "icon": {
         "id": "industrialforegoing:mycelial_ender",
         "Count": 1
@@ -931,8 +811,8 @@
         "text": "Seems like this planet it\u0027s full of oil!\nWith the Gas Lift and some pressure, you can pump up Oil from the dust deeps.\nYou can use the oil to generate energy with the Compression Dynamo, but later you will need a Refinery to make plastic and most efficient fuels.",
         "isTranslationKey": false
       },
-      "x": 110,
-      "y": 3,
+      "x": 126,
+      "y": 11,
       "icon": {
         "id": "thermal:dynamo_compression",
         "Count": 1
@@ -1131,8 +1011,8 @@
         "text": "Until you get a smeltery up and running, you will need to get invar. If you don\u0027t mind some manual labor, you can use the mill to crush metal into dust and mix it together by hand.",
         "isTranslationKey": false
       },
-      "x": 47,
-      "y": 4,
+      "x": 62,
+      "y": 30,
       "icon": {
         "id": "thermal:invar_dust",
         "Count": 1

@@ -21,10 +21,6 @@
       "tasks": [
         {
           "type": "hardcorequesting:detect",
-          "longDescription": {
-            "text": "We are working on the tripling Scorched recipes, don\u0027t worry!",
-            "isTranslationKey": false
-          },
           "items": [
             {
               "item": {
@@ -70,7 +66,7 @@
         "isTranslationKey": false
       },
       "description": {
-        "text": "You are going to need lots of iron to advance up the tech tree. A smeltery will help you get a good start by almost doubling the ingots you get out of ore. There is a small city around the shuttle. Perhaps a factory there contains the bricks we need?",
+        "text": "You are going to need lots of iron to advance up the tech tree. A smeltery will help you get a good start by almost doubling the ingots you get out of ore. There is a small city near the shuttle. Perhaps a factory there contains the bricks we need?",
         "isTranslationKey": false
       },
       "x": 62,
@@ -85,10 +81,6 @@
           "type": "hardcorequesting:detect",
           "description": {
             "text": "Old School",
-            "isTranslationKey": false
-          },
-          "longDescription": {
-            "text": "We are working on the cities, so for now, you can craft the bricks with grouth!",
             "isTranslationKey": false
           },
           "items": [
@@ -364,6 +356,52 @@
           "Count": 2
         }
       ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "4cc6ede3-b15f-4cae-ad96-9903227e5ae8",
+      "name": {
+        "text": "Blaze of Glory",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "The toughest of metals require the hottest of fuels. Blazing blood is among the hottest, and is an essential ingredient for making advanced alloys.",
+        "isTranslationKey": false
+      },
+      "x": 94,
+      "y": 66,
+      "icon": {
+        "id": "tconstruct:blazing_blood_bucket",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "hardcorequesting:detect",
+          "longDescription": {
+            "text": "You can make blazing blood by melting blaze powder (or the blazes themselves).",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "tconstruct:blazing_blood_bucket",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "059da201-0f0d-47ee-9bf0-416b63d26600"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "tconstruct:dragon_scale",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
       "commandrewards": []
     },
     {

@@ -11,7 +11,7 @@
         "text": "Another way to get water is to drop some saplings or leaves into the Centrifugal Separator. It will give you a bit of water, about 1/10th of a bucket. Remember, you can power your machines with the flux capacitor from your emergency supply chest. MAKE SURE YOU DO NOT USE UP ALL OF YOUR SAPLINGS.",
         "isTranslationKey": false
       },
-      "x": 142,
+      "x": 110,
       "y": 75,
       "icon": {
         "id": "minecraft:birch_sapling",
@@ -20,27 +20,23 @@
       "trigger": "ANTI_TRIGGER",
       "tasks": [
         {
-          "type": "hardcorequesting:consume_qds",
+          "type": "hardcorequesting:detect",
           "longDescription": {
-            "text": "You MUST use the QDS to hand in this task. Click select task, place the QDS, and right click it with the quest book. Placing the QDS next to the Centrifugal Separator with the output set to the appropriate side will work. ",
-            "isTranslationKey": false
+            "text": "This was previously a QDS task to submit liquid purified water. However, technical issues prevent QDS liquid submission for now.",
+            "isTranslationKey": true
           },
           "items": [
             {
-              "fluid": {
-                "fluid": "survive:purified_water",
-                "volume": {
-                  "n": 1,
-                  "d": 1
-                }
-              },
-              "required": 1000
+              "item": {
+                "id": "survive:purified_water_bucket",
+                "Count": 1
+              }
             }
           ]
         }
       ],
       "prerequisites": [
-        "41cb1853-af1c-4cbd-b4ff-3d7781e6c90a"
+        "6cd42c29-0afd-49d5-b8ca-9c3c50a63970"
       ],
       "optionlinks": [],
       "reward": [
@@ -60,7 +56,7 @@
         "isTranslationKey": false
       },
       "description": {
-        "text": "The night is dark and full of terrors. Your chances of survival are low, but you can improve them with some sort of weapon and some protection from attack. For your weapon, you\u0027ll need the blade to be bone to start. No other starting material is comparable for weapons.",
+        "text": "The night is dark and full of terrors. Your chances of survival are low, but you can improve them with some sort of weapon and some protection from attack.",
         "isTranslationKey": false
       },
       "x": 126,
@@ -78,6 +74,10 @@
             "text": "Weapons",
             "isTranslationKey": false
           },
+          "longDescription": {
+            "text": "For your weapon, you\u0027ll need the blade to be bone to start. No other starting material is comparable for weapons.",
+            "isTranslationKey": false
+          },
           "items": [
             {
               "item": {
@@ -92,6 +92,10 @@
           "type": "hardcorequesting:detect",
           "description": {
             "text": "Armor",
+            "isTranslationKey": false
+          },
+          "longDescription": {
+            "text": "Wooden armor is a good early way to defend yourself. Be careful though, all that coverage can heat you up.",
             "isTranslationKey": false
           },
           "items": [
@@ -216,48 +220,13 @@
       "commandrewards": []
     },
     {
-      "uuid": "e715d347-80fc-4afe-87cd-fdea564d6fb7",
-      "name": {
-        "text": "WIP",
-        "isTranslationKey": false
-      },
-      "description": {
-        "text": "Quests are work in progress, especially this one. Here\u0027s a check box.",
-        "isTranslationKey": false
-      },
-      "x": 190,
-      "y": 30,
-      "icon": {
-        "id": "exdeorum:stone_pebble",
-        "Count": 1
-      },
-      "trigger": "ANTI_TRIGGER",
-      "tasks": [
-        {
-          "type": "hardcorequesting:checkbox"
-        }
-      ],
-      "prerequisites": [
-        "3f740b4d-65a3-42b9-85ea-bd8a54c1a3ea"
-      ],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "exdeorum:stone_pebble",
-          "Count": 1
-        }
-      ],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
       "uuid": "1db4c845-3db8-4e94-aa7d-ff88f75a45fd",
       "name": {
         "text": "Hotter than a furance",
         "isTranslationKey": false
       },
       "description": {
-        "text": "With a furnace up, you can now take your next step. Look by the port engine, the one not currently on fire. Apparently the water reclamation leaked a little and has turned some of the dust to clay. Dig it up and make a crucible. Stick a torch under that and not only can you melt cobble to lava but you can smelt ore dust to ingots, if you provide it with a faucet and a casting table or basin.",
+        "text": "With a furnace up, you can now take your next step. Look by the port engine, the one not currently on fire. Apparently the water reclamation leaked a little and has turned some of the dust to clay. Dig it up and make a crucible. Stick a torch under that and not only can you melt cobble to lava but you can smelt ore dust to ingots, if you provide it with a faucet and a casting table or basin. If you ever need more clay, it can be made from water and dust in a barrel.",
         "isTranslationKey": false
       },
       "x": 158,
@@ -329,6 +298,85 @@
       "commandrewards": []
     },
     {
+      "uuid": "c02991eb-4c9b-4e38-bd50-3eab714b0cc0",
+      "name": {
+        "text": "Unnamed",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Unnamed quest",
+        "isTranslationKey": false
+      },
+      "x": 78,
+      "y": 183,
+      "trigger": "ANTI_TRIGGER",
+      "prerequisites": [
+        "b910ad01-be2f-4928-b33d-6a38353b8b9f",
+        "65efa12d-f687-4c3a-9077-b89b3d28fc95"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "a06fbc3a-5b54-4b9a-8f91-6dd3cdd5181e",
+      "name": {
+        "text": "End of an era",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Now that you are stable and able to live somewhat comfortably, it\u0027s time to look beyond immediate survival and start planning for your future. For true industrialization, you will need plastic and circuit bords. To start off, you can melt plastic scraps from the cities into plastic sheets.",
+        "isTranslationKey": false
+      },
+      "x": 302,
+      "y": 75,
+      "icon": {
+        "id": "pneumaticcraft:plastic",
+        "Count": 1
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "hardcorequesting:detect",
+          "description": {
+            "text": "Next tasks",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "pneumaticcraft:plastic",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "pneumaticcraft:printed_circuit_board",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "3ffa13cb-b198-4e83-bab7-676d08834311"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "minecraft:iron_ore",
+          "Count": 8
+        },
+        {
+          "id": "minecraft:redstone",
+          "Count": 16
+        }
+      ],
+      "commandrewards": []
+    },
+    {
       "uuid": "804f4329-c6f5-4df8-915c-c590329cf26c",
       "name": {
         "text": "Unconventional Tools",
@@ -338,7 +386,7 @@
         "text": "To build up from nothing, you\u0027ll have to have some interesting survival strategies, and unique tools to go with them.",
         "isTranslationKey": false
       },
-      "x": 78,
+      "x": 110,
       "y": 129,
       "icon": {
         "id": "exdeorum:crook",
@@ -393,18 +441,23 @@
         "isTranslationKey": false
       },
       "description": {
-        "text": "Unnamed quest",
+        "text": "If you need some glue in a pinch, you don\u0027t need to find slime to do it. It turns out some water and flour makes for a great adhesive.",
         "isTranslationKey": false
       },
-      "x": 95,
+      "x": 94,
       "y": 48,
       "icon": {
         "id": "kubejs:paste",
         "Count": 1
       },
+      "trigger": "ANTI_TRIGGER",
       "tasks": [
         {
           "type": "hardcorequesting:detect",
+          "longDescription": {
+            "text": "Craft some water and flour together to make paste, a sticky substance that can be used in many recipes instead of slimeballs.",
+            "isTranslationKey": false
+          },
           "items": [
             {
               "item": {
@@ -434,7 +487,7 @@
         "isTranslationKey": false
       },
       "x": 190,
-      "y": 174,
+      "y": 156,
       "icon": {
         "id": "minecraft:zombie_spawn_egg",
         "Count": 1
@@ -627,7 +680,7 @@
         "isTranslationKey": false
       },
       "x": 158,
-      "y": 174,
+      "y": 156,
       "icon": {
         "id": "minecraft:rotten_flesh",
         "Count": 1
@@ -722,8 +775,8 @@
         "text": "If you haven\u0027t noticed, water is hard to find on this dry planet. If you get desperate enough, you can mix a glass bottle with a dirt block to get some dirty water. Make sure not to use up all your dirt though, you\u0027ll need it for growing trees and crops.",
         "isTranslationKey": false
       },
-      "x": 110,
-      "y": 75,
+      "x": 126,
+      "y": 48,
       "icon": {
         "id": "minecraft:potion",
         "Count": 1,
@@ -750,7 +803,7 @@
         }
       ],
       "prerequisites": [
-        "6cd42c29-0afd-49d5-b8ca-9c3c50a63970"
+        "d4d8bba6-7b9e-417a-b543-90ffb032400b"
       ],
       "optionlinks": [],
       "reward": [
@@ -774,7 +827,7 @@
         "isTranslationKey": false
       },
       "description": {
-        "text": "Unnamed quest",
+        "text": "Sometimes, paste just won\u0027t do. Maybe you\u0027re just sick of the smell, or maybe you need the special properties of earth, sky, ichor, and ender slime balls for advanced tinkering.",
         "isTranslationKey": false
       },
       "x": 78,
@@ -787,6 +840,10 @@
       "tasks": [
         {
           "type": "hardcorequesting:detect",
+          "longDescription": {
+            "text": "The best way to get special types of slimes is through sifting. Earthslime can be crafted in a few ways, but to get the others, you\u0027ll need to sift with their respective materials. Earthslime and skyslime can be found sifting podzol, ichor can be found sifting crushed netherrack, and enderslime can be found sifting crushed end stone.",
+            "isTranslationKey": false
+          },
           "items": [
             {
               "item": {
@@ -824,6 +881,22 @@
         {
           "id": "tconstruct:tinkers_gadgetry",
           "Count": 1
+        },
+        {
+          "id": "tconstruct:earth_slime_crystal",
+          "Count": 4
+        },
+        {
+          "id": "tconstruct:sky_slime_crystal",
+          "Count": 4
+        },
+        {
+          "id": "tconstruct:ichor_slime_crystal",
+          "Count": 4
+        },
+        {
+          "id": "tconstruct:ender_slime_crystal",
+          "Count": 4
         }
       ],
       "rewardchoice": [],
@@ -840,9 +913,9 @@
         "isTranslationKey": false
       },
       "x": 78,
-      "y": 76,
+      "y": 75,
       "icon": {
-        "id": "exdeorum:oak_barrel",
+        "id": "minecraft:dirt",
         "Count": 1
       },
       "trigger": "ANTI_TRIGGER",
@@ -850,7 +923,7 @@
         {
           "type": "hardcorequesting:detect",
           "longDescription": {
-            "text": "Make a barrel with some planks and a slab, then drop some leaves or saplings into it to start composting it into dirt. Get 4 of them to start and you\u0027ll be farming in no time.",
+            "text": "Make a barrel with some planks and a slab, then drop some leaves or saplings into it to start composting it into dirt. You\u0027ll be farming in no time.",
             "isTranslationKey": false
           },
           "items": [
@@ -858,8 +931,7 @@
               "item": {
                 "id": "minecraft:dirt",
                 "Count": 1
-              },
-              "required": 4
+              }
             }
           ]
         }
@@ -884,18 +956,23 @@
         "isTranslationKey": false
       },
       "description": {
-        "text": "Unnamed quest",
+        "text": "This world doesn\u0027t have any lava lakes or dragons, so you\u0027ll have to get the materials in other ways. A barrel full of lava can be turned into netherrack or endstone using redstone or glowstone respectively.",
         "isTranslationKey": false
       },
-      "x": 63,
+      "x": 62,
       "y": 49,
       "icon": {
         "id": "minecraft:netherrack",
         "Count": 1
       },
+      "trigger": "ANTI_TRIGGER",
       "tasks": [
         {
           "type": "hardcorequesting:detect",
+          "longDescription": {
+            "text": "You\u0027ll need a stone barrel, or you risk spreading lava everywhere.",
+            "isTranslationKey": false
+          },
           "items": [
             {
               "item": {
@@ -930,7 +1007,7 @@
         "text": "You\u0027ll need more power eventually, but making any kind of advanced machinery is difficult and often requires circuit boards. However, you can set up a basic source of power with the same fuel as a furnace.",
         "isTranslationKey": false
       },
-      "x": 286,
+      "x": 222,
       "y": 102,
       "icon": {
         "id": "industrialforegoing:pitiful_generator",
@@ -978,12 +1055,13 @@
         "text": "The harsh reality is that you\u0027re stuck on this planet. No amount of obsidian rectangles will let you escape. However, the situation means you can\u0027t get some resources (like soul sand) through normal methods.",
         "isTranslationKey": false
       },
-      "x": 48,
-      "y": 76,
+      "x": 46,
+      "y": 75,
       "icon": {
         "id": "minecraft:soul_sand",
         "Count": 1
       },
+      "trigger": "ANTI_TRIGGER",
       "tasks": [
         {
           "type": "hardcorequesting:detect",
@@ -992,7 +1070,7 @@
             "isTranslationKey": false
           },
           "longDescription": {
-            "text": "To start, you\u0027ll have to sift some sand, probably a lot of sand. Eventually you\u0027ll find some mycelium spores. Plant the spores on a piece of dirt and you\u0027ll get mycelium.",
+            "text": "To start, you\u0027ll have to sift some dirt, probably a lot of it. Eventually you\u0027ll find some mycelium spores. Plant the spores on a piece of dirt and you\u0027ll get mycelium.",
             "isTranslationKey": false
           },
           "items": [
@@ -1044,11 +1122,11 @@
         "isTranslationKey": false
       },
       "description": {
-        "text": "Dirty water may help you in a pinch, but for long term survival, you\u0027ll need to purify it. Fire should work nicely. Just drop the dirty water bottle into a furnace, apply some heat, and you\u0027ll get some clean, drinkable water.",
+        "text": "Dirty water may help you in a pinch, but for long term survival, you\u0027ll need to purify it. Fire should work nicely. Just drop the dirty water bottle into a furnace, apply some heat, and you\u0027ll get some clean, drinkable water. Alternatively, you can use charcoal filters when you have the resources.",
         "isTranslationKey": false
       },
-      "x": 126,
-      "y": 49,
+      "x": 158,
+      "y": 48,
       "icon": {
         "id": "minecraft:potion",
         "Count": 1,
@@ -1115,14 +1193,11 @@
         }
       ],
       "prerequisites": [
-        "1db4c845-3db8-4e94-aa7d-ff88f75a45fd"
+        "1db4c845-3db8-4e94-aa7d-ff88f75a45fd",
+        "804f4329-c6f5-4df8-915c-c590329cf26c"
       ],
       "optionlinks": [],
       "reward": [
-        {
-          "id": "exdeorum:mechanical_sieve",
-          "Count": 1
-        },
         {
           "id": "minecraft:hopper",
           "Count": 1
@@ -1167,7 +1242,8 @@
         }
       ],
       "prerequisites": [
-        "1db4c845-3db8-4e94-aa7d-ff88f75a45fd"
+        "1db4c845-3db8-4e94-aa7d-ff88f75a45fd",
+        "799cc1e8-bdff-4470-b5e1-b983ebfd6624"
       ],
       "optionlinks": [],
       "reward": [
@@ -1191,11 +1267,11 @@
         "isTranslationKey": false
       },
       "description": {
-        "text": "Trading in ten bottles of purified water should allow me to create you something strong.",
+        "text": "Trading in ten bottles of purified water should allow me to create you something strong. ",
         "isTranslationKey": false
       },
-      "x": 158,
-      "y": 30,
+      "x": 190,
+      "y": 48,
       "icon": {
         "id": "minecraft:snowball",
         "Count": 1
@@ -1204,6 +1280,10 @@
       "tasks": [
         {
           "type": "hardcorequesting:consume",
+          "longDescription": {
+            "text": "Snowmen don\u0027t last long in a desert. You may want to take some precautions or be ready with a shovel. ",
+            "isTranslationKey": true
+          },
           "items": [
             {
               "item": {
@@ -1240,7 +1320,7 @@
         "text": "A finely crafted weapon or tool isn\u0027t as easy as strapping some rocks to a stick. In fact, basic tools like that won\u0027t work for you at all. You\u0027ll have to tinker around a bit.",
         "isTranslationKey": false
       },
-      "x": 110,
+      "x": 78,
       "y": 129,
       "icon": {
         "id": "tconstruct:tinker_station",
@@ -1317,10 +1397,10 @@
         "isTranslationKey": false
       },
       "description": {
-        "text": "Well, that is a mess. Recover what you can from the ship\u0027s supplies, and watch out for that detached engine. The core has been breached and the fuel is leaking.\nThe replicator has taken some damage but looks just barely functional. Maybe it can provide some bottles and a canteen of water.",
+        "text": "Emergency Survival Checklist:\n\n1. Perform self-diagnostics and administer emergency first aid to treat any injuries.\n2. Assess the environment for potential threats, resources, and shelter. Exercise caution around the detached reactor, containment has breached and high-temperature fuel is leaking.\n3. Ration available food and water. The water reclamation system is damaged and leaking, you will have to find an alternate source of drinking water.\n4. Recover supplies from the ship\u0027s emergency survival equipment storage, located in the black box above ship\u0027s power. Available supplies include:\n  a. Multipurpose wrench\n  b. Basic particulate sieve\n  c. Emergency firearm\n  d. Emergency battery pack\n  e. Portable assembly unit\n  f. MAT input interface\n5. Refer back to the MAT unit when complete. The replicator should be able to provide some bottles and some water. It has taken damage but appears to just barely be functional.\n6. Proceed to the next available survival task. Consult your MAT unit regularly for recommended tasks and adaptive advice for your continued survival.",
         "isTranslationKey": false
       },
-      "x": 58,
+      "x": 59,
       "y": 99,
       "bigicon": true,
       "icon": {
@@ -1331,7 +1411,7 @@
         {
           "type": "hardcorequesting:detect",
           "longDescription": {
-            "text": "If you are having issues surviving your first night, it may help you to make a trench around the ship. Use that dust from digging that to build a 2 block wall on the inside of the trench. That should keep you safe from everything but spiders. To deal with them, make a small cobblestone overhang when you can afford it.",
+            "text": "If you are having issues surviving your first night, it may help you to make a trench around the ship. Use that dust from digging that to build a 2 block wall on the inside of the trench. That should keep you safe from everything but spiders. To deal with them, make a small overhang out of stone or wood when you can afford it.",
             "isTranslationKey": false
           },
           "items": [
@@ -1376,13 +1456,52 @@
       "commandrewards": []
     },
     {
+      "uuid": "65efa12d-f687-4c3a-9077-b89b3d28fc95",
+      "name": {
+        "text": "Tool Forging",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "The tinker\u0027s anvil can be used to make more advanced tools, including tools that mine in an area of effect and the cleaver, great for beheading mobs.",
+        "isTranslationKey": false
+      },
+      "x": 62,
+      "y": 156,
+      "icon": {
+        "id": "tconstruct:tinkers_anvil",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "hardcorequesting:detect",
+          "items": [
+            {
+              "item": {
+                "id": "tconstruct:tinkers_anvil",
+                "Count": 1
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "0f7c28b0-3881-419c-9d4b-ca936ad109f3",
+        "cdac0984-204e-4fbc-b2cd-cea990ae0367"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
       "uuid": "099d1358-0b11-49f0-aa78-43531cd739b7",
       "name": {
         "text": "Firing it up!",
         "isTranslationKey": false
       },
       "description": {
-        "text": "As hot as it is here, it isn\u0027t nearly hot enough to cook food. For that, you will need a furnace. Sieve dirt for stones, use the stones to make cobblestone, from that comes a slab furnace. \nIf you want to sift faster, you can place sieves next to one another, allowing up to 25 sieves to be used at once. Alternatively, a compressed sieve takes up just one block and can sift compressed dust with a slight reduction in output.",
+        "text": "Despite the planet\u0027s high temperature, it isn\u0027t nearly hot enough cook food or melt metals. For that, you will need a furnace. Sieve dust and dirt for stone, use the stones to make cobblestone, use the cobblestone to make a furnace.\nIf you want to sift faster, you can place sieves next to one another, allowing up to 25 sieves to be used at once. Alternatively, a compressed sieve takes up just one block and can sift compressed dust with a slight reduction in output.",
         "isTranslationKey": false
       },
       "x": 126,
@@ -1395,14 +1514,10 @@
       "tasks": [
         {
           "type": "hardcorequesting:detect",
-          "longDescription": {
-            "text": "With eight slabs you can craft a slab furnace! All the functionality of a full furnace with lower costs.",
-            "isTranslationKey": false
-          },
           "items": [
             {
               "item": {
-                "id": "slabmachines:furnace_slab",
+                "id": "minecraft:furnace",
                 "Count": 1
               },
               "precision": "FUZZY"
@@ -1507,9 +1622,9 @@
           "Count": 1
         },
         {
-          "id": "mekanism:basic_energy_cube",
+          "id": "thermal:flux_capacitor",
           "Count": 1,
-          "tag": "{mekData:{EnergyContainers:[{Container:0b,stored:\"4000000\"}]}}"
+          "tag": "{Energy:500000}"
         }
       ],
       "rewardchoice": [],
@@ -1522,7 +1637,7 @@
         "isTranslationKey": false
       },
       "description": {
-        "text": "The fertilizer in your survival package won\u0027t last long. Place the mesh in the sieve and sift some dust to get bonemeal.",
+        "text": "The fertilizer in your survival package will not last long. Place the mesh in the sieve and sift some dust to get bonemeal.",
         "isTranslationKey": false
       },
       "x": 94,
@@ -1567,6 +1682,78 @@
       "commandrewards": []
     },
     {
+      "uuid": "336ad751-3c3d-457d-b85c-e6d0bbe7b125",
+      "name": {
+        "text": "Smoovin things around",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "For further industrialization, you\u0027ll need to move items, fluids, and energy around. Time to set up the plumbing.",
+        "isTranslationKey": false
+      },
+      "x": 302,
+      "y": 129,
+      "icon": {
+        "id": "enderio:item_conduit",
+        "Count": 1
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "hardcorequesting:detect",
+          "longDescription": {
+            "text": "Conduits are made from conduit binder and their respective materials. You can change conduit settings by right clicking their I/O interface or right clicking with a wrench to make quick adjustments. ",
+            "isTranslationKey": true
+          },
+          "items": [
+            {
+              "item": {
+                "id": "enderio:item_conduit",
+                "Count": 1
+              },
+              "precision": "FUZZY"
+            },
+            {
+              "item": {
+                "id": "enderio:fluid_conduit",
+                "Count": 1
+              },
+              "precision": "FUZZY"
+            },
+            {
+              "item": {
+                "id": "enderio:energy_conduit",
+                "Count": 1
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "3ffa13cb-b198-4e83-bab7-676d08834311"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "mekanism:basic_fluid_tank",
+          "Count": 1
+        },
+        {
+          "id": "sophisticatedstorage:iron_chest",
+          "Count": 1,
+          "tag": "{woodType:\"dark_oak\"}"
+        },
+        {
+          "id": "thermal:flux_capacitor",
+          "Count": 1,
+          "tag": "{Energy:500000}"
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
       "uuid": "b910ad01-be2f-4928-b33d-6a38353b8b9f",
       "name": {
         "text": "Tools of the Trade",
@@ -1576,8 +1763,8 @@
         "text": "You\u0027ll need some tools to stay alive out here as well. In Tinkers Construct, bone tools are usually the best at the start, but you could make a different type if you\u0027d like. Wood and stone tools are generally ineffective.",
         "isTranslationKey": false
       },
-      "x": 142,
-      "y": 129,
+      "x": 94,
+      "y": 156,
       "icon": {
         "id": "tconstruct:mattock",
         "Count": 1,
@@ -1644,8 +1831,8 @@
         "text": "Its highly recommended to craft string armor once you get enough string.",
         "isTranslationKey": false
       },
-      "x": 62,
-      "y": 156,
+      "x": 46,
+      "y": 129,
       "icon": {
         "id": "extra_food_items:stringarmor_chestplate",
         "Count": 1,
@@ -1692,7 +1879,7 @@
         }
       ],
       "prerequisites": [
-        "804f4329-c6f5-4df8-915c-c590329cf26c"
+        "0f7c28b0-3881-419c-9d4b-ca936ad109f3"
       ],
       "optionlinks": [],
       "reward": [

@@ -1,14 +1,33 @@
-Hello and welcome, I am IMPA, or to be more precise, Intelligent Multi-Purpose Assistant. I am here to aid and guide you in surviving on this hot, dusty planet. The good news is that you seem to have survied the crash landing fine. The bad news is that the shuttle most definitely did not. You are stuck here for the forseeable future. Speaking of which, you might want to get started on setting up camp. Gather your supplies from the wreck, and then see about finding some water. It is mighty dry out here.
+--------STATUS REPORT--------
+You have survived a crash landing on Planet T4L0S, an uncharted planet in the Varkin system. Preliminary surface scans indicate an arid environment with pockets of elevated radiation and highly localized metal deposits. Surface coverage consists of dust with high mineral concentration. Subsurface scanning indicates abundant subterranean hydrocarbon reservoirs. Weak, intermittent life-sign readings are detected, but reliability is uncertain due to radiation interference.
 
-Lead Developers:
-  MarkSDR
-  Nagasakii
+Your shuttle was equipped with Multipurpose Assistance Terminal (MAT) technology. This MAT unit has now activated Emergency Survival Mode, designed to maximize your chances of survival in hostile or unknown environments. This terminal will provide situation-specific survival guidelines, continually monitor your vital signs, and record your progress for potential recovery operations.
 
-Contributers:
-  Mei-Nanita
-  Lobo_um_louco
-  Kilometers
-  Pawjwp
+Your embedded Heads-Up Display (HUD) provides real-time monitoring of the following:
+- Vital signs
+  - Body temperature
+  - Hydration
+  - Sustenance
+  - Injury severity
+- Nearby terrain mapping
+- Object identification
 
-Original Developer:
-  Iskandar
+Familiarize yourself with your environment, orient yourself, and begin to follow the tasks in the MAT "Basic Survival" guide.
+
+
+
+
+
+
+Developers:
+- MarkSDR
+- Pawjwp
+- Nagasakii
+
+Other contributers:
+- Mei-Nanita
+- Kilometers
+- Lobo_um_louco
+
+Original developer:
+- Iskandar
