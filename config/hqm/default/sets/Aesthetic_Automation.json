@@ -2,49 +2,6 @@
   "name": "Aesthetic Automation",
   "quests": [
     {
-      "uuid": "48b87331-56e3-4c6d-8847-76c40d7628f2",
-      "name": {
-        "text": "Box of Tricks",
-        "isTranslationKey": false
-      },
-      "description": {
-        "text": "Unnamed quest",
-        "isTranslationKey": false
-      },
-      "x": 206,
-      "y": 183,
-      "icon": {
-        "id": "create:brown_toolbox",
-        "Count": 1
-      },
-      "trigger": "ANTI_TRIGGER",
-      "tasks": [
-        {
-          "type": "hardcorequesting:detect",
-          "longDescription": {
-            "text": "A storage container with 8 slots, holding up to 256 items per slot. It retains inventory when picked up and allows remote access (within 10 blocks by default) using Alt. Items can be automatically refilled while in range, and multiple toolboxes can be managed simultaneously. The range is configurable.",
-            "isTranslationKey": false
-          },
-          "items": [
-            {
-              "item": {
-                "id": "create:brown_toolbox",
-                "Count": 1
-              },
-              "precision": "FUZZY"
-            }
-          ]
-        }
-      ],
-      "prerequisites": [
-        "72283d63-3fcf-4034-ac4f-0ffa0697a722"
-      ],
-      "optionlinks": [],
-      "reward": [],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
       "uuid": "52568165-b806-461d-9e85-031b089dbbef",
       "name": {
         "text": "Power Play",
@@ -97,7 +54,7 @@
         "isTranslationKey": false
       },
       "x": 158,
-      "y": 138,
+      "y": 157,
       "icon": {
         "id": "create:brass_ingot",
         "Count": 1
@@ -125,7 +82,7 @@
         "isTranslationKey": false
       },
       "x": 110,
-      "y": 111,
+      "y": 148,
       "icon": {
         "id": "create:copper_sheet",
         "Count": 1
@@ -234,6 +191,7 @@
         "id": "create:encased_fan",
         "Count": 1
       },
+      "trigger": "ANTI_TRIGGER",
       "tasks": [
         {
           "type": "hardcorequesting:detect",
@@ -376,7 +334,7 @@
         "isTranslationKey": false
       },
       "x": 158,
-      "y": 102,
+      "y": 120,
       "icon": {
         "id": "create:blaze_burner",
         "Count": 1
@@ -441,7 +399,7 @@
         "isTranslationKey": false
       },
       "x": 94,
-      "y": 156,
+      "y": 174,
       "icon": {
         "id": "create:spout",
         "Count": 1
@@ -488,7 +446,7 @@
         "text": "Unnamed",
         "isTranslationKey": false
       },
-      "x": 238,
+      "x": 302,
       "y": 111,
       "icon": {
         "id": "create:mechanical_arm",
@@ -531,11 +489,12 @@
         "isTranslationKey": false
       },
       "x": 158,
-      "y": 66,
+      "y": 84,
       "icon": {
         "id": "create:mechanical_mixer",
         "Count": 1
       },
+      "trigger": "ANTI_TRIGGER",
       "tasks": [
         {
           "type": "hardcorequesting:detect",
@@ -578,7 +537,7 @@
         "isTranslationKey": false
       },
       "x": 126,
-      "y": 156,
+      "y": 174,
       "icon": {
         "id": "create:item_drain",
         "Count": 1
@@ -620,13 +579,12 @@
         "text": "Unnamed",
         "isTranslationKey": false
       },
-      "x": 302,
+      "x": 238,
       "y": 75,
       "icon": {
         "id": "create:crushing_wheel",
         "Count": 1
       },
-      "trigger": "ANTI_TRIGGER",
       "tasks": [
         {
           "type": "hardcorequesting:detect",
@@ -664,7 +622,7 @@
         "isTranslationKey": false
       },
       "x": 14,
-      "y": 75,
+      "y": 111,
       "icon": {
         "id": "create:millstone",
         "Count": 1
@@ -705,11 +663,12 @@
         "isTranslationKey": false
       },
       "x": 78,
-      "y": 111,
+      "y": 75,
       "icon": {
         "id": "create:gearbox",
         "Count": 1
       },
+      "trigger": "ANTI_TRIGGER",
       "tasks": [
         {
           "type": "hardcorequesting:detect",
@@ -751,6 +710,7 @@
         "id": "create:mechanical_saw",
         "Count": 1
       },
+      "trigger": "ANTI_TRIGGER",
       "tasks": [
         {
           "type": "hardcorequesting:detect",
@@ -819,60 +779,6 @@
       "commandrewards": []
     },
     {
-      "uuid": "57177dbe-44c6-47d5-9249-15f5a31b43fc",
-      "name": {
-        "text": "Pipe Dream",
-        "isTranslationKey": false
-      },
-      "description": {
-        "text": "Unnamed",
-        "isTranslationKey": false
-      },
-      "x": 110,
-      "y": 183,
-      "icon": {
-        "id": "create:fluid_pipe",
-        "Count": 1
-      },
-      "trigger": "ANTI_TRIGGER",
-      "tasks": [
-        {
-          "type": "hardcorequesting:detect",
-          "longDescription": {
-            "text": "Fluid Pipes transport liquids but can only carry one type of fluid at a time. If different fluids mix, the pipe clogs. Pipes connect automatically unless separated using a Wrench, Copper Casing, or Brackets. They require Mechanical Pumps to move fluids, with each pump pushing liquid up to 15 blocks (configurable). Fluid flow is divided at splits, and transfer speed depends on pump speed (0.5 mb/t * RPM). Open-ended pipes can create fluid source blocks after releasing 1000 mB.\n\nFluid Tanks store up to 8 buckets (8,000 mB) of liquid per block and can be connected with Fluid Pipes on any side. Tanks merge into structures up to 3x32x3, holding 2,304 buckets. Fluid direction is controlled by connected pipes and pumps, and the Wrench can toggle the tank’s window. Pipe placement does not affect extraction or storage.\n\nMechanical Pumps move fluids in one direction, with a maximum range of 16 blocks (configurable). Up to 30 pipes can be between pumps. Brown arrows indicate flow direction, which can be reversed with a Wrench.",
-            "isTranslationKey": false
-          },
-          "items": [
-            {
-              "item": {
-                "id": "create:fluid_pipe",
-                "Count": 1
-              }
-            },
-            {
-              "item": {
-                "id": "create:mechanical_pump",
-                "Count": 1
-              }
-            },
-            {
-              "item": {
-                "id": "create:fluid_tank",
-                "Count": 1
-              }
-            }
-          ]
-        }
-      ],
-      "prerequisites": [
-        "e6d0efde-1f09-434e-9f80-a45f09d37ec0"
-      ],
-      "optionlinks": [],
-      "reward": [],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
       "uuid": "5d300aea-5826-4f79-b1d6-b08895059dbf",
       "name": {
         "text": "Pumping Iron",
@@ -928,7 +834,7 @@
         "isTranslationKey": false
       },
       "x": 190,
-      "y": 156,
+      "y": 174,
       "icon": {
         "id": "create:goggles",
         "Count": 1
@@ -970,7 +876,7 @@
         "text": "Unnamed",
         "isTranslationKey": false
       },
-      "x": 238,
+      "x": 302,
       "y": 39,
       "icon": {
         "id": "create:deployer",
@@ -1018,7 +924,6 @@
         "id": "create:cogwheel",
         "Count": 1
       },
-      "trigger": "ANTI_TRIGGER",
       "parentrequirement": 1,
       "tasks": [
         {
@@ -1063,7 +968,7 @@
         "text": "Need to make more advanced factory lines? These brass upgrades have you covered. Specfically, they can sort and filter specfic items to certain amounts or just indefintely.",
         "isTranslationKey": false
       },
-      "x": 302,
+      "x": 238,
       "y": 39,
       "icon": {
         "id": "create:brass_funnel",
@@ -1148,11 +1053,12 @@
         "isTranslationKey": false
       },
       "x": 14,
-      "y": 111,
+      "y": 75,
       "icon": {
         "id": "create:belt_connector",
         "Count": 1
       },
+      "trigger": "ANTI_TRIGGER",
       "tasks": [
         {
           "type": "hardcorequesting:detect",
@@ -1218,6 +1124,7 @@
         "Count": 1,
         "tag": "{Damage:0}"
       },
+      "trigger": "ANTI_TRIGGER",
       "parentrequirement": 1,
       "tasks": [
         {
@@ -1258,7 +1165,7 @@
         "isTranslationKey": false
       },
       "x": 78,
-      "y": 75,
+      "y": 111,
       "icon": {
         "id": "create_mechanical_extruder:mechanical_extruder",
         "Count": 1
@@ -1341,7 +1248,7 @@
         "isTranslationKey": false
       },
       "x": 206,
-      "y": 111,
+      "y": 147,
       "icon": {
         "id": "create:golden_sheet",
         "Count": 1
@@ -1390,7 +1297,7 @@
         "text": "Unnamed quest",
         "isTranslationKey": false
       },
-      "x": 302,
+      "x": 238,
       "y": 111,
       "icon": {
         "id": "createaddition:alternator",
@@ -1432,13 +1339,12 @@
         "text": "Unnamed",
         "isTranslationKey": false
       },
-      "x": 238,
+      "x": 302,
       "y": 75,
       "icon": {
         "id": "create:precision_mechanism",
         "Count": 1
       },
-      "trigger": "ANTI_TRIGGER",
       "tasks": [
         {
           "type": "hardcorequesting:detect",
@@ -1475,7 +1381,7 @@
         "isTranslationKey": false
       },
       "x": 222,
-      "y": 156,
+      "y": 174,
       "icon": {
         "id": "create:wrench",
         "Count": 1
@@ -1560,7 +1466,7 @@
         "isTranslationKey": false
       },
       "x": 78,
-      "y": 40,
+      "y": 39,
       "icon": {
         "id": "create:white_sail",
         "Count": 1
@@ -1801,6 +1707,7 @@
         "id": "create:chute",
         "Count": 1
       },
+      "trigger": "ANTI_TRIGGER",
       "tasks": [
         {
           "type": "hardcorequesting:detect",

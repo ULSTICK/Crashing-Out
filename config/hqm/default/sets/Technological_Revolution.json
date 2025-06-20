@@ -2,6 +2,50 @@
   "name": "Technological Revolution",
   "quests": [
     {
+      "uuid": "9eaa2cc4-dfab-41ac-a0b3-e3cc8da8debe",
+      "name": {
+        "text": "Unnamed",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Unnamed quest",
+        "isTranslationKey": false
+      },
+      "x": 46,
+      "y": 93,
+      "icon": {
+        "id": "thermal:steel_dust",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "hardcorequesting:detect",
+          "items": [
+            {
+              "item": {
+                "id": "thermal:steel_dust",
+                "Count": 1
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "e558fbac-929f-4b1b-bd10-c73e792ac69d",
+        "67994482-4981-4cfd-9ca6-afde4340fb62"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "mekanism:enriched_carbon",
+          "Count": 4
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
       "uuid": "4603a7e8-470b-4a64-a199-84aaf94e603d",
       "name": {
         "text": "Green Growing Things",
@@ -11,8 +55,8 @@
         "text": "Trees for leaves and saplings, crops for food. You\u0027ve been harvesting by hand, it is time to move beyond that. ",
         "isTranslationKey": false
       },
-      "x": 126,
-      "y": 102,
+      "x": 270,
+      "y": 57,
       "icon": {
         "id": "industrialforegoing:plant_gatherer",
         "Count": 1
@@ -122,7 +166,6 @@
       ],
       "prerequisites": [
         "39db6c50-b595-40f5-a952-3e4619c31764",
-        "67994482-4981-4cfd-9ca6-afde4340fb62",
         "d870404e-3382-4dc8-91ea-4db728f38060"
       ],
       "optionlinks": [],
@@ -142,6 +185,48 @@
           "Count": 4
         }
       ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "e558fbac-929f-4b1b-bd10-c73e792ac69d",
+      "name": {
+        "text": "Infusing",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Unnamed quest",
+        "isTranslationKey": false
+      },
+      "x": 30,
+      "y": 66,
+      "icon": {
+        "id": "mekanism:metallurgic_infuser",
+        "Count": 1
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "hardcorequesting:detect",
+          "items": [
+            {
+              "item": {
+                "id": "mekanism:metallurgic_infuser",
+                "Count": 1
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "mekanism:enriched_redstone",
+          "Count": 2
+        }
+      ],
+      "rewardchoice": [],
       "commandrewards": []
     },
     {
@@ -262,8 +347,8 @@
         "text": "So many liquids. so many icky, icky liquids.",
         "isTranslationKey": false
       },
-      "x": 94,
-      "y": 192,
+      "x": 270,
+      "y": 165,
       "icon": {
         "id": "industrialforegoing:pink_slime_bucket",
         "Count": 1
@@ -347,8 +432,8 @@
         "text": "With a grinder running you are making a lot of mob essence. Time to put it to good use.",
         "isTranslationKey": false
       },
-      "x": 158,
-      "y": 83,
+      "x": 302,
+      "y": 39,
       "icon": {
         "id": "industrialforegoing:mob_duplicator",
         "Count": 1
@@ -401,65 +486,6 @@
           "id": "exdeorum:diamond_hammer",
           "Count": 2,
           "tag": "{Damage:0,Enchantments:[{id:\"minecraft:unbreaking\",lvl:3s},{id:\"minecraft:fortune\",lvl:3s}],RepairCost:3}"
-        }
-      ],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
-      "uuid": "5480e43d-5bf1-483d-8f04-54cc1fffa355",
-      "name": {
-        "text": "Basic AE2",
-        "isTranslationKey": false
-      },
-      "description": {
-        "text": "Although a true AE system will take quite a few resources to set up, you can get the basic infrastructure set up fairly easily. ",
-        "isTranslationKey": false
-      },
-      "x": 62,
-      "y": 66,
-      "icon": {
-        "id": "ae2:chest",
-        "Count": 1
-      },
-      "trigger": "ANTI_TRIGGER",
-      "tasks": [
-        {
-          "type": "hardcorequesting:detect",
-          "longDescription": {
-            "text": "A decent way to get organized fairly early. And when you do get a AE controller set up, the ME storage can easily be placed into an ME Drive",
-            "isTranslationKey": false
-          },
-          "items": [
-            {
-              "item": {
-                "id": "ae2:chest",
-                "Count": 1
-              }
-            },
-            {
-              "item": {
-                "id": "ae2:item_storage_cell_1k",
-                "Count": 1,
-                "tag": "{}"
-              },
-              "precision": "FUZZY"
-            }
-          ]
-        }
-      ],
-      "prerequisites": [
-        "cbb9bc93-4fb3-4844-b457-5e08137096d7"
-      ],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "minecraft:quartz",
-          "Count": 16
-        },
-        {
-          "id": "ae2:certus_quartz_crystal",
-          "Count": 16
         }
       ],
       "rewardchoice": [],
@@ -519,10 +545,6 @@
       "optionlinks": [],
       "reward": [
         {
-          "id": "pipez:improved_upgrade",
-          "Count": 2
-        },
-        {
           "id": "thermal:press_packing_2x2_die",
           "Count": 1
         },
@@ -544,8 +566,8 @@
         "text": "Along with plants, you now have animals. These machines will help you care for them.",
         "isTranslationKey": false
       },
-      "x": 126,
-      "y": 138,
+      "x": 270,
+      "y": 93,
       "icon": {
         "id": "industrialforegoing:animal_rancher",
         "Count": 1
@@ -607,8 +629,8 @@
         "text": "The start of good things.",
         "isTranslationKey": false
       },
-      "x": 126,
-      "y": 66,
+      "x": 270,
+      "y": 21,
       "icon": {
         "id": "industrialforegoing:range_addon0",
         "Count": 1,
@@ -655,9 +677,7 @@
           ]
         }
       ],
-      "prerequisites": [
-        "cbb9bc93-4fb3-4844-b457-5e08137096d7"
-      ],
+      "prerequisites": [],
       "optionlinks": [],
       "reward": [
         {
@@ -675,77 +695,6 @@
         }
       ],
       "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
-      "uuid": "6411096c-3d98-4e84-8599-9718d7ee18f6",
-      "name": {
-        "text": "AE2 Controller",
-        "isTranslationKey": false
-      },
-      "description": {
-        "text": "To get an AE storage system up you\u0027ll need a few starting machines.",
-        "isTranslationKey": false
-      },
-      "x": 62,
-      "y": 138,
-      "icon": {
-        "id": "ae2:controller",
-        "Count": 1
-      },
-      "trigger": "ANTI_TRIGGER",
-      "tasks": [
-        {
-          "type": "hardcorequesting:detect",
-          "items": [
-            {
-              "item": {
-                "id": "ae2:controller",
-                "Count": 1
-              }
-            },
-            {
-              "item": {
-                "id": "ae2:drive",
-                "Count": 1
-              }
-            },
-            {
-              "item": {
-                "id": "ae2:terminal",
-                "Count": 1
-              }
-            }
-          ]
-        }
-      ],
-      "prerequisites": [
-        "8559f15c-259a-4874-a753-adb36cf75447",
-        "5480e43d-5bf1-483d-8f04-54cc1fffa355"
-      ],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "ae2:engineering_processor",
-          "Count": 1
-        },
-        {
-          "id": "ae2:fluix_glass_cable",
-          "Count": 16
-        }
-      ],
-      "rewardchoice": [
-        {
-          "id": "ae2:item_storage_cell_16k",
-          "Count": 1,
-          "tag": "{}"
-        },
-        {
-          "id": "ae2:fluid_storage_cell_16k",
-          "Count": 1,
-          "tag": "{}"
-        }
-      ],
       "commandrewards": []
     },
     {
@@ -792,10 +741,6 @@
         {
           "id": "minecraft:ender_pearl",
           "Count": 2
-        },
-        {
-          "id": "pipez:energy_pipe",
-          "Count": 6
         }
       ],
       "rewardchoice": [],
@@ -812,7 +757,7 @@
         "isTranslationKey": false
       },
       "x": 126,
-      "y": 11,
+      "y": 12,
       "icon": {
         "id": "thermal:dynamo_compression",
         "Count": 1
@@ -950,8 +895,8 @@
         "text": "There are always byproducts.",
         "isTranslationKey": false
       },
-      "x": 126,
-      "y": 174,
+      "x": 270,
+      "y": 129,
       "icon": {
         "id": "industrialforegoing:sewer",
         "Count": 1
@@ -1008,11 +953,11 @@
         "isTranslationKey": false
       },
       "description": {
-        "text": "Until you get a smeltery up and running, you will need to get invar. If you don\u0027t mind some manual labor, you can use the mill to crush metal into dust and mix it together by hand.",
+        "text": "You\u0027ll need to make some alloys and without enough heat to liquefy metal, you may need to do some of the dirty work yourself.",
         "isTranslationKey": false
       },
       "x": 62,
-      "y": 30,
+      "y": 66,
       "icon": {
         "id": "thermal:invar_dust",
         "Count": 1
@@ -1022,7 +967,11 @@
         {
           "type": "hardcorequesting:detect",
           "description": {
-            "text": "Basic Blends",
+            "text": "Basic Blending",
+            "isTranslationKey": false
+          },
+          "longDescription": {
+            "text": "You can use a mill to crush metal into dust and then craft it together by hand.",
             "isTranslationKey": false
           },
           "items": [
@@ -1076,10 +1025,6 @@
         {
           "id": "thermal:rf_coil",
           "Count": 1
-        },
-        {
-          "id": "mekanism:enriched_carbon",
-          "Count": 2
         }
       ],
       "rewardchoice": [],

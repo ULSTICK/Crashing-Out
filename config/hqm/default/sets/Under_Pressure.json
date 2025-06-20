@@ -11,8 +11,8 @@
         "text": "Pnematiccraft has alot of useful tools and gadgets. While these quests serve as a rough guide. I recommend checking out the pneumaticcraft wiki.\nOh, and using the charger, you now can keep your minigun working!",
         "isTranslationKey": false
       },
-      "x": 181,
-      "y": 116,
+      "x": 206,
+      "y": 165,
       "icon": {
         "id": "pneumaticcraft:pneumatic_wrench",
         "Count": 1
@@ -128,8 +128,8 @@
         "text": "You may have noticed some machines require even more pressure than an air compressor provides. Well heres the answer.",
         "isTranslationKey": false
       },
-      "x": 200,
-      "y": 93,
+      "x": 238,
+      "y": 183,
       "icon": {
         "id": "pneumaticcraft:advanced_air_compressor",
         "Count": 1
@@ -168,29 +168,13 @@
         }
       ],
       "prerequisites": [
-        "0d52820c-7a62-4947-b742-2253063f2b13",
+        "7ddff832-1aee-4299-bb6e-570e437fc74a",
         "0426c2a9-95cc-49a7-a6c6-742dad08b167"
       ],
       "optionlinks": [],
       "reward": [
         {
           "id": "thermal:energy_cell_frame",
-          "Count": 1
-        },
-        {
-          "id": "pipez:energy_pipe",
-          "Count": 6
-        },
-        {
-          "id": "pipez:advanced_upgrade",
-          "Count": 2
-        },
-        {
-          "id": "thermal:rf_coil_storage_augment",
-          "Count": 1
-        },
-        {
-          "id": "thermal:upgrade_augment_3",
           "Count": 1
         }
       ],
@@ -207,8 +191,8 @@
         "text": "Alot of pneumaticcraft machines can have upgrades installed.",
         "isTranslationKey": false
       },
-      "x": 198,
-      "y": 57,
+      "x": 174,
+      "y": 75,
       "icon": {
         "id": "pneumaticcraft:speed_upgrade",
         "Count": 1
@@ -240,7 +224,7 @@
         }
       ],
       "prerequisites": [
-        "0d52820c-7a62-4947-b742-2253063f2b13"
+        "48b64a83-4801-48b2-a4f3-c61106fc344b"
       ],
       "optionlinks": [],
       "reward": [],
@@ -274,8 +258,8 @@
         "text": "Now that you can pump all of the rich oil, it\u0027s time to refine it to make plastic and fuel for your rover and generator.\n\nInstructions:\nPut the 4 refinery outputs one above the other and besides the refinery controler. The resistive heater stays right aside the controller, and it need power to work (at least 100rf/t). ",
         "isTranslationKey": false
       },
-      "x": 273,
-      "y": 28,
+      "x": 270,
+      "y": 165,
       "icon": {
         "id": "mekanism:resistive_heater",
         "Count": 1
@@ -374,10 +358,10 @@
         "text": "Now that you have an empty PCB you need to make an etching tank.",
         "isTranslationKey": false
       },
-      "x": 153,
-      "y": 74,
+      "x": 206,
+      "y": 129,
       "icon": {
-        "id": "pneumaticcraft:etching_tank",
+        "id": "pneumaticcraft:unassembled_pcb",
         "Count": 1
       },
       "trigger": "ANTI_TRIGGER",
@@ -469,71 +453,6 @@
       "commandrewards": []
     },
     {
-      "uuid": "6643e8c9-2e0b-4520-830c-1086a04489c4",
-      "name": {
-        "text": "Blueprint for success",
-        "isTranslationKey": false
-      },
-      "description": {
-        "text": "The next step to make pcbs will have you making a blueprint.",
-        "isTranslationKey": false
-      },
-      "x": 64,
-      "y": 110,
-      "icon": {
-        "id": "pneumaticcraft:plastic",
-        "Count": 1
-      },
-      "trigger": "ANTI_TRIGGER",
-      "tasks": [
-        {
-          "type": "hardcorequesting:detect",
-          "items": [
-            {
-              "item": {
-                "id": "pneumaticcraft:plastic",
-                "Count": 1
-              }
-            },
-            {
-              "item": {
-                "id": "minecraft:emerald",
-                "Count": 1
-              }
-            },
-            {
-              "item": {
-                "id": "pneumaticcraft:etching_acid_bucket",
-                "Count": 1
-              }
-            },
-            {
-              "item": {
-                "id": "pneumaticcraft:ingot_iron_compressed",
-                "Count": 1
-              }
-            }
-          ]
-        }
-      ],
-      "prerequisites": [
-        "3e4732d9-29f9-493b-83fb-96af85b5390d"
-      ],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "minecraft:bucket",
-          "Count": 1
-        },
-        {
-          "id": "pneumaticcraft:pcb_blueprint",
-          "Count": 1
-        }
-      ],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
       "uuid": "7ddff832-1aee-4299-bb6e-570e437fc74a",
       "name": {
         "text": "Assembling Circuit Boards",
@@ -543,8 +462,8 @@
         "text": "Making a pcb by hand is laborius task, not to mention time consuming. ",
         "isTranslationKey": false
       },
-      "x": 228,
-      "y": 41,
+      "x": 238,
+      "y": 147,
       "icon": {
         "id": "pneumaticcraft:assembly_controller",
         "Count": 1
@@ -596,7 +515,7 @@
         }
       ],
       "prerequisites": [
-        "9b956bee-4f0e-4a17-8e06-d895c78c171c"
+        "0d52820c-7a62-4947-b742-2253063f2b13"
       ],
       "optionlinks": [],
       "reward": [
@@ -623,11 +542,11 @@
         "isTranslationKey": false
       },
       "description": {
-        "text": "So, now that we are generating air, what should you make? You can check JEI for the recipies.",
+        "text": "Now that you can generate pressurized air, you can start putting it to use. When you have a pressure chamber, you can make all kinds of advanced materials.",
         "isTranslationKey": false
       },
-      "x": 69,
-      "y": 62,
+      "x": 110,
+      "y": 75,
       "icon": {
         "id": "pneumaticcraft:pressure_chamber_wall",
         "Count": 1
@@ -637,11 +556,11 @@
         {
           "type": "hardcorequesting:detect",
           "description": {
-            "text": "Building it up",
+            "text": "Chamber Construction",
             "isTranslationKey": false
           },
           "longDescription": {
-            "text": "Youll start with a 3x3 pressure chamber. You will need 25 pressure chamber blocks in total. Pressure walls or windows will work. You will alos need a pressure chamber valve. Simply build a 3x3 cube leaving the center block open. The pressure chamber valve MUST connect to the air block in the center.",
+            "text": "You can build a 3x3x3 pressure chamber with 1 pressure chamber valve and 25 pressure chamber blocks (either walls or windows). Build a 3x3x3 cube with the center block missing. One of the blocks adjacent to the center will be the pressure chamber valve.",
             "isTranslationKey": false
           },
           "items": [
@@ -664,37 +583,6 @@
               }
             }
           ]
-        },
-        {
-          "type": "hardcorequesting:detect",
-          "description": {
-            "text": "Hard work pays off",
-            "isTranslationKey": false
-          },
-          "longDescription": {
-            "text": "To use your pressure chamber, Break one of the center blocks and toss whatever you want to proccess into the middle and replace the block. You will lose some air doing this however later on you can stop this.",
-            "isTranslationKey": false
-          },
-          "items": [
-            {
-              "item": {
-                "id": "pneumaticcraft:ingot_iron_compressed",
-                "Count": 1
-              }
-            },
-            {
-              "item": {
-                "id": "pneumaticcraft:capacitor",
-                "Count": 1
-              }
-            },
-            {
-              "item": {
-                "id": "pneumaticcraft:transistor",
-                "Count": 1
-              }
-            }
-          ]
         }
       ],
       "prerequisites": [
@@ -703,20 +591,15 @@
       "optionlinks": [],
       "reward": [
         {
-          "id": "thermal:redstone_servo",
+          "id": "pneumaticcraft:plastic",
           "Count": 4
-        }
-      ],
-      "rewardchoice": [
+        },
         {
           "id": "pneumaticcraft:speed_upgrade",
           "Count": 2
-        },
-        {
-          "id": "pneumaticcraft:plastic",
-          "Count": 4
         }
       ],
+      "rewardchoice": [],
       "commandrewards": []
     },
     {
@@ -729,39 +612,17 @@
         "text": "Now that we have gotten this far, we can get started on the foundation of all technological progression. The PCB. To start, you simply need to toss a compressed iron and place a green plastic in the pressure chamber.",
         "isTranslationKey": false
       },
-      "x": 115,
-      "y": 73,
+      "x": 174,
+      "y": 111,
       "icon": {
-        "id": "pneumaticcraft:uv_light_box",
-        "Count": 1
+        "id": "pneumaticcraft:empty_pcb",
+        "Count": 1,
+        "tag": "{\"pneumaticcraft:uv_exposure\":100}"
       },
       "trigger": "ANTI_TRIGGER",
       "tasks": [
         {
           "type": "hardcorequesting:detect",
-          "description": {
-            "text": "Step 1",
-            "isTranslationKey": false
-          },
-          "items": [
-            {
-              "item": {
-                "id": "pneumaticcraft:empty_pcb",
-                "Count": 1
-              }
-            }
-          ]
-        },
-        {
-          "type": "hardcorequesting:detect",
-          "description": {
-            "text": "Step 2",
-            "isTranslationKey": false
-          },
-          "longDescription": {
-            "text": "Next up, toss the empty PCB into a UV light box. Then you simply have to wait. While you can pull the PCB out before it fully processes, there is a chance it will fail the last step, the etching. If you don\u0027t like the long wait, you may wish to install a few speed upgrades in the light box.",
-            "isTranslationKey": false
-          },
           "items": [
             {
               "item": {
@@ -774,23 +635,58 @@
         }
       ],
       "prerequisites": [
-        "3e4732d9-29f9-493b-83fb-96af85b5390d"
+        "48b64a83-4801-48b2-a4f3-c61106fc344b"
       ],
       "optionlinks": [],
       "reward": [
         {
           "id": "pneumaticcraft:capacitor",
-          "Count": 3
+          "Count": 4
         },
         {
           "id": "pneumaticcraft:transistor",
-          "Count": 3
-        },
-        {
-          "id": "pneumaticcraft:ingot_iron_compressed",
-          "Count": 8
+          "Count": 4
         }
       ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "48b64a83-4801-48b2-a4f3-c61106fc344b",
+      "name": {
+        "text": "Blueprint for Success",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Unnamed quest",
+        "isTranslationKey": false
+      },
+      "x": 142,
+      "y": 93,
+      "icon": {
+        "id": "pneumaticcraft:empty_pcb",
+        "Count": 1
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "hardcorequesting:detect",
+          "items": [
+            {
+              "item": {
+                "id": "pneumaticcraft:empty_pcb",
+                "Count": 1
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "3e4732d9-29f9-493b-83fb-96af85b5390d"
+      ],
+      "optionlinks": [],
+      "reward": [],
       "rewardchoice": [],
       "commandrewards": []
     },
@@ -804,8 +700,8 @@
         "text": "Now that you have compressed Iron you can start building your air chamber",
         "isTranslationKey": false
       },
-      "x": 41,
-      "y": 39,
+      "x": 78,
+      "y": 57,
       "icon": {
         "id": "pneumaticcraft:pressure_tube",
         "Count": 1
@@ -855,18 +751,13 @@
         {
           "id": "pneumaticcraft:pressure_tube",
           "Count": 4
-        }
-      ],
-      "rewardchoice": [
+        },
         {
           "id": "pneumaticcraft:pressure_gauge",
           "Count": 1
-        },
-        {
-          "id": "hardcorequesting:good_bag",
-          "Count": 1
         }
       ],
+      "rewardchoice": [],
       "commandrewards": []
     },
     {
@@ -879,8 +770,8 @@
         "text": "Now that youve stablized your self and created a foot hold on this planet its time to start working on the technology needed to survive.",
         "isTranslationKey": false
       },
-      "x": 12,
-      "y": 18,
+      "x": 46,
+      "y": 39,
       "icon": {
         "id": "minecraft:iron_ingot",
         "Count": 1
@@ -968,8 +859,8 @@
         "text": "A pressure gauge will help messure the amount of pressure inside of your air chamber. It will also emit a redstone single double of what it detects.",
         "isTranslationKey": false
       },
-      "x": 67,
-      "y": 23,
+      "x": 110,
+      "y": 39,
       "icon": {
         "id": "pneumaticcraft:pressure_gauge_module",
         "Count": 1
@@ -996,7 +887,12 @@
         "794f0a0c-359a-442f-87a2-217b2aeae130"
       ],
       "optionlinks": [],
-      "reward": [],
+      "reward": [
+        {
+          "id": "pneumaticcraft:ingot_iron_compressed",
+          "Count": 4
+        }
+      ],
       "rewardchoice": [],
       "commandrewards": []
     },
@@ -1010,8 +906,8 @@
         "text": "Having to break a block every time you want to put in or take out an item in the pressure chamber wastes air pressure.",
         "isTranslationKey": false
       },
-      "x": 91,
-      "y": 104,
+      "x": 110,
+      "y": 110,
       "icon": {
         "id": "pneumaticcraft:pressure_chamber_interface",
         "Count": 1
@@ -1035,10 +931,6 @@
       ],
       "optionlinks": [],
       "reward": [
-        {
-          "id": "hardcorequesting:good_bag",
-          "Count": 1
-        },
         {
           "id": "thermal:redstone_servo",
           "Count": 1

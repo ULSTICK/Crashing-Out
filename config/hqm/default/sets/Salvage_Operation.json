@@ -2,6 +2,127 @@
   "name": "Salvage Operation",
   "quests": [
     {
+      "uuid": "9c45c37d-c906-46f1-b3c0-eec774f4ccbe",
+      "name": {
+        "text": "Unnamed",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Unnamed quest",
+        "isTranslationKey": false
+      },
+      "x": 94,
+      "y": 84,
+      "icon": {
+        "id": "ae2:calculation_processor",
+        "Count": 1
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "hardcorequesting:detect",
+          "description": {
+            "text": "Ingredients",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "ae2:inscriber",
+                "Count": 1
+              },
+              "precision": "FUZZY"
+            },
+            {
+              "item": {
+                "id": "ae2:silicon",
+                "Count": 1
+              },
+              "precision": "FUZZY"
+            },
+            {
+              "item": {
+                "id": "kubejs:pcb_segment",
+                "Count": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "hardcorequesting:detect",
+          "description": {
+            "text": "Inscribing",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "ae2:printed_logic_processor",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "ae2:printed_calculation_processor",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "ae2:printed_engineering_processor",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "ae2:printed_silicon",
+                "Count": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "hardcorequesting:detect",
+          "description": {
+            "text": "Putting it together",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "ae2:logic_processor",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "ae2:calculation_processor",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "ae2:engineering_processor",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "9964c1f7-b9fa-4423-8266-c8f98b046455"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "ae2:logic_processor",
+          "Count": 2
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
       "uuid": "c477a1a1-782a-4fe8-9566-97dc4f9cff31",
       "name": {
         "text": "Triple Play",
@@ -11,8 +132,8 @@
         "text": "An upgrade to the smeltery, it will double the number of ingots you get from ores and TRIPLE the amount you get from ore dust. Also, unlike the smeltery, it will also melt cobble into seared stone, allowing you to make as many more seared and scorched bricks as you need.",
         "isTranslationKey": false
       },
-      "x": 62,
-      "y": 102,
+      "x": 158,
+      "y": 155,
       "icon": {
         "id": "tconstruct:foundry_controller",
         "Count": 1
@@ -60,57 +181,58 @@
       "commandrewards": []
     },
     {
-      "uuid": "059da201-0f0d-47ee-9bf0-416b63d26600",
+      "uuid": "9964c1f7-b9fa-4423-8266-c8f98b046455",
       "name": {
-        "text": "Ore Multiplication",
+        "text": "Unnamed",
         "isTranslationKey": false
       },
       "description": {
-        "text": "You are going to need lots of iron to advance up the tech tree. A smeltery will help you get a good start by almost doubling the ingots you get out of ore. There is a small city near the shuttle. Perhaps a factory there contains the bricks we need?",
+        "text": "The debris on this planet seems to have some advanced technology. Some of this tech seems suited to converting matter into energy, and vice versa.",
         "isTranslationKey": false
       },
-      "x": 62,
+      "x": 126,
       "y": 66,
       "icon": {
-        "id": "tconstruct:smeltery_controller",
+        "id": "kubejs:crashed_applied_controller",
         "Count": 1
       },
-      "trigger": "ANTI_TRIGGER",
       "tasks": [
         {
           "type": "hardcorequesting:detect",
-          "description": {
-            "text": "Old School",
-            "isTranslationKey": false
-          },
           "items": [
             {
               "item": {
-                "id": "tconstruct:smeltery_controller",
+                "id": "kubejs:crashed_applied_controller",
                 "Count": 1
               }
             },
             {
               "item": {
-                "id": "tconstruct:seared_drain",
+                "id": "ae2:smooth_sky_stone_block",
                 "Count": 1
               }
             },
             {
               "item": {
-                "id": "tconstruct:seared_faucet",
+                "id": "ae2:logic_processor_press",
                 "Count": 1
               }
             },
             {
               "item": {
-                "id": "tconstruct:seared_bricks",
+                "id": "ae2:calculation_processor_press",
                 "Count": 1
               }
             },
             {
               "item": {
-                "id": "tconstruct:seared_fuel_tank",
+                "id": "ae2:engineering_processor_press",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "ae2:silicon_press",
                 "Count": 1
               }
             }
@@ -123,24 +245,58 @@
       "optionlinks": [],
       "reward": [
         {
-          "id": "tconstruct:seared_bricks",
-          "Count": 8
+          "id": "minecraft:quartz",
+          "Count": 16
         },
         {
-          "id": "tconstruct:fantastic_foundry",
-          "Count": 1
-        }
-      ],
-      "rewardchoice": [
-        {
-          "id": "minecraft:polished_basalt",
-          "Count": 4
-        },
-        {
-          "id": "minecraft:magma_cream",
+          "id": "ae2:certus_quartz_crystal",
           "Count": 16
         }
       ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "2b994684-1263-4b2b-8567-57b696c8680a",
+      "name": {
+        "text": "Unnamed",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Unnamed quest",
+        "isTranslationKey": false
+      },
+      "x": 190,
+      "y": 66,
+      "icon": {
+        "id": "kubejs:crashed_reactor_frame",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "hardcorequesting:detect",
+          "items": [
+            {
+              "item": {
+                "id": "kubejs:crashed_reactor_controller",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "kubejs:crashed_reactor_frame",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "cdac0984-204e-4fbc-b2cd-cea990ae0367"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
       "commandrewards": []
     },
     {
@@ -153,8 +309,8 @@
         "text": "Need even more power? There is a solution to that. If you pipe water into a reactor it will output steam. That steam then can be used to turn a turbine, generating massive amounts of power. Of course, this isn\u0027t easy to set up. Even discounting having to hunt down the components, you will need a staggering amount of water to keep things running smoothly. Generating that water will take a significant amount of time and effort to set up, but it just might be worth it if you need power in vast amounts.",
         "isTranslationKey": false
       },
-      "x": 62,
-      "y": 174,
+      "x": 254,
+      "y": 102,
       "icon": {
         "id": "biggerreactors:turbine_casing",
         "Count": 1
@@ -248,112 +404,258 @@
       "commandrewards": []
     },
     {
-      "uuid": "cdac0984-204e-4fbc-b2cd-cea990ae0367",
+      "uuid": "26c1c152-15c4-476c-a27b-6f6caff2eff0",
       "name": {
-        "text": "Suitable Preparations",
+        "text": "Big Power",
         "isTranslationKey": false
       },
       "description": {
-        "text": "You may have noticed that you can\u0027t craft everything you need to survive. Perhaps the city ruins scattered around contain the resources you need. One thing is certain, you\u0027ll need to prepare before venturing far from the shuttle.",
+        "text": "As you build your technological infrastructure you will probably find that you need more power than you can easily generate. Luckily, there is a solution. Of course, you\u0027ll have to go hunting for the core components first.",
         "isTranslationKey": false
       },
-      "x": 62,
-      "y": 30,
+      "x": 222,
+      "y": 84,
       "icon": {
-        "id": "hangglider:hang_glider",
-        "Count": 1,
-        "tag": "{Damage:0}"
+        "id": "biggerreactors:reactor_casing",
+        "Count": 1
       },
       "trigger": "ANTI_TRIGGER",
       "tasks": [
         {
           "type": "hardcorequesting:detect",
           "longDescription": {
-            "text": "A melee weapon of some sort would be a wise idea and perhaps some armor as well. Also, make sure you fill that tank with water as much as you can before leaving and make sure you bring enough food and food variety as well. (Note: There\u0027s a city by the West of the shuttle.)",
+            "text": "The reactor controller needs parts we cannot fabricate with the technology we have available, so we can\u0027t build them from scratch. Luckily, the broken controllers you can find in the cities can be repaired out of available resources. Of course, first you have to find one. Power plants seem to be somewhat rare and a lot of them have suffered reactor meltdowns over the years. Still, they do exist if you are willing to explore far enough. ",
             "isTranslationKey": false
           },
           "items": [
             {
               "item": {
-                "id": "thermal:wrench",
-                "Count": 1,
-                "tag": "{}"
-              }
-            },
-            {
-              "item": {
-                "id": "exdeorum:iron_hammer",
-                "Count": 1,
-                "tag": "{Damage:0}"
-              }
-            },
-            {
-              "item": {
-                "id": "hangglider:hang_glider",
-                "Count": 1,
-                "tag": "{Damage:0}"
-              }
-            },
-            {
-              "item": {
-                "id": "sophisticatedbackpacks:backpack",
-                "Count": 1,
-                "tag": "{contentsUuid:[I;921025965,1498695982,-1244308803,1251248921],inventorySlots:27,renderInfo:{upgradeItems:[{Count:1b,id:\"minecraft:air\",tag:{Count:1,Materials:[{ID:\"silentgear:iron\"}]}}]},upgradeSlots:1}"
-              },
-              "precision": "FUZZY"
-            },
-            {
-              "item": {
-                "id": "survive:filled_canteen",
-                "Count": 1,
-                "tag": "{DrinksLeft:3,Potion:\"survive:purified_water\"}"
-              },
-              "precision": "FUZZY"
-            },
-            {
-              "item": {
-                "id": "mekanism:basic_fluid_tank",
+                "id": "biggerreactors:reactor_terminal",
                 "Count": 1
               }
             },
             {
               "item": {
-                "id": "cgm:shell",
+                "id": "biggerreactors:reactor_casing",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "biggerreactors:reactor_power_tap",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "biggerreactors:reactor_access_port",
                 "Count": 1
               },
-              "required": 16
+              "required": 2
+            },
+            {
+              "item": {
+                "id": "biggerreactors:reactor_control_rod",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "biggerreactors:reactor_glass",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "biggerreactors:reactor_fuel_rod",
+                "Count": 1
+              }
             }
           ]
         }
       ],
       "prerequisites": [
-        "099d1358-0b11-49f0-aa78-43531cd739b7"
+        "2b994684-1263-4b2b-8567-57b696c8680a"
       ],
       "optionlinks": [],
       "reward": [
         {
-          "id": "cgm:shell",
-          "Count": 16
-        },
-        {
-          "id": "minecraft:potion",
-          "Count": 2,
-          "tag": "{Potion:\"survive:purified_water\"}"
-        },
-        {
-          "id": "tconstruct:mighty_smelting",
-          "Count": 1,
-          "tag": "{mantle:{book:{current_page:\"\"}}}"
+          "id": "mekanism:ingot_uranium",
+          "Count": 8
         }
       ],
       "rewardchoice": [
         {
-          "id": "pamhc2foodcore:grilledcheeseitem",
-          "Count": 2
+          "id": "biggerreactors:cyanite_ingot",
+          "Count": 8
         },
         {
-          "id": "bhc:red_heart",
+          "id": "biggerreactors:reactor_redstone_port",
           "Count": 2
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "65efa12d-f687-4c3a-9077-b89b3d28fc95",
+      "name": {
+        "text": "Tool Forging",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "The tinker\u0027s anvil can be used to make more advanced tools, including tools that mine in an area of effect and the cleaver, great for beheading mobs.",
+        "isTranslationKey": false
+      },
+      "x": 126,
+      "y": 138,
+      "icon": {
+        "id": "tconstruct:tinkers_anvil",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "hardcorequesting:detect",
+          "items": [
+            {
+              "item": {
+                "id": "tconstruct:tinkers_anvil",
+                "Count": 1
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "059da201-0f0d-47ee-9bf0-416b63d26600"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "tconstruct:seared_brick",
+          "Count": 16
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "3739c921-2340-4675-9d47-c41dbb66aec3",
+      "name": {
+        "text": "Searing Heat",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "There is a small city near the shuttle. Perhaps a factory there contains the bricks we need?",
+        "isTranslationKey": false
+      },
+      "x": 158,
+      "y": 84,
+      "icon": {
+        "id": "tconstruct:seared_bricks",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "hardcorequesting:detect",
+          "longDescription": {
+            "text": "Break the crumbling seared bricks with a hammer or put them in some kind of crushing machine to get bricks.",
+            "isTranslationKey": true
+          },
+          "items": [
+            {
+              "item": {
+                "id": "tconstruct:seared_brick",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "cdac0984-204e-4fbc-b2cd-cea990ae0367"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "tconstruct:mighty_smelting",
+          "Count": 1,
+          "tag": "{mantle:{book:{current_page:\"intro.anvil_craft\"}}}"
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "059da201-0f0d-47ee-9bf0-416b63d26600",
+      "name": {
+        "text": "Ore Multiplication",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "You are going to need lots of iron to advance up the tech tree. A smeltery will help you get a good start by almost doubling the ingots you get out of ore.",
+        "isTranslationKey": false
+      },
+      "x": 158,
+      "y": 120,
+      "icon": {
+        "id": "tconstruct:smeltery_controller",
+        "Count": 1
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "hardcorequesting:detect",
+          "description": {
+            "text": "Old School",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "tconstruct:smeltery_controller",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "tconstruct:seared_drain",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "tconstruct:seared_bricks",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "tconstruct:seared_fuel_tank",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "3739c921-2340-4675-9d47-c41dbb66aec3"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "tconstruct:fantastic_foundry",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "minecraft:polished_basalt",
+          "Count": 4
+        },
+        {
+          "id": "minecraft:magma_cream",
+          "Count": 16
         }
       ],
       "commandrewards": []
@@ -368,12 +670,13 @@
         "text": "The toughest of metals require the hottest of fuels. Blazing blood is among the hottest, and is an essential ingredient for making advanced alloys.",
         "isTranslationKey": false
       },
-      "x": 94,
-      "y": 66,
+      "x": 190,
+      "y": 138,
       "icon": {
         "id": "tconstruct:blazing_blood_bucket",
         "Count": 1
       },
+      "trigger": "ANTI_TRIGGER",
       "tasks": [
         {
           "type": "hardcorequesting:detect",
@@ -405,94 +708,184 @@
       "commandrewards": []
     },
     {
-      "uuid": "26c1c152-15c4-476c-a27b-6f6caff2eff0",
+      "uuid": "cdac0984-204e-4fbc-b2cd-cea990ae0367",
       "name": {
-        "text": "Big Power",
+        "text": "Into The Unknown",
         "isTranslationKey": false
       },
       "description": {
-        "text": "As you build your technological infrastructure you will probably find that you need more power than you can easily generate. Luckily, there is a solution. Of course, you\u0027ll have to go hunting for the core components first.",
+        "text": "You may have noticed that you can\u0027t craft everything you need to survive. Perhaps the city ruins scattered around contain the resources you need. One thing is certain, you\u0027ll need to prepare before venturing far from the shuttle.",
         "isTranslationKey": false
       },
-      "x": 62,
-      "y": 138,
+      "x": 158,
+      "y": 48,
       "icon": {
-        "id": "biggerreactors:reactor_casing",
-        "Count": 1
+        "id": "hangglider:hang_glider",
+        "Count": 1,
+        "tag": "{Damage:0}"
       },
       "trigger": "ANTI_TRIGGER",
       "tasks": [
         {
           "type": "hardcorequesting:detect",
           "longDescription": {
-            "text": "The reactor controller needs parts we cannot fabricate with the technology we have available, so we can\u0027t build them from scratch. Luckily, the broken controllers you can find in the cities can be repaired out of available resources. Of course, first you have to find one. Power plants seem to be somewhat rare and a lot of them have suffered reactor meltdowns over the years. Still, they do exist if you are willing to explore far enough. ",
+            "text": "A melee weapon of some sort would be a wise idea and perhaps some armor as well. Also, make sure you fill that tank with water as much as you can before leaving and make sure you bring enough food and food variety as well. (Note: There\u0027s a city by the West of the shuttle.)",
             "isTranslationKey": false
           },
           "items": [
             {
               "item": {
-                "id": "biggerreactors:reactor_casing",
-                "Count": 1
+                "id": "thermal:wrench",
+                "Count": 1,
+                "tag": "{}"
+              },
+              "precision": "FUZZY"
+            },
+            {
+              "item": {
+                "id": "exdeorum:iron_hammer",
+                "Count": 1,
+                "tag": "{Damage:0}"
+              },
+              "precision": "FUZZY"
+            },
+            {
+              "item": {
+                "id": "hangglider:hang_glider",
+                "Count": 1,
+                "tag": "{Damage:0}"
               }
             },
             {
               "item": {
-                "id": "biggerreactors:reactor_fuel_rod",
-                "Count": 1
-              }
+                "id": "sophisticatedbackpacks:backpack",
+                "Count": 1,
+                "tag": "{contentsUuid:[I;921025965,1498695982,-1244308803,1251248921],inventorySlots:27,renderInfo:{upgradeItems:[{Count:1b,id:\"minecraft:air\",tag:{Count:1,Materials:[{ID:\"silentgear:iron\"}]}}]},upgradeSlots:1}"
+              },
+              "precision": "FUZZY"
             },
             {
               "item": {
-                "id": "biggerreactors:reactor_power_tap",
-                "Count": 1
-              }
+                "id": "survive:filled_canteen",
+                "Count": 1,
+                "tag": "{DrinksLeft:3,Potion:\"survive:purified_water\"}"
+              },
+              "precision": "FUZZY"
             },
             {
               "item": {
-                "id": "biggerreactors:reactor_access_port",
+                "id": "mekanism:basic_fluid_tank",
                 "Count": 1
               },
-              "required": 2
+              "precision": "FUZZY"
             },
             {
               "item": {
-                "id": "biggerreactors:reactor_control_rod",
+                "id": "cgm:shell",
                 "Count": 1
-              }
-            },
-            {
-              "item": {
-                "id": "biggerreactors:reactor_glass",
-                "Count": 1
-              }
-            },
-            {
-              "item": {
-                "id": "biggerreactors:reactor_terminal",
-                "Count": 1
-              }
+              },
+              "required": 16
             }
           ]
         }
       ],
       "prerequisites": [
-        "c477a1a1-782a-4fe8-9566-97dc4f9cff31"
+        "099d1358-0b11-49f0-aa78-43531cd739b7"
       ],
       "optionlinks": [],
       "reward": [
         {
-          "id": "mekanism:ingot_uranium",
-          "Count": 8
+          "id": "cgm:shell",
+          "Count": 16
+        },
+        {
+          "id": "minecraft:potion",
+          "Count": 2,
+          "tag": "{Potion:\"survive:purified_water\"}"
         }
       ],
       "rewardchoice": [
         {
-          "id": "biggerreactors:cyanite_ingot",
+          "id": "pamhc2foodcore:grilledcheeseitem",
           "Count": 8
         },
         {
-          "id": "biggerreactors:reactor_redstone_port",
+          "id": "bhc:red_heart",
           "Count": 2
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "6411096c-3d98-4e84-8599-9718d7ee18f6",
+      "name": {
+        "text": "Applied Energistics Core",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "You\u0027ll need a few components to start your storage system.",
+        "isTranslationKey": false
+      },
+      "x": 62,
+      "y": 102,
+      "icon": {
+        "id": "ae2:controller",
+        "Count": 1
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "hardcorequesting:detect",
+          "items": [
+            {
+              "item": {
+                "id": "ae2:controller",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "ae2:drive",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "ae2:terminal",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "ae2:item_storage_cell_1k",
+                "Count": 1,
+                "tag": "{}"
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "9c45c37d-c906-46f1-b3c0-eec774f4ccbe"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "ae2:fluix_glass_cable",
+          "Count": 16
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ae2:item_storage_cell_16k",
+          "Count": 1,
+          "tag": "{}"
+        },
+        {
+          "id": "ae2:fluid_storage_cell_16k",
+          "Count": 1,
+          "tag": "{}"
         }
       ],
       "commandrewards": []

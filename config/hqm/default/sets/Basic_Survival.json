@@ -252,12 +252,6 @@
                 "id": "exdeorum:unfired_porcelain_crucible",
                 "Count": 1
               }
-            },
-            {
-              "item": {
-                "id": "minecraft:bucket",
-                "Count": 1
-              }
             }
           ]
         }
@@ -298,35 +292,13 @@
       "commandrewards": []
     },
     {
-      "uuid": "c02991eb-4c9b-4e38-bd50-3eab714b0cc0",
-      "name": {
-        "text": "Unnamed",
-        "isTranslationKey": false
-      },
-      "description": {
-        "text": "Unnamed quest",
-        "isTranslationKey": false
-      },
-      "x": 78,
-      "y": 183,
-      "trigger": "ANTI_TRIGGER",
-      "prerequisites": [
-        "b910ad01-be2f-4928-b33d-6a38353b8b9f",
-        "65efa12d-f687-4c3a-9077-b89b3d28fc95"
-      ],
-      "optionlinks": [],
-      "reward": [],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
       "uuid": "a06fbc3a-5b54-4b9a-8f91-6dd3cdd5181e",
       "name": {
         "text": "End of an era",
         "isTranslationKey": false
       },
       "description": {
-        "text": "Now that you are stable and able to live somewhat comfortably, it\u0027s time to look beyond immediate survival and start planning for your future. For true industrialization, you will need plastic and circuit bords. To start off, you can melt plastic scraps from the cities into plastic sheets.",
+        "text": "Now that you are stable and able to live somewhat comfortably, it\u0027s time to look beyond immediate survival and start planning for your future. For true industrialization, you will need plastic. You may need to visit the cities.",
         "isTranslationKey": false
       },
       "x": 302,
@@ -347,12 +319,6 @@
             {
               "item": {
                 "id": "pneumaticcraft:plastic",
-                "Count": 1
-              }
-            },
-            {
-              "item": {
-                "id": "pneumaticcraft:printed_circuit_board",
                 "Count": 1
               }
             }
@@ -441,7 +407,7 @@
         "isTranslationKey": false
       },
       "description": {
-        "text": "If you need some glue in a pinch, you don\u0027t need to find slime to do it. It turns out some water and flour makes for a great adhesive.",
+        "text": "If you need to glue something in a pinch, you don\u0027t need to find slime to do it. It turns out some water and flour makes for a great adhesive.",
         "isTranslationKey": false
       },
       "x": 94,
@@ -472,8 +438,26 @@
         "d4d8bba6-7b9e-417a-b543-90ffb032400b"
       ],
       "optionlinks": [],
-      "reward": [],
-      "rewardchoice": [],
+      "reward": [
+        {
+          "id": "minecraft:wheat_seeds",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "pamhc2crops:barleyseeditem",
+          "Count": 1
+        },
+        {
+          "id": "pamhc2crops:oatsseeditem",
+          "Count": 1
+        },
+        {
+          "id": "pamhc2crops:ryeseeditem",
+          "Count": 1
+        }
+      ],
       "commandrewards": []
     },
     {
@@ -956,7 +940,7 @@
         "isTranslationKey": false
       },
       "description": {
-        "text": "This world doesn\u0027t have any lava lakes or dragons, so you\u0027ll have to get the materials in other ways. A barrel full of lava can be turned into netherrack or endstone using redstone or glowstone respectively.",
+        "text": "This world doesn\u0027t have any lava lakes or dragons, so you\u0027ll have to get some materials in other ways. A barrel full of lava can be turned into netherrack or endstone using redstone or glowstone respectively.",
         "isTranslationKey": false
       },
       "x": 62,
@@ -994,7 +978,16 @@
       ],
       "optionlinks": [],
       "reward": [],
-      "rewardchoice": [],
+      "rewardchoice": [
+        {
+          "id": "exdeorum:crushed_netherrack",
+          "Count": 8
+        },
+        {
+          "id": "exdeorum:crushed_end_stone",
+          "Count": 8
+        }
+      ],
       "commandrewards": []
     },
     {
@@ -1456,45 +1449,6 @@
       "commandrewards": []
     },
     {
-      "uuid": "65efa12d-f687-4c3a-9077-b89b3d28fc95",
-      "name": {
-        "text": "Tool Forging",
-        "isTranslationKey": false
-      },
-      "description": {
-        "text": "The tinker\u0027s anvil can be used to make more advanced tools, including tools that mine in an area of effect and the cleaver, great for beheading mobs.",
-        "isTranslationKey": false
-      },
-      "x": 62,
-      "y": 156,
-      "icon": {
-        "id": "tconstruct:tinkers_anvil",
-        "Count": 1
-      },
-      "tasks": [
-        {
-          "type": "hardcorequesting:detect",
-          "items": [
-            {
-              "item": {
-                "id": "tconstruct:tinkers_anvil",
-                "Count": 1
-              },
-              "precision": "FUZZY"
-            }
-          ]
-        }
-      ],
-      "prerequisites": [
-        "0f7c28b0-3881-419c-9d4b-ca936ad109f3",
-        "cdac0984-204e-4fbc-b2cd-cea990ae0367"
-      ],
-      "optionlinks": [],
-      "reward": [],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
       "uuid": "099d1358-0b11-49f0-aa78-43531cd739b7",
       "name": {
         "text": "Firing it up!",
@@ -1507,7 +1461,7 @@
       "x": 126,
       "y": 102,
       "icon": {
-        "id": "slabmachines:furnace_slab",
+        "id": "minecraft:furnace",
         "Count": 1
       },
       "trigger": "ANTI_TRIGGER",
