@@ -316,10 +316,6 @@
     "modId": "insanelib",
     "version": "1.21.1"
   },
-  "InventoryProfilesNext-forge-1.20-1.10.14.jar": {
-    "modId": "inventoryprofilesnext",
-    "version": "1.10.14"
-  },
   "itemcollectors-1.1.10-forge-mc1.20.jar": {
     "modId": "itemcollectors",
     "version": "1.1.10"
@@ -457,10 +453,6 @@
     "modId": "openloader",
     "version": "19.0.4"
   },
-  "overworldpiglins-1.20.1-1.5.jar": {
-    "modId": "overworldpiglins",
-    "version": "1.5"
-  },
   "pamhc2crops-1.20-1.0.3.jar": {
     "modId": "pamhc2crops",
     "version": "1.0.3"
@@ -593,11 +585,7 @@
     "modId": "sophisticatedstorage",
     "version": "1.3.38.1136"
   },
-  "soundsbegone-1.2.5.jar": {
-    "modId": "soundsbegone",
-    "version": "1.2.5"
-  },
-  "specialmobs-1.20.1-4.1.15.jar": {
+  "specialmobs-1.20.1-3.1.10.jar": {
     "modId": "specialmobs",
     "version": "1.20.1-4.1.15"
   },
