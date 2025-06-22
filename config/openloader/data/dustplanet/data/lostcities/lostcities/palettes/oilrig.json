@@ -38,15 +38,15 @@
     },
     {
       "char": "s",
-      "block": "lootr:lootr_barrel"
+      "block": "minecraft:barrel"
     },
     {
       "char": "N",
-      "block": "lootr:lootr_barrel"
+      "block": "minecraft:barrel"
     },
     {
       "char": "U",
-      "block": "lootr:lootr_barrel"
+      "block": "minecraft:barrel"
     },
     {
       "char": "&",

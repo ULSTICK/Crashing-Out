@@ -153,12 +153,12 @@
         },
         {
           "random": 5,
-          "block": "lootr:lootr_chest",
+          "block": "minecraft:chest",
           "loot": "chestloot"
         },
         {
           "random": 2,
-          "block": "lootr:lootr_chest",
+          "block": "minecraft:chest",
           "loot": "chestloot"
         },
         {
@@ -214,7 +214,7 @@
     },
     {
       "char": "C",
-      "block": "lootr:lootr_chest",
+      "block": "minecraft:chest",
       "loot": "chestloot"
     },
     {

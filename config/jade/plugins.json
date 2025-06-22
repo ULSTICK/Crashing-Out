@@ -31,9 +31,6 @@
     "crucible": true,
     "sieve": true
   },
-  "framedblocks": {
-    "framed_item_frame": true
-  },
   "jade": {
     "coordinates.rel": false,
     "distance": false,

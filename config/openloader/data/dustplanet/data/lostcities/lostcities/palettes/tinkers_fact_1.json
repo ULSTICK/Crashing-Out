@@ -10,7 +10,7 @@
     },
     {
       "char": "q",
-      "block": "lootr:lootr_chest[facing=east]",
+      "block": "minecraft:chest[facing=east]",
       "loot": "chestloot_tinkers"
     },
     {
@@ -27,7 +27,7 @@
     },
     {
       "char": "r",
-      "block": "lootr:lootr_chest[facing=west]",
+      "block": "minecraft:chest[facing=west]",
       "loot": "chestloot_tinkers"
     },
     {

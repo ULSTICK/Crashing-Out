@@ -260,10 +260,6 @@
     "modId": "ferritecore",
     "version": "6.0.1"
   },
-  "FramedBlocks-9.4.1.jar": {
-    "modId": "framedblocks",
-    "version": "9.4.1"
-  },
   "framework-forge-1.20.1-0.7.15.jar": {
     "modId": "framework",
     "version": "0.7.15"
@@ -373,10 +369,6 @@
     "modId": "lmft",
     "version": "1.0.4+1.20.1"
   },
-  "lootr-forge-1.20-0.7.35.91.jar": {
-    "modId": "lootr",
-    "version": "0.7.35.91"
-  },
   "lostcities-1.20-7.3.6.jar": {
     "modId": "lostcities",
     "version": "1.20-7.3.6"
@@ -401,10 +393,6 @@
     "modId": "mekanismadditions",
     "version": "10.4.16"
   },
-  "MekanismGenerators-1.20.1-10.4.16.80.jar": {
-    "modId": "mekanismgenerators",
-    "version": "10.4.16"
-  },
   "minihud-fabric-1.20.1-0.27.1.jar": {
     "modId": "minihud",
     "version": "0.27.1"
@@ -420,10 +408,6 @@
   "moonlight-1.20-2.14.1-forge.jar": {
     "modId": "moonlight",
     "version": "1.20-2.14.1"
-  },
-  "moreconcrete-1.4.7-1.20.1.jar": {
-    "modId": "moreconcrete",
-    "version": "1.4.7"
   },
   "MouseTweaks-forge-mc1.20.1-2.25.1.jar": {
     "modId": "mousetweaks",
@@ -549,10 +533,6 @@
     "modId": "resourcefullib",
     "version": "2.1.29"
   },
-  "rftoolsbase-1.20-5.0.6.jar": {
-    "modId": "rftoolsbase",
-    "version": "1.20-5.0.6"
-  },
   "rhino-forge-2001.2.3-build.10.jar": {
     "modId": "rhino",
     "version": "2001.2.3-build.10"
@@ -673,29 +653,14 @@
     "modId": "torchmaster",
     "version": "20.1.9"
   },
-  "trashcans-1.0.18b-forge-mc1.20.jar": {
-    "modId": "trashcans",
-    "version": "1.0.18b"
-  },
   "UnionLib-1.20.1-10.2.7-Forge.jar": {
     "modId": "unionlib",
     "version": "10.2.7"
-  },
-  "vmh-1.2.2-1.20.1.jar": {
-    "modId": "vmh",
-    "version": "1.2.2-forge-1.20.1"
   },
   "worldedit-mod-7.2.15.jar": {
     "modId": "worldedit",
     "version": "7.2.15+6463-5ca4dff"
   },
-  "xnet-1.20-6.1.6.jar": {
-    "modId": "xnet",
-    "version": "1.20-6.1.6"
-  },
-  "xnetgases-1.20.1-5.1.4.jar": {
-    "modId": "xnetgases",
-    "version": "5.1.4"
   "Zeta-1.0-30.jar": {
     "modId": "zeta",
     "version": "1.0-30"

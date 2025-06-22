@@ -22,7 +22,7 @@
     },
     {
       "char": "s",
-      "block": "lootr:lootr_chest[facing=north]",
+      "block": "minecraft:chest[facing=north]",
       "loot": "chestloot"
     },
     {
