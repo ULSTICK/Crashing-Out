@@ -152,10 +152,6 @@
     "modId": "crafting_on_a_stick",
     "version": "1.1.5"
   },
-  "CraftTweaker-forge-1.20.1-14.0.57.jar": {
-    "modId": "crafttweaker",
-    "version": "14.0.57"
-  },
   "CrashAssistant-forge-1.19.2-1.20.1-1.8.0.jar": {
     "modId": "crash_assistant",
     "version": "1.8.0"
@@ -175,10 +171,6 @@
   "createdeco-2.0.3-1.20.1-forge.jar": {
     "modId": "createdeco",
     "version": "2.0.3-1.20.1-forge"
-  },
-  "CreateTweaker-forge-1.20.1-4.0.15.jar": {
-    "modId": "createtweaker",
-    "version": "4.0.15"
   },
   "crust-1.20.1-2.5.11.jar": {
     "modId": "crust",
@@ -331,10 +323,6 @@
   "jeiintegration_1.20.1-10.0.0.jar": {
     "modId": "jeiintegration",
     "version": "10.0.0"
-  },
-  "JeiTweaker-forge-1.20.1-8.0.6.jar": {
-    "modId": "jeitweaker",
-    "version": "8.0.6"
   },
   "journeymap-1.20.1-5.10.3-forge.jar": {
     "modId": "journeymap",
