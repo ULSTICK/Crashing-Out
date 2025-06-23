@@ -23,12 +23,9 @@ ServerEvents.recipes(event => {
     event.remove({ output: 'mekanism:ingot_refined_obsidian', type: "tconstruct:casting_table" });
     event.remove({ mod: 'mob_grinding_utils' });
     event.remove({ id: 'tconstruct:smeltery/melting/metal/iron/ore_sparse' });
-    event.remove([{ output: 'minecraft:soul_sand', type: 'create:haunting' }, { output: 'minecraft:soul_soul', type: 'create:haunting' }]);
+    event.remove([{ output: 'minecraft:soul_sand', type: 'create:haunting' }, { output: 'minecraft:soul_soil', type: 'create:haunting' }]);
     event.remove({ id: 'tconstruct:smeltery/casting/seared/brick_composite' });
     event.remove({ id: 'tconstruct:smeltery/casting/seared/stone/block_from_seared' });
     
     exdeorum.removeDefaultSieveRecipes(event);
 });
-
-
-
