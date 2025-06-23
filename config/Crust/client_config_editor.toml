@@ -7,7 +7,7 @@
 
   # Set this to false to hide the config editor button on the main menu.
   # <Boolean> Valid Values: { true, false }, Default: true
-  main_menu_button.enabled = true
+  main_menu_button.enabled = false
 
   # The anchor position for the config editor button. That is, where it should be positioned relative to the screen or
   #   vanilla menu buttons.
