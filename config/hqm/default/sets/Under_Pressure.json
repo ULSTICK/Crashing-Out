@@ -934,10 +934,6 @@
         {
           "id": "thermal:redstone_servo",
           "Count": 1
-        },
-        {
-          "id": "pipez:item_pipe",
-          "Count": 4
         }
       ],
       "rewardchoice": [],

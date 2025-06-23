@@ -91,10 +91,6 @@
       "optionlinks": [],
       "reward": [
         {
-          "id": "pipez:item_pipe",
-          "Count": 16
-        },
-        {
           "id": "functionalstorage:jungle_4",
           "Count": 1
         },
@@ -603,10 +599,6 @@
       ],
       "optionlinks": [],
       "reward": [
-        {
-          "id": "pipez:fluid_pipe",
-          "Count": 16
-        },
         {
           "id": "mekanism:ultimate_fluid_tank",
           "Count": 1
