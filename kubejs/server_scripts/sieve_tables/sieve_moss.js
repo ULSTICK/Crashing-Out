@@ -37,11 +37,6 @@ ServerEvents.recipes(event => {
         'minecraft:peony': 0.01,
         'minecraft:flowering_azalea': 0.01,
         'minecraft:azalea': 0.01,
-        'farmersdelight:wild_cabbages': 0.01,
-        'farmersdelight:wild_onions': 0.01,
-        'farmersdelight:wild_tomatoes': 0.01,
-        'farmersdelight:wild_carrots': 0.01,
-        'farmersdelight:wild_potatoes': 0.01,
         'pamhc2crops:cauliflowerseeditem': 0.01,
     };
 

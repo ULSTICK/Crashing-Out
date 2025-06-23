@@ -79,8 +79,6 @@ ServerEvents.recipes(event => {
         'minecraft:melon_seeds': 0.001,
         'minecraft:beetroot_seeds': 0.001,
         'exdeorum:grass_seeds': 0.001,
-        'farmersdelight:cabbage_seeds': 0.001,
-        'farmersdelight:tomato_seeds': 0.001,
         'pamhc2crops:mustardseedsitem': 0.001,
         'pamhc2crops:sesameseedsitem': 0.001,
         'pamhc2crops:agaveseeditem': 0.001,
