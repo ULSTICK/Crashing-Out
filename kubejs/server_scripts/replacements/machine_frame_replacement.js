@@ -16,7 +16,7 @@ ServerEvents.recipes(event => {
   event.remove({ output: 'mekanism:steel_casing' });
   event.remove({ output: 'enderio:void_chassis' });
   event.remove({ output: 'enderio:ensouled_chassis' });
-  event.remove({ output: 'rftoolsbase:machine_frame' });
+//  event.remove({ output: 'rftoolsbase:machine_frame' });
 
   event.shaped(
     Item.of('thermal:machine_frame', 1),

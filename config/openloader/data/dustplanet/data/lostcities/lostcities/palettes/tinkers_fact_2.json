@@ -2,7 +2,7 @@
   "palette": [
     {
       "char": "q",
-      "block": "cfm:stripped_oak_desk[facing=north,type=right]"
+      "block": "refurbished_furniture:oak_desk[facing=north,left=false,right=true]"
     },
     {
       "char": "k",
@@ -14,7 +14,7 @@
     },
     {
       "char": "m",
-      "block": "cfm:stripped_warped_chair[facing=east]"
+      "block": "refurbished_furniture:warped_chair[facing=east,tucked=false]"
     },
     {
       "char": "f",
@@ -27,7 +27,7 @@
     },
     {
       "char": "r",
-      "block": "cfm:stripped_warped_chair[facing=south]"
+      "block": "refurbished_furniture:warped_chair[facing=south,tucked=false]"
     },
     {
       "char": "j",
@@ -47,11 +47,11 @@
     },
     {
       "char": "n",
-      "block": "cfm:stripped_oak_desk[facing=north,type=left]"
+      "block": "refurbished_furniture:oak_desk[facing=north,left=true,right=false]"
     },
     {
       "char": "o",
-      "block": "cfm:stripped_oak_desk[facing=north,type=middle]"
+      "block": "refurbished_furniture:oak_desk[facing=north,left=true,right=true]"
     },
     {
       "char": "E",
