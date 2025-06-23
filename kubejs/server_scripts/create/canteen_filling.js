@@ -22,8 +22,7 @@ ServerEvents.recipes(event => {
         event.recipes.create.filling(
             output,
             [Fluid.of(liquid, 1000), input]
-        ).processingTime(200)
-            .id(id);
+        ).id(id);
     };
 
     fillCanteen('minecraft:water', 0, 1);
