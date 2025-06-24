@@ -2,9 +2,7 @@
   "type": "pneumaticcraft:pressure_chamber",
   "inputs": [
     {
-      "type": "pneumaticcraft:stacked_item",
-      "count": 2,
-      "item": "minecraft:redstone_torch"
+      "item": "pneumaticcraft:plastic"
     },
     {
       "type": "pneumaticcraft:stacked_item",
@@ -12,13 +10,15 @@
       "tag": "pneumaticcraft:wiring"
     },
     {
-      "item": "pneumaticcraft:plastic"
+      "type": "pneumaticcraft:stacked_item",
+      "count": 2,
+      "item": "minecraft:redstone_torch"
     }
   ],
   "pressure": 1.5,
   "results": [
     {
-      "count": 2,
+      "count": 1,
       "item": "pneumaticcraft:empty_pcb"
     }
   ]
