@@ -10,16 +10,14 @@
       "tag": "pneumaticcraft:wiring"
     },
     {
-      "type": "pneumaticcraft:stacked_item",
-      "count": 2,
-      "item": "minecraft:redstone_torch"
+      "tag": "forge:adhesive"
     }
   ],
-  "pressure": 1.5,
+  "pressure": 1.0,
   "results": [
     {
-      "count": 1,
-      "item": "pneumaticcraft:empty_pcb"
+      "count": 2,
+      "item": "pneumaticcraft:capacitor"
     }
   ]
 }
