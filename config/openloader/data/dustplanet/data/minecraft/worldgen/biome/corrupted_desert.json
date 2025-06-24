@@ -43,7 +43,7 @@
         "minecraft:patch_sculk_shrieker"
       ]
     ],
-    "has_precipitation": true,
+    "has_precipitation": false,
     "spawn_costs": {},
     "spawners": {
       "ambient": [],
