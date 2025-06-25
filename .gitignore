@@ -1,6 +1,7 @@
 *.gz
 /.example_data
 /.vscode
+/cosmetics
 /config/fabric
 /config/inventoryprofilesnext
 /config/jei
