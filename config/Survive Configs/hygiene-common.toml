@@ -8,10 +8,20 @@
 "Boolean: Enable Hygiene (Beta)" = false
 #
 ############################################
+#How many dirty stacks would cause the player to turn sick
+#Setting this to -1 prevents the player from getting sick this way if the wellbeing module is enabled
+#Keep in mind that the player becomes dirty at 30 stacks
+#-------------------------------------------
+#Default: 200
+#-------------------------------------------
+#Range: -1 ~ 5000
+"Integer: Illness Level" = 200
+#
+############################################
 #How many ticks should pass before the players grime counter increases by one
 #Setting this to -1 prevents the player from getting dirty this way
 #-------------------------------------------
-#Default: 500
+#Default: 600
 #-------------------------------------------
 #Range: -1 ~ 5000
 "Integer: Dirty Tick Rate" = 500

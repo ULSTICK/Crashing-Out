@@ -585,9 +585,10 @@
     "modId": "supermartijn642corelib",
     "version": "1.1.18"
   },
-  "Survive-1.20.1-9.0.6.jar": {
+  "Survive-1.20.1-10.1.8-Forge.jar": {
+    "jarName": "Survive-1.20.1-10.1.8-Forge.jar",
     "modId": "survive",
-    "version": "1.20.1-9.0.6"
+    "version": "10.1.8"
   },
   "sync-reported-pawjwp-mc1.20.1-4.3.jar": {
     "modId": "sync",
@@ -645,9 +646,10 @@
     "modId": "trashcans",
     "version": "1.0.18b"
   },
-  "UnionLib-1.20.1-10.2.7-Forge.jar": {
+  "UnionLib-1.20.1-12.0.17-Forge-all.jar": {
+    "jarName": "UnionLib-1.20.1-12.0.17-Forge-all.jar",
     "modId": "unionlib",
-    "version": "10.2.7"
+    "version": "12.0.17"
   },
   "vmh-1.2.2-1.20.1.jar": {
     "modId": "vmh",
@@ -660,9 +662,6 @@
   "xnetgases-1.20.1-5.1.4.jar": {
     "modId": "xnetgases",
     "version": "5.1.4"
-  "Zeta-1.0-30.jar": {
-    "modId": "zeta",
-    "version": "1.0-30"
   },
   "zombieawareness-1.20.1-1.13.1.jar": {
     "modId": "zombieawareness",
