@@ -7,13 +7,6 @@
 "Boolean: Enable Thirst" = true
 #
 ############################################
-#Enabling this allows players to drink water from flowing water sources. This is only allowed for infinite water sources
-#-------------------------------------------
-#Default: false
-#-------------------------------------------
-"Boolean: Drink From Flowing Water" = false
-#
-############################################
 #Enabling this will remove the water source block when it is drunk
 #-------------------------------------------
 #Default: false
@@ -21,12 +14,12 @@
 "Boolean: Remove Source Water Block" = false
 #
 ############################################
-#The amount of thirst exaustion added to the player regardless of what the player is doing
+#The amount of times we can drink water from a canteen before it's empty
 #-------------------------------------------
-#Default: 0.1125
+#Default: 3
 #-------------------------------------------
-#Range: 0.0 ~ 4.0
-"Float: Idle Thirst Exhaustion" = 0.1125
+#Range: 1 ~ 10
+"Integer: Canteen Fill Amount" = 3
 #
 ############################################
 #The amount of time in ticks before thirst exaustion is added to the player regardless of what the player is doing. Set to -1 to disable
@@ -37,10 +30,25 @@
 "Integer: Idle Thrist Tick Rate" = 50
 #
 ############################################
-#The amount of times we can drink water from a canteen before it's empty
+#The amount of thirst exaustion added to the player regardless of what the player is doing
 #-------------------------------------------
-#Default: 3
+#Default: 0.1125
+#-------------------------------------------
+#Range: 0.0 ~ 4.0
+"Float: Idle Thirst Exhaustion" = 0.1125
+#
+############################################
+#The amount of times we can drink water from a netherite canteen before it's empty
+#-------------------------------------------
+#Default: 4
 #-------------------------------------------
 #Range: 1 ~ 10
-"Integer: Canteen Fill Amount" = 3
+"Integer: Netherite Canteen Fill Amount" = 4
+#
+############################################
+#Enabling this allows players to drink water from flowing water sources. This is only allowed for infinite water sources
+#-------------------------------------------
+#Default: false
+#-------------------------------------------
+"Boolean: Drink From Flowing Water" = false
 

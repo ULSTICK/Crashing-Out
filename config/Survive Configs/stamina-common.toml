@@ -1,29 +1,5 @@
 #
 ############################################
-#Disabling this will disable this mods stamina system and energy management system
-#-------------------------------------------
-#Default: true
-#-------------------------------------------
-"Boolean: Enable Stamina" = false
-#
-############################################
-#Disabling this will allow the weight of certain armor pieces to affect your stamina
-#-------------------------------------------
-#Default: true
-#-------------------------------------------
-"Boolean: Enable Armor Weights" = true
-#
-############################################
-#Adds stamina exhaustion from interacting with blocks
-#This will only count if the block's interaction is successful i.e opening a chest
-#Stamina exhaustion unlike food exhaustion counts up to 10
-#-------------------------------------------
-#Default: 1.0
-#-------------------------------------------
-#Range: 0.0 ~ 4.0
-"Float: Stamina Exhaustion From Interacting With Blocks" = 1.0
-#
-############################################
 #Adds stamina exhaustion from interacting with items
 #This will only count if the block's interaction is successful i.e drawing a bow
 #Stamina exhaustion unlike food exhaustion counts up to 10
@@ -44,23 +20,13 @@
 "Float: Stamina Exhaustion From Breaking Harvestable Blocks" = 1.5
 #
 ############################################
-#Adds stamina exhaustion from breaking non harvestable blocks
-#This will only count if the player uses the correct tool to break the block
-#Stamina exhaustion unlike food exhaustion counts up to 10
+#This will only work in Parcool if you have it's stamina set to consume hunger
+#If you do so, this mod will force Parcool to use up burst stamina instead of hunger
+#Also, you might want to hide Parcools stamina overlay. While it will show your burst stamina instead of your hunger, it'll cover the stamina bar from this mod
 #-------------------------------------------
-#Default: 0.125
+#Default: true
 #-------------------------------------------
-#Range: 0.0 ~ 4.0
-"Float: Stamina Exhaustion From Breaking Non-Harvestable Blocks" = 0.125
-#
-############################################
-#How often in ticks does the player recover stamina
-#This recovers 1 point of stamina after the amount of set ticks passes
-#-------------------------------------------
-#Default: 300
-#-------------------------------------------
-#Range: 0 ~ 10000
-"Integer: Stamina Recovery Ticks" = 300
+"Boolean: Use Burst Stamina for Parcool" = true
 #
 ############################################
 #The maximum weight (kg) of armor that the player can carry without losing stamina
@@ -69,6 +35,20 @@
 #-------------------------------------------
 #Range: 0.0 ~ 10000.0
 "Float: Maximum Armor Carry Weight" = 21.0
+#
+############################################
+#Disabling this will allow the weight of certain armor pieces to affect your stamina
+#-------------------------------------------
+#Default: true
+#-------------------------------------------
+"Boolean: Enable Armor Weights" = true
+#
+############################################
+#Disabling this will disable this mods stamina system and energy management system
+#-------------------------------------------
+#Default: true
+#-------------------------------------------
+"Boolean: Enable Stamina" = false
 #
 ############################################
 #The maximum stamina the player has
@@ -87,4 +67,33 @@
 #-------------------------------------------
 #Range: 0 ~ 20
 "Integer: Minimum Food For Stamina Regeneration" = 15
+#
+############################################
+#Adds stamina exhaustion from interacting with blocks
+#This will only count if the block's interaction is successful i.e opening a chest
+#Stamina exhaustion unlike food exhaustion counts up to 10
+#-------------------------------------------
+#Default: 1.0
+#-------------------------------------------
+#Range: 0.0 ~ 4.0
+"Float: Stamina Exhaustion From Interacting With Blocks" = 1.0
+#
+############################################
+#How often in ticks does the player recover stamina
+#This recovers 1 point of stamina after the amount of set ticks passes
+#-------------------------------------------
+#Default: 300
+#-------------------------------------------
+#Range: 0 ~ 10000
+"Integer: Stamina Recovery Ticks" = 300
+#
+############################################
+#Adds stamina exhaustion from breaking non harvestable blocks
+#This will only count if the player uses the correct tool to break the block
+#Stamina exhaustion unlike food exhaustion counts up to 10
+#-------------------------------------------
+#Default: 0.125
+#-------------------------------------------
+#Range: 0.0 ~ 4.0
+"Float: Stamina Exhaustion From Breaking Non-Harvestable Blocks" = 0.125
 
