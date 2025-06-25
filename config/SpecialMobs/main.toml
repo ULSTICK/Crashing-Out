@@ -14,6 +14,10 @@
   # <Boolean> Valid Values: { true, false }, Default: true
   general.enable_added_natural_spawning = true
 
+  # If enabled, mobs spawned from spawner blocks/dungeon spawners will not be subject to mob replacement.
+  # <Boolean> Valid Values: { true, false }, Default: false
+  general.skip_spawner_spawns = false
+
   # Whether the mod uses Special Mobs entities in place of vanilla entities for non-special species. This allows your
   #   config options to apply to non-special species and allows them to benefit from Special Mob Data and any
   #   improvements made to the entity (for example, zombies can use bows & shields).
@@ -91,7 +95,7 @@
     # When set to 0, this added spawn feature is completely disabled.
     # Finer tuning can be done with the natural spawn chances in the species config file.
     #  * Requires a WORLD restart to take effect *
-    # <Integer> Range: ≥ 0, Default: 6
+    # <Integer> Range: ≥ 0, Default: 1
     natural_spawning.pirate_skeleton_weight.ocean = 6
     # Option to add pirate skeletons as natural spawns to rivers. When set to 0, this added spawn feature is
     #   completely disabled. Finer tuning can be done with the natural spawn chances in the species config file.
