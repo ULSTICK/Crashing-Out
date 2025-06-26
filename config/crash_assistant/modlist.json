@@ -115,6 +115,7 @@
     "version": "3.0.7"
   },
   "chisel-forge-2.0.0+mc1.20.1.jar": {
+    "jarName": "chisel-forge-2.0.0+mc1.20.1.jar",
     "modId": "chisel",
     "version": "2.0.0+mc1.20.1"
   },
@@ -237,12 +238,9 @@
     "version": "5.14.1+1.20.1"
   },
   "defaultoptions-forge-1.20-18.0.1.jar": {
+    "jarName": "defaultoptions-forge-1.20-18.0.1.jar",
     "modId": "defaultoptions",
     "version": "18.0.1"
-  },
-  "deslabification-1.2.0+1.20.1+forge.jar": {
-    "modId": "deslabification",
-    "version": "1.2.0+1.20.1+forge"
   },
   "dummmmmmy-1.20-2.0.7.jar": {
     "jarName": "dummmmmmy-1.20-2.0.7.jar",
@@ -300,6 +298,7 @@
     "version": "1.4.0+mc1.20.1"
   },
   "FarmersDelight-1.20.1-1.2.8.jar": {
+    "jarName": "FarmersDelight-1.20.1-1.2.8.jar",
     "modId": "farmersdelight",
     "version": "1.20.1-1.2.8"
   },
@@ -319,6 +318,7 @@
     "version": "6.0.1"
   },
   "FramedBlocks-9.4.1.jar": {
+    "jarName": "FramedBlocks-9.4.1.jar",
     "modId": "framedblocks",
     "version": "9.4.1"
   },
@@ -456,6 +456,7 @@
     "version": "1.0.4+1.20.1"
   },
   "lootr-forge-1.20-0.7.35.91.jar": {
+    "jarName": "lootr-forge-1.20-0.7.35.91.jar",
     "modId": "lootr",
     "version": "0.7.35.91"
   },
@@ -485,6 +486,7 @@
     "version": "10.4.16"
   },
   "MekanismGenerators-1.20.1-10.4.16.80.jar": {
+    "jarName": "MekanismGenerators-1.20.1-10.4.16.80.jar",
     "modId": "mekanismgenerators",
     "version": "10.4.16"
   },
@@ -504,6 +506,7 @@
     "version": "1.20-2.14.11"
   },
   "moreconcrete-1.4.7-1.20.1.jar": {
+    "jarName": "moreconcrete-1.4.7-1.20.1.jar",
     "modId": "moreconcrete",
     "version": "1.4.7"
   },
@@ -568,6 +571,7 @@
     "version": "1.1"
   },
   "pipez-forge-1.20.1-1.2.21.jar": {
+    "jarName": "pipez-forge-1.20.1-1.2.21.jar",
     "modId": "pipez",
     "version": "1.20.1-1.2.21"
   },
@@ -637,6 +641,7 @@
     "version": "2.1.29"
   },
   "rftoolsbase-1.20-5.0.6.jar": {
+    "jarName": "rftoolsbase-1.20-5.0.6.jar",
     "modId": "rftoolsbase",
     "version": "1.20-5.0.6"
   },
@@ -728,7 +733,7 @@
   "sync-mc1.20.1-5.0.jar": {
     "jarName": "sync-mc1.20.1-5.0.jar",
     "modId": "sync",
-    "version": "4.3+rev.ebc4c8e-dirty"
+    "version": "5.0"
   },
   "tagtooltips-forge-1.20.1-1.1.0.jar": {
     "jarName": "tagtooltips-forge-1.20.1-1.1.0.jar",
@@ -741,6 +746,7 @@
     "version": "3.10.1.76"
   },
   "thermal_cultivation-1.20.1-11.0.1.24.jar": {
+    "jarName": "thermal_cultivation-1.20.1-11.0.1.24.jar",
     "modId": "thermal_cultivation",
     "version": "11.0.1"
   },
@@ -790,6 +796,7 @@
     "version": "20.1.9"
   },
   "trashcans-1.0.18b-forge-mc1.20.jar": {
+    "jarName": "trashcans-1.0.18b-forge-mc1.20.jar",
     "modId": "trashcans",
     "version": "1.0.18b"
   },
@@ -798,11 +805,18 @@
     "modId": "unionlib",
     "version": "12.0.17"
   },
+  "vmh-1.2.2-1.20.1.jar": {
+    "jarName": "vmh-1.2.2-1.20.1.jar",
+    "modId": "vmh",
+    "version": "1.2.2-forge-1.20.1"
+  },
   "xnet-1.20-6.1.6.jar": {
+    "jarName": "xnet-1.20-6.1.6.jar",
     "modId": "xnet",
     "version": "1.20-6.1.6"
   },
   "xnetgases-1.20.1-5.1.4.jar": {
+    "jarName": "xnetgases-1.20.1-5.1.4.jar",
     "modId": "xnetgases",
     "version": "5.1.4"
   },
