@@ -1,8 +1,0 @@
-#
-############################################
-#Disabling this will prevent food from spoiling
-#-------------------------------------------
-#Default: true
-#-------------------------------------------
-"Boolean: Enable Food Spoiling" = false
-

@@ -7,27 +7,18 @@
 "Boolean: Enable Thirst" = true
 #
 ############################################
+#Enabling this allows players to drink water from flowing water sources. This is only allowed for infinite water sources
+#-------------------------------------------
+#Default: false
+#-------------------------------------------
+"Boolean: Drink From Flowing Water" = false
+#
+############################################
 #Enabling this will remove the water source block when it is drunk
 #-------------------------------------------
 #Default: false
 #-------------------------------------------
 "Boolean: Remove Source Water Block" = false
-#
-############################################
-#The amount of times we can drink water from a canteen before it's empty
-#-------------------------------------------
-#Default: 3
-#-------------------------------------------
-#Range: 1 ~ 10
-"Integer: Canteen Fill Amount" = 3
-#
-############################################
-#The amount of time in ticks before thirst exaustion is added to the player regardless of what the player is doing. Set to -1 to disable
-#-------------------------------------------
-#Default: 100
-#-------------------------------------------
-#Range: -1 ~ 1000
-"Integer: Idle Thrist Tick Rate" = 50
 #
 ############################################
 #The amount of thirst exaustion added to the player regardless of what the player is doing
@@ -38,17 +29,18 @@
 "Float: Idle Thirst Exhaustion" = 0.1125
 #
 ############################################
-#The amount of times we can drink water from a netherite canteen before it's empty
+#The amount of time in ticks before thirst exaustion is added to the player regardless of what the player is doing. Set to -1 to disable
 #-------------------------------------------
-#Default: 4
+#Default: 100
 #-------------------------------------------
-#Range: 1 ~ 10
-"Integer: Netherite Canteen Fill Amount" = 4
+#Range: -1 ~ 1000
+"Integer: Idle Thrist Tick Rate" = 50
 #
 ############################################
-#Enabling this allows players to drink water from flowing water sources. This is only allowed for infinite water sources
+#The amount of times we can drink water from a canteen before it's empty
 #-------------------------------------------
-#Default: false
+#Default: 3
 #-------------------------------------------
-"Boolean: Drink From Flowing Water" = false
+#Range: 1 ~ 10
+"Integer: Canteen Fill Amount" = 3
 

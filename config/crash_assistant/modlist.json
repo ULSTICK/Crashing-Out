@@ -725,10 +725,9 @@
     "modId": "supermartijn642corelib",
     "version": "1.1.18"
   },
-  "Survive-1.20.1-10.1.8-Forge.jar": {
-    "jarName": "Survive-1.20.1-10.1.8-Forge.jar",
+  "Survive-1.20.1-9.0.6.jar": {
     "modId": "survive",
-    "version": "10.1.8"
+    "version": "1.20.1-9.0.6"
   },
   "sync-mc1.20.1-5.0.jar": {
     "jarName": "sync-mc1.20.1-5.0.jar",
@@ -800,10 +799,9 @@
     "modId": "trashcans",
     "version": "1.0.18b"
   },
-  "UnionLib-1.20.1-12.0.17-Forge-all.jar": {
-    "jarName": "UnionLib-1.20.1-12.0.17-Forge-all.jar",
+  "UnionLib-1.20.1-10.2.7-Forge.jar": {
     "modId": "unionlib",
-    "version": "12.0.17"
+    "version": "10.2.7"
   },
   "vmh-1.2.2-1.20.1.jar": {
     "jarName": "vmh-1.2.2-1.20.1.jar",
@@ -819,6 +817,9 @@
     "jarName": "xnetgases-1.20.1-5.1.4.jar",
     "modId": "xnetgases",
     "version": "5.1.4"
+  "Zeta-1.0-30.jar": {
+    "modId": "zeta",
+    "version": "1.0-30"
   },
   "Zeta-1.0-30.jar": {
     "jarName": "Zeta-1.0-30.jar",
