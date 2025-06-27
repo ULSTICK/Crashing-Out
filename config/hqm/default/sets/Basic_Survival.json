@@ -407,7 +407,7 @@
         "isTranslationKey": false
       },
       "description": {
-        "text": "If you need to glue something in a pinch, you don\u0027t need to find slime to do it. It turns out some water and flour makes for a great adhesive.",
+        "text": "If you need to glue something in a pinch, you don\u0027t need to find slime to do it. It turns out mixing water and flour makes a great adhesive.",
         "isTranslationKey": false
       },
       "x": 94,
@@ -577,7 +577,7 @@
       "x": 14,
       "y": 75,
       "icon": {
-        "id": "thermal:pbj_sandwich",
+        "id": "pamhc2foodcore:grilledcheeseitem",
         "Count": 1
       },
       "trigger": "ANTI_TRIGGER",
@@ -752,11 +752,11 @@
     {
       "uuid": "41cb1853-af1c-4cbd-b4ff-3d7781e6c90a",
       "name": {
-        "text": "Dirt to water!",
+        "text": "Getting Your Hands Dirty",
         "isTranslationKey": false
       },
       "description": {
-        "text": "If you haven\u0027t noticed, water is hard to find on this dry planet. If you get desperate enough, you can mix a glass bottle with a dirt block to get some dirty water. Make sure not to use up all your dirt though, you\u0027ll need it for growing trees and crops.",
+        "text": "Water is scarce on this planet. If you get desperate enough, you can squeeze the liquid out of some dirt for some very dirty water. Make sure not to use up all your dirt though, you\u0027ll need it for growing trees and crops.",
         "isTranslationKey": false
       },
       "x": 126,
@@ -772,6 +772,10 @@
           "type": "hardcorequesting:consume",
           "description": {
             "text": "Dirty dirt",
+            "isTranslationKey": false
+          },
+          "longDescription": {
+            "text": "Craft an empty bottle and dirt together to get dirty water.",
             "isTranslationKey": false
           },
           "items": [
@@ -889,7 +893,7 @@
     {
       "uuid": "d4d8bba6-7b9e-417a-b543-90ffb032400b",
       "name": {
-        "text": "Getting Your Hands Dirty",
+        "text": "Bottom of the Barrel",
         "isTranslationKey": false
       },
       "description": {
@@ -954,7 +958,7 @@
         {
           "type": "hardcorequesting:detect",
           "longDescription": {
-            "text": "You\u0027ll need a stone barrel, or you risk spreading lava everywhere.",
+            "text": "Place a barrel down, fill it with lava, and click it with redstone or glowstone. Make sure to use a stone barrel, or you risk spreading lava everywhere.",
             "isTranslationKey": false
           },
           "items": [
@@ -1111,7 +1115,7 @@
     {
       "uuid": "15ad672b-7b9c-4115-a4b3-403c70654a40",
       "name": {
-        "text": "Purifiying water",
+        "text": "Pure and Simple",
         "isTranslationKey": false
       },
       "description": {
@@ -1128,15 +1132,14 @@
       "trigger": "ANTI_TRIGGER",
       "tasks": [
         {
-          "type": "hardcorequesting:consume",
+          "type": "hardcorequesting:detect",
           "items": [
             {
               "item": {
                 "id": "minecraft:potion",
                 "Count": 1,
                 "tag": "{Potion:\"survive:purified_water\"}"
-              },
-              "precision": "FUZZY"
+              }
             }
           ]
         }
@@ -1404,7 +1407,7 @@
         {
           "type": "hardcorequesting:detect",
           "longDescription": {
-            "text": "If you are having issues surviving your first night, it may help you to make a trench around the ship. Use that dust from digging that to build a 2 block wall on the inside of the trench. That should keep you safe from everything but spiders. To deal with them, make a small overhang out of stone or wood when you can afford it.",
+            "text": "If you are having issues surviving your first night, it may help you to make a trench around the ship. Use the dust you get to build a 2 block wall on the inside of the trench. That should keep you safe from everything but spiders. To deal with them, make a small overhang out of stone or wood when you can afford it.",
             "isTranslationKey": false
           },
           "items": [

@@ -19,7 +19,6 @@ Familiarize yourself with your environment, orient yourself, and begin to follow
 
 
 
-
 Developers:
 - MarkSDR
 - Pawjwp

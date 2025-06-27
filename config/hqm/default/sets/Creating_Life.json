@@ -344,6 +344,68 @@
       "commandrewards": []
     },
     {
+      "uuid": "9bcad1fa-e4c1-4745-9776-6df674846c9d",
+      "name": {
+        "text": "Shell Storage",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Sometimes, one life just isn\u0027t enough. In those cases, you can use Shell Storage to keep extra shells around. When you die, you will be sent to a random shell.",
+        "isTranslationKey": false
+      },
+      "x": 238,
+      "y": 57,
+      "icon": {
+        "id": "sync:shell_storage",
+        "Count": 1
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "hardcorequesting:detect",
+          "description": {
+            "text": "Shell Storage",
+            "isTranslationKey": false
+          },
+          "longDescription": {
+            "text": "If you have another shell available, you can put your current body into shell. Just walk into the shell storage chamber and it will let you transfer to any available Shell.",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "sync:shell_storage",
+                "Count": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "hardcorequesting:checkbox",
+          "description": {
+            "text": "Terms and Conditions",
+            "isTranslationKey": false
+          },
+          "longDescription": {
+            "text": "Some important warnings:\n\n1. When you enter storage to switch shells, your items stay in that body. Empty your inventory before syncing unless you have multiple Shell Storage chambers available.\n2. If a Shell Storage breaks, the Shell it is storing will be lost and its inventory will be scattered on the ground.\n3. Shells must be chunkloaded for you to transfer into them. Place a chunk loader under the shell storage chambers or it may not be loaded and will not allow you to transfer into it.\n4. Sometimes, the Shell Storage/Constructor doors fail to open after syncing. If this happens, exit and rejoin the game and the doors should see you as a person again.\n\nCheck the box below to acknowledge the Sync™ terms and conditions.",
+            "isTranslationKey": false
+          }
+        }
+      ],
+      "prerequisites": [
+        "ae61c85d-2154-435e-91cc-78218ffe1dd6"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "sync:treadmill",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
       "uuid": "96288548-cdd7-480e-a9b5-e332af60bd4c",
       "name": {
         "text": "Pig",
@@ -500,7 +562,7 @@
         "isTranslationKey": false
       },
       "description": {
-        "text": "You only have one life. You die and that is that. Or is it? With a bit of work and some effort you can give yourself a second chance if the worst happens. Or even a third or fourth...",
+        "text": "This planet is full of hazards and hostiles. You will eventually need to venture out of the confines of your ship, but that poses a lot of risks. However, with a bit of effort, you may be able to give yourself a second chance if the worst happens. Maybe even a third or fourth...",
         "isTranslationKey": false
       },
       "x": 238,
@@ -519,7 +581,7 @@
             "isTranslationKey": false
           },
           "longDescription": {
-            "text": "A Shell Constructor is your first step to life after death. Once built, it will need power to function. It will also need a sample of your DNA, right click with an empty hand will do the trick. Be careful though, this will hurt a little.",
+            "text": "A Shell Constructor is the key to life after (first) death. Once you make one, you will need to provide energy and a blood sample. Right click the constructor to provide the sample, but be careful, it will hurt a little.",
             "isTranslationKey": false
           },
           "items": [
@@ -530,36 +592,6 @@
               }
             }
           ]
-        },
-        {
-          "type": "hardcorequesting:craft",
-          "description": {
-            "text": "Shell Storage",
-            "isTranslationKey": false
-          },
-          "longDescription": {
-            "text": "Once you have created a new Shell you need some place to store it for future use. The Shell constructor is not prepared to accept a transfer if you die, you MUST have a Shell in Shell Storage to come back to life. Supply the Shell Storage with a redstone signal of some sort, a lever works, and it will be ready to use. Walk in and you can Sync to any available Shells, transferring your consciousness to the newly constructed body.",
-            "isTranslationKey": false
-          },
-          "items": [
-            {
-              "item": {
-                "id": "sync:shell_storage",
-                "Count": 1
-              }
-            }
-          ]
-        },
-        {
-          "type": "hardcorequesting:checkbox",
-          "description": {
-            "text": "Warnings",
-            "isTranslationKey": false
-          },
-          "longDescription": {
-            "text": "Three important warnings:\n\n1. When you enter storage to switch shells, your items stay in that body. Empty your inventory before syncing unless you have multiple Shell Storage chambers available.\n2. If a Shell Storage loses its redstone signal, the Shell it is storing will be lost and its inventory will be scattered on the ground.\n3. Shell storage must be chunkloaded for you to transfer into it. Place a chunk loader under the shell storage chambers or it may not be loaded and will not allow you to transfer into it.\n\nCheck the box below to acknowledge the Sync™ terms and conditions.",
-            "isTranslationKey": false
-          }
         }
       ],
       "prerequisites": [
@@ -572,10 +604,6 @@
           "id": "thermal:energy_cell",
           "Count": 1,
           "tag": "{BlockEntityTag:{AmountIn:1000,AmountOut:1000,Energy:1000000,EnergyMax:1000000,EnergyRecv:1000,EnergySend:1000,RSControl:{RSMode:0b,RSThreshold:0b},Sides:[B;3B,3B,3B,3B,3B,3B],Xfer:{XferIn:1b,XferOut:1b}},Properties:{}}"
-        },
-        {
-          "id": "sync:treadmill",
-          "Count": 1
         },
         {
           "id": "chunkloaders:single_chunk_loader",

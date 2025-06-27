@@ -8,11 +8,11 @@
         "isTranslationKey": false
       },
       "description": {
-        "text": "Pnematiccraft has alot of useful tools and gadgets. While these quests serve as a rough guide. I recommend checking out the pneumaticcraft wiki.\nOh, and using the charger, you now can keep your minigun working!",
+        "text": "There are many useful gadgets you can make using compressed air. You can consult the documentation for the full list, but these are some of the most useful tools.",
         "isTranslationKey": false
       },
-      "x": 206,
-      "y": 165,
+      "x": 222,
+      "y": 174,
       "icon": {
         "id": "pneumaticcraft:pneumatic_wrench",
         "Count": 1
@@ -22,11 +22,11 @@
         {
           "type": "hardcorequesting:detect",
           "description": {
-            "text": "Charging",
+            "text": "Charging Station",
             "isTranslationKey": false
           },
           "longDescription": {
-            "text": "A lot of Pneumaticcraft gadgets require charging with compressed air before they can be used. Do realize the charging station balances air pressure between the item being charged and the rest of the system. If the tool has more bars of pressure than the rest of the air pressure network it will actually discharge. ",
+            "text": "Many Pneumaticcraft gadgets will need to be charged with compressed air before they can be used. Be careful though, the charging station balances air pressure between the item being charged and the rest of the system. If the tool has more bars of pressure than the rest of the network it will actually discharge. ",
             "isTranslationKey": false
           },
           "items": [
@@ -45,7 +45,7 @@
             "isTranslationKey": false
           },
           "longDescription": {
-            "text": "Allows the rotation of placed Pneumaticcraft blocks as well as a few other useful functions. Must be charged in a charging station.",
+            "text": "The pneumatic wrench allows rotation of PneumaticCraft blocks and opening/closing pressure tubes by right clicking, and instant dismantling by shift+right clicking. It must be charged in a charging station.",
             "isTranslationKey": false
           },
           "items": [
@@ -65,7 +65,7 @@
             "isTranslationKey": false
           },
           "longDescription": {
-            "text": "Right click on a block to set the GPS tool to those coordinates. Right click in the air to modify set coodinates. DO NOT right click in the air BEFORE setting the GPS Tool to any coordinates, the game WILL crash. The GPS Tool is used to set a location for several other gadgets. Does not need charging.",
+            "text": "Some of the PneumaticCraft gadgets require selecting specific coordinates to use them. For that, you will need a GPS tool. Right click on a block to set the tool to those coordinates. Right click in the air to modify the coodinates. Does not need charging.",
             "isTranslationKey": false
           },
           "items": [
@@ -84,7 +84,7 @@
             "isTranslationKey": false
           },
           "longDescription": {
-            "text": "The Air Cannon will fire an item to a specific set of coordinates. Placing a GPS Tool with the proper location will lock the cannon on target, the GPS Tool can then be removed. By default a redstone signal, from a lever for instance, will cause the Cannon to fire. It could be useful for long range item transport or, with the proper upgrade, as a weapon.",
+            "text": "The Air Cannon will shoot an item to a specific location. Use a GPS Tool with the coordinates selected to lock the cannon on target (the GPS Tool can then be removed). By default, a redstone signal will cause the Cannon to fire. It could be useful for long range item transport or, with the right upgrade, as a weapon.",
             "isTranslationKey": false
           },
           "items": [
@@ -98,7 +98,7 @@
         }
       ],
       "prerequisites": [
-        "0d52820c-7a62-4947-b742-2253063f2b13"
+        "3f8636bd-b018-4fb3-a0d9-19800abb507f"
       ],
       "optionlinks": [],
       "reward": [
@@ -128,8 +128,8 @@
         "text": "You may have noticed some machines require even more pressure than an air compressor provides. Well heres the answer.",
         "isTranslationKey": false
       },
-      "x": 238,
-      "y": 183,
+      "x": 254,
+      "y": 192,
       "icon": {
         "id": "pneumaticcraft:advanced_air_compressor",
         "Count": 1
@@ -182,73 +182,6 @@
       "commandrewards": []
     },
     {
-      "uuid": "9b956bee-4f0e-4a17-8e06-d895c78c171c",
-      "name": {
-        "text": "Upgrades",
-        "isTranslationKey": false
-      },
-      "description": {
-        "text": "Alot of pneumaticcraft machines can have upgrades installed.",
-        "isTranslationKey": false
-      },
-      "x": 174,
-      "y": 75,
-      "icon": {
-        "id": "pneumaticcraft:speed_upgrade",
-        "Count": 1
-      },
-      "trigger": "ANTI_TRIGGER",
-      "tasks": [
-        {
-          "type": "hardcorequesting:detect",
-          "items": [
-            {
-              "item": {
-                "id": "pneumaticcraft:speed_upgrade",
-                "Count": 1
-              }
-            },
-            {
-              "item": {
-                "id": "pneumaticcraft:security_upgrade",
-                "Count": 1
-              }
-            },
-            {
-              "item": {
-                "id": "pneumaticcraft:item_life_upgrade",
-                "Count": 1
-              }
-            }
-          ]
-        }
-      ],
-      "prerequisites": [
-        "48b64a83-4801-48b2-a4f3-c61106fc344b"
-      ],
-      "optionlinks": [],
-      "reward": [],
-      "rewardchoice": [
-        {
-          "id": "pneumaticcraft:speed_upgrade",
-          "Count": 2
-        },
-        {
-          "id": "pneumaticcraft:search_upgrade",
-          "Count": 1
-        },
-        {
-          "id": "pneumaticcraft:range_upgrade",
-          "Count": 1
-        },
-        {
-          "id": "pneumaticcraft:dispenser_upgrade",
-          "Count": 1
-        }
-      ],
-      "commandrewards": []
-    },
-    {
       "uuid": "ff99b94a-a12d-4b8f-9ea2-22dc262d4de1",
       "name": {
         "text": "Refining Oil",
@@ -258,8 +191,8 @@
         "text": "Now that you can pump all of the rich oil, it\u0027s time to refine it to make plastic and fuel for your rover and generator.\n\nInstructions:\nPut the 4 refinery outputs one above the other and besides the refinery controler. The resistive heater stays right aside the controller, and it need power to work (at least 100rf/t). ",
         "isTranslationKey": false
       },
-      "x": 270,
-      "y": 165,
+      "x": 286,
+      "y": 174,
       "icon": {
         "id": "mekanism:resistive_heater",
         "Count": 1
@@ -355,11 +288,11 @@
         "isTranslationKey": false
       },
       "description": {
-        "text": "Now that you have an empty PCB you need to make an etching tank.",
+        "text": "After exposing the empty PCB, you will have to etch the circuit boards with etching acid. ",
         "isTranslationKey": false
       },
-      "x": 206,
-      "y": 129,
+      "x": 190,
+      "y": 120,
       "icon": {
         "id": "pneumaticcraft:unassembled_pcb",
         "Count": 1
@@ -369,7 +302,11 @@
         {
           "type": "hardcorequesting:detect",
           "description": {
-            "text": "Etching tank",
+            "text": "Etching Tank",
+            "isTranslationKey": false
+          },
+          "longDescription": {
+            "text": "An etching tank is used to etch the PCB with etching acid. The etching acid is made by combining various caustic materials in a pressure chamber.",
             "isTranslationKey": false
           },
           "items": [
@@ -378,16 +315,7 @@
                 "id": "pneumaticcraft:etching_tank",
                 "Count": 1
               }
-            }
-          ]
-        },
-        {
-          "type": "hardcorequesting:detect",
-          "description": {
-            "text": "Etching fluid",
-            "isTranslationKey": false
-          },
-          "items": [
+            },
             {
               "item": {
                 "id": "pneumaticcraft:etching_acid_bucket",
@@ -399,7 +327,11 @@
         {
           "type": "hardcorequesting:detect",
           "description": {
-            "text": "Unassembled",
+            "text": "Etching",
+            "isTranslationKey": false
+          },
+          "longDescription": {
+            "text": "Place exposed PCBs in an etching chamber to etch them. If a PCB is not completely exposed, it has a chance of failure, but failed PCBs can be put smelted and exposed again.",
             "isTranslationKey": false
           },
           "items": [
@@ -410,11 +342,37 @@
               }
             }
           ]
-        },
+        }
+      ],
+      "prerequisites": [
+        "f240d7c3-3352-4648-9fd2-d545cb85aef8"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "3f8636bd-b018-4fb3-a0d9-19800abb507f",
+      "name": {
+        "text": "Assembly",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "The final step of creating a PCB is assembling it.",
+        "isTranslationKey": false
+      },
+      "x": 222,
+      "y": 138,
+      "icon": {
+        "id": "pneumaticcraft:printed_circuit_board",
+        "Count": 1
+      },
+      "tasks": [
         {
           "type": "hardcorequesting:detect",
-          "description": {
-            "text": "Printed pcb",
+          "longDescription": {
+            "text": "Simply craft together your unassembled PCB with 2 capacitors and 2 transistors to finish the process. ",
             "isTranslationKey": false
           },
           "items": [
@@ -428,25 +386,17 @@
         }
       ],
       "prerequisites": [
-        "f240d7c3-3352-4648-9fd2-d545cb85aef8"
+        "0d52820c-7a62-4947-b742-2253063f2b13"
       ],
       "optionlinks": [],
       "reward": [
         {
-          "id": "pneumaticcraft:plastic",
-          "Count": 1
-        },
-        {
-          "id": "pneumaticcraft:printed_circuit_board",
-          "Count": 1
+          "id": "pneumaticcraft:capacitor",
+          "Count": 8
         },
         {
           "id": "pneumaticcraft:transistor",
-          "Count": 2
-        },
-        {
-          "id": "pneumaticcraft:capacitor",
-          "Count": 2
+          "Count": 8
         }
       ],
       "rewardchoice": [],
@@ -462,8 +412,8 @@
         "text": "Making a pcb by hand is laborius task, not to mention time consuming. ",
         "isTranslationKey": false
       },
-      "x": 238,
-      "y": 147,
+      "x": 254,
+      "y": 156,
       "icon": {
         "id": "pneumaticcraft:assembly_controller",
         "Count": 1
@@ -515,7 +465,7 @@
         }
       ],
       "prerequisites": [
-        "0d52820c-7a62-4947-b742-2253063f2b13"
+        "3f8636bd-b018-4fb3-a0d9-19800abb507f"
       ],
       "optionlinks": [],
       "reward": [
@@ -542,11 +492,11 @@
         "isTranslationKey": false
       },
       "description": {
-        "text": "Now that you can generate pressurized air, you can start putting it to use. When you have a pressure chamber, you can make all kinds of advanced materials.",
+        "text": "Now that you can generate pressurized air, you can start putting it to use. Construct a pressure chamber to start crafting with compressed air.",
         "isTranslationKey": false
       },
-      "x": 110,
-      "y": 75,
+      "x": 94,
+      "y": 66,
       "icon": {
         "id": "pneumaticcraft:pressure_chamber_wall",
         "Count": 1
@@ -591,12 +541,8 @@
       "optionlinks": [],
       "reward": [
         {
-          "id": "pneumaticcraft:plastic",
-          "Count": 4
-        },
-        {
           "id": "pneumaticcraft:speed_upgrade",
-          "Count": 2
+          "Count": 4
         }
       ],
       "rewardchoice": [],
@@ -609,11 +555,11 @@
         "isTranslationKey": false
       },
       "description": {
-        "text": "Now that we have gotten this far, we can get started on the foundation of all technological progression. The PCB. To start, you simply need to toss a compressed iron and place a green plastic in the pressure chamber.",
+        "text": "Once you have an empty PCB, the next step is to expose it to ultraviolet light.",
         "isTranslationKey": false
       },
-      "x": 174,
-      "y": 111,
+      "x": 158,
+      "y": 102,
       "icon": {
         "id": "pneumaticcraft:empty_pcb",
         "Count": 1,
@@ -623,6 +569,34 @@
       "tasks": [
         {
           "type": "hardcorequesting:detect",
+          "description": {
+            "text": "Light Box",
+            "isTranslationKey": false
+          },
+          "longDescription": {
+            "text": "The UV light box is encoded with the blueprint for a PCB. When an empty PCB is placed inside and it is powered by compressed air, the PCB will be exposed to ultraviolet light.",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "pneumaticcraft:uv_light_box",
+                "Count": 1
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "hardcorequesting:detect",
+          "description": {
+            "text": "Exposing",
+            "isTranslationKey": false
+          },
+          "longDescription": {
+            "text": "The exposure process will take a long time. You can technically remove the empty PCB from the light box before it is completed, but then it will have chance of failure during the final step. You can install speed upgrades to reduce the wait time.",
+            "isTranslationKey": false
+          },
           "items": [
             {
               "item": {
@@ -640,12 +614,8 @@
       "optionlinks": [],
       "reward": [
         {
-          "id": "pneumaticcraft:capacitor",
-          "Count": 4
-        },
-        {
-          "id": "pneumaticcraft:transistor",
-          "Count": 4
+          "id": "pneumaticcraft:plastic_bucket",
+          "Count": 1
         }
       ],
       "rewardchoice": [],
@@ -654,15 +624,15 @@
     {
       "uuid": "48b64a83-4801-48b2-a4f3-c61106fc344b",
       "name": {
-        "text": "Blueprint for Success",
+        "text": "Hot Off the Presses",
         "isTranslationKey": false
       },
       "description": {
-        "text": "Unnamed quest",
+        "text": "Now that you have a pressure chamber, you can make all kinds of advanced materials, most notably the Printed Circuit Board, which is an essential component for high-tech crafting. To craft using the pressure chamber, break one of the middle blocks, drop your ingredients in, and place the block back down. Once you reach the required pressure level again, your items will be crafted and you can break the block again to remove them from the chamber. You will lose some whenever the pressure chamber is opened, but you can improve upon the process with a pressure chamber interface, which can do the opening/closing for you.",
         "isTranslationKey": false
       },
-      "x": 142,
-      "y": 93,
+      "x": 126,
+      "y": 84,
       "icon": {
         "id": "pneumaticcraft:empty_pcb",
         "Count": 1
@@ -671,6 +641,10 @@
       "tasks": [
         {
           "type": "hardcorequesting:detect",
+          "longDescription": {
+            "text": "The first step in the process is to combine a peice of plastic with 2 redstone torches and 3 conductive nuggets to get the empty PCB. You will also need 2 capacitors and 2 transistors, which are made from plastic, 3 conductive nuggets, and either an adhesive to make capacitors or redstone dust to make transistors.",
+            "isTranslationKey": false
+          },
           "items": [
             {
               "item": {
@@ -678,6 +652,20 @@
                 "Count": 1
               },
               "precision": "FUZZY"
+            },
+            {
+              "item": {
+                "id": "pneumaticcraft:capacitor",
+                "Count": 1
+              },
+              "required": 2
+            },
+            {
+              "item": {
+                "id": "pneumaticcraft:transistor",
+                "Count": 1
+              },
+              "required": 2
             }
           ]
         }
@@ -686,7 +674,12 @@
         "3e4732d9-29f9-493b-83fb-96af85b5390d"
       ],
       "optionlinks": [],
-      "reward": [],
+      "reward": [
+        {
+          "id": "pneumaticcraft:plastic",
+          "Count": 4
+        }
+      ],
       "rewardchoice": [],
       "commandrewards": []
     },
@@ -697,11 +690,11 @@
         "isTranslationKey": false
       },
       "description": {
-        "text": "Now that you have compressed Iron you can start building your air chamber",
+        "text": "With compressed iron, you can start working with compressed air.",
         "isTranslationKey": false
       },
-      "x": 78,
-      "y": 57,
+      "x": 62,
+      "y": 48,
       "icon": {
         "id": "pneumaticcraft:pressure_tube",
         "Count": 1
@@ -712,6 +705,10 @@
           "type": "hardcorequesting:detect",
           "description": {
             "text": "Pressure Tube",
+            "isTranslationKey": false
+          },
+          "longDescription": {
+            "text": "The pressure tube is the most basic component for using compressed air. You must use these tubes to transfer the air around. The longer the tubes extend, the more pressure will be lost. Try to keep things close to one another to avoid depressurizing.",
             "isTranslationKey": false
           },
           "items": [
@@ -730,7 +727,7 @@
             "isTranslationKey": false
           },
           "longDescription": {
-            "text": "Compressed air is dangerous! Becareful not to overload the compressor with fuel otherwise you risk an explosion",
+            "text": "The air compressor will generate compressed air when provided with solid fuel. Charcoal is a good starting fuel. Be careful not to generate too much pressure though. Anything over 5 bars of pressure risks an explosion. You can enable and disable the compressor with a redstone signal if you\u0027d like, which can later be automated to automatically turn it off when close to overloading.",
             "isTranslationKey": false
           },
           "items": [
@@ -767,11 +764,11 @@
         "isTranslationKey": false
       },
       "description": {
-        "text": "Now that youve stablized your self and created a foot hold on this planet its time to start working on the technology needed to survive.",
+        "text": "When you have your basic survival taken care of, you can start developing more advanced technology. The first step of that process will be creating a new kind of metal.",
         "isTranslationKey": false
       },
-      "x": 46,
-      "y": 39,
+      "x": 30,
+      "y": 30,
       "icon": {
         "id": "minecraft:iron_ingot",
         "Count": 1
@@ -784,7 +781,7 @@
             "isTranslationKey": false
           },
           "longDescription": {
-            "text": "Gather your iron ingots",
+            "text": "Start by gathering some iron ingots.",
             "isTranslationKey": false
           },
           "items": [
@@ -804,7 +801,7 @@
             "isTranslationKey": false
           },
           "longDescription": {
-            "text": "Next you\u0027ll need some TNT. You should have some by now, You can get sand by using the hammer on cobble stone, turning it into gravel, hitting it again will turn it into sand.",
+            "text": "Now, you\u0027ll need some TNT. You should have the gunpowder by now (either from sifting or from creepers if you\u0027re brave). To get sand, break cobblestone with a hammer to make gravel, then break that to make sand.",
             "isTranslationKey": false
           },
           "items": [
@@ -823,7 +820,7 @@
             "isTranslationKey": false
           },
           "longDescription": {
-            "text": "If I was you I would move away from your base before setting this up. You will need to dig a hole, throw your iron ingots into it, and ignite your tnt ontop of it. When the dust settles you should have some compressed iron. However due to the explosion some iron seems to have been destroyed.",
+            "text": "For the final step, you should move far away from your base. Drop some iron on the ground, place the TNT next to it, ignite the TNT, and then stand far away. When the dust settles, you should have some compressed iron.",
             "isTranslationKey": false
           },
           "items": [
@@ -856,11 +853,11 @@
         "isTranslationKey": false
       },
       "description": {
-        "text": "A pressure gauge will help messure the amount of pressure inside of your air chamber. It will also emit a redstone single double of what it detects.",
+        "text": "A pressure gauge can help messure the amount of pressure in a pneumatic system. It will also emit a redstone signal equal to double the detected pressure. You can use that to disable compressors when the system gets close to overloading.",
         "isTranslationKey": false
       },
-      "x": 110,
-      "y": 39,
+      "x": 62,
+      "y": 84,
       "icon": {
         "id": "pneumaticcraft:pressure_gauge_module",
         "Count": 1
@@ -871,6 +868,10 @@
           "type": "hardcorequesting:detect",
           "description": {
             "text": "Air Gauge",
+            "isTranslationKey": false
+          },
+          "longDescription": {
+            "text": "Make sure your pressure tubes don\u0027t have any open ends or you will leak a lot of pressure.",
             "isTranslationKey": false
           },
           "items": [
@@ -903,11 +904,11 @@
         "isTranslationKey": false
       },
       "description": {
-        "text": "Having to break a block every time you want to put in or take out an item in the pressure chamber wastes air pressure.",
+        "text": "Breaking a block whenever you need to use the pressure chamber will waste a lot of air. The pressure chamber interface acts as an airlock, inserting or extracting items into the chamber.",
         "isTranslationKey": false
       },
-      "x": 110,
-      "y": 110,
+      "x": 94,
+      "y": 102,
       "icon": {
         "id": "pneumaticcraft:pressure_chamber_interface",
         "Count": 1
@@ -916,6 +917,10 @@
       "tasks": [
         {
           "type": "hardcorequesting:detect",
+          "longDescription": {
+            "text": "You will need at least two interfaces; one set to input and one set to output. Make sure both are exposed to the air inside the chamber. Once set up, you can use item conduits to move items in and out of the chamber.",
+            "isTranslationKey": false
+          },
           "items": [
             {
               "item": {
