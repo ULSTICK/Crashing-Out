@@ -1,23 +1,24 @@
 {
-    "type": "minecraft:crafting_shaped",
-    "category": "misc",
-    "key": {
-      "a": {
-        "item": "ae2:smooth_sky_stone_block"
-      },
-      "b": {
-        "item": "ae2:fluix_crystal"
-      },
-      "c": {
-        "item": "kubejs:crashed_applied_controller"
-      }
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "a": {
+      "tag": "ae2:smooth_sky_stone_blocks"
     },
-    "pattern": [
-      "aba",
-      "bcb",
-      "aba"
-    ],
-    "result": {
-      "item": "ae2:controller"
+    "b": {
+      "item": "ae2:fluix_crystal"
+    },
+    "c": {
+      "item": "kubejs:crashed_applied_controller"
     }
-  }
+  },
+  "pattern": [
+    "aba",
+    "bcb",
+    "aba"
+  ],
+  "result": {
+    "item": "ae2:controller"
+  },
+  "show_notification": true
+}
