@@ -301,7 +301,7 @@
         "text": "Now that you are stable and able to live somewhat comfortably, it\u0027s time to look beyond immediate survival and start planning for your future. For true industrialization, you will need plastic. You may need to visit the cities.",
         "isTranslationKey": false
       },
-      "x": 302,
+      "x": 238,
       "y": 75,
       "icon": {
         "id": "pneumaticcraft:plastic",
@@ -1648,7 +1648,7 @@
         "text": "For further industrialization, you\u0027ll need to move items, fluids, and energy around. Time to set up the plumbing.",
         "isTranslationKey": false
       },
-      "x": 302,
+      "x": 238,
       "y": 129,
       "icon": {
         "id": "enderio:item_conduit",

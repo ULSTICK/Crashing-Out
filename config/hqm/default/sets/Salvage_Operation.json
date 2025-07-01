@@ -4,11 +4,11 @@
     {
       "uuid": "9c45c37d-c906-46f1-b3c0-eec774f4ccbe",
       "name": {
-        "text": "Unnamed",
+        "text": "Getting Your Wires Crossed",
         "isTranslationKey": false
       },
       "description": {
-        "text": "Unnamed quest",
+        "text": "Those broken parts won\u0027t be enough to start storing matter as energy. You\u0027ll need to make some more advanced processing circuits first.",
         "isTranslationKey": false
       },
       "x": 94,
@@ -23,6 +23,10 @@
           "type": "hardcorequesting:detect",
           "description": {
             "text": "Ingredients",
+            "isTranslationKey": false
+          },
+          "longDescription": {
+            "text": "To make processing chips, you\u0027ll need to inscribe silicon and some other materials. Make an inscriber, get some silicon, and break a PCB down into segments you can use to stitch it all together.",
             "isTranslationKey": false
           },
           "items": [
@@ -52,6 +56,10 @@
           "type": "hardcorequesting:detect",
           "description": {
             "text": "Inscribing",
+            "isTranslationKey": false
+          },
+          "longDescription": {
+            "text": "Use the inscriber to make the three main circuit types; logic, calculation, and engineering. You\u0027ll also need some printed silicon to use as the base plate.",
             "isTranslationKey": false
           },
           "items": [
@@ -87,6 +95,10 @@
             "text": "Putting it together",
             "isTranslationKey": false
           },
+          "longDescription": {
+            "text": "When you have all the components, inscribe your circuits by putting the printed circuits on the top of the inscriber, the printed silicon on the bottom, and a pcb segment in the middle.",
+            "isTranslationKey": false
+          },
           "items": [
             {
               "item": {
@@ -115,21 +127,30 @@
       "optionlinks": [],
       "reward": [
         {
-          "id": "ae2:logic_processor",
-          "Count": 2
+          "id": "ae2:engineering_processor",
+          "Count": 1
         }
       ],
-      "rewardchoice": [],
+      "rewardchoice": [
+        {
+          "id": "ae2:logic_processor",
+          "Count": 3
+        },
+        {
+          "id": "ae2:calculation_processor",
+          "Count": 3
+        }
+      ],
       "commandrewards": []
     },
     {
       "uuid": "c477a1a1-782a-4fe8-9566-97dc4f9cff31",
       "name": {
-        "text": "Triple Play",
+        "text": "Turning Up The Heat",
         "isTranslationKey": false
       },
       "description": {
-        "text": "An upgrade to the smeltery, it will double the number of ingots you get from ores and TRIPLE the amount you get from ore dust. Also, unlike the smeltery, it will also melt cobble into seared stone, allowing you to make as many more seared and scorched bricks as you need.",
+        "text": "The foundry is an alternate version of the smeltery, it will roughly triple the number of ingots you get from ores. Ores melted in the foundry will produce an additional byproduct, providing even more resources per ore. You can even use it to get more seared stone as a byproduct of melting cobblestone. It also allows more much more liquid to be stored per block, but it can\u0027t make alloys, so you\u0027ll have to use an alloyer or the smeltery for that.",
         "isTranslationKey": false
       },
       "x": 158,
@@ -183,11 +204,11 @@
     {
       "uuid": "9964c1f7-b9fa-4423-8266-c8f98b046455",
       "name": {
-        "text": "Unnamed",
+        "text": "Computer Crash",
         "isTranslationKey": false
       },
       "description": {
-        "text": "The debris on this planet seems to have some advanced technology. Some of this tech seems suited to converting matter into energy, and vice versa.",
+        "text": "The ruins on this planet seem to contain remnants of all sorts of interesting technology. Some of this tech seems suited to converting matter into energy, and vice versa.",
         "isTranslationKey": false
       },
       "x": 126,
@@ -199,6 +220,10 @@
       "tasks": [
         {
           "type": "hardcorequesting:detect",
+          "longDescription": {
+            "text": "You can find the AE2 supercomputer building by exploring the desert.",
+            "isTranslationKey": false
+          },
           "items": [
             {
               "item": {
@@ -257,52 +282,9 @@
       "commandrewards": []
     },
     {
-      "uuid": "2b994684-1263-4b2b-8567-57b696c8680a",
-      "name": {
-        "text": "Unnamed",
-        "isTranslationKey": false
-      },
-      "description": {
-        "text": "Unnamed quest",
-        "isTranslationKey": false
-      },
-      "x": 190,
-      "y": 66,
-      "icon": {
-        "id": "kubejs:crashed_reactor_frame",
-        "Count": 1
-      },
-      "tasks": [
-        {
-          "type": "hardcorequesting:detect",
-          "items": [
-            {
-              "item": {
-                "id": "kubejs:crashed_reactor_controller",
-                "Count": 1
-              }
-            },
-            {
-              "item": {
-                "id": "kubejs:crashed_reactor_frame",
-                "Count": 1
-              }
-            }
-          ]
-        }
-      ],
-      "prerequisites": [
-        "cdac0984-204e-4fbc-b2cd-cea990ae0367"
-      ],
-      "optionlinks": [],
-      "reward": [],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
       "uuid": "7cd36511-ac8a-4a2a-89e6-9fa29cb33173",
       "name": {
-        "text": "Bigger Power",
+        "text": "Running on Fumes",
         "isTranslationKey": false
       },
       "description": {
@@ -324,19 +306,19 @@
             "isTranslationKey": false
           },
           "longDescription": {
-            "text": "Much like the reactor controller, the turbine controller cannot be fabricated from scratch but can be made by repairing any you find in the cities. ",
+            "text": "Much like the reactor terminal, the turbine terminal must be made by repairing parts found in the ruins.",
             "isTranslationKey": false
           },
           "items": [
             {
               "item": {
-                "id": "biggerreactors:turbine_casing",
+                "id": "biggerreactors:turbine_terminal",
                 "Count": 1
               }
             },
             {
               "item": {
-                "id": "biggerreactors:turbine_terminal",
+                "id": "biggerreactors:turbine_casing",
                 "Count": 1
               }
             },
@@ -404,13 +386,65 @@
       "commandrewards": []
     },
     {
-      "uuid": "26c1c152-15c4-476c-a27b-6f6caff2eff0",
+      "uuid": "2b994684-1263-4b2b-8567-57b696c8680a",
       "name": {
-        "text": "Big Power",
+        "text": "Meltdown",
         "isTranslationKey": false
       },
       "description": {
-        "text": "As you build your technological infrastructure you will probably find that you need more power than you can easily generate. Luckily, there is a solution. Of course, you\u0027ll have to go hunting for the core components first.",
+        "text": "The ruins on this planet seem to contain remnants of all sorts of interesting technology. Some of this tech seems suitable for nuclear power generation.",
+        "isTranslationKey": false
+      },
+      "x": 190,
+      "y": 66,
+      "icon": {
+        "id": "kubejs:crashed_reactor_frame",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "hardcorequesting:detect",
+          "longDescription": {
+            "text": "You can find the nuclear plant building by exploring the desert.",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "kubejs:crashed_reactor_controller",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "kubejs:crashed_reactor_frame",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "cdac0984-204e-4fbc-b2cd-cea990ae0367"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "biggerreactors:graphite_ingot",
+          "Count": 16
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "26c1c152-15c4-476c-a27b-6f6caff2eff0",
+      "name": {
+        "text": "Going Nuclear",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "As you build your technological infrastructure you will probably find that you need more power than you can easily generate. However, now that you\u0027ve gotten ahold of some nuclear reactor parts, you can get to fixing that.",
         "isTranslationKey": false
       },
       "x": 222,
@@ -424,7 +458,7 @@
         {
           "type": "hardcorequesting:detect",
           "longDescription": {
-            "text": "The reactor controller needs parts we cannot fabricate with the technology we have available, so we can\u0027t build them from scratch. Luckily, the broken controllers you can find in the cities can be repaired out of available resources. Of course, first you have to find one. Power plants seem to be somewhat rare and a lot of them have suffered reactor meltdowns over the years. Still, they do exist if you are willing to explore far enough. ",
+            "text": "You can craft the reactor terminal by repairing the parts you find in the ruins.",
             "isTranslationKey": false
           },
           "items": [
@@ -481,19 +515,10 @@
       "reward": [
         {
           "id": "mekanism:ingot_uranium",
-          "Count": 8
+          "Count": 16
         }
       ],
-      "rewardchoice": [
-        {
-          "id": "biggerreactors:cyanite_ingot",
-          "Count": 8
-        },
-        {
-          "id": "biggerreactors:reactor_redstone_port",
-          "Count": 2
-        }
-      ],
+      "rewardchoice": [],
       "commandrewards": []
     },
     {
@@ -546,7 +571,7 @@
         "isTranslationKey": false
       },
       "description": {
-        "text": "There is a small city near the shuttle. Perhaps a factory there contains the bricks we need?",
+        "text": "The ruins on this planet seem to contain remnants of all sorts of interesting technology. Some of these ruins have bricks that seem strong enough to withstand the searing heat of a smeltery.",
         "isTranslationKey": false
       },
       "x": 158,
@@ -593,7 +618,7 @@
         "isTranslationKey": false
       },
       "description": {
-        "text": "You are going to need lots of iron to advance up the tech tree. A smeltery will help you get a good start by almost doubling the ingots you get out of ore.",
+        "text": "You are going to need lots of metal to thrive on this planet. A smeltery will help you get a good start by almost doubling how much metal you get out of each piece of ore. You can also make more advanced equipment with cast metal and alloying,",
         "isTranslationKey": false
       },
       "x": 158,
@@ -714,7 +739,7 @@
         "isTranslationKey": false
       },
       "description": {
-        "text": "You may have noticed that you can\u0027t craft everything you need to survive. Perhaps the city ruins scattered around contain the resources you need. One thing is certain, you\u0027ll need to prepare before venturing far from the shuttle.",
+        "text": "You may have noticed that you can\u0027t craft everything you need to survive. However, there seem to be some ruined cities scattered around. Maybe those contain resources you could use. One thing is certain, you\u0027ll need to prepare before venturing far from the shuttle.",
         "isTranslationKey": false
       },
       "x": 158,
@@ -729,7 +754,7 @@
         {
           "type": "hardcorequesting:detect",
           "longDescription": {
-            "text": "A melee weapon of some sort would be a wise idea and perhaps some armor as well. Also, make sure you fill that tank with water as much as you can before leaving and make sure you bring enough food and food variety as well. (Note: There\u0027s a city by the West of the shuttle.)",
+            "text": "A melee weapon of some sort would be a wise idea and perhaps some armor as well. Make sure to bring enough food and water and if you haven\u0027t set up sync shells yet, now is the time to do so. If you took the hard route, you can still craft them. (Note: There\u0027s a city by the West of the shuttle.)",
             "isTranslationKey": false
           },
           "items": [
@@ -766,25 +791,11 @@
             },
             {
               "item": {
-                "id": "survive:filled_canteen",
+                "id": "minecraft:potion",
                 "Count": 1,
-                "tag": "{DrinksLeft:3,Potion:\"survive:purified_water\"}"
+                "tag": "{Potion:\"survive:purified_water\"}"
               },
-              "precision": "FUZZY"
-            },
-            {
-              "item": {
-                "id": "mekanism:basic_fluid_tank",
-                "Count": 1
-              },
-              "precision": "FUZZY"
-            },
-            {
-              "item": {
-                "id": "cgm:shell",
-                "Count": 1
-              },
-              "required": 16
+              "required": 8
             }
           ]
         }
@@ -819,7 +830,7 @@
     {
       "uuid": "6411096c-3d98-4e84-8599-9718d7ee18f6",
       "name": {
-        "text": "Applied Energistics Core",
+        "text": "A Matter of Record",
         "isTranslationKey": false
       },
       "description": {
@@ -872,7 +883,7 @@
       "optionlinks": [],
       "reward": [
         {
-          "id": "ae2:fluix_glass_cable",
+          "id": "ae2:fluix_crystal",
           "Count": 16
         }
       ],

@@ -161,7 +161,6 @@
         }
       ],
       "prerequisites": [
-        "39db6c50-b595-40f5-a952-3e4619c31764",
         "d870404e-3382-4dc8-91ea-4db728f38060"
       ],
       "optionlinks": [],
@@ -690,122 +689,6 @@
       "commandrewards": []
     },
     {
-      "uuid": "39db6c50-b595-40f5-a952-3e4619c31764",
-      "name": {
-        "text": "Power Underwhelming",
-        "isTranslationKey": false
-      },
-      "description": {
-        "text": "Finally sustainable power!",
-        "isTranslationKey": false
-      },
-      "x": 94,
-      "y": 12,
-      "icon": {
-        "id": "industrialforegoing:mycelial_ender",
-        "Count": 1
-      },
-      "trigger": "ANTI_TRIGGER",
-      "tasks": [
-        {
-          "type": "hardcorequesting:detect",
-          "description": {
-            "text": "Ender power!",
-            "isTranslationKey": false
-          },
-          "items": [
-            {
-              "item": {
-                "id": "industrialforegoing:mycelial_ender",
-                "Count": 1
-              },
-              "precision": "FUZZY"
-            }
-          ]
-        }
-      ],
-      "prerequisites": [
-        "a06fbc3a-5b54-4b9a-8f91-6dd3cdd5181e",
-        "336ad751-3c3d-457d-b85c-e6d0bbe7b125"
-      ],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "minecraft:ender_pearl",
-          "Count": 2
-        }
-      ],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
-      "uuid": "d870404e-3382-4dc8-91ea-4db728f38060",
-      "name": {
-        "text": "Oil from the deep dust",
-        "isTranslationKey": false
-      },
-      "description": {
-        "text": "Seems like this planet it\u0027s full of oil!\nWith the Gas Lift and some pressure, you can pump up Oil from the dust deeps.\nYou can use the oil to generate energy with the Compression Dynamo, but later you will need a Refinery to make plastic and most efficient fuels.",
-        "isTranslationKey": false
-      },
-      "x": 126,
-      "y": 12,
-      "icon": {
-        "id": "thermal:dynamo_compression",
-        "Count": 1
-      },
-      "trigger": "ANTI_TRIGGER",
-      "tasks": [
-        {
-          "type": "hardcorequesting:detect",
-          "items": [
-            {
-              "item": {
-                "id": "thermal:dynamo_compression",
-                "Count": 1
-              }
-            },
-            {
-              "item": {
-                "id": "pneumaticcraft:gas_lift",
-                "Count": 1
-              },
-              "precision": "FUZZY"
-            },
-            {
-              "item": {
-                "id": "pneumaticcraft:drill_pipe",
-                "Count": 1
-              },
-              "required": 16,
-              "precision": "FUZZY"
-            }
-          ]
-        }
-      ],
-      "prerequisites": [
-        "a06fbc3a-5b54-4b9a-8f91-6dd3cdd5181e",
-        "336ad751-3c3d-457d-b85c-e6d0bbe7b125"
-      ],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "pneumaticcraft:air_compressor",
-          "Count": 1
-        },
-        {
-          "id": "pneumaticcraft:gasoline_bucket",
-          "Count": 1
-        },
-        {
-          "id": "pneumaticcraft:drill_pipe",
-          "Count": 64
-        }
-      ],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
       "uuid": "8559f15c-259a-4874-a753-adb36cf75447",
       "name": {
         "text": "Advanced Machines",
@@ -958,10 +841,6 @@
       "tasks": [
         {
           "type": "hardcorequesting:detect",
-          "description": {
-            "text": "Basic Blending",
-            "isTranslationKey": false
-          },
           "longDescription": {
             "text": "You can use a mill to crush metal into dust and then craft it together by hand.",
             "isTranslationKey": false
@@ -980,32 +859,6 @@
               }
             }
           ]
-        },
-        {
-          "type": "hardcorequesting:detect",
-          "description": {
-            "text": "Advanced Blending",
-            "isTranslationKey": false
-          },
-          "longDescription": {
-            "text": "The steel blend can\u0027t be made by hand, so you\u0027ll need to make a metallurgic infuser.",
-            "isTranslationKey": false
-          },
-          "items": [
-            {
-              "item": {
-                "id": "mekanism:metallurgic_infuser",
-                "Count": 1
-              },
-              "precision": "FUZZY"
-            },
-            {
-              "item": {
-                "id": "thermal:steel_dust",
-                "Count": 1
-              }
-            }
-          ]
         }
       ],
       "prerequisites": [
@@ -1019,6 +872,44 @@
           "Count": 1
         }
       ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "9aa4b681-79fd-4290-aff9-bcce87d38012",
+      "name": {
+        "text": "Unnamed",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Unnamed quest",
+        "isTranslationKey": false
+      },
+      "x": 136,
+      "y": 13,
+      "icon": {
+        "id": "thermal:dynamo_compression",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "hardcorequesting:detect",
+          "items": [
+            {
+              "item": {
+                "id": "thermal:dynamo_compression",
+                "Count": 1
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "d870404e-3382-4dc8-91ea-4db728f38060"
+      ],
+      "optionlinks": [],
+      "reward": [],
       "rewardchoice": [],
       "commandrewards": []
     }

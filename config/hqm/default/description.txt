@@ -4,7 +4,7 @@ Welcome, and congratulations on remaining alive. You have survived a crash landi
 
 T4L0S preliminary surface scans indicate an arid environment with pockets of elevated radiation and highly localized metal deposits. Surface coverage consists of dust with high mineral concentration. Subsurface scanning indicates abundant subterranean hydrocarbon reservoirs. Weak, intermittent life-sign readings are detected, but reliability is uncertain due to radiation interference.
 
-Your embedded Heads-Up Display (HUD) provides real-time monitoring of the following:
+Your embedded Heads-Up Display provides real-time monitoring of the following:
 - Vital signs
   - Body temperature
   - Hydration
