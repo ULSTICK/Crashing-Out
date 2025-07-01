@@ -715,10 +715,10 @@
     "modId": "survive",
     "version": "10.1.8"
   },
-  "sync-mc1.20.1-5.0.jar": {
-    "jarName": "sync-mc1.20.1-5.0.jar",
+  "sync-mc1.20.1-5.1.jar": {
+    "jarName": "sync-mc1.20.1-5.1.jar",
     "modId": "sync",
-    "version": "5.0"
+    "version": "5.1"
   },
   "tagtooltips-forge-1.20.1-1.1.0.jar": {
     "jarName": "tagtooltips-forge-1.20.1-1.1.0.jar",
