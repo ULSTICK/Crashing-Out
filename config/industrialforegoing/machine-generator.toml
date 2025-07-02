@@ -11,7 +11,7 @@
 		#Amount of FE/t extracted from the Biofuel Generator
 		extractionRate = 500
 		#Max Amount of Stored Fluid [Biofuel] - Default: [8000mB]
-		maxBiofuelTankSize = 4000
+		maxBiofuelTankSize = 8000
 
 	[MachineGeneratorConfig.BioReactorConfig]
 		#Cooldown Time in Ticks [20 Ticks per Second] - Default: [100 (5s)]

@@ -19,7 +19,7 @@
 		#Max Stored Power [FE] - Default: [10000 FE]
 		maxStoredPower = 10000
 		#Max Essence [mb] - Default: [32000 mb]
-		tankSize = 32000
+		tankSize = 16000
 		#Attack Damage for blacklisted entities - Default: [75]
 		attackDamage = 75
 
@@ -31,7 +31,7 @@
 		#Max Stored Power [FE] - Default: [10000 FE]
 		maxStoredPower = 10000
 		#Max Amount of Stored Fluid - Default: [8000mB]
-		maxTankSize = 8000
+		maxTankSize = 16000
 
 	[MachineAgricultureHusbandryConfig.PlantGathererConfig]
 		#Cooldown Time in Ticks [20 Ticks per Second] - Default: [100 (5s)]
@@ -41,9 +41,9 @@
 		#Max Stored Power [FE] - Default: [10000 FE]
 		maxStoredPower = 10000
 		#Max Amount of Stored Fluid for 'Sludge Tank' - Default: [8000mB]
-		maxSludgeTankSize = 8000
+		maxSludgeTankSize = 16000
 		#Max Amount of Stored Fluid for 'EtherTank' - Default: [1000mB]
-		maxEtherTankSize = 1000
+		maxEtherTankSize = 4000
 
 	[MachineAgricultureHusbandryConfig.AnimalRancherConfig]
 		#Cooldown Time in Ticks [20 Ticks per Second] - Default: [100 (5s)]
@@ -53,7 +53,7 @@
 		#Max Stored Power [FE] - Default: [10000 FE]
 		maxStoredPower = 10000
 		#Max Amount of Stored Fluid - Default: [8000mB]
-		maxTankSize = 8000
+		maxTankSize = 16000
 
 	[MachineAgricultureHusbandryConfig.PlantFertilizerConfig]
 		#Cooldown Time in Ticks [20 Ticks per Second] - Default: [100 (5s)]
@@ -71,9 +71,9 @@
 		#Max Stored Power [FE] - Default: [10000 FE]
 		maxStoredPower = 10000
 		#Max Amount of Stored Fluid - Default: [8000mB]
-		maxMeatTankSize = 8000
+		maxMeatTankSize = 16000
 		#Max Amount of Stored Fluid - Default: [8000mB]
-		maxPinkSlimeTankSize = 8000
+		maxPinkSlimeTankSize = 16000
 
 	[MachineAgricultureHusbandryConfig.PlantSowerConfig]
 		#Cooldown Time in Ticks [20 Ticks per Second] - Default: [100 (5s)]
@@ -91,7 +91,7 @@
 		#Max Stored Power [FE] - Default: [10000 FE]
 		maxStoredPower = 50000
 		#Max Essence [mb] - Default: [8000 mb]
-		tankSize = 8000
+		tankSize = 16000
 		#Exact Copy to spawn - Default: [false]
 		exactCopy = false
 		#Essence needed to spawn [Mob health*EssenceNeeded] - Default: [12]
@@ -121,7 +121,7 @@
 		#Max Stored Power [FE] - Default: [10000 FE]
 		maxStoredPower = 10000
 		#Max Amount of Stored Fluid - Default: [8000mB]
-		maxSewageTankSize = 8000
+		maxSewageTankSize = 1600
 		#Max Amount of Stored Fluid - Default: [8000mB]
-		maxEssenceTankSize = 8000
+		maxEssenceTankSize = 16000
 

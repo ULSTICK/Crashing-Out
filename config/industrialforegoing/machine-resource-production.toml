@@ -9,7 +9,7 @@
 		#Max Stored Power [FE] - Default: [10000 FE]
 		maxStoredPower = 10000
 		#Max Amount of Stored Fluid [Meat] - Default: [8000mB]
-		maxTankSize = 8000
+		maxTankSize = 16000
 		#Max Amount of Output Fluid  - Default: [8000mB]
 		maxOutputSize = 8000
 
@@ -33,7 +33,7 @@
 		#Max Stored Power [FE] - Default: [10000 FE]
 		maxStoredPower = 10000
 		#Max Amount of Stored Fluid [Water] - Default: [8000mB]
-		maxWaterTankSize = 1000
+		maxWaterTankSize = 16000
 
 	[MachineResourceProductionConfig.BlockPlacerConfig]
 		#Cooldown Time in Ticks [20 Ticks per Second] - Default: [100 (5s)]
@@ -51,7 +51,7 @@
 		#Max Stored Power [FE] - Default: [10000 FE]
 		maxStoredPower = 10000
 		#Max Amount of Stored Fluid - Default: [8000mB]
-		maxTankSize = 8000
+		maxTankSize = 16000
 
 	[MachineResourceProductionConfig.FluidPlacerConfig]
 		#Cooldown Time in Ticks [20 Ticks per Second] - Default: [100 (5s)]
@@ -69,7 +69,7 @@
 		#Max Stored Power [FE] - Default: [10000 FE]
 		maxStoredPower = 10000
 		#Max Amount of Stored Fluid [Meat] - Default: [8000mB]
-		maxMeatTankSize = 4000
+		maxMeatTankSize = 16000
 		#Cooldown Time in Ticks [20 Ticks per Second] - Default: [100 (5s)]
 		maxProgress = 100
 
@@ -105,7 +105,7 @@
 		#Max Stored Power [FE] - Default: [10000 FE]
 		maxStoredPower = 10000
 		#Max Amount of Stored Fluid [Sludge] - Default: [8000mB]
-		maxSludgeTankSize = 8000
+		maxSludgeTankSize = 16000
 
 	[MachineResourceProductionConfig.OreLaserBaseConfig]
 		#Max progress of the machine
@@ -131,9 +131,9 @@
 		#Max Stored Power [FE] - Default: [10000 FE]
 		maxStoredPower = 10000
 		#Max Amount of Stored Fluid [Water] - Default: [2000mB]
-		maxWaterTankSize = 2000
+		maxWaterTankSize = 16000
 		#Max Amount of Stored Fluid [Lava] - Default: [2000mB]
-		maxLavaTankSize = 2000
+		maxLavaTankSize = 16000
 
 	[MachineResourceProductionConfig.BlockBreakerConfig]
 		#Cooldown Time in Ticks [20 Ticks per Second] - Default: [100 (5s)]
@@ -167,5 +167,5 @@
 		#Max Stored Power [FE] - Default: [10000 FE]
 		maxStoredPower = 10000
 		#Max Amount of Stored Fluid [Output] - Default: [8000mB]
-		maxOutputTankSize = 16000
+		maxOutputTankSize = 32000
 

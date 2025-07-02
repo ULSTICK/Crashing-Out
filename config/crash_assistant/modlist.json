@@ -417,6 +417,11 @@
     "modId": "jeresources",
     "version": "1.4.0.247"
   },
+  "kjsindustrialforegoing-1.0.jar": {
+    "jarName": "kjsindustrialforegoing-1.0.jar",
+    "modId": "kjsindustrialforegoing",
+    "version": "1.0"
+  },
   "kotlinforforge-4.11.0-all.jar": {
     "jarName": "kotlinforforge-4.11.0-all.jar"
   },
