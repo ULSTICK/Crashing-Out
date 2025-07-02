@@ -11,8 +11,8 @@
         "text": "You may have noticed some machines require more pressure than an air compressor can provide. To get around that, you\u0027ll have to upgrade.",
         "isTranslationKey": false
       },
-      "x": 312,
-      "y": 99,
+      "x": 286,
+      "y": 102,
       "icon": {
         "id": "pneumaticcraft:advanced_air_compressor",
         "Count": 1
@@ -82,8 +82,8 @@
         "text": "There are many useful gadgets you can make using compressed air. You can consult the documentation for the full list, but these are some of the most useful tools.",
         "isTranslationKey": false
       },
-      "x": 273,
-      "y": 130,
+      "x": 254,
+      "y": 120,
       "icon": {
         "id": "pneumaticcraft:pneumatic_wrench",
         "Count": 1
@@ -196,11 +196,11 @@
         "isTranslationKey": false
       },
       "description": {
-        "text": "Now that you can pump all of the rich oil, it\u0027s time to refine it to make plastic and fuel for your rover and generator.\n\nInstructions:\nPut the 4 refinery outputs one above the other and besides the refinery controler. The resistive heater stays right aside the controller, and it need power to work (at least 100rf/t). ",
+        "text": "Now that you can pump oil out of the depths, you can work on refining it to get plastic, which is a very important resource for making circuits and machinery. ",
         "isTranslationKey": false
       },
-      "x": 127,
-      "y": 50,
+      "x": 110,
+      "y": 75,
       "icon": {
         "id": "pneumaticcraft:refinery",
         "Count": 1
@@ -213,15 +213,11 @@
             "text": "Refinery Equipment",
             "isTranslationKey": false
           },
+          "longDescription": {
+            "text": "Put the 4 refinery outputs in a vertical stack above the refinery controler. Use a resistive heater or vortex tube next to the controller to keep it hot enough to run.",
+            "isTranslationKey": false
+          },
           "items": [
-            {
-              "item": {
-                "id": "pneumaticcraft:refinery_output",
-                "Count": 1
-              },
-              "required": 4,
-              "precision": "TAG_FUZZY"
-            },
             {
               "item": {
                 "id": "pneumaticcraft:refinery",
@@ -231,9 +227,10 @@
             },
             {
               "item": {
-                "id": "mekanism:resistive_heater",
+                "id": "pneumaticcraft:refinery_output",
                 "Count": 1
               },
+              "required": 4,
               "precision": "FUZZY"
             }
           ]
@@ -244,19 +241,11 @@
             "text": "Oil Production",
             "isTranslationKey": false
           },
+          "longDescription": {
+            "text": "When your refinery is running, it will slowly produce refined oils based on how hot the controller is kept.",
+            "isTranslationKey": false
+          },
           "items": [
-            {
-              "item": {
-                "id": "pneumaticcraft:gasoline_bucket",
-                "Count": 1
-              }
-            },
-            {
-              "item": {
-                "id": "pneumaticcraft:lpg_bucket",
-                "Count": 1
-              }
-            },
             {
               "item": {
                 "id": "pneumaticcraft:diesel_bucket",
@@ -266,6 +255,18 @@
             {
               "item": {
                 "id": "pneumaticcraft:kerosene_bucket",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "pneumaticcraft:gasoline_bucket",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "pneumaticcraft:lpg_bucket",
                 "Count": 1
               }
             }
@@ -300,8 +301,8 @@
         "text": "After exposing the empty PCB, you will have to etch the circuit boards with etching acid. ",
         "isTranslationKey": false
       },
-      "x": 200,
-      "y": 100,
+      "x": 190,
+      "y": 102,
       "icon": {
         "id": "pneumaticcraft:unassembled_pcb",
         "Count": 1
@@ -371,8 +372,8 @@
         "text": "The final step of creating a PCB is assembling it.",
         "isTranslationKey": false
       },
-      "x": 233,
-      "y": 100,
+      "x": 222,
+      "y": 102,
       "icon": {
         "id": "pneumaticcraft:printed_circuit_board",
         "Count": 1
@@ -421,8 +422,8 @@
         "text": "Assembling a PCB by hand is extremely time consuming. Luckily, the process can be simplified when you have the technology. With an assembly line set up, you can automatically handle the etching and exposing to skip right from an empty PCB to an unassembled one.",
         "isTranslationKey": false
       },
-      "x": 269,
-      "y": 75,
+      "x": 254,
+      "y": 84,
       "icon": {
         "id": "pneumaticcraft:assembly_controller",
         "Count": 1
@@ -559,8 +560,8 @@
         "text": "Once you have an empty PCB, the next step is to expose it to ultraviolet light.",
         "isTranslationKey": false
       },
-      "x": 168,
-      "y": 98,
+      "x": 158,
+      "y": 102,
       "icon": {
         "id": "pneumaticcraft:empty_pcb",
         "Count": 1,
@@ -632,8 +633,8 @@
         "text": "Now that you have a pressure chamber, you can make all kinds of advanced materials, most notably the Printed Circuit Board, which is an essential component for high-tech crafting. To craft using the pressure chamber, break one of the middle blocks, drop your ingredients in, and place the block back down. Once you reach the required pressure level again, your items will be crafted and you can break the block again to remove them from the chamber. You will lose some whenever the pressure chamber is opened, but you can improve upon the process with a pressure chamber interface, which can do the opening/closing for you.",
         "isTranslationKey": false
       },
-      "x": 131,
-      "y": 97,
+      "x": 126,
+      "y": 102,
       "icon": {
         "id": "pneumaticcraft:empty_pcb",
         "Count": 1
@@ -687,7 +688,7 @@
     {
       "uuid": "794f0a0c-359a-442f-87a2-217b2aeae130",
       "name": {
-        "text": "Heating up",
+        "text": "Heating Up",
         "isTranslationKey": false
       },
       "description": {
@@ -724,7 +725,7 @@
         {
           "type": "hardcorequesting:detect",
           "description": {
-            "text": "Air compression",
+            "text": "Air Compression",
             "isTranslationKey": false
           },
           "longDescription": {
@@ -857,8 +858,8 @@
         "text": "A pressure gauge can help messure the amount of pressure in a pneumatic system. It will also emit a redstone signal equal to double the detected pressure. You can use that to disable compressors when the system gets close to overloading.",
         "isTranslationKey": false
       },
-      "x": 91,
-      "y": 148,
+      "x": 78,
+      "y": 129,
       "icon": {
         "id": "pneumaticcraft:pressure_gauge_module",
         "Count": 1
@@ -904,8 +905,8 @@
         "text": "Subsurface scanning has detected an abundance of oil deep under the surface of the planet. With a bit of pressure, you should be able to pump oil from the depths.",
         "isTranslationKey": false
       },
-      "x": 85,
-      "y": 48,
+      "x": 78,
+      "y": 75,
       "icon": {
         "id": "pneumaticcraft:gas_lift",
         "Count": 1
@@ -978,15 +979,15 @@
     {
       "uuid": "c86b6b2b-d725-4e92-8635-06b915d4f234",
       "name": {
-        "text": "Letting Out Some Steam",
+        "text": "Letting Off Steam",
         "isTranslationKey": false
       },
       "description": {
         "text": "Breaking a block whenever you need to use the pressure chamber will waste a lot of air. The pressure chamber interface acts as an airlock, inserting or extracting items into the chamber.",
         "isTranslationKey": false
       },
-      "x": 118,
-      "y": 128,
+      "x": 110,
+      "y": 129,
       "icon": {
         "id": "pneumaticcraft:pressure_chamber_interface",
         "Count": 1

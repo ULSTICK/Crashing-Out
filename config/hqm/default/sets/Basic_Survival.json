@@ -1452,6 +1452,68 @@
       "commandrewards": []
     },
     {
+      "uuid": "9bcad1fa-e4c1-4745-9776-6df674846c9d",
+      "name": {
+        "text": "Shell Storage",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Sometimes, one life just isn\u0027t enough. In those cases, you can use Shell Storage to keep extra shells around. When you die, you will be sent to a random shell.",
+        "isTranslationKey": false
+      },
+      "x": 38,
+      "y": -15,
+      "icon": {
+        "id": "sync:shell_storage",
+        "Count": 1
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "hardcorequesting:detect",
+          "description": {
+            "text": "Shell Storage",
+            "isTranslationKey": false
+          },
+          "longDescription": {
+            "text": "If you have another shell available, you can put your current body into shell. Just walk into the shell storage chamber and it will let you transfer to any available Shell.",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "sync:shell_storage",
+                "Count": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "hardcorequesting:checkbox",
+          "description": {
+            "text": "Terms and Conditions",
+            "isTranslationKey": false
+          },
+          "longDescription": {
+            "text": "Some important warnings:\n\n1. When you enter storage to switch shells, your items stay in that body. Empty your inventory before syncing unless you have multiple Shell Storage chambers available.\n2. If a Shell Storage breaks, the Shell it is storing will be lost and its inventory will be scattered on the ground.\n3. Sometimes, the Shell Storage/Constructor doors fail to open after syncing. If this happens, exit and rejoin the game and the doors should see you as a person again.\n\nCheck the box below to acknowledge the Sync™ terms and conditions.",
+            "isTranslationKey": false
+          }
+        }
+      ],
+      "prerequisites": [
+        "ae61c85d-2154-435e-91cc-78218ffe1dd6"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "sync:treadmill",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
       "uuid": "099d1358-0b11-49f0-aa78-43531cd739b7",
       "name": {
         "text": "Firing it up!",
@@ -1582,6 +1644,64 @@
           "id": "thermal:flux_capacitor",
           "Count": 1,
           "tag": "{Energy:500000}"
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "ae61c85d-2154-435e-91cc-78218ffe1dd6",
+      "name": {
+        "text": "1 Up!",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "This planet is full of hazards and hostiles. You will eventually need to venture out of the confines of your ship, but that poses a lot of risks. However, with a bit of effort, you may be able to give yourself a second chance if the worst happens. A Shell Constructor is the key to life after (first) death. Once you make one, you will need to provide energy and a blood sample and it will build you a new body. ",
+        "isTranslationKey": false
+      },
+      "x": 13,
+      "y": 16,
+      "icon": {
+        "id": "sync:sync_core",
+        "Count": 1
+      },
+      "trigger": "ANTI_TRIGGER",
+      "parentrequirement": 1,
+      "tasks": [
+        {
+          "type": "hardcorequesting:craft",
+          "description": {
+            "text": "Shell Construction",
+            "isTranslationKey": false
+          },
+          "longDescription": {
+            "text": "Place the constructor, give it a power source, and right click it to provide the DNA sample. Be careful, it will hurt a little.",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "sync:shell_constructor",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "d870404e-3382-4dc8-91ea-4db728f38060",
+        "7ee731c2-da61-4aab-a5fa-864fc4b62277"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "thermal:energy_cell",
+          "Count": 1,
+          "tag": "{BlockEntityTag:{AmountIn:1000,AmountOut:1000,Energy:1000000,EnergyMax:1000000,EnergyRecv:1000,EnergySend:1000,RSControl:{RSMode:0b,RSThreshold:0b},Sides:[B;3B,3B,3B,3B,3B,3B],Xfer:{XferIn:1b,XferOut:1b}},Properties:{}}"
+        },
+        {
+          "id": "chunkloaders:single_chunk_loader",
+          "Count": 1
         }
       ],
       "rewardchoice": [],
