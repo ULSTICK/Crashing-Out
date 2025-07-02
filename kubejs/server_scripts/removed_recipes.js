@@ -1,18 +1,25 @@
 ServerEvents.recipes(event => {
     // Removal by ID
+    [
+        'enderio:iron_gear',
+        'industrialforegoing:diamond_gear',
+        'industrialforegoing:gold_gear',
+        'industrialforegoing:iron_gear',
+        'tconstruct:molten_pewter',
+        'tconstruct:smeltery/casting/scorched/brick_composite',
+        'tconstruct:smeltery/casting/scorched/stone_from_magma',
+        'tconstruct:smeltery/casting/seared/brick_composite',
+        'tconstruct:smeltery/casting/seared/stone/block_from_seared',
+        'tconstruct:smeltery/melting/metal/iron/ore_sparse'
+    ].forEach(id => {
+        event.remove({ id: id });
+    });
+
+    // Removal by input
     event.remove({
-        id:
+        input:
             [
-                "enderio:iron_gear",
-                "industrialforegoing:diamond_gear",
-                "industrialforegoing:gold_gear",
-                "industrialforegoing:iron_gear",
-                "tconstruct:molten_pewter",
-                "tconstruct:smeltery/casting/scorched/brick_composite",
-                "tconstruct:smeltery/casting/scorched/stone_from_magma",
-                "tconstruct:smeltery/casting/seared/brick_composite",
-                "tconstruct:smeltery/casting/seared/stone/block_from_seared",
-                "tconstruct:smeltery/melting/metal/iron/ore_sparse"
+                "#forge:slimeball/blood", // broken recipes, removed because empty tag
             ]
     });
 
@@ -63,14 +70,13 @@ ServerEvents.recipes(event => {
     });
 
     // Removal by type
-    event.remove({
-        type:
-            [
-                "create:potions",
-                "exdeorum:compressed_sieve",
-                "exdeorum:water_crucible",
-                "tconstruct:casting_table_potion"
-            ]
+    [
+        'create:potions',
+        'exdeorum:compressed_sieve',
+        'exdeorum:water_crucible',
+        'tconstruct:casting_table_potion'
+    ].forEach(t => {
+        event.remove({ type: t });
     });
 
     // Removal of haunting recipes
