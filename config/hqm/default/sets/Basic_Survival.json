@@ -613,14 +613,6 @@
           "Count": 1
         },
         {
-          "id": "sync:shell_storage",
-          "Count": 1
-        },
-        {
-          "id": "minecraft:lever",
-          "Count": 1
-        },
-        {
           "id": "cgm:shell",
           "Count": 32
         },
@@ -1461,8 +1453,8 @@
         "text": "Sometimes, one life just isn\u0027t enough. In those cases, you can use Shell Storage to keep extra shells around. When you die, you will be sent to a random shell.",
         "isTranslationKey": false
       },
-      "x": 38,
-      "y": -15,
+      "x": 286,
+      "y": 102,
       "icon": {
         "id": "sync:shell_storage",
         "Count": 1
@@ -1659,8 +1651,8 @@
         "text": "This planet is full of hazards and hostiles. You will eventually need to venture out of the confines of your ship, but that poses a lot of risks. However, with a bit of effort, you may be able to give yourself a second chance if the worst happens. A Shell Constructor is the key to life after (first) death. Once you make one, you will need to provide energy and a blood sample and it will build you a new body. ",
         "isTranslationKey": false
       },
-      "x": 13,
-      "y": 16,
+      "x": 254,
+      "y": 102,
       "icon": {
         "id": "sync:sync_core",
         "Count": 1
@@ -1689,8 +1681,8 @@
         }
       ],
       "prerequisites": [
-        "d870404e-3382-4dc8-91ea-4db728f38060",
-        "7ee731c2-da61-4aab-a5fa-864fc4b62277"
+        "3ffa13cb-b198-4e83-bab7-676d08834311",
+        "a63b8539-ab2c-4741-a920-afc5081deb38"
       ],
       "optionlinks": [],
       "reward": [

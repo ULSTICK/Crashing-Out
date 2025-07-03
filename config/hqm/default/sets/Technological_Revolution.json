@@ -183,6 +183,27 @@
       "commandrewards": []
     },
     {
+      "uuid": "ace193bf-bd8a-4435-a1c3-9175845b3469",
+      "name": {
+        "text": "Hard Route",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Trigger quest to control quests unlocked by the hard route",
+        "isTranslationKey": false
+      },
+      "x": 14,
+      "y": 165,
+      "trigger": "QUEST_TRIGGER",
+      "prerequisites": [
+        "477e01c0-8641-4b6b-970f-7374b04f6a68"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
       "uuid": "e558fbac-929f-4b1b-bd10-c73e792ac69d",
       "name": {
         "text": "Infusing",
@@ -222,6 +243,91 @@
         }
       ],
       "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "f18850ad-ddc5-4d3c-8c9c-b3aa091addbb",
+      "name": {
+        "text": "Industrial Foregoing Liquids",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "So many liquids. so many icky, icky liquids.",
+        "isTranslationKey": false
+      },
+      "x": 270,
+      "y": 165,
+      "icon": {
+        "id": "industrialforegoing:pink_slime_bucket",
+        "Count": 1
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "hardcorequesting:consume_qds",
+          "items": [
+            {
+              "fluid": {
+                "fluid": "industrialforegoing:meat",
+                "volume": {
+                  "n": 1,
+                  "d": 1
+                }
+              },
+              "required": 10000
+            },
+            {
+              "fluid": {
+                "fluid": "industrialforegoing:pink_slime",
+                "volume": {
+                  "n": 1,
+                  "d": 1
+                }
+              },
+              "required": 10000
+            },
+            {
+              "fluid": {
+                "fluid": "industrialforegoing:sludge",
+                "volume": {
+                  "n": 1,
+                  "d": 1
+                }
+              },
+              "required": 10000
+            },
+            {
+              "fluid": {
+                "fluid": "industrialforegoing:sewage",
+                "volume": {
+                  "n": 1,
+                  "d": 1
+                }
+              },
+              "required": 10000
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "d41c9753-3fe3-475c-adbc-77160c347593"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "mekanism:ultimate_control_circuit",
+          "Count": 2
+        },
+        {
+          "id": "tconstruct:queens_slime_ingot",
+          "Count": 2
+        },
+        {
+          "id": "thermal:obsidian_glass",
+          "Count": 16
+        }
+      ],
       "commandrewards": []
     },
     {
@@ -316,7 +422,7 @@
       "optionlinks": [],
       "reward": [
         {
-          "id": "mekanism:steel_casing",
+          "id": "thermal:machine_frame",
           "Count": 1
         }
       ],
@@ -333,88 +439,24 @@
       "commandrewards": []
     },
     {
-      "uuid": "f18850ad-ddc5-4d3c-8c9c-b3aa091addbb",
+      "uuid": "a63b8539-ab2c-4741-a920-afc5081deb38",
       "name": {
-        "text": "Industrial Foregoing Liquids",
+        "text": "Easy Route",
         "isTranslationKey": false
       },
       "description": {
-        "text": "So many liquids. so many icky, icky liquids.",
+        "text": "Trigger quest to control quests unlocked by the easy route",
         "isTranslationKey": false
       },
-      "x": 270,
-      "y": 165,
-      "icon": {
-        "id": "industrialforegoing:pink_slime_bucket",
-        "Count": 1
-      },
-      "trigger": "ANTI_TRIGGER",
-      "tasks": [
-        {
-          "type": "hardcorequesting:consume_qds",
-          "items": [
-            {
-              "fluid": {
-                "fluid": "industrialforegoing:meat",
-                "volume": {
-                  "n": 1,
-                  "d": 1
-                }
-              },
-              "required": 10000
-            },
-            {
-              "fluid": {
-                "fluid": "industrialforegoing:pink_slime",
-                "volume": {
-                  "n": 1,
-                  "d": 1
-                }
-              },
-              "required": 10000
-            },
-            {
-              "fluid": {
-                "fluid": "industrialforegoing:sludge",
-                "volume": {
-                  "n": 1,
-                  "d": 1
-                }
-              },
-              "required": 10000
-            },
-            {
-              "fluid": {
-                "fluid": "industrialforegoing:sewage",
-                "volume": {
-                  "n": 1,
-                  "d": 1
-                }
-              },
-              "required": 10000
-            }
-          ]
-        }
-      ],
+      "x": 14,
+      "y": 39,
+      "trigger": "QUEST_TRIGGER",
       "prerequisites": [
-        "d41c9753-3fe3-475c-adbc-77160c347593"
+        "7ee731c2-da61-4aab-a5fa-864fc4b62277"
       ],
       "optionlinks": [],
       "reward": [],
-      "rewardchoice": [
-        {
-          "id": "mekanism:ultimate_control_circuit",
-          "Count": 2
-        },
-        {
-          "id": "tconstruct:queens_slime_ingot",
-          "Count": 2
-        },
-        {
-          "id": "thermal:obsidian_glass",
-          "Count": 16
-        }
-      ],
+      "rewardchoice": [],
       "commandrewards": []
     },
     {
@@ -554,7 +596,7 @@
     {
       "uuid": "dedd2e7c-32c9-4ae6-9351-0fc050c99283",
       "name": {
-        "text": "All Creatures Great and Small",
+        "text": "Creatures Great and Small",
         "isTranslationKey": false
       },
       "description": {
@@ -763,7 +805,7 @@
     {
       "uuid": "d41c9753-3fe3-475c-adbc-77160c347593",
       "name": {
-        "text": "Left Overs",
+        "text": "Leftovers",
         "isTranslationKey": false
       },
       "description": {
@@ -906,7 +948,7 @@
         }
       ],
       "prerequisites": [
-        "d870404e-3382-4dc8-91ea-4db728f38060"
+        "ff99b94a-a12d-4b8f-9ea2-22dc262d4de1"
       ],
       "optionlinks": [],
       "reward": [],

@@ -11,8 +11,8 @@
         "text": "Ok, so zombie jerky and silk worms are horrible for long term food, however youre alive! Well sort of... heres another recipe.",
         "isTranslationKey": false
       },
-      "x": 78,
-      "y": 93,
+      "x": 158,
+      "y": 84,
       "icon": {
         "id": "pamhc2foodcore:stockitem",
         "Count": 1
@@ -81,8 +81,8 @@
         "text": "If you don\u0027t want to be stuck eating bugs and monster bits, you\u0027ll need to craft a few kitchen utensils.",
         "isTranslationKey": false
       },
-      "x": 62,
-      "y": 66,
+      "x": 158,
+      "y": 48,
       "icon": {
         "id": "pamhc2foodcore:mixingbowlitem",
         "Count": 1
@@ -140,8 +140,8 @@
         "text": "You may have noticed the lack of food on this planet. Well, I have a temporary solution. You might not like it but given the only alternative is starving...",
         "isTranslationKey": false
       },
-      "x": 46,
-      "y": 39,
+      "x": 158,
+      "y": 12,
       "icon": {
         "id": "extra_food_items:zombie_jerky",
         "Count": 1
@@ -160,7 +160,7 @@
           "items": [
             {
               "item": {
-                "id": "pamhc2foodcore:saltitem",
+                "id": "mekanism:salt",
                 "Count": 1
               },
               "precision": "TAG_FUZZY"
@@ -230,8 +230,8 @@
         "text": "Now that youve finally gotten a foot hold on this dusty planet, we still are in need of a food supply.",
         "isTranslationKey": false
       },
-      "x": 31,
-      "y": 66,
+      "x": 126,
+      "y": 30,
       "icon": {
         "id": "exdeorum:wooden_watering_can",
         "Count": 1
@@ -348,8 +348,8 @@
         "text": "Well zombie jerky on its own proably isn\u0027t enough. If you are in dire enough straits almost anything looks edible.",
         "isTranslationKey": false
       },
-      "x": 78,
-      "y": 39,
+      "x": 190,
+      "y": 30,
       "icon": {
         "id": "exdeorum:cooked_silk_worm",
         "Count": 1

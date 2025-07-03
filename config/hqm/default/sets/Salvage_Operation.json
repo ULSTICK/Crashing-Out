@@ -282,6 +282,58 @@
       "commandrewards": []
     },
     {
+      "uuid": "2b994684-1263-4b2b-8567-57b696c8680a",
+      "name": {
+        "text": "Meltdown",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "The ruins on this planet seem to contain remnants of all sorts of interesting technology. Some of this tech seems suitable for nuclear power generation.",
+        "isTranslationKey": false
+      },
+      "x": 190,
+      "y": 66,
+      "icon": {
+        "id": "kubejs:crashed_reactor_frame",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "hardcorequesting:detect",
+          "longDescription": {
+            "text": "You can find the nuclear plant building by exploring the desert.",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "kubejs:crashed_reactor_controller",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "kubejs:crashed_reactor_frame",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "cdac0984-204e-4fbc-b2cd-cea990ae0367"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "biggerreactors:graphite_ingot",
+          "Count": 16
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
       "uuid": "7cd36511-ac8a-4a2a-89e6-9fa29cb33173",
       "name": {
         "text": "Running on Fumes",
@@ -386,54 +438,38 @@
       "commandrewards": []
     },
     {
-      "uuid": "2b994684-1263-4b2b-8567-57b696c8680a",
+      "uuid": "e1d2b7f5-377e-4a50-955a-01f8e6ab302b",
       "name": {
-        "text": "Meltdown",
+        "text": "Plastic Beach",
         "isTranslationKey": false
       },
       "description": {
-        "text": "The ruins on this planet seem to contain remnants of all sorts of interesting technology. Some of this tech seems suitable for nuclear power generation.",
+        "text": "Unnamed quest",
         "isTranslationKey": false
       },
-      "x": 190,
-      "y": 66,
+      "x": 158,
+      "y": 12,
       "icon": {
-        "id": "kubejs:crashed_reactor_frame",
+        "id": "kubejs:plastic_scrap",
         "Count": 1
       },
+      "trigger": "ANTI_TRIGGER",
       "tasks": [
         {
           "type": "hardcorequesting:detect",
-          "longDescription": {
-            "text": "You can find the nuclear plant building by exploring the desert.",
-            "isTranslationKey": false
-          },
           "items": [
             {
               "item": {
-                "id": "kubejs:crashed_reactor_controller",
-                "Count": 1
-              }
-            },
-            {
-              "item": {
-                "id": "kubejs:crashed_reactor_frame",
+                "id": "kubejs:plastic_scrap",
                 "Count": 1
               }
             }
           ]
         }
       ],
-      "prerequisites": [
-        "cdac0984-204e-4fbc-b2cd-cea990ae0367"
-      ],
+      "prerequisites": [],
       "optionlinks": [],
-      "reward": [
-        {
-          "id": "biggerreactors:graphite_ingot",
-          "Count": 16
-        }
-      ],
+      "reward": [],
       "rewardchoice": [],
       "commandrewards": []
     },
@@ -881,12 +917,7 @@
         "9c45c37d-c906-46f1-b3c0-eec774f4ccbe"
       ],
       "optionlinks": [],
-      "reward": [
-        {
-          "id": "ae2:fluix_crystal",
-          "Count": 16
-        }
-      ],
+      "reward": [],
       "rewardchoice": [
         {
           "id": "ae2:item_storage_cell_16k",

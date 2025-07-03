@@ -2,77 +2,6 @@
   "name": "Under Pressure",
   "quests": [
     {
-      "uuid": "8fc9c1ac-631c-4c2c-aabc-bb7eeb415c76",
-      "name": {
-        "text": "Higher Pressure",
-        "isTranslationKey": false
-      },
-      "description": {
-        "text": "You may have noticed some machines require more pressure than an air compressor can provide. To get around that, you\u0027ll have to upgrade.",
-        "isTranslationKey": false
-      },
-      "x": 286,
-      "y": 102,
-      "icon": {
-        "id": "pneumaticcraft:advanced_air_compressor",
-        "Count": 1
-      },
-      "trigger": "ANTI_TRIGGER",
-      "tasks": [
-        {
-          "type": "hardcorequesting:detect",
-          "description": {
-            "text": "Advanced Pressure Tubes",
-            "isTranslationKey": false
-          },
-          "longDescription": {
-            "text": "Advanced pressure tubes have a capacity of 20 bar, up from the 5 bar capacity of normal pressure tubes. They can also be upgraded for further functionality.",
-            "isTranslationKey": false
-          },
-          "items": [
-            {
-              "item": {
-                "id": "pneumaticcraft:advanced_pressure_tube",
-                "Count": 1
-              }
-            }
-          ]
-        },
-        {
-          "type": "hardcorequesting:detect",
-          "description": {
-            "text": "Advanced Air Compressor",
-            "isTranslationKey": false
-          },
-          "longDescription": {
-            "text": "The advanced air compressor can generate pressure at a faster rate and up to a larger capacity than the standard air compressor.",
-            "isTranslationKey": false
-          },
-          "items": [
-            {
-              "item": {
-                "id": "pneumaticcraft:advanced_air_compressor",
-                "Count": 1
-              }
-            }
-          ]
-        }
-      ],
-      "prerequisites": [
-        "7ddff832-1aee-4299-bb6e-570e437fc74a",
-        "0426c2a9-95cc-49a7-a6c6-742dad08b167"
-      ],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "thermal:energy_cell_frame",
-          "Count": 1
-        }
-      ],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
       "uuid": "0426c2a9-95cc-49a7-a6c6-742dad08b167",
       "name": {
         "text": "Tools of the Trade",
@@ -190,6 +119,140 @@
       "commandrewards": []
     },
     {
+      "uuid": "8fc9c1ac-631c-4c2c-aabc-bb7eeb415c76",
+      "name": {
+        "text": "Higher Pressure",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "You may have noticed some machines require more pressure than an air compressor can provide. To get around that, you\u0027ll have to upgrade.",
+        "isTranslationKey": false
+      },
+      "x": 286,
+      "y": 102,
+      "icon": {
+        "id": "pneumaticcraft:advanced_air_compressor",
+        "Count": 1
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "hardcorequesting:detect",
+          "description": {
+            "text": "Advanced Pressure Tubes",
+            "isTranslationKey": false
+          },
+          "longDescription": {
+            "text": "Advanced pressure tubes have a capacity of 20 bar, up from the 5 bar capacity of normal pressure tubes. They can also be upgraded for further functionality.",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "pneumaticcraft:advanced_pressure_tube",
+                "Count": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "hardcorequesting:detect",
+          "description": {
+            "text": "Advanced Air Compressor",
+            "isTranslationKey": false
+          },
+          "longDescription": {
+            "text": "The advanced air compressor can generate pressure at a faster rate and up to a larger capacity than the standard air compressor.",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "pneumaticcraft:advanced_air_compressor",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "7ddff832-1aee-4299-bb6e-570e437fc74a",
+        "0426c2a9-95cc-49a7-a6c6-742dad08b167"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "thermal:energy_cell_frame",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "06e0f31e-c084-4157-9890-0989c2908b66",
+      "name": {
+        "text": "Refining Oil",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Unnamed quest",
+        "isTranslationKey": false
+      },
+      "x": 142,
+      "y": 75,
+      "icon": {
+        "id": "pneumaticcraft:thermopneumatic_processing_plant",
+        "Count": 1
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "hardcorequesting:detect",
+          "description": {
+            "text": "Thermopneumatic Plant",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "pneumaticcraft:thermopneumatic_processing_plant",
+                "Count": 1
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "hardcorequesting:detect",
+          "description": {
+            "text": "Plastic Processing",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "pneumaticcraft:plastic_bucket",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "ff99b94a-a12d-4b8f-9ea2-22dc262d4de1"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:coal",
+          "Count": 32
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
       "uuid": "ff99b94a-a12d-4b8f-9ea2-22dc262d4de1",
       "name": {
         "text": "Refining Oil",
@@ -279,13 +342,8 @@
       "optionlinks": [],
       "reward": [
         {
-          "id": "mekanism:basic_fluid_tank",
-          "Count": 1,
-          "tag": "{mekData:{FluidTanks:[{Tank:0b,stored:{Amount:32000,FluidName:\"pneumaticcraft:oil\"}}],Items:[],bucketMode:1b,editMode:0,owner:[I;-826375014,1581600191,-1318216195,-1820762510],securityMode:0}}"
-        },
-        {
-          "id": "pneumaticcraft:plastic",
-          "Count": 16
+          "id": "pneumaticcraft:thermal_lagging",
+          "Count": 24
         }
       ],
       "rewardchoice": [],
@@ -358,7 +416,13 @@
         "f240d7c3-3352-4648-9fd2-d545cb85aef8"
       ],
       "optionlinks": [],
-      "reward": [],
+      "reward": [
+        {
+          "id": "pneumaticcraft:empty_pcb",
+          "Count": 1,
+          "tag": "{\"pneumaticcraft:uv_exposure\":100}"
+        }
+      ],
       "rewardchoice": [],
       "commandrewards": []
     },
@@ -402,11 +466,11 @@
       "reward": [
         {
           "id": "pneumaticcraft:capacitor",
-          "Count": 8
+          "Count": 4
         },
         {
           "id": "pneumaticcraft:transistor",
-          "Count": 8
+          "Count": 4
         }
       ],
       "rewardchoice": [],
@@ -760,6 +824,33 @@
       "commandrewards": []
     },
     {
+      "uuid": "ef1ba34c-15f7-4a8a-89d8-e6a3bbd01a37",
+      "name": {
+        "text": "Plastic",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Trigger quest for when the player has the ability to get plastic",
+        "isTranslationKey": false
+      },
+      "x": 174,
+      "y": 75,
+      "icon": {
+        "id": "pneumaticcraft:plastic",
+        "Count": 1
+      },
+      "trigger": "QUEST_TRIGGER",
+      "parentrequirement": 1,
+      "prerequisites": [
+        "06e0f31e-c084-4157-9890-0989c2908b66",
+        "cdac0984-204e-4fbc-b2cd-cea990ae0367"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
       "uuid": "d7f59dff-62b2-426b-a5eb-a27f6bd4a4cb",
       "name": {
         "text": "Exploding Iron",
@@ -849,6 +940,44 @@
       "commandrewards": []
     },
     {
+      "uuid": "b3492565-ea32-427d-9b74-d3de6abe86af",
+      "name": {
+        "text": "Upgrades",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Unnamed quest",
+        "isTranslationKey": false
+      },
+      "x": 142,
+      "y": 129,
+      "icon": {
+        "id": "pneumaticcraft:speed_upgrade",
+        "Count": 1
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "hardcorequesting:detect",
+          "items": [
+            {
+              "item": {
+                "id": "pneumaticcraft:speed_upgrade",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "c86b6b2b-d725-4e92-8635-06b915d4f234"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
       "uuid": "e8919b5b-fd58-4907-bcde-3d9e39bba7b7",
       "name": {
         "text": "Measuring Pressure",
@@ -888,7 +1017,7 @@
       "optionlinks": [],
       "reward": [
         {
-          "id": "pneumaticcraft:ingot_iron_compressed",
+          "id": "minecraft:repeater",
           "Count": 4
         }
       ],
