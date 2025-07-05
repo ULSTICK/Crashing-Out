@@ -11,7 +11,7 @@
         "text": "Another way to get water is to drop some saplings or leaves into the Centrifugal Separator. It will give you a bit of water, about 1/10th of a bucket. Remember, you can power your machines with the flux capacitor from your emergency supply chest. MAKE SURE YOU DO NOT USE UP ALL OF YOUR SAPLINGS.",
         "isTranslationKey": false
       },
-      "x": 110,
+      "x": 142,
       "y": 75,
       "icon": {
         "id": "minecraft:birch_sapling",
@@ -56,7 +56,7 @@
         "isTranslationKey": false
       },
       "description": {
-        "text": "The night is dark and full of terrors. Your chances of survival are low, but you can improve them with some sort of weapon and some protection from attack.",
+        "text": "The night is dark and full of terrors. Your chances of survival are low, but you can improve them with some sort of weapon to defend yourself.",
         "isTranslationKey": false
       },
       "x": 126,
@@ -70,10 +70,6 @@
       "tasks": [
         {
           "type": "hardcorequesting:detect",
-          "description": {
-            "text": "Weapons",
-            "isTranslationKey": false
-          },
           "longDescription": {
             "text": "For your weapon, you\u0027ll need the blade to be bone to start. No other starting material is comparable for weapons.",
             "isTranslationKey": false
@@ -84,47 +80,6 @@
                 "id": "tconstruct:small_blade",
                 "Count": 1,
                 "tag": "{Material:\"tconstruct:bone\"}"
-              }
-            }
-          ]
-        },
-        {
-          "type": "hardcorequesting:detect",
-          "description": {
-            "text": "Armor",
-            "isTranslationKey": false
-          },
-          "longDescription": {
-            "text": "Wooden armor is a good early way to defend yourself. Be careful though, all that coverage can heat you up.",
-            "isTranslationKey": false
-          },
-          "items": [
-            {
-              "item": {
-                "id": "extra_food_items:wooden_helmet",
-                "Count": 1,
-                "tag": "{Damage:0}"
-              }
-            },
-            {
-              "item": {
-                "id": "extra_food_items:wooden_chestplate",
-                "Count": 1,
-                "tag": "{Damage:0}"
-              }
-            },
-            {
-              "item": {
-                "id": "extra_food_items:wooden_leggings",
-                "Count": 1,
-                "tag": "{Damage:0}"
-              }
-            },
-            {
-              "item": {
-                "id": "extra_food_items:wooden_boots",
-                "Count": 1,
-                "tag": "{Damage:0}"
               }
             }
           ]
@@ -176,20 +131,11 @@
       "trigger": "ANTI_TRIGGER",
       "tasks": [
         {
-          "type": "hardcorequesting:consume",
-          "description": {
-            "text": "Grab some dust!",
+          "type": "hardcorequesting:checkbox",
+          "longDescription": {
+            "text": "Check the box below to confirm you want to take the Hard Route with the basic survival package. There\u0027s no going back after you click it!",
             "isTranslationKey": false
-          },
-          "items": [
-            {
-              "item": {
-                "id": "exdeorum:dust",
-                "Count": 1
-              },
-              "precision": "FUZZY"
-            }
-          ]
+          }
         }
       ],
       "prerequisites": [
@@ -238,10 +184,6 @@
       "tasks": [
         {
           "type": "hardcorequesting:detect",
-          "description": {
-            "text": "Warming up",
-            "isTranslationKey": false
-          },
           "longDescription": {
             "text": "You can use the crucible as a mini-smeltery. Shift-right click to place a faucet. It only takes blocks, not dusts or broken pieces of ore. If you\u0027ve still have lava by the broken engine, you can use that to heat your crucible. Also, you can make casts by pouring gold over stone parts.",
             "isTranslationKey": false
@@ -294,7 +236,7 @@
     {
       "uuid": "a06fbc3a-5b54-4b9a-8f91-6dd3cdd5181e",
       "name": {
-        "text": "End of an era",
+        "text": "The Plastic Age",
         "isTranslationKey": false
       },
       "description": {
@@ -311,10 +253,6 @@
       "tasks": [
         {
           "type": "hardcorequesting:detect",
-          "description": {
-            "text": "Next tasks",
-            "isTranslationKey": false
-          },
           "items": [
             {
               "item": {
@@ -352,7 +290,7 @@
         "text": "To build up from nothing, you\u0027ll have to have some interesting survival strategies, and unique tools to go with them.",
         "isTranslationKey": false
       },
-      "x": 110,
+      "x": 142,
       "y": 129,
       "icon": {
         "id": "exdeorum:crook",
@@ -410,13 +348,14 @@
         "text": "If you need to glue something in a pinch, you don\u0027t need to find slime to do it. It turns out mixing water and flour makes a great adhesive.",
         "isTranslationKey": false
       },
-      "x": 94,
+      "x": 62,
       "y": 48,
       "icon": {
         "id": "kubejs:paste",
         "Count": 1
       },
       "trigger": "ANTI_TRIGGER",
+      "parentrequirement": 1,
       "tasks": [
         {
           "type": "hardcorequesting:detect",
@@ -435,6 +374,9 @@
         }
       ],
       "prerequisites": [
+        "9be2b0f4-dd15-4899-8956-ee4a0f5e8403",
+        "3e4732d9-29f9-493b-83fb-96af85b5390d",
+        "32852a9b-1b0c-4954-99c3-92501611c7d7",
         "d4d8bba6-7b9e-417a-b543-90ffb032400b"
       ],
       "optionlinks": [],
@@ -583,19 +525,11 @@
       "trigger": "ANTI_TRIGGER",
       "tasks": [
         {
-          "type": "hardcorequesting:consume",
-          "description": {
-            "text": "Grab some dust!",
+          "type": "hardcorequesting:checkbox",
+          "longDescription": {
+            "text": "Check the box below to confirm you want to take the Easy Route with the duluxe survival package. There\u0027s no going back after you click it!",
             "isTranslationKey": false
-          },
-          "items": [
-            {
-              "item": {
-                "id": "exdeorum:dust",
-                "Count": 1
-              }
-            }
-          ]
+          }
         }
       ],
       "prerequisites": [
@@ -763,8 +697,8 @@
         {
           "type": "hardcorequesting:consume",
           "description": {
-            "text": "Dirty dirt",
-            "isTranslationKey": false
+            "text": "hqm.taskType.detect.title",
+            "isTranslationKey": true
           },
           "longDescription": {
             "text": "Craft an empty bottle and dirt together to get dirty water.",
@@ -939,8 +873,8 @@
         "text": "This world doesn\u0027t have any lava lakes or dragons, so you\u0027ll have to get some materials in other ways. A barrel full of lava can be turned into netherrack or endstone using redstone or glowstone respectively.",
         "isTranslationKey": false
       },
-      "x": 62,
-      "y": 49,
+      "x": 94,
+      "y": 48,
       "icon": {
         "id": "minecraft:netherrack",
         "Count": 1
@@ -1044,7 +978,7 @@
         "text": "The harsh reality is that you\u0027re stuck on this planet. No amount of obsidian rectangles will let you escape. However, the situation means you can\u0027t get some resources (like soul sand) through normal methods.",
         "isTranslationKey": false
       },
-      "x": 46,
+      "x": 110,
       "y": 75,
       "icon": {
         "id": "minecraft:soul_sand",
@@ -1111,7 +1045,7 @@
         "isTranslationKey": false
       },
       "description": {
-        "text": "Dirty water may help you in a pinch, but for long term survival, you\u0027ll need to purify it. Fire should work nicely. Just drop the dirty water bottle into a furnace, apply some heat, and you\u0027ll get some clean, drinkable water. Alternatively, you can use charcoal filters when you have the resources.",
+        "text": "Dirty water may help you in a pinch, but for long term survival, you\u0027ll need to purify it.",
         "isTranslationKey": false
       },
       "x": 158,
@@ -1125,6 +1059,10 @@
       "tasks": [
         {
           "type": "hardcorequesting:detect",
+          "longDescription": {
+            "text": "The easiest way to purify water is with some fire. Put a dirty water bottle into a furnace, apply some heat, and you\u0027ll get clean, drinkable water.",
+            "isTranslationKey": false
+          },
           "items": [
             {
               "item": {
@@ -1153,11 +1091,11 @@
     {
       "uuid": "8859440a-9852-445c-b1d6-15edc20c368c",
       "name": {
-        "text": "Mesh Upgrades",
+        "text": "Fine-Toothed Comb",
         "isTranslationKey": false
       },
       "description": {
-        "text": "String mesh can be upgraded to flint mesh to gain higher yields. It can be further upgraded later when you get the resources. You can get flint from sifting gravel, which can be crushed from cobblestone.",
+        "text": "String mesh can be upgraded to flint mesh to gain higher yields. It can be further upgraded later when you get the resources. Each mesh tier is better than the last.",
         "isTranslationKey": false
       },
       "x": 174,
@@ -1170,6 +1108,10 @@
       "tasks": [
         {
           "type": "hardcorequesting:detect",
+          "longDescription": {
+            "text": "You can get flint from sifting gravel, which can be crushed from cobblestone.",
+            "isTranslationKey": false
+          },
           "items": [
             {
               "item": {
@@ -1214,10 +1156,6 @@
       "tasks": [
         {
           "type": "hardcorequesting:detect",
-          "description": {
-            "text": "Singular bucket o water",
-            "isTranslationKey": false
-          },
           "items": [
             {
               "item": {
@@ -1255,7 +1193,7 @@
         "isTranslationKey": false
       },
       "description": {
-        "text": "Trading in ten bottles of purified water should allow me to create you something strong. ",
+        "text": "Submit ten bottles of purified water to get something strong.",
         "isTranslationKey": false
       },
       "x": 190,
@@ -1446,7 +1384,7 @@
     {
       "uuid": "9bcad1fa-e4c1-4745-9776-6df674846c9d",
       "name": {
-        "text": "Shell Storage",
+        "text": "Life Insurance",
         "isTranslationKey": false
       },
       "description": {
@@ -1720,8 +1658,8 @@
         {
           "type": "hardcorequesting:consume",
           "description": {
-            "text": "Sifting for Bonemeal",
-            "isTranslationKey": false
+            "text": "hqm.taskType.detect.title",
+            "isTranslationKey": true
           },
           "longDescription": {
             "text": "Make sure you plant something in the dirt right away!",
@@ -1753,7 +1691,7 @@
     {
       "uuid": "336ad751-3c3d-457d-b85c-e6d0bbe7b125",
       "name": {
-        "text": "Smoovin things around",
+        "text": "Pipe Dreams",
         "isTranslationKey": false
       },
       "description": {
@@ -1843,10 +1781,6 @@
       "tasks": [
         {
           "type": "hardcorequesting:detect",
-          "description": {
-            "text": "Tools",
-            "isTranslationKey": false
-          },
           "longDescription": {
             "text": "You can make a mattock with the axe and adze heads, it will be an essential tool for farming early on. Eventually you may want a pickaxe and some other tools, but farming food is vital for your survival, and the mattock can help mine logs and dust as well.",
             "isTranslationKey": false
@@ -1897,10 +1831,10 @@
         "isTranslationKey": false
       },
       "description": {
-        "text": "Its highly recommended to craft string armor once you get enough string.",
+        "text": "String armor can help you stay cool in the blazing heat, especially if you go anywhere near the lava leak.",
         "isTranslationKey": false
       },
-      "x": 46,
+      "x": 110,
       "y": 129,
       "icon": {
         "id": "extra_food_items:stringarmor_chestplate",
@@ -1911,6 +1845,10 @@
       "tasks": [
         {
           "type": "hardcorequesting:detect",
+          "longDescription": {
+            "text": "You can mix string armor with other types of armor to have a balance of damage protection and heat protection. ",
+            "isTranslationKey": false
+          },
           "items": [
             {
               "item": {
