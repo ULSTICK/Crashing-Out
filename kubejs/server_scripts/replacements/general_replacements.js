@@ -1,4 +1,5 @@
 ServerEvents.recipes(event => {
+/*
   event.replaceInput(
     { input: 'minecraft:bucket' }, // Arg 1: the filter
     'minecraft:bucket',            // Arg 2: the item to replace
@@ -17,6 +18,8 @@ ServerEvents.recipes(event => {
     'minecraft:water',
     '#forge:drinkable_water'
   )
+
+*/
 
   event.replaceInput(
     { input: 'minecraft:dried_kelp', mod: "create" },

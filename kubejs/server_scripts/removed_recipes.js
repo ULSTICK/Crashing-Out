@@ -20,6 +20,7 @@ ServerEvents.recipes(event => {
         input:
             [
                 "#forge:slimeball/blood", // broken recipes, removed because empty tag
+                "industrialforegoing:dryrubber",
             ]
     });
 
@@ -50,7 +51,10 @@ ServerEvents.recipes(event => {
                 "exdeorum:porcelain_bucket",
                 "exdeorum:spruce_crucible",
                 "exdeorum:warped_crucible",
+                "industrialforegoing:dryrubber",
+                "industrialforegoing:fluid_extractor",
                 "industrialforegoing:mycelial_magma",
+                "industrialforegoing:latex_processing_unit",
                 "mekanismgenerators:heat_generator",
                 "minecraft:composter",
                 "minecraft:diamond_boots",
@@ -89,21 +93,11 @@ ServerEvents.recipes(event => {
             ]
     });
 
-    // Removal of fire charge recipes for Thermal alloys
+    // Removal of fire charge recipes for Thermal alloys and glass
     event.remove({
         mod: "thermal",
         type: "minecraft:crafting_shapeless",
-        input: "minecraft:fire_charge",
-        output:
-            [
-                "thermal:bronze_ingot",
-                "thermal:constantan_ingot",
-                "thermal:electrum_ingot",
-                "thermal:enderium_ingot",
-                "thermal:invar_ingot",
-                "thermal:lumium_ingot",
-                "thermal:signalum_ingot"
-            ]
+        input: "minecraft:fire_charge"
     });
 
     // Misc removals

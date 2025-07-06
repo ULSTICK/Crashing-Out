@@ -3,8 +3,6 @@ ServerEvents.recipes(event => {
 /*
   event.replaceInput({ input: 'industrialforegoing:machine_frame_pity' }, 'industrialforegoing:machine_frame_pity', 'crash_landing:machine_frame');
   event.replaceInput({ input: '#industrialforegoing:machine_frame/pity' }, '#industrialforegoing:machine_frame/pity', 'crash_landing:machine_frame');
-  event.replaceInput({ input: 'industrialforegoing:machine_frame_simple' }, 'industrialforegoing:machine_frame_simple', 'crash_landing:machine_frame');
-  event.replaceInput({ input: '#industrialforegoing:machine_frame/simple' }, '#industrialforegoing:machine_frame/simple', 'crash_landing:machine_frame');
   event.replaceInput({ input: 'mekanism:steel_casing' }, 'mekanism:steel_casing', 'crash_landing:machine_frame');
   event.replaceInput({ input: 'enderio:void_chassis' }, 'enderio:void_chassis', 'crash_landing:machine_frame');
   event.replaceInput({ input: 'enderio:ensouled_chassis' }, 'enderio:ensouled_chassis', '#crash_landing:machine_frame');
@@ -12,7 +10,6 @@ ServerEvents.recipes(event => {
 */
   event.remove({ output: 'thermal:machine_frame' });
   event.remove({ output: 'industrialforegoing:machine_frame_pity' });
-  event.remove({ output: 'industrialforegoing:machine_frame_simple' });
   event.remove({ output: 'mekanism:steel_casing' });
   event.remove({ output: 'enderio:void_chassis' });
   event.remove({ output: 'enderio:ensouled_chassis' });

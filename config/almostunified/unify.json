@@ -97,7 +97,6 @@
     "crash_landing:machine_frame": [
       "thermal:machine_frame",
       "industrialforegoing:machine_frame_pity",
-      "industrialforegoing:machine_frame_simple",
       "mekanism:steel_casing",
       "enderio:void_chassis",
       "enderio:ensouled_chassis",
@@ -174,8 +173,7 @@
       "forge:dusts/flour"
     ],
     "crash_landing:machine_frame": [
-      "industrialforegoing:machine_frame/pity",
-      "industrialforegoing:machine_frame/simple"
+      "industrialforegoing:machine_frame/pity"
     ]
   },
   "itemTagInheritanceMode": "ALLOW",
