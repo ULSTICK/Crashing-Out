@@ -12,7 +12,7 @@
         "isTranslationKey": false
       },
       "x": 158,
-      "y": 48,
+      "y": 30,
       "icon": {
         "id": "thermal:steel_dust",
         "Count": 1
@@ -48,17 +48,17 @@
     {
       "uuid": "4603a7e8-470b-4a64-a199-84aaf94e603d",
       "name": {
-        "text": "Green Growing Things",
+        "text": "Green Thumb",
         "isTranslationKey": false
       },
       "description": {
         "text": "Trees for leaves and saplings, crops for food. You\u0027ve been harvesting by hand, it is time to move beyond that. ",
         "isTranslationKey": false
       },
-      "x": 233,
-      "y": 61,
+      "x": 174,
+      "y": 129,
       "icon": {
-        "id": "industrialforegoing:plant_gatherer",
+        "id": "industrialforegoing:plant_sower",
         "Count": 1
       },
       "trigger": "ANTI_TRIGGER",
@@ -72,20 +72,24 @@
           "items": [
             {
               "item": {
-                "id": "industrialforegoing:plant_gatherer",
+                "id": "industrialforegoing:plant_sower",
                 "Count": 1
-              }
+              },
+              "precision": "FUZZY"
             },
             {
               "item": {
-                "id": "industrialforegoing:plant_sower",
+                "id": "industrialforegoing:plant_gatherer",
                 "Count": 1
-              }
+              },
+              "precision": "FUZZY"
             }
           ]
         }
       ],
-      "prerequisites": [],
+      "prerequisites": [
+        "ccd68600-f9cf-4acf-ac55-c0fd5bda5eac"
+      ],
       "optionlinks": [],
       "reward": [
         {
@@ -105,6 +109,52 @@
       "commandrewards": []
     },
     {
+      "uuid": "2388c3de-f71c-4fd5-96af-b51214d1a277",
+      "name": {
+        "text": "Unnamed",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Unnamed quest",
+        "isTranslationKey": false
+      },
+      "x": 254,
+      "y": 48,
+      "icon": {
+        "id": "industrialforegoing:sewer",
+        "Count": 1
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "hardcorequesting:detect",
+          "items": [
+            {
+              "item": {
+                "id": "industrialforegoing:sewer",
+                "Count": 1
+              },
+              "precision": "FUZZY"
+            },
+            {
+              "item": {
+                "id": "industrialforegoing:sewage_composter",
+                "Count": 1
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "5f8ad93d-e76a-491b-930e-9258717b769f"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
       "uuid": "ccd68600-f9cf-4acf-ac55-c0fd5bda5eac",
       "name": {
         "text": "Unnamed",
@@ -115,7 +165,7 @@
         "isTranslationKey": false
       },
       "x": 158,
-      "y": 102,
+      "y": 84,
       "icon": {
         "id": "thermal:machine_frame",
         "Count": 1
@@ -152,12 +202,13 @@
         "text": "Unnamed quest",
         "isTranslationKey": false
       },
-      "x": 110,
-      "y": 148,
+      "x": 142,
+      "y": 129,
       "icon": {
         "id": "thermal:upgrade_augment_1",
         "Count": 1
       },
+      "trigger": "ANTI_TRIGGER",
       "tasks": [
         {
           "type": "hardcorequesting:detect",
@@ -189,62 +240,45 @@
         "text": "So many liquids. so many icky, icky liquids.",
         "isTranslationKey": false
       },
-      "x": 312,
-      "y": 101,
+      "x": 286,
+      "y": 138,
       "icon": {
-        "id": "industrialforegoing:pink_slime_bucket",
+        "id": "industrialforegoing:pink_slime",
         "Count": 1
       },
       "trigger": "ANTI_TRIGGER",
       "tasks": [
         {
-          "type": "hardcorequesting:consume_qds",
+          "type": "hardcorequesting:consume",
           "items": [
             {
-              "fluid": {
-                "fluid": "industrialforegoing:meat",
-                "volume": {
-                  "n": 1,
-                  "d": 1
-                }
+              "item": {
+                "id": "industrialforegoing:pink_slime",
+                "Count": 1
               },
-              "required": 10000
+              "required": 1024
             },
             {
-              "fluid": {
-                "fluid": "industrialforegoing:pink_slime",
-                "volume": {
-                  "n": 1,
-                  "d": 1
-                }
+              "item": {
+                "id": "industrialforegoing:fertilizer",
+                "Count": 1
               },
-              "required": 10000
+              "required": 1024
             },
             {
-              "fluid": {
-                "fluid": "industrialforegoing:sludge",
-                "volume": {
-                  "n": 1,
-                  "d": 1
-                }
+              "item": {
+                "id": "minecraft:experience_bottle",
+                "Count": 1
               },
-              "required": 10000
-            },
-            {
-              "fluid": {
-                "fluid": "industrialforegoing:sewage",
-                "volume": {
-                  "n": 1,
-                  "d": 1
-                }
-              },
-              "required": 10000
+              "required": 1024
             }
           ]
         }
       ],
       "prerequisites": [
-        "d41c9753-3fe3-475c-adbc-77160c347593"
+        "e56efbd0-d3ce-473b-a2d5-1de1a0bfa9a0",
+        "8f3d2964-8123-446b-bdc8-116ad499c8da",
+        "2388c3de-f71c-4fd5-96af-b51214d1a277"
       ],
       "optionlinks": [],
       "reward": [],
@@ -274,69 +308,14 @@
         "text": "Now, let\u0027s put what you\u0027ve learned to the test.",
         "isTranslationKey": false
       },
-      "x": 16,
-      "y": 101,
+      "x": 30,
+      "y": 138,
       "icon": {
         "id": "thermal:redstone_bucket",
         "Count": 1
       },
       "trigger": "ANTI_TRIGGER",
       "tasks": [
-        {
-          "type": "hardcorequesting:consume_qds",
-          "items": [
-            {
-              "fluid": {
-                "fluid": "thermal:redstone",
-                "volume": {
-                  "n": 1,
-                  "d": 1
-                }
-              },
-              "required": 1000
-            },
-            {
-              "fluid": {
-                "fluid": "thermal:glowstone",
-                "volume": {
-                  "n": 1,
-                  "d": 1
-                }
-              },
-              "required": 1000
-            },
-            {
-              "fluid": {
-                "fluid": "thermal:creosote",
-                "volume": {
-                  "n": 1,
-                  "d": 1
-                }
-              },
-              "required": 1000
-            },
-            {
-              "fluid": {
-                "fluid": "thermal:ender",
-                "volume": {
-                  "n": 1,
-                  "d": 1
-                }
-              },
-              "required": 1000
-            },
-            {
-              "fluid": {
-                "fluid": "thermal:refined_fuel",
-                "volume": {
-                  "n": 1,
-                  "d": 1
-                }
-              },
-              "required": 1000
-            }
-          ]
-        },
         {
           "type": "hardcorequesting:consume",
           "items": [
@@ -350,7 +329,11 @@
           ]
         }
       ],
-      "prerequisites": [],
+      "prerequisites": [
+        "191aad3c-56cb-4b54-89ee-7803f6952561",
+        "8559f15c-259a-4874-a753-adb36cf75447",
+        "b629759a-09fb-4397-9d88-7c23f11826f6"
+      ],
       "optionlinks": [],
       "reward": [
         {
@@ -380,12 +363,13 @@
         "text": "Unnamed quest",
         "isTranslationKey": false
       },
-      "x": 78,
-      "y": 166,
+      "x": 110,
+      "y": 129,
       "icon": {
         "id": "thermal:upgrade_augment_2",
         "Count": 1
       },
+      "trigger": "ANTI_TRIGGER",
       "tasks": [
         {
           "type": "hardcorequesting:detect",
@@ -408,7 +392,7 @@
       "commandrewards": []
     },
     {
-      "uuid": "9c08f006-d1b1-4631-96c7-5ff2bea44a8f",
+      "uuid": "b498eec9-851e-4d17-ab0d-b86eeb4a72be",
       "name": {
         "text": "Press",
         "isTranslationKey": false
@@ -418,7 +402,7 @@
         "isTranslationKey": false
       },
       "x": 94,
-      "y": 119,
+      "y": 48,
       "icon": {
         "id": "thermal:machine_press",
         "Count": 1
@@ -442,16 +426,7 @@
         "ccd68600-f9cf-4acf-ac55-c0fd5bda5eac"
       ],
       "optionlinks": [],
-      "reward": [
-        {
-          "id": "thermal:press_packing_2x2_die",
-          "Count": 1
-        },
-        {
-          "id": "thermal:press_packing_3x3_die",
-          "Count": 1
-        }
-      ],
+      "reward": [],
       "rewardchoice": [],
       "commandrewards": []
     },
@@ -465,12 +440,13 @@
         "text": "Unnamed quest",
         "isTranslationKey": false
       },
-      "x": 48,
-      "y": 181,
+      "x": 126,
+      "y": 156,
       "icon": {
         "id": "thermal:upgrade_augment_3",
         "Count": 1
       },
+      "trigger": "ANTI_TRIGGER",
       "tasks": [
         {
           "type": "hardcorequesting:detect",
@@ -493,28 +469,29 @@
       "commandrewards": []
     },
     {
-      "uuid": "68976ccf-ed42-4365-a3d4-e8dd0d12cc79",
+      "uuid": "e56efbd0-d3ce-473b-a2d5-1de1a0bfa9a0",
       "name": {
-        "text": "Fluid Extractor",
+        "text": "Sludge Refining",
         "isTranslationKey": false
       },
       "description": {
         "text": "Unnamed quest",
         "isTranslationKey": false
       },
-      "x": 182,
-      "y": 77,
+      "x": 190,
+      "y": 156,
       "icon": {
-        "id": "industrialforegoing:fluid_extractor",
+        "id": "industrialforegoing:sludge_refiner",
         "Count": 1
       },
+      "trigger": "ANTI_TRIGGER",
       "tasks": [
         {
           "type": "hardcorequesting:detect",
           "items": [
             {
               "item": {
-                "id": "industrialforegoing:fluid_extractor",
+                "id": "industrialforegoing:sludge_refiner",
                 "Count": 1
               },
               "precision": "FUZZY"
@@ -523,7 +500,46 @@
         }
       ],
       "prerequisites": [
-        "ccd68600-f9cf-4acf-ac55-c0fd5bda5eac"
+        "4603a7e8-470b-4a64-a199-84aaf94e603d"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "191aad3c-56cb-4b54-89ee-7803f6952561",
+      "name": {
+        "text": "Insolator",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Unnamed quest",
+        "isTranslationKey": false
+      },
+      "x": 63,
+      "y": 121,
+      "icon": {
+        "id": "thermal:machine_insolator",
+        "Count": 1
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "hardcorequesting:detect",
+          "items": [
+            {
+              "item": {
+                "id": "thermal:machine_insolator",
+                "Count": 1
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "ef9a7c29-55ea-4296-a908-c350381b396a"
       ],
       "optionlinks": [],
       "reward": [],
@@ -540,8 +556,8 @@
         "text": "Before we get working on the more complex stuff, let\u0027s make sure you have the groundwork down first.",
         "isTranslationKey": false
       },
-      "x": 91,
-      "y": 11,
+      "x": 241,
+      "y": 6,
       "icon": {
         "id": "pneumaticcraft:printed_circuit_board",
         "Count": 1
@@ -560,12 +576,6 @@
             {
               "item": {
                 "id": "mekanism:basic_control_circuit",
-                "Count": 1
-              }
-            },
-            {
-              "item": {
-                "id": "mekanism:steel_casing",
                 "Count": 1
               }
             },
@@ -616,8 +626,8 @@
         "text": "Trigger quest to control quests unlocked by the hard route",
         "isTranslationKey": false
       },
-      "x": 14,
-      "y": 165,
+      "x": 302,
+      "y": 21,
       "trigger": "QUEST_TRIGGER",
       "prerequisites": [
         "477e01c0-8641-4b6b-970f-7374b04f6a68"
@@ -637,8 +647,8 @@
         "text": "Unnamed quest",
         "isTranslationKey": false
       },
-      "x": 63,
-      "y": 101,
+      "x": 95,
+      "y": 102,
       "icon": {
         "id": "thermal:machine_crucible",
         "Count": 1
@@ -659,7 +669,7 @@
         }
       ],
       "prerequisites": [
-        "ccd68600-f9cf-4acf-ac55-c0fd5bda5eac"
+        "eb909f46-772b-4fdf-8680-225dabb668ff"
       ],
       "optionlinks": [],
       "reward": [],
@@ -677,7 +687,7 @@
         "isTranslationKey": false
       },
       "x": 142,
-      "y": 21,
+      "y": 3,
       "icon": {
         "id": "mekanism:metallurgic_infuser",
         "Count": 1
@@ -709,6 +719,85 @@
       "commandrewards": []
     },
     {
+      "uuid": "8a87f658-411b-4b9b-96ea-9d2c6df483c4",
+      "name": {
+        "text": "Mob Crusher",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Unnamed quest",
+        "isTranslationKey": false
+      },
+      "x": 222,
+      "y": 102,
+      "icon": {
+        "id": "industrialforegoing:mob_crusher",
+        "Count": 1
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "hardcorequesting:detect",
+          "items": [
+            {
+              "item": {
+                "id": "industrialforegoing:mob_crusher",
+                "Count": 1
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "7c13aa31-1923-443b-a81b-f8fb12449b30",
+        "9f19cf75-b748-43eb-8957-c5eb0a3eaffe"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "7c13aa31-1923-443b-a81b-f8fb12449b30",
+      "name": {
+        "text": "Mob Slaughterer",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Unnamed quest",
+        "isTranslationKey": false
+      },
+      "x": 190,
+      "y": 102,
+      "icon": {
+        "id": "industrialforegoing:mob_slaughter_factory",
+        "Count": 1
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "hardcorequesting:detect",
+          "items": [
+            {
+              "item": {
+                "id": "industrialforegoing:mob_slaughter_factory",
+                "Count": 1
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "ccd68600-f9cf-4acf-ac55-c0fd5bda5eac"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
       "uuid": "a63b8539-ab2c-4741-a920-afc5081deb38",
       "name": {
         "text": "Easy Route",
@@ -719,7 +808,7 @@
         "isTranslationKey": false
       },
       "x": 14,
-      "y": 39,
+      "y": 21,
       "trigger": "QUEST_TRIGGER",
       "prerequisites": [
         "7ee731c2-da61-4aab-a5fa-864fc4b62277"
@@ -739,8 +828,8 @@
         "text": "With a grinder running you are making a lot of mob essence. Time to put it to good use.",
         "isTranslationKey": false
       },
-      "x": 302,
-      "y": 39,
+      "x": 254,
+      "y": 120,
       "icon": {
         "id": "industrialforegoing:mob_duplicator",
         "Count": 1
@@ -758,42 +847,41 @@
             },
             {
               "item": {
-                "id": "industrialforegoing:enchantment_factory",
+                "id": "industrialforegoing:mob_imprisonment_tool",
                 "Count": 1
-              }
-            },
-            {
-              "item": {
-                "id": "industrialforegoing:enchantment_applicator",
-                "Count": 1
-              }
+              },
+              "precision": "FUZZY"
             }
           ]
         }
       ],
-      "prerequisites": [],
+      "prerequisites": [
+        "8a87f658-411b-4b9b-96ea-9d2c6df483c4"
+      ],
       "optionlinks": [],
       "reward": [
         {
-          "id": "industrialforegoing:mob_imprisonment_tool",
-          "Count": 1,
-          "tag": "{AbsorptionAmount:0.0f,Age:0,Air:300s,ArmorDropChances:[0.085f,0.085f,0.085f,0.085f],ArmorItems:[{},{},{},{}],Attributes:[{Base:0.0d,Modifiers:[{Amount:9.777422304506656d,Name:\"Animal knockback\",Operation:0,UUID:[I;333325952,1834569580,-1151137025,-1418291331]}],Name:\"minecraft:generic.attack_knockback\"},{Base:0.08d,Name:\"forge:entity_gravity\"},{Base:0.8282856485126004d,Name:\"forge:entity_reach\"},{Base:26.0d,Modifiers:[{Amount:0.05916312017454476d,Name:\"Random spawn bonus\",Operation:1,UUID:[I;-592301361,1332888850,-1989866313,1400526848]}],Name:\"minecraft:generic.follow_range\"},{Base:0.0d,Name:\"reach-entity-attributes:reach\"},{Base:0.0d,Name:\"forge:step_height_addition\"},{Base:12.0d,Name:\"enhancedai:generic.xray_follow_range\"},{Base:0.09000000357627869d,Name:\"minecraft:generic.movement_speed\"}],BalmData:{},Brain:{memories:{\"minecraft:gaze_cooldown_ticks\":{value:166}}},Bred:0b,CanPickUpLoot:0b,CanUpdate:1b,DeathTime:0s,EatingHaystack:0b,FallDistance:0.0f,FallFlying:0b,Fire:-1s,ForcedAge:0,ForgeCaps:{\"curios:inventory\":{Curios:[]},\"mekanism:radiation\":{radiation:1.0E-7d},\"pneumaticcraft:hacking\":{}},ForgeData:{\"enhancedai:can_attack_back\":1b,\"enhancedai:follow_ranges_processed\":1b,\"enhancedai:not_tempted\":1b,\"enhancedai:player_scared\":0b,\"enhancedai:speed_multiplier_when_aggroed\":1.1d,\"enhancedai:sprint\":0b,vmhBiomeSpawnedIn:\"minecraft:desert\",vmhBreedingCoefficient:1.01d,vmhDimensionSpawnedIn:\"minecraft:overworld\",vmhDoScaleBreeding:1b,vmhScale:1.2179698944091797d,vmhScaleDistribution:0.0d,vmhScaleMax:1.5d,vmhScaleMean:1.225d,vmhScaleMedian:1.0d,vmhScaleMin:0.95d,vmhSpawned:1b},HandDropChances:[0.085f,0.085f],HandItems:[{},{}],Health:32.0f,HurtByTimestamp:0,HurtTime:0s,InLove:0,Invulnerable:0b,LastPoseTick:8006223L,LeftHanded:0b,Motion:[0.0d,-0.0784000015258789d,0.0d],OnGround:1b,PersistenceRequired:0b,PortalCooldown:0,Pos:[102.5d,63.0d,-238.5d],Rotation:[-39.105896f,0.0f],Tame:1b,Temper:0,UUID:[I;643220897,-1944107837,-1577591417,-1030916277],entity:\"minecraft:camel\",\"forge:spawn_type\":\"SPAWN_EGG\",\"pehkui:scale_data_types\":{\"pehkui:base\":{total_ticks:0},\"pehkui:height\":{initial:1.2179699f,scale:1.2179699f,target:1.2179699f,total_ticks:0},\"pehkui:width\":{initial:1.2179699f,scale:1.2179699f,target:1.2179699f,total_ticks:0}}}"
-        },
-        {
-          "id": "industrialforegoing:mob_imprisonment_tool",
-          "Count": 1
-        },
-        {
           "id": "minecraft:experience_bottle",
-          "Count": 8
-        },
-        {
-          "id": "exdeorum:diamond_hammer",
-          "Count": 2,
-          "tag": "{Damage:0,Enchantments:[{id:\"minecraft:unbreaking\",lvl:3s},{id:\"minecraft:fortune\",lvl:3s}],RepairCost:3}"
+          "Count": 16
         }
       ],
-      "rewardchoice": [],
+      "rewardchoice": [
+        {
+          "id": "industrialforegoing:mob_imprisonment_tool",
+          "Count": 1,
+          "tag": "{entity:\"minecraft:snow_golem\"}"
+        },
+        {
+          "id": "industrialforegoing:mob_imprisonment_tool",
+          "Count": 1,
+          "tag": "{entity:\"minecraft:blaze\"}"
+        },
+        {
+          "id": "industrialforegoing:mob_imprisonment_tool",
+          "Count": 1,
+          "tag": "{entity:\"minecraft:enderman\"}"
+        }
+      ],
       "commandrewards": []
     },
     {
@@ -806,12 +894,13 @@
         "text": "Unnamed quest",
         "isTranslationKey": false
       },
-      "x": 196,
-      "y": 100,
+      "x": 206,
+      "y": 75,
       "icon": {
         "id": "industrialforegoing:dissolution_chamber",
         "Count": 1
       },
+      "trigger": "ANTI_TRIGGER",
       "tasks": [
         {
           "type": "hardcorequesting:detect",
@@ -819,6 +908,52 @@
             {
               "item": {
                 "id": "industrialforegoing:dissolution_chamber",
+                "Count": 1
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "ccd68600-f9cf-4acf-ac55-c0fd5bda5eac"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "5f8ad93d-e76a-491b-930e-9258717b769f",
+      "name": {
+        "text": "All Creatures Great and Small",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Unnamed quest",
+        "isTranslationKey": false
+      },
+      "x": 222,
+      "y": 48,
+      "icon": {
+        "id": "industrialforegoing:animal_feeder",
+        "Count": 1
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "hardcorequesting:detect",
+          "items": [
+            {
+              "item": {
+                "id": "industrialforegoing:animal_feeder",
+                "Count": 1
+              },
+              "precision": "FUZZY"
+            },
+            {
+              "item": {
+                "id": "industrialforegoing:animal_rancher",
                 "Count": 1
               },
               "precision": "FUZZY"
@@ -844,8 +979,8 @@
         "text": "You have to start somewhere. ",
         "isTranslationKey": false
       },
-      "x": 94,
-      "y": 87,
+      "x": 126,
+      "y": 102,
       "icon": {
         "id": "thermal:machine_pulverizer",
         "Count": 1
@@ -883,8 +1018,8 @@
         "text": "Unnamed quest",
         "isTranslationKey": false
       },
-      "x": 79,
-      "y": 56,
+      "x": 110,
+      "y": 75,
       "icon": {
         "id": "thermal:machine_smelter",
         "Count": 1
@@ -922,8 +1057,8 @@
         "text": "The start of good things.",
         "isTranslationKey": false
       },
-      "x": 189,
-      "y": 131,
+      "x": 238,
+      "y": 75,
       "icon": {
         "id": "industrialforegoing:range_addon0",
         "Count": 1,
@@ -959,7 +1094,7 @@
         }
       ],
       "prerequisites": [
-        "ccd68600-f9cf-4acf-ac55-c0fd5bda5eac"
+        "9f19cf75-b748-43eb-8957-c5eb0a3eaffe"
       ],
       "optionlinks": [],
       "reward": [
@@ -981,6 +1116,63 @@
       "commandrewards": []
     },
     {
+      "uuid": "71009be1-b6c5-4724-9ee6-d5a4591f0765",
+      "name": {
+        "text": "Machine Augments",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Unnamed quest",
+        "isTranslationKey": false
+      },
+      "x": 78,
+      "y": 75,
+      "icon": {
+        "id": "thermal:machine_speed_augment",
+        "Count": 1
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "hardcorequesting:detect",
+          "items": [
+            {
+              "item": {
+                "id": "thermal:machine_speed_augment",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "thermal:machine_efficiency_augment",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "thermal:dynamo_fuel_augment",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "thermal:dynamo_output_augment",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "eb909f46-772b-4fdf-8680-225dabb668ff",
+        "b498eec9-851e-4d17-ab0d-b86eeb4a72be"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
       "uuid": "8559f15c-259a-4874-a753-adb36cf75447",
       "name": {
         "text": "Blast Chiller",
@@ -990,8 +1182,8 @@
         "text": "A lot of the more complicated tech requires some advanced Thermal Expansion machines.",
         "isTranslationKey": false
       },
-      "x": 68,
-      "y": 138,
+      "x": 62,
+      "y": 48,
       "icon": {
         "id": "thermal:machine_chiller",
         "Count": 1
@@ -1012,7 +1204,7 @@
         }
       ],
       "prerequisites": [
-        "ccd68600-f9cf-4acf-ac55-c0fd5bda5eac"
+        "b498eec9-851e-4d17-ab0d-b86eeb4a72be"
       ],
       "optionlinks": [],
       "reward": [
@@ -1052,7 +1244,7 @@
         "isTranslationKey": false
       },
       "x": 174,
-      "y": 21,
+      "y": 3,
       "icon": {
         "id": "thermal:invar_dust",
         "Count": 1
@@ -1096,65 +1288,6 @@
       "commandrewards": []
     },
     {
-      "uuid": "d41c9753-3fe3-475c-adbc-77160c347593",
-      "name": {
-        "text": "Leftovers",
-        "isTranslationKey": false
-      },
-      "description": {
-        "text": "There are always byproducts.",
-        "isTranslationKey": false
-      },
-      "x": 270,
-      "y": 129,
-      "icon": {
-        "id": "industrialforegoing:sewer",
-        "Count": 1
-      },
-      "trigger": "ANTI_TRIGGER",
-      "tasks": [
-        {
-          "type": "hardcorequesting:detect",
-          "items": [
-            {
-              "item": {
-                "id": "industrialforegoing:sewer",
-                "Count": 1
-              }
-            },
-            {
-              "item": {
-                "id": "industrialforegoing:sewage_composter",
-                "Count": 1
-              }
-            },
-            {
-              "item": {
-                "id": "industrialforegoing:biofuel_generator",
-                "Count": 1
-              }
-            },
-            {
-              "item": {
-                "id": "industrialforegoing:mob_slaughter_factory",
-                "Count": 1
-              }
-            }
-          ]
-        }
-      ],
-      "prerequisites": [],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "minecraft:soul_sand",
-          "Count": 64
-        }
-      ],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
       "uuid": "9aa4b681-79fd-4290-aff9-bcce87d38012",
       "name": {
         "text": "Burning the Midnight Oil",
@@ -1164,8 +1297,8 @@
         "text": "Unnamed quest",
         "isTranslationKey": false
       },
-      "x": 134,
-      "y": 146,
+      "x": 158,
+      "y": 156,
       "icon": {
         "id": "thermal:dynamo_compression",
         "Count": 1
@@ -1187,6 +1320,45 @@
       "prerequisites": [
         "ff99b94a-a12d-4b8f-9ea2-22dc262d4de1",
         "ccd68600-f9cf-4acf-ac55-c0fd5bda5eac"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "f3c2913b-4e0b-4cf7-bda6-3a92bd7b4775",
+      "name": {
+        "text": "Mechanical Dirt",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Unnamed quest",
+        "isTranslationKey": false
+      },
+      "x": 206,
+      "y": 129,
+      "icon": {
+        "id": "industrialforegoing:mechanical_dirt",
+        "Count": 1
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "hardcorequesting:detect",
+          "items": [
+            {
+              "item": {
+                "id": "industrialforegoing:mechanical_dirt",
+                "Count": 1
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "7c13aa31-1923-443b-a81b-f8fb12449b30"
       ],
       "optionlinks": [],
       "reward": [],
