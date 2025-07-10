@@ -348,14 +348,13 @@
         "text": "If you need to glue something in a pinch, you don\u0027t need to find slime to do it. It turns out mixing water and flour makes a great adhesive.",
         "isTranslationKey": false
       },
-      "x": 62,
-      "y": 48,
+      "x": 110,
+      "y": 75,
       "icon": {
         "id": "kubejs:paste",
         "Count": 1
       },
       "trigger": "ANTI_TRIGGER",
-      "parentrequirement": 1,
       "tasks": [
         {
           "type": "hardcorequesting:detect",
@@ -374,9 +373,7 @@
         }
       ],
       "prerequisites": [
-        "9be2b0f4-dd15-4899-8956-ee4a0f5e8403",
-        "3e4732d9-29f9-493b-83fb-96af85b5390d",
-        "32852a9b-1b0c-4954-99c3-92501611c7d7",
+        "2a312464-2f8f-41b6-aff3-a31d475396a8",
         "d4d8bba6-7b9e-417a-b543-90ffb032400b"
       ],
       "optionlinks": [],
@@ -527,7 +524,7 @@
         {
           "type": "hardcorequesting:checkbox",
           "longDescription": {
-            "text": "Check the box below to confirm you want to take the Easy Route with the duluxe survival package. There\u0027s no going back after you click it!",
+            "text": "Check the box below to confirm you want to take the Easy Route with the deluxe survival package. There\u0027s no going back after you click it!",
             "isTranslationKey": false
           }
         }
@@ -582,7 +579,7 @@
     {
       "uuid": "0bdfc96b-6b5e-4f8f-932f-bda70b2114d7",
       "name": {
-        "text": "Monster Mash",
+        "text": "Fighting",
         "isTranslationKey": false
       },
       "description": {
@@ -744,8 +741,8 @@
         "text": "Sometimes, paste just won\u0027t do. Maybe you\u0027re just sick of the smell, or maybe you need the special properties of earth, sky, ichor, and ender slime balls for advanced tinkering.",
         "isTranslationKey": false
       },
-      "x": 78,
-      "y": 21,
+      "x": 110,
+      "y": 129,
       "icon": {
         "id": "minecraft:slime_ball",
         "Count": 1
@@ -787,8 +784,8 @@
         }
       ],
       "prerequisites": [
-        "6acadfe6-4853-4cf1-af89-d44bc0f42ce1",
-        "c5d70928-cc40-46b5-bfb0-3f3b800a84ea"
+        "0f7c28b0-3881-419c-9d4b-ca936ad109f3",
+        "6acadfe6-4853-4cf1-af89-d44bc0f42ce1"
       ],
       "optionlinks": [],
       "reward": [
@@ -941,7 +938,7 @@
         {
           "type": "hardcorequesting:detect",
           "longDescription": {
-            "text": "A pitiful generator can be powered with furnace fuel, charcoal or coal blocks are a very effective power source. It\u0027s slow, and you should upgrade to something better as soon as possible, but it will do for now.",
+            "text": "A pitiful generator can be powered with furnace fuel, charcoal or coal blocks are especially effective. However, the power generation is slow and generally inefficient.",
             "isTranslationKey": false
           },
           "items": [
@@ -978,8 +975,8 @@
         "text": "The harsh reality is that you\u0027re stuck on this planet. No amount of obsidian rectangles will let you escape. However, the situation means you can\u0027t get some resources (like soul sand) through normal methods.",
         "isTranslationKey": false
       },
-      "x": 110,
-      "y": 75,
+      "x": 62,
+      "y": 48,
       "icon": {
         "id": "minecraft:soul_sand",
         "Count": 1
@@ -1193,7 +1190,7 @@
         "isTranslationKey": false
       },
       "description": {
-        "text": "Submit ten bottles of purified water to get something strong.",
+        "text": "You\u0027ll eventually need something to cool you down from the scorching heat on T4L0S. However, with the replicator barely functional, it should be possible to produce some ice if you submit ten bottles of purified water.",
         "isTranslationKey": false
       },
       "x": 190,
@@ -1406,7 +1403,7 @@
             "isTranslationKey": false
           },
           "longDescription": {
-            "text": "If you have another shell available, you can put your current body into shell. Just walk into the shell storage chamber and it will let you transfer to any available Shell.",
+            "text": "If you have another shell available, you can put your current body into storage. Just walk into the shell storage chamber and it will let you transfer to any available Shell.",
             "isTranslationKey": false
           },
           "items": [
@@ -1425,7 +1422,7 @@
             "isTranslationKey": false
           },
           "longDescription": {
-            "text": "Some important warnings:\n\n1. When you enter storage to switch shells, your items stay in that body. Empty your inventory before syncing unless you have multiple Shell Storage chambers available.\n2. If a Shell Storage breaks, the Shell it is storing will be lost and its inventory will be scattered on the ground.\n3. Sometimes, the Shell Storage/Constructor doors fail to open after syncing. If this happens, exit and rejoin the game and the doors should see you as a person again.\n\nCheck the box below to acknowledge the Sync™ terms and conditions.",
+            "text": "Some important warnings:\n\n1. When you enter storage to switch shells, your items stay in that body. Empty your inventory before syncing unless you have multiple Shell Storage chambers available.\n2. If a Shell Storage breaks, the Shell it is storing will be lost and its inventory will be scattered on the ground.\n3. Sometimes, the Shell Storage/Constructor doors fail to open after syncing. The automatic doors may not realize your body has come out of stasis. Leaving and rejoining the world should fix this.\n\nCheck the box below to acknowledge the Sync™ terms and conditions.",
             "isTranslationKey": false
           }
         }
@@ -1450,7 +1447,7 @@
         "isTranslationKey": false
       },
       "description": {
-        "text": "Despite the planet\u0027s high temperature, it isn\u0027t nearly hot enough cook food or melt metals. For that, you will need a furnace. Sieve dust and dirt for stone, use the stones to make cobblestone, use the cobblestone to make a furnace.\nIf you want to sift faster, you can place sieves next to one another, allowing up to 25 sieves to be used at once. Alternatively, a compressed sieve takes up just one block and can sift compressed dust with a slight reduction in output.",
+        "text": "Despite the planet\u0027s high temperature, it isn\u0027t nearly hot enough cook food or melt metals. For that, you will need a furnace.",
         "isTranslationKey": false
       },
       "x": 126,
@@ -1463,6 +1460,10 @@
       "tasks": [
         {
           "type": "hardcorequesting:detect",
+          "longDescription": {
+            "text": "Sieve dust or dirt for stone, use the stones to make cobblestone, use the cobblestone to make a furnace.",
+            "isTranslationKey": false
+          },
           "items": [
             {
               "item": {
@@ -1503,7 +1504,7 @@
         "isTranslationKey": false
       },
       "description": {
-        "text": "What this planet lacks in water, it makes up for in metals. If you spend some time sifting the dust, you can make serious progress towards some infrastructure. ",
+        "text": "What T4L0S lacks in water, it makes up for in metals. If you spend some time sifting the dust, you should be able to get enough metal to set up some infrastructure. ",
         "isTranslationKey": false
       },
       "x": 190,
@@ -1516,6 +1517,10 @@
       "tasks": [
         {
           "type": "hardcorequesting:detect",
+          "longDescription": {
+            "text": "Sifting dust and other blocks will drop metal ore pieces. Those can be crafted into ores and then smelted into ingots.",
+            "isTranslationKey": false
+          },
           "items": [
             {
               "item": {
@@ -1567,10 +1572,6 @@
       "optionlinks": [],
       "reward": [
         {
-          "id": "pneumaticcraft:gasoline_bucket",
-          "Count": 1
-        },
-        {
           "id": "thermal:flux_capacitor",
           "Count": 1,
           "tag": "{Energy:500000}"
@@ -1582,7 +1583,7 @@
     {
       "uuid": "ae61c85d-2154-435e-91cc-78218ffe1dd6",
       "name": {
-        "text": "1 Up!",
+        "text": "1-Up!",
         "isTranslationKey": false
       },
       "description": {
@@ -1662,7 +1663,7 @@
             "isTranslationKey": true
           },
           "longDescription": {
-            "text": "Make sure you plant something in the dirt right away!",
+            "text": "If you want to sift faster, you can place sieves next to one another, allowing up to 25 sieves to be used at once. Alternatively, a compressed sieve takes up just one block and can sift compressed dust.",
             "isTranslationKey": false
           },
           "items": [
@@ -1763,7 +1764,7 @@
     {
       "uuid": "b910ad01-be2f-4928-b33d-6a38353b8b9f",
       "name": {
-        "text": "Tools of the Trade",
+        "text": "Azde",
         "isTranslationKey": false
       },
       "description": {
@@ -1834,8 +1835,8 @@
         "text": "String armor can help you stay cool in the blazing heat, especially if you go anywhere near the lava leak.",
         "isTranslationKey": false
       },
-      "x": 110,
-      "y": 129,
+      "x": 62,
+      "y": 156,
       "icon": {
         "id": "extra_food_items:stringarmor_chestplate",
         "Count": 1,

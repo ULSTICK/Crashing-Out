@@ -1,0 +1,105 @@
+{
+  "name": "Triggers",
+  "quests": [
+    {
+      "uuid": "ace193bf-bd8a-4435-a1c3-9175845b3469",
+      "name": {
+        "text": "Hard Route",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Trigger quest to control quests unlocked by the hard route",
+        "isTranslationKey": false
+      },
+      "x": 46,
+      "y": 21,
+      "trigger": "QUEST_TRIGGER",
+      "prerequisites": [
+        "477e01c0-8641-4b6b-970f-7374b04f6a68"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "eddaaad6-761a-458a-8e0f-ff4297889adc",
+      "name": {
+        "text": "Alloying",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Invisible trigger quest for when the player unlocks an alloying method.",
+        "isTranslationKey": false
+      },
+      "x": 158,
+      "y": 156,
+      "icon": {
+        "id": "create:brass_ingot",
+        "Count": 1
+      },
+      "trigger": "QUEST_TRIGGER",
+      "parentrequirement": 1,
+      "prerequisites": [
+        "10a23876-3d34-40db-b3be-0f9569c5b459",
+        "059da201-0f0d-47ee-9bf0-416b63d26600",
+        "67994482-4981-4cfd-9ca6-afde4340fb62",
+        "eb909f46-772b-4fdf-8680-225dabb668ff"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "2a312464-2f8f-41b6-aff3-a31d475396a8",
+      "name": {
+        "text": "Dust/Grinding Trigger",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Unnamed quest",
+        "isTranslationKey": false
+      },
+      "x": 14,
+      "y": 58,
+      "icon": {
+        "id": "create:wheat_flour",
+        "Count": 1
+      },
+      "trigger": "QUEST_TRIGGER",
+      "parentrequirement": 1,
+      "prerequisites": [
+        "67994482-4981-4cfd-9ca6-afde4340fb62",
+        "50c4ef23-b9c7-4b3f-ac88-3628c9fda777",
+        "32852a9b-1b0c-4954-99c3-92501611c7d7"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "a63b8539-ab2c-4741-a920-afc5081deb38",
+      "name": {
+        "text": "Easy Route",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Trigger quest to control quests unlocked by the easy route",
+        "isTranslationKey": false
+      },
+      "x": 14,
+      "y": 21,
+      "trigger": "QUEST_TRIGGER",
+      "prerequisites": [
+        "7ee731c2-da61-4aab-a5fa-864fc4b62277"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    }
+  ],
+  "reputationBar": []
+}

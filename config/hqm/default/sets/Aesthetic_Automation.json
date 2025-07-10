@@ -148,35 +148,6 @@
       "commandrewards": []
     },
     {
-      "uuid": "eddaaad6-761a-458a-8e0f-ff4297889adc",
-      "name": {
-        "text": "Alloying",
-        "isTranslationKey": false
-      },
-      "description": {
-        "text": "Invisible trigger quest for when the player unlocks an alloying method.",
-        "isTranslationKey": false
-      },
-      "x": 158,
-      "y": 156,
-      "icon": {
-        "id": "create:brass_ingot",
-        "Count": 1
-      },
-      "trigger": "QUEST_TRIGGER",
-      "parentrequirement": 1,
-      "prerequisites": [
-        "10a23876-3d34-40db-b3be-0f9569c5b459",
-        "059da201-0f0d-47ee-9bf0-416b63d26600",
-        "67994482-4981-4cfd-9ca6-afde4340fb62",
-        "eb909f46-772b-4fdf-8680-225dabb668ff"
-      ],
-      "optionlinks": [],
-      "reward": [],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
       "uuid": "84c2b599-5734-4f21-98a9-bb63cfced54d",
       "name": {
         "text": "Biggest Fan",

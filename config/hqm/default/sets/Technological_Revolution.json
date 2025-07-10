@@ -2,57 +2,13 @@
   "name": "Technological Revolution",
   "quests": [
     {
-      "uuid": "9eaa2cc4-dfab-41ac-a0b3-e3cc8da8debe",
-      "name": {
-        "text": "Unnamed",
-        "isTranslationKey": false
-      },
-      "description": {
-        "text": "Unnamed quest",
-        "isTranslationKey": false
-      },
-      "x": 158,
-      "y": 30,
-      "icon": {
-        "id": "thermal:steel_dust",
-        "Count": 1
-      },
-      "tasks": [
-        {
-          "type": "hardcorequesting:detect",
-          "items": [
-            {
-              "item": {
-                "id": "thermal:steel_dust",
-                "Count": 1
-              },
-              "precision": "FUZZY"
-            }
-          ]
-        }
-      ],
-      "prerequisites": [
-        "e558fbac-929f-4b1b-bd10-c73e792ac69d",
-        "67994482-4981-4cfd-9ca6-afde4340fb62"
-      ],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "mekanism:enriched_carbon",
-          "Count": 4
-        }
-      ],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
       "uuid": "4603a7e8-470b-4a64-a199-84aaf94e603d",
       "name": {
         "text": "Green Thumb",
         "isTranslationKey": false
       },
       "description": {
-        "text": "Trees for leaves and saplings, crops for food. You\u0027ve been harvesting by hand, it is time to move beyond that. ",
+        "text": "Planting and harvesting crops by hand is time consuming and labor-intensive. Now that you have industrialized somewhat, it should be possible to move beyond that and automate the process.",
         "isTranslationKey": false
       },
       "x": 174,
@@ -66,7 +22,7 @@
         {
           "type": "hardcorequesting:detect",
           "longDescription": {
-            "text": "A Plant Gatherer set to shear leaves should finally put an end to your water woes. Just remember you don\u0027t get saplings from doing that. Perhaps a second Gatherer/Sower combo just for saplings would be a good idea? Remember, all Industrial Foregoing machines except the Mob Crusher affect a 3x3 area. Install range upgrades as necessary. ",
+            "text": "A Plant Sower can plant crops or saplings in an area (the range is 3x3 by default, and can be expanded with range upgrades). A Plant Gatherer will collect those crops and saplings.\nAutomating crops should provide plenty of food to eat and by setting the Plant Gatherer to shear leaves, you can automate water production. However, you will not get saplings from sheared leaves, so you may want a second Sower/Gatherer pair.",
             "isTranslationKey": false
           },
           "items": [
@@ -111,11 +67,11 @@
     {
       "uuid": "2388c3de-f71c-4fd5-96af-b51214d1a277",
       "name": {
-        "text": "Unnamed",
+        "text": "Waste Not, Want Not",
         "isTranslationKey": false
       },
       "description": {
-        "text": "Unnamed quest",
+        "text": "Animals are messy, and will produce waste if left to their own devices. However, this waste can be recycled into usable materials with the right equipment. The Sewer will collect sewage and essence from animals, and the Sewage Composter will produce fertilizer from sewage.",
         "isTranslationKey": false
       },
       "x": 254,
@@ -128,6 +84,10 @@
       "tasks": [
         {
           "type": "hardcorequesting:detect",
+          "longDescription": {
+            "text": "Fertilizer can be used to grow crops just like bonemeal, or be used in a Plant Fertilizer to automatically apply to plants.",
+            "isTranslationKey": false
+          },
           "items": [
             {
               "item": {
@@ -157,11 +117,11 @@
     {
       "uuid": "ccd68600-f9cf-4acf-ac55-c0fd5bda5eac",
       "name": {
-        "text": "Unnamed",
+        "text": "Frame of Reference",
         "isTranslationKey": false
       },
       "description": {
-        "text": "Unnamed quest",
+        "text": "The machine frame is the key to all advanced machinery. You will need a steel frame for its construction and a PCB to act as a central control circuit.",
         "isTranslationKey": false
       },
       "x": 158,
@@ -173,6 +133,10 @@
       "tasks": [
         {
           "type": "hardcorequesting:detect",
+          "longDescription": {
+            "text": "The machine frame acts as a unified base material for multiple mods.",
+            "isTranslationKey": false
+          },
           "items": [
             {
               "item": {
@@ -185,21 +149,27 @@
       ],
       "prerequisites": [
         "3f8636bd-b018-4fb3-a0d9-19800abb507f",
-        "9eaa2cc4-dfab-41ac-a0b3-e3cc8da8debe"
+        "67994482-4981-4cfd-9ca6-afde4340fb62",
+        "e558fbac-929f-4b1b-bd10-c73e792ac69d"
       ],
       "optionlinks": [],
-      "reward": [],
+      "reward": [
+        {
+          "id": "pneumaticcraft:printed_circuit_board",
+          "Count": 3
+        }
+      ],
       "rewardchoice": [],
       "commandrewards": []
     },
     {
       "uuid": "b9ce598c-5692-4431-9ff9-5d140d928f96",
       "name": {
-        "text": "Unnamed",
+        "text": "Hard Wired",
         "isTranslationKey": false
       },
       "description": {
-        "text": "Unnamed quest",
+        "text": "Internal Component upgrades modify the statistics of a machine, scaling up its base attributes. Hardened Internal Components are the first tier of Component upgrades, doubling the base stats of the machine.",
         "isTranslationKey": false
       },
       "x": 142,
@@ -212,6 +182,10 @@
       "tasks": [
         {
           "type": "hardcorequesting:detect",
+          "longDescription": {
+            "text": "Component upgrades can be installed in the machine\u0027s augment slots.",
+            "isTranslationKey": false
+          },
           "items": [
             {
               "item": {
@@ -243,7 +217,7 @@
       "x": 286,
       "y": 138,
       "icon": {
-        "id": "industrialforegoing:pink_slime",
+        "id": "industrialforegoing:fertilizer",
         "Count": 1
       },
       "trigger": "ANTI_TRIGGER",
@@ -253,14 +227,14 @@
           "items": [
             {
               "item": {
-                "id": "industrialforegoing:pink_slime",
+                "id": "industrialforegoing:fertilizer",
                 "Count": 1
               },
               "required": 1024
             },
             {
               "item": {
-                "id": "industrialforegoing:fertilizer",
+                "id": "industrialforegoing:pink_slime",
                 "Count": 1
               },
               "required": 1024
@@ -276,12 +250,17 @@
         }
       ],
       "prerequisites": [
-        "e56efbd0-d3ce-473b-a2d5-1de1a0bfa9a0",
+        "2388c3de-f71c-4fd5-96af-b51214d1a277",
         "8f3d2964-8123-446b-bdc8-116ad499c8da",
-        "2388c3de-f71c-4fd5-96af-b51214d1a277"
+        "e56efbd0-d3ce-473b-a2d5-1de1a0bfa9a0"
       ],
       "optionlinks": [],
-      "reward": [],
+      "reward": [
+        {
+          "id": "ad_astra:oxygen_loader",
+          "Count": 1
+        }
+      ],
       "rewardchoice": [
         {
           "id": "mekanism:ultimate_control_circuit",
@@ -305,13 +284,13 @@
         "isTranslationKey": false
       },
       "description": {
-        "text": "Now, let\u0027s put what you\u0027ve learned to the test.",
+        "text": "Master thermal technology and you can move to the next stages of escaping the planet.",
         "isTranslationKey": false
       },
       "x": 30,
       "y": 138,
       "icon": {
-        "id": "thermal:redstone_bucket",
+        "id": "thermal:enderium_ingot",
         "Count": 1
       },
       "trigger": "ANTI_TRIGGER",
@@ -321,10 +300,24 @@
           "items": [
             {
               "item": {
+                "id": "thermal:signalum_ingot",
+                "Count": 1
+              },
+              "required": 64
+            },
+            {
+              "item": {
+                "id": "thermal:lumium_ingot",
+                "Count": 1
+              },
+              "required": 48
+            },
+            {
+              "item": {
                 "id": "thermal:enderium_ingot",
                 "Count": 1
               },
-              "required": 4
+              "required": 32
             }
           ]
         }
@@ -337,7 +330,11 @@
       "optionlinks": [],
       "reward": [
         {
-          "id": "thermal:machine_frame",
+          "id": "ad_astra:ti_69",
+          "Count": 1
+        },
+        {
+          "id": "ad_astra:etrionic_core",
           "Count": 1
         }
       ],
@@ -356,11 +353,11 @@
     {
       "uuid": "6059686c-4441-4c43-b414-b7c4c8134cf9",
       "name": {
-        "text": "Unnamed",
+        "text": "Structural Integrity",
         "isTranslationKey": false
       },
       "description": {
-        "text": "Unnamed quest",
+        "text": "Internal Component upgrades modify the statistics of a machine, scaling up its base attributes. Reinforced Internal Components are the second tier of Component upgrades, tripling the base stats of the machine.",
         "isTranslationKey": false
       },
       "x": 110,
@@ -373,6 +370,10 @@
       "tasks": [
         {
           "type": "hardcorequesting:detect",
+          "longDescription": {
+            "text": "Component upgrades can be installed in the machine\u0027s augment slots.",
+            "isTranslationKey": false
+          },
           "items": [
             {
               "item": {
@@ -394,11 +395,11 @@
     {
       "uuid": "b498eec9-851e-4d17-ab0d-b86eeb4a72be",
       "name": {
-        "text": "Press",
+        "text": "Making an Impression",
         "isTranslationKey": false
       },
       "description": {
-        "text": "Unnamed quest",
+        "text": "The Multiservo Press can press ingots into plates, gears, and coins, as well as pack or unpack bulk items and their compressed versions.",
         "isTranslationKey": false
       },
       "x": 94,
@@ -411,6 +412,10 @@
       "tasks": [
         {
           "type": "hardcorequesting:detect",
+          "longDescription": {
+            "text": "The Multiservo Press performs different functions depending on the die used. With a packing die, it will pack items into compressed forms, equivelant to crafting recipes that fill all slots of a 2x2 or 3x3 grid. With an unpacking die, it does the reverse. Using a gearworking or nuismatic die, metals can be pressed into gears and coins. Using it without a die inserted will press ingots into plates.",
+            "isTranslationKey": false
+          },
           "items": [
             {
               "item": {
@@ -433,11 +438,11 @@
     {
       "uuid": "b629759a-09fb-4397-9d88-7c23f11826f6",
       "name": {
-        "text": "Unnamed",
+        "text": "Finely-Tuned",
         "isTranslationKey": false
       },
       "description": {
-        "text": "Unnamed quest",
+        "text": "Internal Component upgrades modify the statistics of a machine, scaling up its base attributes. Resonant Internal Components are the third and final tier of Component upgrades, quadrupling the base stats of the machine.",
         "isTranslationKey": false
       },
       "x": 126,
@@ -450,6 +455,10 @@
       "tasks": [
         {
           "type": "hardcorequesting:detect",
+          "longDescription": {
+            "text": "Component upgrades can be installed in the machine\u0027s augment slots.",
+            "isTranslationKey": false
+          },
           "items": [
             {
               "item": {
@@ -471,11 +480,11 @@
     {
       "uuid": "e56efbd0-d3ce-473b-a2d5-1de1a0bfa9a0",
       "name": {
-        "text": "Sludge Refining",
+        "text": "Muck-Raking",
         "isTranslationKey": false
       },
       "description": {
-        "text": "Unnamed quest",
+        "text": "Gathering plants automatically produces a large amount of sludge as a byproduct. This sludge can be processed into some siftable blocks using a Sludge Refiner.",
         "isTranslationKey": false
       },
       "x": 190,
@@ -488,6 +497,10 @@
       "tasks": [
         {
           "type": "hardcorequesting:detect",
+          "longDescription": {
+            "text": "Provide the Sludge Refiner with sludge and energy and it will slowly process it into dirt, clay, gravel, sand, red sand, and soul sand.",
+            "isTranslationKey": false
+          },
           "items": [
             {
               "item": {
@@ -510,11 +523,11 @@
     {
       "uuid": "191aad3c-56cb-4b54-89ee-7803f6952561",
       "name": {
-        "text": "Insolator",
+        "text": "Green Machine",
         "isTranslationKey": false
       },
       "description": {
-        "text": "Unnamed quest",
+        "text": "The Phytogenic Insolator can grow crops without requiring them to be planted separately. It consumes a large amount of water per operation, as well as an optional catalyst. The most basic catalyst is bone meal, but with some effort, phyto-gro, an advanced fertilizer, can be crafted.",
         "isTranslationKey": false
       },
       "x": 63,
@@ -527,6 +540,10 @@
       "tasks": [
         {
           "type": "hardcorequesting:detect",
+          "longDescription": {
+            "text": "The Phytogenic Insolator takes a seed or sapling, some water, power, and an optional catalyst, and produces crops and another seed. This can be used for farming in a small space or for small-scale operations that won\u0027t need an entire farm.",
+            "isTranslationKey": false
+          },
           "items": [
             {
               "item": {
@@ -542,7 +559,12 @@
         "ef9a7c29-55ea-4296-a908-c350381b396a"
       ],
       "optionlinks": [],
-      "reward": [],
+      "reward": [
+        {
+          "id": "thermal:apatite",
+          "Count": 16
+        }
+      ],
       "rewardchoice": [],
       "commandrewards": []
     },
@@ -617,34 +639,13 @@
       "commandrewards": []
     },
     {
-      "uuid": "ace193bf-bd8a-4435-a1c3-9175845b3469",
-      "name": {
-        "text": "Hard Route",
-        "isTranslationKey": false
-      },
-      "description": {
-        "text": "Trigger quest to control quests unlocked by the hard route",
-        "isTranslationKey": false
-      },
-      "x": 302,
-      "y": 21,
-      "trigger": "QUEST_TRIGGER",
-      "prerequisites": [
-        "477e01c0-8641-4b6b-970f-7374b04f6a68"
-      ],
-      "optionlinks": [],
-      "reward": [],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
       "uuid": "ef9a7c29-55ea-4296-a908-c350381b396a",
       "name": {
-        "text": "Magma Crucible",
+        "text": "Hot Mess",
         "isTranslationKey": false
       },
       "description": {
-        "text": "Unnamed quest",
+        "text": "The Magma Crucible melts items into their liquid forms. It is the opposite of a Blast Chiller. It can be used to make large amounts of lava, melt plastic, and turn redstone, glowstone, and ender pearls into their liquid forms.",
         "isTranslationKey": false
       },
       "x": 95,
@@ -657,6 +658,10 @@
       "tasks": [
         {
           "type": "hardcorequesting:detect",
+          "longDescription": {
+            "text": "The magma crucible consumes items and converts them into liquids.",
+            "isTranslationKey": false
+          },
           "items": [
             {
               "item": {
@@ -677,55 +682,13 @@
       "commandrewards": []
     },
     {
-      "uuid": "e558fbac-929f-4b1b-bd10-c73e792ac69d",
-      "name": {
-        "text": "Infusing",
-        "isTranslationKey": false
-      },
-      "description": {
-        "text": "Unnamed quest",
-        "isTranslationKey": false
-      },
-      "x": 142,
-      "y": 3,
-      "icon": {
-        "id": "mekanism:metallurgic_infuser",
-        "Count": 1
-      },
-      "trigger": "ANTI_TRIGGER",
-      "tasks": [
-        {
-          "type": "hardcorequesting:detect",
-          "items": [
-            {
-              "item": {
-                "id": "mekanism:metallurgic_infuser",
-                "Count": 1
-              },
-              "precision": "FUZZY"
-            }
-          ]
-        }
-      ],
-      "prerequisites": [],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "mekanism:enriched_redstone",
-          "Count": 2
-        }
-      ],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
       "uuid": "8a87f658-411b-4b9b-96ea-9d2c6df483c4",
       "name": {
-        "text": "Mob Crusher",
+        "text": "Essential Oils",
         "isTranslationKey": false
       },
       "description": {
-        "text": "Unnamed quest",
+        "text": "Monsters killed with the Slaughter Factory will produce meat and slime, but that\u0027s all. Sometimes it\u0027s better to collect the materials they typically drop. A Mob Crusher can kill mobs, collecting their loot as well as their distilled essence.",
         "isTranslationKey": false
       },
       "x": 222,
@@ -738,6 +701,10 @@
       "tasks": [
         {
           "type": "hardcorequesting:detect",
+          "longDescription": {
+            "text": "The Mob Crusher will produce mob drops and essence, a type of liquid experience. Essence has a number of uses in enchantment and mob spawning. Large amounts of essence can be used to craft specific mob spawn eggs in the Dissolution Chamber.",
+            "isTranslationKey": false
+          },
           "items": [
             {
               "item": {
@@ -759,13 +726,88 @@
       "commandrewards": []
     },
     {
-      "uuid": "7c13aa31-1923-443b-a81b-f8fb12449b30",
+      "uuid": "e558fbac-929f-4b1b-bd10-c73e792ac69d",
       "name": {
-        "text": "Mob Slaughterer",
+        "text": "Infusing",
         "isTranslationKey": false
       },
       "description": {
-        "text": "Unnamed quest",
+        "text": "Alloying is an essential part of the technological revolution. The standard method of alloying is by melting the metals into a liquid and mixing the liquids together. However, you need extreme heat for that. Some metals can be infused without needing to fully deconstruct them. With a metallurgic infuser and some energy, you can make some more advanced alloys like steel. It can also make advanced control circuits, useful for all kinds of interesting mechanisms. ",
+        "isTranslationKey": false
+      },
+      "x": 174,
+      "y": 3,
+      "icon": {
+        "id": "mekanism:metallurgic_infuser",
+        "Count": 1
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "hardcorequesting:detect",
+          "description": {
+            "text": "Infuser",
+            "isTranslationKey": false
+          },
+          "longDescription": {
+            "text": "The basic infuser can be made without any circuitry. It must be provided with energy to function. It can eventually be upgraded to be faster, more energy efficient, and have more processing slots. ",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "mekanism:metallurgic_infuser",
+                "Count": 1
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "hardcorequesting:detect",
+          "description": {
+            "text": "Infusing",
+            "isTranslationKey": false
+          },
+          "longDescription": {
+            "text": "The most typical advanced alloy you will need is steel. Early on, you can make steel with 2 coal and 1 iron ingot. Put the coal into the Metallurgic Infuser\u0027s infusion slot to liquefy it, then put an iron ingot into the main processing slot. This will create enriched iron, which can then be put back into the main processing slot to make steel blend. Finally, the steel blend can be smelted into a steel ingot. If you eventually make an enrichment chamber, you can enrich the coal to get 8 times the resources for each piece of coal.",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "thermal:steel_dust",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "3ffa13cb-b198-4e83-bab7-676d08834311"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "mekanism:enriched_redstone",
+          "Count": 2
+        },
+        {
+          "id": "mekanism:enriched_carbon",
+          "Count": 2
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "7c13aa31-1923-443b-a81b-f8fb12449b30",
+      "name": {
+        "text": "Monster Mash",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "The monsters on this planet seem to emerge from the ground whenever and wherever it is dark. It may be possible to use that to your advantage. If you can funnel them towards a Mob Slaughter Factory, it will automatically grind them up into usable liquids.",
         "isTranslationKey": false
       },
       "x": 190,
@@ -778,6 +820,10 @@
       "tasks": [
         {
           "type": "hardcorequesting:detect",
+          "longDescription": {
+            "text": "A Mob Slaughter Factory can grind mobs into liquid meat and pink slime.",
+            "isTranslationKey": false
+          },
           "items": [
             {
               "item": {
@@ -798,34 +844,13 @@
       "commandrewards": []
     },
     {
-      "uuid": "a63b8539-ab2c-4741-a920-afc5081deb38",
-      "name": {
-        "text": "Easy Route",
-        "isTranslationKey": false
-      },
-      "description": {
-        "text": "Trigger quest to control quests unlocked by the easy route",
-        "isTranslationKey": false
-      },
-      "x": 14,
-      "y": 21,
-      "trigger": "QUEST_TRIGGER",
-      "prerequisites": [
-        "7ee731c2-da61-4aab-a5fa-864fc4b62277"
-      ],
-      "optionlinks": [],
-      "reward": [],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
       "uuid": "8f3d2964-8123-446b-bdc8-116ad499c8da",
       "name": {
-        "text": "Using What You Got",
+        "text": "Clone Wars",
         "isTranslationKey": false
       },
       "description": {
-        "text": "With a grinder running you are making a lot of mob essence. Time to put it to good use.",
+        "text": "A Mob Crusher will produce large amounts of essence. If you can capture some rarer monsters inside a Mob Imprisonment Tool, you can use that essence to duplicate that mob for future farming.",
         "isTranslationKey": false
       },
       "x": 254,
@@ -838,6 +863,10 @@
       "tasks": [
         {
           "type": "hardcorequesting:detect",
+          "longDescription": {
+            "text": "Capture a mob in the Mob Imprisonment Tool by right-clicking it. Then, place the captured mob in the Mob Duplicator to spawn copies of it. This is especially useful when farming rare mobs like Wither Skeletons.",
+            "isTranslationKey": false
+          },
           "items": [
             {
               "item": {
@@ -887,11 +916,11 @@
     {
       "uuid": "9f19cf75-b748-43eb-8957-c5eb0a3eaffe",
       "name": {
-        "text": "Dissolution Chamber",
+        "text": "Liquidating Assets",
         "isTranslationKey": false
       },
       "description": {
-        "text": "Unnamed quest",
+        "text": "The Dissolution Chamber allows for advanced crafting that can infuse crafted objects with liquid, sometimes producing a fluid as a byproduct.",
         "isTranslationKey": false
       },
       "x": 206,
@@ -904,6 +933,10 @@
       "tasks": [
         {
           "type": "hardcorequesting:detect",
+          "longDescription": {
+            "text": "Dissolution Chamber recipes are used to craft some advanced items with liquid meat, molten plastic, and liquid pink slime.",
+            "isTranslationKey": false
+          },
           "items": [
             {
               "item": {
@@ -926,11 +959,11 @@
     {
       "uuid": "5f8ad93d-e76a-491b-930e-9258717b769f",
       "name": {
-        "text": "All Creatures Great and Small",
+        "text": "Creatures Great and Small",
         "isTranslationKey": false
       },
       "description": {
-        "text": "Unnamed quest",
+        "text": "If you have the means, you may want to keep animals for resources.\nChickens produce eggs, \ncows produce milk, and sheep produce wool.\nThe Animal Feeder provides the animals with enough food to reproduce, and the Animal Rancher automates the collection of milk and wool from cows and sheep.",
         "isTranslationKey": false
       },
       "x": 222,
@@ -943,6 +976,10 @@
       "tasks": [
         {
           "type": "hardcorequesting:detect",
+          "longDescription": {
+            "text": "You can find chicken eggs naturally, and you can craft other animal eggs when you have a stable supply of essence.",
+            "isTranslationKey": false
+          },
           "items": [
             {
               "item": {
@@ -972,11 +1009,11 @@
     {
       "uuid": "50c4ef23-b9c7-4b3f-ac88-3628c9fda777",
       "name": {
-        "text": "Pulverizer",
+        "text": "Crushing It",
         "isTranslationKey": false
       },
       "description": {
-        "text": "You have to start somewhere. ",
+        "text": "The Pulverizer crushes items into dusts. It can be used to efficiently process and double ores, producing ore dust as well as a byproduct. A catalyst can be used to modify outputs, with flint being the most basic catalyst.",
         "isTranslationKey": false
       },
       "x": 126,
@@ -989,6 +1026,10 @@
       "tasks": [
         {
           "type": "hardcorequesting:detect",
+          "longDescription": {
+            "text": "A Pulverizer crushes an item into dust.",
+            "isTranslationKey": false
+          },
           "items": [
             {
               "item": {
@@ -1015,7 +1056,7 @@
         "isTranslationKey": false
       },
       "description": {
-        "text": "Unnamed quest",
+        "text": "The Induction Smelter can be used to process ores, produce hardened glass, and make alloys. It is an especially efficient and compact way of producing large amounts of alloys compared to alternative methods.",
         "isTranslationKey": false
       },
       "x": 110,
@@ -1028,6 +1069,10 @@
       "tasks": [
         {
           "type": "hardcorequesting:detect",
+          "longDescription": {
+            "text": "The induction smelter smelts up to three items together wiith an optional catalyst.",
+            "isTranslationKey": false
+          },
           "items": [
             {
               "item": {
@@ -1050,11 +1095,11 @@
     {
       "uuid": "6f634898-e3df-42b8-9d1a-0c714b167356",
       "name": {
-        "text": "Upgrades",
+        "text": "Hardware Upgrade",
         "isTranslationKey": false
       },
       "description": {
-        "text": "The start of good things.",
+        "text": "Speed, Efficiency, Processing, and Range Addons are useful upgrades to many of your machines.",
         "isTranslationKey": false
       },
       "x": 238,
@@ -1068,6 +1113,10 @@
       "tasks": [
         {
           "type": "hardcorequesting:detect",
+          "longDescription": {
+            "text": "Most Addons come in two tiers, made with either gold or diamond gears. Range upgrades have twelve types and are not included below, but are very useful for certain machines.",
+            "isTranslationKey": false
+          },
           "items": [
             {
               "item": {
@@ -1118,11 +1167,11 @@
     {
       "uuid": "71009be1-b6c5-4724-9ee6-d5a4591f0765",
       "name": {
-        "text": "Machine Augments",
+        "text": "Augmenting Reality",
         "isTranslationKey": false
       },
       "description": {
-        "text": "Unnamed quest",
+        "text": "Augments are upgrades that can be installed in machines to improve their speed or efficiency, add abilities, or change the way the device functions.",
         "isTranslationKey": false
       },
       "x": 78,
@@ -1135,6 +1184,10 @@
       "tasks": [
         {
           "type": "hardcorequesting:detect",
+          "longDescription": {
+            "text": "Augments can be installed in a machine or dynamo\u0027s augment slots. The most useful ones typically increase a machine\u0027s speed or efficiency. These usually come with drawbacks, however, and reduce their inverse property.",
+            "isTranslationKey": false
+          },
           "items": [
             {
               "item": {
@@ -1175,11 +1228,11 @@
     {
       "uuid": "8559f15c-259a-4874-a753-adb36cf75447",
       "name": {
-        "text": "Blast Chiller",
+        "text": "Chill Out",
         "isTranslationKey": false
       },
       "description": {
-        "text": "A lot of the more complicated tech requires some advanced Thermal Expansion machines.",
+        "text": "The Blast Chiller cools liquids into their solid forms. It is the opposite of a Magma Crucible. It can be used to cast liquid metal into ingots, freeze water into ice or snow, and liquid redstone, glowstone, and ender pearls into their solid forms.",
         "isTranslationKey": false
       },
       "x": 62,
@@ -1192,6 +1245,10 @@
       "tasks": [
         {
           "type": "hardcorequesting:detect",
+          "longDescription": {
+            "text": "The Blast Chiller converts liquids into items. Some recipes require a cast, which can be made from bronze plates.",
+            "isTranslationKey": false
+          },
           "items": [
             {
               "item": {
@@ -1236,14 +1293,14 @@
     {
       "uuid": "67994482-4981-4cfd-9ca6-afde4340fb62",
       "name": {
-        "text": "Blending it up",
+        "text": "Stirring Up Trouble",
         "isTranslationKey": false
       },
       "description": {
-        "text": "You\u0027ll need to make some alloys and without enough heat to liquefy metal, you may need to do some of the dirty work yourself.",
+        "text": "Alloying is an essential part of the technological revolution. The standard method of alloying is by melting the metals into a liquid and mixing the liquids together. However, you need extreme heat for that. If you can crush metals into dust, you don\u0027t need to melt them all the way to a liquid. Instead, you can just mix the metals together by hand and smelt the resulting dust back into ingots.",
         "isTranslationKey": false
       },
-      "x": 174,
+      "x": 142,
       "y": 3,
       "icon": {
         "id": "thermal:invar_dust",
@@ -1254,7 +1311,7 @@
         {
           "type": "hardcorequesting:detect",
           "longDescription": {
-            "text": "You can use a mill to crush metal into dust and then craft it together by hand.",
+            "text": "A mill can crush metal into dust, which can then be crafted together by hand.",
             "isTranslationKey": false
           },
           "items": [
@@ -1294,11 +1351,11 @@
         "isTranslationKey": false
       },
       "description": {
-        "text": "Unnamed quest",
+        "text": "The Compression Dynamo is the next advancement in energy generation. It generates energy in large amounts from various types of refined oils.",
         "isTranslationKey": false
       },
       "x": 158,
-      "y": 156,
+      "y": 174,
       "icon": {
         "id": "thermal:dynamo_compression",
         "Count": 1
@@ -1306,6 +1363,10 @@
       "tasks": [
         {
           "type": "hardcorequesting:detect",
+          "longDescription": {
+            "text": "Diesel, Kerosene, Gasoline, LPG are some of the most practical fuels to use in the Compression Dynamo, perfect for using the oil you have refined.",
+            "isTranslationKey": false
+          },
           "items": [
             {
               "item": {
@@ -1329,11 +1390,11 @@
     {
       "uuid": "f3c2913b-4e0b-4cf7-bda6-3a92bd7b4775",
       "name": {
-        "text": "Mechanical Dirt",
+        "text": "Hunting Ground",
         "isTranslationKey": false
       },
       "description": {
-        "text": "Unnamed quest",
+        "text": "The monsters on this planet seem to gather wherever it is dark and prey on the living. It may be possible to lure more of them some liquid meat on energized ground.",
         "isTranslationKey": false
       },
       "x": 206,
@@ -1346,6 +1407,10 @@
       "tasks": [
         {
           "type": "hardcorequesting:detect",
+          "longDescription": {
+            "text": "Mechanical dirt will spawn mobs when provided with liquid meat, energy, and placed in natural spawn conditions. Fluids and energy will be carried between adjacent blocks.",
+            "isTranslationKey": false
+          },
           "items": [
             {
               "item": {
