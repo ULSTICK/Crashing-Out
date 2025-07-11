@@ -12,7 +12,7 @@
 	# it's fluid tank, assuming the tank is empty or contains water but has not reached it's
 	# capacity.
 	# Valid values: true, false
-	dispenseWater = true
+	dispenseWater = false
 	# The storage capacity of the fluid tank contained in this block. If you're using Forge,
 	# 1000 units represents the capacity of a bucket, while it's 81000 on Fabric. So if you
 	# want 3 buckets worth of storage, it will be 3000 (Forge) or 243000 (Fabric)
@@ -30,7 +30,7 @@
 	# it's fluid tank, assuming the tank is empty or contains water but has not reached it's
 	# capacity.
 	# Valid values: true, false
-	dispenseWater = true
+	dispenseWater = false
 
 # Trampoline related properties
 [trampoline]
@@ -87,7 +87,7 @@
 	# it's fluid tank, assuming the tank is empty or contains water but has not reached it's
 	# capacity.
 	# Valid values: true, false
-	dispenseWater = true
+	dispenseWater = false
 	# The storage capacity of the fluid tank contained in this block. If you're using Forge,
 	# 1000 units represents the capacity of a bucket, while it's 81000 on Fabric. So if you
 	# want 3 buckets worth of storage, it will be 3000 (Forge) or 243000 (Fabric)
@@ -145,7 +145,7 @@
 	# it's fluid tank, assuming the tank is empty or contains water but has not reached it's
 	# capacity.
 	# Valid values: true, false
-	dispenseWater = true
+	dispenseWater = false
 
 # Recycle Bin related properties
 [recycleBin]
@@ -157,5 +157,5 @@
 	experiencePerItem = 0.05
 	# The amount of time in ticks that it takes to perform one cycle of recycling
 	# Valid range: 1 to 2147483647 (inclusive)
-	processingTime = 10
+	processingTime = 20
 
