@@ -63,17 +63,6 @@
       "triggertasks": 1,
       "tasks": [
         {
-          "type": "hardcorequesting:completion",
-          "completed_quests": [
-            {
-              "quest_uuid": "13a983d5-2a40-4c74-91f0-9847656342e0"
-            },
-            {
-              "quest_uuid": "bf8d316b-64d4-4a30-8c44-86f9c0be0cb3"
-            }
-          ]
-        },
-        {
           "type": "hardcorequesting:detect",
           "items": [
             {
@@ -86,7 +75,8 @@
         }
       ],
       "prerequisites": [
-        "bf8d316b-64d4-4a30-8c44-86f9c0be0cb3"
+        "bf8d316b-64d4-4a30-8c44-86f9c0be0cb3",
+        "1892c9be-9d6c-4c4a-bbe3-b0a606205724"
       ],
       "optionlinks": [],
       "reward": [],
@@ -113,17 +103,6 @@
       "triggertasks": 1,
       "tasks": [
         {
-          "type": "hardcorequesting:completion",
-          "completed_quests": [
-            {
-              "quest_uuid": "13a983d5-2a40-4c74-91f0-9847656342e0"
-            },
-            {
-              "quest_uuid": "eddaaad6-761a-458a-8e0f-ff4297889adc"
-            }
-          ]
-        },
-        {
           "type": "hardcorequesting:detect",
           "items": [
             {
@@ -141,7 +120,39 @@
           ]
         }
       ],
-      "prerequisites": [],
+      "prerequisites": [
+        "1892c9be-9d6c-4c4a-bbe3-b0a606205724",
+        "eddaaad6-761a-458a-8e0f-ff4297889adc"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "eddaaad6-761a-458a-8e0f-ff4297889adc",
+      "name": {
+        "text": "Alloying",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Invisible trigger quest for when the player unlocks an alloying method.",
+        "isTranslationKey": false
+      },
+      "x": 158,
+      "y": 156,
+      "icon": {
+        "id": "create:brass_ingot",
+        "Count": 1
+      },
+      "trigger": "QUEST_TRIGGER",
+      "parentrequirement": 1,
+      "prerequisites": [
+        "10a23876-3d34-40db-b3be-0f9569c5b459",
+        "059da201-0f0d-47ee-9bf0-416b63d26600",
+        "67994482-4981-4cfd-9ca6-afde4340fb62",
+        "eb909f46-772b-4fdf-8680-225dabb668ff"
+      ],
       "optionlinks": [],
       "reward": [],
       "rewardchoice": [],
@@ -296,6 +307,33 @@
       "commandrewards": []
     },
     {
+      "uuid": "1892c9be-9d6c-4c4a-bbe3-b0a606205724",
+      "name": {
+        "text": "Pressed Metal",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Unnamed quest",
+        "isTranslationKey": false
+      },
+      "x": 46,
+      "y": 165,
+      "icon": {
+        "id": "create:mechanical_press",
+        "Count": 1
+      },
+      "trigger": "QUEST_TRIGGER",
+      "parentrequirement": 1,
+      "prerequisites": [
+        "13a983d5-2a40-4c74-91f0-9847656342e0",
+        "b498eec9-851e-4d17-ab0d-b86eeb4a72be"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
       "uuid": "10a23876-3d34-40db-b3be-0f9569c5b459",
       "name": {
         "text": "Calcifer\u0027s Eggshells",
@@ -361,6 +399,48 @@
       "commandrewards": []
     },
     {
+      "uuid": "dac6814c-dec5-46f2-b7d5-77316843e9d4",
+      "name": {
+        "text": "Autopilot",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Unnamed",
+        "isTranslationKey": false
+      },
+      "x": 302,
+      "y": 111,
+      "icon": {
+        "id": "create:mechanical_arm",
+        "Count": 1
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "hardcorequesting:detect",
+          "longDescription": {
+            "text": "The Mechanical Arm is a block used to transfer items between inventories within a 5-block radius. When placing the arm, you select valid inventories by right-clicking, with the ability to toggle between taking or depositing items by right-clicking again. Left-clicking deselects an inventory. The arm can transfer up to a stack of items at once and operates based on its selected blocks and the order they were chosen. Its behavior can be adjusted with options like Round Robin, Forced Round Robin, or Prefer First through the Value Settings Screen. The arm can be powered by a Cogwheel or similar blocks and can interact with various items like Mechanical Belts, Depots, and Crafters. If the arm\u0027s range exceeds 5 blocks, inventories beyond that will be dropped. It can be disabled using Redstone, and will deposit any items it’s holding before stopping. The arm also respects filters on selected blocks, preventing it from picking up items it can\u0027t deposit elsewhere.",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "create:mechanical_arm",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "cc4f3469-cac0-4b77-a762-2832a9a36e91"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
       "uuid": "32f538e8-7e3c-4d36-8b39-0cef101279dd",
       "name": {
         "text": "Ebb and Flow",
@@ -402,48 +482,6 @@
       ],
       "prerequisites": [
         "e6d0efde-1f09-434e-9f80-a45f09d37ec0"
-      ],
-      "optionlinks": [],
-      "reward": [],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
-      "uuid": "dac6814c-dec5-46f2-b7d5-77316843e9d4",
-      "name": {
-        "text": "Autopilot",
-        "isTranslationKey": false
-      },
-      "description": {
-        "text": "Unnamed",
-        "isTranslationKey": false
-      },
-      "x": 302,
-      "y": 111,
-      "icon": {
-        "id": "create:mechanical_arm",
-        "Count": 1
-      },
-      "trigger": "ANTI_TRIGGER",
-      "tasks": [
-        {
-          "type": "hardcorequesting:detect",
-          "longDescription": {
-            "text": "The Mechanical Arm is a block used to transfer items between inventories within a 5-block radius. When placing the arm, you select valid inventories by right-clicking, with the ability to toggle between taking or depositing items by right-clicking again. Left-clicking deselects an inventory. The arm can transfer up to a stack of items at once and operates based on its selected blocks and the order they were chosen. Its behavior can be adjusted with options like Round Robin, Forced Round Robin, or Prefer First through the Value Settings Screen. The arm can be powered by a Cogwheel or similar blocks and can interact with various items like Mechanical Belts, Depots, and Crafters. If the arm\u0027s range exceeds 5 blocks, inventories beyond that will be dropped. It can be disabled using Redstone, and will deposit any items it’s holding before stopping. The arm also respects filters on selected blocks, preventing it from picking up items it can\u0027t deposit elsewhere.",
-            "isTranslationKey": false
-          },
-          "items": [
-            {
-              "item": {
-                "id": "create:mechanical_arm",
-                "Count": 1
-              }
-            }
-          ]
-        }
-      ],
-      "prerequisites": [
-        "cc4f3469-cac0-4b77-a762-2832a9a36e91"
       ],
       "optionlinks": [],
       "reward": [],
@@ -770,14 +808,6 @@
       "triggertasks": 1,
       "tasks": [
         {
-          "type": "hardcorequesting:completion",
-          "completed_quests": [
-            {
-              "quest_uuid": "13a983d5-2a40-4c74-91f0-9847656342e0"
-            }
-          ]
-        },
-        {
           "type": "hardcorequesting:detect",
           "items": [
             {
@@ -789,7 +819,9 @@
           ]
         }
       ],
-      "prerequisites": [],
+      "prerequisites": [
+        "1892c9be-9d6c-4c4a-bbe3-b0a606205724"
+      ],
       "optionlinks": [],
       "reward": [],
       "rewardchoice": [],
@@ -1229,17 +1261,6 @@
       "triggertasks": 1,
       "tasks": [
         {
-          "type": "hardcorequesting:completion",
-          "completed_quests": [
-            {
-              "quest_uuid": "13a983d5-2a40-4c74-91f0-9847656342e0"
-            },
-            {
-              "quest_uuid": "bf8d316b-64d4-4a30-8c44-86f9c0be0cb3"
-            }
-          ]
-        },
-        {
           "type": "hardcorequesting:detect",
           "items": [
             {
@@ -1252,7 +1273,8 @@
         }
       ],
       "prerequisites": [
-        "bf8d316b-64d4-4a30-8c44-86f9c0be0cb3"
+        "bf8d316b-64d4-4a30-8c44-86f9c0be0cb3",
+        "1892c9be-9d6c-4c4a-bbe3-b0a606205724"
       ],
       "optionlinks": [],
       "reward": [],

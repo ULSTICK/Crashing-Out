@@ -8,7 +8,7 @@
         "isTranslationKey": false
       },
       "description": {
-        "text": "Another way to get water is to drop some saplings or leaves into the Centrifugal Separator. It will give you a bit of water, about 1/10th of a bucket. Remember, you can power your machines with the flux capacitor from your emergency supply chest. MAKE SURE YOU DO NOT USE UP ALL OF YOUR SAPLINGS.",
+        "text": "Another way to get water is to drop some saplings or leaves into the Centrifugal Separator. It will give you a bit of water, about 1/10th of a bucket. Remember, you can power your machines with the flux capacitor from your emergency supply chest.",
         "isTranslationKey": false
       },
       "x": 142,
@@ -22,8 +22,8 @@
         {
           "type": "hardcorequesting:detect",
           "longDescription": {
-            "text": "This was previously a QDS task to submit liquid purified water. However, technical issues prevent QDS liquid submission for now.",
-            "isTranslationKey": true
+            "text": "Make sure you don\u0027t use up all of your saplings, the only way to get more is from leaves or sifting dirt.",
+            "isTranslationKey": false
           },
           "items": [
             {
@@ -234,53 +234,6 @@
       "commandrewards": []
     },
     {
-      "uuid": "a06fbc3a-5b54-4b9a-8f91-6dd3cdd5181e",
-      "name": {
-        "text": "The Plastic Age",
-        "isTranslationKey": false
-      },
-      "description": {
-        "text": "Now that you are stable and able to live somewhat comfortably, it\u0027s time to look beyond immediate survival and start planning for your future. For true industrialization, you will need plastic. You may need to visit the cities.",
-        "isTranslationKey": false
-      },
-      "x": 238,
-      "y": 75,
-      "icon": {
-        "id": "pneumaticcraft:plastic",
-        "Count": 1
-      },
-      "trigger": "ANTI_TRIGGER",
-      "tasks": [
-        {
-          "type": "hardcorequesting:detect",
-          "items": [
-            {
-              "item": {
-                "id": "pneumaticcraft:plastic",
-                "Count": 1
-              }
-            }
-          ]
-        }
-      ],
-      "prerequisites": [
-        "3ffa13cb-b198-4e83-bab7-676d08834311"
-      ],
-      "optionlinks": [],
-      "reward": [],
-      "rewardchoice": [
-        {
-          "id": "minecraft:iron_ore",
-          "Count": 8
-        },
-        {
-          "id": "minecraft:redstone",
-          "Count": 16
-        }
-      ],
-      "commandrewards": []
-    },
-    {
       "uuid": "804f4329-c6f5-4df8-915c-c590329cf26c",
       "name": {
         "text": "Unconventional Tools",
@@ -395,110 +348,6 @@
         {
           "id": "pamhc2crops:ryeseeditem",
           "Count": 1
-        }
-      ],
-      "commandrewards": []
-    },
-    {
-      "uuid": "3c8b89b6-0ec3-4376-9e84-41cf0345e55d",
-      "name": {
-        "text": "Killing Time",
-        "isTranslationKey": false
-      },
-      "description": {
-        "text": "Congrats on slaying those monsters",
-        "isTranslationKey": false
-      },
-      "x": 190,
-      "y": 156,
-      "icon": {
-        "id": "minecraft:zombie_spawn_egg",
-        "Count": 1
-      },
-      "trigger": "ANTI_TRIGGER",
-      "tasks": [
-        {
-          "type": "hardcorequesting:detect",
-          "description": {
-            "text": "Dirty Deeds",
-            "isTranslationKey": false
-          },
-          "items": [
-            {
-              "item": {
-                "id": "minecraft:rotten_flesh",
-                "Count": 1
-              },
-              "required": 50
-            }
-          ]
-        },
-        {
-          "type": "hardcorequesting:detect",
-          "description": {
-            "text": "Done Dirt Cheap",
-            "isTranslationKey": false
-          },
-          "items": [
-            {
-              "item": {
-                "id": "minecraft:bone",
-                "Count": 1
-              },
-              "required": 50
-            },
-            {
-              "item": {
-                "id": "minecraft:gunpowder",
-                "Count": 1
-              },
-              "required": 40
-            },
-            {
-              "item": {
-                "id": "minecraft:spider_eye",
-                "Count": 1
-              },
-              "required": 10
-            },
-            {
-              "item": {
-                "id": "minecraft:ender_pearl",
-                "Count": 1
-              },
-              "required": 5
-            }
-          ]
-        }
-      ],
-      "prerequisites": [
-        "0bdfc96b-6b5e-4f8f-932f-bda70b2114d7"
-      ],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "cgm:bazooka",
-          "Count": 1,
-          "tag": "{AmmoCount:1}"
-        },
-        {
-          "id": "cgm:missile",
-          "Count": 4
-        }
-      ],
-      "rewardchoice": [
-        {
-          "id": "tconstruct:small_blade",
-          "Count": 1,
-          "tag": "{Material:\"tconstruct:manyullyn\"}"
-        },
-        {
-          "id": "mekanism:steel_casing",
-          "Count": 1
-        },
-        {
-          "id": "sync:sync_core",
-          "Count": 2
         }
       ],
       "commandrewards": []
@@ -630,8 +479,7 @@
               "item": {
                 "id": "minecraft:gunpowder",
                 "Count": 1
-              },
-              "required": 3
+              }
             }
           ]
         },
@@ -959,7 +807,12 @@
       "reward": [
         {
           "id": "thermal:rubberwood_sapling",
-          "Count": 1
+          "Count": 2
+        },
+        {
+          "id": "thermal:flux_capacitor",
+          "Count": 1,
+          "tag": "{Energy:500000}"
         }
       ],
       "rewardchoice": [],
@@ -1080,8 +933,33 @@
           "id": "minecraft:potion",
           "Count": 4,
           "tag": "{Potion:\"survive:purified_water\"}"
+        },
+        {
+          "id": "minecraft:packed_ice",
+          "Count": 2
         }
       ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "ace193bf-bd8a-4435-a1c3-9175845b3469",
+      "name": {
+        "text": "Hard Route",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Trigger quest to control quests unlocked by the hard route",
+        "isTranslationKey": false
+      },
+      "x": 14,
+      "y": 164,
+      "trigger": "QUEST_TRIGGER",
+      "prerequisites": [
+        "477e01c0-8641-4b6b-970f-7374b04f6a68"
+      ],
+      "optionlinks": [],
+      "reward": [],
       "rewardchoice": [],
       "commandrewards": []
     },
@@ -1153,6 +1031,10 @@
       "tasks": [
         {
           "type": "hardcorequesting:detect",
+          "longDescription": {
+            "text": "Put a crucible above a heat source and right-click to place leaves inside for melting into purified water.",
+            "isTranslationKey": false
+          },
           "items": [
             {
               "item": {
@@ -1177,56 +1059,6 @@
         },
         {
           "id": "minecraft:oak_sapling",
-          "Count": 1
-        }
-      ],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
-      "uuid": "3f740b4d-65a3-42b9-85ea-bd8a54c1a3ea",
-      "name": {
-        "text": "Ice Ice Baby",
-        "isTranslationKey": false
-      },
-      "description": {
-        "text": "You\u0027ll eventually need something to cool you down from the scorching heat on T4L0S. However, with the replicator barely functional, it should be possible to produce some ice if you submit ten bottles of purified water.",
-        "isTranslationKey": false
-      },
-      "x": 190,
-      "y": 48,
-      "icon": {
-        "id": "minecraft:snowball",
-        "Count": 1
-      },
-      "trigger": "ANTI_TRIGGER",
-      "tasks": [
-        {
-          "type": "hardcorequesting:consume",
-          "longDescription": {
-            "text": "Snowmen don\u0027t last long in a desert. You may want to take some precautions or be ready with a shovel. ",
-            "isTranslationKey": true
-          },
-          "items": [
-            {
-              "item": {
-                "id": "minecraft:potion",
-                "Count": 1,
-                "tag": "{Potion:\"survive:purified_water\"}"
-              },
-              "required": 10,
-              "precision": "FUZZY"
-            }
-          ]
-        }
-      ],
-      "prerequisites": [
-        "15ad672b-7b9c-4115-a4b3-403c70654a40"
-      ],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "minecraft:snow_golem_spawn_egg",
           "Count": 1
         }
       ],
@@ -1461,7 +1293,7 @@
         {
           "type": "hardcorequesting:detect",
           "longDescription": {
-            "text": "Sieve dust or dirt for stone, use the stones to make cobblestone, use the cobblestone to make a furnace.",
+            "text": "You can get cobblestone by sieving dust or dirt for stone pebbles. Alternatively, with some careful planning, you may be able to generate cobblestone by connecting the water leak on the back of the ship to the fuel leak from the detached reactor. Once you have a source of stone, you can use it to craft your furnace and start smelting.",
             "isTranslationKey": false
           },
           "items": [
@@ -1498,6 +1330,27 @@
       "commandrewards": []
     },
     {
+      "uuid": "a63b8539-ab2c-4741-a920-afc5081deb38",
+      "name": {
+        "text": "Easy Route",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Trigger quest to control quests unlocked by the easy route",
+        "isTranslationKey": false
+      },
+      "x": 254,
+      "y": 12,
+      "trigger": "QUEST_TRIGGER",
+      "prerequisites": [
+        "7ee731c2-da61-4aab-a5fa-864fc4b62277"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
       "uuid": "bf8d316b-64d4-4a30-8c44-86f9c0be0cb3",
       "name": {
         "text": "Metal",
@@ -1518,7 +1371,7 @@
         {
           "type": "hardcorequesting:detect",
           "longDescription": {
-            "text": "Sifting dust and other blocks will drop metal ore pieces. Those can be crafted into ores and then smelted into ingots.",
+            "text": "Sifting dust and other blocks will drop metal ore chunks. Those can be crafted into ores and then smelted into ingots.",
             "isTranslationKey": false
           },
           "items": [
@@ -1548,20 +1401,6 @@
                 "Count": 1
               },
               "precision": "FUZZY"
-            },
-            {
-              "item": {
-                "id": "thermal:lead_ingot",
-                "Count": 1
-              },
-              "precision": "FUZZY"
-            },
-            {
-              "item": {
-                "id": "thermal:silver_ingot",
-                "Count": 1
-              },
-              "precision": "FUZZY"
             }
           ]
         }
@@ -1572,9 +1411,8 @@
       "optionlinks": [],
       "reward": [
         {
-          "id": "thermal:flux_capacitor",
-          "Count": 1,
-          "tag": "{Energy:500000}"
+          "id": "minecraft:iron_ore",
+          "Count": 8
         }
       ],
       "rewardchoice": [],
@@ -1625,11 +1463,6 @@
       ],
       "optionlinks": [],
       "reward": [
-        {
-          "id": "thermal:energy_cell",
-          "Count": 1,
-          "tag": "{BlockEntityTag:{AmountIn:1000,AmountOut:1000,Energy:1000000,EnergyMax:1000000,EnergyRecv:1000,EnergySend:1000,RSControl:{RSMode:0b,RSThreshold:0b},Sides:[B;3B,3B,3B,3B,3B,3B],Xfer:{XferIn:1b,XferOut:1b}},Properties:{}}"
-        },
         {
           "id": "chunkloaders:single_chunk_loader",
           "Count": 1
@@ -1699,7 +1532,7 @@
         "text": "For further industrialization, you\u0027ll need to move items, fluids, and energy around. Time to set up the plumbing.",
         "isTranslationKey": false
       },
-      "x": 238,
+      "x": 206,
       "y": 129,
       "icon": {
         "id": "enderio:item_conduit",
@@ -1739,23 +1572,22 @@
         }
       ],
       "prerequisites": [
-        "3ffa13cb-b198-4e83-bab7-676d08834311"
+        "bf8d316b-64d4-4a30-8c44-86f9c0be0cb3"
       ],
       "optionlinks": [],
       "reward": [
-        {
-          "id": "mekanism:basic_fluid_tank",
-          "Count": 1
-        },
         {
           "id": "sophisticatedstorage:iron_chest",
           "Count": 1,
           "tag": "{woodType:\"dark_oak\"}"
         },
         {
-          "id": "thermal:flux_capacitor",
-          "Count": 1,
-          "tag": "{Energy:500000}"
+          "id": "mekanism:basic_fluid_tank",
+          "Count": 1
+        },
+        {
+          "id": "mekanism:basic_energy_cube",
+          "Count": 1
         }
       ],
       "rewardchoice": [],
@@ -1832,7 +1664,7 @@
         "isTranslationKey": false
       },
       "description": {
-        "text": "String armor can help you stay cool in the blazing heat, especially if you go anywhere near the lava leak.",
+        "text": "String armor can help you stay cool in the blazing heat, especially if you go anywhere near that reactor leak.",
         "isTranslationKey": false
       },
       "x": 62,
