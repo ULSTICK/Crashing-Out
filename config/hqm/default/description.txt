@@ -15,9 +15,9 @@ Your embedded Heads-Up Display provides real-time monitoring of the following:
 
 Familiarize yourself with your environment, orient yourself, and begin to follow the tasks in the MAT "Basic Survival" guide.
 
+----------------------------
 
-
-
+This modpack is not yet finished, and I would love to hear feedback about how we can improve it. You can reach the developers on our discord, invite code §9AVPtE3JypJ§r, or go to §9discord.gg/AVPtE3JypJ§r.
 
 Developers:
 - MarkSDR

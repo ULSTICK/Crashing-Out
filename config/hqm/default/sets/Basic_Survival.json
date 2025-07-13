@@ -59,7 +59,7 @@
         "text": "The night is dark and full of terrors. Your chances of survival are low, but you can improve them with some sort of weapon to defend yourself.",
         "isTranslationKey": false
       },
-      "x": 126,
+      "x": 62,
       "y": 156,
       "icon": {
         "id": "tconstruct:sword",
@@ -110,6 +110,82 @@
           "Count": 32
         }
       ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "6f4c9614-c79e-4016-b153-290df8016c8b",
+      "name": {
+        "text": "String Theory",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Silk worms can be found in tree leaves, and under certain conditions, they will spread through a tree, spinning cocoons of usable silk.",
+        "isTranslationKey": false
+      },
+      "x": 126,
+      "y": 156,
+      "icon": {
+        "id": "exdeorum:silk_worm",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "hardcorequesting:detect",
+          "longDescription": {
+            "text": "Right-click some leaves with a silk worm to infest them. Infested leaf blocks will drop string and more silk worms, and the silk worms will spread to adjacent leaf blocks. This is useful for getting string. Break the infested leaves with a crook for higher yields.",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "exdeorum:silk_worm",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "804f4329-c6f5-4df8-915c-c590329cf26c"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "exdeorum:bone_crook",
+          "Count": 1,
+          "tag": "{Damage:0}"
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "eddaaad6-761a-458a-8e0f-ff4297889adc",
+      "name": {
+        "text": "Alloying",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Invisible trigger quest for when the player unlocks an alloying method.",
+        "isTranslationKey": false
+      },
+      "x": 14,
+      "y": 3,
+      "icon": {
+        "id": "create:brass_ingot",
+        "Count": 1
+      },
+      "trigger": "QUEST_TRIGGER",
+      "parentrequirement": 1,
+      "prerequisites": [
+        "10a23876-3d34-40db-b3be-0f9569c5b459",
+        "059da201-0f0d-47ee-9bf0-416b63d26600",
+        "67994482-4981-4cfd-9ca6-afde4340fb62",
+        "eb909f46-772b-4fdf-8680-225dabb668ff"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
       "commandrewards": []
     },
     {
@@ -166,9 +242,36 @@
       "commandrewards": []
     },
     {
+      "uuid": "1892c9be-9d6c-4c4a-bbe3-b0a606205724",
+      "name": {
+        "text": "Pressed Metal",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Unnamed quest",
+        "isTranslationKey": false
+      },
+      "x": 14,
+      "y": 39,
+      "icon": {
+        "id": "create:mechanical_press",
+        "Count": 1
+      },
+      "trigger": "QUEST_TRIGGER",
+      "parentrequirement": 1,
+      "prerequisites": [
+        "13a983d5-2a40-4c74-91f0-9847656342e0",
+        "b498eec9-851e-4d17-ab0d-b86eeb4a72be"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
       "uuid": "1db4c845-3db8-4e94-aa7d-ff88f75a45fd",
       "name": {
-        "text": "Hotter than a furance",
+        "text": "Melting Pot",
         "isTranslationKey": false
       },
       "description": {
@@ -181,6 +284,7 @@
         "id": "exdeorum:unfired_porcelain_crucible",
         "Count": 1
       },
+      "trigger": "ANTI_TRIGGER",
       "tasks": [
         {
           "type": "hardcorequesting:detect",
@@ -236,14 +340,14 @@
     {
       "uuid": "804f4329-c6f5-4df8-915c-c590329cf26c",
       "name": {
-        "text": "Unconventional Tools",
+        "text": "By Hook or by Crook",
         "isTranslationKey": false
       },
       "description": {
-        "text": "To build up from nothing, you\u0027ll have to have some interesting survival strategies, and unique tools to go with them.",
+        "text": "Breaking leaves will give saplings, but the chance is small. By knocking them down with a crook, you can triple your chance of finding saplings. Perhaps you can find something else useful in the leaves as well.",
         "isTranslationKey": false
       },
-      "x": 142,
+      "x": 110,
       "y": 129,
       "icon": {
         "id": "exdeorum:crook",
@@ -255,21 +359,13 @@
         {
           "type": "hardcorequesting:detect",
           "longDescription": {
-            "text": "A crook can give you silkworms from breaking leaves and a hammer can crush stone into gravel and sand.",
+            "text": "A crook will increase the drop chance of saplings from leaves, and has a small chance of giving a silk worm.",
             "isTranslationKey": false
           },
           "items": [
             {
               "item": {
                 "id": "exdeorum:crook",
-                "Count": 1,
-                "tag": "{Damage:0}"
-              },
-              "precision": "FUZZY"
-            },
-            {
-              "item": {
-                "id": "exdeorum:stone_hammer",
                 "Count": 1,
                 "tag": "{Damage:0}"
               },
@@ -284,8 +380,8 @@
       "optionlinks": [],
       "reward": [
         {
-          "id": "minecraft:andesite",
-          "Count": 8
+          "id": "thermal:rubberwood_sapling",
+          "Count": 2
         }
       ],
       "rewardchoice": [],
@@ -301,7 +397,7 @@
         "text": "If you need to glue something in a pinch, you don\u0027t need to find slime to do it. It turns out mixing water and flour makes a great adhesive.",
         "isTranslationKey": false
       },
-      "x": 110,
+      "x": 78,
       "y": 75,
       "icon": {
         "id": "kubejs:paste",
@@ -326,8 +422,8 @@
         }
       ],
       "prerequisites": [
-        "2a312464-2f8f-41b6-aff3-a31d475396a8",
-        "d4d8bba6-7b9e-417a-b543-90ffb032400b"
+        "6cd42c29-0afd-49d5-b8ca-9c3c50a63970",
+        "2a312464-2f8f-41b6-aff3-a31d475396a8"
       ],
       "optionlinks": [],
       "reward": [
@@ -350,6 +446,59 @@
           "Count": 1
         }
       ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "485801ed-15cb-43f9-ac50-1e31cf9c97a0",
+      "name": {
+        "text": "Hammer Time",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Hammers can be used to crush stone into finer and finer pieces. Cobblestone can be crushed into gravel, gravel into sand, and sand into dust, though T4L0S has a lot of readily available dust on the surface already.",
+        "isTranslationKey": false
+      },
+      "x": 142,
+      "y": 129,
+      "icon": {
+        "id": "exdeorum:stone_hammer",
+        "Count": 1,
+        "tag": "{Damage:0}"
+      },
+      "tasks": [
+        {
+          "type": "hardcorequesting:detect",
+          "longDescription": {
+            "text": "A hammer can crush stone into gravel and sand. You can generate cobblestone where flowing water and lava meet. The water and fuel leaks near the back of the ship could even be connected for an early source of stone.",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:gravel",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "minecraft:sand",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "6cd42c29-0afd-49d5-b8ca-9c3c50a63970"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:gravel",
+          "Count": 16
+        }
+      ],
+      "rewardchoice": [],
       "commandrewards": []
     },
     {
@@ -428,15 +577,15 @@
     {
       "uuid": "0bdfc96b-6b5e-4f8f-932f-bda70b2114d7",
       "name": {
-        "text": "Fighting",
+        "text": "The Night Shift",
         "isTranslationKey": false
       },
       "description": {
-        "text": "Is it just me or does this planet have a lot of undead hostiles. The lack of any life forms baffle me as to how endless they feel.",
+        "text": "The \"life\" on T4L0S seems to mostly be made up of the animated bodies of its former inhabitants, all of which appear hostile. The optimal survival strategy is to avoid confrontation, but some of them leave behind useful items when killed. ",
         "isTranslationKey": false
       },
-      "x": 158,
-      "y": 156,
+      "x": 78,
+      "y": 183,
       "icon": {
         "id": "minecraft:rotten_flesh",
         "Count": 1
@@ -450,7 +599,7 @@
             "isTranslationKey": false
           },
           "longDescription": {
-            "text": "Because of some hqm limitations, you will have to get the mob drops!",
+            "text": "Kill mobs to collect their drops. Rotten flesh can be used for zombie jerky or smelted into leather. Bones can be used as an early tool material or to make bonemeal for crops. Spider eyes can be used to make soup in a pinch, and gunpowder can make all sorts of explosives.",
             "isTranslationKey": false
           },
           "items": [
@@ -489,6 +638,10 @@
             "text": "...till the end of the night",
             "isTranslationKey": false
           },
+          "longDescription": {
+            "text": "The most interesting mob drop is the ender pearl. Not only can it teleport the player when thrown, but its teleportation-related properties allow all sorts of interesting items to be crafted from it. ",
+            "isTranslationKey": false
+          },
           "items": [
             {
               "item": {
@@ -505,12 +658,12 @@
       "optionlinks": [],
       "reward": [
         {
-          "id": "extra_food_items:zombie_jerky",
+          "id": "kubejs:zombie_jerky",
           "Count": 4
         },
         {
           "id": "cgm:shell",
-          "Count": 16
+          "Count": 32
         },
         {
           "id": "minecraft:ender_pearl",
@@ -586,11 +739,11 @@
         "isTranslationKey": false
       },
       "description": {
-        "text": "Sometimes, paste just won\u0027t do. Maybe you\u0027re just sick of the smell, or maybe you need the special properties of earth, sky, ichor, and ender slime balls for advanced tinkering.",
+        "text": "Sometimes, paste just won\u0027t do. Maybe you\u0027re just sick of the smell, or maybe you need the special properties of earthslime or skyslime for advanced tinkering.",
         "isTranslationKey": false
       },
-      "x": 110,
-      "y": 129,
+      "x": 62,
+      "y": 48,
       "icon": {
         "id": "minecraft:slime_ball",
         "Count": 1
@@ -600,7 +753,7 @@
         {
           "type": "hardcorequesting:detect",
           "longDescription": {
-            "text": "The best way to get special types of slimes is through sifting. Earthslime can be crafted in a few ways, but to get the others, you\u0027ll need to sift with their respective materials. Earthslime and skyslime can be found sifting podzol, ichor can be found sifting crushed netherrack, and enderslime can be found sifting crushed end stone.",
+            "text": "The best way to get special types of slimes is through sifting. Earthslime and skyslime can be found sifting podzol.",
             "isTranslationKey": false
           },
           "items": [
@@ -615,24 +768,11 @@
                 "id": "tconstruct:sky_slime_ball",
                 "Count": 1
               }
-            },
-            {
-              "item": {
-                "id": "tconstruct:ichor_slime_ball",
-                "Count": 1
-              }
-            },
-            {
-              "item": {
-                "id": "tconstruct:ender_slime_ball",
-                "Count": 1
-              }
             }
           ]
         }
       ],
       "prerequisites": [
-        "0f7c28b0-3881-419c-9d4b-ca936ad109f3",
         "6acadfe6-4853-4cf1-af89-d44bc0f42ce1"
       ],
       "optionlinks": [],
@@ -640,22 +780,6 @@
         {
           "id": "tconstruct:tinkers_gadgetry",
           "Count": 1
-        },
-        {
-          "id": "tconstruct:earth_slime_crystal",
-          "Count": 4
-        },
-        {
-          "id": "tconstruct:sky_slime_crystal",
-          "Count": 4
-        },
-        {
-          "id": "tconstruct:ichor_slime_crystal",
-          "Count": 4
-        },
-        {
-          "id": "tconstruct:ender_slime_crystal",
-          "Count": 4
         }
       ],
       "rewardchoice": [],
@@ -671,7 +795,7 @@
         "text": "For your continued survival, you\u0027ll need to start farming crops and trees on a larger scale. Neither of those are able to take root in the dust of this planet. However, you can compost organic material in a barrel to make some more dirt for yourself.",
         "isTranslationKey": false
       },
-      "x": 78,
+      "x": 110,
       "y": 75,
       "icon": {
         "id": "minecraft:dirt",
@@ -756,11 +880,11 @@
       "rewardchoice": [
         {
           "id": "exdeorum:crushed_netherrack",
-          "Count": 8
+          "Count": 16
         },
         {
           "id": "exdeorum:crushed_end_stone",
-          "Count": 8
+          "Count": 16
         }
       ],
       "commandrewards": []
@@ -768,7 +892,7 @@
     {
       "uuid": "3ffa13cb-b198-4e83-bab7-676d08834311",
       "name": {
-        "text": "Pitiful Power",
+        "text": "Power Struggle",
         "isTranslationKey": false
       },
       "description": {
@@ -806,10 +930,6 @@
       "optionlinks": [],
       "reward": [
         {
-          "id": "thermal:rubberwood_sapling",
-          "Count": 2
-        },
-        {
           "id": "thermal:flux_capacitor",
           "Count": 1,
           "tag": "{Energy:500000}"
@@ -828,8 +948,8 @@
         "text": "The harsh reality is that you\u0027re stuck on this planet. No amount of obsidian rectangles will let you escape. However, the situation means you can\u0027t get some resources (like soul sand) through normal methods.",
         "isTranslationKey": false
       },
-      "x": 62,
-      "y": 48,
+      "x": 110,
+      "y": 21,
       "icon": {
         "id": "minecraft:soul_sand",
         "Count": 1
@@ -999,13 +1119,58 @@
       ],
       "prerequisites": [
         "1db4c845-3db8-4e94-aa7d-ff88f75a45fd",
-        "804f4329-c6f5-4df8-915c-c590329cf26c"
+        "485801ed-15cb-43f9-ac50-1e31cf9c97a0"
       ],
       "optionlinks": [],
       "reward": [
         {
           "id": "minecraft:hopper",
           "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "d7150e2a-3614-4a26-b1b6-ddff205497b7",
+      "name": {
+        "text": "Water Under the Bridge",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Finding a food source is urgent, but crops grow slowly. The fertilizer in your survival package won\u0027t last very long, so investing in another way to speed up crop growth is a good idea.",
+        "isTranslationKey": false
+      },
+      "x": 110,
+      "y": 183,
+      "icon": {
+        "id": "exdeorum:wooden_watering_can",
+        "Count": 1
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "hardcorequesting:consume",
+          "items": [
+            {
+              "item": {
+                "id": "exdeorum:wooden_watering_can",
+                "Count": 1
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "804f4329-c6f5-4df8-915c-c590329cf26c"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "exdeorum:wooden_watering_can",
+          "Count": 1,
+          "tag": "{Fluid:{Amount:300,FluidName:\"minecraft:water\"}}"
         }
       ],
       "rewardchoice": [],
@@ -1068,7 +1233,7 @@
     {
       "uuid": "0f7c28b0-3881-419c-9d4b-ca936ad109f3",
       "name": {
-        "text": "Tool Tinkering",
+        "text": "Tinker\u0027s Tools",
         "isTranslationKey": false
       },
       "description": {
@@ -1273,9 +1438,30 @@
       "commandrewards": []
     },
     {
+      "uuid": "a63b8539-ab2c-4741-a920-afc5081deb38",
+      "name": {
+        "text": "Easy Route",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Trigger quest to control quests unlocked by the easy route",
+        "isTranslationKey": false
+      },
+      "x": 238,
+      "y": 75,
+      "trigger": "QUEST_TRIGGER",
+      "prerequisites": [
+        "7ee731c2-da61-4aab-a5fa-864fc4b62277"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
       "uuid": "099d1358-0b11-49f0-aa78-43531cd739b7",
       "name": {
-        "text": "Firing it up!",
+        "text": "Fired Up",
         "isTranslationKey": false
       },
       "description": {
@@ -1330,30 +1516,9 @@
       "commandrewards": []
     },
     {
-      "uuid": "a63b8539-ab2c-4741-a920-afc5081deb38",
-      "name": {
-        "text": "Easy Route",
-        "isTranslationKey": false
-      },
-      "description": {
-        "text": "Trigger quest to control quests unlocked by the easy route",
-        "isTranslationKey": false
-      },
-      "x": 254,
-      "y": 12,
-      "trigger": "QUEST_TRIGGER",
-      "prerequisites": [
-        "7ee731c2-da61-4aab-a5fa-864fc4b62277"
-      ],
-      "optionlinks": [],
-      "reward": [],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
       "uuid": "bf8d316b-64d4-4a30-8c44-86f9c0be0cb3",
       "name": {
-        "text": "Metal",
+        "text": "Metal Detector",
         "isTranslationKey": false
       },
       "description": {
@@ -1472,9 +1637,74 @@
       "commandrewards": []
     },
     {
+      "uuid": "b187f443-9637-4183-b582-af661a4070e0",
+      "name": {
+        "text": "Exotic Tastes",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Ichor and enderslime are more advanced kinds of slime with even more special properties in tinkering.",
+        "isTranslationKey": false
+      },
+      "x": 78,
+      "y": 21,
+      "icon": {
+        "id": "tconstruct:ichor_slime_ball",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "hardcorequesting:detect",
+          "longDescription": {
+            "text": "To get the more exotic types of slime, you\u0027ll need to sift with their respective materials. Ichor can be found sifting crushed netherrack, and enderslime can be found sifting crushed end stone.",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "tconstruct:ichor_slime_ball",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "tconstruct:ender_slime_ball",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "c5d70928-cc40-46b5-bfb0-3f3b800a84ea",
+        "ab277ce2-86d3-4935-b7bc-499307cd7b5c"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "tconstruct:earth_slime_crystal",
+          "Count": 4
+        },
+        {
+          "id": "tconstruct:sky_slime_crystal",
+          "Count": 4
+        },
+        {
+          "id": "tconstruct:ichor_slime_crystal",
+          "Count": 4
+        },
+        {
+          "id": "tconstruct:ender_slime_crystal",
+          "Count": 4
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
       "uuid": "6cd42c29-0afd-49d5-b8ca-9c3c50a63970",
       "name": {
-        "text": "The Very Basics",
+        "text": "Back to Basics",
         "isTranslationKey": false
       },
       "description": {
@@ -1523,84 +1753,13 @@
       "commandrewards": []
     },
     {
-      "uuid": "336ad751-3c3d-457d-b85c-e6d0bbe7b125",
-      "name": {
-        "text": "Pipe Dreams",
-        "isTranslationKey": false
-      },
-      "description": {
-        "text": "For further industrialization, you\u0027ll need to move items, fluids, and energy around. Time to set up the plumbing.",
-        "isTranslationKey": false
-      },
-      "x": 206,
-      "y": 129,
-      "icon": {
-        "id": "enderio:item_conduit",
-        "Count": 1
-      },
-      "trigger": "ANTI_TRIGGER",
-      "tasks": [
-        {
-          "type": "hardcorequesting:detect",
-          "longDescription": {
-            "text": "Conduits are made from conduit binder and their respective materials. You can change conduit settings by right clicking their I/O interface or right clicking with a wrench to make quick adjustments. ",
-            "isTranslationKey": true
-          },
-          "items": [
-            {
-              "item": {
-                "id": "enderio:item_conduit",
-                "Count": 1
-              },
-              "precision": "FUZZY"
-            },
-            {
-              "item": {
-                "id": "enderio:fluid_conduit",
-                "Count": 1
-              },
-              "precision": "FUZZY"
-            },
-            {
-              "item": {
-                "id": "enderio:energy_conduit",
-                "Count": 1
-              },
-              "precision": "FUZZY"
-            }
-          ]
-        }
-      ],
-      "prerequisites": [
-        "bf8d316b-64d4-4a30-8c44-86f9c0be0cb3"
-      ],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "sophisticatedstorage:iron_chest",
-          "Count": 1,
-          "tag": "{woodType:\"dark_oak\"}"
-        },
-        {
-          "id": "mekanism:basic_fluid_tank",
-          "Count": 1
-        },
-        {
-          "id": "mekanism:basic_energy_cube",
-          "Count": 1
-        }
-      ],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
       "uuid": "b910ad01-be2f-4928-b33d-6a38353b8b9f",
       "name": {
-        "text": "Azde",
+        "text": "Breaking Ground",
         "isTranslationKey": false
       },
       "description": {
-        "text": "You\u0027ll need some tools to stay alive out here as well. In Tinkers Construct, bone tools are usually the best at the start, but you could make a different type if you\u0027d like. Wood and stone tools are generally ineffective.",
+        "text": "You\u0027ll need some tools to stay alive out here as well. Bone tools are likelythe best starting material, but you can make a different type if you\u0027d like. Wood and stone tools are generally ineffective.",
         "isTranslationKey": false
       },
       "x": 94,
@@ -1660,17 +1819,17 @@
     {
       "uuid": "3f4bca77-f975-4406-9e7b-1cbe559b3068",
       "name": {
-        "text": "Keeping Cool",
+        "text": "Letting it Breathe",
         "isTranslationKey": false
       },
       "description": {
         "text": "String armor can help you stay cool in the blazing heat, especially if you go anywhere near that reactor leak.",
         "isTranslationKey": false
       },
-      "x": 62,
+      "x": 158,
       "y": 156,
       "icon": {
-        "id": "extra_food_items:stringarmor_chestplate",
+        "id": "kubejs:string_chestplate",
         "Count": 1,
         "tag": "{Damage:0}"
       },
@@ -1685,7 +1844,7 @@
           "items": [
             {
               "item": {
-                "id": "extra_food_items:stringarmor_helmet",
+                "id": "kubejs:string_helmet",
                 "Count": 1,
                 "tag": "{Damage:0}"
               },
@@ -1693,7 +1852,7 @@
             },
             {
               "item": {
-                "id": "extra_food_items:stringarmor_chestplate",
+                "id": "kubejs:string_chestplate",
                 "Count": 1,
                 "tag": "{Damage:0}"
               },
@@ -1701,7 +1860,7 @@
             },
             {
               "item": {
-                "id": "extra_food_items:stringarmor_leggings",
+                "id": "kubejs:string_leggings",
                 "Count": 1,
                 "tag": "{Damage:0}"
               },
@@ -1709,7 +1868,7 @@
             },
             {
               "item": {
-                "id": "extra_food_items:stringarmor_boots",
+                "id": "kubejs:string_boots",
                 "Count": 1,
                 "tag": "{Damage:0}"
               },
@@ -1719,7 +1878,7 @@
         }
       ],
       "prerequisites": [
-        "0f7c28b0-3881-419c-9d4b-ca936ad109f3"
+        "6f4c9614-c79e-4016-b153-290df8016c8b"
       ],
       "optionlinks": [],
       "reward": [
@@ -1732,5 +1891,9 @@
       "commandrewards": []
     }
   ],
-  "reputationBar": []
+  "reputationBar": [],
+  "description": {
+    "text": "Guide to the initial stages of surviving on an unknown world.",
+    "isTranslationKey": false
+  }
 }
