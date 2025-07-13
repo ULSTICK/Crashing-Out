@@ -100,6 +100,9 @@
     "milk_jar": true,
     "toaster": true
   },
+  "functionalstorage": {
+    "armory": true
+  },
   "balm": {
     "jade": true
   },

@@ -34,10 +34,10 @@
     "modId": "appmek",
     "version": "1.4.2"
   },
-  "appliedenergistics2-forge-15.4.5.jar": {
-    "jarName": "appliedenergistics2-forge-15.4.5.jar",
+  "appliedenergistics2-forge-15.4.6.jar": {
+    "jarName": "appliedenergistics2-forge-15.4.6.jar",
     "modId": "ae2",
-    "version": "15.4.5"
+    "version": "15.4.6"
   },
   "architectury-9.2.14-forge.jar": {
     "jarName": "architectury-9.2.14-forge.jar",
@@ -202,10 +202,10 @@
     "modId": "crafting_on_a_stick",
     "version": "1.1.5"
   },
-  "CrashAssistant-forge-1.19.2-1.20.1-1.9.6.jar": {
-    "jarName": "CrashAssistant-forge-1.19.2-1.20.1-1.9.6.jar",
+  "CrashAssistant-forge-1.19.2-1.20.1-1.9.11.jar": {
+    "jarName": "CrashAssistant-forge-1.19.2-1.20.1-1.9.11.jar",
     "modId": "crash_assistant",
-    "version": "1.9.6"
+    "version": "1.9.11"
   },
   "create-1.20.1-6.0.6.jar": {
     "jarName": "create-1.20.1-6.0.6.jar",
@@ -262,10 +262,10 @@
     "modId": "enchdesc",
     "version": "17.1.19"
   },
-  "EnderIO-1.20.1-6.2.11-beta-all.jar": {
-    "jarName": "EnderIO-1.20.1-6.2.11-beta-all.jar",
+  "EnderIO-1.20.1-6.2.12-beta-all.jar": {
+    "jarName": "EnderIO-1.20.1-6.2.12-beta-all.jar",
     "modId": "enderio",
-    "version": "6.2.11-beta"
+    "version": "6.2.12-beta"
   },
   "EnderStorage-1.20.1-2.11.0.188-universal.jar": {
     "jarName": "EnderStorage-1.20.1-2.11.0.188-universal.jar",
@@ -277,10 +277,10 @@
     "modId": "enhancedai",
     "version": "2.6.4"
   },
-  "entityculling-forge-1.8.0-mc1.20.1.jar": {
-    "jarName": "entityculling-forge-1.8.0-mc1.20.1.jar",
+  "entityculling-forge-1.8.1-mc1.20.1.jar": {
+    "jarName": "entityculling-forge-1.8.1-mc1.20.1.jar",
     "modId": "entityculling",
-    "version": "1.8.0"
+    "version": "1.8.1"
   },
   "exdeorum-1.46.jar": {
     "jarName": "exdeorum-1.46.jar",
@@ -327,15 +327,15 @@
     "modId": "framework",
     "version": "0.7.15"
   },
-  "functionalstorage-1.20.1-1.2.12.jar": {
-    "jarName": "functionalstorage-1.20.1-1.2.12.jar",
+  "functionalstorage-1.20.1-1.2.13.jar": {
+    "jarName": "functionalstorage-1.20.1-1.2.13.jar",
     "modId": "functionalstorage",
-    "version": "1.20.1-1.2.12"
+    "version": "1.20.1-1.2.13"
   },
-  "fusion-1.2.7b-forge-mc1.20.1.jar": {
-    "jarName": "fusion-1.2.7b-forge-mc1.20.1.jar",
+  "fusion-1.2.8-forge-mc1.20.1.jar": {
+    "jarName": "fusion-1.2.8-forge-mc1.20.1.jar",
     "modId": "fusion",
-    "version": "1.2.7+b"
+    "version": "1.2.8"
   },
   "geckolib-forge-1.20.1-4.7.2.jar": {
     "jarName": "geckolib-forge-1.20.1-4.7.2.jar",
@@ -485,10 +485,10 @@
     "modId": "mob_grinding_utils",
     "version": "1.20.1-1.1.0"
   },
-  "modernfix-forge-5.23.1+mc1.20.1.jar": {
-    "jarName": "modernfix-forge-5.23.1+mc1.20.1.jar",
+  "modernfix-forge-5.24.2+mc1.20.1.jar": {
+    "jarName": "modernfix-forge-5.24.2+mc1.20.1.jar",
     "modId": "modernfix",
-    "version": "5.23.1+mc1.20.1"
+    "version": "5.24.2+mc1.20.1"
   },
   "moonlight-1.20-2.14.11-forge.jar": {
     "jarName": "moonlight-1.20-2.14.11-forge.jar",
