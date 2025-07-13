@@ -1,6 +1,6 @@
 ServerEvents.recipes(event => {
     // Removes all Ad Astra recipes. When this line is removed, remove the "ad_astra:*+" line from AlmostUnified's duplicates.json
-    event.remove({ mod: 'ad_astra' });
+    // event.remove({ mod: 'ad_astra' });
 
     // removes all recipes of the following types
     event.remove({ type: 'ad_astra:compressing' });

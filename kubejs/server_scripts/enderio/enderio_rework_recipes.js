@@ -110,6 +110,8 @@ ServerEvents.recipes(event => {
 
     // remove all recipes with the following items in the output only
     [
+        'enderio:enderios',
+        
         'enderio:grains_of_infinity',
         'enderio:z_logic_controller',
         'enderio:wood_gear',

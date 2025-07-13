@@ -6,7 +6,7 @@
 	#Whether players in a void world start out with a full wooden watering can.
 	starting_watering_can = true
 	#Whether players can use multiple sieves in a 3x3 or larger area at once.
-	simultaneous_sieve_usage = false
+	simultaneous_sieve_usage = true
 	#The range from which simultaneous sieve usage can reach. 1 means a maximum of 3x3 sieves at once, 2 means a maximum of 5x5, 3 means maximum of 7x7 simultaneous sieves, and so on.
 	#Range: 0 ~ 6
 	simultaneous_sieve_range = 2

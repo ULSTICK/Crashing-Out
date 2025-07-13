@@ -82,6 +82,8 @@ JEIEvents.hideItems(event => {
 
 
 
+        'enderio:enderios',
+        
         'enderio:grains_of_infinity',
         'enderio:z_logic_controller',
         'enderio:wood_gear',
