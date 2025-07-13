@@ -193,11 +193,13 @@ ServerEvents.recipes(event => {
         `
             exdeorum:stone_pebble	180	216	252	288	324	360
             exdeorum:grass_seeds	8	9.6	11.2	12.8	14.4	16
+            minecraft:wheat_seeds	6	7.2	8.4	9.6	10.8	12
             pamhc2crops:riceseeditem	6	7.2	8.4	9.6	10.8	12
             minecraft:sugar_cane	4	4.8	5.6	6.4	7.2	8
             minecraft:oak_sapling	3	3.6	4.2	4.8	5.4	6
             thermal:rubberwood_sapling	2.5	3	3.5	4	4.5	5
             pamhc2crops:soybeanseeditem	2.5	3	3.5	4	4.5	5
+            pamhc2crops:cottonseeditem	2	2.4	2.8	3.2	3.6	4
             pamhc2crops:peanutseeditem	2	2.4	2.8	3.2	3.6	4
             pamhc2crops:tomatoseeditem	2	2.4	2.8	3.2	3.6	4
             pamhc2crops:grapeseeditem	1.5	1.8	2.1	2.4	2.7	3
