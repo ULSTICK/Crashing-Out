@@ -1,5 +1,5 @@
 {
-  "name": "Aesthetic Automation",
+  "name": "Like Clockwork",
   "quests": [
     {
       "uuid": "52568165-b806-461d-9e85-031b089dbbef",
@@ -46,7 +46,24 @@
       ],
       "optionlinks": [],
       "reward": [],
-      "rewardchoice": [],
+      "rewardchoice": [
+        {
+          "id": "createaddition:modular_accumulator",
+          "Count": 2
+        },
+        {
+          "id": "createaddition:portable_energy_interface",
+          "Count": 2
+        },
+        {
+          "id": "createaddition:electrum_spool",
+          "Count": 4
+        },
+        {
+          "id": "createaddition:copper_spool",
+          "Count": 4
+        }
+      ],
       "commandrewards": []
     },
     {
@@ -59,7 +76,7 @@
         "text": "You\u0027ll need some basic building blocks before you can start setting up machinery.",
         "isTranslationKey": false
       },
-      "x": 174,
+      "x": 142,
       "y": 21,
       "icon": {
         "id": "create:andesite_alloy",
@@ -116,51 +133,12 @@
         "b0dcbccf-fc55-43e1-8782-9454d7fcca9c"
       ],
       "optionlinks": [],
-      "reward": [],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
-      "uuid": "e6d0efde-1f09-434e-9f80-a45f09d37ec0",
-      "name": {
-        "text": "Penny Lane",
-        "isTranslationKey": false
-      },
-      "description": {
-        "text": "Unnamed",
-        "isTranslationKey": false
-      },
-      "x": 110,
-      "y": 165,
-      "icon": {
-        "id": "create:copper_sheet",
-        "Count": 1
-      },
-      "trigger": "ANTI_TRIGGER",
-      "tasks": [
+      "reward": [
         {
-          "type": "hardcorequesting:detect",
-          "longDescription": {
-            "text": "Copper plating is often used in fluid transportation.",
-            "isTranslationKey": false
-          },
-          "items": [
-            {
-              "item": {
-                "id": "create:copper_sheet",
-                "Count": 1
-              }
-            }
-          ]
+          "id": "minecraft:quartz",
+          "Count": 8
         }
       ],
-      "prerequisites": [
-        "bf8d316b-64d4-4a30-8c44-86f9c0be0cb3",
-        "1892c9be-9d6c-4c4a-bbe3-b0a606205724",
-        "54646046-e479-4bcb-941c-6713a659646f"
-      ],
-      "optionlinks": [],
-      "reward": [],
       "rewardchoice": [],
       "commandrewards": []
     },
@@ -207,10 +185,74 @@
       "prerequisites": [
         "54646046-e479-4bcb-941c-6713a659646f",
         "1892c9be-9d6c-4c4a-bbe3-b0a606205724",
-        "eddaaad6-761a-458a-8e0f-ff4297889adc"
+        "eddaaad6-761a-458a-8e0f-ff4297889adc",
+        "bf8d316b-64d4-4a30-8c44-86f9c0be0cb3"
       ],
       "optionlinks": [],
-      "reward": [],
+      "reward": [
+        {
+          "id": "createaddition:diamond_grit_sandpaper",
+          "Count": 1,
+          "tag": "{Damage:0}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "create:brass_ingot",
+          "Count": 4
+        },
+        {
+          "id": "minecraft:redstone",
+          "Count": 32
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "e6d0efde-1f09-434e-9f80-a45f09d37ec0",
+      "name": {
+        "text": "Penny Lane",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Unnamed",
+        "isTranslationKey": false
+      },
+      "x": 110,
+      "y": 165,
+      "icon": {
+        "id": "create:copper_sheet",
+        "Count": 1
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "hardcorequesting:detect",
+          "longDescription": {
+            "text": "Copper plating is often used in fluid transportation.",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "create:copper_sheet",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "bf8d316b-64d4-4a30-8c44-86f9c0be0cb3",
+        "1892c9be-9d6c-4c4a-bbe3-b0a606205724"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:copper_ingot",
+          "Count": 4
+        }
+      ],
       "rewardchoice": [],
       "commandrewards": []
     },
@@ -359,7 +401,12 @@
       ],
       "optionlinks": [],
       "reward": [],
-      "rewardchoice": [],
+      "rewardchoice": [
+        {
+          "id": "create:nozzle",
+          "Count": 1
+        }
+      ],
       "commandrewards": []
     },
     {
@@ -423,7 +470,16 @@
         "a552a1cc-bdcd-45df-8fc7-11d3de4f3085"
       ],
       "optionlinks": [],
-      "reward": [],
+      "reward": [
+        {
+          "id": "create:blaze_cake_base",
+          "Count": 4
+        },
+        {
+          "id": "createaddition:straw",
+          "Count": 1
+        }
+      ],
       "rewardchoice": [],
       "commandrewards": []
     },
@@ -471,22 +527,31 @@
         "e6d0efde-1f09-434e-9f80-a45f09d37ec0"
       ],
       "optionlinks": [],
-      "reward": [],
+      "reward": [
+        {
+          "id": "create:fluid_pipe",
+          "Count": 16
+        },
+        {
+          "id": "create:mechanical_pump",
+          "Count": 4
+        }
+      ],
       "rewardchoice": [],
       "commandrewards": []
     },
     {
       "uuid": "b0dcbccf-fc55-43e1-8782-9454d7fcca9c",
       "name": {
-        "text": "Unnamed",
+        "text": "Down to Brass Tacks",
         "isTranslationKey": false
       },
       "description": {
-        "text": "Unnamed quest",
+        "text": "The MAT unit is capable of providing an abbreviated guide to creating mechanical contraptions, using rotational force, but also has a comprehensive guide to creating more advanced contraptions that can be opted-into instead.",
         "isTranslationKey": false
       },
-      "x": 141,
-      "y": -6,
+      "x": 174,
+      "y": 21,
       "icon": {
         "id": "create:clipboard",
         "Count": 1
@@ -494,7 +559,11 @@
       "trigger": "ANTI_TRIGGER",
       "tasks": [
         {
-          "type": "hardcorequesting:checkbox"
+          "type": "hardcorequesting:checkbox",
+          "longDescription": {
+            "text": "Most of the Create mod is not required to complete this modpack. If you want to skip the guide to Create and just play with the 6 most relevant quests, click the checkbox below. If not, complete the \"Full Steam Ahead\" quest instead.",
+            "isTranslationKey": false
+          }
         }
       ],
       "prerequisites": [
@@ -503,7 +572,12 @@
       "optionlinks": [
         "4e8ad6b7-41d0-4281-bbea-1e192a609e64"
       ],
-      "reward": [],
+      "reward": [
+        {
+          "id": "create:builders_tea",
+          "Count": 1
+        }
+      ],
       "rewardchoice": [],
       "commandrewards": []
     },
@@ -551,8 +625,22 @@
         "5d300aea-5826-4f79-b1d6-b08895059dbf"
       ],
       "optionlinks": [],
-      "reward": [],
-      "rewardchoice": [],
+      "reward": [
+        {
+          "id": "minecraft:egg",
+          "Count": 8
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "create:bar_of_chocolate",
+          "Count": 8
+        },
+        {
+          "id": "minecraft:honey_bottle",
+          "Count": 8
+        }
+      ],
       "commandrewards": []
     },
     {
@@ -595,7 +683,16 @@
       ],
       "optionlinks": [],
       "reward": [],
-      "rewardchoice": [],
+      "rewardchoice": [
+        {
+          "id": "create:fluid_tank",
+          "Count": 4
+        },
+        {
+          "id": "create:portable_fluid_interface",
+          "Count": 2
+        }
+      ],
       "commandrewards": []
     },
     {
@@ -636,8 +733,26 @@
         "6241ed79-932a-4519-a294-9860a2063281"
       ],
       "optionlinks": [],
-      "reward": [],
-      "rewardchoice": [],
+      "reward": [
+        {
+          "id": "create:brass_funnel",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "minecraft:iron_ore",
+          "Count": 32
+        },
+        {
+          "id": "minecraft:gold_ore",
+          "Count": 8
+        },
+        {
+          "id": "minecraft:diamond_ore",
+          "Count": 2
+        }
+      ],
       "commandrewards": []
     },
     {
@@ -677,32 +792,51 @@
         "e3932343-39ba-4385-86d3-a96c44345bcc"
       ],
       "optionlinks": [],
-      "reward": [],
+      "reward": [
+        {
+          "id": "minecraft:wheat",
+          "Count": 16
+        }
+      ],
       "rewardchoice": [],
       "commandrewards": []
     },
     {
       "uuid": "4e8ad6b7-41d0-4281-bbea-1e192a609e64",
       "name": {
-        "text": "Unnamed",
+        "text": "Full Steam Ahead",
         "isTranslationKey": false
       },
       "description": {
-        "text": "Unnamed quest",
+        "text": "The MAT unit is capable of providing a comprehensive guide to creating mechanical contraptions using rotational force, but also has an abbreviated guide to creating the basic contraptions that can be opted-into instead.",
         "isTranslationKey": false
       },
-      "x": 188,
-      "y": -6,
+      "x": 142,
+      "y": 21,
       "icon": {
         "id": "create:precision_mechanism",
         "Count": 1
       },
       "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "hardcorequesting:checkbox",
+          "longDescription": {
+            "text": "Most of the Create mod is not required to complete this modpack. If you want the full guide to Create with 30+ quests, click the checkbox below. If not, complete the \"Down to Brass Tacks\" quest instead.",
+            "isTranslationKey": false
+          }
+        }
+      ],
       "prerequisites": [
         "099d1358-0b11-49f0-aa78-43531cd739b7"
       ],
       "optionlinks": [],
-      "reward": [],
+      "reward": [
+        {
+          "id": "create:builders_tea",
+          "Count": 1
+        }
+      ],
       "rewardchoice": [],
       "commandrewards": []
     },
@@ -741,11 +875,20 @@
         }
       ],
       "prerequisites": [
-        "e3932343-39ba-4385-86d3-a96c44345bcc",
-        "54646046-e479-4bcb-941c-6713a659646f"
+        "54646046-e479-4bcb-941c-6713a659646f",
+        "e3932343-39ba-4385-86d3-a96c44345bcc"
       ],
       "optionlinks": [],
-      "reward": [],
+      "reward": [
+        {
+          "id": "create:speedometer",
+          "Count": 1
+        },
+        {
+          "id": "create:stressometer",
+          "Count": 1
+        }
+      ],
       "rewardchoice": [],
       "commandrewards": []
     },
@@ -829,8 +972,26 @@
         "5d300aea-5826-4f79-b1d6-b08895059dbf"
       ],
       "optionlinks": [],
-      "reward": [],
-      "rewardchoice": [],
+      "reward": [
+        {
+          "id": "create:portable_storage_interface",
+          "Count": 2
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "create:mechanical_saw",
+          "Count": 4
+        },
+        {
+          "id": "create:mechanical_harvester",
+          "Count": 4
+        },
+        {
+          "id": "create:mechanical_drill",
+          "Count": 4
+        }
+      ],
       "commandrewards": []
     },
     {
@@ -872,7 +1033,12 @@
         "54646046-e479-4bcb-941c-6713a659646f"
       ],
       "optionlinks": [],
-      "reward": [],
+      "reward": [
+        {
+          "id": "minecraft:iron_ingot",
+          "Count": 4
+        }
+      ],
       "rewardchoice": [],
       "commandrewards": []
     },
@@ -916,7 +1082,20 @@
       ],
       "optionlinks": [],
       "reward": [],
-      "rewardchoice": [],
+      "rewardchoice": [
+        {
+          "id": "create:copper_scaffolding",
+          "Count": 64
+        },
+        {
+          "id": "create:metal_bracket",
+          "Count": 8
+        },
+        {
+          "id": "create:flywheel",
+          "Count": 1
+        }
+      ],
       "commandrewards": []
     },
     {
@@ -957,8 +1136,22 @@
         "68d15aff-b4ec-4d53-aa16-ff96ec851e11"
       ],
       "optionlinks": [],
-      "reward": [],
-      "rewardchoice": [],
+      "reward": [
+        {
+          "id": "minecraft:stripped_oak_log",
+          "Count": 24
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "create:encased_chain_drive",
+          "Count": 8
+        },
+        {
+          "id": "create:weighted_ejector",
+          "Count": 2
+        }
+      ],
       "commandrewards": []
     },
     {
@@ -977,6 +1170,7 @@
         "id": "create:cogwheel",
         "Count": 1
       },
+      "trigger": "ANTI_TRIGGER",
       "parentrequirement": 1,
       "tasks": [
         {
@@ -1002,12 +1196,17 @@
         }
       ],
       "prerequisites": [
-        "af8e7d74-9513-479c-b33d-ddcc1ba56e1a",
         "0d9c09c3-6583-431c-95d6-f6f4eacd3655",
+        "af8e7d74-9513-479c-b33d-ddcc1ba56e1a",
         "ca09254c-d0c3-4a59-a493-7e6273a468b2"
       ],
       "optionlinks": [],
-      "reward": [],
+      "reward": [
+        {
+          "id": "create:shaft",
+          "Count": 16
+        }
+      ],
       "rewardchoice": [],
       "commandrewards": []
     },
@@ -1021,8 +1220,8 @@
         "text": "Unnamed quest",
         "isTranslationKey": false
       },
-      "x": 65,
-      "y": 144,
+      "x": 158,
+      "y": -9,
       "trigger": "QUEST_TRIGGER",
       "prerequisites": [
         "4e8ad6b7-41d0-4281-bbea-1e192a609e64"
@@ -1090,11 +1289,16 @@
         }
       ],
       "prerequisites": [
-        "e3932343-39ba-4385-86d3-a96c44345bcc",
-        "54646046-e479-4bcb-941c-6713a659646f"
+        "54646046-e479-4bcb-941c-6713a659646f",
+        "e3932343-39ba-4385-86d3-a96c44345bcc"
       ],
       "optionlinks": [],
-      "reward": [],
+      "reward": [
+        {
+          "id": "thermal:cured_rubber",
+          "Count": 12
+        }
+      ],
       "rewardchoice": [],
       "commandrewards": []
     },
@@ -1140,7 +1344,16 @@
         "6acadfe6-4853-4cf1-af89-d44bc0f42ce1"
       ],
       "optionlinks": [],
-      "reward": [],
+      "reward": [
+        {
+          "id": "create:linear_chassis",
+          "Count": 16
+        },
+        {
+          "id": "create:contraption_controls",
+          "Count": 1
+        }
+      ],
       "rewardchoice": [],
       "commandrewards": []
     },
@@ -1181,7 +1394,12 @@
         "e3932343-39ba-4385-86d3-a96c44345bcc"
       ],
       "optionlinks": [],
-      "reward": [],
+      "reward": [
+        {
+          "id": "minecraft:magma_block",
+          "Count": 8
+        }
+      ],
       "rewardchoice": [],
       "commandrewards": []
     },
@@ -1223,7 +1441,12 @@
         "cc4f3469-cac0-4b77-a762-2832a9a36e91"
       ],
       "optionlinks": [],
-      "reward": [],
+      "reward": [
+        {
+          "id": "create:precision_mechanism",
+          "Count": 3
+        }
+      ],
       "rewardchoice": [],
       "commandrewards": []
     },
@@ -1263,11 +1486,15 @@
       ],
       "prerequisites": [
         "bf8d316b-64d4-4a30-8c44-86f9c0be0cb3",
-        "1892c9be-9d6c-4c4a-bbe3-b0a606205724",
-        "54646046-e479-4bcb-941c-6713a659646f"
+        "1892c9be-9d6c-4c4a-bbe3-b0a606205724"
       ],
       "optionlinks": [],
-      "reward": [],
+      "reward": [
+        {
+          "id": "minecraft:gold_ingot",
+          "Count": 4
+        }
+      ],
       "rewardchoice": [],
       "commandrewards": []
     },
@@ -1309,7 +1536,17 @@
       ],
       "optionlinks": [],
       "reward": [],
-      "rewardchoice": [],
+      "rewardchoice": [
+        {
+          "id": "create:mechanical_arm",
+          "Count": 1
+        },
+        {
+          "id": "create:extendo_grip",
+          "Count": 1,
+          "tag": "{Damage:0}"
+        }
+      ],
       "commandrewards": []
     },
     {
@@ -1350,7 +1587,16 @@
         "72283d63-3fcf-4034-ac4f-0ffa0697a722"
       ],
       "optionlinks": [],
-      "reward": [],
+      "reward": [
+        {
+          "id": "create:brown_toolbox",
+          "Count": 1
+        },
+        {
+          "id": "create:builders_tea",
+          "Count": 4
+        }
+      ],
       "rewardchoice": [],
       "commandrewards": []
     },
@@ -1393,7 +1639,12 @@
         "68d15aff-b4ec-4d53-aa16-ff96ec851e11"
       ],
       "optionlinks": [],
-      "reward": [],
+      "reward": [
+        {
+          "id": "create:builders_tea",
+          "Count": 12
+        }
+      ],
       "rewardchoice": [],
       "commandrewards": []
     },
@@ -1414,7 +1665,7 @@
         "Count": 1
       },
       "trigger": "ANTI_TRIGGER",
-      "parentrequirement": 1,
+      "parentrequirement": 3,
       "tasks": [
         {
           "type": "hardcorequesting:detect",
@@ -1439,12 +1690,37 @@
         }
       ],
       "prerequisites": [
+        "b0dcbccf-fc55-43e1-8782-9454d7fcca9c",
+        "4e8ad6b7-41d0-4281-bbea-1e192a609e64",
         "e8790b01-88c8-4dbf-919f-f6123750576a",
-        "f0dbdcd7-2e45-448d-aff1-a7b090a63a27"
+        "f0dbdcd7-2e45-448d-aff1-a7b090a63a27",
+        "54646046-e479-4bcb-941c-6713a659646f"
       ],
       "optionlinks": [],
-      "reward": [],
-      "rewardchoice": [],
+      "reward": [
+        {
+          "id": "minecraft:white_wool",
+          "Count": 16
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "minecraft:red_dye",
+          "Count": 16
+        },
+        {
+          "id": "minecraft:yellow_dye",
+          "Count": 16
+        },
+        {
+          "id": "minecraft:green_dye",
+          "Count": 16
+        },
+        {
+          "id": "minecraft:blue_dye",
+          "Count": 16
+        }
+      ],
       "commandrewards": []
     },
     {
@@ -1457,7 +1733,7 @@
         "text": "You\u0027ll need some basic building blocks before you can start setting up machinery.",
         "isTranslationKey": false
       },
-      "x": 142,
+      "x": 174,
       "y": 21,
       "icon": {
         "id": "create:andesite_alloy",
@@ -1514,7 +1790,12 @@
         "4e8ad6b7-41d0-4281-bbea-1e192a609e64"
       ],
       "optionlinks": [],
-      "reward": [],
+      "reward": [
+        {
+          "id": "minecraft:quartz",
+          "Count": 8
+        }
+      ],
       "rewardchoice": [],
       "commandrewards": []
     },
@@ -1528,14 +1809,14 @@
         "text": "Unnamed quest",
         "isTranslationKey": false
       },
-      "x": 158,
-      "y": 66,
+      "x": 126,
+      "y": 48,
       "icon": {
         "id": "create:water_wheel",
         "Count": 1
       },
       "trigger": "ANTI_TRIGGER",
-      "parentrequirement": 1,
+      "parentrequirement": 3,
       "tasks": [
         {
           "type": "hardcorequesting:detect",
@@ -1554,12 +1835,37 @@
         }
       ],
       "prerequisites": [
+        "b0dcbccf-fc55-43e1-8782-9454d7fcca9c",
+        "4e8ad6b7-41d0-4281-bbea-1e192a609e64",
         "e8790b01-88c8-4dbf-919f-f6123750576a",
-        "f0dbdcd7-2e45-448d-aff1-a7b090a63a27"
+        "f0dbdcd7-2e45-448d-aff1-a7b090a63a27",
+        "54646046-e479-4bcb-941c-6713a659646f"
       ],
       "optionlinks": [],
-      "reward": [],
-      "rewardchoice": [],
+      "reward": [
+        {
+          "id": "create:water_wheel",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "minecraft:dark_oak_planks",
+          "Count": 4
+        },
+        {
+          "id": "minecraft:cherry_planks",
+          "Count": 4
+        },
+        {
+          "id": "minecraft:crimson_planks",
+          "Count": 4
+        },
+        {
+          "id": "minecraft:warped_planks",
+          "Count": 4
+        }
+      ],
       "commandrewards": []
     },
     {
@@ -1572,14 +1878,14 @@
         "text": "Unnamed quest",
         "isTranslationKey": false
       },
-      "x": 126,
-      "y": 48,
+      "x": 158,
+      "y": 66,
       "icon": {
         "id": "create:hand_crank",
         "Count": 1
       },
       "trigger": "ANTI_TRIGGER",
-      "parentrequirement": 1,
+      "parentrequirement": 2,
       "tasks": [
         {
           "type": "hardcorequesting:detect",
@@ -1598,11 +1904,18 @@
         }
       ],
       "prerequisites": [
-        "e8790b01-88c8-4dbf-919f-f6123750576a",
-        "f0dbdcd7-2e45-448d-aff1-a7b090a63a27"
+        "b0dcbccf-fc55-43e1-8782-9454d7fcca9c",
+        "4e8ad6b7-41d0-4281-bbea-1e192a609e64",
+        "f0dbdcd7-2e45-448d-aff1-a7b090a63a27",
+        "e8790b01-88c8-4dbf-919f-f6123750576a"
       ],
       "optionlinks": [],
-      "reward": [],
+      "reward": [
+        {
+          "id": "create:turntable",
+          "Count": 1
+        }
+      ],
       "rewardchoice": [],
       "commandrewards": []
     },
@@ -1635,15 +1948,27 @@
                 "id": "create:mechanical_press",
                 "Count": 1
               }
+            },
+            {
+              "item": {
+                "id": "create:depot",
+                "Count": 1
+              }
             }
           ]
         }
       ],
       "prerequisites": [
+        "54646046-e479-4bcb-941c-6713a659646f",
         "e3932343-39ba-4385-86d3-a96c44345bcc"
       ],
       "optionlinks": [],
-      "reward": [],
+      "reward": [
+        {
+          "id": "createaddition:cake_base_baked",
+          "Count": 4
+        }
+      ],
       "rewardchoice": [],
       "commandrewards": []
     },
@@ -1685,7 +2010,16 @@
         "5d300aea-5826-4f79-b1d6-b08895059dbf"
       ],
       "optionlinks": [],
-      "reward": [],
+      "reward": [
+        {
+          "id": "functionalstorage:oak_4",
+          "Count": 1
+        },
+        {
+          "id": "functionalstorage:copper_upgrade",
+          "Count": 2
+        }
+      ],
       "rewardchoice": [],
       "commandrewards": []
     }

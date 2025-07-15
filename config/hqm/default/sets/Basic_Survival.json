@@ -128,6 +128,7 @@
         "id": "exdeorum:silk_worm",
         "Count": 1
       },
+      "trigger": "ANTI_TRIGGER",
       "tasks": [
         {
           "type": "hardcorequesting:detect",
@@ -180,7 +181,6 @@
       "prerequisites": [
         "10a23876-3d34-40db-b3be-0f9569c5b459",
         "059da201-0f0d-47ee-9bf0-416b63d26600",
-        "67994482-4981-4cfd-9ca6-afde4340fb62",
         "eb909f46-772b-4fdf-8680-225dabb668ff"
       ],
       "optionlinks": [],
@@ -195,7 +195,7 @@
         "isTranslationKey": false
       },
       "description": {
-        "text": "In case case of crash landing, you were equipped with a basic survival package:\n- Saplings\n- Fertilizer\n- Dried nutrient blocks\nNote: Choose this path if you want a challenge. Don\u0027t expect to live. Completing this quest disables the easy route quest.",
+        "text": "In case case of crash landing, you were equipped with a basic survival package:\n- Saplings\n- Fertilizer\n- Dried nutrient bricks\nNote: Choose this path if you want a challenge. Don\u0027t expect to live. Completing this quest disables the easy route quest.",
         "isTranslationKey": false
       },
       "x": 14,
@@ -234,7 +234,7 @@
           "Count": 4
         },
         {
-          "id": "pamhc2foodextended:driedsoupitem",
+          "id": "kubejs:nutrient_brick",
           "Count": 4
         }
       ],
@@ -465,6 +465,7 @@
         "Count": 1,
         "tag": "{Damage:0}"
       },
+      "trigger": "ANTI_TRIGGER",
       "tasks": [
         {
           "type": "hardcorequesting:detect",
@@ -1652,6 +1653,7 @@
         "id": "tconstruct:ichor_slime_ball",
         "Count": 1
       },
+      "trigger": "ANTI_TRIGGER",
       "tasks": [
         {
           "type": "hardcorequesting:detect",
@@ -1717,7 +1719,8 @@
         "id": "exdeorum:oak_sieve",
         "Count": 1
       },
-      "trigger": "ANTI_TRIGGER",
+      "trigger": "TASK_TRIGGER",
+      "triggertasks": 2,
       "tasks": [
         {
           "type": "hardcorequesting:consume",

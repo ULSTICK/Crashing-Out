@@ -49,16 +49,8 @@
       "optionlinks": [],
       "reward": [
         {
-          "id": "functionalstorage:jungle_4",
-          "Count": 1
-        },
-        {
-          "id": "functionalstorage:copper_upgrade",
-          "Count": 2
-        },
-        {
-          "id": "pneumaticcraft:plastic",
-          "Count": 8
+          "id": "industrialforegoing:hydroponic_bed",
+          "Count": 4
         }
       ],
       "rewardchoice": [],
@@ -110,7 +102,12 @@
         "5f8ad93d-e76a-491b-930e-9258717b769f"
       ],
       "optionlinks": [],
-      "reward": [],
+      "reward": [
+        {
+          "id": "industrialforegoing:simple_black_hole_unit",
+          "Count": 1
+        }
+      ],
       "rewardchoice": [],
       "commandrewards": []
     },
@@ -201,7 +198,16 @@
       ],
       "optionlinks": [],
       "reward": [],
-      "rewardchoice": [],
+      "rewardchoice": [
+        {
+          "id": "thermal:invar_ingot",
+          "Count": 8
+        },
+        {
+          "id": "minecraft:gold_ingot",
+          "Count": 8
+        }
+      ],
       "commandrewards": []
     },
     {
@@ -259,21 +265,21 @@
         "e56efbd0-d3ce-473b-a2d5-1de1a0bfa9a0"
       ],
       "optionlinks": [],
-      "reward": [],
-      "rewardchoice": [
+      "reward": [
         {
-          "id": "mekanism:ultimate_control_circuit",
-          "Count": 2
+          "id": "industrialforegoing:mycelial_netherstar",
+          "Count": 1
         },
         {
-          "id": "tconstruct:queens_slime_ingot",
-          "Count": 2
+          "id": "industrialforegoing:infinity_charger",
+          "Count": 1
         },
         {
-          "id": "thermal:obsidian_glass",
-          "Count": 16
+          "id": "industrialforegoing:ether_gas_bucket",
+          "Count": 2
         }
       ],
+      "rewardchoice": [],
       "commandrewards": []
     },
     {
@@ -392,7 +398,16 @@
       ],
       "optionlinks": [],
       "reward": [],
-      "rewardchoice": [],
+      "rewardchoice": [
+        {
+          "id": "thermal:electrum_ingot",
+          "Count": 8
+        },
+        {
+          "id": "thermal:signalum_ingot",
+          "Count": 8
+        }
+      ],
       "commandrewards": []
     },
     {
@@ -435,7 +450,24 @@
       ],
       "optionlinks": [],
       "reward": [],
-      "rewardchoice": [],
+      "rewardchoice": [
+        {
+          "id": "thermal:press_packing_2x2_die",
+          "Count": 1
+        },
+        {
+          "id": "thermal:press_packing_3x3_die",
+          "Count": 1
+        },
+        {
+          "id": "thermal:press_unpacking_die",
+          "Count": 1
+        },
+        {
+          "id": "thermal:press_gear_die",
+          "Count": 1
+        }
+      ],
       "commandrewards": []
     },
     {
@@ -477,7 +509,16 @@
       ],
       "optionlinks": [],
       "reward": [],
-      "rewardchoice": [],
+      "rewardchoice": [
+        {
+          "id": "thermal:enderium_ingot",
+          "Count": 8
+        },
+        {
+          "id": "thermal:lumium_ingot",
+          "Count": 8
+        }
+      ],
       "commandrewards": []
     },
     {
@@ -519,7 +560,12 @@
         "4603a7e8-470b-4a64-a199-84aaf94e603d"
       ],
       "optionlinks": [],
-      "reward": [],
+      "reward": [
+        {
+          "id": "industrialforegoing:simple_black_hole_tank",
+          "Count": 1
+        }
+      ],
       "rewardchoice": [],
       "commandrewards": []
     },
@@ -565,7 +611,11 @@
       "reward": [
         {
           "id": "thermal:apatite",
-          "Count": 16
+          "Count": 32
+        },
+        {
+          "id": "thermal:blitz_rod",
+          "Count": 8
         }
       ],
       "rewardchoice": [],
@@ -581,7 +631,7 @@
         "text": "The Magma Crucible melts items into their liquid forms. It is the opposite of a Blast Chiller. It can be used to make large amounts of lava, melt plastic, and turn redstone, glowstone, and ender pearls into their liquid forms.",
         "isTranslationKey": false
       },
-      "x": 95,
+      "x": 94,
       "y": 102,
       "icon": {
         "id": "thermal:machine_crucible",
@@ -610,7 +660,12 @@
         "eb909f46-772b-4fdf-8680-225dabb668ff"
       ],
       "optionlinks": [],
-      "reward": [],
+      "reward": [
+        {
+          "id": "minecraft:blaze_rod",
+          "Count": 8
+        }
+      ],
       "rewardchoice": [],
       "commandrewards": []
     },
@@ -654,7 +709,12 @@
         "9f19cf75-b748-43eb-8957-c5eb0a3eaffe"
       ],
       "optionlinks": [],
-      "reward": [],
+      "reward": [
+        {
+          "id": "industrialforegoing:machine_frame_advanced",
+          "Count": 1
+        }
+      ],
       "rewardchoice": [],
       "commandrewards": []
     },
@@ -772,7 +832,12 @@
         "ccd68600-f9cf-4acf-ac55-c0fd5bda5eac"
       ],
       "optionlinks": [],
-      "reward": [],
+      "reward": [
+        {
+          "id": "thermal:device_nullifier",
+          "Count": 1
+        }
+      ],
       "rewardchoice": [],
       "commandrewards": []
     },
@@ -825,6 +890,10 @@
         {
           "id": "minecraft:experience_bottle",
           "Count": 16
+        },
+        {
+          "id": "industrialforegoing:machine_frame_supreme",
+          "Count": 1
         }
       ],
       "rewardchoice": [
@@ -885,7 +954,12 @@
         "ccd68600-f9cf-4acf-ac55-c0fd5bda5eac"
       ],
       "optionlinks": [],
-      "reward": [],
+      "reward": [
+        {
+          "id": "industrialforegoing:machine_frame_advanced",
+          "Count": 1
+        }
+      ],
       "rewardchoice": [],
       "commandrewards": []
     },
@@ -910,7 +984,7 @@
         {
           "type": "hardcorequesting:detect",
           "longDescription": {
-            "text": "You can find chicken eggs naturally, and you can craft other animal eggs when you have a stable supply of essence.",
+            "text": "You can find chicken eggs naturally, and you can craft other animal eggs in a dissolution chamber when you have a stable supply of essence.",
             "isTranslationKey": false
           },
           "items": [
@@ -936,7 +1010,16 @@
       ],
       "optionlinks": [],
       "reward": [],
-      "rewardchoice": [],
+      "rewardchoice": [
+        {
+          "id": "minecraft:cow_spawn_egg",
+          "Count": 2
+        },
+        {
+          "id": "minecraft:sheep_spawn_egg",
+          "Count": 2
+        }
+      ],
       "commandrewards": []
     },
     {
@@ -978,7 +1061,12 @@
         "ccd68600-f9cf-4acf-ac55-c0fd5bda5eac"
       ],
       "optionlinks": [],
-      "reward": [],
+      "reward": [
+        {
+          "id": "thermal:basalz_rod",
+          "Count": 8
+        }
+      ],
       "rewardchoice": [],
       "commandrewards": []
     },
@@ -1092,7 +1180,12 @@
         "ccd68600-f9cf-4acf-ac55-c0fd5bda5eac"
       ],
       "optionlinks": [],
-      "reward": [],
+      "reward": [
+        {
+          "id": "thermal:cinnabar",
+          "Count": 16
+        }
+      ],
       "rewardchoice": [],
       "commandrewards": []
     },
@@ -1152,13 +1245,8 @@
       "optionlinks": [],
       "reward": [
         {
-          "id": "mekanism:basic_fluid_tank",
-          "Count": 1,
-          "tag": "{mekData:{FluidTanks:[{Tank:0b,stored:{Amount:16000,FluidName:\"industrialforegoing:latex\"}}],Items:[],editMode:0,owner:[I;-826375014,1581600191,-1318216195,-1820762510],securityMode:0}}"
-        },
-        {
-          "id": "thermal:invar_ingot",
-          "Count": 6
+          "id": "pneumaticcraft:plastic",
+          "Count": 16
         },
         {
           "id": "pneumaticcraft:printed_circuit_board",
@@ -1225,8 +1313,26 @@
         "b498eec9-851e-4d17-ab0d-b86eeb4a72be"
       ],
       "optionlinks": [],
-      "reward": [],
-      "rewardchoice": [],
+      "reward": [
+        {
+          "id": "thermal:rf_coil",
+          "Count": 8
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "thermal:rf_coil_augment",
+          "Count": 1
+        },
+        {
+          "id": "thermal:rf_coil_storage_augment",
+          "Count": 1
+        },
+        {
+          "id": "thermal:rf_coil_xfer_augment",
+          "Count": 1
+        }
+      ],
       "commandrewards": []
     },
     {
@@ -1270,28 +1376,11 @@
       "optionlinks": [],
       "reward": [
         {
-          "id": "minecraft:redstone",
-          "Count": 16
-        },
-        {
-          "id": "thermal:obsidian_glass",
-          "Count": 4
-        }
-      ],
-      "rewardchoice": [
-        {
-          "id": "mekanism:dust_refined_obsidian",
-          "Count": 8
-        },
-        {
-          "id": "thermal:enderium_dust",
-          "Count": 8
-        },
-        {
-          "id": "thermal:netherite_dust",
+          "id": "thermal:blizz_rod",
           "Count": 8
         }
       ],
+      "rewardchoice": [],
       "commandrewards": []
     },
     {
@@ -1339,13 +1428,25 @@
         "9be2b0f4-dd15-4899-8956-ee4a0f5e8403"
       ],
       "optionlinks": [],
-      "reward": [
+      "reward": [],
+      "rewardchoice": [
         {
-          "id": "thermal:rf_coil",
-          "Count": 1
+          "id": "thermal:bronze_dust",
+          "Count": 4
+        },
+        {
+          "id": "thermal:electrum_dust",
+          "Count": 4
+        },
+        {
+          "id": "thermal:invar_dust",
+          "Count": 4
+        },
+        {
+          "id": "thermal:constantan_dust",
+          "Count": 4
         }
       ],
-      "rewardchoice": [],
       "commandrewards": []
     },
     {
@@ -1387,7 +1488,16 @@
         "ccd68600-f9cf-4acf-ac55-c0fd5bda5eac"
       ],
       "optionlinks": [],
-      "reward": [],
+      "reward": [
+        {
+          "id": "pneumaticcraft:lpg_bucket",
+          "Count": 1
+        },
+        {
+          "id": "thermal:dynamo_throttle_augment",
+          "Count": 1
+        }
+      ],
       "rewardchoice": [],
       "commandrewards": []
     },
@@ -1430,7 +1540,12 @@
         "7c13aa31-1923-443b-a81b-f8fb12449b30"
       ],
       "optionlinks": [],
-      "reward": [],
+      "reward": [
+        {
+          "id": "industrialforegoing:mechanical_dirt",
+          "Count": 24
+        }
+      ],
       "rewardchoice": [],
       "commandrewards": []
     }

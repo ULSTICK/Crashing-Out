@@ -65,6 +65,10 @@
       "optionlinks": [],
       "reward": [
         {
+          "id": "cgm:shell",
+          "Count": 16
+        },
+        {
           "id": "minecraft:spider_eye",
           "Count": 4
         }
@@ -124,10 +128,31 @@
           ]
         }
       ],
-      "prerequisites": [],
+      "prerequisites": [
+        "1db4c845-3db8-4e94-aa7d-ff88f75a45fd",
+        "d4d8bba6-7b9e-417a-b543-90ffb032400b"
+      ],
       "optionlinks": [],
-      "reward": [],
-      "rewardchoice": [],
+      "reward": [
+        {
+          "id": "pamhc2foodextended:blackpepperitem",
+          "Count": 4
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "pamhc2foodcore:cocoapowderitem",
+          "Count": 4
+        },
+        {
+          "id": "pamhc2foodextended:groundcinnamonitem",
+          "Count": 4
+        },
+        {
+          "id": "pamhc2foodextended:vanillaitem",
+          "Count": 4
+        }
+      ],
       "commandrewards": []
     },
     {
@@ -168,7 +193,16 @@
         "99089910-31d1-4e1c-8736-1c1790e912ee"
       ],
       "optionlinks": [],
-      "reward": [],
+      "reward": [
+        {
+          "id": "cgm:shell",
+          "Count": 16
+        },
+        {
+          "id": "thermal:ender_grenade",
+          "Count": 8
+        }
+      ],
       "rewardchoice": [],
       "commandrewards": []
     },
@@ -306,7 +340,16 @@
         "32852a9b-1b0c-4954-99c3-92501611c7d7"
       ],
       "optionlinks": [],
-      "reward": [],
+      "reward": [
+        {
+          "id": "cgm:shell",
+          "Count": 16
+        },
+        {
+          "id": "minecraft:bone_meal",
+          "Count": 24
+        }
+      ],
       "rewardchoice": [],
       "commandrewards": []
     },
@@ -504,7 +547,12 @@
         "32852a9b-1b0c-4954-99c3-92501611c7d7"
       ],
       "optionlinks": [],
-      "reward": [],
+      "reward": [
+        {
+          "id": "pamhc2foodcore:cookingoilitem",
+          "Count": 8
+        }
+      ],
       "rewardchoice": [],
       "commandrewards": []
     },
@@ -623,7 +671,24 @@
       ],
       "optionlinks": [],
       "reward": [],
-      "rewardchoice": [],
+      "rewardchoice": [
+        {
+          "id": "pamhc2trees:peach_sapling",
+          "Count": 1
+        },
+        {
+          "id": "pamhc2trees:orange_sapling",
+          "Count": 1
+        },
+        {
+          "id": "pamhc2trees:lemon_sapling",
+          "Count": 1
+        },
+        {
+          "id": "pamhc2trees:pear_sapling",
+          "Count": 1
+        }
+      ],
       "commandrewards": []
     }
   ],
