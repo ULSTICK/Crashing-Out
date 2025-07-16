@@ -22,7 +22,7 @@
         {
           "type": "hardcorequesting:detect",
           "longDescription": {
-            "text": "The electric motor is useful compared to other sources of rotational  force because of how compact and adjustable it is. Note that the higher the RPM is set, the more energy will be used to power it. Simply power the electric motor from the opposing side of its shaft to get instant rotational force.\n\nThe alternator requires a minimum of 32 RPM to operate. Energy production is linear with RPM: the higher the RPM, the more energy will be produced. Connect the opposing side to the shaft to any power source or cable to collect energy to be used or stored.",
+            "text": "The electric motor is useful compared to other sources of rotational force because of how compact and adjustable it is. Note that the higher the RPM is set, the more energy will be used to power it. Simply power the electric motor from the opposing side of its shaft to get instant rotational force.\n\nThe alternator requires a minimum of 32 RPM to operate. Energy production is linear with RPM: the higher the RPM, the more energy will be produced. Connect the opposing side to the shaft to any power source or cable to collect energy to be used or stored.",
             "isTranslationKey": false
           },
           "items": [
@@ -591,7 +591,7 @@
         "isTranslationKey": false
       },
       "description": {
-        "text": "A mechanical mixer can be used to mix batches of items together, and it can be heated for melting, cooking, and alloying. ",
+        "text": "A mechanical mixer can be used to mix batches of items together, and it can be heated for melting, cooking, and alloying.",
         "isTranslationKey": false
       },
       "x": 46,
@@ -958,7 +958,7 @@
             "isTranslationKey": false
           },
           "longDescription": {
-            "text": "The mechanical drill can operate either while stationary or as part of a moving contraption. When placed statically and supplied with rotational force, it breaks blocks directly in front  of it. Additionally, it inflicts damage on nearby entities, also based on its speed. However, its true strength lies in its use on contraptions, where it doesn\u0027t require direct rotational input. When mounted on a moving contraption, the drill automatically breaks any blocks it collides with and damages entities in its path, with both block-breaking speed and entity damage scaling with the contraption\u0027s velocity. It can be removed cleanly by shift-right- clicking with a wrench, which will return it to your inventory.",
+            "text": "The mechanical drill can operate either while stationary or as part of a moving contraption. When placed statically and supplied with rotational force, it breaks blocks directly in front of it. Additionally, it inflicts damage on nearby entities, also based on its speed. However, its true strength lies in its use on contraptions, where it doesn\u0027t require direct rotational input. When mounted on a moving contraption, the drill automatically breaks any blocks it collides with and damages entities in its path, with both block-breaking speed and entity damage scaling with the contraption\u0027s velocity. It can be removed cleanly by shift-right- clicking with a wrench, which will return it to your inventory.",
             "isTranslationKey": true
           },
           "items": [
@@ -1426,7 +1426,7 @@
         {
           "type": "hardcorequesting:detect",
           "longDescription": {
-            "text": "The Rotation Speed Controller adjusts the  speed of whatever source of rotational force is provided as input, and outputs through a cogwheel, which is placed on top. The rotation speed and direction can be adjusted in the Value Settings Screen located on the front or back of the controller. The speed can be set to a maximum of 256 RPM.",
+            "text": "The Rotation Speed Controller adjusts the speed of whatever source of rotational force is provided as input, and outputs through a cogwheel, which is placed on top. The rotation speed and direction can be adjusted in the Value Settings Screen located on the front or back of the controller. The speed can be set to a maximum of 256 RPM.",
             "isTranslationKey": false
           },
           "items": [
@@ -1473,7 +1473,7 @@
         {
           "type": "hardcorequesting:detect",
           "longDescription": {
-            "text": "Gold plates are made from putting gold ingots into a mechanical press. ",
+            "text": "Gold plates are made from putting gold ingots into a mechanical press.",
             "isTranslationKey": false
           },
           "items": [

@@ -729,7 +729,7 @@
         "isTranslationKey": false
       },
       "description": {
-        "text": "Alloying is an essential part of the technological revolution. The standard method of alloying is by melting the metals into a liquid and mixing the liquids together. However, you need extreme heat for that. Some metals can be infused without needing to fully deconstruct them. With a metallurgic infuser and some energy, you can make some more advanced alloys like steel. It can also make advanced control circuits, useful for all kinds of interesting mechanisms. ",
+        "text": "Alloying is an essential part of the technological revolution. The standard method of alloying is by melting the metals into a liquid and mixing the liquids together. However, you need extreme heat for that. Some metals can be infused without needing to fully deconstruct them. With a metallurgic infuser and some energy, you can make some more advanced alloys like steel. It can also make advanced control circuits, useful for all kinds of interesting mechanisms.",
         "isTranslationKey": false
       },
       "x": 174,
@@ -747,7 +747,7 @@
             "isTranslationKey": false
           },
           "longDescription": {
-            "text": "The basic infuser can be made without any circuitry. It must be provided with energy to function. It can eventually be upgraded to be faster, more energy efficient, and have more processing slots. ",
+            "text": "The basic infuser can be made without any circuitry. It must be provided with energy to function. It can eventually be upgraded to be faster, more energy efficient, and have more processing slots.",
             "isTranslationKey": false
           },
           "items": [
@@ -1095,7 +1095,7 @@
         {
           "type": "hardcorequesting:detect",
           "longDescription": {
-            "text": "Conduits are made from conduit binder and their respective materials. You can change conduit settings by right clicking their I/O interface or right clicking with a wrench to make quick adjustments. ",
+            "text": "Conduits are made from conduit binder and their respective materials. You can change conduit settings by right clicking their I/O interface or right clicking with a wrench to make quick adjustments.",
             "isTranslationKey": true
           },
           "items": [

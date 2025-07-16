@@ -97,7 +97,7 @@
             "isTranslationKey": false
           },
           "longDescription": {
-            "text": "Many Pneumaticcraft gadgets will need to be charged with compressed air before they can be used. Be careful though, the charging station balances air pressure between the item being charged and the rest of the system. If the tool has more bars of pressure than the rest of the network it will actually discharge. ",
+            "text": "Many Pneumaticcraft gadgets will need to be charged with compressed air before they can be used. Be careful though, the charging station balances air pressure between the item being charged and the rest of the system. If the tool has more bars of pressure than the rest of the network it will actually discharge.",
             "isTranslationKey": false
           },
           "items": [
@@ -210,7 +210,7 @@
         {
           "type": "hardcorequesting:detect",
           "longDescription": {
-            "text": "Speed upgrades need lubricant, which is made from diesel and redstone. You\u0027ll likely want a lot of it. ",
+            "text": "Speed upgrades need lubricant, which is made from diesel and redstone. You\u0027ll likely want a lot of it.",
             "isTranslationKey": false
           },
           "items": [
@@ -331,7 +331,7 @@
         "isTranslationKey": false
       },
       "description": {
-        "text": "Now that you can pump oil out of the depths, you can work on refining it to get plastic, an important resource for making circuits and machinery. ",
+        "text": "Now that you can pump oil out of the depths, you can work on refining it to get plastic, an important resource for making circuits and machinery.",
         "isTranslationKey": false
       },
       "x": 110,
@@ -432,7 +432,7 @@
         "isTranslationKey": false
       },
       "description": {
-        "text": "After exposing the empty PCB, you will have to etch the circuit boards with etching acid. ",
+        "text": "After exposing the empty PCB, you will have to etch the circuit boards with etching acid.",
         "isTranslationKey": false
       },
       "x": 190,
@@ -522,7 +522,7 @@
         {
           "type": "hardcorequesting:detect",
           "longDescription": {
-            "text": "Simply craft together your unassembled PCB with 2 capacitors and 2 transistors to finish the process. ",
+            "text": "Simply craft together your unassembled PCB with 2 capacitors and 2 transistors to finish the process.",
             "isTranslationKey": false
           },
           "items": [

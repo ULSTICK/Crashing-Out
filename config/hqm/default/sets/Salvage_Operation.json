@@ -1102,7 +1102,7 @@
             "isTranslationKey": false
           },
           "longDescription": {
-            "text": "ME Storage Cells are where items (or fluids) are stored in your network. Each item storage cell can store up to 63 types of items, with the total number of items determined by the cell\u0027s size. Generally, you should make some large storage cells to contain the items you have large amounts of, and then small storage cells to contain items you only have small amounts of. Read more in the Applied Energistics Guide. ",
+            "text": "ME Storage Cells are where items (or fluids) are stored in your network. Each item storage cell can store up to 63 types of items, with the total number of items determined by the cell\u0027s size. Generally, you should make some large storage cells to contain the items you have large amounts of, and then small storage cells to contain items you only have small amounts of. Read more in the Applied Energistics Guide.",
             "isTranslationKey": false
           },
           "items": [

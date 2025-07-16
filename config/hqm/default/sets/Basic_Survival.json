@@ -582,7 +582,7 @@
         "isTranslationKey": false
       },
       "description": {
-        "text": "The \"life\" on T4L0S seems to mostly be made up of the animated bodies of its former inhabitants, all of which appear hostile. The optimal survival strategy is to avoid confrontation, but some of them leave behind useful items when killed. ",
+        "text": "The \"life\" on T4L0S seems to mostly be made up of the animated bodies of its former inhabitants, all of which appear hostile. The optimal survival strategy is to avoid confrontation, but some of them leave behind useful items when killed.",
         "isTranslationKey": false
       },
       "x": 78,
@@ -640,7 +640,7 @@
             "isTranslationKey": false
           },
           "longDescription": {
-            "text": "The most interesting mob drop is the ender pearl. Not only can it teleport the player when thrown, but its teleportation-related properties allow all sorts of interesting items to be crafted from it. ",
+            "text": "The most interesting mob drop is the ender pearl. Not only can it teleport the player when thrown, but its teleportation-related properties allow all sorts of interesting items to be crafted from it.",
             "isTranslationKey": false
           },
           "items": [
@@ -1523,7 +1523,7 @@
         "isTranslationKey": false
       },
       "description": {
-        "text": "What T4L0S lacks in water, it makes up for in metals. If you spend some time sifting the dust, you should be able to get enough metal to set up some infrastructure. ",
+        "text": "What T4L0S lacks in water, it makes up for in metals. If you spend some time sifting the dust, you should be able to get enough metal to set up some infrastructure.",
         "isTranslationKey": false
       },
       "x": 190,
@@ -1591,7 +1591,7 @@
         "isTranslationKey": false
       },
       "description": {
-        "text": "This planet is full of hazards and hostiles. You will eventually need to venture out of the confines of your ship, but that poses a lot of risks. However, with a bit of effort, you may be able to give yourself a second chance if the worst happens. A Shell Constructor is the key to life after (first) death. Once you make one, you will need to provide energy and a blood sample and it will build you a new body. ",
+        "text": "This planet is full of hazards and hostiles. You will eventually need to venture out of the confines of your ship, but that poses a lot of risks. However, with a bit of effort, you may be able to give yourself a second chance if the worst happens. A Shell Constructor is the key to life after (first) death. Once you make one, you will need to provide energy and a blood sample and it will build you a new body.",
         "isTranslationKey": false
       },
       "x": 254,
@@ -1841,7 +1841,7 @@
         {
           "type": "hardcorequesting:detect",
           "longDescription": {
-            "text": "You can mix string armor with other types of armor to have a balance of damage protection and heat protection. ",
+            "text": "You can mix string armor with other types of armor to have a balance of damage protection and heat protection.",
             "isTranslationKey": false
           },
           "items": [
