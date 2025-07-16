@@ -711,6 +711,10 @@
       "optionlinks": [],
       "reward": [
         {
+          "id": "industrialforegoing:dye_mixer",
+          "Count": 1
+        },
+        {
           "id": "industrialforegoing:machine_frame_advanced",
           "Count": 1
         }

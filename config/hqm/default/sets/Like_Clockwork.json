@@ -8,7 +8,7 @@
         "isTranslationKey": false
       },
       "description": {
-        "text": "Unnamed quest",
+        "text": "The Electric Motor converts electricity to rotational force, and the Alternator converts rotational force into energy",
         "isTranslationKey": false
       },
       "x": 270,
@@ -22,7 +22,7 @@
         {
           "type": "hardcorequesting:detect",
           "longDescription": {
-            "text": "The electric motor converts electricity to rotational force. The electric motor’s use stems from its compactness and its adjustable RPM output. Note that the higher the RPM is set, the more energy will be used to power it. Simply power the electric motor from the opposing side of its shaft to get instant rotational force.\n\nThe alternator converts rotational force into energy, with a minimum of 32 RPM required to operate. Energy production is linear with RPM: the higher the RPM, the more energy will be produced. Connect the opposing side to the shaft to any power source or cable to collect energy to be used or stored.",
+            "text": "The electric motor is useful compared to other sources of rotational  force because of how compact and adjustable it is. Note that the higher the RPM is set, the more energy will be used to power it. Simply power the electric motor from the opposing side of its shaft to get instant rotational force.\n\nThe alternator requires a minimum of 32 RPM to operate. Energy production is linear with RPM: the higher the RPM, the more energy will be produced. Connect the opposing side to the shaft to any power source or cable to collect energy to be used or stored.",
             "isTranslationKey": false
           },
           "items": [
@@ -143,79 +143,13 @@
       "commandrewards": []
     },
     {
-      "uuid": "68d15aff-b4ec-4d53-aa16-ff96ec851e11",
-      "name": {
-        "text": "Top Brass",
-        "isTranslationKey": false
-      },
-      "description": {
-        "text": "Unnamed quest",
-        "isTranslationKey": false
-      },
-      "x": 271,
-      "y": 39,
-      "icon": {
-        "id": "create:brass_sheet",
-        "Count": 1
-      },
-      "trigger": "ANTI_TRIGGER",
-      "tasks": [
-        {
-          "type": "hardcorequesting:detect",
-          "longDescription": {
-            "text": "Brass plating is often used for advanced machinery, and electron tubing enables some \"smart\" features.",
-            "isTranslationKey": false
-          },
-          "items": [
-            {
-              "item": {
-                "id": "create:brass_sheet",
-                "Count": 1
-              }
-            },
-            {
-              "item": {
-                "id": "create:electron_tube",
-                "Count": 1
-              }
-            }
-          ]
-        }
-      ],
-      "prerequisites": [
-        "54646046-e479-4bcb-941c-6713a659646f",
-        "1892c9be-9d6c-4c4a-bbe3-b0a606205724",
-        "eddaaad6-761a-458a-8e0f-ff4297889adc",
-        "bf8d316b-64d4-4a30-8c44-86f9c0be0cb3"
-      ],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "createaddition:diamond_grit_sandpaper",
-          "Count": 1,
-          "tag": "{Damage:0}"
-        }
-      ],
-      "rewardchoice": [
-        {
-          "id": "create:brass_ingot",
-          "Count": 4
-        },
-        {
-          "id": "minecraft:redstone",
-          "Count": 32
-        }
-      ],
-      "commandrewards": []
-    },
-    {
       "uuid": "e6d0efde-1f09-434e-9f80-a45f09d37ec0",
       "name": {
         "text": "Penny Lane",
         "isTranslationKey": false
       },
       "description": {
-        "text": "Unnamed",
+        "text": "Copper plating is often used in fluid transportation.",
         "isTranslationKey": false
       },
       "x": 110,
@@ -229,7 +163,7 @@
         {
           "type": "hardcorequesting:detect",
           "longDescription": {
-            "text": "Copper plating is often used in fluid transportation.",
+            "text": "Copper plates are made from putting copper ingots into a mechanical press.",
             "isTranslationKey": false
           },
           "items": [
@@ -257,13 +191,78 @@
       "commandrewards": []
     },
     {
+      "uuid": "68d15aff-b4ec-4d53-aa16-ff96ec851e11",
+      "name": {
+        "text": "Top Brass",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Brass plating is often used for advanced machinery, and electron tubing enables some \"smart\" features.",
+        "isTranslationKey": false
+      },
+      "x": 271,
+      "y": 39,
+      "icon": {
+        "id": "create:brass_sheet",
+        "Count": 1
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "hardcorequesting:detect",
+          "longDescription": {
+            "text": "Brass plates are made from putting brass ingots into a mechanical press, and electron tubes are made from polished rose quartz. Rose quartz is crafted from quartz and redstone, and it can be polished by made by using sandpaper while the rose quartz is in your offhand.",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "create:brass_sheet",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "create:electron_tube",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "54646046-e479-4bcb-941c-6713a659646f",
+        "1892c9be-9d6c-4c4a-bbe3-b0a606205724",
+        "eddaaad6-761a-458a-8e0f-ff4297889adc"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "createaddition:diamond_grit_sandpaper",
+          "Count": 1,
+          "tag": "{Damage:0}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "create:brass_ingot",
+          "Count": 4
+        },
+        {
+          "id": "minecraft:redstone",
+          "Count": 32
+        }
+      ],
+      "commandrewards": []
+    },
+    {
       "uuid": "84c2b599-5734-4f21-98a9-bb63cfced54d",
       "name": {
         "text": "Biggest Fan",
         "isTranslationKey": false
       },
       "description": {
-        "text": "Unnamed",
+        "text": "The encased fan can blow air to push items on the ground, and it can blow water, fire, and lava to wash or cook things.",
         "isTranslationKey": false
       },
       "x": 78,
@@ -403,6 +402,10 @@
       "reward": [],
       "rewardchoice": [
         {
+          "id": "minecraft:soul_campfire",
+          "Count": 1
+        },
+        {
           "id": "create:nozzle",
           "Count": 1
         }
@@ -416,7 +419,7 @@
         "isTranslationKey": false
       },
       "description": {
-        "text": "Unnamed",
+        "text": "A Blaze Burner can be used to provide heat for mixing items in the basin, or as a heat source for the crucible.",
         "isTranslationKey": false
       },
       "x": 46,
@@ -490,7 +493,7 @@
         "isTranslationKey": false
       },
       "description": {
-        "text": "Unnamed",
+        "text": "The Spout is used to fill liquid containers or craft with liquids.",
         "isTranslationKey": false
       },
       "x": 94,
@@ -504,7 +507,7 @@
         {
           "type": "hardcorequesting:detect",
           "longDescription": {
-            "text": "The Spout is used to fill liquid containers (e.g., bottles, buckets) or craft with liquids. It holds up to 1 bucket of a single liquid, which is supplied via Fluid Pipes. The Spout dispenses fluid onto items passing below it on a Conveyor Belt or Depot. Each item takes 1 second to process, though refill time may cause slight delays.\n\nThe Depot serves as a machine interaction point, allowing items to be placed manually or inserted automatically. Machines like the Mechanical Arm or Mechanical Press can interact with items on the Depot, just as they would on a Mechanical Belt. Items on a Depot do not despawn and remain until removed by a player or another machine.",
+            "text": "The Spout dispenses fluid onto items passing below it on a Conveyor Belt or Depot. Each item takes 1 second to process, though refill time may cause slight delays. The Spout holds up to 1 bucket of a single liquid, which is supplied via Fluid Pipes.\n\nThe Depot serves as a machine interaction point, allowing items to be placed manually or inserted automatically. Machines like the Mechanical Arm or Mechanical Press can interact with items on the Depot, just as they would on a Mechanical Belt. Items on a Depot do not despawn and remain until removed by a player or another machine.",
             "isTranslationKey": false
           },
           "items": [
@@ -588,7 +591,7 @@
         "isTranslationKey": false
       },
       "description": {
-        "text": "Unnamed",
+        "text": "A mechanical mixer can be used to mix batches of items together, and it can be heated for melting, cooking, and alloying. ",
         "isTranslationKey": false
       },
       "x": 46,
@@ -650,7 +653,7 @@
         "isTranslationKey": false
       },
       "description": {
-        "text": "Unnamed quest",
+        "text": "The Item Drain extracts liquids from bottles, buckets, and other fluid containers.",
         "isTranslationKey": false
       },
       "x": 126,
@@ -702,7 +705,7 @@
         "isTranslationKey": false
       },
       "description": {
-        "text": "Unnamed",
+        "text": "Crushing Wheels are an advanced version of Millstones that are more powerful, and can crush a greater variety of items than the Millstone, and sometimes with higher yields.",
         "isTranslationKey": false
       },
       "x": 238,
@@ -715,7 +718,7 @@
         {
           "type": "hardcorequesting:detect",
           "longDescription": {
-            "text": "Crushing Wheels are an advanced version of Millstones that apply crushing recipes to items inserted from the direction they are spinning away from. They also have an expanded list of crushing recipes compared to Millstone\u0027s. To function, two Crushing Wheels must be placed next to each other, either horizontally or vertically, one block apart, with opposite rotational forces. Items to be crushed should be inserted where the wheels rotate inwards. Automation is possible by placing a hopper between the wheels and connecting it to a depot or conveyor belt below.",
+            "text": "Crushing Wheels crush items inserted from the direction they are spinning away from. To function, two Crushing Wheels must be placed next to each other, either horizontally or vertically, one block apart, with opposite rotational forces. Items to be crushed should be inserted where the wheels rotate inwards. Automation is possible by placing a hopper between the wheels and connecting it to a depot or conveyor belt below.",
             "isTranslationKey": false
           },
           "items": [
@@ -762,7 +765,7 @@
         "isTranslationKey": false
       },
       "description": {
-        "text": "Unnamed quest",
+        "text": "The millstone can grind small items into dusts, useful for ore processing, making flour, and a variety of other applications where grinding something up is useful.",
         "isTranslationKey": false
       },
       "x": 126,
@@ -776,7 +779,7 @@
           "type": "hardcorequesting:detect",
           "longDescription": {
             "text": "The millstone is a processing machine and a simpler version of the more advanced crushing wheels. It performs milling recipes on valid items inserted from above. It can be powered either from below via a shaft or from the side using a cogwheel. Items can be fed into the Millstone either by dropping them directly on top or by using hoppers, funnels, chutes, or other item transport systems. However, it does not automatically output processed items; you must either right-click the machine with an empty hand or use an external extractor like a Hopper or Funnel to retrieve the output. To get a full list of all millstone recipes, consult the JEI.",
-            "isTranslationKey": true
+            "isTranslationKey": false
           },
           "items": [
             {
@@ -847,7 +850,7 @@
         "isTranslationKey": false
       },
       "description": {
-        "text": "Unnamed quest",
+        "text": "Cogs take up a lot of space, and sometimes a simple change in direction is all you need. Gearboxes can provide that in a small space.",
         "isTranslationKey": false
       },
       "x": 190,
@@ -862,7 +865,7 @@
           "type": "hardcorequesting:detect",
           "longDescription": {
             "text": "The gearbox distributes rotational power in multiple directions, either horizontally or vertically, depending on its orientation. When powered from any of its input sides, it relays rotation to the other three output sides. The key behavior of the gearbox is that it inverts the rotational direction: if the input rotation is clockwise, the outputs will rotate counterclockwise, and vice versa. This makes it particularly useful for splitting power between multiple machines or systems while maintaining synchronized but opposite motion across different components. The vertical variant functions the same way but distributes power along the vertical axis.",
-            "isTranslationKey": true
+            "isTranslationKey": false
           },
           "items": [
             {
@@ -899,7 +902,7 @@
         "isTranslationKey": false
       },
       "description": {
-        "text": "Unnamed",
+        "text": "With moving parts, a variety of farming contraptions can be made to automatically harvest blocks. Harvesters can be used to harvest crops, saws can be used to chop trees, and drills can be used for any other block.",
         "isTranslationKey": false
       },
       "x": 78,
@@ -1001,7 +1004,7 @@
         "isTranslationKey": false
       },
       "description": {
-        "text": "Unnamed",
+        "text": "Iron plating is typically used for moving parts and machines of intermediate complexity.",
         "isTranslationKey": false
       },
       "x": 46,
@@ -1015,7 +1018,7 @@
         {
           "type": "hardcorequesting:detect",
           "longDescription": {
-            "text": "Iron plating is typically used for moving parts and machines of intermediate complexity.",
+            "text": "Iron plates are made from putting iron ingots into a mechanical press.",
             "isTranslationKey": false
           },
           "items": [
@@ -1029,8 +1032,7 @@
         }
       ],
       "prerequisites": [
-        "1892c9be-9d6c-4c4a-bbe3-b0a606205724",
-        "54646046-e479-4bcb-941c-6713a659646f"
+        "1892c9be-9d6c-4c4a-bbe3-b0a606205724"
       ],
       "optionlinks": [],
       "reward": [
@@ -1049,7 +1051,7 @@
         "isTranslationKey": false
       },
       "description": {
-        "text": "Unnamed quest",
+        "text": "Engineer\u0027s Goggles provide detailed analysis of a machine\u0027s rotational speed and stress level at a glance.",
         "isTranslationKey": false
       },
       "x": 190,
@@ -1105,7 +1107,7 @@
         "isTranslationKey": false
       },
       "description": {
-        "text": "Unnamed",
+        "text": "The deployer has a mechanical hand, designed to use items just like a person would. It can be set to use tools, interact with blocks, and even attack.",
         "isTranslationKey": false
       },
       "x": 302,
@@ -1161,7 +1163,7 @@
         "isTranslationKey": false
       },
       "description": {
-        "text": "Unnamed quest",
+        "text": "Cogwheels can be used to extend rotational force perpendicular to a shaft, or to change the direction of rotation. Combining small and large cogwheels also allows rotation speed to be increased or decreased.",
         "isTranslationKey": false
       },
       "x": 158,
@@ -1177,7 +1179,7 @@
           "type": "hardcorequesting:detect",
           "longDescription": {
             "text": "Cogwheels transmit and manipulate rotational force. The basic Cogwheel and its larger variant, the Large Cogwheel, allow for various interlocking configurations that control the direction, speed, and axis of rotational force. When two cogwheels are placed side-by-side and face the same direction, they rotate in opposite directions at equal speeds. Two large cogwheels interlock when placed perpendicularly, changing the rotational axis without affecting speed. A cogwheel and a large cogwheel interlock diagonally, with the cogwheel rotating at twice the speed of the larger one. Cogwheels can also act like shafts, transmitting rotation from both ends unless encased, and multiple cogwheels connected in a line function like a series of shafts. Cogwheels are also used to activate certain blocks; if a block features a cogwheel in its texture, it can be powered by placing a cogwheel directly next to it or a large cogwheel diagonally, provided they\u0027re aligned in the same direction.",
-            "isTranslationKey": true
+            "isTranslationKey": false
           },
           "items": [
             {
@@ -1238,7 +1240,7 @@
         "isTranslationKey": false
       },
       "description": {
-        "text": "Unnamed quest",
+        "text": "Item transporation is vital for automation, and conveyer belts are a simple way to use rotational force to move things from one point to another.",
         "isTranslationKey": false
       },
       "x": 126,
@@ -1257,7 +1259,7 @@
           },
           "longDescription": {
             "text": "To place a belt, you must have at least two shafts facing the same direction; simply right- click one shaft and then the other. A single Mechanical Belt item is used regardless of the distance, provided the length is under 20 blocks. Belts can be placed in straight lines or horizontally, vertically, or diagonally (at a 45° incline), so long as there are no obstructions.\nYou can extend or shorten belts by right-clicking with a belt or a wrench, which will also reposition the shaft. In addition to transmitting identical rotational force across all connected shafts (as long as the input force is consistent), the mechanical belt excels at moving items and entities. Items can be added by dropping them manually or through machines like funnels, chutes, and mechanical arms, and they can also be removed using similar methods. Belts cannot transport items vertically. If you are wearing diving boots or crouching, you will not be moved by belts. Belts also interact with a variety of machines: mechanical presses can press items passing underneath, deployers can interact with items on the belt, spouts can fill them with liquids, and encased fans can perform bulk processing like washing or smelting. Brass Tunnels help with item sorting and organization, while Depots can act as temporary stops for other machines to interact with items. For added customization, belts can be dyed with any dye, adding colored stripes, and the dye can be removed with a water bucket or bottle.",
-            "isTranslationKey": true
+            "isTranslationKey": false
           },
           "items": [
             {
@@ -1309,7 +1311,7 @@
         "isTranslationKey": false
       },
       "description": {
-        "text": "Unnamed quest",
+        "text": "To set up complicated contraptions full of moving parts, you\u0027ll need a way to make sure everything stays attached.",
         "isTranslationKey": false
       },
       "x": 14,
@@ -1325,7 +1327,7 @@
           "type": "hardcorequesting:detect",
           "longDescription": {
             "text": "Super Glue binds blocks together in moving contraptions, ensuring they act as a single structure during motion. Each use reduces the glue\u0027s durability by one, although enchantments like Unbreaking and Mending can prolong its lifespan. In Block by Block Mode, glue is applied by right-clicking the face of a chassis or held in the off-hand to automatically apply glue while placing blocks. This method mimics the use of a Slimeball but allows for more flexible attachment, including placing blocks on chassis edges. Glue applied this way is permanent unless manually removed by sneak right-clicking with an empty hand. Area Mode allows you to glue multiple blocks after placement by selecting a 3D section. This is done by right-clicking one corner and then the opposite corner of a region, up to 24 blocks apart. Hold Super Glue in your main hand to visually identify glued blocks with green outlines, though glue applied directly to surfaces won’t show these outlines unless placed with the glue in the offhand. Left click with superglue on green areas to remove superglue.",
-            "isTranslationKey": true
+            "isTranslationKey": false
           },
           "items": [
             {
@@ -1364,7 +1366,7 @@
         "isTranslationKey": false
       },
       "description": {
-        "text": "Unnamed quest",
+        "text": "Cobblestone can be generated by casting water and lava together, but that takes up a lot of space and likely violates some industrial safety procedures. It\u0027s possible to fit the main press and mining equipment in a small space.",
         "isTranslationKey": false
       },
       "x": 190,
@@ -1378,7 +1380,7 @@
           "type": "hardcorequesting:detect",
           "longDescription": {
             "text": "The mechanical extruder is used to automate the production of stone-type blocks. When powered with rotational force as well as having the necessary liquid source blocks adjacent to its sides, the mechanical extruder can create cobblestone, scoria, stone, basalt, or limestone. The block underneath the extruder does matter in some cases of production (see JEI for details). The blocks it produces can be extracted either with a right click or automatically pulled out with a combination of a funnel and moving belt.",
-            "isTranslationKey": true
+            "isTranslationKey": false
           },
           "items": [
             {
@@ -1410,7 +1412,7 @@
         "isTranslationKey": false
       },
       "description": {
-        "text": "Unnamed",
+        "text": "The Rotation Speed Controller is used to precisely control rotational speed instead of requiring a large gear shifting contraption.",
         "isTranslationKey": false
       },
       "x": 270,
@@ -1424,7 +1426,7 @@
         {
           "type": "hardcorequesting:detect",
           "longDescription": {
-            "text": "The Rotation Speed Controller is used to precisely control rotational speed, but it must be paired with a Large Cogwheel to function. When powered by the Large Cogwheel, the controller outputs a desired rotational speed from its sides, and when powered from its sides, it controls the speed of the Large Cogwheel. The rotation speed and direction can be adjusted in the Value Settings Screen located on the front or back of the controller. The speed can be set to a maximum of 256 RPMs, either clockwise or counter-clockwise.",
+            "text": "The Rotation Speed Controller adjusts the  speed of whatever source of rotational force is provided as input, and outputs through a cogwheel, which is placed on top. The rotation speed and direction can be adjusted in the Value Settings Screen located on the front or back of the controller. The speed can be set to a maximum of 256 RPM.",
             "isTranslationKey": false
           },
           "items": [
@@ -1457,7 +1459,7 @@
         "isTranslationKey": false
       },
       "description": {
-        "text": "Unnamed",
+        "text": "Gold plating is often used in personal equipment.",
         "isTranslationKey": false
       },
       "x": 206,
@@ -1471,7 +1473,7 @@
         {
           "type": "hardcorequesting:detect",
           "longDescription": {
-            "text": "Gold plating is often used in personal equipment. ",
+            "text": "Gold plates are made from putting gold ingots into a mechanical press. ",
             "isTranslationKey": false
           },
           "items": [
@@ -1505,7 +1507,7 @@
         "isTranslationKey": false
       },
       "description": {
-        "text": "Unnamed",
+        "text": "The Precision Mechanism is an intricate component for more complex devices.",
         "isTranslationKey": false
       },
       "x": 302,
@@ -1518,7 +1520,7 @@
         {
           "type": "hardcorequesting:detect",
           "longDescription": {
-            "text": "This difficultly made crafting ingredients is used for a range of complex machines and tools. Send a golden sheet through a factory line and deploy a small cogwheel, large cogwheel, and then an iron nugget. Unfortunately, 20% of the time you will get random salvage.",
+            "text": "To make a Precision Mechanism, send a golden sheet through a factory line and deploy a small cogwheel, large cogwheel, and then an iron nugget to the sheet. Repeat this process to create the mechanism. However, due to the complexity of the device, there is a 20% chance of failure, where all you get back is scrap.",
             "isTranslationKey": false
           },
           "items": [
@@ -1556,7 +1558,7 @@
         "isTranslationKey": false
       },
       "description": {
-        "text": "Unnamed",
+        "text": "The Wrench is a versatile tool for rotating, dismantling, and configuring components.",
         "isTranslationKey": false
       },
       "x": 222,
@@ -1570,7 +1572,7 @@
         {
           "type": "hardcorequesting:detect",
           "longDescription": {
-            "text": "Wrench: A versatile tool for rotating, dismantling, and configuring components. Right-click rotates a component, while Shift + Right-click dismantles it. Scroll over certain components to configure them, and hold Ctrl to configure all connected components at once.",
+            "text": "Right-click rotates a component, while Shift + Right-click dismantles it. Scroll over certain components to configure them, and hold Ctrl to configure all connected components at once.",
             "isTranslationKey": false
           },
           "items": [
@@ -1607,7 +1609,7 @@
         "isTranslationKey": false
       },
       "description": {
-        "text": "Unnamed",
+        "text": "The Mechanical Crafter is a machine that crafts items when powered by rotational force.",
         "isTranslationKey": false
       },
       "x": 238,
@@ -1621,7 +1623,7 @@
         {
           "type": "hardcorequesting:detect",
           "longDescription": {
-            "text": "The Mechanical Crafter is a machine used for crafting items when powered by rotational force. To change the direction it sends items during crafting, simply right-click the front of the crafter with a Wrench. The connection between Mechanical Crafters is established through the path indicated by the block\u0027s design. In a setup, the crafters can be automatically filled by Funnels or Hoppers, and they can share inventories without being part of the same crafting recipe. A Wrench can also be used on the back and sides of Mechanical Crafters to connect or disconnect adjacent crafters\u0027 inventories. Items can be manually inserted or removed as well.\n\nEach Mechanical Crafter requires rotational power from either adjacent crafters or any size Cogwheel. This means that only one crafter in a setup needs to be powered by a Cogwheel for the entire system to work. Once powered, and when all the crafting slots are filled or a redstone signal is received, the Mechanical Crafters will send their items to adjacent crafters. To successfully craft an item, the components must eventually meet in one crafter, where they will turn into the final product. Crafter Slot Covers can act as empty spaces in a recipe, allowing for the connection of separate crafters, but they do not move the items themselves.\n\nIf the items do not form a valid recipe, the crafters will eject the items instead of crafting the product. For automating crafting, directly adjacent slots can be merged to hold a single item type, like andesite alloy. This allows the material to be fed in from the side via a hopper, streamlining the crafting process. Powered Mechanical Crafters will start crafting once all slots are filled or when a redstone signal is applied.",
+            "text": "The connection between Mechanical Crafters is established through the path indicated by the block\u0027s design. To change the direction it sends items during crafting, simply right-click the front of the crafter with a Wrench. In a setup, the crafters can be automatically filled by Funnels or Hoppers, and they can share inventories without being part of the same crafting recipe. A Wrench can also be used on the back and sides of Mechanical Crafters to connect or disconnect adjacent crafters\u0027 inventories. Items can be manually inserted or removed as well.\n\nEach Mechanical Crafter requires rotational power from either adjacent crafters or any size Cogwheel. This means that only one crafter in a setup needs to be powered by a Cogwheel for the entire system to work. Once powered, and when all the crafting slots are filled or a redstone signal is received, the Mechanical Crafters will send their items to adjacent crafters. To successfully craft an item, the components must eventually meet in one crafter, where they will turn into the final product. Crafter Slot Covers can act as empty spaces in a recipe, allowing for the connection of separate crafters, but they do not move the items themselves.\n\nIf the items do not form a valid recipe, the crafters will eject the items instead of crafting the product. For automating crafting, directly adjacent slots can be merged to hold a single item type, like andesite alloy. This allows the material to be fed in from the side via a hopper, streamlining the crafting process. Powered Mechanical Crafters will start crafting once all slots are filled or when a redstone signal is applied.",
             "isTranslationKey": false
           },
           "items": [
@@ -1655,7 +1657,7 @@
         "isTranslationKey": false
       },
       "description": {
-        "text": "Unnamed",
+        "text": "Rotational force is a simple method of conveying energy for automation before electricity becomes a viable alternative. One of the most effective methods of harnessing natural rotational energy is harnessing the energy of the wind.",
         "isTranslationKey": false
       },
       "x": 190,
@@ -1671,7 +1673,7 @@
           "type": "hardcorequesting:detect",
           "longDescription": {
             "text": "A windmill is an automatic power generator that produces rotational force using a windmill bearing and at least eight sail-type blocks, such as windmill sails, sail frames, or wool blocks. To construct a windmill, attach any block to the Windmill Bearing’s sticky side, which comes pre-glued for convenience, and then connect sail-type blocks to the hub block you just placed. The windmill becomes functional once it has at least eight sail blocks, generating 1 RPM and 512 stress units (SU) for every increment of eight sails, up to a maximum of 8192 SU at 128 sails. The orientation of the sails doesn\u0027t affect performance; they can be placed in any shape or pattern. You can start or stop the windmill by right-clicking the bearing with an empty hand and can change its spin direction by interacting with the center of the bearing. By default, the windmill spins clockwise, but this can be reversed using a wrench.",
-            "isTranslationKey": true
+            "isTranslationKey": false
           },
           "items": [
             {
@@ -1806,7 +1808,7 @@
         "isTranslationKey": false
       },
       "description": {
-        "text": "Unnamed quest",
+        "text": "Rotational force is a simple method of conveying energy for automation before electricity becomes a viable alternative. One of the simplest methods of harnessing natural rotational energy is harnessing the energy of flowing water.",
         "isTranslationKey": false
       },
       "x": 126,
@@ -1822,7 +1824,7 @@
           "type": "hardcorequesting:detect",
           "longDescription": {
             "text": "The water wheel is a simple power generator that produces rotational force when water flows around it. Place the water wheel into flowing water and it will produce rotational force. Multiple water wheels can be lined up to increase load making it an easy way to generate larger amounts of power.",
-            "isTranslationKey": true
+            "isTranslationKey": false
           },
           "items": [
             {
@@ -1875,7 +1877,7 @@
         "isTranslationKey": false
       },
       "description": {
-        "text": "Unnamed quest",
+        "text": "Rotational force is a simple method of conveying energy for automation before electricity becomes a viable alternative. One of the easiest methods of creating rotational energy is manually turning a crank.",
         "isTranslationKey": false
       },
       "x": 158,
@@ -1926,7 +1928,7 @@
         "isTranslationKey": false
       },
       "description": {
-        "text": "Press W",
+        "text": "Forming metal into thin sheets is vital for making more advanced contraptions. A mechanical press can can do just that.",
         "isTranslationKey": false
       },
       "x": 158,
@@ -1979,7 +1981,7 @@
         "isTranslationKey": false
       },
       "description": {
-        "text": "Unnamed quest",
+        "text": "Where belts are used for horizontal item transportation, Chutes are design for vertical item transportation.",
         "isTranslationKey": false
       },
       "x": 14,
@@ -1994,7 +1996,7 @@
           "type": "hardcorequesting:detect",
           "longDescription": {
             "text": "Chutes function similarly to mechanical belts but are designed for moving items up or down directly. They can both insert into and extract from inventories positioned directly above or below, and when connected vertically or diagonally, they automatically pass items between each other. By default, items fall through chutes due to gravity, but upward movement is possible using encased fans positioned either above (to pull) or below (to push), with fan speed determining the rate of item transport. Chutes also support complex logistics through merging and splitting. Multiple chute lines can converge, though items won’t combine into single stacks. In fan-powered setups, item routing follows basic preferences: pushing fans prioritize straight paths, while pulling fans draw items toward themselves. Speed and airflow efficiency are affected by how chutes are connected. Aesthetically, chutes can be modified: right-clicking with a wrench adds windows, and non-diagonal chutes can be visually upgraded by encasing them with industrial iron blocks.",
-            "isTranslationKey": true
+            "isTranslationKey": false
           },
           "items": [
             {
