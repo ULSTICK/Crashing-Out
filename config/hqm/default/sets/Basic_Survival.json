@@ -814,7 +814,7 @@
             {
               "item": {
                 "id": "minecraft:dirt",
-                "Count": 1
+                "Count": 5
               }
             }
           ]
@@ -1719,8 +1719,7 @@
         "id": "exdeorum:oak_sieve",
         "Count": 1
       },
-      "trigger": "TASK_TRIGGER",
-      "triggertasks": 2,
+      "trigger": "ANTI_TRIGGER",
       "tasks": [
         {
           "type": "hardcorequesting:consume",
@@ -1758,7 +1757,7 @@
     {
       "uuid": "b910ad01-be2f-4928-b33d-6a38353b8b9f",
       "name": {
-        "text": "Breaking Ground",
+        "text": "Breaking New Ground",
         "isTranslationKey": false
       },
       "description": {
