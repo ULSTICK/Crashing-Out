@@ -1,0 +1,19 @@
+{
+  "structures": [
+    {
+      "structure": "crash_landing:nuclear_reactor",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 64,
+    "separation": 32,
+    "spread_type": "triangular",
+    "salt": 65536,
+    "exclusion_zone": {
+      "other_set": "crash_landing:ship",
+      "chunk_count": 16
+    }
+  }
+}

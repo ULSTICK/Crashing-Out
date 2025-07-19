@@ -7,13 +7,13 @@
     ],
     "placement": {
       "type": "minecraft:random_spread",
-      "spacing": 200,
-      "separation": 128,
+      "spacing": 128,
+      "separation": 64,
       "spread_type": "triangular",
-      "salt": 327975993,
+      "salt": 65536,
       "exclusion_zone": {
         "other_set": "crash_landing:ship",
         "chunk_count": 16
       }
     }
-  }
+}

@@ -1,7 +1,7 @@
 {
     "type": "minecraft:jigsaw",
-    "biomes": "minecraft:plains",
-    "max_distance_from_center": 80,
+    "biomes": "minecraft:desert",
+    "max_distance_from_center": 116,
     "project_start_to_heightmap": "WORLD_SURFACE_WG",
     "size": 7,
     "spawn_overrides": {
@@ -30,9 +30,9 @@
           }
     },
     "start_height": {
-        "absolute": -4
+        "absolute": -9
     },
-    "start_pool": "crash_landing:nuclear",
+    "start_pool": "crash_landing:nuclear_reactor/reactor_building_frameworks",
     "step": "surface_structures",
     "terrain_adaptation": "beard_thin",
     "use_expansion_hack": false
