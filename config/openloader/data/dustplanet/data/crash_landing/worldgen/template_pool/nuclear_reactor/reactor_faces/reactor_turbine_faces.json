@@ -1,0 +1,15 @@
+{
+  "name": "crash_landing:reactor_turbine_faces",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "crash_landing:nuclear_reactor/reactor_faces/reactor_turbine_faces/reactor_turbine_face_1",
+        "processors": "minecraft:empty",
+		"projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}
