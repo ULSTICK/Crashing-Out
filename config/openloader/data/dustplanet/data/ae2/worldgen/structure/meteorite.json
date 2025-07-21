@@ -1,6 +1,0 @@
-{
-  "type": "minecraft:ae2mtrt",
-  "biomes": "minecraft:deep_lukewarm_ocean",
-  "spawn_overrides": {},
-  "step": "top_layer_modification"
-}
