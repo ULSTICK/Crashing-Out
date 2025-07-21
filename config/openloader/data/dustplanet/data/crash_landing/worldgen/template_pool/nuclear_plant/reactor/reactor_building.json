@@ -1,13 +1,13 @@
 {
-  "name": "crash_landing:reactor_building_reactors",
+  "name": "crash_landing:reactor_reactor_building",
   "fallback": "minecraft:empty",
   "elements": [
     {
       "weight": 1,
       "element": {
-        "location": "crash_landing:nuclear_reactor/reactor_building/reactor_building_reactors/reactor_building_reactor_1",
+        "location": "crash_landing:nuclear_plant/reactor/reactor_building",
         "processors": "minecraft:empty",
-		"projection": "rigid",
+        "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
       }
     }

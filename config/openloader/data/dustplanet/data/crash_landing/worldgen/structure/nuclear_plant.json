@@ -32,7 +32,7 @@
     "start_height": {
         "absolute": -9
     },
-    "start_pool": "crash_landing:nuclear_reactor/reactor_building_frameworks",
+    "start_pool": "crash_landing:nuclear_plant/reactor/reactor_building",
     "step": "surface_structures",
     "terrain_adaptation": "beard_thin",
     "use_expansion_hack": false
