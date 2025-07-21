@@ -6,14 +6,12 @@
     }
   ],
   "placement": {
-    "type": "minecraft:random_spread",
-    "spacing": 64,
-    "separation": 32,
-    "spread_type": "triangular",
-    "salt": 65536,
-    "exclusion_zone": {
-      "other_set": "crash_landing:ship",
-      "chunk_count": 16
-    }
+    "type": "minecraft:concentric_rings",
+    "distance": 24,
+    "spread": 3,
+    "count": 19,
+    "preferred_biomes": "minecraft:desert",
+    "salt": 423453,
+    "frequency": 1
   }
 }
