@@ -80,7 +80,8 @@
                 "id": "tconstruct:small_blade",
                 "Count": 1,
                 "tag": "{Material:\"tconstruct:bone\"}"
-              }
+              },
+              "precision": "FUZZY"
             }
           ]
         }
@@ -509,7 +510,7 @@
         "isTranslationKey": false
       },
       "description": {
-        "text": "In case case of crash landing, you were equipped with a deluxe survival package:\n- Supplies for a sync shell\n- 32 Extra shotgun shells\n- Saplings\n- Fertilizer\n- Choice of sandwich\nNote: Choose this for an easier experience. Completing this quest disables the hard route quest.",
+        "text": "In case case of crash landing, you were equipped with a deluxe survival package:\n- Sync Shell Constructor\n- Spare Power Cell\n- 32 Extra Shotgun Shells\n- Saplings\n- Fertilizer\n- Choice of Sandwich\nNote: Choose this for an easier experience. Completing this quest disables the hard route quest.",
         "isTranslationKey": false
       },
       "x": 14,
@@ -534,13 +535,13 @@
       "optionlinks": [],
       "reward": [
         {
-          "id": "thermal:energy_cell",
-          "Count": 1,
-          "tag": "{BlockEntityTag:{AmountIn:1000,AmountOut:1000,Energy:1000000,EnergyMax:1000000,EnergyRecv:1000,EnergySend:1000,RSControl:{RSMode:0b,RSThreshold:0b},Sides:[B;0B,0B,0B,0B,0B,1B],Xfer:{XferIn:1b,XferOut:1b}},Properties:{}}"
-        },
-        {
           "id": "sync:shell_constructor",
           "Count": 1
+        },
+        {
+          "id": "thermal:energy_cell",
+          "Count": 1,
+          "tag": "{BlockEntityTag:{AmountIn:1000,AmountOut:1000,Energy:1000000,EnergyMax:1000000,EnergyRecv:1000,EnergySend:1000,RSControl:{RSMode:0b,RSThreshold:0b},Sides:[B;2B,2B,2B,2B,2B,2B],Xfer:{XferIn:1b,XferOut:1b}},Properties:{}}"
         },
         {
           "id": "cgm:shell",
@@ -815,7 +816,8 @@
               "item": {
                 "id": "minecraft:dirt",
                 "Count": 1
-              }
+              },
+              "required": 3
             }
           ]
         }
@@ -1500,11 +1502,6 @@
       "optionlinks": [],
       "reward": [],
       "rewardchoice": [
-        {
-          "id": "minecraft:potion",
-          "Count": 2,
-          "tag": "{Potion:\"survive:purified_water\"}"
-        },
         {
           "id": "pamhc2crops:cantaloupeseeditem",
           "Count": 2

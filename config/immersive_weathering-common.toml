@@ -91,7 +91,7 @@
 	fulgurite_chance = 0.4
 
 [rusting]
-	rusting = true
+	rusting = false
 	#Range: 1 ~ 8
 	rusting_influence_radius = 4
 	#Range: 0.0 ~ 1.0
