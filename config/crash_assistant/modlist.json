@@ -695,10 +695,9 @@
     "modId": "supermartijn642corelib",
     "version": "1.1.18"
   },
-  "Survive-1.20.1-10.1.8-Forge.jar": {
-    "jarName": "Survive-1.20.1-10.1.8-Forge.jar",
+  "Survive-1.20.1-9.0.6.jar": {
     "modId": "survive",
-    "version": "10.1.8"
+    "version": "1.20.1-9.0.6"
   },
   "sync-mc1.20.1-5.1.jar": {
     "jarName": "sync-mc1.20.1-5.1.jar",
@@ -760,10 +759,9 @@
     "modId": "torchmaster",
     "version": "20.1.9"
   },
-  "UnionLib-1.20.1-12.0.17-Forge-all.jar": {
-    "jarName": "UnionLib-1.20.1-12.0.17-Forge-all.jar",
+  "UnionLib-1.20.1-10.2.7-Forge.jar": {
     "modId": "unionlib",
-    "version": "12.0.17"
+    "version": "10.2.7"
   },
   "worldedit-mod-7.2.15.jar": {
     "jarName": "worldedit-mod-7.2.15.jar",

@@ -1,54 +1,22 @@
-[Nutrition]
+
+[Hunger]
 	#
 	############################################
-	#How often in ticks the body will attempt to 'maintain' itself. It's actually just how often protein is consumed
-	#You can set this to 0 to disable this feature, but your protein levels will still reduce automatically once you go past 3000 to ensure you're still able to heal
+	#The amount of hunger exaustion added to the player regardless of what the player is doing
 	#-------------------------------------------
-	#Default: 200
+	#Default: 0.1125
 	#-------------------------------------------
-	#Range: 0 ~ 10000
-	"Integer: Cell Maintenance Rate" = 200
+	#Range: 0.0 ~ 4.0
+	"Float: Idle Hunger Exhaustion" = 0.0
 	#
 	############################################
-	#This is a modifier on [Cell Maintenance Rate]. If protein levels go above 2000, the rate is multiplied by this value
+	#The amount of time in ticks before hunger exaustion is added to the player regardless of what the player is doing. Set to -1 to disable
 	#-------------------------------------------
-	#Default: 0.8
+	#Default: 120
 	#-------------------------------------------
-	#Range: 0.1 ~ 1.0
-	"Float: High Protein Maintenance Modifier" = 0.8
-	#
-	############################################
-	#Disabling this will disable this mods nutrition system
-	#The nutrition system might be pretty buggy, so proceed with caution
-	#-------------------------------------------
-	#Default: false
-	#-------------------------------------------
-	"Boolean: Enable Nutrition (Beta)" = false
-	#
-	############################################
-	#This is a modifier on [Cell Maintenance Rate]. If protein levels go below 1000, the rate is multiplied by this value
-	#-------------------------------------------
-	#Default: 1.5
-	#-------------------------------------------
-	#Range: 0.1 ~ 1.0
-	"Float: Low Protein Maintenance Modifier" = 1.0
-[Micellaneous]
-	#
-	############################################
-	#Enable Debug mode to have some informational stuff print on your console
-	#-------------------------------------------
-	#Default: false
-	#-------------------------------------------
-	"Boolean: Debug Mode" = false
-	#
-	############################################
-	#For hardcore servers that do not need a little bit of magic to make life easier
-	#Be warned, this is not for the faint of heart.
-	#A lot of the mechanics in this mod become a lot more unreasonable without enchantments
-	#-------------------------------------------
-	#Default: false
-	#-------------------------------------------
-	"Boolean: Disable All Enchantments" = true
+	#Range: -1 ~ 1000
+	"Integer: Idle Hunger Tick Rate" = -1
+
 [Sleep]
 	#
 	############################################
@@ -66,6 +34,14 @@
 	"Boolean: Can Sleep During Day" = true
 	#
 	############################################
+	#The amount of ticks after the player has not slept before The tiredness effect starts to manifest
+	#-------------------------------------------
+	#Default: 24000
+	#-------------------------------------------
+	#Range: 0 ~ 240000
+	"Integer: Initial Tired Time" = 48000
+	#
+	############################################
 	#The amount of ticks after the Initial Tired Time before the amplifier of the tiredness effects increases
 	#-------------------------------------------
 	#Default: 12000
@@ -80,22 +56,42 @@
 	#-------------------------------------------
 	#Range: 0 ~ 255
 	"Integer: Tired Time Stacks" = 20
+
+[Nutrition]
 	#
 	############################################
-	#The amount of ticks after the player has not slept before The tiredness effect starts to manifest
+	#Disabling this will disable this mods nutrition system
+	#The nutrition system might be pretty buggy, so proceed with caution
 	#-------------------------------------------
-	#Default: 24000
+	#Default: false
 	#-------------------------------------------
-	#Range: 0 ~ 240000
-	"Integer: Initial Tired Time" = 48000
+	"Boolean: Enable Nutrition (Beta)" = false
+
+[Micellaneous]
+	#
+	############################################
+	#Enable Debug mode to have some informational stuff print on your console
+	#-------------------------------------------
+	#Default: false
+	#-------------------------------------------
+	"Boolean: Debug Mode" = false
+	#
+	############################################
+	#For hardcore servers that do not need a little bit of magic to make life easier
+	#Be warned, this is not for the faint of heart.
+	#A lot of the mechanics in this mod become a lot more unreasonable without enchantments
+	#-------------------------------------------
+	#Default: false
+	#-------------------------------------------
+	"Boolean: Disable All Enchantments" = true
+	#
+	############################################
+	#
+	#Default: false
+	#-------------------------------------------
+	"Boolean: Enable Food Spoiling" = false
+
 [Other]
-	#
-	############################################
-	#If you have the origins mod, specify the names of origins to add the "Air from Canteen" power to. Comma separated list
-	#-------------------------------------------
-	#Default: origins:merling
-	#-------------------------------------------
-	"String: Air From Canteen Power" = "origins:merling"
 	#
 	############################################
 	#If you have the origins mod, specify the names of races to add heat resistance to. Comma separated list
@@ -110,21 +106,11 @@
 	#Default: origins:merling
 	#-------------------------------------------
 	"String: Origins Cold Blooded Races" = "origins:merling"
-[Hunger]
 	#
 	############################################
-	#The amount of time in ticks before hunger exaustion is added to the player regardless of what the player is doing. Set to -1 to disable
+	#If you have the origins mod, specify the names of origins to add the "Air from Canteen" power to. Comma separated list
 	#-------------------------------------------
-	#Default: 120
+	#Default: origins:merling
 	#-------------------------------------------
-	#Range: -1 ~ 1000
-	"Integer: Idle Hunger Tick Rate" = -1
-	#
-	############################################
-	#The amount of hunger exaustion added to the player regardless of what the player is doing
-	#-------------------------------------------
-	#Default: 0.1125
-	#-------------------------------------------
-	#Range: 0.0 ~ 4.0
-	"Float: Idle Hunger Exhaustion" = 0.0
+	"String: Air From Canteen Power" = "origins:merling"
 

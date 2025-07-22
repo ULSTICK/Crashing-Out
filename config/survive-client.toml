@@ -1,42 +1,4 @@
-[Nutrition]
-	#
-	############################################
-	#The y offset from the center of the screen where nutrition should render
-	#-------------------------------------------
-	#Default: 1
-	#-------------------------------------------
-	#Range: -2147483648 ~ 2147483647
-	"Integer: Y Position" = 1
-	#
-	############################################
-	#Enabling will make the nutrition indicator display even if you're not holding a food item
-	#-------------------------------------------
-	#Default: false
-	#-------------------------------------------
-	"Boolean: Always Show Nutrition" = false
-	#
-	############################################
-	#Enabling this shows your actual nutrition values instead of the icons
-	#-------------------------------------------
-	#Default: false
-	#-------------------------------------------
-	"Boolean: Show Raw Values" = false
-	#
-	############################################
-	#The x offset from the center of the screen where nutrition should render
-	#-------------------------------------------
-	#Default: 1
-	#-------------------------------------------
-	#Range: -2147483648 ~ 2147483647
-	"Integer: X Position" = 1
-	#
-	############################################
-	#Where on the screen should the nutrition indicator be anchored
-	#-------------------------------------------
-	#Default: TOP_LEFT
-	#-------------------------------------------
-	#Allowed Values: TOP_LEFT, TOP, TOP_RIGHT, LEFT, CENTER, RIGHT, BOTTOM_LEFT, BOTTOM, BOTTOM_RIGHT
-	"Enum: Anchor Position" = "TOP_LEFT"
+
 [Sleep]
 	#
 	############################################
