@@ -11473,34 +11473,6 @@ file = "mods/.connector/temp/sync-mc1.20.1-5.1$smart-recipes-0.2.1+1.20.jar.inpu
 hash = "cef36bbc278e52e8e757f4fb945241665fd78c8cdadad0842ffbe821d5a280b1"
 
 [[files]]
-file = "mods/FastLeafDecay-32.jar"
-hash = "ce48db06bfb5830c147969793771a8f8b5a5774b182543b906bc439efd4e9469"
-
-[[files]]
-file = "mods/FastSuite-1.20.1-5.1.0.jar"
-hash = "326932853763885ed703d8969a62c459235d6b4a2b6a194535feb3daca484f84"
-
-[[files]]
-file = "mods/FramedBlocks-9.4.2.jar"
-hash = "497d66d71952adf5851b5e14d2df636b5933df8c0ab8799c33db1d9cfb82e66d"
-
-[[files]]
-file = "mods/GlobalGameRules-1.20-8.0.0.11.jar"
-hash = "1e63bd5db8ce7613f5f0dbd223c16478ecc13da5ed2fcffe66319c2b74000e3e"
-
-[[files]]
-file = "mods/HQM-1.20.1-5.16.0-forge.jar"
-hash = "9b62b6dedfd51591b64ae3476c19b3f0fd9474f4cf030a5d875370d130c30865"
-
-[[files]]
-file = "mods/HangGlider-v8.0.1-1.20.1-Forge.jar"
-hash = "82298214aa3f7225a0ac0ed93eb2cff8283758af211029cc00a7819a0fed6a7c"
-
-[[files]]
-file = "mods/Jade-1.20.1-Forge-11.13.1.jar"
-hash = "921996fef486fdc0d03d3e9574698243edb380e118aaa6a59dccd55b1776b32f"
-
-[[files]]
 file = "mods/JustEnoughResources-1.20.1-1.4.0.247.jar"
 hash = "cfea462b5ab4f15b38da6003f7d151bdbb68fa5af30084ae81b8ac0970d7aaae"
 
@@ -11531,14 +11503,6 @@ hash = "9cc38ebb5e29b350222e337b7a5a2ba238c802230a89434ce00e90ee3026d056"
 [[files]]
 file = "mods/Pehkui-3.8.2+1.20.1-forge.jar"
 hash = "54210f454c166f65a1bcbbfe4ea52e6f73e07844a793c7132f1af4076a0f42fc"
-
-[[files]]
-file = "mods/Placebo-1.20.1-8.6.3.jar"
-hash = "1cdf906cfbcbb5e5be2ef1bb721f79a24b01bd2ac559c8cdbfb7693f62421571"
-
-[[files]]
-file = "mods/PuzzlesLib-v8.1.32-1.20.1-Forge.jar"
-hash = "614741d2c4eeac0f01ceba8e6d0bbd134e2a501edf93a958da78e700933a8490"
 
 [[files]]
 file = "mods/Quark-4.0-462.jar"
@@ -11610,7 +11574,7 @@ metafile = true
 
 [[files]]
 file = "mods/architectury-api.pw.toml"
-hash = "4e81241ba2da06f425efc5e09fb6b38470125c1581c39e1310c5843a0b96ec76"
+hash = "5e9edd1fd2395f14a0c8a4acbdbdd61e1047be1f0033deb3140d2ce0d093e9d8"
 metafile = true
 
 [[files]]
@@ -11854,12 +11818,28 @@ hash = "81132c550e1fbd5d93252799117e24ebb902c733432f9c764336be560af34a8a"
 metafile = true
 
 [[files]]
-file = "mods/ferritecore-6.0.1-forge.jar"
-hash = "9c2c9396a49e796d88497758caa4637d2bcbb433c318e2dd9cebcffbaf0f6c54"
+file = "mods/fast-leaf-decay.pw.toml"
+hash = "fd5aa059dd7e148e9ce801455b438425c0ad36537ce4b635edeb524900b15284"
+metafile = true
+
+[[files]]
+file = "mods/fastsuite.pw.toml"
+hash = "a828c60907bd972cb75263bce3bd6bacfb31b98ccb3d5556ad10c7be81258e5d"
+metafile = true
+
+[[files]]
+file = "mods/ferrite-core.pw.toml"
+hash = "902bac905b93271f02bd0951a22bac06a3da24f5c237fcaeb469e14a7679e508"
+metafile = true
 
 [[files]]
 file = "mods/forgified-fabric-api.pw.toml"
 hash = "52cbf31840eef5ec3a4dd81ab04ef33a518e4f0ed89fad11c965da0374a7a6d6"
+metafile = true
+
+[[files]]
+file = "mods/framedblocks.pw.toml"
+hash = "41e24ed037adefe00c62d1935f428cc71cb733a04e8012223d66004e52f5ef9d"
 metafile = true
 
 [[files]]
@@ -11868,16 +11848,24 @@ hash = "376f8a190f00bd120193d7a665ebe1b03dfe329cc395f7d944f7216c1182c84d"
 metafile = true
 
 [[files]]
-file = "mods/functionalstorage-1.20.1-1.2.13.jar"
-hash = "0d458bcd5c23e53b5479acdb2e9ac2f762f2a1f3b14951bf3cc4cafeabefb687"
+file = "mods/functional-storage.pw.toml"
+hash = "0d719b8788c3e53940faa21383b51197049ab367fb25fd32aeea852f0a69ebdc"
+metafile = true
 
 [[files]]
-file = "mods/fusion-1.2.8-forge-mc1.20.1.jar"
-hash = "cb6b3891203c189e3ed97774c6860fba23941bf550baacbd9c8f10bdef21656b"
+file = "mods/fusion-connected-textures.pw.toml"
+hash = "c3dc9fa3e5dac927b728439d9601bdbbe5d07b499f660bf54e9967f5b98247ac"
+metafile = true
 
 [[files]]
-file = "mods/geckolib-forge-1.20.1-4.7.2.jar"
-hash = "a8ea443709fb960f2f7f4271137239fec04c0ed7225594b37d81730345637a12"
+file = "mods/geckolib.pw.toml"
+hash = "bfe1b9ef08ea1e5e3a49a449105d91718a74cf10628964c86897d7ae5fac20be"
+metafile = true
+
+[[files]]
+file = "mods/global-gamerules.pw.toml"
+hash = "69e21a8de3b798f251ad5476e97eab6714a1b01e264bc105ac636a444df54162"
+metafile = true
 
 [[files]]
 file = "mods/guideme.pw.toml"
@@ -11885,20 +11873,34 @@ hash = "de1074bb6f0f63ce7580daab559efdea6e5b1238deb20074e0a87179b3c4dbd4"
 metafile = true
 
 [[files]]
-file = "mods/idontwantportalyet-1.20-1.9.jar"
-hash = "f96132f137b99dea33ba9616c8d780afc6ddebfbeeda3f5882dec9ff3b616c1e"
+file = "mods/hang-glider.pw.toml"
+hash = "b909c1dacde4697f08ae5b287346898c2645876a32bf35f754f542871468f793"
+metafile = true
 
 [[files]]
-file = "mods/immersive_weathering-1.20.1-2.0.5-forge.jar"
-hash = "b88353d6efe18635bac2d4169e704320987e9678fd683217195dcdcf2c1ca1ba"
+file = "mods/hardcore-questing-mode.pw.toml"
+hash = "511b7a749a10ec52e8f594829f896ef27ec9022ab42489609d4ecaf0b8436293"
+metafile = true
 
 [[files]]
-file = "mods/incontrol-1.20-9.3.3.jar"
-hash = "04dbf1832162f562d58ded3c98904c4ee03624e9ebdc534449472adcfb2c6430"
+file = "mods/i-dont-want-portal-yet.pw.toml"
+hash = "3e9ec6cdee5a9d93c4c3886d596b19e0011a20acdfa0e31b4d7f0e033d2cd40b"
+metafile = true
 
 [[files]]
-file = "mods/industrial-foregoing-1.20.1-3.5.20.jar"
-hash = "52891307d13e853d24c3701a9175e559f1cd2e7ed0fb3d5e8cec283d0f305492"
+file = "mods/immersive-weathering.pw.toml"
+hash = "0a83314a5c0d8d8f356bd3a8a7a57a0b09133855a59c8ec6791a470c174d57ee"
+metafile = true
+
+[[files]]
+file = "mods/in-control.pw.toml"
+hash = "cd0eccae2401b54d1e36fbdc3ae19ec7c51e5b7004e2a19cb4d17922f14735fe"
+metafile = true
+
+[[files]]
+file = "mods/industrial-foregoing.pw.toml"
+hash = "fc94c66da5ee55811adbff95aebc04daa6de4751be86264658fa26d539149d59"
+metafile = true
 
 [[files]]
 file = "mods/insanelib.pw.toml"
@@ -11906,16 +11908,24 @@ hash = "46bf9aab2b96930bef991125010400fd7b75c52441a34c127ba57c49f4a44504"
 metafile = true
 
 [[files]]
-file = "mods/jei-1.20.1-forge-15.20.0.112.jar"
-hash = "2d3a86f503dbde51afa5142951525c37e227016ce8d9e7dfd10bbdd9233f0204"
+file = "mods/jade.pw.toml"
+hash = "66a8d44f5ef66075063ced8b54312a46bb8a256090d36df877b8ff58de9d16be"
+metafile = true
 
 [[files]]
-file = "mods/jeiintegration_1.20.1-10.0.0.jar"
-hash = "0d83bcb477d761a73cdbb37f723a5d994e61a389340e219e5ce8dc9618be933e"
+file = "mods/jei-integration.pw.toml"
+hash = "06476837027569174dc086ae42b7c8055814f9b8d9f1376b862fc4c54e96e0bd"
+metafile = true
 
 [[files]]
-file = "mods/journeymap-1.20.1-5.10.3-forge.jar"
-hash = "7640a8fdc24ea3988764f774ed1b84cae60f70a1b395bb693faa7aa91b38af62"
+file = "mods/jei.pw.toml"
+hash = "5f7c3cf35124bf96e880cc8562fc44ac15990a89b07db299aed9a88ce3752cb1"
+metafile = true
+
+[[files]]
+file = "mods/journeymap.pw.toml"
+hash = "b29b617692233d60179a6d7376dade85063af0e73a3cc53c623bf570fb768d82"
+metafile = true
 
 [[files]]
 file = "mods/kjsindustrialforegoing-1.0.jar"
@@ -12032,6 +12042,11 @@ file = "mods/piglins-guard-everything-1.1.jar"
 hash = "00e3dc6e2faf58a278e9661c57f3680bfee50bc82f36ef35edcdc603a9a4cdfd"
 
 [[files]]
+file = "mods/placebo.pw.toml"
+hash = "045d582e2c534c5bb96d7336b4ae2cd12692c6de29b19ae5f1dbfd8759c03b03"
+metafile = true
+
+[[files]]
 file = "mods/pneumaticcraft-repressurized-6.0.20+mc1.20.1.jar"
 hash = "ea01b5727d0f4c7243ea2da46af0580eebc09c631a61cf47d830da09518f0169"
 
@@ -12046,6 +12061,11 @@ hash = "cbe63a0a1cb6ae8dbc0e29bb96d149a137cd4e714b295fa49d230994091d157f"
 [[files]]
 file = "mods/powerfuljs-1.6.1.jar"
 hash = "5ef42f7b9e1ac85fb5b87c2a25c1077900b95ceed4004b1cb953f1e4ac432c4c"
+
+[[files]]
+file = "mods/puzzles-lib.pw.toml"
+hash = "74991cede8019cf93d1243369d840913375ab3a7d448d764c7a15f87f5bc4e52"
+metafile = true
 
 [[files]]
 file = "mods/quartz-1.20.1-0.2.0-alpha.0.1.jar"
@@ -12171,8 +12191,9 @@ file = "mods/timecontrol-1.20.1-1.6.0.jar"
 hash = "69032c827e097351af23ddfba2577bd8ab9ab90a288bc5e6a992ccb9d9c563c1"
 
 [[files]]
-file = "mods/titanium-1.20.1-3.8.32.jar"
-hash = "75461182a955b149104d760db908af832da5e1ae1fbabf09d23cd40701d15f02"
+file = "mods/titanium.pw.toml"
+hash = "351aef144aa70ab4f41b3dcf044e0929631227f1ad118f22e611e13ff91fdfe4"
+metafile = true
 
 [[files]]
 file = "mods/tleveling-0.2.5-1.20.1.jar"
