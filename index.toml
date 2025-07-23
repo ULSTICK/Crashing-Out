@@ -11473,22 +11473,6 @@ file = "mods/.connector/temp/sync-mc1.20.1-5.1$smart-recipes-0.2.1+1.20.jar.inpu
 hash = "cef36bbc278e52e8e757f4fb945241665fd78c8cdadad0842ffbe821d5a280b1"
 
 [[files]]
-file = "mods/CrashAssistant-forge-1.19.2-1.20.1-1.9.11.jar"
-hash = "85c70bdd788f93e007dd3335deb2be79685c83e451fe4a5b52ff8e5470da800d"
-
-[[files]]
-file = "mods/EnchantmentDescriptions-Forge-1.20.1-17.1.19.jar"
-hash = "d8501371240082c3436c03380f7a59820fd981e9c5d9fb2978a222ea114b23ae"
-
-[[files]]
-file = "mods/EnderIO-1.20.1-6.2.12-beta-all.jar"
-hash = "fefaaea19b98104d9b85a5e58702e9afafe9cfc4615fd08a8cb9eabb224a5ef9"
-
-[[files]]
-file = "mods/EnderStorage-1.20.1-2.11.0.188-universal.jar"
-hash = "cb6d1c4594f61e89fab2b9e16daffecfab8bab25936684a2d75f2f0fe6eb028f"
-
-[[files]]
 file = "mods/FastLeafDecay-32.jar"
 hash = "ce48db06bfb5830c147969793771a8f8b5a5774b182543b906bc439efd4e9469"
 
@@ -11665,6 +11649,11 @@ hash = "2fd3dde1acdfa58ee1cd8e95930db1660cd061c1dc6388d05a7b3703c7c3b205"
 metafile = true
 
 [[files]]
+file = "mods/bookshelf-lib.pw.toml"
+hash = "02062a6b61e230e7debaf1c03d5e1e7203e427588fceb9f3d6ef8cad8062397e"
+metafile = true
+
+[[files]]
 file = "mods/bookshelf.pw.toml"
 hash = "058699e4832d0cf5396c5ea29244100f0c0e39a8d7aa5b64c2afdcc3cb8c8145"
 metafile = true
@@ -11775,29 +11764,39 @@ hash = "2107056a612f9bd2cee42290461b83e13444fcecd87095617bdc01415f065490"
 metafile = true
 
 [[files]]
+file = "mods/crash-assistant.pw.toml"
+hash = "8e96a78e316956aef3904744d349b0e848283176057dd994c203550e5bb129d8"
+metafile = true
+
+[[files]]
+file = "mods/create-deco.pw.toml"
+hash = "87be52b8aaa9864eab1ec2df8c862cd01a084989b07c4cdbfaa21c57a9a778a6"
+metafile = true
+
+[[files]]
+file = "mods/create-mechanical-extruder.pw.toml"
+hash = "3688fd8c6db46d2196feb5e30236fedbfa4d921a6782fa70e431cbb898596313"
+metafile = true
+
+[[files]]
 file = "mods/create.pw.toml"
 hash = "97f7c75ac9bf6ee2a4f15c0f1e3e4cd161f3d2e33f32ebf623811ac90b3c2a83"
 metafile = true
 
 [[files]]
-file = "mods/create_mecanical_extruder-1.20.1-1.6.10-6.0.6.jar"
-hash = "9fec52fc7777aabf0802ade76ca164f31013a04e2f2fb164763d7a60b6683476"
+file = "mods/createaddition.pw.toml"
+hash = "efb00d657d22a7e560916ae2b7a2836f48586527a5ff40338af7e928472ef9da"
+metafile = true
 
 [[files]]
-file = "mods/createaddition-1.20.1-1.3.1.jar"
-hash = "874660529d7e521f26af8a98bf95e630e15755ed9dec7a860bbd54f6a2865997"
+file = "mods/crust.pw.toml"
+hash = "705c63ad2dc2d3001f14829c58964e544d333c92dc023302eb30c290bda7950b"
+metafile = true
 
 [[files]]
-file = "mods/createdeco-2.0.3-1.20.1-forge.jar"
-hash = "7d6dd0094d18d6bab64fcd7de680ea736015d1a1ffc472d3fe03122bc7aa0864"
-
-[[files]]
-file = "mods/crust-1.20.1-2.5.11.jar"
-hash = "fd5e739dd5f4262d83876aad094e1622057bda1a2ae85c62989eba70312aafe2"
-
-[[files]]
-file = "mods/cryonicconfig-forge-1.0.0+mc1.20.1.jar"
-hash = "51ffc8832eec0fce716ecab9cd148ca7408b63963a1728b06df45d8cfb2eb04a"
+file = "mods/cryonicconfig.pw.toml"
+hash = "c5b561e87ccb02a7d4cff5e56b228542c343800066dd0002aa5b5a72ad564718"
+metafile = true
 
 [[files]]
 file = "mods/curios.pw.toml"
@@ -11805,40 +11804,54 @@ hash = "1315cd56b0b4a5b3d53374cebf4f1f3cd0546b05058740847bd226c1d1ccab39"
 metafile = true
 
 [[files]]
-file = "mods/dummmmmmy-1.20-2.0.7.jar"
-hash = "d010da47ed327ba9bf0a1d5c2a67ba5aefe13efd0148d8d66ee7cec9c6794592"
+file = "mods/elevatormod.pw.toml"
+hash = "f5d37adacc560364c03ff2baeff8f08ba0005ce5899459ed2459f3fb252f240c"
+metafile = true
 
 [[files]]
-file = "mods/elevatorid-1.20.1-1.9.1-forge.jar"
-hash = "7487c091bc8e6ae7b83c61471c97258b380fab2a0f421ed84df78f92ba630f75"
+file = "mods/embeddium.pw.toml"
+hash = "5ec0c37f3f4ad07a40c10376668bca80334ddb7ad2bab06eb4de8f7aac339c8e"
+metafile = true
 
 [[files]]
-file = "mods/embeddium-0.3.31+mc1.20.1.jar"
-hash = "eed3d1325f2acc2fd4e69bb495e5ccb91d962126ac5330f0582ebc2a3daf47fb"
+file = "mods/enchantment-descriptions.pw.toml"
+hash = "473489bb165ab775858cc475d8e9ae599e126bced1c73d17563e3459e4899719"
+metafile = true
 
 [[files]]
-file = "mods/enhancedai-2.6.4.jar"
-hash = "f84a4b04ae0e3d3b525b7a38f0ea244eb30876833398a2443f7d8eba475c2f66"
+file = "mods/ender-storage.pw.toml"
+hash = "3f4594bfb481b9a2c6ed86e7449039477658be2301ae06b463c02fc4930947d2"
+metafile = true
 
 [[files]]
-file = "mods/entityculling-forge-1.8.1-mc1.20.1.jar"
-hash = "753f7627a2b64f9662bbf82dfe2208df0a1d117245f2c5e99ae7086fe17131ec"
+file = "mods/enderio.pw.toml"
+hash = "48bc0635efe418bda0f8a973d9946c08dbf6884d17b6d713e258d17e6a3137cb"
+metafile = true
 
 [[files]]
-file = "mods/exdeorum-1.46.jar"
-hash = "2d3574f3bafd2f2e8fd9d1f3bd85470e7ad6a7aeca48a6d10217865aa20c965a"
+file = "mods/enhanced-ai.pw.toml"
+hash = "711f97a909db881ca09a0d8ac98bafe7024809819f209228871ff5dc731ffe3c"
+metafile = true
 
 [[files]]
-file = "mods/experimentalsettingsdisabler-1.20.1-3.0.jar"
-hash = "2328664536f9fd48b4b924fc8e62e4dd62d436a7d0ae941bad797414e38d4db3"
+file = "mods/entityculling.pw.toml"
+hash = "ba33e2257a6e3e4ae195919d16fdb142c326261bd0ea57560820f8d9fd9e324e"
+metafile = true
 
 [[files]]
-file = "mods/fabric-api-0.92.2+1.11.12+1.20.1.jar"
-hash = "7cada1e9bbee4b506d7c90471a705a32e6cf1d00f36556129f30a40453fc00fc"
+file = "mods/ex-deorum.pw.toml"
+hash = "efed9bacd83cf3d838cd0fcf02300855552ba6fed98da9c0c081c028e7078ad2"
+metafile = true
 
 [[files]]
-file = "mods/factory_blocks-forge-1.4.0+mc1.20.1.jar"
-hash = "a21e9ff2f8add29e7368e933015406f8a3c91dc103bbf16783ea3a3850f23a75"
+file = "mods/experimental-settings-disabler.pw.toml"
+hash = "c50e9edf68588e4cc082fd1e47804b8016e022579a0eea7f0ee32a7764008d69"
+metafile = true
+
+[[files]]
+file = "mods/factory-blocks.pw.toml"
+hash = "81132c550e1fbd5d93252799117e24ebb902c733432f9c764336be560af34a8a"
+metafile = true
 
 [[files]]
 file = "mods/ferritecore-6.0.1-forge.jar"
@@ -11888,8 +11901,9 @@ file = "mods/industrial-foregoing-1.20.1-3.5.20.jar"
 hash = "52891307d13e853d24c3701a9175e559f1cd2e7ed0fb3d5e8cec283d0f305492"
 
 [[files]]
-file = "mods/insanelib-1.21.1.jar"
-hash = "e74cc6e6a281a47b62c7e4279914692a07b0860ebc443f9889f7031845f50231"
+file = "mods/insanelib.pw.toml"
+hash = "46bf9aab2b96930bef991125010400fd7b75c52441a34c127ba57c49f4a44504"
+metafile = true
 
 [[files]]
 file = "mods/jei-1.20.1-forge-15.20.0.112.jar"
@@ -11953,6 +11967,11 @@ hash = "ceb4ea0e85128648a8ee345ffd84073fdc20e78677041411885fa650e0a3bad9"
 metafile = true
 
 [[files]]
+file = "mods/mmmmmmmmmmmm.pw.toml"
+hash = "70bd76457fcd02b797eeaad3e88c3390b88d0e8bd15d7100631c41401953926e"
+metafile = true
+
+[[files]]
 file = "mods/mob_grinding_utils-1.20.1-1.1.0.jar"
 hash = "6e0fa6a245fd56cce99d60ac908b5028bc6392a59833c45e0bc3e27ec7f0a2f9"
 
@@ -11961,8 +11980,9 @@ file = "mods/modernfix-forge-5.24.2+mc1.20.1.jar"
 hash = "b1d362453143c5766ef86a3f38aa245f27b2242b4a135a9c80d56ac5b0745530"
 
 [[files]]
-file = "mods/moonlight-1.20-2.14.11-forge.jar"
-hash = "fb03f39431a8838ae43056676653a562d9ceb9eaa2010a2a014043f0d560c2ff"
+file = "mods/moonlight.pw.toml"
+hash = "9ae2b5ae8494a9a1aef6b97d3242c445c0526ba9880f1b806eb3ea34db7b74bb"
+metafile = true
 
 [[files]]
 file = "mods/mrcrayfish-furniture-mod.pw.toml"
@@ -12107,14 +12127,6 @@ hash = "463efe4017c7b98ec3d2a8e8e78648a3350654fd1ec33d041f672e7956e858d7"
 [[files]]
 file = "mods/starterstructure-1.20.1-4.2.jar"
 hash = "34680de82b6dd8c53724bdb9edcdb124bf5567faa36392412e9d5fdc9c314b3a"
-
-[[files]]
-file = "mods/supermartijn642configlib-1.1.8-forge-mc1.20.jar"
-hash = "bea425ef7e9cd27a7fc0f4b89e00cbd0a1ee050f071ecaa9f28f7238f400f0a3"
-
-[[files]]
-file = "mods/supermartijn642corelib-1.1.18-forge-mc1.20.1.jar"
-hash = "b89c7703f909c75bff8981be7a3c7219138e01549666bd5cd5c47a1d6330489e"
 
 [[files]]
 file = "mods/supermartijn642s-config-lib.pw.toml"
