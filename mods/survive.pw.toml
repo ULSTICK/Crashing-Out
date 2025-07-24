@@ -1,0 +1,13 @@
+name = "Survive"
+filename = "Survive-1.20.1-10.1.8-Forge.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/vg4qcCBb/versions/RMHbErNo/Survive-1.20.1-10.1.8-Forge.jar"
+hash-format = "sha512"
+hash = "6b93b4cd6b218686e03a7ec22148f630e6d8f5ad0f38e7215be4f5218e4a10c8c6abc01651c61b9bf60afd311c224fe5d303a7d320ad0c010c8acf20b8582500"
+
+[update]
+[update.modrinth]
+mod-id = "vg4qcCBb"
+version = "RMHbErNo"

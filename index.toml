@@ -11473,38 +11473,6 @@ file = "mods/.connector/temp/sync-mc1.20.1-5.1$smart-recipes-0.2.1+1.20.jar.inpu
 hash = "cef36bbc278e52e8e757f4fb945241665fd78c8cdadad0842ffbe821d5a280b1"
 
 [[files]]
-file = "mods/Pehkui-3.8.2+1.20.1-forge.jar"
-hash = "54210f454c166f65a1bcbbfe4ea52e6f73e07844a793c7132f1af4076a0f42fc"
-
-[[files]]
-file = "mods/Quark-4.0-462.jar"
-hash = "c90b96f049d92825c4a103721988c80d72e5ad380d17be46a0f53e114874c478"
-
-[[files]]
-file = "mods/Searchables-forge-1.20.1-1.0.3.jar"
-hash = "461add180eb595004d3c9f5ac0ce337752e403077f96b38304800eadf01fb825"
-
-[[files]]
-file = "mods/SimplyJetpacks2-1.20.1-2.11.0.0.jar"
-hash = "6618ac58b89d7a71b6520301314c8ff91f3621d412943aea23502583e2da17f1"
-
-[[files]]
-file = "mods/Survive-1.20.1-9.0.6.jar"
-hash = "0b13bafe62f1727996597a3327290811894b809be674001f65e7200bbe391ac4"
-
-[[files]]
-file = "mods/TConstruct-1.20.1-3.10.1.76.jar"
-hash = "f1f61373e941849f3e33bce59c477c966bba586ff2e1adc45c5ad9b65e7c38d1"
-
-[[files]]
-file = "mods/UnionLib-1.20.1-10.2.7-Forge.jar"
-hash = "336714ffb3ce963242f08ab0102b921efa553087f1abcbbc40ca55a9116a3cb9"
-
-[[files]]
-file = "mods/Zeta-1.0-30.jar"
-hash = "7b68e166061c6ea0a8ac1585b0ae222f12bdd350728f3d797b520c1e915a310b"
-
-[[files]]
 file = "mods/ad-astra.pw.toml"
 hash = "d7a30358cb8314c296fec14e4ea74b8301edf093d6054dafac121e8fe9ac434f"
 metafile = true
@@ -11546,7 +11514,7 @@ metafile = true
 
 [[files]]
 file = "mods/architectury-api.pw.toml"
-hash = "4e81241ba2da06f425efc5e09fb6b38470125c1581c39e1310c5843a0b96ec76"
+hash = "5e9edd1fd2395f14a0c8a4acbdbdd61e1047be1f0033deb3140d2ce0d093e9d8"
 metafile = true
 
 [[files]]
@@ -11646,7 +11614,7 @@ metafile = true
 
 [[files]]
 file = "mods/collective.pw.toml"
-hash = "a26cea970dd7ffc20aeb983912e72ba57e83f6e1a42a661a5b4250f77de25650"
+hash = "ff2c734786c306f7e415c78c90fa35bc603ff525a2d3e9babac59abfd7fe245a"
 metafile = true
 
 [[files]]
@@ -11726,7 +11694,7 @@ metafile = true
 
 [[files]]
 file = "mods/crust.pw.toml"
-hash = "705c63ad2dc2d3001f14829c58964e544d333c92dc023302eb30c290bda7950b"
+hash = "ddf3f4a2e88e02d1123d4469e898be0186c5eebd6da0e200e72fd3ccc27f26e0"
 metafile = true
 
 [[files]]
@@ -11931,7 +11899,7 @@ metafile = true
 
 [[files]]
 file = "mods/kubejs.pw.toml"
-hash = "b6ed220c9069f60704dbfe19fd55c976ca56ada35bcb6918c4ad226cd842b99c"
+hash = "873d23ad2ce05e3e92a05e011f3f9a375a745a4ca6ed4c9fffb0518fc8255bf7"
 metafile = true
 
 [[files]]
@@ -11961,12 +11929,12 @@ metafile = true
 
 [[files]]
 file = "mods/mekanism-additions.pw.toml"
-hash = "b70b0220d902edd85ff5fff43ba6c3a3aaa2fe05f1b420e62beb68a028b7c38e"
+hash = "db67d9ad4078b8e0eee726f5d395902fa7e80a647da827ccbe00a39fac960f29"
 metafile = true
 
 [[files]]
 file = "mods/mekanism.pw.toml"
-hash = "426fd37ec95797af16797632e70c63436ca12719c0adb16ffca931970a411ee2"
+hash = "f6d29f90b25217bc2d152faca2ad1514bd57fb1d0737fd17f050d59292077d7f"
 metafile = true
 
 [[files]]
@@ -12050,12 +12018,19 @@ hash = "55c6d0b8ee25fd6a37a964805de3d2eab3f20d73a88ba77a63b4a51fd985d9dd"
 metafile = true
 
 [[files]]
-file = "mods/phosphophyllite-1.20.1-0.7.0-alpha.0.2.jar"
-hash = "9e9aab3a1751cc6a309b3fb55cc7c5545b3af5ae22d7d7566571e49851fe651e"
+file = "mods/pehkui.pw.toml"
+hash = "1f92dd360908c1801848dcd4d14aca5640199545e7e22e76bfdb981b06fa9399"
+metafile = true
 
 [[files]]
-file = "mods/piglins-guard-everything-1.1.jar"
-hash = "00e3dc6e2faf58a278e9661c57f3680bfee50bc82f36ef35edcdc603a9a4cdfd"
+file = "mods/phosphophyllite.pw.toml"
+hash = "bb8b27c977410a8c66eb0f1ea205798d010e4a875e25d9b288e4cb56e8cb0b3d"
+metafile = true
+
+[[files]]
+file = "mods/piglins-guard-everything.pw.toml"
+hash = "d0ad1c91b18e9a203801b8cdfffc8a2292d9ebe21f391d34f29e404a79a5c4a6"
+metafile = true
 
 [[files]]
 file = "mods/placebo.pw.toml"
@@ -12063,20 +12038,24 @@ hash = "045d582e2c534c5bb96d7336b4ae2cd12692c6de29b19ae5f1dbfd8759c03b03"
 metafile = true
 
 [[files]]
-file = "mods/pneumaticcraft-repressurized-6.0.20+mc1.20.1.jar"
-hash = "ea01b5727d0f4c7243ea2da46af0580eebc09c631a61cf47d830da09518f0169"
+file = "mods/pneumaticcraft-repressurized.pw.toml"
+hash = "db79692898d1ac0d9d8e69716603ab6d5021bfedc12d64eb97529687868fbf0e"
+metafile = true
 
 [[files]]
-file = "mods/polylib-forge-2000.0.3-build.143.jar"
-hash = "abf42a3240b083fc96b9c022a049323cd4130844fcef338e1ab8b2cd6502a04b"
+file = "mods/polylib.pw.toml"
+hash = "a6d572b0365f9f0a6c044066e3e222cb088ef148f08c05e6638819e391a40920"
+metafile = true
 
 [[files]]
-file = "mods/polymorph-forge-0.49.10+1.20.1.jar"
-hash = "cbe63a0a1cb6ae8dbc0e29bb96d149a137cd4e714b295fa49d230994091d157f"
+file = "mods/polymorph.pw.toml"
+hash = "4ab869d8784f4ac318b5c92fa3d9e65f997352b8b57f34b409ca6f171637f0fe"
+metafile = true
 
 [[files]]
-file = "mods/powerfuljs-1.6.1.jar"
-hash = "5ef42f7b9e1ac85fb5b87c2a25c1077900b95ceed4004b1cb953f1e4ac432c4c"
+file = "mods/powerfuljs.pw.toml"
+hash = "bd87f993bf0ce3fcb2abe3c42f8cce07efb2d0a8061131ee1285fefa1b7e39a0"
+metafile = true
 
 [[files]]
 file = "mods/puzzles-lib.pw.toml"
@@ -12084,20 +12063,29 @@ hash = "74991cede8019cf93d1243369d840913375ab3a7d448d764c7a15f87f5bc4e52"
 metafile = true
 
 [[files]]
-file = "mods/quartz-1.20.1-0.2.0-alpha.0.1.jar"
-hash = "d36eb4bf742a083bcf7c2aaae27f7d038eaca3413feae644b0f2e2bc0b6cd7ba"
+file = "mods/quark.pw.toml"
+hash = "8df897c0f7831e919aa528c3c1e5239f39439c123d99761230ab2357132bad98"
+metafile = true
 
 [[files]]
-file = "mods/rechiseled-1.1.6-forge-mc1.20.jar"
-hash = "5ef5676653a1f15af86841d55f1963e1fc9066cbb87e59d82569467f086425eb"
+file = "mods/quartz.pw.toml"
+hash = "a947d3f9d6f75fbe1e85d3bd7c3c5b7b2df9182fb4983604ef6168eef0034db2"
+metafile = true
 
 [[files]]
-file = "mods/rechiseled_chipped-1.2.1-1.20.1.jar"
-hash = "ed1462f0090e349923ad01afd0978094b9cb1c6f1168504ebc81b31fe685dd2a"
+file = "mods/rechiseled-chipped.pw.toml"
+hash = "146da6ad35bb12163b272185a745f4d5cbc138d03f398fad82af535609539c8e"
+metafile = true
 
 [[files]]
-file = "mods/rechiseledcreate-1.0.2a-forge-mc1.20.jar"
-hash = "0818718adaed7fa4ceb75870a56e1303406e09fbbd8a71ffa6637e77e3901717"
+file = "mods/rechiseled-create.pw.toml"
+hash = "8911c9c22f020ad594f6c83442ca069d13ed72b386e22c614ba4f749556c23f0"
+metafile = true
+
+[[files]]
+file = "mods/rechiseled.pw.toml"
+hash = "442f784b7c8e3d3231e407a9af4530c16fff9c301a5f57144fb5d895c754ded9"
+metafile = true
 
 [[files]]
 file = "mods/refurbished-furniture.pw.toml"
@@ -12115,17 +12103,14 @@ hash = "ef0264b7d819848f72ab2f34643306187e712965a8246e1f733e1bd39d8fd681"
 metafile = true
 
 [[files]]
-file = "mods/rhino-forge-2001.2.3-build.10.jar"
-hash = "fed2211429301bf043864183cab9ab8e92d4cc4dbb9e488ce6c75217c54584a6"
-
-[[files]]
 file = "mods/rhino.pw.toml"
-hash = "5b92406160d9ea8a61ddf111caaecb7f6283678e2c40b08b72dce3eeaf20dc96"
+hash = "ca4411ac6d8a9a892948bb63cd0ba52ae5523ca5e257632d6ae8c933b660c5ee"
 metafile = true
 
 [[files]]
-file = "mods/satin-1.14.0.jar"
-hash = "9191d74a4be2b6e493792a5b67e55acd91b1c614e5c835c5cd874f0e29358d95"
+file = "mods/satin-api.pw.toml"
+hash = "62b1365a5252bbe60e6305e9342693daa69cfa818c8eb7b95d6495110ac7c147"
+metafile = true
 
 [[files]]
 file = "mods/searchables.pw.toml"
@@ -12133,8 +12118,14 @@ hash = "b8c7497acbf4890b4609b6b20de7affdd3482fc99af975d9ff6b29c075e1d8a7"
 metafile = true
 
 [[files]]
-file = "mods/simplylight-1.20.1-1.4.6-build.50.jar"
-hash = "893c67fb4bbafee6e3208ba34bf60e2d6f17f4f9efdb6d1f12baa4052d8ddd10"
+file = "mods/simply-jetpacks-2.pw.toml"
+hash = "00a1e01de3ca9cccf263dc7fbd24e31df9f89ce4c7a792f66c67585dd96cd44d"
+metafile = true
+
+[[files]]
+file = "mods/simply-light.pw.toml"
+hash = "762eced5d260cdbc94f0acc033efd8fe70fdfe5a28bd8d180e0b052de509893f"
+metafile = true
 
 [[files]]
 file = "mods/sinytra-connector-extras-with-vs2-support-rea.pw.toml"
@@ -12142,32 +12133,39 @@ hash = "500782da5890b4d3c0b76b293a9533dae3391fdf5eadbc66f99ee1e274b43cc1"
 metafile = true
 
 [[files]]
-file = "mods/sophisticatedbackpacks-1.20.1-3.23.19.1263.jar"
-hash = "5a20d4ff347dd9bb71a7a4a21e84cd0a8afee930d6eed1da6de6c35010ba36c0"
+file = "mods/sophisticated-backpacks.pw.toml"
+hash = "cd5515c632ebe07d835fbd0ee999bb5182fc027dd01a0df9234f16c1a36654d8"
+metafile = true
 
 [[files]]
-file = "mods/sophisticatedcore-1.20.1-1.2.71.1022.jar"
-hash = "ac887998d1b202ad53a289e8215882ea903b983c235e515fb24451f4a5a4826b"
+file = "mods/sophisticated-core.pw.toml"
+hash = "737f4acdf13d65c0e21665d411b8bdd027851b1877f2147397ca93ec03b5f401"
+metafile = true
 
 [[files]]
-file = "mods/sophisticatedstorage-1.20.1-1.3.51.1182.jar"
-hash = "1c5b7df693145b8306721b6749a42c526e990093bff314bab52586047f3079c3"
+file = "mods/sophisticated-storage.pw.toml"
+hash = "58cd23e339de1d81993add380ea5968f79cb67aa15e8b3cc2b20a44506a4c8f9"
+metafile = true
 
 [[files]]
-file = "mods/specialmobs-1.20.1-4.1.15.jar"
-hash = "92e89d12ee44d5f69334fb6f1163934df8dcfe07477c09a37f95749fee231bab"
+file = "mods/special-mobs.pw.toml"
+hash = "a5c08274934ce31d1318a6948933e8483ce4effe449254e9dcc13f621e7ffb75"
+metafile = true
 
 [[files]]
-file = "mods/spiceofoverhaul-1.1.5.jar"
-hash = "c7bb45f8a0aa485d4b8cb15bb65fc89337e37570b4bc8ff065e53ae7e25630fd"
+file = "mods/spice-of-overhaul.pw.toml"
+hash = "826fbc0c954611052508184bf038f592b658422fad2aa9a4f5d49a83044a954e"
+metafile = true
 
 [[files]]
-file = "mods/stackables-2.0.1+1.20.jar"
-hash = "463efe4017c7b98ec3d2a8e8e78648a3350654fd1ec33d041f672e7956e858d7"
+file = "mods/stackables.pw.toml"
+hash = "70ec0420969ac01123ba6246b068f73b60b96123630f37a66d8cb976c6899b00"
+metafile = true
 
 [[files]]
-file = "mods/starterstructure-1.20.1-4.2.jar"
-hash = "34680de82b6dd8c53724bdb9edcdb124bf5567faa36392412e9d5fdc9c314b3a"
+file = "mods/starter-structure.pw.toml"
+hash = "4fdda7429ebc6f2fe5c4cbd3f685ccbb3b7f944fa54b0ad464e9bfdb3fa8103d"
+metafile = true
 
 [[files]]
 file = "mods/supermartijn642s-config-lib.pw.toml"
@@ -12180,16 +12178,28 @@ hash = "b969799c17defc1e7c76e4605557c9d32802a0004a5e45b7044e85d3d9c43345"
 metafile = true
 
 [[files]]
-file = "mods/sync-mc1.20.1-5.1.jar"
-hash = "f38fef508cce967146aeaf5315a03a0d0ab904c371c50a8a6feb1fcfadd372ce"
+file = "mods/survive.pw.toml"
+hash = "eb7bac6bec8acd81f59e83d29bd25a18e6b06ed32e67a04c44667525e9323720"
+metafile = true
 
 [[files]]
-file = "mods/tagtooltips-forge-1.20.1-1.1.0.jar"
-hash = "6d142786c149f93d8ce08894db43e5f05bc07b0a23391d9dc4ce3d7d75d1c471"
+file = "mods/sync-fabric-rereported.pw.toml"
+hash = "0a3801a0c32f16f6cfa7fd22610918b4d84cf5108c47787800964f04ddbdf5b4"
+metafile = true
+
+[[files]]
+file = "mods/tag-tooltips.pw.toml"
+hash = "fc1240725b0091e5a7479d4d4f6bad7fa32a7fd82beb6fb899821156f6128a17"
+metafile = true
 
 [[files]]
 file = "mods/the-lost-cities.pw.toml"
 hash = "a04f9b98ad050e3a18d0cfc09d3d32e15ea796b2bf8f13602bd6efcaed138c50"
+metafile = true
+
+[[files]]
+file = "mods/thermal-dynamics.pw.toml"
+hash = "b09197b44ec72d27d10aae73a731314993a7e5b5137c247256c79b1a4128048b"
 metafile = true
 
 [[files]]
@@ -12198,24 +12208,34 @@ hash = "21ef66049ba994e620e34e2fab8e99ca27ceef5882f76dbd6c31afed66de89c4"
 metafile = true
 
 [[files]]
-file = "mods/thermal_dynamics-1.20.1-11.0.1.23.jar"
-hash = "1eb755e77b8bbdf5fef16c1b725002d2b47520b544e49f1274724986ab677ca0"
+file = "mods/thermal-foundation.pw.toml"
+hash = "876d11fe425ab32015927d63b35fa99b0cc24623916b4ba1951958c8fde5aacd"
+metafile = true
 
 [[files]]
-file = "mods/thermal_foundation-1.20.1-11.0.6.70.jar"
-hash = "8cb610abb3c835b47f9b4ec19be6a54104d1f61230b67a9d5bfd097c5ac45823"
+file = "mods/thermal-innovation.pw.toml"
+hash = "9d3caee351b004fa5fece4e3b434b55181e453f51e49f46b67a71b063928a8e2"
+metafile = true
 
 [[files]]
-file = "mods/thermal_innovation-1.20.1-11.0.1.23.jar"
-hash = "cb9ae2b7184b01441687a9fd7ca534d861b37b46934003dc14f2675bc844150f"
+file = "mods/thermal-integration.pw.toml"
+hash = "eac18d5d726f61bce8471d9113db5ec642db05b9bb0836a06b491ef97245ade2"
+metafile = true
 
 [[files]]
-file = "mods/thermal_integration-1.20.1-11.0.1.27.jar"
-hash = "c0b8004499a5c4f8cb42abad96c6be1f8ee49af6f756a72cef7c828199c570d4"
+file = "mods/time-control.pw.toml"
+hash = "d53479521d23390d2bf557ae1c92ae0bbbaf2200dda168e3e8afde6a92984d10"
+metafile = true
 
 [[files]]
-file = "mods/timecontrol-1.20.1-1.6.0.jar"
-hash = "69032c827e097351af23ddfba2577bd8ab9ab90a288bc5e6a992ccb9d9c563c1"
+file = "mods/tinkers-construct.pw.toml"
+hash = "6160cdcd8b686e90f72e76072ba96de7c5ae40460b3771401222ddebdee1d5ed"
+metafile = true
+
+[[files]]
+file = "mods/tinkers-tool-leveling-2.pw.toml"
+hash = "64a5a25d8b3a4f13bbaf72f6fe861f6131289de3ae48519d1d96e02b1be38af7"
+metafile = true
 
 [[files]]
 file = "mods/titanium.pw.toml"
@@ -12223,20 +12243,29 @@ hash = "351aef144aa70ab4f41b3dcf044e0929631227f1ad118f22e611e13ff91fdfe4"
 metafile = true
 
 [[files]]
-file = "mods/tleveling-0.2.5-1.20.1.jar"
-hash = "a4454d80c3b374b64094e4355cd93c1d36f4b89b9afefe0349e6f6f0acf89d8a"
+file = "mods/torchmaster.pw.toml"
+hash = "1af7144283e6f5fd861b9b4cb55fa12bde4e3fdfbcbc457391c6a70ec4a236c8"
+metafile = true
 
 [[files]]
-file = "mods/torchmaster-20.1.9.jar"
-hash = "7c8984a2dc11c29147d0677958e9146a18578068bc00fbfcb1cddbaa60557682"
+file = "mods/unionlib.pw.toml"
+hash = "b09f0942f45a0ea5897e645bf91ec2bf1ef27fbedf476e1e95effa9b72e6cffc"
+metafile = true
 
 [[files]]
-file = "mods/worldedit-mod-7.2.15.jar"
-hash = "17db6b3e94f52d25426684663e1e1846823cbb7907f1c365ac329e5bc7bfaf2c"
+file = "mods/worldedit.pw.toml"
+hash = "bd1dc13316e2aa9b56c89e7e974057f8da8d6bbfe707ba4210109fc612b782e3"
+metafile = true
 
 [[files]]
-file = "mods/zombieawareness-1.20.1-1.13.1.jar"
-hash = "4f5104f7d29e1d065364d2483885f3751da2bef09a734cead2fce81c82c46586"
+file = "mods/zeta.pw.toml"
+hash = "4bcf74d4569def60ca031d565350952c2edcc420f26278bc7997654a77b6fb4d"
+metafile = true
+
+[[files]]
+file = "mods/zombie-awareness.pw.toml"
+hash = "7a4b8e290aa6cd5602482fce48c71a2822a2380f35a586cd7444b3f1680629e8"
+metafile = true
 
 [[files]]
 file = "profileImage/Capa CL2 64x.png"

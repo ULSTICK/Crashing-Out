@@ -1,0 +1,13 @@
+name = "Sync Re-Re-Ported"
+filename = "sync-mc1.20.1-5.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "f1cc64f361681265d2f0a87af719ac673fe1665e"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6615469
+project-id = 1280121
