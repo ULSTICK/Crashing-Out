@@ -1,6 +1,10 @@
 hash-format = "sha256"
 
 [[files]]
+file = "README.md"
+hash = "b0b0f7b23ebf5256893e74bedf6e01fbdf6387b5d1a43a98cf0ec15e9aef64b9"
+
+[[files]]
 file = "config/CoroUtil/General.toml"
 hash = "d86beab1176c367beeed3b8fb8a2a8dfbd8a1db7293f067c01bc38c73020e398"
 
@@ -12225,10 +12229,6 @@ file = "profileImage/Capa CL2.png"
 hash = "d78bd80d3382aa6fab7edb2beceef725210717fbd9d7f53aa007d70b9f3c15ec"
 
 [[files]]
-file = "resourcepacks/Mob Grinding Utils Vanillafied.zip"
-hash = "c916eee0b86f98c1b9a32268fa4f06857e512b9b60e786fab4b88be2a40c863e"
-
-[[files]]
 file = "resourcepacks/Quark Programmer Art.zip"
 hash = "41cb720cf256a12ea247b2f38068b363aa5b1675470c4b5aa66850701a78bc4d"
 
@@ -12266,13 +12266,19 @@ file = "saves/Original world, will reset when pack updates/region/r.0.0.mca"
 hash = "3468393e6acefec783da249df03dc8afbf5df32f17122757e730d820accfbb7b"
 
 [[files]]
-file = "shaderpacks/ComplementaryReimagined_r5.3.zip"
-hash = "6e8234a2213c5a35238582d15dcc286584a029fbf42a993c1220188054799224"
-
-[[files]]
-file = "shaderpacks/ComplementaryUnbound_r5.3.zip"
-hash = "66061b3c5b4843e31bc9a7562a7ac697a51bb77c73defc7071f996b783efacce"
+file = "servers.dat"
+hash = "075de2b906dbd7066da008cab735bee896370154603579a50122f9b88545bd45"
 
 [[files]]
 file = "shaderpacks/ComplementaryUnbound_r5.3.zip.txt"
 hash = "3073a22dcaf05d14733abe00dfb1344fb88fccc17a74b18df8c90918b0f1a142"
+
+[[files]]
+file = "shaderpacks/complementary-reimagined.pw.toml"
+hash = "e6996ecb68a6c690558f589e7194d7df23a186ab8b75f0f67cfed069a280470b"
+metafile = true
+
+[[files]]
+file = "shaderpacks/complementary-unbound.pw.toml"
+hash = "d222003558c856ef20e0865b26d03f92d1a6015bc6c6d637169bdbbfdbafcf3c"
+metafile = true
