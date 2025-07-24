@@ -11401,72 +11401,36 @@ file = "mods/!README for multiplayer instructions!.txt"
 hash = "651ddd7fb35aae62a02d636d60f9995d58b77babac0e9dd308801eb9a75a84d4"
 
 [[files]]
-file = "mods/.connector/satin-1.14.0_mapped_srg_1.20.1.jar"
-hash = "5e1710d260cc9f7111c889b198a8522354b09a35c8e2608ba90da18e2ad0e001"
-
-[[files]]
 file = "mods/.connector/satin-1.14.0_mapped_srg_1.20.1.jar.input"
 hash = "22ead0463edaac39727b101d74544f4179f8201d0619276fa3e35886a6ef1de7"
-
-[[files]]
-file = "mods/.connector/stackables-2.0.1+1.20$mixinextras-fabric-0.2.2_mapped_srg_1.20.1.jar"
-hash = "bba800dd4359b6d56bcd22a9098f44d1d79e85bb0ece6fcbc18b542db1d73116"
 
 [[files]]
 file = "mods/.connector/stackables-2.0.1+1.20$mixinextras-fabric-0.2.2_mapped_srg_1.20.1.jar.input"
 hash = "8f8357f65dcbab28c57be77d2421e58149312baaa5bc6fb631e3375d93ddf185"
 
 [[files]]
-file = "mods/.connector/stackables-2.0.1+1.20_mapped_srg_1.20.1.jar"
-hash = "63e50bd0f8f2de23c77cc9fba97d9fe7fbce01e5db49461c33af3f40920565c5"
-
-[[files]]
 file = "mods/.connector/stackables-2.0.1+1.20_mapped_srg_1.20.1.jar.input"
 hash = "ec36d14c0e0b32186c4182079ebfb5d7857cff8c188c9e063c09fbc747813ea1"
-
-[[files]]
-file = "mods/.connector/sync-mc1.20.1-5.1$energy-3.0.0_mapped_srg_1.20.1.jar"
-hash = "726f3f7c2da030beb9909c941813a08e1f2b423198f4788deb71c74df469a4c2"
 
 [[files]]
 file = "mods/.connector/sync-mc1.20.1-5.1$energy-3.0.0_mapped_srg_1.20.1.jar.input"
 hash = "e53fa3f90a6e94bded0f2e6a68e84d5eb166ebfe4cc51062dd5e0ac41fd2af86"
 
 [[files]]
-file = "mods/.connector/sync-mc1.20.1-5.1$smart-recipes-0.2.1+1.20_mapped_srg_1.20.1.jar"
-hash = "f9122ae1fa9394a58ebb419f7c1cf5cd9d7717a929990cc418a73f8cbe923735"
-
-[[files]]
 file = "mods/.connector/sync-mc1.20.1-5.1$smart-recipes-0.2.1+1.20_mapped_srg_1.20.1.jar.input"
 hash = "cef36bbc278e52e8e757f4fb945241665fd78c8cdadad0842ffbe821d5a280b1"
-
-[[files]]
-file = "mods/.connector/sync-mc1.20.1-5.1_mapped_srg_1.20.1.jar"
-hash = "063ee8700f1deca0551b7185fd9149929da7c22398f4e59418cdc85d1f33786f"
 
 [[files]]
 file = "mods/.connector/sync-mc1.20.1-5.1_mapped_srg_1.20.1.jar.input"
 hash = "662812cf74d2786ba6c0ec1fbd6c01dac1cefacc5bf33f13fbfedb687a89a8e4"
 
 [[files]]
-file = "mods/.connector/temp/stackables-2.0.1+1.20$mixinextras-fabric-0.2.2.jar"
-hash = "1c9c71b21ecfb0bb312b16821f7d9e869519d2dbf3c66102be4155817da395af"
-
-[[files]]
 file = "mods/.connector/temp/stackables-2.0.1+1.20$mixinextras-fabric-0.2.2.jar.input"
 hash = "8f8357f65dcbab28c57be77d2421e58149312baaa5bc6fb631e3375d93ddf185"
 
 [[files]]
-file = "mods/.connector/temp/sync-mc1.20.1-5.1$energy-3.0.0.jar"
-hash = "fa90c3e7bfd5f17ba60981e57c5b965d3618ebc6c512fd3b5947920e9cb81aef"
-
-[[files]]
 file = "mods/.connector/temp/sync-mc1.20.1-5.1$energy-3.0.0.jar.input"
 hash = "e53fa3f90a6e94bded0f2e6a68e84d5eb166ebfe4cc51062dd5e0ac41fd2af86"
-
-[[files]]
-file = "mods/.connector/temp/sync-mc1.20.1-5.1$smart-recipes-0.2.1+1.20.jar"
-hash = "89456438decc21f0456ead0adea96d462111a7a09046ba075ad4c52ac7cf59d5"
 
 [[files]]
 file = "mods/.connector/temp/sync-mc1.20.1-5.1$smart-recipes-0.2.1+1.20.jar.input"
@@ -12159,7 +12123,7 @@ metafile = true
 
 [[files]]
 file = "mods/stackables.pw.toml"
-hash = "70ec0420969ac01123ba6246b068f73b60b96123630f37a66d8cb976c6899b00"
+hash = "6300c2bcafa8d7256d099d03a00fffbce03fd76dfc535b3df05365fdc371c14d"
 metafile = true
 
 [[files]]
