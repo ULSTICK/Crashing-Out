@@ -12,7 +12,7 @@
         "isTranslationKey": false
       },
       "x": 158,
-      "y": 102,
+      "y": 120,
       "icon": {
         "id": "ad_astra:tier_1_rocket",
         "Count": 1,
@@ -63,6 +63,79 @@
       ],
       "optionlinks": [],
       "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "e558fbac-929f-4b1b-bd10-c73e792ac69d",
+      "name": {
+        "text": "Fuse Box",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Alloying typically requires mixing melted metals, but some metals can be infused together to make certain types of alloys. With a metallurgic infuser, you can make some more advanced alloys like steel. It can also make advanced control circuits, useful for all kinds of interesting mechanisms.",
+        "isTranslationKey": false
+      },
+      "x": 158,
+      "y": 157,
+      "icon": {
+        "id": "mekanism:metallurgic_infuser",
+        "Count": 1
+      },
+      "trigger": "ANTI_TRIGGER",
+      "tasks": [
+        {
+          "type": "hardcorequesting:detect",
+          "description": {
+            "text": "Infuser",
+            "isTranslationKey": false
+          },
+          "longDescription": {
+            "text": "You can eventually upgrade the basic Metallurgic infuser to be faster, more energy efficient, and have more processing slots.",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "mekanism:metallurgic_infuser",
+                "Count": 1
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "hardcorequesting:detect",
+          "description": {
+            "text": "Infusing",
+            "isTranslationKey": false
+          },
+          "longDescription": {
+            "text": "One of the most useful advanced alloys is steel. You can make steel with 2 coal and 1 iron ingot. Put the coal into the Metallurgic Infuser\u0027s infusion slot to liquefy it, then put an iron ingot into the main processing slot. This will create enriched iron, which can then be put back into the main processing slot to make steel blend. Finally, the steel blend can be smelted into a steel ingot. An enrichment chamber can be used to enrich the coal to get 8 times the resources for each piece of coal.",
+            "isTranslationKey": false
+          },
+          "items": [
+            {
+              "item": {
+                "id": "thermal:steel_dust",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "mekanism:enriched_redstone",
+          "Count": 4
+        },
+        {
+          "id": "mekanism:enriched_carbon",
+          "Count": 4
+        }
+      ],
       "rewardchoice": [],
       "commandrewards": []
     }

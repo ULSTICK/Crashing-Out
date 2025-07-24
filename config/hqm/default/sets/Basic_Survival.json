@@ -1601,7 +1601,7 @@
       "parentrequirement": 1,
       "tasks": [
         {
-          "type": "hardcorequesting:craft",
+          "type": "hardcorequesting:detect",
           "description": {
             "text": "Shell Construction",
             "isTranslationKey": false
@@ -1615,7 +1615,8 @@
               "item": {
                 "id": "sync:shell_constructor",
                 "Count": 1
-              }
+              },
+              "precision": "FUZZY"
             }
           ]
         }

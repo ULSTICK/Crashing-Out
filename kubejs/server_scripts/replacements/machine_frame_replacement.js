@@ -18,14 +18,14 @@ ServerEvents.recipes(event => {
   event.shaped(
     Item.of('thermal:machine_frame', 1),
     [
-      'SGS',
+      'IGI',
       'GPG',
-      'SGS'
+      'IGI'
     ],
     {
       G: '#forge:glass',
-      P: 'pneumaticcraft:printed_circuit_board',
-      S: '#forge:ingots/steel'
+      I: '#forge:ingots/invar',
+      P: 'pneumaticcraft:printed_circuit_board'
     }
   )
 })
