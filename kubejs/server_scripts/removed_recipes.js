@@ -21,6 +21,12 @@ ServerEvents.recipes(event => {
             [
                 "#forge:slimeball/blood", // broken recipes, removed because empty tag
                 "industrialforegoing:dryrubber",
+                "exdeorum:unfired_porcelain_bucket",
+                "exdeorum:porcelain_bucket",
+                "exdeorum:porcelain_water_bucket",
+                "exdeorum:porcelain_lava_bucket",
+                "exdeorum:porcelain_milk_bucket",
+                "exdeorum:porcelain_witch_water_bucket"
             ]
     });
 
@@ -48,7 +54,12 @@ ServerEvents.recipes(event => {
                 "exdeorum:end_cake",
                 "exdeorum:jungle_crucible",
                 "exdeorum:oak_crucible",
+                "exdeorum:unfired_porcelain_bucket",
                 "exdeorum:porcelain_bucket",
+                "exdeorum:porcelain_water_bucket",
+                "exdeorum:porcelain_lava_bucket",
+                "exdeorum:porcelain_milk_bucket",
+                "exdeorum:porcelain_witch_water_bucket",
                 "exdeorum:spruce_crucible",
                 "exdeorum:warped_crucible",
                 "industrialforegoing:dryrubber",

@@ -63,7 +63,8 @@ ServerEvents.tags('block', event => {
 });
 
 ServerEvents.recipes(event => {
-    event.custom({ "type": "exdeorum:crook", "block_predicate": { "block_tag": "crash_landing:oak_leaves" }, "chance": 0.1, "result": "minecraft:oak_sapling" })
+    event.custom({ "type": "exdeorum:crook", "block_predicate": { "block_tag": "crash_landing:oak_leaves" }, "chance": 0.1, "result": "exdeorum:silk_worm" })
+    event.custom({ "type": "exdeorum:crook", "block_predicate": { "block_tag": "crash_landing:oak_leaves" }, "chance": 0.2, "result": "minecraft:oak_sapling" })
     event.custom({ "type": "exdeorum:crook", "block_predicate": { "block_tag": "crash_landing:spruce_leaves" }, "chance": 0.1, "result": "minecraft:spruce_sapling" })
     event.custom({ "type": "exdeorum:crook", "block_predicate": { "block_tag": "crash_landing:birch_leaves" }, "chance": 0.1, "result": "minecraft:birch_sapling" })
     event.custom({ "type": "exdeorum:crook", "block_predicate": { "block_tag": "crash_landing:jungle_leaves" }, "chance": 0.05, "result": "minecraft:jungle_sapling" })
