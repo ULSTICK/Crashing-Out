@@ -15,23 +15,19 @@
     },
     {
       "entityId": "minecraft:pig",
-      "outputEnergyQuantity": 16
+      "outputEnergyQuantity": 10
     },
     {
       "entityId": "minecraft:player",
       "outputEnergyQuantity": 20
     },
     {
-      "entityId": "minecraft:wolf",
-      "outputEnergyQuantity": 24
-    },
-    {
       "entityId": "minecraft:creeper",
-      "outputEnergyQuantity": 80
+      "outputEnergyQuantity": 20
     },
     {
       "entityId": "minecraft:enderman",
-      "outputEnergyQuantity": 160
+      "outputEnergyQuantity": 40
     }
   ],
   "preserveOrigins": true,

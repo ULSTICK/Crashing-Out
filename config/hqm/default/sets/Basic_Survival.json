@@ -1422,7 +1422,7 @@
             "isTranslationKey": false
           },
           "longDescription": {
-            "text": "Some important warnings:\n\n1. When you enter storage to switch shells, your items stay in that body. Empty your inventory before syncing unless you have multiple Shell Storage chambers available.\n2. If a Shell Storage breaks, the Shell it is storing will be lost and its inventory will be scattered on the ground.\n3. Sometimes, the Shell Storage/Constructor doors fail to open after syncing. The automatic doors may not realize your body has come out of stasis. Leaving and rejoining the world should fix this.\n\nCheck the box below to acknowledge the Sync™ terms and conditions.",
+            "text": "Some important warnings:\n\n1. When you enter storage to switch shells, your items stay in that body. Empty your inventory before syncing unless you have multiple Shell Storage chambers available.\n2. If a Shell Storage breaks, the Shell it is storing will be lost and its inventory will be scattered on the ground.\n\nCheck the box below to acknowledge the Sync™ terms and conditions.",
             "isTranslationKey": false
           }
         }
