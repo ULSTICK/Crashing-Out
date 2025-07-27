@@ -1,0 +1,64 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "crash_landing:chests/misc_technical",
+          "functions": [],
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "crash_landing:chests/misc_industrial_iron_decor",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "crash_landing:chests/nuclear_plant_reactor_parts",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "min": 2,
+        "max": 4
+      },
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "crash_landing:chests/misc_technical",
+          "functions": [],
+          "weight": 3
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "crash_landing:chests/misc_industrial_iron_decor",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "crash_landing:chests/nuclear_plant_reactor_parts",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "crash_landing:chests/nuclear_plant_turbine_parts",
+          "weight": 2
+        }
+      ]
+    }
+  ]
+}

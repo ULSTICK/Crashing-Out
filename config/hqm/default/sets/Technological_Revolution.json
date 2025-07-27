@@ -146,8 +146,7 @@
       ],
       "prerequisites": [
         "3f8636bd-b018-4fb3-a0d9-19800abb507f",
-        "67994482-4981-4cfd-9ca6-afde4340fb62",
-        "e558fbac-929f-4b1b-bd10-c73e792ac69d"
+        "67994482-4981-4cfd-9ca6-afde4340fb62"
       ],
       "optionlinks": [],
       "reward": [
@@ -717,81 +716,6 @@
         {
           "id": "industrialforegoing:machine_frame_advanced",
           "Count": 1
-        }
-      ],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
-      "uuid": "e558fbac-929f-4b1b-bd10-c73e792ac69d",
-      "name": {
-        "text": "Fuse Box",
-        "isTranslationKey": false
-      },
-      "description": {
-        "text": "Alloying is an essential part of the technological revolution. The standard method of alloying is by melting the metals into a liquid and mixing the liquids together. However, you need extreme heat for that. Some metals can be infused without needing to fully deconstruct them. With a metallurgic infuser and some energy, you can make some more advanced alloys like steel. It can also make advanced control circuits, useful for all kinds of interesting mechanisms.",
-        "isTranslationKey": false
-      },
-      "x": 174,
-      "y": 39,
-      "icon": {
-        "id": "mekanism:metallurgic_infuser",
-        "Count": 1
-      },
-      "trigger": "ANTI_TRIGGER",
-      "tasks": [
-        {
-          "type": "hardcorequesting:detect",
-          "description": {
-            "text": "Infuser",
-            "isTranslationKey": false
-          },
-          "longDescription": {
-            "text": "The basic infuser can be made without any circuitry. It must be provided with energy to function. It can eventually be upgraded to be faster, more energy efficient, and have more processing slots.",
-            "isTranslationKey": false
-          },
-          "items": [
-            {
-              "item": {
-                "id": "mekanism:metallurgic_infuser",
-                "Count": 1
-              },
-              "precision": "FUZZY"
-            }
-          ]
-        },
-        {
-          "type": "hardcorequesting:detect",
-          "description": {
-            "text": "Infusing",
-            "isTranslationKey": false
-          },
-          "longDescription": {
-            "text": "The most typical advanced alloy you will need is steel. Early on, you can make steel with 2 coal and 1 iron ingot. Put the coal into the Metallurgic Infuser\u0027s infusion slot to liquefy it, then put an iron ingot into the main processing slot. This will create enriched iron, which can then be put back into the main processing slot to make steel blend. Finally, the steel blend can be smelted into a steel ingot. If you eventually make an enrichment chamber, you can enrich the coal to get 8 times the resources for each piece of coal.",
-            "isTranslationKey": false
-          },
-          "items": [
-            {
-              "item": {
-                "id": "thermal:steel_dust",
-                "Count": 1
-              }
-            }
-          ]
-        }
-      ],
-      "prerequisites": [
-        "3ffa13cb-b198-4e83-bab7-676d08834311"
-      ],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "mekanism:enriched_redstone",
-          "Count": 2
-        },
-        {
-          "id": "mekanism:enriched_carbon",
-          "Count": 2
         }
       ],
       "rewardchoice": [],
@@ -1397,8 +1321,8 @@
         "text": "Alloying is an essential part of the technological revolution. The standard method of alloying is by melting the metals into a liquid and mixing the liquids together. However, you need extreme heat for that. If you can crush metals into dust, you don\u0027t need to melt them all the way to a liquid. Instead, you can just mix the metals together by hand and smelt the resulting dust back into ingots.",
         "isTranslationKey": false
       },
-      "x": 142,
-      "y": 39,
+      "x": 158,
+      "y": 48,
       "icon": {
         "id": "thermal:invar_dust",
         "Count": 1
@@ -1435,19 +1359,11 @@
       "reward": [],
       "rewardchoice": [
         {
-          "id": "thermal:bronze_dust",
-          "Count": 4
-        },
-        {
-          "id": "thermal:electrum_dust",
-          "Count": 4
-        },
-        {
           "id": "thermal:invar_dust",
           "Count": 4
         },
         {
-          "id": "thermal:constantan_dust",
+          "id": "thermal:electrum_dust",
           "Count": 4
         }
       ],

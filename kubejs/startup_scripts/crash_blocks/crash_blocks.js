@@ -79,7 +79,7 @@ StartupEvents.registry("block", (event) => {
 StartupEvents.registry("block", (event) => {
   event.create("crumbling_seared_bricks") // Create a new block with ID "kubejs:example_block"
     .displayName("Crumbling Seared Bricks") // Set a custom name
-    .soundType("mud_bricks")
+    .soundType("stone")
     .hardness(1.0) // Set hardness (affects mining time)
     .resistance(1.0) // Set resistance (to explosions, etc)
     .requiresTool(true) // Requires a tool or it won't drop (see tags below)
@@ -91,7 +91,7 @@ StartupEvents.registry("block", (event) => {
 StartupEvents.registry("block", (event) => {
   event.create("crumbling_seared_bricks_2") // Create a new block with ID "kubejs:example_block"
     .displayName("Crumbling Seared Bricks") // Set a custom name
-    .soundType("mud_bricks")
+    .soundType("stone")
     .hardness(1.0) // Set hardness (affects mining time)
     .resistance(1.0) // Set resistance (to explosions, etc)
     .requiresTool(true) // Requires a tool or it won't drop (see tags below)
@@ -103,7 +103,7 @@ StartupEvents.registry("block", (event) => {
 StartupEvents.registry("block", (event) => {
   event.create("crumbling_seared_bricks_3") // Create a new block with ID "kubejs:example_block"
     .displayName("Crumbling Seared Bricks") // Set a custom name
-    .soundType("mud_bricks")
+    .soundType("stone")
     .hardness(1.0) // Set hardness (affects mining time)
     .resistance(1.0) // Set resistance (to explosions, etc)
     .requiresTool(true) // Requires a tool or it won't drop (see tags below)

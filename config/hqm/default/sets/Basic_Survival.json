@@ -276,7 +276,7 @@
         "isTranslationKey": false
       },
       "description": {
-        "text": "With a furnace up, you can now take your next step. Look by the port engine, the one not currently on fire. Apparently the water reclamation leaked a little and has turned some of the dust to clay. Dig it up and make a crucible. Stick a torch under that and not only can you melt cobble to lava but you can smelt ore dust to ingots, if you provide it with a faucet and a casting table or basin. If you ever need more clay, it can be made from water and dust in a barrel.",
+        "text": "With a furnace up, you can now take your next step. Check the port engine, where the water reclamation system has leaked and turned some of the dust to clay. Dig that up, make a crucible, and place it above a torch or some lava. In the crucible, not only can you melt cobblestone into lava, but you can melt down ore and ore chunks into molten metal. All you need is a casting table to cast the molten metal into ingots. If you ever need more clay, it can be made from water and dust in a barrel.",
         "isTranslationKey": false
       },
       "x": 158,
@@ -1601,7 +1601,7 @@
       "parentrequirement": 1,
       "tasks": [
         {
-          "type": "hardcorequesting:craft",
+          "type": "hardcorequesting:detect",
           "description": {
             "text": "Shell Construction",
             "isTranslationKey": false
@@ -1615,7 +1615,8 @@
               "item": {
                 "id": "sync:shell_constructor",
                 "Count": 1
-              }
+              },
+              "precision": "FUZZY"
             }
           ]
         }
