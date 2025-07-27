@@ -1,0 +1,33 @@
+{
+  "name": "crash_landing:decor_shipping_shipping_variant",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "crash_landing:nuclear_plant/decor/shipping/shipping_variants/shipping_variant_01",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "location": "crash_landing:nuclear_plant/decor/shipping/shipping_variants/shipping_variant_01",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "location": "crash_landing:nuclear_plant/decor/shipping/shipping_variants/shipping_variant_01",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}
