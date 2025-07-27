@@ -3,7 +3,7 @@ automatically disable themselves if they detect they are being loaded in a serve
 environment. However, a few of them will crash the game if loaded on a server.
 
 To play this pack on a server, make sure to DELETE the following mods:
+- CWB (CubesWithoutBorders)
 - Lightly
-- NoFog
 - Oculus
 - TagTooltips
