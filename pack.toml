@@ -1,12 +1,12 @@
 name = "Crash Landing Remake"
 author = "MarkSDR"
-version = "0.0.1"
+version = "1.5.0.2"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "0dcaeb0b3d429a1131db72bbd318a366a7bdfec59ff718fcbceef38c725dd1f5"
+hash = "fc2f426df087ffeded574c94fdcaf3661d294cc42cf52171bcab29098dcc509a"
 
 [versions]
 forge = "47.4.0"

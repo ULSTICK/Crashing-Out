@@ -986,7 +986,7 @@ hash = "dac6c3fb52f3b4b94a2b067183906985748ea42a01d9ea477ac5a332a3ad9d55"
 
 [[files]]
 file = "config/crash_assistant/modlist.json"
-hash = "93b99ed2c46c1622bdc2be1b41d3da1442dc6f45430ba80e31091fa004d04dd5"
+hash = "b10a24f233757387b0338230c11e1d0dd8d7f1fff7c52dd1602aa72bc6545d3d"
 
 [[files]]
 file = "config/crash_assistant/problematic_mods_config.json"
@@ -1007,6 +1007,10 @@ hash = "8151645f71a2fc68464b5bc29e69f5fa47aa2ca727e903ea7c7bc8c09ceea4e5"
 [[files]]
 file = "config/createaddition-common.toml"
 hash = "1f45a741dc79ba3ad0000884a5677bd76f0235ccb81d99957a181247e416cae6"
+
+[[files]]
+file = "config/cubes_without_borders.json"
+hash = "cc0ec0dbe0f90e3d63950f94a8bdc58d8e77d1d00ec9c7048d534204ccdb9471"
 
 [[files]]
 file = "config/curios-client.toml"
@@ -1374,7 +1378,7 @@ hash = "b39c61a82ac16c178e9b2c8a5f4db52003ea8a5c1fadda2b152477e9289ea947"
 
 [[files]]
 file = "config/hqm/default/sets/Basic_Survival.json"
-hash = "a6f24bc2bbeb9e69f209f81d8ae94cc115e4446ab7ad5587f7d1355d8dae9c06"
+hash = "326c8fc97706d04edee0ad6e8353d9a174da6e20973c162c46691cdc27cedd7c"
 
 [[files]]
 file = "config/hqm/default/sets/Culinary_Delights.json"
@@ -1382,7 +1386,7 @@ hash = "208cee1fd67a239bc9b899ddd29e741cef7e80c85a82fed2758085db62e3362b"
 
 [[files]]
 file = "config/hqm/default/sets/Like_Clockwork.json"
-hash = "ba2a5efd01de63b19fb8fd57e9c4c780b9a63a80986998ce4e32c75073226981"
+hash = "48a6e0ad897f449b3aea8d6aad0bd8be0822183cd0fb30dcb490510f35bcd38e"
 
 [[files]]
 file = "config/hqm/default/sets/Salvage_Operation.json"
@@ -1390,11 +1394,11 @@ hash = "f693dcd525334f2fd65517d05194c32f3e64d6967f0cf5d2e470c4790bc93140"
 
 [[files]]
 file = "config/hqm/default/sets/Technological_Revolution.json"
-hash = "8ba104a662244e4ff6395b28967e4f9662d04473596891e9b11f3c419d434557"
+hash = "b1a87aaadb4b67c1adf897a7ef6d73881976bd3b944fa00f824c15e34733236f"
 
 [[files]]
 file = "config/hqm/default/sets/To_Infinity_and_Beyond.json"
-hash = "4ce9634acbc69a0659fb986a2e7799f1d65ecddc0ef8bb03b476296244f6726e"
+hash = "5e5ee9df15005b272de74ec3342f8a4c205986a8b734995ce644e2671b479b15"
 
 [[files]]
 file = "config/hqm/default/sets/Under_Pressure.json"
@@ -1511,34 +1515,6 @@ hash = "0f813e542e65c6d6bd6a44b57c23456d3b2eaa241214ad740b70d27b3729f2fd"
 [[files]]
 file = "config/jade/sort-order.json"
 hash = "4c59293ce9ccf792b1577de1c6b000a5b8d85de10c84cd6d338b06b5cd365156"
-
-[[files]]
-file = "config/jei/ingredient-list-mod-sort-order.ini"
-hash = "ba6835f4709af459ed8867ff2291a2388099d54c77e95adbb4370159a905ce20"
-
-[[files]]
-file = "config/jei/ingredient-list-type-sort-order.ini"
-hash = "763729f3b8aa36861711d29bae19ca830bd02c88490c680b0ee1d31c880fc9fd"
-
-[[files]]
-file = "config/jei/jei-client.ini"
-hash = "1a19b53d27a4353a1db902b113644ff985a39a8806fac5dc9f131f56b98c4ad3"
-
-[[files]]
-file = "config/jei/jei-colors.ini"
-hash = "5f37aacd70460fdc2631ff45e98e8a2ce4e52d3e9a50917edf40eeed1236952e"
-
-[[files]]
-file = "config/jei/jei-debug.ini"
-hash = "ee9bb0f0f8465629951fe9a532f3ebe3327671a12d4cc6395860d7f7494b970b"
-
-[[files]]
-file = "config/jei/jei-mod-id-format.ini"
-hash = "326b4f9b813ca8183bfaeee184cf7248c7a75c4d85b59322e349c0e964c253f3"
-
-[[files]]
-file = "config/jei/recipe-category-sort-order.ini"
-hash = "b1a88ad096e388c11420f0dc19934f82b7cb1d3ac2afd5dd6a524c26010cfd4d"
 
 [[files]]
 file = "config/jeiintegration-client.toml"
@@ -1673,10 +1649,6 @@ file = "config/nbttooltip.json"
 hash = "1f22d8e270c33d9dbe3f4a7b076d98cd86efb7141c273caa60d8298040c1adc3"
 
 [[files]]
-file = "config/oculus.properties"
-hash = "ac67817e2fdf41c0777d5843861dae1272204a71061e28801d13b45e4223eeea"
-
-[[files]]
 file = "config/openloader/advanced_options.json"
 hash = "accb774b8cdd52fece03a4e4349eb0e8408ed64143acd10a36e4e930c288c04e"
 
@@ -1738,7 +1710,7 @@ hash = "9812fb9ed246d137623225692a2c10af91b24aadf3cf1d794578f3973759e72c"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/ae2/worldgen/structure_set/meteorite.json"
-hash = "e1fd6ed4f0529c8153896d3c80f3a606fa08a7ac6f9c16e480e9c211fe670404"
+hash = "37ac94ace6ee62c602e60c2c67e37758b63dfa3ea30cfe88cad4913168e733f0"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/biggerreactors/recipes/crafting/reactor/reactor_casing_crash.json"
@@ -1755,6 +1727,10 @@ hash = "7215288a8ca38d7f0c5e222b5ab8b6be6a3553cbd61b89ed900da79f8ecd3c6c"
 [[files]]
 file = "config/openloader/data/dustplanet/data/biggerreactors/recipes/crafting/turbine/turbine_terminal.json"
 hash = "d2d4b15d1e324c9fa32374050771d8a240fcdc4e5dc4f83d2fd2616f0f67e47c"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/biggerreactors/recipes/smelting/graphite_ingot.json"
+hash = "3765bb29b22168570c0c2470f13538b5899e6bdc7a28656fb950a4b1610cd678"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/cable_facades/recipes/facade_item.json"
@@ -1839,6 +1815,26 @@ hash = "9c6287997a66e7b865ebd017f018bae2cd00ea046969c8b2f5475371673aefad"
 [[files]]
 file = "config/openloader/data/dustplanet/data/crash_landing/loot_tables/chests/industrial_normal.json"
 hash = "d73fbf10f357a9cbadfca07c6a37256d6bff11215c637c9f99721de3f243783f"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/crash_landing/loot_tables/chests/misc_industrial_iron_decor.json"
+hash = "0c7e819b5b2e77bc217868a6b1fae19e9fc9e949c75568dd712154d0c5335dbd"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/crash_landing/loot_tables/chests/misc_technical.json"
+hash = "f8262bd7e998f53c68a18994cd23946dc5bcfd1a15e2652c5871320313a9c17e"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/crash_landing/loot_tables/chests/nuclear_plant_reactor_parts.json"
+hash = "e8bdea6ac9b834eb503190d1bc1c3285cf228455e97921150c5c40605b310fd7"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/crash_landing/loot_tables/chests/nuclear_plant_storage.json"
+hash = "6a345015152585e1d6bdf34d1078908a703bca80c2aef5ccd1dc9953ef49321f"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/crash_landing/loot_tables/chests/nuclear_plant_turbine_parts.json"
+hash = "6b16c31f18973f9e2b401267283359367e94884a2811d8c2408ed002a36925b2"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/crash_landing/loot_tables/chests/tinkers_factory.json"
@@ -2454,95 +2450,183 @@ hash = "f8449b2ded98fa2e7320ca872ac6432becf1461e19ef77fc1e5276dadc8a8ed2"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/crash_landing/structures/nuclear_plant/decor/corners/7x7/left/left_0.nbt"
-hash = "c6bc6cfa29d37275f139dc5fd46e56696f77178548040873049d4548c8a82c89"
+hash = "504508a4ace59f203c0e2e8cd8fa479c435b130b8483ecdde707f48915fb2f5c"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/crash_landing/structures/nuclear_plant/decor/corners/7x7/left/left_1.nbt"
-hash = "9b4dfe70b7adf20366dc0f84b6934b1da68a03efca334b417cca2eea4d5132ec"
+hash = "0ebeca97a8edb88bca11c83ddace975c0ee4d8da41da98006190c52b7125cc57"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/crash_landing/structures/nuclear_plant/decor/corners/7x7/left/left_2.nbt"
-hash = "72d970d1b0ab96c2533a71a63561eec05d79507b213e298b434d8af1dfc4d42a"
+hash = "c853b17b01e83c9dad08d5619aee04d4aebdca43cadffebff19f5a39966f4b10"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/crash_landing/structures/nuclear_plant/decor/corners/7x7/left/left_3.nbt"
-hash = "235c18bc26cad1160eb15a33124bd49918df7f97ea9104768336dba9e828a41f"
+hash = "eeadaff9fa5f1d3ae78e0322ca4c638e0745072d8126169711cda0379fcec8f8"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/crash_landing/structures/nuclear_plant/decor/corners/7x7/left/left_4.nbt"
-hash = "33974c58e535477033fb76071b1aee895ff4fdacab6e57c591aba9ea052d3074"
+hash = "60fa5a6041fd0cdf0467161aa8fe8d5abc295315742ab608603e779749e80d60"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/crash_landing/structures/nuclear_plant/decor/corners/7x7/left/left_5.nbt"
-hash = "ea77b171033d60f18e8304f6f217d8b3d30e4bbbcb87f27e94557760f767c561"
+hash = "792857cbc488dc5136ef2781a26340213710dc2c5d1e25b78b218a95f2870872"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/crash_landing/structures/nuclear_plant/decor/corners/7x7/left/left_6.nbt"
-hash = "679e229cf6bbb7837376e45f16c06a8d6112cfd1cac8211a9142ed3ea7f0d4be"
+hash = "c757e61528925d23b28d978f2f3380db898029cedb4d40e29caabafd9a06e0d6"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/crash_landing/structures/nuclear_plant/decor/corners/7x7/left/left_7.nbt"
-hash = "f8ac041dc2d5549c7241c7fab3575d12ec46f556195760bdffc732dfefcd5fc9"
+hash = "e9b4fe75764e2dea07541417770f805b47353f861dcdf516b7c7a05ab6040656"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/crash_landing/structures/nuclear_plant/decor/corners/7x7/left/left_8.nbt"
-hash = "1b4be40e5853d128b86ad9b39d520b0744e4817012f692c99f064ead05f24c23"
+hash = "0992e52720b815c90d19d80b4995ef10b4f5b03ee6155be519450cf52316c8ff"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/crash_landing/structures/nuclear_plant/decor/corners/7x7/left/left_9.nbt"
-hash = "22bafaedd8d5903baa028fd0350590070e4366a765b86ef4c9444abac5f75a32"
+hash = "c7499d74177b590b74e3bdf7b12fe7d19b9a62355c3ba3118e772398b343ea77"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/crash_landing/structures/nuclear_plant/decor/corners/7x7/right/right_0.nbt"
-hash = "d252d350235ea985786372f7e27e85009cabb2d4ead1567de6a79c7f49a76293"
+hash = "b071ad56a34a1ee833fb3ad0fd3b00700c24e641e0aebbdcbd195e96ddde8e53"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/crash_landing/structures/nuclear_plant/decor/corners/7x7/right/right_1.nbt"
-hash = "ec3db2b7ffb94673cd9641173263ac777c994dd0b94f46eda90c2eab4ca7bdd5"
+hash = "b07fdef09ca07dda800107c52a9c7154f72d219863291cbb21ac0858eaeb9189"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/crash_landing/structures/nuclear_plant/decor/corners/7x7/right/right_2.nbt"
-hash = "8a2cccad7f35c1ea86f99207df113a77ea32ff4d266e9e9b6e0e268447246f8a"
+hash = "4021d9c883bdba0fb8443e4689de441fa316b66c7cc67f20d93705bcc275b44e"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/crash_landing/structures/nuclear_plant/decor/corners/7x7/right/right_3.nbt"
-hash = "4dc0f1a2a7cf07f320aa34b032faca8662f284755cf90fa5f62253d25b01c264"
+hash = "179707eb21cdbb566dad808e266faa505bebbf70fe78e9b00aeec3018baae7cf"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/crash_landing/structures/nuclear_plant/decor/corners/7x7/right/right_4.nbt"
-hash = "fbc6e1b8910cc3f021d8cfabbbd02053939775133f96ecedfffdce985c259dd7"
+hash = "72f436ea978df7c03a4ff90ede7419c85bf360ebfc6099852c1055e24acc8845"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/crash_landing/structures/nuclear_plant/decor/corners/7x7/right/right_5.nbt"
-hash = "e512979102bd76c74f65c21defbc6e7785d6396c05a295a083f2cba276633850"
+hash = "c1ab66d0944df9edc878a4d735149b1f8bd35a487c1c3d3f1b584081c880717d"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/crash_landing/structures/nuclear_plant/decor/corners/7x7/right/right_6.nbt"
-hash = "c14e60b4848577d45c8c0cfa797312121ac8be1b5b6c7d3902cf985e00675848"
+hash = "55e4ac5f88272894dd6446bc694c0a3c94b91ccced62e4c55076df24d35c1b63"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/crash_landing/structures/nuclear_plant/decor/corners/7x7/right/right_7.nbt"
-hash = "242edaad7862631ddf04cac276e1c59524c605a8e59f75866340832a9ec1b840"
+hash = "bf71773e4d957b59274830f82af63277d2bfd3e50161b01770a2ba5494639eae"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/crash_landing/structures/nuclear_plant/decor/corners/7x7/right/right_8.nbt"
-hash = "c285cf1cf1c1799189beb5b5c19c7291215e990ed18f796b1673adf9dbfa29f9"
+hash = "3bd03a991df735e167259dbce9ee129a5e37a175743d4df342429b7bbaacbf97"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/crash_landing/structures/nuclear_plant/decor/corners/7x7/right/right_9.nbt"
-hash = "f668a7c95dc818a83ae43659d4c7e60af22aef5979e82fbfc763ae7f5c5a0cc9"
+hash = "dee93b2d72cd7006572e550614b1649f00dfa70876dbe5394c6b13f755d94792"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/crash_landing/structures/nuclear_plant/decor/misc/door_air.nbt"
 hash = "db8f6caeb8c9a9ce4a1fb09ea01a0124047e8198c2ff7543b25f69af3d992559"
 
 [[files]]
+file = "config/openloader/data/dustplanet/data/crash_landing/structures/nuclear_plant/decor/shipping/cargo/cargo_00.nbt"
+hash = "f900b285274899993ff25e3ca1f68fa197599f36f0890b1463b3655487068867"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/crash_landing/structures/nuclear_plant/decor/shipping/cargo/cargo_01.nbt"
+hash = "7bc33dd8acbdc59f12b827f486a4e69a8e05a542c91762ad391fbd44c0e8c441"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/crash_landing/structures/nuclear_plant/decor/shipping/cargo/cargo_02.nbt"
+hash = "4dbf4a1792501ec8e50e8ba0e705d5eeb3f9445120f2289b51cb227e16fda6a7"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/crash_landing/structures/nuclear_plant/decor/shipping/cargo/cargo_03.nbt"
+hash = "ec8d6228d241d9de18576fa19a0a4e6c7c85ca498a9a58baba0d9929278c569f"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/crash_landing/structures/nuclear_plant/decor/shipping/cargo/cargo_04.nbt"
+hash = "785fd4c2698d21a8da67471dd506d09449e9d51edef44b37e2cc7c2b00ea63fc"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/crash_landing/structures/nuclear_plant/decor/shipping/cargo/cargo_05.nbt"
+hash = "1afeb981bbd1be868bf272468ab5acf41d338ec831668b905e47335a525ed84d"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/crash_landing/structures/nuclear_plant/decor/shipping/cargo/cargo_06.nbt"
+hash = "8c058872b432d1b50e895c29361803ba78eaf68aad3368f6e8b699e8c9345518"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/crash_landing/structures/nuclear_plant/decor/shipping/cargo/cargo_07.nbt"
+hash = "b844f224a13f56ba88a259b238aa3824c3503579dd7223f37e357c6eaca5181b"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/crash_landing/structures/nuclear_plant/decor/shipping/cargo/cargo_08.nbt"
+hash = "7915ff7bf0f57634bdd2bb326b7f896907aa0c7b5dae1bd808c352ffcaed8a03"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/crash_landing/structures/nuclear_plant/decor/shipping/cargo/cargo_09.nbt"
+hash = "23287f47c14c43f40f2efe469bda685484ec16d68e3d0441ce8eea4ea5f2f553"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/crash_landing/structures/nuclear_plant/decor/shipping/cargo/cargo_10.nbt"
+hash = "3ad7eed9344ffa67669d3bc6b448f5e09798fe7d70092905a02c2be5d1e5995a"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/crash_landing/structures/nuclear_plant/decor/shipping/cargo/cargo_11.nbt"
+hash = "9c9be204fb6912fd3a4c3dcfb90866bcdb803a98627ec43b833b4dfa8698b66f"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/crash_landing/structures/nuclear_plant/decor/shipping/cargo/cargo_12.nbt"
+hash = "2d5544276a9171fd1a043728edd6869e6c9be0066792936ff65b9766fc4b8cf4"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/crash_landing/structures/nuclear_plant/decor/shipping/cargo/cargo_13.nbt"
+hash = "85f9c50dbda0a29dfcd2e88adf27ea0479dd6c987747edb15593468e0f30841d"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/crash_landing/structures/nuclear_plant/decor/shipping/cargo/cargo_14.nbt"
+hash = "3b581cc3e15f516109aa172b279432d8ff00fe992fbb158224084bf0f3295782"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/crash_landing/structures/nuclear_plant/decor/shipping/cargo/cargo_15.nbt"
+hash = "a2f1ee9c2f57f95c5d7683effb7f5431c482e867570c6af1f8ac6114b44d57a4"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/crash_landing/structures/nuclear_plant/decor/shipping/cargo/cargo_16.nbt"
+hash = "bab8ce85e3a9b399eedc497c2ef1716471a27165fe2288b9246c43f25de1cdb8"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/crash_landing/structures/nuclear_plant/decor/shipping/shipping_variants/shipping_variant_00.nbt"
+hash = "1c51269452becb40ea0bce334f6e968439d0ab9038890edf593a227d2d3e8d55"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/crash_landing/structures/nuclear_plant/decor/shipping/shipping_variants/shipping_variant_01.nbt"
+hash = "7a7d16b99f1c84b99f7fd91c01c879f34e02ce0728a87cfa47eaafc21647f266"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/crash_landing/structures/nuclear_plant/decor/shipping/shipping_variants/shipping_variant_02.nbt"
+hash = "7d9b38f0a5312a5d35639d41a31eeda61a518d17f152e9aeada0929291d305a3"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/crash_landing/structures/nuclear_plant/decor/shipping/trucks/truck_00.nbt"
+hash = "c74cad3c768a9c345ce58a8f84d13750cd3cc9dac64c11ace49761d918327687"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/crash_landing/structures/nuclear_plant/decor/shipping/trucks/truck_01.nbt"
+hash = "1df4fa7f3c7314de4171d5a28e0f87ff4b272412a6b9ef66c2ae7240388ea113"
+
+[[files]]
 file = "config/openloader/data/dustplanet/data/crash_landing/structures/nuclear_plant/decor/strips/medium/medium_01.nbt"
-hash = "54b3fa9c627deac7503659326231a153862ee83e571d78bd4326b7a8473b39c9"
+hash = "0fa89ff7406fc454e0e43e357c2c8d4a0266188f41f3f5a86f16737a0c512fcf"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/crash_landing/structures/nuclear_plant/decor/strips/medium/medium_02.nbt"
-hash = "93eca446ee8b20c11b6d1f6bf4a9d100bb3ec5848b3312a0f3a9f7aef94a4da1"
+hash = "bd16233dbe38e75d3b2295068b29cfc3f0bc056f0eedb6cce904c02e35fde875"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/crash_landing/structures/nuclear_plant/decor/strips/medium/medium_03.nbt"
@@ -2550,19 +2634,19 @@ hash = "7be207db4c4bfe422ccb01e6b10c35f467ebddb7103ba2b2fe38567f604d8ba9"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/crash_landing/structures/nuclear_plant/decor/strips/medium/medium_04.nbt"
-hash = "32ced8470250d4eb52252df002c7f149fbcc301f27dad67e58b2ef6314c36a07"
+hash = "a18ad1819ad11dc56f5b2355bed8e623fcdd0313196a5428f5b9724dca3e283d"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/crash_landing/structures/nuclear_plant/decor/strips/medium/medium_05.nbt"
-hash = "7223104f5107977dcd1a870a3b1e9cd44ebf5449cc6f19538793e35505b8af19"
+hash = "1157f6fac674cb7bca052675d048996ed533aa18913f12b4664d46d647d71705"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/crash_landing/structures/nuclear_plant/decor/strips/medium/medium_06.nbt"
-hash = "de0cbb99abd928af3fda858631bff0e90fdb97ac5af4f3c25e5c37cfe668a34c"
+hash = "03003c77ddcbc021f8e2af195266c90165b742306bb8b6eb0e7e8d5ec9e0a684"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/crash_landing/structures/nuclear_plant/decor/strips/medium/medium_07.nbt"
-hash = "573b7434276f456df39a824416bec00bdf38de91779a53a791c319a23337bee1"
+hash = "c582b5db10843f28a2b17b83c21496c570eef4bcb10b6ad09d5f7da0c1273cac"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/crash_landing/structures/nuclear_plant/decor/strips/medium/medium_08.nbt"
@@ -2574,11 +2658,11 @@ hash = "f6fcb2553fd5691252bc5a9a7d697cc8e06beee26e1a7ae8fb3bed48b5aa508e"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/crash_landing/structures/nuclear_plant/decor/strips/small/small_02.nbt"
-hash = "fef17e161fc3da78fc48c5c691bf3ea270a617ea6e8e13250b10f24cce06ee97"
+hash = "068ba0b71bc05b70dfa9790aec20a239ea0212e2c9a9c88ac3de81d1842e27b8"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/crash_landing/structures/nuclear_plant/decor/strips/small/small_03.nbt"
-hash = "aef287d3bbae37bdb5607e869f0e5e4bfeddd1cf101a43bfbbef9d2ae7e4a8a2"
+hash = "bbe88c60938adf70936a6c5f149dc6715d1601720c78eddeba1723200ad1390f"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/crash_landing/structures/nuclear_plant/decor/strips/small/small_04.nbt"
@@ -2586,7 +2670,7 @@ hash = "48143bdd4ad8a27e6ffe186bfb843153866c219346a0204314d56e0e9fe9bbfb"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/crash_landing/structures/nuclear_plant/decor/strips/small/small_05.nbt"
-hash = "3d2e5d44943fa59838b703582af29a474e2ecbda2b86edc1ac2ca4eb01265f2c"
+hash = "e5fcf01a9721036e51c1e6780765c5486b7f814734874556c9ad83cb615485ce"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/crash_landing/structures/nuclear_plant/decor/strips/small/small_06.nbt"
@@ -2594,7 +2678,7 @@ hash = "2bc65c59c403f60c33553ca8e7dadb518530c063b0aa2a083ceae96849fafdf5"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/crash_landing/structures/nuclear_plant/dock/dock_building.nbt"
-hash = "6e5e83f4a3d9052e70e778bda42a358309a9a5e4580e2e344221da30a5c5b74c"
+hash = "a0d8693e1609d35f88996993379cb4650fb85e0fa3375e384fa45c9abcd98b2c"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/crash_landing/structures/nuclear_plant/reactor/building_faces/building_face_dock.nbt"
@@ -2670,7 +2754,7 @@ hash = "dc203920747a935063c97beeda05ea1e6070c2f45d5f2d8f084b4a14f8e0ceb2"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/crash_landing/structures/nuclear_plant/turbine/turbine_building.nbt"
-hash = "5bdc2282732f519698bf5782d20e2ebbadc71409a1f8a58afb1443afaa7e63a6"
+hash = "ca6a187a5e163102a77a36e75aae531bc4e69522bba6cd88a972f24571a54412"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/crash_landing/structures/nuclear_plant/turbine/turbine_connector.nbt"
@@ -2803,6 +2887,26 @@ hash = "31e323526fd3ff87c64890fab9487f1fe3e065943bcdeff43e4d65eb430b8d6a"
 [[files]]
 file = "config/openloader/data/dustplanet/data/crash_landing/worldgen/template_pool/nuclear_plant/decor/misc/door_air.json"
 hash = "0d73e6973b558029c0605f3daae591cc2ac9da43177b06019ebd83ec46f72de5"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/crash_landing/worldgen/template_pool/nuclear_plant/decor/shipping/cargo.json"
+hash = "60076372ef26b0589bc67492f658dd475e4bf5424ec8075775833b0b85b229e4"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/crash_landing/worldgen/template_pool/nuclear_plant/decor/shipping/shipping_variant.json"
+hash = "7e8ebcf0471a7ce359186b3e4df30b9b86041fc1097bdb70cae6cf25edfa5e61"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/crash_landing/worldgen/template_pool/nuclear_plant/decor/shipping/shipping_variant_25.json"
+hash = "247c682d24e4ed540d3c20252e90cc776dbd4ecd1e683e4e35ebfe996d944ead"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/crash_landing/worldgen/template_pool/nuclear_plant/decor/shipping/shipping_variant_50.json"
+hash = "1c78641de7a6c9e2b249db268893b0a8bd6973904a181cf19af288f0045d99f2"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/crash_landing/worldgen/template_pool/nuclear_plant/decor/shipping/truck.json"
+hash = "3f695c513bac74b659c506403feec884847b79b1f9afbffba30a54adc2879feb"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/crash_landing/worldgen/template_pool/nuclear_plant/decor/strips/any.json"
@@ -6377,6 +6481,10 @@ file = "config/openloader/data/dustplanet/data/tconstruct/recipes/smeltery/melti
 hash = "03660225ae8fb318c4f3389f223c2506fda3e1aa55ca44c307e216b580c73318"
 
 [[files]]
+file = "config/openloader/data/dustplanet/data/tconstruct/recipes/smeltery/melting/metal/rose_gold/silky_cloth.json"
+hash = "f74705f40918f3220e8b7bb577994a5f8903a364022750a1359fc96eb6b4addc"
+
+[[files]]
 file = "config/openloader/data/dustplanet/data/tconstruct/recipes/smeltery/melting/seared/stone.json"
 hash = "84fd2dec1fc23f0eadc6efb1af54b53a2805251006907bbae5cadc366b0305de"
 
@@ -8202,7 +8310,11 @@ hash = "051649fc9e6498f1dcb72c44b4a0e7bdb4d500f86119b2ea399cfa49781e49fe"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/tconstruct/recipes/tools/modifiers/silky_cloth.json"
-hash = "ab9d778802b8ffa2f01fbce03619b40abd589446144465eac4084f2a58578a8b"
+hash = "7b884f9548e72e69d8c85e0a1aa710386e32390b64222b8f3ac7d73fe9d2b1ff"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/tconstruct/recipes/tools/modifiers/silky_cloth_alternate.json"
+hash = "205217beb35a222344472a158b70052c1a9d504d3eab5da9574eb3781d546af6"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/tconstruct/recipes/tools/modifiers/slimesteel_reinforcement.json"
@@ -9383,6 +9495,10 @@ hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
 [[files]]
 file = "config/openloader/data/dustplanet/data/thermal/recipes/compat/tconstruct/press_tconstruct_blood_slime_3x3_unpacking.json"
 hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+
+[[files]]
+file = "config/openloader/data/dustplanet/data/thermal/recipes/device_composter.json"
+hash = "bed195c7b7328fbebdedf1b89214a1dae0db61dc424257ef328699ac7384237f"
 
 [[files]]
 file = "config/openloader/data/dustplanet/data/thermal/recipes/device_water_gen.json"
@@ -10714,7 +10830,7 @@ hash = "7d7354837e256775a22c526ed320bd0fb5199c329b60c80c4c3ad73b59fc0006"
 
 [[files]]
 file = "config/sync.json"
-hash = "3da6981ff75bf4fc62bab8fa78f007988042d75125c9c217b202dc5dbe24c45c"
+hash = "0cdd11b23afd95b3673b846109e3050ebce3fce92870e516238e8283921f0efa"
 
 [[files]]
 file = "config/tconstruct-client.toml"
@@ -11153,16 +11269,12 @@ file = "kubejs/server_scripts/extruding_recipes.js"
 hash = "bc8533d08d342b8e4041d9ba42edc7d3219c636a9991287da1589c6f50330fd9"
 
 [[files]]
-file = "kubejs/server_scripts/flint_inventory.js"
-hash = "151739b6551eabe57f805b6a80c42af34241d3223c59a02c583790e7a0faf625"
-
-[[files]]
 file = "kubejs/server_scripts/lava_crucible/ore_crucible_smelting.js"
-hash = "ec8136792c452a11f9c4b6d19dcb3dec2456ad0261e6bde49d7a2489379df9a3"
+hash = "5395af010f9f7ba7a8f3e4894e97435c3ab1aaca6713d2fae73a5d5e6b9d4af3"
 
 [[files]]
 file = "kubejs/server_scripts/leaf_drops.js"
-hash = "208fa2c169f006ca3033042d7b8e9c17a1e5b3dc71ca651f970c9e814bb28379"
+hash = "a890e8757ac47bd47bbaf6c636ca6c95dea40dc9c93fac05b279d23c37155609"
 
 [[files]]
 file = "kubejs/server_scripts/paste.js"
@@ -11178,7 +11290,7 @@ hash = "8a6736ce7e862af507d1310967a4c992948d27a0ede792efea196374e0c99b13"
 
 [[files]]
 file = "kubejs/server_scripts/removed_recipes.js"
-hash = "3076fc5c135d4c2ced1ad0981fda253756eaca47458a4e29fd0735e91327ae88"
+hash = "c3d9d7f8fa0d355355a1cc1ca5232347412864b306bbee308504b3f64cbfced8"
 
 [[files]]
 file = "kubejs/server_scripts/replacements/general_replacements.js"
@@ -11190,7 +11302,7 @@ hash = "823d11ea5b57060b6bfd5b0fca17b4525d8dc5b78c53bfc742864a84abe79011"
 
 [[files]]
 file = "kubejs/server_scripts/replacements/machine_frame_replacement.js"
-hash = "1e8da03a09cf4b069306a6a061bf3939ee09ead12dda5ab97996adb2ddeb2552"
+hash = "a1a370f2ae5e947614f23ee6e45e029df2ab77e39b108d7b6212dfa9566b704a"
 
 [[files]]
 file = "kubejs/server_scripts/rubber/rubber.js"
@@ -11231,6 +11343,10 @@ hash = "47964c7431b92502ed74e6af2d4012c9dfa389b82b90cdc18228e59c6e2bad38"
 [[files]]
 file = "kubejs/server_scripts/tags/hammers.js"
 hash = "58ef26d92db68bda8bb47eea079cb4025b0f5347fd1e257b478b03883da087a0"
+
+[[files]]
+file = "kubejs/server_scripts/tags/misc.js"
+hash = "d6ad0261bec2f78c5eda0a0d34cb727e7c15976ceb596c9a27da65b6f54b7d36"
 
 [[files]]
 file = "kubejs/server_scripts/tags/plastic_scraps.js"
@@ -11346,7 +11462,7 @@ hash = "65bffa61e2d5cdb306ae4f452f67e79ca4f08a48e0e8fde4107fe0a162794003"
 
 [[files]]
 file = "kubejs/startup_scripts/crash_blocks/crash_blocks.js"
-hash = "0f4f6cb2e006bc0eec45294417738612324b36347075308d7d4466f4da5b22d2"
+hash = "83353250965bdf6c0aa597650bbffaf314bc1ff4447a03741331ecc3d23b07c0"
 
 [[files]]
 file = "kubejs/startup_scripts/crash_blocks/ship_blocks.js"
@@ -11402,43 +11518,7 @@ hash = "6cafc995d20bcae39de8bdd9f1d4e8497ec0945fadc01041a2fa420f81efb618"
 
 [[files]]
 file = "mods/!README for multiplayer instructions!.txt"
-hash = "651ddd7fb35aae62a02d636d60f9995d58b77babac0e9dd308801eb9a75a84d4"
-
-[[files]]
-file = "mods/.connector/satin-1.14.0_mapped_srg_1.20.1.jar.input"
-hash = "22ead0463edaac39727b101d74544f4179f8201d0619276fa3e35886a6ef1de7"
-
-[[files]]
-file = "mods/.connector/stackables-2.0.1+1.20$mixinextras-fabric-0.2.2_mapped_srg_1.20.1.jar.input"
-hash = "8f8357f65dcbab28c57be77d2421e58149312baaa5bc6fb631e3375d93ddf185"
-
-[[files]]
-file = "mods/.connector/stackables-2.0.1+1.20_mapped_srg_1.20.1.jar.input"
-hash = "ec36d14c0e0b32186c4182079ebfb5d7857cff8c188c9e063c09fbc747813ea1"
-
-[[files]]
-file = "mods/.connector/sync-mc1.20.1-5.1$energy-3.0.0_mapped_srg_1.20.1.jar.input"
-hash = "e53fa3f90a6e94bded0f2e6a68e84d5eb166ebfe4cc51062dd5e0ac41fd2af86"
-
-[[files]]
-file = "mods/.connector/sync-mc1.20.1-5.1$smart-recipes-0.2.1+1.20_mapped_srg_1.20.1.jar.input"
-hash = "cef36bbc278e52e8e757f4fb945241665fd78c8cdadad0842ffbe821d5a280b1"
-
-[[files]]
-file = "mods/.connector/sync-mc1.20.1-5.1_mapped_srg_1.20.1.jar.input"
-hash = "662812cf74d2786ba6c0ec1fbd6c01dac1cefacc5bf33f13fbfedb687a89a8e4"
-
-[[files]]
-file = "mods/.connector/temp/stackables-2.0.1+1.20$mixinextras-fabric-0.2.2.jar.input"
-hash = "8f8357f65dcbab28c57be77d2421e58149312baaa5bc6fb631e3375d93ddf185"
-
-[[files]]
-file = "mods/.connector/temp/sync-mc1.20.1-5.1$energy-3.0.0.jar.input"
-hash = "e53fa3f90a6e94bded0f2e6a68e84d5eb166ebfe4cc51062dd5e0ac41fd2af86"
-
-[[files]]
-file = "mods/.connector/temp/sync-mc1.20.1-5.1$smart-recipes-0.2.1+1.20.jar.input"
-hash = "cef36bbc278e52e8e757f4fb945241665fd78c8cdadad0842ffbe821d5a280b1"
+hash = "25b8d07ab3bed36c928aca2e1f08dca8dfd2df025134b8c2e2c23f9f350f2089"
 
 [[files]]
 file = "mods/ad-astra.pw.toml"
@@ -11656,9 +11736,18 @@ hash = "9af375c8df425082979f9d88cbc7323ed2b6dcb7a12d149a2ef8029f49cd9f0c"
 metafile = true
 
 [[files]]
+file = "mods/cubes-without-borders.pw.toml"
+hash = "ac4cbd7785b8c70de4037162d6626910633e6b997c957e90de961316716e8402"
+metafile = true
+
+[[files]]
 file = "mods/curios.pw.toml"
 hash = "b7325f1ad328f8cdc1cbd578570ce5244874fdd529eda5f20568df44dec5a772"
 metafile = true
+
+[[files]]
+file = "mods/cwb-forge-3.0.0+mc1.20.jar"
+hash = "97b0827f20b6213c97d2244f7da205d85ffa72e51fa167d69466b49018532478"
 
 [[files]]
 file = "mods/elevatormod.pw.toml"
@@ -11703,6 +11792,11 @@ metafile = true
 [[files]]
 file = "mods/experimental-settings-disabler.pw.toml"
 hash = "55a878480f2a201671c406adbd4d8865d26506eda4e5aa032b420f1896ba2c64"
+metafile = true
+
+[[files]]
+file = "mods/fabric-api.pw.toml"
+hash = "2b7949e506ba69c57139127c0ccc6caf5a9ec5ec97788b81288118db3d7c2ad3"
 metafile = true
 
 [[files]]
@@ -12062,7 +12156,7 @@ metafile = true
 
 [[files]]
 file = "mods/satin-api.pw.toml"
-hash = "3cc32e68232ecae1060c5bbf60a9ae3fb0c77cfdd2f06804cffed2e30881b85d"
+hash = "62b1365a5252bbe60e6305e9342693daa69cfa818c8eb7b95d6495110ac7c147"
 metafile = true
 
 [[files]]
@@ -12112,7 +12206,7 @@ metafile = true
 
 [[files]]
 file = "mods/stackables.pw.toml"
-hash = "918f933c822a151fbe87e4bf055d92d2743b7212d201024855edf400bf894af7"
+hash = "acb96c653f76617783c0f4f5b1057959fa4fa78c66bb109013d45c21776171c3"
 metafile = true
 
 [[files]]
@@ -12137,8 +12231,12 @@ metafile = true
 
 [[files]]
 file = "mods/sync-fabric-rereported.pw.toml"
-hash = "f9425d7dacb909e7266c818535a6213518946a448b9efcf54385752f573a394e"
+hash = "8af912460c9471f8b2d783bb1a85a9a12f5323ee038240c3ccd0c694311a7add"
 metafile = true
+
+[[files]]
+file = "mods/sync-mc1.20.1-5.2.jar"
+hash = "8010f4d3ecf81218caad0474bbb90760b572119cb866483ce30707dcc5871785"
 
 [[files]]
 file = "mods/tag-tooltips.pw.toml"
@@ -12229,45 +12327,9 @@ file = "profileImage/Capa CL2.png"
 hash = "d78bd80d3382aa6fab7edb2beceef725210717fbd9d7f53aa007d70b9f3c15ec"
 
 [[files]]
-file = "resourcepacks/Quark Programmer Art.zip"
-hash = "41cb720cf256a12ea247b2f38068b363aa5b1675470c4b5aa66850701a78bc4d"
-
-[[files]]
 file = "resourcepacks/mob-grinding-utils-vanillafied.pw.toml"
 hash = "74d4ddd538575f5ddb0401d2c33ef71178372e8087802eec72c4e048a5b18613"
 metafile = true
-
-[[files]]
-file = "saves/Original world, will reset when pack updates/icon.png"
-hash = "74dc6e3b066b26fdb41019b06e6a6d079bf65e63289873715a4c564079fbc04a"
-
-[[files]]
-file = "saves/Original world, will reset when pack updates/level.dat"
-hash = "4e2c6de9d047107f8043b8cf4ebce42761c7270b01862c08e1fe4f5aeabb0e75"
-
-[[files]]
-file = "saves/Original world, will reset when pack updates/level.dat.backup"
-hash = "4e2c6de9d047107f8043b8cf4ebce42761c7270b01862c08e1fe4f5aeabb0e75"
-
-[[files]]
-file = "saves/Original world, will reset when pack updates/region/r.-1.-1.mca"
-hash = "ae237d3a9e4b4068427954f38d9d40a4a9fa42aac6fc57aca4891c71660e4389"
-
-[[files]]
-file = "saves/Original world, will reset when pack updates/region/r.-1.0.mca"
-hash = "9d79f662810cdc6293152d1cf5bc0a96b3f59f4aacefbcee65466fb5c8474810"
-
-[[files]]
-file = "saves/Original world, will reset when pack updates/region/r.0.-1.mca"
-hash = "834c84ca3ad07428a6ace52ea12eac9fc3947ac4c94cb376b45af80a021f820e"
-
-[[files]]
-file = "saves/Original world, will reset when pack updates/region/r.0.0.mca"
-hash = "3468393e6acefec783da249df03dc8afbf5df32f17122757e730d820accfbb7b"
-
-[[files]]
-file = "servers.dat"
-hash = "075de2b906dbd7066da008cab735bee896370154603579a50122f9b88545bd45"
 
 [[files]]
 file = "shaderpacks/ComplementaryUnbound_r5.3.zip.txt"
@@ -12275,10 +12337,10 @@ hash = "3073a22dcaf05d14733abe00dfb1344fb88fccc17a74b18df8c90918b0f1a142"
 
 [[files]]
 file = "shaderpacks/complementary-reimagined.pw.toml"
-hash = "e6996ecb68a6c690558f589e7194d7df23a186ab8b75f0f67cfed069a280470b"
+hash = "2fef9da2480d761a89972b2b82f3154d357b97d547284bd84162f6cc4fbb759c"
 metafile = true
 
 [[files]]
 file = "shaderpacks/complementary-unbound.pw.toml"
-hash = "d222003558c856ef20e0865b26d03f92d1a6015bc6c6d637169bdbbfdbafcf3c"
+hash = "96657ed5f8448d1c6e216425e5d7d16003c80ac390803767473748dcb6e581c2"
 metafile = true

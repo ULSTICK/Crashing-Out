@@ -1,13 +1,13 @@
 name = "Sync Re-Re-Ported"
-filename = "sync-mc1.20.1-5.1.jar"
+filename = "sync-mc1.20.1-5.2.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "821a40404a2ef6c5a97bf3bda4b6d5212b4f974a"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/qN9hcsQT/versions/iL06IWi5/sync-mc1.20.1-5.2.jar"
+hash-format = "sha512"
+hash = "1f8ccc4307e6ea92b8ac4f8f3fe0b5671fd1450b0fd4e98cfaec3f1e6906a314548ba5dec1df990c6e05aac1d660987abc688c7b70778d8becbcdfadb825c3ff"
 
 [update]
-[update.curseforge]
-file-id = 6715024
-project-id = 1280121
+[update.modrinth]
+mod-id = "qN9hcsQT"
+version = "iL06IWi5"
