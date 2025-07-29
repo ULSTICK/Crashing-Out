@@ -30,6 +30,7 @@ hs_err_pid*.log
 knownkeys.txt
 options.txt
 patchouli_data.json
+README.md
 rhino.local.properties
 servers.dat
 servers.dat_old
