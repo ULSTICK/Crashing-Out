@@ -11521,801 +11521,807 @@ file = "mods/!README for multiplayer instructions!.txt"
 hash = "25b8d07ab3bed36c928aca2e1f08dca8dfd2df025134b8c2e2c23f9f350f2089"
 
 [[files]]
-file = "mods/ad-astra.pw.toml"
+file = "packwiz-meta/mods/!README for multiplayer instructions!.txt"
+hash = "25b8d07ab3bed36c928aca2e1f08dca8dfd2df025134b8c2e2c23f9f350f2089"
+
+[[files]]
+file = "packwiz-meta/mods/ad-astra.pw.toml"
 hash = "edb123325d870f3bd5e931f30f4dc1bf89d1b9be87f3aaf1b50f08f6f7d8e2db"
 metafile = true
 
 [[files]]
-file = "mods/ai-improvements.pw.toml"
+file = "packwiz-meta/mods/ai-improvements.pw.toml"
 hash = "7cb17775ff276f95dca57e4019d0ce8689e73e9302d9b669832017aea71647fb"
 metafile = true
 
 [[files]]
-file = "mods/alltheleaks.pw.toml"
+file = "packwiz-meta/mods/alltheleaks.pw.toml"
 hash = "096d32d4629d90c8c88b7e244406e7ef5658460b69f51c8b79fd9f3b9190d3de"
 metafile = true
 
 [[files]]
-file = "mods/almost-unified.pw.toml"
+file = "packwiz-meta/mods/almost-unified.pw.toml"
 hash = "7e1ba7d492c670027c2d0d767b94ab8550f8ce78386bfdf16bda2719c1f349f0"
 metafile = true
 
 [[files]]
-file = "mods/appleskin.pw.toml"
+file = "packwiz-meta/mods/appleskin.pw.toml"
 hash = "f33810d5961a90de469504fbe8c2058f807bebffc663385347d419bde3a147ac"
 metafile = true
 
 [[files]]
-file = "mods/applied-energistics-2.pw.toml"
+file = "packwiz-meta/mods/applied-energistics-2.pw.toml"
 hash = "61cf98a5470dd454cfee35233dd500fa9763dfa82a1b375d462d37e245b2f530"
 metafile = true
 
 [[files]]
-file = "mods/applied-mekanistics.pw.toml"
+file = "packwiz-meta/mods/applied-mekanistics.pw.toml"
 hash = "4484530086101c664cceeb36c38a84bdbcdad86841025ff60e929c84007bf3a6"
 metafile = true
 
 [[files]]
-file = "mods/architectury-api.pw.toml"
+file = "packwiz-meta/mods/architectury-api.pw.toml"
 hash = "3011e54cc0370c6eccab1b78e6520266015f8de4a1fd762fd7df2a6c62e1b0e0"
 metafile = true
 
 [[files]]
-file = "mods/athena.pw.toml"
+file = "packwiz-meta/mods/athena.pw.toml"
 hash = "577f73640d26fcf3f513b8303cc7ba5eae03c90d6aedff7602d050d9fee71185"
 metafile = true
 
 [[files]]
-file = "mods/attributefix.pw.toml"
+file = "packwiz-meta/mods/attributefix.pw.toml"
 hash = "5b4612cc1f2e0266af11c6e925a9db32b910f6d8d66d84993fd6c6cc6b4fb152"
 metafile = true
 
 [[files]]
-file = "mods/baguettelib.pw.toml"
+file = "packwiz-meta/mods/baguettelib.pw.toml"
 hash = "cb4239b3539a5a99d933ae572efd124f8391d40fcb018dd2e35e3d45a0bee1ba"
 metafile = true
 
 [[files]]
-file = "mods/balm.pw.toml"
+file = "packwiz-meta/mods/balm.pw.toml"
 hash = "1eca157adf5b37db076cc1578408d58150821238e9c122e6b3a68e38dc538166"
 metafile = true
 
 [[files]]
-file = "mods/baubley-heart-canisters.pw.toml"
+file = "packwiz-meta/mods/baubley-heart-canisters.pw.toml"
 hash = "b620896f870988e70bdcedb7e4e972d88b4f7b1091fa9275c2a72f6d381477f3"
 metafile = true
 
 [[files]]
-file = "mods/biggerreactors.pw.toml"
+file = "packwiz-meta/mods/biggerreactors.pw.toml"
 hash = "5843632e47c19e4a224ac4be495be73f4198b60152cea2f20d83e41caecfd7f9"
 metafile = true
 
 [[files]]
-file = "mods/bookshelf.pw.toml"
+file = "packwiz-meta/mods/bookshelf.pw.toml"
 hash = "4ae7f5d05d9e9885828c950b8986b94eee01b5870a98acc08048a2f9764ed3eb"
 metafile = true
 
 [[files]]
-file = "mods/botarium.pw.toml"
+file = "packwiz-meta/mods/botarium.pw.toml"
 hash = "951c8800d0e2efe81e26dd2a99a06d7c44bce5c97f988b7372fba4474bbdda3a"
 metafile = true
 
 [[files]]
-file = "mods/building-gadgets.pw.toml"
+file = "packwiz-meta/mods/building-gadgets.pw.toml"
 hash = "d23fa71bfd326916fbfb7e24159ef6c5618f1e21f45675872c507ed58c6c112f"
 metafile = true
 
 [[files]]
-file = "mods/cable-facades.pw.toml"
+file = "packwiz-meta/mods/cable-facades.pw.toml"
 hash = "35a616d89bd75b8ed3fd30f7611b83ee11da49f48e1c1e25cf8163d9abf29eee"
 metafile = true
 
 [[files]]
-file = "mods/chipped-express.pw.toml"
+file = "packwiz-meta/mods/chipped-express.pw.toml"
 hash = "64de0920802dd64b4e4d0ab114437f3e76bc4b3b30bd6cc4e1a9b34a2bd4986b"
 metafile = true
 
 [[files]]
-file = "mods/chipped.pw.toml"
+file = "packwiz-meta/mods/chipped.pw.toml"
 hash = "ebb9dcdd8feeea46b43b32674cbbbbe00e2e3a43a793a473c299b311914acd98"
 metafile = true
 
 [[files]]
-file = "mods/chisel-chipped-integration.pw.toml"
-hash = "496eba9f41398eed98e9bf62658b97338f851d223b84b78034c07b05acfc9a7b"
-metafile = true
-
-[[files]]
-file = "mods/chunk-loaders.pw.toml"
+file = "packwiz-meta/mods/chunk-loaders.pw.toml"
 hash = "f679de2d8042d325c97e6e653fc562263199b386e4f6647f64ff4b7bbb3e1f94"
 metafile = true
 
 [[files]]
-file = "mods/cloth-config.pw.toml"
+file = "packwiz-meta/mods/cloth-config.pw.toml"
 hash = "2cd7fe8b896cd6f102af972c775db3a025f3ad70e755c818addcfdf1e724d9b6"
 metafile = true
 
 [[files]]
-file = "mods/codechicken-lib.pw.toml"
+file = "packwiz-meta/mods/codechicken-lib.pw.toml"
 hash = "be99ada619a9526a505eb03686290523641352632d575c4466d5fa7f7a83af07"
 metafile = true
 
 [[files]]
-file = "mods/cofh-core.pw.toml"
+file = "packwiz-meta/mods/cofh-core.pw.toml"
 hash = "ac620d0295f8b7188860a5600bfb5858123bc4f82308d386b0517fd07276c0bd"
 metafile = true
 
 [[files]]
-file = "mods/collective.pw.toml"
+file = "packwiz-meta/mods/collective.pw.toml"
 hash = "d9b27856833ee813920767a5d50ba05ae674de2f6f64aebc95dc6b0cd5ce650c"
 metafile = true
 
 [[files]]
-file = "mods/comforts.pw.toml"
+file = "packwiz-meta/mods/comforts.pw.toml"
 hash = "e0c90098adfccae9f58ff1c4f51366536f701deb93ce87208c3caab559ff51d0"
 metafile = true
 
 [[files]]
-file = "mods/configured.pw.toml"
+file = "packwiz-meta/mods/configured.pw.toml"
 hash = "94201ec1da8a148b3da55476be54eafd3f62303d3fda84327e4ad9c05b553ae2"
 metafile = true
 
 [[files]]
-file = "mods/connector.pw.toml"
+file = "packwiz-meta/mods/connector.pw.toml"
 hash = "f98c98825fcab154eead43cfa934314da2fe34882240388c1075ee6cee53956a"
 metafile = true
 
 [[files]]
-file = "mods/controlling.pw.toml"
+file = "packwiz-meta/mods/controlling.pw.toml"
 hash = "ae0a3a2ada91088822989239b896b1ab0e4b870537bdcf46b2c7c0a5eea46e1f"
 metafile = true
 
 [[files]]
-file = "mods/cooking-for-blockheads.pw.toml"
+file = "packwiz-meta/mods/cooking-for-blockheads.pw.toml"
 hash = "2f92d8ef308ed0674626235219d31e58e94abc65e6112e1f99571d6ba56c8a45"
 metafile = true
 
 [[files]]
-file = "mods/copycats.pw.toml"
+file = "packwiz-meta/mods/copycats.pw.toml"
 hash = "344db1b4b2499d1ad0f81ef8885c20dee78a33465e5243609f80404b1ad37dec"
 metafile = true
 
 [[files]]
-file = "mods/coroutil.pw.toml"
+file = "packwiz-meta/mods/coroutil.pw.toml"
 hash = "f2b37b0e3403509cb046e18cdad871cc8caaae4b71814d3c4d2ec9ac9996b6c9"
 metafile = true
 
 [[files]]
-file = "mods/corpse-x-curios-api-compat.pw.toml"
+file = "packwiz-meta/mods/corpse-x-curios-api-compat.pw.toml"
 hash = "866781b50d4abdafbd1e129e8b3dfc6450446dfddac70439552e9b02e98286fa"
 metafile = true
 
 [[files]]
-file = "mods/corpse.pw.toml"
+file = "packwiz-meta/mods/corpse.pw.toml"
 hash = "8b792f78aed43218789ba6c4e35dd7686bf345f3757980308cff96267139e321"
 metafile = true
 
 [[files]]
-file = "mods/crafting-on-a-stick.pw.toml"
+file = "packwiz-meta/mods/crafting-on-a-stick.pw.toml"
 hash = "ff952ebb9755ba5d8366d2f49b48d16fdddad4bbfa7a03c46eeed1d3445872bc"
 metafile = true
 
 [[files]]
-file = "mods/crash-assistant.pw.toml"
+file = "packwiz-meta/mods/crash-assistant.pw.toml"
 hash = "78ee3c78bd40b42f9990c697e29fb9e38d689bf136432928219f683d3cbfeccd"
 metafile = true
 
 [[files]]
-file = "mods/create-deco.pw.toml"
+file = "packwiz-meta/mods/create-deco.pw.toml"
 hash = "af1413c3db6ff7f2d6a9bbcb5e4ac2302d96377dceb032fd42cf6203bf6d7b4d"
 metafile = true
 
 [[files]]
-file = "mods/create-mechanical-extruder.pw.toml"
+file = "packwiz-meta/mods/create-mechanical-extruder.pw.toml"
 hash = "12129377e39dbaec01933c2d1c45315ce5516c4da21df98edba882742016e3bf"
 metafile = true
 
 [[files]]
-file = "mods/create.pw.toml"
+file = "packwiz-meta/mods/create.pw.toml"
 hash = "11ae3bea4c2f87d338a8ce8bb99344d10b1df7b2f9fb4e6b8358e135d30a628f"
 metafile = true
 
 [[files]]
-file = "mods/createaddition.pw.toml"
+file = "packwiz-meta/mods/createaddition.pw.toml"
 hash = "38c7b7bdfce69757f0cadc677e904388d9db8cb1574632a722a62d7d9718f70a"
 metafile = true
 
 [[files]]
-file = "mods/crust.pw.toml"
+file = "packwiz-meta/mods/crust.pw.toml"
 hash = "a3d35a09ad0e5e68d1c2c076093f8352a7e3cca4afbb3717a68a25a53abbe4b8"
 metafile = true
 
 [[files]]
-file = "mods/cryonicconfig.pw.toml"
+file = "packwiz-meta/mods/cryonicconfig.pw.toml"
 hash = "9af375c8df425082979f9d88cbc7323ed2b6dcb7a12d149a2ef8029f49cd9f0c"
 metafile = true
 
 [[files]]
-file = "mods/cubes-without-borders.pw.toml"
-hash = "ac4cbd7785b8c70de4037162d6626910633e6b997c957e90de961316716e8402"
+file = "packwiz-meta/mods/cubes-without-borders.pw.toml"
+hash = "1ab431c1e59a17ab2dafe0dd1cd726101ec461f2fcd6b0a9607c61592aa6a799"
 metafile = true
 
 [[files]]
-file = "mods/curios.pw.toml"
+file = "packwiz-meta/mods/curios.pw.toml"
 hash = "b7325f1ad328f8cdc1cbd578570ce5244874fdd529eda5f20568df44dec5a772"
 metafile = true
 
 [[files]]
-file = "mods/cwb-forge-3.0.0+mc1.20.jar"
-hash = "97b0827f20b6213c97d2244f7da205d85ffa72e51fa167d69466b49018532478"
-
-[[files]]
-file = "mods/elevatormod.pw.toml"
+file = "packwiz-meta/mods/elevatormod.pw.toml"
 hash = "dc7e9f7838afe533b8ff632e5387b68d6893d5c9508b7eb90cae06b234e2c9b2"
 metafile = true
 
 [[files]]
-file = "mods/embeddium.pw.toml"
+file = "packwiz-meta/mods/embeddium.pw.toml"
 hash = "9ddb37809dbf50f17ccfca4039149524ec0ed8f5838441a94fbb1de3a780c9b5"
 metafile = true
 
 [[files]]
-file = "mods/enchantment-descriptions.pw.toml"
+file = "packwiz-meta/mods/enchantment-descriptions.pw.toml"
 hash = "e0298ca00136f5c08712e2bd94269aa2fc9a004af16e5962460339451d5dbc13"
 metafile = true
 
 [[files]]
-file = "mods/ender-storage.pw.toml"
+file = "packwiz-meta/mods/ender-storage.pw.toml"
 hash = "5f44d91bb4d9da56a63ba0ab734be534d97a356c54931ea98a737bb36509ca7b"
 metafile = true
 
 [[files]]
-file = "mods/enderio.pw.toml"
+file = "packwiz-meta/mods/enderio.pw.toml"
 hash = "bc88e706255929df8762a4b8f86345cf483a5f2e9f508f0acce06bd185901d3a"
 metafile = true
 
 [[files]]
-file = "mods/enhanced-ai.pw.toml"
+file = "packwiz-meta/mods/enhanced-ai.pw.toml"
 hash = "5262d6582832c0429c36134f615ad07756b711fceda357d6f04cc6558c58c11f"
 metafile = true
 
 [[files]]
-file = "mods/entityculling.pw.toml"
+file = "packwiz-meta/mods/entityculling.pw.toml"
 hash = "28760ab6c857b9fc5cfbc180f35511b81bbd3778bd9bba7ba977e7bbb5a30579"
 metafile = true
 
 [[files]]
-file = "mods/ex-deorum.pw.toml"
+file = "packwiz-meta/mods/ex-deorum.pw.toml"
 hash = "bc9f8449e7cfb5cf5c339925e670f195949055bb381320e648ce9cc5916cbb81"
 metafile = true
 
 [[files]]
-file = "mods/experimental-settings-disabler.pw.toml"
+file = "packwiz-meta/mods/experimental-settings-disabler.pw.toml"
 hash = "55a878480f2a201671c406adbd4d8865d26506eda4e5aa032b420f1896ba2c64"
 metafile = true
 
 [[files]]
-file = "mods/fabric-api.pw.toml"
+file = "packwiz-meta/mods/fabric-api.pw.toml"
 hash = "2b7949e506ba69c57139127c0ccc6caf5a9ec5ec97788b81288118db3d7c2ad3"
 metafile = true
 
 [[files]]
-file = "mods/factory-blocks.pw.toml"
+file = "packwiz-meta/mods/factory-blocks.pw.toml"
 hash = "18b660fd503ce88cba936c9f597100f6c8a991d36fbb50da85e0d90040093c56"
 metafile = true
 
 [[files]]
-file = "mods/fast-leaf-decay.pw.toml"
+file = "packwiz-meta/mods/fast-leaf-decay.pw.toml"
 hash = "dc865a0600a9608db9411c6f7664d60293e3d26f8a8f4f6bd825f9bbc7c11995"
 metafile = true
 
 [[files]]
-file = "mods/fastsuite.pw.toml"
+file = "packwiz-meta/mods/fastsuite.pw.toml"
 hash = "4da9b2ff29c89bc518e20b769b5b49266a6b6e44cd5e5781c314426bbc8081c9"
 metafile = true
 
 [[files]]
-file = "mods/ferrite-core.pw.toml"
+file = "packwiz-meta/mods/ferrite-core.pw.toml"
 hash = "3b026ffc2963974cc8252d83e91587b5ac357ab2b59eb1e77e74e82eb3d635d6"
 metafile = true
 
 [[files]]
-file = "mods/forgified-fabric-api.pw.toml"
+file = "packwiz-meta/mods/forgified-fabric-api.pw.toml"
 hash = "2d037993efbf05732a6970834e5bbee3e6e7e28ea9dc12899257ea203c135f3d"
 metafile = true
 
 [[files]]
-file = "mods/framedblocks.pw.toml"
+file = "packwiz-meta/mods/framedblocks.pw.toml"
 hash = "a3dcf2fce2db54346ed7d91ff49cb9b19870addf5213d3239e8a9dbaeb1bcdb5"
 metafile = true
 
 [[files]]
-file = "mods/framework.pw.toml"
+file = "packwiz-meta/mods/framework.pw.toml"
 hash = "1850643cf5d129bd4b03d8a390b6517002f44742c797c769dc2bf444fa486cdb"
 metafile = true
 
 [[files]]
-file = "mods/functional-storage.pw.toml"
+file = "packwiz-meta/mods/functional-storage.pw.toml"
 hash = "a79731c53651594986276ca3c337e4b1d2278d25ed2aa7f9372bb58f0b6cb733"
 metafile = true
 
 [[files]]
-file = "mods/fusion-connected-textures.pw.toml"
+file = "packwiz-meta/mods/fusion-connected-textures.pw.toml"
 hash = "34b52190e67c004be9ba43079998f5df14df3a9966d4583adf0a180c937013ea"
 metafile = true
 
 [[files]]
-file = "mods/geckolib.pw.toml"
+file = "packwiz-meta/mods/geckolib.pw.toml"
 hash = "c4021ac41914f3919ddc495767ea4a968709aa38c4e2ad091bbef50b5165f48a"
 metafile = true
 
 [[files]]
-file = "mods/global-gamerules.pw.toml"
+file = "packwiz-meta/mods/global-gamerules.pw.toml"
 hash = "8af4de87c0c9e2829791e03636a40afdcf57d3dedba16c54c1b27bf346dd01c8"
 metafile = true
 
 [[files]]
-file = "mods/guideme.pw.toml"
+file = "packwiz-meta/mods/guideme.pw.toml"
 hash = "8974c74c9b9567e0729577f41d1bb68a72a1f0bea8f6c832feee1a62f355d88c"
 metafile = true
 
 [[files]]
-file = "mods/hang-glider.pw.toml"
+file = "packwiz-meta/mods/hang-glider.pw.toml"
 hash = "0449510312f21ae26038bd2a5c785bb7371df1f774dbfcfeee13ecd861a70094"
 metafile = true
 
 [[files]]
-file = "mods/hardcore-questing-mode.pw.toml"
+file = "packwiz-meta/mods/hardcore-questing-mode.pw.toml"
 hash = "bd6ec28ff4f5d3e0e7829746c84250fc9f2363097a682d4e38294ebde0407c52"
 metafile = true
 
 [[files]]
-file = "mods/i-dont-want-portal-yet.pw.toml"
+file = "packwiz-meta/mods/i-dont-want-portal-yet.pw.toml"
 hash = "d724976e2097f8d27238a317aaaf65b321c3afdf8092d169ef99547ef106e8c6"
 metafile = true
 
 [[files]]
-file = "mods/immersive-weathering.pw.toml"
+file = "packwiz-meta/mods/immersive-weathering.pw.toml"
 hash = "262d6099f734e3168d08df48db74c286b31ed5475499de7f731267d838194d21"
 metafile = true
 
 [[files]]
-file = "mods/in-control.pw.toml"
+file = "packwiz-meta/mods/in-control.pw.toml"
 hash = "cdfb175e7f958711db5d8f2366350ddefe57d9cc4de664dd3d16b0fb8d610b03"
 metafile = true
 
 [[files]]
-file = "mods/industrial-foregoing.pw.toml"
+file = "packwiz-meta/mods/industrial-foregoing.pw.toml"
 hash = "a727bcc4691a389c227f02525a1972becd8f291784ea42ca2ed2bc526c62b6b5"
 metafile = true
 
 [[files]]
-file = "mods/insanelib.pw.toml"
+file = "packwiz-meta/mods/insanelib.pw.toml"
 hash = "531c2aca51f6a75fe94a5f9450413ddc92b111348d4b06d7b42e573c68a77049"
 metafile = true
 
 [[files]]
-file = "mods/jade.pw.toml"
+file = "packwiz-meta/mods/jade.pw.toml"
 hash = "a99e41a1f730b1f2852759819510f056839cdae122b049d458b44e9da6d98b43"
 metafile = true
 
 [[files]]
-file = "mods/jei-integration.pw.toml"
+file = "packwiz-meta/mods/jei-integration.pw.toml"
 hash = "5d5634317a7be7e28816905459da8a78869f724735d09a525c9e7f851cccb3ae"
 metafile = true
 
 [[files]]
-file = "mods/jei.pw.toml"
+file = "packwiz-meta/mods/jei.pw.toml"
 hash = "4a8761c4254cfbdf3e79e3a4e222e63434f2cd55caea8131af7011c4450da46f"
 metafile = true
 
 [[files]]
-file = "mods/journeymap.pw.toml"
+file = "packwiz-meta/mods/journeymap.pw.toml"
 hash = "1fc3192a1ee0007f91f63f884aef562f137fad377083b7f8528ef496d8468469"
 metafile = true
 
 [[files]]
-file = "mods/just-enough-resources-jer.pw.toml"
+file = "packwiz-meta/mods/just-enough-resources-jer.pw.toml"
 hash = "970fa94907c8db8aadcffa114bf5b38f7f4bb88d773f3a4a494972a14a43ec4b"
 metafile = true
 
 [[files]]
-file = "mods/kotlin-for-forge.pw.toml"
+file = "packwiz-meta/mods/kotlin-for-forge.pw.toml"
 hash = "f4c4031690517134d1334ad4fc4700dca18d3bd901bf1ebf6edfdb8cf3387549"
 metafile = true
 
 [[files]]
-file = "mods/kubejs-additions.pw.toml"
+file = "packwiz-meta/mods/kubejs-additions.pw.toml"
 hash = "19ff16ed076f30758981a66ef9f3a61a89c965ef9ec337729cc95931144e3e40"
 metafile = true
 
 [[files]]
-file = "mods/kubejs-create.pw.toml"
+file = "packwiz-meta/mods/kubejs-create.pw.toml"
 hash = "af8ccd16ab2e87032a68a30cbcf6c684414e1cc1295e62bb7fffca29e0f1ed46"
 metafile = true
 
 [[files]]
-file = "mods/kubejs-industrial-foregoing.pw.toml"
+file = "packwiz-meta/mods/kubejs-industrial-foregoing.pw.toml"
 hash = "330b4a57cdef0b41d59da0f5dfc605dc8221fa4c7db94d361caa19335d971160"
 metafile = true
 
 [[files]]
-file = "mods/kubejs-thermal.pw.toml"
+file = "packwiz-meta/mods/kubejs-thermal.pw.toml"
 hash = "496fbc0c665fbd530f0aa87c9348d708fc9e772e847cfb4ad77b8f37ca633562"
 metafile = true
 
 [[files]]
-file = "mods/kubejs.pw.toml"
+file = "packwiz-meta/mods/kubejs.pw.toml"
 hash = "fdbd4671e4603cbbb0aad97dab3eda4645e16e180e639f16de850c477e178bf1"
 metafile = true
 
 [[files]]
-file = "mods/libipn.pw.toml"
+file = "packwiz-meta/mods/libipn.pw.toml"
 hash = "69f1a84164ee34327f28fd62154aedb7b949044d6176f646cb1e13e0551b7380"
 metafile = true
 
 [[files]]
-file = "mods/lighty.pw.toml"
+file = "packwiz-meta/mods/lighty.pw.toml"
 hash = "d0975326dedcf86692d0ca296872a56cfaed03f1700b967ed58cb907e93f1c1a"
 metafile = true
 
 [[files]]
-file = "mods/lmft.pw.toml"
+file = "packwiz-meta/mods/lmft.pw.toml"
 hash = "d1180bf590d98320c428a7747d9e3043adc5c961efa4f0efdcfd447c65bf82a9"
 metafile = true
 
 [[files]]
-file = "mods/mantle.pw.toml"
+file = "packwiz-meta/mods/mantle.pw.toml"
 hash = "c834a467861a503b6bacddc9a8f2b76967e086a7d615966bf5c96310aa1f0c37"
 metafile = true
 
 [[files]]
-file = "mods/mcjtylib.pw.toml"
+file = "packwiz-meta/mods/mcjtylib.pw.toml"
 hash = "d4eb481b367ecee61d5545d91f5a9fd610a15e5e247104593a9cbf0a4f31c75e"
 metafile = true
 
 [[files]]
-file = "mods/mekanism-additions.pw.toml"
+file = "packwiz-meta/mods/mekanism-additions.pw.toml"
 hash = "af042e6951f49bfbd34e2af29220b8a023318e1bf18c56a15917031548b263c5"
 metafile = true
 
 [[files]]
-file = "mods/mekanism.pw.toml"
+file = "packwiz-meta/mods/mekanism.pw.toml"
 hash = "4543c1707550bcbb983e543882db8eb325d5cd4081e69e8a75fed5c5849afb81"
 metafile = true
 
 [[files]]
-file = "mods/mmmmmmmmmmmm.pw.toml"
+file = "packwiz-meta/mods/mmmmmmmmmmmm.pw.toml"
 hash = "c279c02f95902a37ac74abca76cba9ec10e1bf1c9ac0e9cacdd0b69d324e9ce6"
 metafile = true
 
 [[files]]
-file = "mods/mob-grinding-utils.pw.toml"
+file = "packwiz-meta/mods/mob-grinding-utils.pw.toml"
 hash = "367aea7da9eb76870e5eaf6451208edefb2e5a7ff0dd38eaa71a83fa65560965"
 metafile = true
 
 [[files]]
-file = "mods/modernfix.pw.toml"
+file = "packwiz-meta/mods/modernfix.pw.toml"
 hash = "db4119d838464d1ff5327ab6b16e9b9546972606f2494b1ac324fb956e07a587"
 metafile = true
 
 [[files]]
-file = "mods/moonlight.pw.toml"
+file = "packwiz-meta/mods/moonlight.pw.toml"
 hash = "6cc91c4c0df10a93e31e4e1f47b83b9820cfdb1e52c465e9b44ae48fa199a1ed"
 metafile = true
 
 [[files]]
-file = "mods/mouse-tweaks.pw.toml"
+file = "packwiz-meta/mods/mouse-tweaks.pw.toml"
 hash = "919300e0236bdad52e6951ab20a6d2b529af3614d9ccfe491c2b44dfe39f6daf"
 metafile = true
 
 [[files]]
-file = "mods/mrcrayfish-furniture-mod.pw.toml"
+file = "packwiz-meta/mods/mrcrayfish-furniture-mod.pw.toml"
 hash = "beb15206a338770f6aded14535424873778711dff7665d9178bee5f999334136"
 metafile = true
 
 [[files]]
-file = "mods/mrcrayfishs-gun-mod-unofficial.pw.toml"
+file = "packwiz-meta/mods/mrcrayfishs-gun-mod-unofficial.pw.toml"
 hash = "a830ccd3684468a816200c7c609efbee9fe90e188817deb9aa798a1bea3b95b8"
 metafile = true
 
 [[files]]
-file = "mods/nosiphus-furniture-mod.pw.toml"
+file = "packwiz-meta/mods/nosiphus-furniture-mod.pw.toml"
 hash = "0ef106de87ffc6bae2618ff61684530a42330e1d09813ef65b572440a0adf8fa"
 metafile = true
 
 [[files]]
-file = "mods/oculus.pw.toml"
+file = "packwiz-meta/mods/oculus.pw.toml"
 hash = "ea0949d24e6f1861d818def09246e20302a2ac2fa6038aa2089eea3567588956"
 metafile = true
 
 [[files]]
-file = "mods/odyssey-claims.pw.toml"
+file = "packwiz-meta/mods/odyssey-claims.pw.toml"
 hash = "c6ae733de352a80f622433678782e12c6f2b9580c0bae35af001b2745759cbcf"
 metafile = true
 
 [[files]]
-file = "mods/open-loader.pw.toml"
+file = "packwiz-meta/mods/open-loader.pw.toml"
 hash = "0298b97dd8d7c3d87646f7e9b68ce9679f50cc58419448e6761fc78668cc1689"
 metafile = true
 
 [[files]]
-file = "mods/pams-harvestcraft-2-crops.pw.toml"
+file = "packwiz-meta/mods/pams-harvestcraft-2-crops.pw.toml"
 hash = "3b27c6d0e7bb14d2c96b86793b851b4a2a7e4a9df973a8135f0992f875d9685d"
 metafile = true
 
 [[files]]
-file = "mods/pams-harvestcraft-2-food-core.pw.toml"
+file = "packwiz-meta/mods/pams-harvestcraft-2-food-core.pw.toml"
 hash = "8f7ae9854eed6870f602fe70efeb887261e9d2903af1e09bcf8ed02c63d359de"
 metafile = true
 
 [[files]]
-file = "mods/pams-harvestcraft-2-food-extended.pw.toml"
+file = "packwiz-meta/mods/pams-harvestcraft-2-food-extended.pw.toml"
 hash = "2f1e01cd17cbc8109a9b22bcd0634e781d8fbc3d1d23c0fd25a67668a12e6d69"
 metafile = true
 
 [[files]]
-file = "mods/pams-harvestcraft-2-trees.pw.toml"
+file = "packwiz-meta/mods/pams-harvestcraft-2-trees.pw.toml"
 hash = "66f31b60184130d6e3090d5249573edc36de7169a78117079130b15d3daf2c13"
 metafile = true
 
 [[files]]
-file = "mods/patchouli.pw.toml"
+file = "packwiz-meta/mods/patchouli.pw.toml"
 hash = "c4a0a7ae55e19d724c0df33fd790d913408250436ce6dfa9512a65854e4bc5ba"
 metafile = true
 
 [[files]]
-file = "mods/pehkui.pw.toml"
+file = "packwiz-meta/mods/pehkui.pw.toml"
 hash = "bad2c32397ed542f661665505ca20361faa2c93251784c6414feb1a17ad2584b"
 metafile = true
 
 [[files]]
-file = "mods/phosphophyllite.pw.toml"
+file = "packwiz-meta/mods/phosphophyllite.pw.toml"
 hash = "b97dd25b71d5903daef228cf4d06d2e5c3ab97e83232557efb6d28c04fdd2996"
 metafile = true
 
 [[files]]
-file = "mods/piglins-guard-everything.pw.toml"
+file = "packwiz-meta/mods/piglins-guard-everything.pw.toml"
 hash = "d27a35b7e27c7868c72b26a15b4ffa8e560aa840305dbaf8099d5cea141dc1f3"
 metafile = true
 
 [[files]]
-file = "mods/placebo.pw.toml"
+file = "packwiz-meta/mods/placebo.pw.toml"
 hash = "8255bd191948b32fdf1c50de0c5ad7f9b7011a92a68933da45e827809d1f5b04"
 metafile = true
 
 [[files]]
-file = "mods/pneumaticcraft-repressurized.pw.toml"
+file = "packwiz-meta/mods/pneumaticcraft-repressurized.pw.toml"
 hash = "5cc41edd8bdc7fa142ab6958e3a1dbd9bddf1071d6179bec1c8533d490cfc6ad"
 metafile = true
 
 [[files]]
-file = "mods/polylib.pw.toml"
+file = "packwiz-meta/mods/polylib.pw.toml"
 hash = "9d87b2cfc09b741db58f768b91c52aab3281a5e4d520a2952c2b19d577fe7896"
 metafile = true
 
 [[files]]
-file = "mods/polymorph.pw.toml"
+file = "packwiz-meta/mods/polymorph.pw.toml"
 hash = "023f0cd179b71b56daca1119029550d88b7e920bb29c017d4f499bbfe9c4d411"
 metafile = true
 
 [[files]]
-file = "mods/powerfuljs.pw.toml"
+file = "packwiz-meta/mods/powerfuljs.pw.toml"
 hash = "dd0be6f47f51d0d66fab54aa51b30ea636c245677643ea2899f508844d0075a7"
 metafile = true
 
 [[files]]
-file = "mods/puzzles-lib.pw.toml"
+file = "packwiz-meta/mods/puzzles-lib.pw.toml"
 hash = "107710408b137491dd615e9a8c3617fadf82631d1c25dd8aec781303aeed6b0d"
 metafile = true
 
 [[files]]
-file = "mods/quark.pw.toml"
+file = "packwiz-meta/mods/quark.pw.toml"
 hash = "9fcbfd3f81690b6990478d1029bec6a23a4ba0f3e6440f5620d17e6ac2554738"
 metafile = true
 
 [[files]]
-file = "mods/quartz.pw.toml"
+file = "packwiz-meta/mods/quartz.pw.toml"
 hash = "557854695cb4385e4cd8baaf6f4b4ef8f2cf929995f5992cb83455eb49dbb77d"
 metafile = true
 
 [[files]]
-file = "mods/rechiseled-chipped.pw.toml"
+file = "packwiz-meta/mods/rechiseled-chipped.pw.toml"
 hash = "5ca2afec835e8b92d0f9e2c9da50c510ca6a4aa7f0b9c61a9d2a4ec2e059313d"
 metafile = true
 
 [[files]]
-file = "mods/rechiseled-create.pw.toml"
+file = "packwiz-meta/mods/rechiseled-create.pw.toml"
 hash = "d17349c51ce18d658ca608efccb193d69a27ce79683835571041683bfe271ac8"
 metafile = true
 
 [[files]]
-file = "mods/rechiseled.pw.toml"
+file = "packwiz-meta/mods/rechiseled.pw.toml"
 hash = "9d4dd0378dd4142de56758954b15e0c340cd1fe940da8ca1eec1e93569c18b5d"
 metafile = true
 
 [[files]]
-file = "mods/refurbished-furniture.pw.toml"
+file = "packwiz-meta/mods/refurbished-furniture.pw.toml"
 hash = "d73a12995c84ff0680f7484f7e920d2feb716d948383f521d59adc1c09ddedfe"
 metafile = true
 
 [[files]]
-file = "mods/resourceful-config.pw.toml"
+file = "packwiz-meta/mods/resourceful-config.pw.toml"
 hash = "f6b61c9b98c8fa509ea4535e50f54c8702d12f47a8a1084fd32ce0264022d818"
 metafile = true
 
 [[files]]
-file = "mods/resourceful-lib.pw.toml"
+file = "packwiz-meta/mods/resourceful-lib.pw.toml"
 hash = "8d9cfd22181ae67b178a4ce2e29c05262170fbfba46435dbfb090e73856e0c88"
 metafile = true
 
 [[files]]
-file = "mods/rhino.pw.toml"
+file = "packwiz-meta/mods/rhino.pw.toml"
 hash = "41ecc1c60a8084cc3bdfffbd5cb598ab41294570731eb3697cf63c0a8e4f7c2f"
 metafile = true
 
 [[files]]
-file = "mods/satin-api.pw.toml"
+file = "packwiz-meta/mods/satin-api.pw.toml"
 hash = "62b1365a5252bbe60e6305e9342693daa69cfa818c8eb7b95d6495110ac7c147"
 metafile = true
 
 [[files]]
-file = "mods/searchables.pw.toml"
+file = "packwiz-meta/mods/searchables.pw.toml"
 hash = "b453964c97825e80e139bcbac6c61f6b2bbddd1a2a898b807499e12b55e19c98"
 metafile = true
 
 [[files]]
-file = "mods/simply-jetpacks-2.pw.toml"
+file = "packwiz-meta/mods/simply-jetpacks-2.pw.toml"
 hash = "2e1eebeedf05249755d1b7ad5ac04dc808dac168cca6627a061b72fc8c177ece"
 metafile = true
 
 [[files]]
-file = "mods/simply-light.pw.toml"
+file = "packwiz-meta/mods/simply-light.pw.toml"
 hash = "130f5b9bef1a7286de63a8b7c6e567c4260d3bcb663ec551563e1b8cfb02ff8b"
 metafile = true
 
 [[files]]
-file = "mods/sinytra-connector-extras-with-vs2-support-rea.pw.toml"
+file = "packwiz-meta/mods/sinytra-connector-extras-with-vs2-support-rea.pw.toml"
 hash = "7b91c4469d12319051ac24a13cd0df04e9953ba6abbcdc0f66066efbccd2414a"
 metafile = true
 
 [[files]]
-file = "mods/sophisticated-backpacks.pw.toml"
+file = "packwiz-meta/mods/sophisticated-backpacks.pw.toml"
 hash = "72c602dea029aec93b23b34901d40658eecf642ebef1b1813fbef7c7a946c793"
 metafile = true
 
 [[files]]
-file = "mods/sophisticated-core.pw.toml"
+file = "packwiz-meta/mods/sophisticated-core.pw.toml"
 hash = "bc4010e3a43045ce91e1f4781139c3134e2f59d81a632a4d1c987f59c7c082a5"
 metafile = true
 
 [[files]]
-file = "mods/sophisticated-storage.pw.toml"
+file = "packwiz-meta/mods/sophisticated-storage.pw.toml"
 hash = "0caaf7e6cec3bb6706d803580eec3c087967131ebe96592eeecb9d9753d1ac4a"
 metafile = true
 
 [[files]]
-file = "mods/special-mobs.pw.toml"
+file = "packwiz-meta/mods/special-mobs.pw.toml"
 hash = "282d6fa1c117c11acb80422272f4ce4b3c97af1bc2e3b292726b14dd90402218"
 metafile = true
 
 [[files]]
-file = "mods/spice-of-overhaul.pw.toml"
+file = "packwiz-meta/mods/spice-of-overhaul.pw.toml"
 hash = "a847e36d5af8f386f76bded71534797276ba79d163c48a09c2146cafad32d723"
 metafile = true
 
 [[files]]
-file = "mods/stackables.pw.toml"
+file = "packwiz-meta/mods/stackables.pw.toml"
 hash = "acb96c653f76617783c0f4f5b1057959fa4fa78c66bb109013d45c21776171c3"
 metafile = true
 
 [[files]]
-file = "mods/starter-structure.pw.toml"
+file = "packwiz-meta/mods/starter-structure.pw.toml"
 hash = "f5ce6c9ea662052b9f9da4ce731d024af117b8c80e2f8c0f426e8420fcedefa4"
 metafile = true
 
 [[files]]
-file = "mods/supermartijn642s-config-lib.pw.toml"
+file = "packwiz-meta/mods/supermartijn642s-config-lib.pw.toml"
 hash = "14207a14f69c0cea98261a02217263050764b27769767b687d570d0f61afe522"
 metafile = true
 
 [[files]]
-file = "mods/supermartijn642s-core-lib.pw.toml"
+file = "packwiz-meta/mods/supermartijn642s-core-lib.pw.toml"
 hash = "49ed08e5f44d76e2ed428d631838e60476b2a3a00ac91e4aeb6b9b1585ee53f1"
 metafile = true
 
 [[files]]
-file = "mods/survive.pw.toml"
+file = "packwiz-meta/mods/survive.pw.toml"
 hash = "ec01aa087c659854f203d69252d983c5402c667cdb15b18a0808ca9d7731af39"
 metafile = true
 
 [[files]]
-file = "mods/sync-fabric-rereported.pw.toml"
-hash = "8af912460c9471f8b2d783bb1a85a9a12f5323ee038240c3ccd0c694311a7add"
+file = "packwiz-meta/mods/sync-fabric-rereported.pw.toml"
+hash = "502b64b91149f9b97ca7ffa98ba38834aac9463caad84b42f4866ede1fac787c"
 metafile = true
 
 [[files]]
-file = "mods/sync-mc1.20.1-5.2.jar"
-hash = "8010f4d3ecf81218caad0474bbb90760b572119cb866483ce30707dcc5871785"
-
-[[files]]
-file = "mods/tag-tooltips.pw.toml"
+file = "packwiz-meta/mods/tag-tooltips.pw.toml"
 hash = "3f5381612611d1813b2bd5d182124cc5c492b4c02c34d2244e11ff111d1c9056"
 metafile = true
 
 [[files]]
-file = "mods/the-lost-cities.pw.toml"
+file = "packwiz-meta/mods/the-lost-cities.pw.toml"
 hash = "4392b52afaa874a7af386dd02c68d622760a5fb526ef7d360bbd6978aa1e6090"
 metafile = true
 
 [[files]]
-file = "mods/thermal-dynamics.pw.toml"
+file = "packwiz-meta/mods/thermal-dynamics.pw.toml"
 hash = "f04522329f9dc4f534274dfadc36ac43b83717756bd3e22993e2b1f1fbe84917"
 metafile = true
 
 [[files]]
-file = "mods/thermal-expansion.pw.toml"
+file = "packwiz-meta/mods/thermal-expansion.pw.toml"
 hash = "ffa83320ff1d9554d599e11af3d3561999ae33421b7216b811b0ba08313ccdb4"
 metafile = true
 
 [[files]]
-file = "mods/thermal-foundation.pw.toml"
+file = "packwiz-meta/mods/thermal-foundation.pw.toml"
 hash = "54bad387768ddf110b98efc74a504a57e3a20f8faa787e27160d2ade6fb84ee3"
 metafile = true
 
 [[files]]
-file = "mods/thermal-innovation.pw.toml"
+file = "packwiz-meta/mods/thermal-innovation.pw.toml"
 hash = "0f9598819559f0cc4bdd6afd2dfd4abbb07cdcc57ba1664a48c0e5976589f7a2"
 metafile = true
 
 [[files]]
-file = "mods/thermal-integration.pw.toml"
+file = "packwiz-meta/mods/thermal-integration.pw.toml"
 hash = "f4f04cf15535584c5ea768d35788fb60634a53b2b1ec3fbfdc02d9c40c477d67"
 metafile = true
 
 [[files]]
-file = "mods/time-control.pw.toml"
+file = "packwiz-meta/mods/time-control.pw.toml"
 hash = "8e963adbece62139ebb76a69449a89f578af23f6ada5b8efe2f324ec1de90d00"
 metafile = true
 
 [[files]]
-file = "mods/tinkers-construct.pw.toml"
+file = "packwiz-meta/mods/tinkers-construct.pw.toml"
 hash = "41478716a330cc1d208e33aaadc3f4ddf136b9835b7bbd6d414cf0f7a8670747"
 metafile = true
 
 [[files]]
-file = "mods/tinkers-tool-leveling-2.pw.toml"
+file = "packwiz-meta/mods/tinkers-tool-leveling-2.pw.toml"
 hash = "d77111734a3c1998fda32a317efe17a8fb37f114fe48dee4379d53508bc4c138"
 metafile = true
 
 [[files]]
-file = "mods/titanium.pw.toml"
+file = "packwiz-meta/mods/titanium.pw.toml"
 hash = "b4039f2d87c450eda39899c9a8b1bd588b2019cf6e98dd3c6c9d008b3e610067"
 metafile = true
 
 [[files]]
-file = "mods/torchmaster.pw.toml"
+file = "packwiz-meta/mods/torchmaster.pw.toml"
 hash = "fef2c31cf8765b9ed1b90adf8abeb0a71fd7f83d25a65d63573f5b882c6b9b0f"
 metafile = true
 
 [[files]]
-file = "mods/unionlib.pw.toml"
+file = "packwiz-meta/mods/unionlib.pw.toml"
 hash = "f3978377885ff6ba7aef4a8267fef061b2496d109838f9e9e7551d344c3951f8"
 metafile = true
 
 [[files]]
-file = "mods/worldedit.pw.toml"
+file = "packwiz-meta/mods/worldedit.pw.toml"
 hash = "60d3e204f35d248d8f31abdc958ded8818b73ee21bed4ab694623428965acd6f"
 metafile = true
 
 [[files]]
-file = "mods/zeta.pw.toml"
+file = "packwiz-meta/mods/zeta.pw.toml"
 hash = "bb5c9b53811d31e76620074a122e4401f2fe4993f51be196e3c8da00b150179c"
 metafile = true
 
 [[files]]
-file = "mods/zombie-awareness.pw.toml"
+file = "packwiz-meta/mods/zombie-awareness.pw.toml"
 hash = "d928da6e7fc474a705ea05d5a1beaf5bd93235e5d1dbebfb00e050f4d684e6b8"
+metafile = true
+
+[[files]]
+file = "packwiz-meta/resourcepacks/mob-grinding-utils-vanillafied.pw.toml"
+hash = "74d4ddd538575f5ddb0401d2c33ef71178372e8087802eec72c4e048a5b18613"
+metafile = true
+
+[[files]]
+file = "packwiz-meta/shaderpacks/complementary-reimagined.pw.toml"
+hash = "2fef9da2480d761a89972b2b82f3154d357b97d547284bd84162f6cc4fbb759c"
+metafile = true
+
+[[files]]
+file = "packwiz-meta/shaderpacks/complementary-unbound.pw.toml"
+hash = "96657ed5f8448d1c6e216425e5d7d16003c80ac390803767473748dcb6e581c2"
 metafile = true
 
 [[files]]
@@ -12327,20 +12333,5 @@ file = "profileImage/Capa CL2.png"
 hash = "d78bd80d3382aa6fab7edb2beceef725210717fbd9d7f53aa007d70b9f3c15ec"
 
 [[files]]
-file = "resourcepacks/mob-grinding-utils-vanillafied.pw.toml"
-hash = "74d4ddd538575f5ddb0401d2c33ef71178372e8087802eec72c4e048a5b18613"
-metafile = true
-
-[[files]]
 file = "shaderpacks/ComplementaryUnbound_r5.3.zip.txt"
 hash = "3073a22dcaf05d14733abe00dfb1344fb88fccc17a74b18df8c90918b0f1a142"
-
-[[files]]
-file = "shaderpacks/complementary-reimagined.pw.toml"
-hash = "2fef9da2480d761a89972b2b82f3154d357b97d547284bd84162f6cc4fbb759c"
-metafile = true
-
-[[files]]
-file = "shaderpacks/complementary-unbound.pw.toml"
-hash = "96657ed5f8448d1c6e216425e5d7d16003c80ac390803767473748dcb6e581c2"
-metafile = true

@@ -20,7 +20,7 @@
 /local
 /logs
 /modernfix
-/modernfix/.connector
+/mods/.connector
 /screenshots
 config/fabric/indigo-renderer.properties
 config/modernfix-mixins.properties
