@@ -3,11 +3,11 @@ filename = "guideme-20.1.11.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "174f15f296fe4d1f74d618ca83b64fd9d9a215f7"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/Ck4E7v7R/versions/mfDRKud3/guideme-20.1.11.jar"
+hash-format = "sha512"
+hash = "614c00ebaa8ce6430f3bcd91ad3256cd9443af9c7ca7dc9784a901ab110b71c7e31375e51836f3551445dd42d1494160b0c57b03170cd9f964bf10255c8307b5"
 
 [update]
-[update.curseforge]
-file-id = 6679102
-project-id = 1173950
+[update.modrinth]
+mod-id = "Ck4E7v7R"
+version = "mfDRKud3"

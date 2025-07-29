@@ -1,6 +1,7 @@
 name = "UnionLib"
 filename = "UnionLib-1.20.1-10.2.7-Forge.jar"
 side = "both"
+pin = true
 
 [download]
 url = "https://cdn.modrinth.com/data/EkkPwdCY/versions/x5FjXoS2/UnionLib-1.20.1-10.2.7-Forge.jar"

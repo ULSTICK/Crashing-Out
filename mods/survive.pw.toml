@@ -1,6 +1,7 @@
 name = "Survive"
 filename = "Survive-1.20.1-9.0.6.jar"
 side = "both"
+pin = true
 
 [download]
 url = "https://cdn.modrinth.com/data/vg4qcCBb/versions/i9u0IW8x/Survive-1.20.1-9.0.6.jar"
