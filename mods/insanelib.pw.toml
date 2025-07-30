@@ -1,6 +1,6 @@
 name = "InsaneLib"
 filename = "insanelib-1.21.1.jar"
-side = "server"
+side = "both"
 pin = true
 
 [download]

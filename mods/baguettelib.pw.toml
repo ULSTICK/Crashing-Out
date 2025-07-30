@@ -1,6 +1,6 @@
 name = "BaguetteLib"
 filename = "baguettelib-1.20.1-Forge-1.0.0.jar"
-side = "server"
+side = "both"
 
 [download]
 url = "https://cdn.modrinth.com/data/OfKzpbRU/versions/OLS1YT3J/baguettelib-1.20.1-Forge-1.0.0.jar"

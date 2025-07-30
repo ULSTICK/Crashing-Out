@@ -11530,7 +11530,7 @@ metafile = true
 
 [[files]]
 file = "mods/almost-unified.pw.toml"
-hash = "57c0f350262f81f6768226f833a7bc3d6d9d6342c4e2c77a0f477043483c42b9"
+hash = "e860a4d8ccff8c2b14487c96627c8e34743db1f9854216fb8c87f525f50bcb5b"
 metafile = true
 
 [[files]]
@@ -11560,7 +11560,7 @@ metafile = true
 
 [[files]]
 file = "mods/baguettelib.pw.toml"
-hash = "4db5860026e59a5179afe8caa24d09787b807091e53a46e5e6c0437e67c5c43e"
+hash = "2fcb82423dd16ee2f8f6e427f90eec03d1ed5da8339dbca394fb8147ae6d1cf9"
 metafile = true
 
 [[files]]
@@ -11600,7 +11600,7 @@ metafile = true
 
 [[files]]
 file = "mods/chipped-express.pw.toml"
-hash = "31c26d388abc0817c7865a8c4d747cb5b5d2f72f88dfad66535b3530f7299531"
+hash = "ad8784d34b2b0b2115e96186a0b052553defa7bbf1b4a188cf3dc843227d4124"
 metafile = true
 
 [[files]]
@@ -11670,7 +11670,7 @@ metafile = true
 
 [[files]]
 file = "mods/corpse-x-curios-api-compat.pw.toml"
-hash = "7490aa7761100edfb3c60cfe2aaac28af1c8edb1beb6aadbdfdb88cc47d02510"
+hash = "5b2474ff2b8d827aa0b41c9ea8ee41e8cdeefcb25e90bc25e7cfed8185f8a32c"
 metafile = true
 
 [[files]]
@@ -11825,7 +11825,7 @@ metafile = true
 
 [[files]]
 file = "mods/global-gamerules.pw.toml"
-hash = "e9a98d3833dfc94c66fab2fee62befc53b72dfe6962b78122eadd372be88dbbe"
+hash = "69da9bc9005cb503187c41a5da48ebabe0cd0e9dfe8066da1a49fe0d9b245310"
 metafile = true
 
 [[files]]
@@ -11845,7 +11845,7 @@ metafile = true
 
 [[files]]
 file = "mods/i-dont-want-portal-yet.pw.toml"
-hash = "f85cf93250f2ff7e387d074a9af88c250a4ac326baaae4e78b383213bb3c8bc9"
+hash = "0afe32bdf65457d51e84a44f48088d94d0f1d88df84b7b3850b3945512e07f73"
 metafile = true
 
 [[files]]
@@ -11855,7 +11855,7 @@ metafile = true
 
 [[files]]
 file = "mods/in-control.pw.toml"
-hash = "239b4042820f3c77f2750690bac6a1ac09638f6fa6b47f3b486436e96deeb0e0"
+hash = "ba5756a966688ff9ffddaada14c153c89007e248774072245693a2ae84285bdb"
 metafile = true
 
 [[files]]
@@ -11865,7 +11865,7 @@ metafile = true
 
 [[files]]
 file = "mods/insanelib.pw.toml"
-hash = "547c726922a583c403efb80745f0a3584dc8df4f0c6af6d06feb86b00dba1229"
+hash = "039789b581efa089ddc8be9b9eae06f92ab6e008417cc129b78ee180c519dd5b"
 metafile = true
 
 [[files]]
@@ -11935,17 +11935,12 @@ metafile = true
 
 [[files]]
 file = "mods/lmft.pw.toml"
-hash = "ccb79452729ccb62e2a3afa88b80e834411ac1e9ed4712cbd27be6ba98d4ff79"
+hash = "dbd137b861d4c78ca28a1a95a7df72b6f3f0d9cd13a31ae6eed0986094a7924b"
 metafile = true
 
 [[files]]
 file = "mods/mantle.pw.toml"
 hash = "adb67ada5c165ea4a43f4c3e53ffd61c90e21292596b5609d97e938f6e8e7b16"
-metafile = true
-
-[[files]]
-file = "mods/mcjtylib.pw.toml"
-hash = "d4eb481b367ecee61d5545d91f5a9fd610a15e5e247104593a9cbf0a4f31c75e"
 metafile = true
 
 [[files]]
@@ -12005,7 +12000,7 @@ metafile = true
 
 [[files]]
 file = "mods/odyssey-claims.pw.toml"
-hash = "42fa64d62e256c8819afa512eba031ba149f372d8f5e40d6ccff11343635aa65"
+hash = "ddadb45a3bef8d0dee0cb27d8d7a818b58376963488fdef17990da32985cbfdb"
 metafile = true
 
 [[files]]
@@ -12180,12 +12175,12 @@ metafile = true
 
 [[files]]
 file = "mods/stackables.pw.toml"
-hash = "acb96c653f76617783c0f4f5b1057959fa4fa78c66bb109013d45c21776171c3"
+hash = "6300c2bcafa8d7256d099d03a00fffbce03fd76dfc535b3df05365fdc371c14d"
 metafile = true
 
 [[files]]
 file = "mods/starter-structure.pw.toml"
-hash = "771852e425c068cbfa41d46426c9b72bbea64199109413aa1b0e8c514e57be94"
+hash = "421e89f6cf242f400979ab161e9995905a0ea3865a971d58870383a15939b3c3"
 metafile = true
 
 [[files]]
@@ -12215,7 +12210,7 @@ metafile = true
 
 [[files]]
 file = "mods/the-lost-cities.pw.toml"
-hash = "2f7df2b988c5a2d6ed0b35e362a6fd91e4fdd47cc09bc0e56c835b36ed0b510d"
+hash = "d69ee1012d94ad51cb4a50d538452e87b369e3a18f273645899e9aa51e37d762"
 metafile = true
 
 [[files]]
