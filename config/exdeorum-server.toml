@@ -22,7 +22,7 @@
 	#Whether Witch Water forms dirt when water flows into it, allowing for a dirt version of a cobblestone generator.
 	witch_water_dirt_generator = false
 	#Whether Witch Water forms netherrack when lava flows into it, allowing for a netherrack version of a cobblestone generator.
-	witch_water_netherrack_generator = true
+	witch_water_netherrack_generator = false
 	#The ID of the default tree feature to use when generating a spawn island (or when useBiomeAppropriateTree is true and the biome has no tree set). By default, minecraft:oak_tree_bees_005 is used.
 	default_spawn_tree_feature = "minecraft:oak_tree_bees_005"
 	#Whether the Spawn Tree in the void world changes based on the biome it's in. If false, Oak Tree is always used.

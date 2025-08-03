@@ -282,7 +282,7 @@
       "x": 158,
       "y": 102,
       "icon": {
-        "id": "exdeorum:unfired_porcelain_crucible",
+        "id": "exdeorum:porcelain_crucible",
         "Count": 1
       },
       "trigger": "ANTI_TRIGGER",
@@ -296,7 +296,7 @@
           "items": [
             {
               "item": {
-                "id": "exdeorum:unfired_porcelain_crucible",
+                "id": "exdeorum:porcelain_crucible",
                 "Count": 1
               }
             }
@@ -842,7 +842,7 @@
         "isTranslationKey": false
       },
       "description": {
-        "text": "This world doesn\u0027t have any lava lakes or dragons, so you\u0027ll have to get some materials in other ways. A barrel full of lava can be turned into netherrack or endstone using redstone or glowstone respectively.",
+        "text": "This world doesn\u0027t have any lava lakes or dragons, so you\u0027ll have to get some materials in other ways. A barrel full of lava can be turned into netherrack or end stone using redstone or glowstone respectively.",
         "isTranslationKey": false
       },
       "x": 94,
@@ -856,7 +856,7 @@
         {
           "type": "hardcorequesting:detect",
           "longDescription": {
-            "text": "Place a barrel down, fill it with lava, and click it with redstone or glowstone. Make sure to use a stone barrel, or you risk spreading lava everywhere.",
+            "text": "Place a barrel down, fill it with lava, and click it with redstone or glowstone. Make sure to use a stone barrel, or you risk spreading lava everywhere. When you get access to advanced melting, you can make netherrack and end stone with an extruder and some liquid redstone or ender pearls.",
             "isTranslationKey": false
           },
           "items": [

@@ -47,7 +47,9 @@ ServerEvents.recipes(event => {
   extrude('minecraft:blackstone', 'minecraft:blue_ice', false);
   extrude('minecraft:cobbled_deepslate', 'minecraft:packed_ice', false);
   extrude('minecraft:deepslate', 'minecraft:packed_ice', false, 'minecraft:magma_block');
-  extrude('minecraft:netherrack', 'exdeorum:witch_water', true);
+  //extrude('minecraft:netherrack', 'exdeorum:witch_water', true);
+  extrude('minecraft:netherrack', 'thermal:redstone', true);
+  extrude('minecraft:end_stone', 'thermal:ender', true);
   extrude('create:limestone', 'create:honey', true);
   extrude('create:scoria', 'create:chocolate', true);
 });

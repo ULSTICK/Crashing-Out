@@ -3,6 +3,7 @@
 /.example_data
 /.vscode
 /cosmetics
+/config/cubes_without_borders.json
 /config/fabric
 /config/inventoryprofilesnext
 /config/jei
