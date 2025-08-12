@@ -36,6 +36,27 @@ supportercache.json
 usercache.json
 usernamecache.json
 
+# Packwiz ignores
+/mods
+/resourcepacks
+/shaderpacks
+
+/packwiz-curseforge/config
+/packwiz-curseforge/defaultconfigs
+/packwiz-curseforge/kubejs
+/packwiz-curseforge/saves
+
+/packwiz-modrinth/config
+/packwiz-modrinth/defaultconfigs
+/packwiz-modrinth/kubejs
+/packwiz-modrinth/saves
+
+/packwiz-server/config
+/packwiz-server/defaultconfigs
+/packwiz-server/kubejs
+/packwiz-server/libraries
+/packwiz-server/mods
+
 # Ignore all save folders
 /saves/*
 # Except don't ignore the default world
