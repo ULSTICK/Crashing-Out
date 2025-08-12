@@ -40,6 +40,9 @@ usernamecache.json
 /mods
 /resourcepacks
 /shaderpacks
+packwiz.json
+packwiz-installer.jar
+packwiz-installer-bootstrap.jar
 
 /packwiz-curseforge/config
 /packwiz-curseforge/defaultconfigs
