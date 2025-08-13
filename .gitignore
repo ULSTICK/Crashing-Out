@@ -44,6 +44,9 @@ packwiz.json
 packwiz-installer.jar
 packwiz-installer-bootstrap.jar
 
+packwiz-scripts/tools/forge-1.20.1-47.4.0-installer.jar
+packwiz-scripts/forge-1.20.1-47.4.0-installer.jar.log
+
 /packwiz-curseforge/config
 /packwiz-curseforge/defaultconfigs
 /packwiz-curseforge/kubejs
@@ -59,6 +62,8 @@ packwiz-installer-bootstrap.jar
 /packwiz-server/kubejs
 /packwiz-server/libraries
 /packwiz-server/mods
+/packwiz-server/resourcepacks
+/packwiz-server/shaderpacks
 
 # Ignore all save folders
 /saves/*

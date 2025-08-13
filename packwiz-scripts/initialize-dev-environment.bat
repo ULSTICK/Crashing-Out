@@ -17,7 +17,7 @@ if not exist "%BOOTSTRAP_JAR%" (
 
 rem === start packwiz serve ===
 echo Starting packwiz server
-start "packwiz-serve" /B cmd /c "cd /d "%PACK_FOLDER%" && packwiz serve -p 8080"
+start "packwiz-serve" /B cmd /c "cd /d "%PACK_FOLDER%" && packwiz serve --basic -p 8080"
 
 rem === wait until server responds ===
 echo Waiting for packwiz server to respond...
