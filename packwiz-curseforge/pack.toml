@@ -1,0 +1,16 @@
+name = "Crash Landing Remake"
+author = "MarkSDR"
+version = "1.5.0.2"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "76c043b146a2b1db497ffbb16edb45977f0408d3fbad7720df2ead5bdea5b4eb"
+
+[versions]
+forge = "47.4.0"
+minecraft = "1.20.1"
+
+[options]
+acceptable-game-versions = ["1.20", "1.20.1"]

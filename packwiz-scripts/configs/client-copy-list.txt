@@ -1,0 +1,12 @@
+# Folders
+config
+defaultconfigs
+kubejs
+
+# Save files
+saves\Original world, will reset when pack updates\icon.png
+saves\Original world, will reset when pack updates\level.dat
+saves\Original world, will reset when pack updates\region\r.0.0.mca
+saves\Original world, will reset when pack updates\region\r.0.-1.mca
+saves\Original world, will reset when pack updates\region\r.-1.0.mca
+saves\Original world, will reset when pack updates\region\r.-1.-1.mca

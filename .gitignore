@@ -1,4 +1,6 @@
 *.gz
+*.mrpack
+*.zip
 /.example_assets
 /.example_data
 /.vscode
@@ -18,6 +20,7 @@
 /local
 /logs
 /modernfix
+/mods/.connector
 /screenshots
 config/fabric/indigo-renderer.properties
 config/modernfix-mixins.properties
@@ -33,6 +36,35 @@ servers.dat_old
 supportercache.json
 usercache.json
 usernamecache.json
+
+# Packwiz ignores
+/mods
+/resourcepacks
+/shaderpacks
+packwiz.json
+packwiz-installer.jar
+packwiz-installer-bootstrap.jar
+
+packwiz-scripts/tools/forge-1.20.1-47.4.0-installer.jar
+packwiz-scripts/forge-1.20.1-47.4.0-installer.jar.log
+
+/packwiz-curseforge/config
+/packwiz-curseforge/defaultconfigs
+/packwiz-curseforge/kubejs
+/packwiz-curseforge/saves
+
+/packwiz-modrinth/config
+/packwiz-modrinth/defaultconfigs
+/packwiz-modrinth/kubejs
+/packwiz-modrinth/saves
+
+/packwiz-server/config
+/packwiz-server/defaultconfigs
+/packwiz-server/kubejs
+/packwiz-server/libraries
+/packwiz-server/mods
+/packwiz-server/resourcepacks
+/packwiz-server/shaderpacks
 
 # Ignore all save folders
 /saves/*

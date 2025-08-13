@@ -1,0 +1,13 @@
+name = "Sync Re-Re-Ported"
+filename = "sync-mc1.20.1-5.2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/qN9hcsQT/versions/iL06IWi5/sync-mc1.20.1-5.2.jar"
+hash-format = "sha512"
+hash = "1f8ccc4307e6ea92b8ac4f8f3fe0b5671fd1450b0fd4e98cfaec3f1e6906a314548ba5dec1df990c6e05aac1d660987abc688c7b70778d8becbcdfadb825c3ff"
+
+[update]
+[update.modrinth]
+mod-id = "qN9hcsQT"
+version = "iL06IWi5"

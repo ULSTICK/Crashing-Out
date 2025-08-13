@@ -1,0 +1,14 @@
+name = "InsaneLib"
+filename = "insanelib-1.21.1.jar"
+side = "both"
+pin = true
+
+[download]
+url = "https://cdn.modrinth.com/data/USZyvOJq/versions/IXvJD2gp/insanelib-1.21.1.jar"
+hash-format = "sha512"
+hash = "9541d1b8172d32e8eab860f81bb419cb28057499bfa4a60e96fdcbb583a0aaeb241cfde9ebc6d501d0633a1a77780c46a18b0a70cc6423794a1f4ddba20c22b5"
+
+[update]
+[update.modrinth]
+mod-id = "USZyvOJq"
+version = "IXvJD2gp"

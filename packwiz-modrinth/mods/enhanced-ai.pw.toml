@@ -1,0 +1,14 @@
+name = "Enhanced AI"
+filename = "enhancedai-2.6.4.jar"
+side = "both"
+pin = true
+
+[download]
+url = "https://cdn.modrinth.com/data/TDdoftI1/versions/eSQDF9jF/enhancedai-2.6.4.jar"
+hash-format = "sha512"
+hash = "a5fb099cda168e310a3ffa5064b7c796d0bfdc4cd50b20465dca6fa2f73b1c036610a6d8c1763227a71c6e6c2829cf57090d3e5d11479e9cf680c7f701eceb3f"
+
+[update]
+[update.modrinth]
+mod-id = "TDdoftI1"
+version = "eSQDF9jF"

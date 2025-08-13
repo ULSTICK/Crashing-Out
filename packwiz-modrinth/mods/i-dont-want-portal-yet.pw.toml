@@ -1,0 +1,13 @@
+name = "I don't want portal yet"
+filename = "idontwantportalyet-1.20-1.9.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/ZL0bfFvm/versions/JtTM7rCt/idontwantportalyet-1.20-1.9.jar"
+hash-format = "sha512"
+hash = "256d9a5e67efb2e99939991e648c671489ee849b4aa40a22fa773e973f38f05e4d3dc7c2d650799a103b0e7253db04565a89b9938cb4a3f89cedf3950187279a"
+
+[update]
+[update.modrinth]
+mod-id = "ZL0bfFvm"
+version = "JtTM7rCt"
