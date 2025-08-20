@@ -1,2 +1,4 @@
 # Auto normalize line endings
 * text=auto
+
+/config/hqm/** -text
