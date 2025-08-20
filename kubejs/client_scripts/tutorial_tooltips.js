@@ -58,7 +58,7 @@ ItemEvents.tooltip(event => {
         "kubejs:crashed_reactor_frame"
     ].forEach(tool => {
         event.addAdvanced(tool, (item, advanced, text) => {
-            text.add(1, [Text.gray("Found in the reactor room of a "), Text.blue("Nuclear Plant")]);
+            text.add(1, [Text.gray("Found in the reactor room of a "), Text.white("Nuclear Plant")]);
         });
     });
     [
@@ -66,7 +66,7 @@ ItemEvents.tooltip(event => {
         "kubejs:crashed_turbine_wall"
     ].forEach(tool => {
         event.addAdvanced(tool, (item, advanced, text) => {
-            text.add(1, [Text.gray("Found in the turbine room of a "), Text.blue("Nuclear Plant")]);
+            text.add(1, [Text.gray("Found in the turbine room of a "), Text.white("Nuclear Plant")]);
         });
     });
 
