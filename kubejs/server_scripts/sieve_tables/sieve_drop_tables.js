@@ -67,7 +67,6 @@ ServerEvents.recipes(event => {
             exdeorum:diorite_pebble	10	12	14	16	18	20
             exdeorum:andesite_pebble	10	12	14	16	18	20
             exdeorum:lead_ore_chunk	0	2.3	9	10.8	12.6	14.4
-            minecraft:diamond	0	2	8	9.6	11.2	12.8
             minecraft:lapis_lazuli	1.9	7.5	9	10.5	12	13.5
             exdeorum:silver_ore_chunk	0	1.9	7.5	9	10.5	12
             exdeorum:copper_ore_chunk	1.3	5	6	7	8	9
@@ -75,6 +74,7 @@ ServerEvents.recipes(event => {
             minecraft:redstone	0	1	4	4.8	5.6	6.4
             minecraft:amethyst_shard	0	1	4	4.8	5.6	6.4
             exdeorum:nickel_ore_chunk	0	0.9	3.5	4.2	4.9	5.6
+            minecraft:diamond	0	0.8	3	3.6	4.2	4.8
             exdeorum:uranium_ore_chunk	0	0	0	0.8	3	3.6
             minecraft:coal	2.5	3	3.5	4	4.5	5
             ae2:certus_quartz_crystal	0.6	2.5	3	3.5	4	4.5
@@ -105,7 +105,7 @@ ServerEvents.recipes(event => {
             minecraft:redstone	0	0.6	2.5	3	3.5	4
             ae2:certus_quartz_crystal	0.6	2.5	3	3.5	4	4.5
             minecraft:emerald	0	0.5	2	2.4	2.8	3.2
-            minecraft:diamond	0	0.5	2	2.4	2.8	3.2
+            minecraft:diamond	0	0.4	1.5	1.8	2.1	2.4
             exdeorum:uranium_ore_chunk	0	0	0	0.4	1.5	1.8
             minecraft:amethyst_shard	0	0.3	1	1.2	1.4	1.6
         `
@@ -161,9 +161,9 @@ ServerEvents.recipes(event => {
         'exdeorum:dust',
         'exdeorum:compressed_dust',
         `
+            minecraft:bone_meal	18	21.6	25.2	28.8	32.4	36
             mekanism:salt	18	21.6	25.2	28.8	32.4	36
             exdeorum:iron_ore_chunk	3.8	15	18	21	24	27
-            minecraft:bone_meal	12	14.4	16.8	19.2	21.6	24
             minecraft:gunpowder	2.3	9	10.8	12.6	14.4	16.2
             minecraft:redstone	0	2	8	9.6	11.2	12.8
             exdeorum:copper_ore_chunk	1.8	7	8.4	9.8	11.2	12.6
@@ -209,6 +209,8 @@ ServerEvents.recipes(event => {
             minecraft:sweet_berries	1	1.2	1.4	1.6	1.8	2
             pamhc2crops:spiceleafseeditem	1	1.2	1.4	1.6	1.8	2
             pamhc2crops:oatsseeditem	1	1.2	1.4	1.6	1.8	2
+            pamhc2crops:spinachseeditem	1	1.2	1.4	1.6	1.8	2
+            pamhc2crops:kaleseeditem	1	1.2	1.4	1.6	1.8	2
             minecraft:melon_seeds	1	1.2	1.4	1.6	1.8	2
             minecraft:bamboo	1	1.2	1.4	1.6	1.8	2
             minecraft:cactus	1	1.2	1.4	1.6	1.8	2
