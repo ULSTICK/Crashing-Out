@@ -1,105 +1,82 @@
-# Contributing to Crash Landing Remake
+<div align="center">
+ 
+_A unofficial remake of the classic hardcore survival pack, made by fans of the original pack developed by Iskandar back in 2014._
 
-## Prerequisites
+![The Ship](https://cdn.modrinth.com/data/Y5UhUxAD/images/414e1ad7d7c0aa222052f661522b8f8758d13fde.webp)
 
-- Java (for the packwiz installer bootstrap and Forge installer).
-- Clone/pull this repo.
+[![Available on Modrinth](https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/available/modrinth_vector.svg)](https://modrinth.com/modpack/crash-landing-remake)
+[![Available on Curseforge](https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/available/curseforge_vector.svg)](https://www.curseforge.com/minecraft/modpacks/crash-landing-remake)
 
-## Contributing on Windows
+</div>
 
-### Environment Setup
+______________________________________________________________________
 
-1. Install **packwiz** by following the official guide: [https://packwiz.infra.link/installation](https://packwiz.infra.link/installation/). Ensure packwiz is added to your PATH.
-2. Run the `initialize-dev-environment.bat` script located in the `packwiz-scripts` folder. The script will download all required files.
-3. When complete, the repository’s root folder is now playable!
+You have survived a crash landing on Planet T4L0S, an uncharted planet in the Varkin system. Preliminary scans indicate an arid environment with pockets of elevated radiation, high mineral content, and subterranean hydrocarbon reservoirs.
 
-### Playing the Modpack Locally
+You will need to brave the blazing heat, find sources of food and water, scour the planet for resources, build up technology, and search for a way to escape the planet.
 
-1. [Install Forge 1.20.1](https://files.minecraftforge.net/net/minecraftforge/forge/index_1.20.1.html)**.**
-2. In the Minecraft Launcher, create a new installation.
-    1. Set the version to the appropriate Forge version.
-    2. Set the game directory to your repository’s directory.
-    3. Under JVM arguments, increase your allocated RAM to 6-8GB (change `-Xmx2G` to `-Xmx6G` or `-Xmx8G`).
-    4. Save the installation.
-3. Select the new installation and click **Play**.
+Crash Landing is a challenging, quest-based modpack where you must struggle for survival on a dust planet with limited resources. The map is set to hardcore, you must use the [Sync](https://modrinth.com/mod/sync-fabric-rereported/) mod to build yourself more lives.
 
-### Making Changes to the Modpack
+![The Nuclear Plant](https://cdn.modrinth.com/data/Y5UhUxAD/images/26717b9d9ab7cacc1e0d6605fc0bc932e9be0d32.webp)
 
-- **Configs:** edit files in the repo root (`config/`, `kubejs/`, `defaultconfigs/` etc.).
-- **Mods:** all mod changes must be done with the packwiz CLI, and **must be made on both pack variants**:
-    - Add a Modrinth mod:
-        
-        `packwiz modrinth add <url|slug|search> --pack-file ".\packwiz-modrinth\pack.toml"`
-        
-    - Add a CurseForge mod:
-        
-        `packwiz curseforge add <url|slug|search> --pack-file ".\packwiz-curseforge\pack.toml"`
-        
-    - Update a mod:
-        
-        `packwiz update <name> --pack-file ".\packwiz-modrinth\pack.toml"`
-        
-        `packwiz update <name> --pack-file ".\packwiz-curseforge\pack.toml"`
-        
-    - Remove a mod:
-        
-        `packwiz remove <name> --pack-file ".\packwiz-modrinth\pack.toml"`
-        
-        `packwiz remove <name> --pack-file ".\packwiz-curseforge\pack.toml"`
-        
-- When your changes are complete, submit a pull request. Make sure to document your changes and avoid committing unnecessary files.
+______________________________________________________________________
 
-### Exporting the Modpack
+**This pack is still under development.** This is a preview version, and any feedback is welcome.
 
-- To **Modrinth:** run `packwiz_scripts\pack-export-modrinth.bat`.
-- To **CurseForge:** run `packwiz_scripts\pack-export-curseforge.bat`.
-- To **Server Pack:** run, in order:
-    1. `packwiz_scripts\pack-export-server-1-forge.bat` 
-    2. `packwiz_scripts\pack-export-server-2-mods.bat` 
-    3. `packwiz_scripts\pack-export-server-3-export.bat`
+Reach us directly on the Discord server:
+https://discord.gg/4en3SpWtJg
 
-All exported modpack files are saved to to `packwiz-builds/`.
+Or through the Subeddit:
+https://www.reddit.com/r/CrashLanding2Modpack
+______________________________________________________________________
 
----
+## FAQ
 
-## Contributing on macOS / Linux
+### Q: How do I install the modpack?
 
-The automation scripts located in `packwiz-scripts` are Windows-only. However, a local environment can still be set up with a bit more manual work.
+A: Download the Modrinth or Curseforge app, search for the name of the pack, and click install. Make sure you are using 6-8 GB of RAM in the modpack or launcher’s settings.
 
-### Environment Setup
+### Q: How can I play multiplayer? Do you have a server pack?
+A: If you *aren't* experienced in server hosting, download the [Essential](https://modrinth.com/mod/essential) mod. Many players have had positive experiences with how easy it is to use. If you *are* experienced in server hosting, you can download the server pack, included in most modpack releases (go to the versions page, select the newest one, and scroll all the way down past the mod list).
 
-1. Install **packwiz** by following the official guide: [https://packwiz.infra.link/installation](https://packwiz.infra.link/installation/).
-2. Serve the Modrinth variant from `packwiz-modrinth/`:
-    
-    `cd ./packwiz-modrinth && packwiz serve -p 8080`
-    
-3. Download the [packwiz installer bootstrapper](https://github.com/packwiz/packwiz-installer-bootstrap/releases/latest/download/packwiz-installer-bootstrap.jar) and run it:
-    
-    `java -jar packwiz-installer-bootstrap.jar http://localhost:8080/pack.toml`
-    
-    *See the official [tutorial for the packwiz-installer](https://packwiz.infra.link/tutorials/installing/packwiz-installer/) for more information.*
-    
-4. When complete, you can close the packwiz installation server. The repository’s root folder should now be playable!
+### Q: Why does my game/world gets stuck while loading in?
 
-### Playing the Modpack Locally
+A: Make sure you have allocated at least 6 GB of RAM to the modpack. I usually recommend 8 GB if your computer has enough.
 
-> *See the Windows instructions above.*
-> 
+### Q: How can I disabled hardcore?
 
-### Making Changes to the Modpack
+A: I strongly recommend learning to use the sync shells for extra lives, it’s what the game was balanced around. If you select the easy route, and you’ll start with enough power for 3 shells. Follow the steps in the Sync quest for a detailed guide.
+However, if you’ve tried that and still want to disable hardcore, you can edit the hardcore setting in `config/globalgamerules-common.toml`. On a server, the steps are slightly different. Download [this file](https://cdn.modrinth.com/data/Y5UhUxAD/versions/YopX3hzh/Non-Hardcore_Server_Files.zip) and replace the files on the server with the files in that zip. I recommend backing up the target files before replacing them.
 
-> *See the Windows instructions above.*
-> 
+### Q: How do I get seared bricks/grout for a smeltery?
 
-### Exporting the Modpack
+A: There is a Tinker’s Construct smeltery building in the cities, containing crumbling seared brick blocks. Break those with a hammer or pulverize them to get seared bricks.
 
-The Windows scripts automatically copy the relevant folders and export the modpack. To export on macOS / Linux, you will have to manually perform the tasks the scripts do.
+### Q: What is the best power source?
 
-- To **Modrinth:**
-    1. Copy the relevant folders and files from the root folder into `packwiz-modrinth/`. You can find the default list of files in `packwiz-scripts/configs/client-copy-list`.
-    2. Run `packwiz modrinth export --pack-file "./packwiz-modrinth/pack.toml"`.
-    3. Remove the temporary files copied into `packwiz-modrinth/`.
-- To **CurseForge:**
-    1. Copy the relevant folders and files from the root folder into `packwiz-curseforge/`. You can find the default list of files in `packwiz-scripts/configs/client-copy-list`.
-    2. Run `packwiz curseforge export --pack-file "./packwiz-curseforge/pack.toml"`.
-    3. Remove the temporary files copied into `packwiz-curseforge/`.
+A: The quests include 3 recommended energy sources. The first is the *Pitiful Generator*, which is powered by burnable fuel and very inefficient. Once you get oil refining set up, you can use the *Compression Dynamo* to burn various types of oils. Finally, you can get a *Nuclear Reactor* in the end-game, which is a highly effective generation method. The quests will guide you through these three recommended methods, but you can build a few other types on the
+
+### Q: Will updating to a new version break my world?
+
+A: Generally no, you won’t have any issues. Only major releases break anything and there will be a description of exactly what they break near the start of the changelog. However, it is always a good idea to frequently back up your world.
+
+______________________________________________________________________
+
+## Credits
+Developed by
+- [MarkSDR](https://modrinth.com/user/MarkSDR) (Original lead developer)
+- [Pawjwp](https://modrinth.com/user/pawjwp) (Current lead developer)
+- Nagasakii (Early development work and initial quests)
+
+Other contributers:
+- [Kilometers](https://modrinth.com/user/kilometersperhour) (Early development work)
+- [ULSTICK](https://linktr.ee/ULSTICK)
+- herobrian903 (Create quest line assistance)
+- Mei-Nanita (Early recipe work)
+- Pand1024 (Early github setup)
+- Lobo_um_louco (Early structure work)
+
+Original pack developer:
+- [Iskandar](https://x.com/iskan_dar)
+
+![The Wasteland](https://cdn.modrinth.com/data/Y5UhUxAD/images/469e0228d64aa83a156b8817a1a5cc74ee8bdf6a.png)
