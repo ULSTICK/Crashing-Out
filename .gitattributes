@@ -2,3 +2,4 @@
 * text=auto
 
 /config/hqm/** -text
+/config/pneumaticcraft/** -text
