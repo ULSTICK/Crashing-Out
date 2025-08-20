@@ -17,6 +17,10 @@ if not exist "%BOOTSTRAP_JAR%" (
   curl -L -o "%BOOTSTRAP_JAR%" "%BOOTSTRAP_URL%"
 )
 
+rem ====== Refresh the pack index so hashes are valid ======
+echo Running packwiz refresh for %PACK_FOLDER%...
+packwiz refresh -y --pack-file "%ROOT%\%PACK_FOLDER%\pack.toml"
+
 rem ====== Start packwiz serve from Modrinth pack (port 8080) ======
 echo Starting packwiz serve (from %PACK_FOLDER%)...
 start "packwiz-serve" /B cmd /c "cd /d "%PACK_FOLDER%" && packwiz serve --basic -p 8080"
