@@ -1,4 +1,4 @@
-# Contributing to Crash Landing Remake
+# Contributing to Crash Zone
 
 ## Prerequisites
 

@@ -15,7 +15,7 @@ You have survived a crash landing on Planet T4L0S, an uncharted planet in the Va
 
 You will need to brave the blazing heat, find sources of food and water, scour the planet for resources, build up technology, and search for a way to escape the planet.
 
-Crash Landing is a challenging, quest-based modpack where you must struggle for survival on a dust planet with limited resources. The map is set to hardcore, you must use the [Sync](https://modrinth.com/mod/sync-fabric-rereported/) mod to build yourself more lives.
+Crash Zone is a challenging, quest-based modpack where you must struggle for survival on a dust planet with limited resources. The map is set to hardcore, you must use the [Sync](https://modrinth.com/mod/sync-fabric-rereported/) mod to build yourself more lives.
 
 ![The Nuclear Plant](https://cdn.modrinth.com/data/Y5UhUxAD/images/26717b9d9ab7cacc1e0d6605fc0bc932e9be0d32.webp)
 
@@ -45,7 +45,7 @@ A: Make sure you have allocated at least 6 GB of RAM to the modpack. I usually r
 
 ### Q: How can I disabled hardcore?
 
-A: I strongly recommend learning to use the sync shells for extra lives, it’s what the game was balanced around. If you select the easy route, and you’ll start with enough power for 3 shells. Follow the steps in the Sync quest for a detailed guide.
+A: I strongly recommend learning to use the sync shells for extra lives, it’s what the game was balanced around. If you select the easy route, you’ll start with enough power for 3 shells. Follow the steps in the Sync quest for a detailed guide.
 However, if you’ve tried that and still want to disable hardcore, you can edit the hardcore setting in `config/globalgamerules-common.toml`. On a server, the steps are slightly different. Download [this file](https://cdn.modrinth.com/data/Y5UhUxAD/versions/YopX3hzh/Non-Hardcore_Server_Files.zip) and replace the files on the server with the files in that zip. I recommend backing up the target files before replacing them.
 
 ### Q: How do I get seared bricks/grout for a smeltery?
