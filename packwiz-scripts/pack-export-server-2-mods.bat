@@ -47,3 +47,4 @@ taskkill /FI "WINDOWTITLE eq packwiz-serve" /T /F >nul
 
 echo [OK] Mods downloaded to packwiz-server (server-only).
 endlocal
+pause

@@ -28,3 +28,4 @@ java -jar "%FORGE_PATH%" --installServer "%SERVER_DIR%"
 
 echo [OK] Forge server installed.
 endlocal
+pause

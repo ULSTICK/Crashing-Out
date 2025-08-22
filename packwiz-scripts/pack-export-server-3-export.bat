@@ -18,6 +18,9 @@ if not exist "%COPY_LIST_FILE%" (
   exit /b 1
 )
 
+rem ====== Pre-cleanup ======
+call :CLEAN_LIST_COPIES "%SERVER_DIR%" "%COPY_LIST_FILE%"
+
 echo Copying items from server copy list...
 for /f "usebackq tokens=* delims= eol=#" %%L in ("%COPY_LIST_FILE%") do (
   set "ITEM=%%L"
@@ -46,22 +49,45 @@ for /f "usebackq tokens=* delims= eol=#" %%L in ("%COPY_LIST_FILE%") do (
   )
 )
 
-rem ====== Read version from packwiz-modrinth\pack.toml ======
-set "PACK_TOML=%PACK_FOLDER%\pack.toml"
-for /f "usebackq tokens=* delims=" %%V in (`powershell -NoProfile -Command ^
-  "(Select-String -LiteralPath '%PACK_TOML%' -Pattern '^\s*version\s*=\s*\"([^\"]+)\"' -AllMatches).Matches[0].Groups[1].Value"`) do set "VERSION=%%V"
-
-if not defined VERSION (
-  echo [WARN] Could not read version from pack.toml; defaulting to 0.0.0
-  set "VERSION=0.0.0"
-)
-
 rem ====== Zip server folder ======
-set "OUTZIP=%BUILD_DIR%\Remake Server Pack %VERSION%.zip"
+set "OUTZIP=%BUILD_DIR%\Remake Server Pack.zip"
 echo Creating "%OUTZIP%" ...
 powershell -NoProfile -Command ^
   "if (Test-Path -LiteralPath '%OUTZIP%') { Remove-Item -LiteralPath '%OUTZIP%' -Force } ;" ^
-  "Compress-Archive -LiteralPath '%SERVER_DIR%\*' -DestinationPath '%OUTZIP%'"
+  "Compress-Archive -Path '%SERVER_DIR%\*' -DestinationPath '%OUTZIP%' -Force"
 
 echo [OK] Wrote: %OUTZIP%
+
+rem --- POST-CLEANUP: remove the copied items so SERVER_DIR is clean ---
+echo.
+echo === Post-cleanup: removing copied items ===
+call :CLEAN_LIST_COPIES "%SERVER_DIR%" "%COPY_LIST_FILE%"
+
 endlocal
+pause
+goto :eof
+
+:CLEAN_LIST_COPIES
+rem %1 = DEST base (where items were copied), %2 = copy-list file
+set "CLEAN_DEST=%~1"
+set "CLEAN_LIST=%~2"
+for /f "usebackq tokens=* delims= eol=#" %%L in ("%CLEAN_LIST%") do (
+  set "ITEM=%%L"
+  if defined ITEM (
+    set "TGT=%CLEAN_DEST%\!ITEM!"
+    if exist "!TGT!\" (
+      rmdir /S /Q "!TGT!" 2>nul
+    ) else if exist "!TGT!" (
+      del /Q "!TGT!" 2>nul
+    )
+  )
+)
+powershell -NoProfile -Command ^
+  "$base = '%CLEAN_DEST%';" ^
+  "do {" ^
+  "  $removed = 0;" ^
+  "  Get-ChildItem -LiteralPath $base -Recurse -Directory |" ^
+  "    Where-Object { ($_.GetFileSystemInfos().Count -eq 0) } |" ^
+  "    ForEach-Object { Remove-Item -LiteralPath $_.FullName -Force; $removed++ };" ^
+  "} while ($removed -gt 0)"
+goto :eof

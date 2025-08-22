@@ -15,6 +15,10 @@ if not exist "%BOOTSTRAP_JAR%" (
     curl -L -o "%BOOTSTRAP_JAR%" "%BOOTSTRAP_URL%"
 )
 
+rem ====== Refresh the pack index so hashes are valid ======
+echo Running packwiz refresh for %PACK_FOLDER%...
+packwiz refresh -y --pack-file "%ROOT%\%PACK_FOLDER%\pack.toml"
+
 rem === start packwiz serve ===
 echo Starting packwiz server
 start "packwiz-serve" /B cmd /c "cd /d "%PACK_FOLDER%" && packwiz serve --basic -p 8080"
