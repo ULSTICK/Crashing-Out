@@ -5,7 +5,7 @@ ServerEvents.recipes(event => {
 
 
 
-  function extrude(result, adjacent, isLiquid, catalyst) {
+  function extrude(result, adjacent, isLiquid, catalyst, inventoryFluid) {
     // Create Mechanical Extruder recipe
     var extruder = {
       type: 'create_mechanical_extruder:extruding',
@@ -15,7 +15,7 @@ ServerEvents.recipes(event => {
       result: { item: result }
     };
     if (isLiquid) {
-      extruder.ingredients.push({ amount: 1000, fluid: adjacent, nbt: {} });
+      extruder.ingredients.push({ amount: 1000, fluid: (inventoryFluid || adjacent), nbt: {} });
     } else {
       extruder.ingredients.push({ item: adjacent });
     }
@@ -23,7 +23,7 @@ ServerEvents.recipes(event => {
       extruder.catalyst = { item: catalyst };
     }
     event.custom(extruder)
-      .id('crash_landing:extruder/' + result.split(':')[1] + '_' + adjacent.split(':')[1]);
+      .id('crash_landing:extruder/' + result.split(':')[1] + '_' + (inventoryFluid || adjacent).split(':')[1]);
 
     // Thermal Extruder recipe
     var rockGen = {
@@ -48,8 +48,8 @@ ServerEvents.recipes(event => {
   extrude('minecraft:cobbled_deepslate', 'minecraft:packed_ice', false);
   extrude('minecraft:deepslate', 'minecraft:packed_ice', false, 'minecraft:magma_block');
   //extrude('minecraft:netherrack', 'exdeorum:witch_water', true);
-  extrude('minecraft:netherrack', 'thermal:redstone', true);
-  extrude('minecraft:end_stone', 'thermal:ender', true);
+  extrude('minecraft:netherrack', 'thermal:redstone_fluid', true, null, 'thermal:redstone');
+  extrude('minecraft:end_stone', 'thermal:ender_fluid', true, null, 'thermal:ender');
   extrude('create:limestone', 'create:honey', true);
   extrude('create:scoria', 'create:chocolate', true);
 });
