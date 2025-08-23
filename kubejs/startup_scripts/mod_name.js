@@ -1,1 +1,1 @@
-Platform.mods.kubejs.name = 'Crash Zone'
+Platform.mods.kubejs.name = 'Desolate Planet'

@@ -50,7 +50,7 @@ for /f "usebackq tokens=* delims= eol=#" %%L in ("%COPY_LIST_FILE%") do (
 )
 
 rem ====== Zip server folder ======
-set "OUTZIP=%BUILD_DIR%\Remake Server Pack.zip"
+set "OUTZIP=%BUILD_DIR%\Desolate Planet Server Pack.zip"
 echo Creating "%OUTZIP%" ...
 powershell -NoProfile -Command ^
   "if (Test-Path -LiteralPath '%OUTZIP%') { Remove-Item -LiteralPath '%OUTZIP%' -Force } ;" ^

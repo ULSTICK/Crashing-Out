@@ -15,7 +15,7 @@ You have survived a crash landing on Planet T4L0S, an uncharted planet in the Va
 
 You will need to brave the blazing heat, find sources of food and water, scour the planet for resources, build up technology, and search for a way to escape the planet.
 
-Crash Zone is a challenging, quest-based modpack where you must struggle for survival on a dust planet with limited resources. The map is set to hardcore, you must use the [Sync](https://modrinth.com/mod/sync-fabric-rereported/) mod to build yourself more lives.
+Desolate Planet is a challenging, quest-based modpack where you must struggle for survival on a dust planet with limited resources. The map is set to hardcore, you must use the [Sync](https://modrinth.com/mod/sync-fabric-rereported/) mod to build yourself more lives.
 
 ![The Nuclear Plant](https://cdn.modrinth.com/data/Y5UhUxAD/images/26717b9d9ab7cacc1e0d6605fc0bc932e9be0d32.webp)
 
@@ -54,7 +54,7 @@ A: There is a Tinker’s Construct smeltery building in the cities, containing c
 
 ### Q: What is the best power source?
 
-A: The quests include 3 recommended energy sources. The first is the *Pitiful Generator*, which is powered by burnable fuel and very inefficient. Once you get oil refining set up, you can use the *Compression Dynamo* to burn various types of oils. Finally, you can get a *Nuclear Reactor* in the end-game, which is a highly effective generation method. The quests will guide you through these three recommended methods, but you can build a few other types on the
+A: The quests include 3 recommended energy sources. The first is the *Pitiful Generator*, which is powered by burnable fuel and very inefficient. Once you get oil refining set up, you can use the *Compression Dynamo* to burn various types of oils. Finally, you can get a *Nuclear Reactor* in the end-game, which is a highly effective generation method. The quests will guide you through these three recommended methods, but you can build a few other types on the way if you'd like.
 
 ### Q: Will updating to a new version break my world?
 

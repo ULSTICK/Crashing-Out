@@ -1,4 +1,4 @@
-# Contributing to Crash Zone
+# Contributing to Desolate Planet
 
 ## Prerequisites
 
