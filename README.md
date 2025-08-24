@@ -4,8 +4,8 @@ _A unofficial remake of the classic hardcore survival pack, made by fans of the 
 
 ![The Ship](https://cdn.modrinth.com/data/Y5UhUxAD/images/414e1ad7d7c0aa222052f661522b8f8758d13fde.webp)
 
-[![Available on Modrinth](https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/available/modrinth_vector.svg)](https://modrinth.com/modpack/crash-landing-remake)
-[![Available on Curseforge](https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/available/curseforge_vector.svg)](https://www.curseforge.com/minecraft/modpacks/crash-landing-remake)
+[![Available on Modrinth](https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/available/modrinth_vector.svg)](https://modrinth.com/modpack/desolate-planet)
+[![Available on Curseforge](https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/available/curseforge_vector.svg)](https://www.curseforge.com/minecraft/modpacks/desolate-planet)
 
 </div>
 
