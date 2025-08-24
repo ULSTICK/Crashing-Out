@@ -2,3 +2,8 @@
 config
 defaultconfigs
 kubejs
+
+# Exclusion
+-config\jei
+-config\worldedit
+-config\cubes_without_borders.json

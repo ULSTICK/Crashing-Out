@@ -25,6 +25,23 @@ if not exist "%COPY_LIST_FILE%" (
   exit /b 1
 )
 
+rem === Build global exclude args from list (!prefix) ===
+set "XD_ARGS="
+set "XF_ARGS="
+for /f "usebackq tokens=* delims= eol=#" %%L in ("%COPY_LIST_FILE%") do (
+  set "LINE=%%L"
+  if defined LINE if "!LINE:~0,1!"=="-" (
+    set "EX=!LINE:~1!"
+    if exist "%ROOT%\!EX!\" (
+      rem exclude directory
+      set "XD_ARGS=!XD_ARGS! /XD ""%ROOT%\!EX!"""
+    ) else (
+      rem exclude file (or pattern)
+      set "XF_ARGS=!XF_ARGS! /XF ""%ROOT%\!EX!"""
+    )
+  )
+)
+
 rem === Pre-cleanup in case the previous export failed to resolve ===
 echo.
 echo === Pre-cleanup: removing any leftover copied items ===
@@ -43,26 +60,32 @@ echo === Copying items into packwiz-curseforge from list ===
 for /f "usebackq tokens=* delims= eol=#" %%L in ("%COPY_LIST_FILE%") do (
   set "ITEM=%%L"
   if defined ITEM (
-    set "SRC=%ROOT%\!ITEM!"
-    set "DST=%DEST%\!ITEM!"
-    if exist "!SRC!\" (
-      echo   [+] DIR  "!ITEM!"
-      robocopy "!SRC!" "!DST!" /E /NFL /NDL /NJH /NJS /NP >nul
-      if errorlevel 8 (
-        echo   [ERROR] robocopy failed for directory "!ITEM!"
-        goto :CLEANUP_AND_FAIL
-      )
-    ) else if exist "!SRC!" (
-      echo   [+] FILE "!ITEM!"
-      for %%P in ("!DST!") do set "DSTDIR=%%~dpP"
-      if not exist "!DSTDIR!" mkdir "!DSTDIR!" 2>nul
-      copy /Y "!SRC!" "!DST!" >nul
-      if errorlevel 1 (
-        echo   [ERROR] copy failed for file "!ITEM!"
-        goto :CLEANUP_AND_FAIL
-      )
+    set "FC=!ITEM:~0,1!"
+    if "!FC!"=="-" (
+      rem excluded entry
     ) else (
-      echo   [!] Skipping "!ITEM!" (not found at root)
+      set "SRC=%ROOT%\!ITEM!"
+      set "DST=%DEST%\!ITEM!"
+      if exist "!SRC!\" (
+        echo   [+] DIR  "!ITEM!"
+        rem apply global excludes to directory copies if present
+        robocopy "!SRC!" "!DST!" /E /NFL /NDL /NJH /NJS /NP %XD_ARGS% %XF_ARGS% >nul
+        if errorlevel 8 (
+          echo   [ERROR] robocopy failed for directory "!ITEM!"
+          goto :CLEANUP_AND_FAIL
+        )
+      ) else if exist "!SRC!" (
+        echo   [+] FILE "!ITEM!"
+        for %%P in ("!DST!") do set "DSTDIR=%%~dpP"
+        if not exist "!DSTDIR!" mkdir "!DSTDIR!" 2>nul
+        copy /Y "!SRC!" "!DST!" >nul
+        if errorlevel 1 (
+          echo   [ERROR] copy failed for file "!ITEM!"
+          goto :CLEANUP_AND_FAIL
+        )
+      ) else (
+        echo   [!] Skipping "!ITEM!" (not found at root)
+      )
     )
   )
 )

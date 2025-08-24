@@ -4,15 +4,13 @@
 /.example_assets
 /.example_data
 /.vscode
-/cosmetics
 /config/cubes_without_borders.json
 /config/fabric
-/config/inventoryprofilesnext
 /config/jei
-/config/jei/world
-/config/minihud
-/config/worldedit/.archive-unpack
-/config/worldedit/sessions
+/config/modernfix-mixins.properties
+/config/oculus.properties
+/config/worldedit
+/cosmetics
 /crash-reports
 /data
 /essential
@@ -22,9 +20,6 @@
 /modernfix
 /mods/.connector
 /screenshots
-config/fabric/indigo-renderer.properties
-config/modernfix-mixins.properties
-config/oculus.properties
 fabricloader.log
 hs_err_pid*.log
 knownkeys.txt
@@ -47,6 +42,8 @@ packwiz-installer-bootstrap.jar
 
 packwiz-scripts/tools/forge-1.20.1-47.4.0-installer.jar
 packwiz-scripts/forge-1.20.1-47.4.0-installer.jar.log
+
+/packwiz-builds
 
 /packwiz-curseforge/config
 /packwiz-curseforge/defaultconfigs
@@ -83,4 +80,3 @@ packwiz-scripts/forge-1.20.1-47.4.0-installer.jar.log
 !/saves/Original world, will reset when pack updates/region/r.0.-1.mca
 !/saves/Original world, will reset when pack updates/region/r.-1.0.mca
 !/saves/Original world, will reset when pack updates/region/r.-1.-1.mca
-
