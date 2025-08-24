@@ -312,6 +312,11 @@
     "modId": "ferritecore",
     "version": "6.0.1"
   },
+  "forcedseed-forge-1.20.1-1.1.1.jar": {
+    "jarName": "forcedseed-forge-1.20.1-1.1.1.jar",
+    "modId": "forcedseed",
+    "version": "1.1.1"
+  },
   "FramedBlocks-9.4.2.jar": {
     "jarName": "FramedBlocks-9.4.2.jar",
     "modId": "framedblocks",
