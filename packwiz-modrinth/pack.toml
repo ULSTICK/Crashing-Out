@@ -1,12 +1,12 @@
 name = "Desolate Planet"
 author = "MarkSDR"
-version = "1.5.0.3"
+version = "1.5.0.4"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "94e8f4f84b9941fc7e048c31f611113555c691890fe1f7a77984c7300af34ed0"
+hash = "39550735d36b77a8867985059cbdd8658efba173e666f3b8df3386786a57c713"
 
 [versions]
 forge = "47.4.0"
