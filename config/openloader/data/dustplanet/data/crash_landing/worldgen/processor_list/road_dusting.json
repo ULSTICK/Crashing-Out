@@ -1,0 +1,59 @@
+[
+  {
+    "processor_type": "minecraft:rule",
+    "rules": [
+      {
+        "location_predicate": {
+          "predicate_type": "minecraft:always_true"
+        },
+        "input_predicate": {
+          "predicate_type": "minecraft:random_block_match",
+          "block": "minecraft:smooth_stone",
+          "probability": 0.1
+        },
+        "output_state": {
+          "Name": "exdeorum:dust"
+        }
+      },
+      {
+        "location_predicate": {
+          "predicate_type": "minecraft:always_true"
+        },
+        "input_predicate": {
+          "predicate_type": "minecraft:random_block_match",
+          "block": "chipped:ash_sand",
+          "probability": 0.2
+        },
+        "output_state": {
+          "Name": "exdeorum:dust"
+        }
+      },
+      {
+        "location_predicate": {
+          "predicate_type": "minecraft:always_true"
+        },
+        "input_predicate": {
+          "predicate_type": "minecraft:random_block_match",
+          "block": "chipped:white_sand",
+          "probability": 0.2
+        },
+        "output_state": {
+          "Name": "exdeorum:dust"
+        }
+      },
+      {
+        "location_predicate": {
+          "predicate_type": "minecraft:always_true"
+        },
+        "input_predicate": {
+          "predicate_type": "minecraft:random_block_match",
+          "block": "minecraft:andesite_stairs",
+          "probability": 0.4
+        },
+        "output_state": {
+          "Name": "exdeorum:dust"
+        }
+      }
+    ]
+  }
+]

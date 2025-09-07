@@ -7,7 +7,7 @@
         "element_type": "minecraft:single_pool_element",
         "projection": "terrain_matching",
         "location": "crash_landing:city/road/cross",
-        "processors": "minecraft:empty"
+        "processors": "crash_landing:road_dusting"
       }
     },
     {
@@ -16,7 +16,7 @@
         "element_type": "minecraft:single_pool_element",
         "projection": "terrain_matching",
         "location": "crash_landing:city/road/cross_big",
-        "processors": "minecraft:empty"
+        "processors": "crash_landing:road_dusting"
       }
     }
   ]
