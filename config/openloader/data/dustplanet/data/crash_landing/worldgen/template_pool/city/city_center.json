@@ -6,16 +6,7 @@
       "element": {
         "element_type": "minecraft:single_pool_element",
         "projection": "terrain_matching",
-        "location": "crash_landing:city/road/cross",
-        "processors": "crash_landing:road_dusting"
-      }
-    },
-    {
-      "weight": 1,
-      "element": {
-        "element_type": "minecraft:single_pool_element",
-        "projection": "terrain_matching",
-        "location": "crash_landing:city/road/cross_big",
+        "location": "crash_landing:city/road/monument_round",
         "processors": "crash_landing:road_dusting"
       }
     }

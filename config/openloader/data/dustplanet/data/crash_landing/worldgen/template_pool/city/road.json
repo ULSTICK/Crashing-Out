@@ -6,16 +6,16 @@
       "element": {
         "element_type": "minecraft:single_pool_element",
         "projection": "terrain_matching",
-        "location": "crash_landing:city/road/small_ww",
+        "location": "crash_landing:city/road/small_dusty",
         "processors": "crash_landing:road_dusting"
       }
     },
     {
-      "weight": 20,
+      "weight": 15,
       "element": {
         "element_type": "minecraft:single_pool_element",
         "projection": "terrain_matching",
-        "location": "crash_landing:city/road/long_ww",
+        "location": "crash_landing:city/road/long_dusty",
         "processors": "crash_landing:road_dusting"
       }
     },
@@ -24,16 +24,16 @@
       "element": {
         "element_type": "minecraft:single_pool_element",
         "projection": "terrain_matching",
-        "location": "crash_landing:city/road/straight_small_bw",
+        "location": "crash_landing:city/road/straight_small",
         "processors": "crash_landing:road_dusting"
       }
     },
     {
-      "weight": 20,
+      "weight": 15,
       "element": {
         "element_type": "minecraft:single_pool_element",
         "projection": "terrain_matching",
-        "location": "crash_landing:city/road/straight_long_bw",
+        "location": "crash_landing:city/road/straight_long",
         "processors": "crash_landing:road_dusting"
       }
     },
@@ -42,7 +42,7 @@
       "element": {
         "element_type": "minecraft:single_pool_element",
         "projection": "terrain_matching",
-        "location": "crash_landing:city/road/straight_xl_bw",
+        "location": "crash_landing:city/road/straight_xl",
         "processors": "crash_landing:road_dusting"
       }
     },
