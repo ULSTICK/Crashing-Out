@@ -7,9 +7,9 @@
   ],
   "placement": {
     "type": "minecraft:concentric_rings",
-    "distance": 8,
-    "spread": 3,
-    "count": 128,
+    "distance": 9,
+    "spread": 4,
+    "count": 64,
     "preferred_biomes": "#crash_landing:has_city",
     "salt": 1269475
   }

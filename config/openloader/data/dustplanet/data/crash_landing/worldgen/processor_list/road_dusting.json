@@ -48,7 +48,7 @@
         "input_predicate": {
           "predicate_type": "minecraft:random_block_match",
           "block": "minecraft:andesite_stairs",
-          "probability": 0.4
+          "probability": 0.3
         },
         "output_state": {
           "Name": "exdeorum:dust"
