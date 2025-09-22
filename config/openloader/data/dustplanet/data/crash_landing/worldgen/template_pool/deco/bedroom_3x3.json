@@ -45,6 +45,33 @@
         "location": "crash_landing:deco/bedroom_3x3/5",
         "processors": "minecraft:empty"
       }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "crash_landing:deco/bedroom_3x3/6",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "crash_landing:deco/bedroom_3x3/7",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "crash_landing:deco/spawner_3x3",
+        "processors": "crash_landing:city_spawner"
+      }
     }
   ]
 }

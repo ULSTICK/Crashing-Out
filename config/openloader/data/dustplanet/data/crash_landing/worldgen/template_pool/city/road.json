@@ -38,7 +38,7 @@
       }
     },
     {
-      "weight": 25,
+      "weight": 15,
       "element": {
         "element_type": "minecraft:single_pool_element",
         "projection": "terrain_matching",
@@ -48,7 +48,7 @@
     },
 
     {
-      "weight": 2,
+      "weight": 4,
       "element": {
         "element_type": "minecraft:single_pool_element",
         "projection": "terrain_matching",
@@ -57,7 +57,7 @@
       }
     },
     {
-      "weight": 4,
+      "weight": 5,
       "element": {
         "element_type": "minecraft:single_pool_element",
         "projection": "terrain_matching",
@@ -75,7 +75,7 @@
       }
     },
     {
-      "weight": 2,
+      "weight": 3,
       "element": {
         "element_type": "minecraft:single_pool_element",
         "projection": "terrain_matching",
@@ -84,7 +84,7 @@
       }
     },
     {
-      "weight": 2,
+      "weight": 3,
       "element": {
         "element_type": "minecraft:single_pool_element",
         "projection": "terrain_matching",
