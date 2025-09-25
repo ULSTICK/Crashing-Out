@@ -13,11 +13,11 @@
               "children": [
                 {
                   "type": "minecraft:item",
-                  "name": "kubejs:trash_pile",
+                  "name": "kubejs:dust_pile",
                   "conditions": [
                     {
                       "condition": "minecraft:block_state_property",
-                      "block": "kubejs:trash_pile",
+                      "block": "kubejs:dust_pile",
                       "properties": {
                         "layers": "1"
                       }
@@ -26,7 +26,7 @@
                 },
                 {
                   "type": "minecraft:item",
-                  "name": "kubejs:trash_pile",
+                  "name": "kubejs:dust_pile",
                   "functions": [
                     {
                       "function": "minecraft:set_count",
@@ -37,7 +37,7 @@
                   "conditions": [
                     {
                       "condition": "minecraft:block_state_property",
-                      "block": "kubejs:trash_pile",
+                      "block": "kubejs:dust_pile",
                       "properties": {
                         "layers": "2"
                       }
@@ -46,7 +46,7 @@
                 },
                 {
                   "type": "minecraft:item",
-                  "name": "kubejs:trash_pile",
+                  "name": "kubejs:dust_pile",
                   "functions": [
                     {
                       "function": "minecraft:set_count",
@@ -57,7 +57,7 @@
                   "conditions": [
                     {
                       "condition": "minecraft:block_state_property",
-                      "block": "kubejs:trash_pile",
+                      "block": "kubejs:dust_pile",
                       "properties": {
                         "layers": "3"
                       }
@@ -66,7 +66,7 @@
                 },
                 {
                   "type": "minecraft:item",
-                  "name": "kubejs:trash_pile",
+                  "name": "kubejs:dust_pile",
                   "functions": [
                     {
                       "function": "minecraft:set_count",
@@ -77,7 +77,7 @@
                   "conditions": [
                     {
                       "condition": "minecraft:block_state_property",
-                      "block": "kubejs:trash_pile",
+                      "block": "kubejs:dust_pile",
                       "properties": {
                         "layers": "4"
                       }
@@ -86,7 +86,7 @@
                 },
                 {
                   "type": "minecraft:item",
-                  "name": "kubejs:trash_pile",
+                  "name": "kubejs:dust_pile",
                   "functions": [
                     {
                       "function": "minecraft:set_count",
@@ -97,7 +97,7 @@
                   "conditions": [
                     {
                       "condition": "minecraft:block_state_property",
-                      "block": "kubejs:trash_pile",
+                      "block": "kubejs:dust_pile",
                       "properties": {
                         "layers": "5"
                       }
@@ -106,7 +106,7 @@
                 },
                 {
                   "type": "minecraft:item",
-                  "name": "kubejs:trash_pile",
+                  "name": "kubejs:dust_pile",
                   "functions": [
                     {
                       "function": "minecraft:set_count",
@@ -117,7 +117,7 @@
                   "conditions": [
                     {
                       "condition": "minecraft:block_state_property",
-                      "block": "kubejs:trash_pile",
+                      "block": "kubejs:dust_pile",
                       "properties": {
                         "layers": "6"
                       }
@@ -126,7 +126,7 @@
                 },
                 {
                   "type": "minecraft:item",
-                  "name": "kubejs:trash_pile",
+                  "name": "kubejs:dust_pile",
                   "functions": [
                     {
                       "function": "minecraft:set_count",
@@ -137,7 +137,7 @@
                   "conditions": [
                     {
                       "condition": "minecraft:block_state_property",
-                      "block": "kubejs:trash_pile",
+                      "block": "kubejs:dust_pile",
                       "properties": {
                         "layers": "7"
                       }
@@ -146,14 +146,7 @@
                 },
                 {
                   "type": "minecraft:item",
-                  "name": "kubejs:trash_pile",
-                  "functions": [
-                    {
-                      "function": "minecraft:set_count",
-                      "count": 8,
-                      "add": false
-                    }
-                  ]
+                  "name": "exdeorum:dust"
                 }
               ]
             }
