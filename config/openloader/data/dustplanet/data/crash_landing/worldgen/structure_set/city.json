@@ -11,6 +11,7 @@
     "spread": 4,
     "count": 64,
     "preferred_biomes": "#crash_landing:has_city",
-    "salt": 1269475
+    "salt": 1269475,
+    "frequency": 1
   }
 }

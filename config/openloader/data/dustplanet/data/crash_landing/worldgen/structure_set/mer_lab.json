@@ -12,6 +12,10 @@
     "count": 7,
     "preferred_biomes": "minecraft:desert",
     "salt": 4732453,
-    "frequency": 1
+    "frequency": 1,
+    "exclusion_zone": {
+      "other_set": "crash_landing:city",
+      "chunk_count": 5
+    }
   }
 }
